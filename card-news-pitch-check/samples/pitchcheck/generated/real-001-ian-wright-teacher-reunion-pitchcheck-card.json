@@ -1,0 +1,336 @@
+{
+  "project": {
+    "slug": "gemini-real-001-ian-wright-teacher-reunion",
+    "title": "피치체크 실제 선수 스토리 캐러셀 - 죽은 줄 알았던 선생님이 눈앞에 나타났다",
+    "channel": "피치체크",
+    "brand": "PITCHCHECK",
+    "ratio": "4:5",
+    "sourceLabel": "ian_teacher_good, ian_teacher_bbc",
+    "ctaKeyword": "피치체크",
+    "generator": {
+      "provider": "deterministic-fallback",
+      "model": "none",
+      "reason": "No Gemini API key or --no-gemini was used."
+    }
+  },
+  "style": {
+    "template": "chuk9-editorial-real-cta",
+    "accent": "#25d9a3",
+    "secondaryAccent": "#ffffff",
+    "logoText": "PITCHCHECK"
+  },
+  "sources": [
+    {
+      "label": "ian_teacher_good",
+      "url": "https://www.good.is/ian-wright-cries-uncontrollably-after-reuniting-with-his-beloved-teacher-who-he-thought-had-died/",
+      "note": "Story-bank fact source."
+    },
+    {
+      "label": "ian_teacher_bbc",
+      "url": "https://www.youtube.com/watch?v=6caCqn_nD6o",
+      "note": "Story-bank fact source."
+    },
+    {
+      "label": "Local PitchCheck media",
+      "note": "Local app screenshots and usage-video frames are used for cards 6-7."
+    },
+    {
+      "label": "Selected Wikimedia Commons image candidate",
+      "url": "https://commons.wikimedia.org/wiki/File%3AIan_Wright_at_SXSW_London_June_2025bv2.jpg",
+      "note": "Duk3L1xon / CC BY-SA 4.0"
+    }
+  ],
+  "search": [
+    {
+      "query": "Ian Wright football / Ian Wright soccer / Ian Wright Sydney Pigden Highbury teacher reunion football / Ian Wright Ian Wright emotional teacher reunion at Highbury documentary / Ian Wright emotional football story / Ian Wright football / Ian Wright soccer / Ian Wright Sydney Pigden Highbury teacher reunion football / Ian Wright Ian Wright emotional teacher reunion at Highbury documentary / Ian Wright emotional football story / Ian Wright emotional teacher reunion at Highbury documentary",
+      "purpose": "Per-card viral football story image candidates for cards 1-5.",
+      "preferredSources": [
+        "official club/league/tournament media",
+        "Wikimedia Commons",
+        "licensed editorial assets"
+      ],
+      "mustHave": [
+        "Ian Wright",
+        "football",
+        "player",
+        "match",
+        "emotion"
+      ],
+      "avoid": [
+        "logo only",
+        "pet",
+        "animal",
+        "generic app screen",
+        "AI portrait"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "story-01",
+      "path": "../../../assets/reference/web/real-player-story-bank/real-001-ian-wright-teacher-reunion-ian-wright-at-sxsw-london-june-2025bv2.jpg.jpg",
+      "alt": "Ian Wright, English ex-footballer and footbal pundit, at the SXSW London festival hosted in London, England during June 2025.",
+      "credit": "Duk3L1xon / CC BY-SA 4.0",
+      "usage": "story card 1"
+    },
+    {
+      "id": "story-02",
+      "path": "../../../assets/reference/web/real-player-story-bank/real-001-ian-wright-teacher-reunion-ian-wright-at-sxsw-london-june-2025.jpg.jpg",
+      "alt": "Ian Wright, English ex-footballer and footbal pundit, at the SXSW London festival hosted in London, England during June 2025.",
+      "credit": "Duk3L1xon / CC BY-SA 4.0",
+      "usage": "story card 2"
+    },
+    {
+      "id": "story-03",
+      "path": "../../../assets/reference/web/real-player-story-bank/real-001-ian-wright-teacher-reunion-ian-wright-at-sxsw-london-june-2025bv2.jpg.jpg",
+      "alt": "Ian Wright, English ex-footballer and footbal pundit, at the SXSW London festival hosted in London, England during June 2025.",
+      "credit": "Duk3L1xon / CC BY-SA 4.0",
+      "usage": "story card 3"
+    },
+    {
+      "id": "story-04",
+      "path": "../../../assets/reference/web/real-player-story-bank/real-001-ian-wright-teacher-reunion-ian-wright-at-sxsw-london-june-2025.jpg.jpg",
+      "alt": "Ian Wright, English ex-footballer and footbal pundit, at the SXSW London festival hosted in London, England during June 2025.",
+      "credit": "Duk3L1xon / CC BY-SA 4.0",
+      "usage": "story card 4"
+    },
+    {
+      "id": "story-05",
+      "path": "../../../assets/reference/web/real-player-story-bank/real-001-ian-wright-teacher-reunion-ian-wright-at-sxsw-london-june-2025bv2.jpg.jpg",
+      "alt": "Ian Wright, English ex-footballer and footbal pundit, at the SXSW London festival hosted in London, England during June 2025.",
+      "credit": "Duk3L1xon / CC BY-SA 4.0",
+      "usage": "story card 5"
+    },
+    {
+      "id": "product-01",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+      "alt": "PitchCheck app proof 1",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-02",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-010.jpg",
+      "alt": "PitchCheck app proof 2",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-03",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-012.jpg",
+      "alt": "PitchCheck app proof 3",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-04",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-014.jpg",
+      "alt": "PitchCheck app proof 4",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-05",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-020.jpg",
+      "alt": "PitchCheck app proof 5",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-06",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-027.jpg",
+      "alt": "PitchCheck app proof 6",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-07",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-029.jpg",
+      "alt": "PitchCheck app proof 7",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-08",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-022.jpg",
+      "alt": "PitchCheck app proof 8",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-09",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+      "alt": "PitchCheck app proof 9",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-10",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-006.jpg",
+      "alt": "PitchCheck app proof 10",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-11",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+      "alt": "PitchCheck app proof 11",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-12",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-008.jpg",
+      "alt": "PitchCheck app proof 12",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    }
+  ],
+  "cards": [
+    {
+      "type": "cover",
+      "role": "attention-curiosity",
+      "label": "몰랐던 장면",
+      "headline": [
+        "죽은 줄 알았던",
+        "선생님이 왔다"
+      ],
+      "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+      "accent": [
+        "이언 라이트",
+        "은사님"
+      ],
+      "source": "ian_teacher_good, ian_teacher_bbc",
+      "media": "story-01"
+    },
+    {
+      "type": "stat",
+      "role": "interest-gap",
+      "label": "왜 놀랍냐면",
+      "headline": [
+        "카메라 앞에서",
+        "그가 멈춘 이유"
+      ],
+      "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+      "accent": [
+        "이언 라이트",
+        "은사님"
+      ],
+      "source": "ian_teacher_good, ian_teacher_bbc",
+      "media": "story-02"
+    },
+    {
+      "type": "story",
+      "role": "reveal-proof",
+      "label": "실제 이야기",
+      "headline": [
+        "이언 라이트는",
+        "모자를 벗었다"
+      ],
+      "body": "이언 라이트는 ITV 다큐 촬영 중, 세상을 떠난 줄 알았던 초등학교 은사 Sydney Pigden을 Highbury에서 다시 만났다.",
+      "accent": [
+        "이언 라이트",
+        "은사님"
+      ],
+      "source": "ian_teacher_good, ian_teacher_bbc",
+      "media": "story-03"
+    },
+    {
+      "type": "bridge",
+      "role": "share-desire",
+      "label": "친구한테 보내기",
+      "headline": [
+        "이 장면 알고 보면",
+        "선수가 다르게 보임"
+      ],
+      "body": "충격을 받은 그는 모자를 벗고 인사한 뒤 얼굴을 가리고 울었다. 골 장면보다 오래 남는 축구 장면이다.",
+      "accent": [
+        "몰랐던 사실",
+        "저장각"
+      ],
+      "source": "ian_teacher_good, ian_teacher_bbc",
+      "media": "story-04"
+    },
+    {
+      "type": "story",
+      "role": "engagement",
+      "label": "댓글 유도",
+      "headline": [
+        "이 선수 팬이면",
+        "누구 태그할래요"
+      ],
+      "body": "이 장면 아는 사람보다 모르는 사람이 훨씬 많아서, 아스널 팬 친구한테 보내기 좋다.",
+      "accent": [
+        "친구 태그",
+        "공유"
+      ],
+      "source": "ian_teacher_good, ian_teacher_bbc",
+      "media": "story-05"
+    },
+    {
+      "type": "pitchcheck",
+      "role": "soft-bridge",
+      "label": "우리 팀 생각남",
+      "headline": [
+        "좋은 팀은 결국",
+        "사람이 모이는 일"
+      ],
+      "body": "이런 이야기를 보면 팀도 결국 사람 기억으로 굴러간다는 게 느껴져요. 경기날 모이는 일도 그래서 더 깔끔해야 하고요.",
+      "accent": [
+        "우리 팀",
+        "경기날"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06"
+      ],
+      "proofBadge": "출석 · 일정 · 위치 확인"
+    },
+    {
+      "type": "cta",
+      "role": "final-cta",
+      "label": "피치체크",
+      "headline": [
+        "팀 운영 막히면",
+        "피치체크로 정리"
+      ],
+      "body": [
+        "프로필 링크 참고해요",
+        "댓글에 [피치체크] 남기면",
+        "사용 영상 보내드릴게요"
+      ],
+      "accent": [
+        "프로필 링크",
+        "피치체크",
+        "사용 영상"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06",
+        "product-07",
+        "product-08",
+        "product-09",
+        "product-10",
+        "product-11",
+        "product-12"
+      ],
+      "ctaSub": "출석 · 일정 · 위치 확인을 한 곳에서",
+      "ctaActionLabel": "프로필 링크",
+      "ctaActionValue": "설치하기",
+      "profileLinkNote": "댓글에 [피치체크] 남기면 사용 영상 보내드릴게요",
+      "ctaKeyword": "피치체크"
+    }
+  ],
+  "caption": "죽은 줄 알았던 선생님이 눈앞에 나타났다\n\n이언 라이트는 ITV 다큐 촬영 중, 세상을 떠난 줄 알았던 초등학교 은사 Sydney Pigden을 Highbury에서 다시 만났다.\n\n충격을 받은 그는 모자를 벗고 인사한 뒤 얼굴을 가리고 울었다. 골 장면보다 오래 남는 축구 장면이다.\n\n이 선수 이야기 아는 친구 있으면 태그해보세요. 이런 축구 스토리 좋아하면 저장해두고요.\n\n팀 운영도 매번 단톡방에서 흩어지면 힘들잖아요. 프로필 링크 참고하고, 댓글에 [피치체크] 남기면 사용 영상 보내드릴게요.",
+  "notes": "Generated from samples/pitchcheck/real-player-story-bank-60.json. Gemini only writes bounded copy; sourced player-story selection, no-ad early-card guardrails, CTA order, media selection, carousel upload harness, and rendering are deterministic code paths."
+}

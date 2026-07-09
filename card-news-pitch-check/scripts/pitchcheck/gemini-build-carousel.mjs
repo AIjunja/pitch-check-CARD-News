@@ -14,8 +14,8 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
-const DEFAULT_BANK = path.join(ROOT, "samples", "pitchcheck", "viral-story-bank-60.json");
-const DEFAULT_IMAGE_REPORT = path.join(ROOT, "assets", "reference", "web", "football-story-bank-images.json");
+const DEFAULT_BANK = path.join(ROOT, "samples", "pitchcheck", "real-player-story-bank-60.json");
+const DEFAULT_IMAGE_REPORT = path.join(ROOT, "assets", "reference", "web", "real-player-story-images.json");
 const DEFAULT_OUT_DIR = path.join(ROOT, "samples", "pitchcheck", "generated");
 const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash";
 const GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta";
@@ -596,6 +596,13 @@ function viralFallbackCopy(topic) {
 }
 
 function fallbackCopy(topic) {
+  if (Array.isArray(topic.copy?.cards) && topic.copy.cards.length >= 7) {
+    return {
+      cards: topic.copy.cards,
+      caption: String(topic.copy.caption || "").trim(),
+    };
+  }
+
   const override = RELATABLE_COPY_OVERRIDES[topic.id];
   if (override) return override;
   if (topic.pillar) return viralFallbackCopy(topic);
@@ -658,7 +665,77 @@ function firstKeyword(text) {
     .find((part) => part.length >= 2) || "축구";
 }
 
+function buildRealPlayerStoryPrompt(topic, sources) {
+  return [
+    "너는 한국 축구 인스타 캐러셀 기획자이자 UX 카피라이터다.",
+    "이번 소재는 반드시 실제 선수 스토리다. 제공된 fact와 sources 밖의 사실은 만들지 않는다.",
+    "목표는 광고가 아니라 저장, 공유, 친구 태그를 부르는 미니 다큐형 카드뉴스다.",
+    "참고 톤: 이언 라이트가 죽은 줄 알았던 은사님을 다시 만나 모자를 벗고 우는 장면처럼, 한 선수의 구체적인 한 순간에서 시작한다.",
+    "",
+    "카드 흐름:",
+    "1 Attention: 답을 숨긴 훅. 선수명이나 결론을 너무 빨리 다 말하지 않아도 된다.",
+    "2 Interest: 왜 이 장면이 이상하고 궁금한지 보여준다.",
+    "3 Reveal: 제공된 fact만 사용해 실제 이야기를 공개한다.",
+    "4 Desire/Share: 친구에게 보내고 싶게, 이 장면을 알면 선수가 어떻게 다르게 보이는지 쓴다.",
+    "5 Engagement: 댓글, 친구 태그, 저장을 자연스럽게 유도한다. 아직 앱 언급 금지.",
+    "6 Soft bridge: 우리 팀, 경기날, 사람 모으기 같은 공감으로만 부드럽게 넘어간다. 기능 나열 금지.",
+    "7 CTA: 여기서만 피치체크를 말한다. 프로필 링크 참고 + 댓글 [피치체크] 남기면 사용 영상 안내를 포함한다.",
+    "",
+    "절대 금지:",
+    "- cards 1~5에 피치체크, 설치, 프로필 링크, 사용 영상, CTA, 앱, 다운로드를 넣지 않는다.",
+    "- 출처에 없는 선수 발언, 숫자, 날짜, 최신 이적, 루머를 만들지 않는다.",
+    "- 교훈형 문장으로 뭉개지 않는다. 한 장면, 한 행동, 한 감정을 쓴다.",
+    "- 한국어 headline 줄바꿈에서 조사나 2글자 단어만 따로 떨어뜨리지 않는다.",
+    "- 광고 문구처럼 쓰지 않는다. 축구 팬 친구에게 말하듯 쓴다.",
+    "",
+    "카피 규칙:",
+    "- 각 카드 headline은 2줄, 각 줄 6~14자 권장.",
+    "- body는 90자 안쪽. 길면 caption으로 보낸다.",
+    "- 말투는 짧고 선명하게. 토스 UX 카피처럼 읽는 사람이 바로 이해해야 한다.",
+    "- 1번은 스크롤을 멈추게, 3번은 실제 사실을 또렷하게, 5번은 댓글/태그 이유를 만든다.",
+    "",
+    "반환은 JSON만 한다. 마크다운 금지.",
+    JSON.stringify(
+      {
+        cards: [
+          {
+            label: "string",
+            headline: ["line1", "line2"],
+            body: "string",
+            accent: ["short keyword"],
+          },
+        ],
+        caption: "string",
+      },
+      null,
+      2,
+    ),
+    "cards는 반드시 7개다.",
+    "",
+    "소재:",
+    JSON.stringify(
+      {
+        id: topic.id,
+        category: topic.category,
+        hook: topic.hook,
+        fact: topic.fact,
+        whyFun: topic.whyFun,
+        shareTrigger: topic.shareTrigger,
+        pitchCheckBridge: topic.pitchCheckBridge,
+        suggestedCopy: topic.copy,
+        sources,
+      },
+      null,
+      2,
+    ),
+  ].join("\n");
+}
+
 function buildGeminiPrompt(topic, sources) {
+  if (topic.pillar === "real_player_story") {
+    return buildRealPlayerStoryPrompt(topic, sources);
+  }
+
   return [
     "너는 한국 축구 인스타그램 카드뉴스 기획자이자 UX 카피라이터다.",
     "이번 작업의 목표는 광고가 아니다. 축구 팬이 자연스럽게 넘기고, 저장하고, 친구에게 보내는 바이럴 카드뉴스를 만든다.",
@@ -835,7 +912,8 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
   const slug = `gemini-${storyTopic.id}`;
   const cardTypes = ["cover", "stat", "story", "bridge", "story", "pitchcheck", "cta"];
   const roles = ["attention-curiosity", "interest-gap", "reveal-proof", "share-desire", "engagement", "soft-bridge", "final-cta"];
-  const sourceLabel = sources.map((source) => source.label).join(", ") || "PitchCheck viral story bank";
+  const isRealPlayerStory = storyTopic.pillar === "real_player_story";
+  const sourceLabel = sources.map((source) => source.label).join(", ") || "PitchCheck real player story bank";
   const storySearchQueries = [
     ...(storyTopic.assetSearch?.queries || []),
     ...(storyTopic.imageQueries || []),
@@ -845,7 +923,9 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
   return {
     project: {
       slug,
-      title: `피치체크 축구 바이럴 캐러셀 - ${storyTopic.hook}`,
+      title: isRealPlayerStory
+        ? `피치체크 실제 선수 스토리 캐러셀 - ${storyTopic.hook}`
+        : `피치체크 축구 바이럴 캐러셀 - ${storyTopic.hook}`,
       channel: "피치체크",
       brand: "PITCHCHECK",
       ratio: "4:5",
@@ -914,13 +994,13 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
         ctaSub: "출석 · 일정 · 위치 확인을 한 곳에서",
         ctaActionLabel: "프로필 링크",
         ctaActionValue: "설치하기",
-        profileLinkNote: "댓글 [피치체크] 남기면 사용 영상도 보내드려요",
+        profileLinkNote: "댓글에 [피치체크] 남기면 사용 영상 보내드릴게요",
         ctaKeyword: "피치체크",
       };
     }),
     caption: copy.caption,
     notes:
-      "Generated from samples/pitchcheck/viral-story-bank-60.json. Gemini only writes bounded copy; viral topic selection, no-ad early-card guardrails, CTA order, media selection, carousel upload harness, and rendering are deterministic code paths.",
+      "Generated from samples/pitchcheck/real-player-story-bank-60.json. Gemini only writes bounded copy; sourced player-story selection, no-ad early-card guardrails, CTA order, media selection, carousel upload harness, and rendering are deterministic code paths.",
   };
 }
 

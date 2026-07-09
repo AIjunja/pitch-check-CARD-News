@@ -6,10 +6,10 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
-const DEFAULT_INPUT = path.join(ROOT, "samples", "pitchcheck", "viral-story-bank-60.json");
-const DEFAULT_REPORT = path.join(ROOT, "assets", "reference", "web", "football-story-bank-images.json");
-const DEFAULT_MARKDOWN = path.join(ROOT, "assets", "reference", "web", "football-story-bank-ledger.md");
-const DEFAULT_DOWNLOAD_DIR = path.join(ROOT, "assets", "reference", "web", "football-story-bank");
+const DEFAULT_INPUT = path.join(ROOT, "samples", "pitchcheck", "real-player-story-bank-60.json");
+const DEFAULT_REPORT = path.join(ROOT, "assets", "reference", "web", "real-player-story-images.json");
+const DEFAULT_MARKDOWN = path.join(ROOT, "assets", "reference", "web", "real-player-story-image-ledger.md");
+const DEFAULT_DOWNLOAD_DIR = path.join(ROOT, "assets", "reference", "web", "real-player-story-bank");
 const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 const MAX_DOWNLOAD_BYTES = 10 * 1024 * 1024;
 const ALLOWED_IMAGE_MIMES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
