@@ -1,10 +1,22 @@
 {
   "name": "card-news-pitch-check",
   "version": "1.0.0",
-  "description": "",
+  "description": "PitchCheck football story carousel automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "collect:pitchcheck-local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/pitchcheck/collect-local-media.ps1",
+    "board:pitchcheck-local": "node scripts/pitchcheck/render-media-board.mjs",
+    "assets:pitchcheck-plan": "node scripts/pitchcheck/resolve-story-assets.mjs samples/pitchcheck/lampard-fines-real-cta.json --write",
+    "gemini:pitchcheck": "node scripts/pitchcheck/gemini-build-carousel.mjs --render --package --upload",
+    "gemini:pitchcheck:dry": "node scripts/pitchcheck/gemini-build-carousel.mjs --no-gemini --render --package --upload",
+    "images:pitchcheck-story-bank": "node scripts/pitchcheck/fetch-story-bank-images.mjs samples/pitchcheck/story-bank-60.json --download --resume --queries-per-topic 2 --per-query 6 --delay-ms 1200",
+    "media:pitchcheck-diverse": "node scripts/pitchcheck/apply-diverse-media.mjs samples/pitchcheck/lampard-fines-real-cta.json --write",
+    "package:pitchcheck-upload": "node scripts/pitchcheck/prepare-upload-package.mjs",
+    "upload:pitchcheck": "node scripts/pitchcheck/upload-package.mjs",
+    "render:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs",
+    "sample:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json",
+    "sample:pitchcheck-real-cta": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines-real-cta.json",
+    "test": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json --dry-run"
   },
   "keywords": [],
   "author": "",

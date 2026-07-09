@@ -1,0 +1,490 @@
+{
+  "project": {
+    "slug": "auto-lampard-fines-real-cta",
+    "title": "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스",
+    "channel": "피치체크",
+    "brand": "PITCHCHECK",
+    "ratio": "4:5",
+    "sourceLabel": "Chelsea FC archive / local PitchCheck media",
+    "ctaKeyword": "피치체크"
+  },
+  "style": {
+    "template": "chuk9-editorial-real-cta",
+    "accent": "#25d9a3",
+    "secondaryAccent": "#ffffff",
+    "logoText": "PITCHCHECK"
+  },
+  "sources": [
+    {
+      "label": "Chelsea fine table story",
+      "url": "https://www.chelseafc.com/",
+      "note": "프로팀의 시간 약속과 규율 이야기를 조기축구/동호회 총무 공감으로 연결하는 샘플 구조."
+    },
+    {
+      "label": "Local PitchCheck usage video",
+      "note": "C:/Users/letgo/Downloads/피치체크 사용 영상.mp4 에서 추출한 실제 사용 화면 프레임을 CTA에 사용."
+    }
+  ],
+  "search": [
+    {
+      "query": "Frank Lampard Chelsea fines list training late phone ringing",
+      "purpose": "축구 스토리 훅 검증 및 출처 확인",
+      "preferredSources": [
+        "official club archive",
+        "credible sports media"
+      ]
+    },
+    {
+      "query": "local PitchCheck app frames + football story references",
+      "purpose": "Expand automatic media discovery, exclude off-topic frames, and assign diverse assets to PitchCheck proof/CTA cards.",
+      "preferredSources": [
+        "assets/reference/pitchcheck-local/media-manifest.json",
+        "assets/images/**/*",
+        "user-provided local media"
+      ]
+    },
+    {
+      "query": "per-card visual asset requirements and retrieval plan",
+      "purpose": "Classify each story card by visual job, score local/repository candidates, and leave external search queries when local media is weak.",
+      "preferredSources": [
+        "topic media[]",
+        "assets/reference/pitchcheck-local/media-manifest.json",
+        "assets/images/**/*",
+        "official/credible web sources for unresolved cards"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "cover",
+      "path": "../../assets/images/topic-01/cover.jpg",
+      "alt": "첼시 시절 램파드 참고 이미지",
+      "credit": "Chelsea FC reference image",
+      "usage": "cover hook"
+    },
+    {
+      "id": "fine-table",
+      "path": "../../assets/images/topic-01/detail_01.jpg",
+      "alt": "벌금표를 설명하는 참고 이미지",
+      "credit": "Chelsea FC reference image",
+      "usage": "story proof"
+    },
+    {
+      "id": "discipline",
+      "path": "../../assets/images/topic-01/detail_02.jpg",
+      "alt": "팀 규율과 훈련 장면 참고 이미지",
+      "credit": "Chelsea FC reference image",
+      "usage": "discipline context"
+    },
+    {
+      "id": "group-chat",
+      "path": "../../assets/images/topic-01/detail_03.jpg",
+      "alt": "카카오톡 공지방처럼 보이는 참고 이미지",
+      "credit": "PitchCheck reconstruction",
+      "usage": "amateur team pain bridge"
+    },
+    {
+      "id": "dashboard",
+      "path": "../../assets/images/shared/pitchcheck_ui_dashboard.jpg",
+      "alt": "피치체크 팀 관리 대시보드",
+      "credit": "PitchCheck app mockup",
+      "usage": "product bridge"
+    },
+    {
+      "id": "screen-001",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-screens/__id____pitchcheck_card_01_hook_v2_-_202603220050.png",
+      "alt": "기존 피치체크 홍보 카드 이미지 1",
+      "credit": "Local PitchCheck image",
+      "usage": "CTA proof background"
+    },
+    {
+      "id": "screen-002",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-screens/__id____pitchcheck_card_02_kakao_memo_pain_-_202603220054.png",
+      "alt": "기존 피치체크 홍보 카드 이미지 2",
+      "credit": "Local PitchCheck image",
+      "usage": "CTA proof background"
+    },
+    {
+      "id": "video-001",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-001.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 1",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-003",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-003.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 3",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-005",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 5",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-007",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 7",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-009",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 9",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-011",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 11",
+      "credit": "Local PitchCheck usage video",
+      "usage": "real app proof"
+    },
+    {
+      "id": "video-013",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-013.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 13",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "video-015",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-015.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 15",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "video-017",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-017.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 17",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "video-019",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-019.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 19",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "video-021",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-021.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 21",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "video-023",
+      "path": "../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-023.jpg",
+      "alt": "피치체크 실제 사용 영상 프레임 23",
+      "credit": "Local PitchCheck usage video",
+      "usage": "CTA background proof"
+    },
+    {
+      "id": "football-ref-001",
+      "path": "../../assets/reference/pitchcheck-local/chuk9-zip-extracted/chuk9__check_2026-07-06_DackTg4EjCb/chuk9__check/2026-07-06_DackTg4EjCb/chuk9__check_DackTg4EjCb_0.jpg",
+      "alt": "football-reference football-ref-001",
+      "credit": "Local football reference",
+      "usage": "Diverse football story candidate"
+    },
+    {
+      "id": "chuk9-card-028",
+      "path": "../../assets/reference/pitchcheck-local/chuk9-card-refs/chuk9__check_DaeWKtjkp2N.jpg",
+      "alt": "football-reference chuk9-card-028",
+      "credit": "Local football reference",
+      "usage": "Diverse football story candidate"
+    }
+  ],
+  "cards": [
+    {
+      "type": "cover",
+      "role": "hook",
+      "label": "축구인 공감 스토리",
+      "headline": [
+        "지각 한 번에",
+        "벌금이 붙던 팀"
+      ],
+      "body": "프로팀은 시간 약속도 경기력처럼 관리했습니다.",
+      "media": "cover",
+      "accent": [
+        "지각",
+        "벌금"
+      ],
+      "source": "Chelsea FC",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "stop-scroll football story hook",
+        "requiredAsset": "A recognizable football moment, player/coach face, match reaction, or strong archive-style full-bleed image.",
+        "preferredMediaTypes": [
+          "image"
+        ],
+        "selectedMedia": "cover",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing football story cover image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 football story cover image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 match reaction photo",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 training ground photo"
+        ]
+      }
+    },
+    {
+      "type": "stat",
+      "role": "proof",
+      "label": "실제 규율",
+      "headline": [
+        "훈련 늦어도 벌금",
+        "전화 울려도 벌금"
+      ],
+      "body": "이건 돈 얘기라기보다, 팀 약속을 흐트러뜨리지 않기 위한 장치에 가깝습니다.",
+      "media": "fine-table",
+      "stats": [
+        {
+          "label": "지각",
+          "value": "즉시 기록"
+        },
+        {
+          "label": "공지 미확인",
+          "value": "분쟁 시작"
+        },
+        {
+          "label": "총무 업무",
+          "value": "계속 누적"
+        }
+      ],
+      "accent": [
+        "벌금",
+        "팀 약속"
+      ],
+      "source": "Chelsea FC / PitchCheck edit",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "source proof or rule evidence",
+        "requiredAsset": "A proof-like visual: fine table, rule list, training discipline reference, document crop, or source screenshot.",
+        "preferredMediaTypes": [
+          "image"
+        ],
+        "selectedMedia": "fine-table",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing fines list image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 fines list image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 football club rules list",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 training discipline source"
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "role": "meaning",
+      "label": "팀 운영의 기본",
+      "headline": [
+        "잘하는 팀도",
+        "약속부터 잡습니다"
+      ],
+      "body": "출석, 시간, 회비, 공지. 작은 약속이 밀리면 팀 분위기가 먼저 흔들립니다.",
+      "media": "discipline",
+      "accent": [
+        "약속",
+        "팀 분위기"
+      ],
+      "source": "PitchCheck edit",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "team culture and discipline interpretation",
+        "requiredAsset": "A coach, training, team huddle, dressing-room, or disciplined team-management image that explains the story meaning.",
+        "preferredMediaTypes": [
+          "image"
+        ],
+        "selectedMedia": "discipline",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing football training discipline photo",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 football training discipline photo",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 coach team talk image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 team huddle photo"
+        ]
+      }
+    },
+    {
+      "type": "bridge",
+      "role": "empathy",
+      "label": "동호회 현실",
+      "headline": [
+        "근데 우리 팀은",
+        "아직 카톡으로 확인"
+      ],
+      "body": "오늘 누가 오고, 누가 늦고, 누가 냈는지. 결국 한 명이 계속 물어봐야 합니다.",
+      "media": "group-chat",
+      "bubbles": [
+        "오늘 참석 가능?",
+        "회비 냈나요?",
+        "구장 도착하면 말해주세요"
+      ],
+      "accent": [
+        "카톡",
+        "한 명"
+      ],
+      "source": "PitchCheck edit",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "amateur team operator pain",
+        "requiredAsset": "A group chat, attendance check, team message, amateur football team, captain/manager checking phone, or schedule confusion visual.",
+        "preferredMediaTypes": [
+          "image",
+          "screenshot"
+        ],
+        "selectedMedia": "group-chat",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing amateur football team group chat",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 amateur football team group chat",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 football team attendance message",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 captain checking phone"
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "role": "pain",
+      "label": "총무 공감",
+      "headline": [
+        "벌금보다 힘든 건",
+        "계속 확인하는 일"
+      ],
+      "body": "출석, 일정, 회비, 공지까지 매주 말로 정리하면 운영자가 먼저 지칩니다.",
+      "media": "dashboard",
+      "accent": [
+        "계속 확인",
+        "운영자"
+      ],
+      "source": "PitchCheck",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "bridge from pain to product",
+        "requiredAsset": "A product-adjacent visual showing repeated checking: dashboard, attendance, schedule, GPS, calendar, or team-management UI.",
+        "preferredMediaTypes": [
+          "screenshot",
+          "video-frame",
+          "image"
+        ],
+        "selectedMedia": "dashboard",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing team attendance app screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 team attendance app screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 football team management app UI",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 schedule check app screen"
+        ]
+      }
+    },
+    {
+      "type": "pitchcheck",
+      "role": "desire-empathy",
+      "label": "운영자 공감",
+      "headline": [
+        "팀 운영이 힘든 건",
+        "축구가 아니라 확인"
+      ],
+      "body": "오늘 누가 오고, 어디로 오고, 몇 시까지 오는지. 매주 묻는 사람부터 지칩니다.",
+      "mediaGallery": [
+        "video-001",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013"
+      ],
+      "proofBadge": "총무 시간 줄이기",
+      "accent": [
+        "축구가 아니라 확인",
+        "매주 묻는 사람"
+      ],
+      "source": "PitchCheck local video",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "PitchCheck product proof",
+        "requiredAsset": "Real PitchCheck app screens or usage-video frames that show team creation, attendance, schedule, location, or check-in.",
+        "preferredMediaTypes": [
+          "video-frame",
+          "screenshot",
+          "image"
+        ],
+        "selectedMedia": "video-001",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing PitchCheck app screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 PitchCheck app screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 PitchCheck football team app",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 attendance schedule location app"
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "role": "final-cta",
+      "label": "지금 설치",
+      "headline": [
+        "팀 운영 맡고 있다면",
+        "오늘 바로 설치하세요"
+      ],
+      "body": [
+        "프로필 링크에서 설치하세요.",
+        "댓글 [피치체크] = 사용 영상"
+      ],
+      "mediaGallery": [
+        "screen-001",
+        "video-001",
+        "screen-002",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013",
+        "video-017",
+        "video-019",
+        "video-021",
+        "video-023"
+      ],
+      "ctaSub": "출석 · 일정 · 위치 체크를 한 곳에서",
+      "ctaActionLabel": "프로필 링크",
+      "ctaActionValue": "바로 설치",
+      "profileLinkNote": "댓글 [피치체크] = 사용 영상 보내드림",
+      "accent": [
+        "프로필 링크",
+        "설치",
+        "[피치체크]"
+      ],
+      "ctaKeyword": "피치체크",
+      "source": "PitchCheck local video",
+      "assetPlan": {
+        "status": "ready",
+        "visualJob": "installation CTA proof mosaic",
+        "requiredAsset": "A high-density mix of PitchCheck screenshots, app frames, promo screenshots, and install-proof UI tiles.",
+        "preferredMediaTypes": [
+          "screenshot",
+          "video-frame",
+          "image"
+        ],
+        "selectedMedia": "video-005",
+        "confidence": 100,
+        "externalQueries": [
+          "Frank Lampard Chelsea fines list training late phone ringing PitchCheck app install screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 PitchCheck app install screenshot",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 PitchCheck app promo image",
+          "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 football team app CTA"
+        ]
+      }
+    }
+  ],
+  "caption": "프로팀은 지각과 약속을 그냥 분위기로 넘기지 않았습니다.\n\n조기축구나 풋살팀도 비슷해요.\n실력보다 먼저 무너지는 건 출석, 공지, 회비, 일정 확인 같은 작은 운영입니다.\n\n팀 운영 맡고 있다면 피치체크를 한 번 써보세요.\n설치는 프로필 링크에서 바로 할 수 있고, 댓글에 [피치체크] 남기면 사용 영상도 보내드릴게요.\n\nContents Editor · PITCHCHECK\nSource · Chelsea FC archive / PitchCheck local media",
+  "notes": "CTA 카드는 로컬 피치체크 사용 영상에서 추출한 실제 화면 프레임을 사용한다. 외부 발행 전에는 영상/이미지 사용 권한을 소유자 기준으로 최종 확인해야 한다."
+}

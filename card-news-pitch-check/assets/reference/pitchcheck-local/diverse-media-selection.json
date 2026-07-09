@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-07-09T13:32:50.842Z",
+  "topic": "samples/pitchcheck/lampard-fines-real-cta.json",
+  "addedMedia": [],
+  "selected": {
+    "storyPool": [
+      "football-ref-001",
+      "chuk9-card-028",
+      "repo-topic-01-cover-aab19ce2",
+      "repo-topic-01-detail-01-8ec5ce38",
+      "repo-topic-01-detail-02-821c07f0"
+    ],
+    "pitchcheckGallery": [
+      "video-001",
+      "video-005",
+      "video-007",
+      "video-009",
+      "video-011",
+      "video-013"
+    ],
+    "ctaGallery": [
+      "screen-001",
+      "video-001",
+      "screen-002",
+      "video-005",
+      "video-007",
+      "video-009",
+      "video-011",
+      "video-013",
+      "video-017",
+      "video-019",
+      "video-021",
+      "video-023"
+    ]
+  },
+  "blockedIds": [
+    "pitchcheck-video-003",
+    "pitchcheck-video-015",
+    "pitchcheck-video-016"
+  ],
+  "notes": [
+    "Candidates are selected from local/user-provided media and repository assets.",
+    "Blocked frames are excluded before card galleries are updated."
+  ]
+}

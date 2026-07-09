@@ -3,3 +3,7 @@ node_modules/
 Thumbs.db
 card-ne
 package-lock.json
+projects/auto-*/
+projects/gemini-*/
+dist/uploads/
+assets/reference/web/football-story-bank/*.djvu

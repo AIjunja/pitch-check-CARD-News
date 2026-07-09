@@ -1,0 +1,1016 @@
+{
+  "generatedAt": "2026-07-09T13:32:38.475Z",
+  "topic": "samples/pitchcheck/lampard-fines-real-cta.json",
+  "manifest": "assets/reference/pitchcheck-local/media-manifest.json",
+  "addedMedia": [],
+  "candidateCounts": {
+    "topic": 19,
+    "manifest": 44,
+    "repo": 209
+  },
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "role": "hook",
+      "currentMedia": "cover",
+      "currentGallery": null,
+      "selectedMedia": "cover",
+      "assignedMedia": "cover",
+      "changed": false,
+      "status": "ready",
+      "visualJob": "stop-scroll football story hook",
+      "requiredAsset": "A recognizable football moment, player/coach face, match reaction, or strong archive-style full-bleed image.",
+      "preferredMediaTypes": [
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing football story cover image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 football story cover image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 match reaction photo",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 지각 한 번에 벌금이 붙던 팀 축구인 공감 스토리 training ground photo"
+      ],
+      "candidates": [
+        {
+          "id": "cover",
+          "score": 111,
+          "assetType": "topic-story",
+          "mediaType": "image",
+          "sourceKind": "topic",
+          "path": "assets/images/topic-01/cover.jpg",
+          "reasons": [
+            "already assigned to this card",
+            "preferred asset type: topic-story",
+            "preferred media type: image",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-02-cover-jpg-5a5a34f9",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-02/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-03-cover-jpg-c6170b42",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-03/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-04-cover-jpg-94d7c52b",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-04/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-05-cover-jpg-893f6f8b",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-05/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-05-cover-png-4c07eb3f",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-05/cover.png",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-06-cover-jpg-ec946104",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-06/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-07-cover-jpg-1222c634",
+          "score": 64,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-07/cover.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 2,
+      "type": "stat",
+      "role": "proof",
+      "currentMedia": "fine-table",
+      "currentGallery": null,
+      "selectedMedia": "fine-table",
+      "assignedMedia": "fine-table",
+      "changed": false,
+      "status": "ready",
+      "visualJob": "source proof or rule evidence",
+      "requiredAsset": "A proof-like visual: fine table, rule list, training discipline reference, document crop, or source screenshot.",
+      "preferredMediaTypes": [
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing fines list image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 fines list image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 football club rules list",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 훈련 늦어도 벌금 전화 울려도 벌금 실제 규율 training discipline source"
+      ],
+      "candidates": [
+        {
+          "id": "fine-table",
+          "score": 131,
+          "assetType": "topic-story",
+          "mediaType": "image",
+          "sourceKind": "topic",
+          "path": "assets/images/topic-01/detail_01.jpg",
+          "reasons": [
+            "already assigned to this card",
+            "preferred asset type: topic-story",
+            "preferred media type: image",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "discipline",
+          "score": 60,
+          "assetType": "topic-story",
+          "mediaType": "image",
+          "sourceKind": "topic",
+          "path": "assets/images/topic-01/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: topic-story",
+            "preferred media type: image",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-02-detail-01-jpg-61aa5442",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-02/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-03-detail-01-jpg-20be4216",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-03/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-04-detail-01-jpg-e7d8f178",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-04/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-05-detail-01-jpg-7d9aa329",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-05/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-06-detail-01-jpg-9f29b45c",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-06/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-07-detail-01-jpg-01eeada9",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-07/detail_01.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 3,
+      "type": "story",
+      "role": "meaning",
+      "currentMedia": "discipline",
+      "currentGallery": null,
+      "selectedMedia": "discipline",
+      "assignedMedia": "discipline",
+      "changed": false,
+      "status": "ready",
+      "visualJob": "team culture and discipline interpretation",
+      "requiredAsset": "A coach, training, team huddle, dressing-room, or disciplined team-management image that explains the story meaning.",
+      "preferredMediaTypes": [
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing football training discipline photo",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 football training discipline photo",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 coach team talk image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 잘하는 팀도 약속부터 잡습니다 팀 운영의 기본 team huddle photo"
+      ],
+      "candidates": [
+        {
+          "id": "discipline",
+          "score": 115,
+          "assetType": "topic-story",
+          "mediaType": "image",
+          "sourceKind": "topic",
+          "path": "assets/images/topic-01/detail_02.jpg",
+          "reasons": [
+            "already assigned to this card",
+            "preferred asset type: topic-story",
+            "preferred media type: image",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-02-detail-02-jpg-b2242ace",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-02/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-03-detail-02-jpg-8d99ebd2",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-03/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-04-detail-02-jpg-06d767d7",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-04/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-05-detail-02-jpg-0682a5cd",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-05/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-06-detail-02-jpg-0d9027af",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-06/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-07-detail-02-jpg-65bba30c",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-07/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-08-detail-02-jpg-92b07636",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-08/detail_02.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 4,
+      "type": "bridge",
+      "role": "empathy",
+      "currentMedia": "group-chat",
+      "currentGallery": null,
+      "selectedMedia": "group-chat",
+      "assignedMedia": "group-chat",
+      "changed": false,
+      "status": "ready",
+      "visualJob": "amateur team operator pain",
+      "requiredAsset": "A group chat, attendance check, team message, amateur football team, captain/manager checking phone, or schedule confusion visual.",
+      "preferredMediaTypes": [
+        "image",
+        "screenshot"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing amateur football team group chat",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 amateur football team group chat",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 football team attendance message",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 근데 우리 팀은 아직 카톡으로 확인 동호회 현실 captain checking phone"
+      ],
+      "candidates": [
+        {
+          "id": "group-chat",
+          "score": 135,
+          "assetType": "product-screen",
+          "mediaType": "image",
+          "sourceKind": "topic",
+          "path": "assets/images/topic-01/detail_03.jpg",
+          "reasons": [
+            "already assigned to this card",
+            "preferred asset type: product-screen",
+            "preferred media type: image",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "screen-002",
+          "score": 56,
+          "assetType": "product-screen",
+          "mediaType": "screenshot",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-screens/__id____pitchcheck_card_02_kakao_memo_pain_-_202603220054.png",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: screenshot",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-02-detail-03-jpg-f4acb46e",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-02/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-03-detail-03-jpg-623ec113",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-03/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-04-detail-03-jpg-2fb6fddc",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-04/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-06-detail-03-jpg-a96e1bc1",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-06/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-07-detail-03-jpg-eeb3a8bc",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-07/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        },
+        {
+          "id": "repo-assets-images-topic-08-detail-03-jpg-be0a31fc",
+          "score": 54,
+          "assetType": "repo-football-story",
+          "mediaType": "image",
+          "sourceKind": "repo",
+          "path": "assets/images/topic-08/detail_03.jpg",
+          "reasons": [
+            "preferred asset type: repo-football-story",
+            "preferred media type: image",
+            "matched visual keywords"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 5,
+      "type": "story",
+      "role": "pain",
+      "currentMedia": "dashboard",
+      "currentGallery": null,
+      "selectedMedia": "dashboard",
+      "assignedMedia": "dashboard",
+      "changed": false,
+      "status": "ready",
+      "visualJob": "bridge from pain to product",
+      "requiredAsset": "A product-adjacent visual showing repeated checking: dashboard, attendance, schedule, GPS, calendar, or team-management UI.",
+      "preferredMediaTypes": [
+        "screenshot",
+        "video-frame",
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing team attendance app screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 team attendance app screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 football team management app UI",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 벌금보다 힘든 건 계속 확인하는 일 총무 공감 schedule check app screen"
+      ],
+      "candidates": [
+        {
+          "id": "dashboard",
+          "score": 122,
+          "assetType": "product-screen",
+          "mediaType": "screenshot",
+          "sourceKind": "topic",
+          "path": "assets/images/shared/pitchcheck_ui_dashboard.jpg",
+          "reasons": [
+            "already assigned to this card",
+            "preferred asset type: product-screen",
+            "preferred media type: screenshot",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "screen-001",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "screenshot",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-screens/__id____pitchcheck_card_01_hook_v2_-_202603220050.png",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: screenshot",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "screen-002",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "screenshot",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-screens/__id____pitchcheck_card_02_kakao_memo_pain_-_202603220054.png",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: screenshot",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-001",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-001.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-005",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-007",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-009",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-011",
+          "score": 67,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "pitchcheck",
+      "role": "desire-empathy",
+      "currentMedia": null,
+      "currentGallery": [
+        "video-001",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013"
+      ],
+      "selectedMedia": "video-001",
+      "assignedMedia": [
+        "video-001",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013"
+      ],
+      "changed": false,
+      "status": "ready",
+      "visualJob": "PitchCheck product proof",
+      "requiredAsset": "Real PitchCheck app screens or usage-video frames that show team creation, attendance, schedule, location, or check-in.",
+      "preferredMediaTypes": [
+        "video-frame",
+        "screenshot",
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing PitchCheck app screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 PitchCheck app screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 PitchCheck football team app",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영이 힘든 건 축구가 아니라 확인 운영자 공감 attendance schedule location app"
+      ],
+      "candidates": [
+        {
+          "id": "video-001",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-001.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-005",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-007",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-009",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-011",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-013",
+          "score": 110,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-013.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-017",
+          "score": 75,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-017.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-019",
+          "score": 75,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-019.jpg",
+          "reasons": [
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "cta",
+      "role": "final-cta",
+      "currentMedia": null,
+      "currentGallery": [
+        "screen-001",
+        "video-001",
+        "screen-002",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013",
+        "video-017",
+        "video-019",
+        "video-021",
+        "video-023"
+      ],
+      "selectedMedia": "video-005",
+      "assignedMedia": [
+        "screen-001",
+        "video-001",
+        "screen-002",
+        "video-005",
+        "video-007",
+        "video-009",
+        "video-011",
+        "video-013",
+        "video-017",
+        "video-019",
+        "video-021",
+        "video-023"
+      ],
+      "changed": false,
+      "status": "ready",
+      "visualJob": "installation CTA proof mosaic",
+      "requiredAsset": "A high-density mix of PitchCheck screenshots, app frames, promo screenshots, and install-proof UI tiles.",
+      "preferredMediaTypes": [
+        "screenshot",
+        "video-frame",
+        "image"
+      ],
+      "confidence": 100,
+      "externalQueries": [
+        "Frank Lampard Chelsea fines list training late phone ringing PitchCheck app install screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 PitchCheck app install screenshot",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 PitchCheck app promo image",
+        "램파드 벌금표에서 피치체크 CTA로 이어지는 카드뉴스 Chelsea fine table story 팀 운영 맡고 있다면 오늘 바로 설치하세요 지금 설치 football team app CTA"
+      ],
+      "candidates": [
+        {
+          "id": "video-005",
+          "score": 126,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-007",
+          "score": 126,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-009",
+          "score": 126,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-011",
+          "score": 126,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-013",
+          "score": 116,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-013.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-017",
+          "score": 116,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-017.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-019",
+          "score": 116,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-019.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        },
+        {
+          "id": "video-021",
+          "score": 116,
+          "assetType": "product-screen",
+          "mediaType": "video-frame",
+          "sourceKind": "topic",
+          "path": "assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-021.jpg",
+          "reasons": [
+            "already used in this card gallery",
+            "preferred asset type: product-screen",
+            "preferred media type: video-frame",
+            "matched visual keywords",
+            "already in topic media list"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Each card is classified into a visual job before candidates are scored.",
+    "The script resolves local/topic/repository assets first and leaves external search queries when confidence is weak."
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "project": {
+    "slug": "gemini-fun-001",
+    "title": "피치체크 축구 꿀잼 카드뉴스 - 킥오프 한 방으로 골 넣어도 인정됩니다",
+    "channel": "피치체크",
+    "brand": "PITCHCHECK",
+    "ratio": "4:5",
+    "sourceLabel": "ifabLaw8",
+    "ctaKeyword": "피치체크",
+    "generator": {
+      "provider": "deterministic-fallback",
+      "model": "none",
+      "reason": "No Gemini API key or --no-gemini was used."
+    }
+  },
+  "style": {
+    "template": "chuk9-editorial-real-cta",
+    "accent": "#25d9a3",
+    "secondaryAccent": "#ffffff",
+    "logoText": "PITCHCHECK"
+  },
+  "sources": [
+    {
+      "label": "ifabLaw8",
+      "url": "https://www.theifab.com/laws/latest/the-start-and-restart-of-play/",
+      "note": "Story-bank fact source."
+    },
+    {
+      "label": "Local PitchCheck media",
+      "note": "Local app screenshots and usage-video frames are used for cards 6-7."
+    },
+    {
+      "label": "Selected Wikimedia Commons image candidate",
+      "url": "https://commons.wikimedia.org/wiki/File%3ACali_Fecha_16_13.JPG",
+      "note": "Sahaquiel9102 / CC BY-SA 3.0"
+    }
+  ],
+  "search": [
+    {
+      "query": "football kick-off shot / soccer centre circle kickoff / football long shot goal",
+      "purpose": "Dynamic football story image candidates for cards 1-5.",
+      "preferredSources": [
+        "Wikimedia Commons",
+        "official source media",
+        "licensed editorial assets"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "story-01",
+      "path": "../../../assets/reference/web/football-story-bank/fun-001-cali-fecha-16-13.jpg.jpg",
+      "alt": "Encuentro del Deportivo Cali contra Santa Fe, por la 16ta fecha",
+      "credit": "Sahaquiel9102 / CC BY-SA 3.0",
+      "usage": "story card 1"
+    },
+    {
+      "id": "story-02",
+      "path": "../../../assets/images/topic-53/detail_02.jpg",
+      "alt": "센터서클 킥오프 직후 슈팅, 골키퍼가 당황하는 장면 reference 2",
+      "credit": "Local football reference / verify usage rights before final posting",
+      "usage": "story card 2"
+    },
+    {
+      "id": "story-03",
+      "path": "../../../assets/images/topic-57/cover.jpg",
+      "alt": "센터서클 킥오프 직후 슈팅, 골키퍼가 당황하는 장면 reference 3",
+      "credit": "Local football reference / verify usage rights before final posting",
+      "usage": "story card 3"
+    },
+    {
+      "id": "story-04",
+      "path": "../../../assets/images/topic-59/detail_01.jpg",
+      "alt": "센터서클 킥오프 직후 슈팅, 골키퍼가 당황하는 장면 reference 4",
+      "credit": "Local football reference / verify usage rights before final posting",
+      "usage": "story card 4"
+    },
+    {
+      "id": "story-05",
+      "path": "../../../assets/images/topic-01/cover.jpg",
+      "alt": "센터서클 킥오프 직후 슈팅, 골키퍼가 당황하는 장면 reference 5",
+      "credit": "Local football reference / verify usage rights before final posting",
+      "usage": "story card 5"
+    },
+    {
+      "id": "product-01",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-001.jpg",
+      "alt": "PitchCheck app proof 1",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-02",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-002.jpg",
+      "alt": "PitchCheck app proof 2",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-03",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-004.jpg",
+      "alt": "PitchCheck app proof 3",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-04",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+      "alt": "PitchCheck app proof 4",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-05",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-006.jpg",
+      "alt": "PitchCheck app proof 5",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-06",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+      "alt": "PitchCheck app proof 6",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 product proof"
+    },
+    {
+      "id": "product-07",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-008.jpg",
+      "alt": "PitchCheck app proof 7",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-08",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+      "alt": "PitchCheck app proof 8",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-09",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-010.jpg",
+      "alt": "PitchCheck app proof 9",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-10",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+      "alt": "PitchCheck app proof 10",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-11",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-012.jpg",
+      "alt": "PitchCheck app proof 11",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-12",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-013.jpg",
+      "alt": "PitchCheck app proof 12",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-13",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-014.jpg",
+      "alt": "PitchCheck app proof 13",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-14",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-017.jpg",
+      "alt": "PitchCheck app proof 14",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    }
+  ],
+  "cards": [
+    {
+      "type": "cover",
+      "role": "attention",
+      "label": "축구 꿀잼 룰",
+      "headline": [
+        "킥오프 한 방으로",
+        "골 넣어도 인"
+      ],
+      "body": "킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.",
+      "accent": [
+        "킥오프",
+        "진짜"
+      ],
+      "source": "ifabLaw8",
+      "media": "story-01"
+    },
+    {
+      "type": "stat",
+      "role": "interest",
+      "label": "이게 왜 되냐면",
+      "headline": [
+        "룰북에는",
+        "이렇게 적혀있음"
+      ],
+      "body": "킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.",
+      "accent": [
+        "룰북",
+        "진짜"
+      ],
+      "source": "ifabLaw8",
+      "media": "story-02"
+    },
+    {
+      "type": "story",
+      "role": "interest",
+      "label": "재밌는 포인트",
+      "headline": [
+        "알고 보면",
+        "장면이 다르게 보임"
+      ],
+      "body": "조기축구 첫 터치 장난이 사실 룰상으로는 진짜 무기가 될 수 있다는 반전이 있다.",
+      "accent": [
+        "알고 보면",
+        "다르게"
+      ],
+      "source": "ifabLaw8",
+      "media": "story-03"
+    },
+    {
+      "type": "bridge",
+      "role": "desire",
+      "label": "동네축구 공감",
+      "headline": [
+        "우리 팀도",
+        "이런 확인 많죠"
+      ],
+      "body": "출석, 장소, 시간, 회비, 포지션까지. 축구는 뛰기 전 확인부터 경기입니다.",
+      "accent": [
+        "확인",
+        "경기"
+      ],
+      "source": "ifabLaw8",
+      "media": "story-04"
+    },
+    {
+      "type": "story",
+      "role": "bridge",
+      "label": "피치체크 연결",
+      "headline": [
+        "작은 확인이",
+        "팀 분위기를 바꿉니다"
+      ],
+      "body": "첫 10초부터 집중해야 하듯, 팀 공지도 시작 전에 딱 정리돼야 한다.",
+      "accent": [
+        "확인",
+        "팀 분위기"
+      ],
+      "source": "ifabLaw8",
+      "media": "story-05"
+    },
+    {
+      "type": "pitchcheck",
+      "role": "desire-empathy",
+      "label": "운영자 공감",
+      "headline": [
+        "축구보다 힘든 건",
+        "매주 확인하는 일"
+      ],
+      "body": "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 운영자가 매번 묻다가 먼저 지칩니다.",
+      "accent": [
+        "매주 확인",
+        "운영자"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06"
+      ],
+      "proofBadge": "실제 피치체크 화면"
+    },
+    {
+      "type": "cta",
+      "role": "final-cta",
+      "label": "지금 설치",
+      "headline": [
+        "팀 운영 막고 있다면",
+        "피치체크로 정리"
+      ],
+      "body": [
+        "프로필 링크에서 설치하세요 댓글 [피치체크] = 사용 영상"
+      ],
+      "accent": [
+        "프로필 링크",
+        "피치체크",
+        "설치"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06",
+        "product-07",
+        "product-08",
+        "product-09",
+        "product-10",
+        "product-11",
+        "product-12"
+      ],
+      "ctaSub": "출석 · 일정 · 위치 체크를 한 곳에서",
+      "ctaActionLabel": "프로필 링크",
+      "ctaActionValue": "바로 설치",
+      "profileLinkNote": "댓글 [피치체크] = 사용 영상 보내드림",
+      "ctaKeyword": "피치체크"
+    }
+  ],
+  "caption": "킥오프 한 방으로 골 넣어도 인정됩니다\n\n킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.\n\n이런 작은 확인들이 쌓여서 축구가 굴러갑니다. 팀 운영도 마찬가지예요. 피치체크는 출석, 일정, 위치 확인을 한 번에 정리하게 만드는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드릴게요.",
+  "notes": "Generated from samples/pitchcheck/story-bank-60.json. Gemini only writes bounded copy; layout, CTA order, media selection, and rendering are deterministic code paths."
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pitchcheck.local/schemas/pitchcheck-topic.schema.json",
+  "title": "PitchCheck Carousel Topic",
+  "type": "object",
+  "required": ["project", "media", "cards"],
+  "additionalProperties": false,
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": ["slug", "title"],
+      "additionalProperties": true,
+      "properties": {
+        "slug": { "type": "string" },
+        "title": { "type": "string" },
+        "channel": { "type": "string" },
+        "brand": { "type": "string" },
+        "ratio": { "enum": ["4:5", "1:1"] },
+        "sourceLabel": { "type": "string" },
+        "ctaKeyword": { "type": "string" }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "template": { "type": "string" },
+        "accent": { "type": "string" },
+        "secondaryAccent": { "type": "string" },
+        "logoText": { "type": "string" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label"],
+        "additionalProperties": true,
+        "properties": {
+          "label": { "type": "string" },
+          "url": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "additionalProperties": true,
+        "properties": {
+          "id": { "type": "string" },
+          "path": { "type": "string" },
+          "url": { "type": "string" },
+          "alt": { "type": "string" },
+          "credit": { "type": "string" },
+          "usage": { "type": "string" }
+        }
+      }
+    },
+    "search": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "query": { "type": "string" },
+          "purpose": { "type": "string" },
+          "preferredSources": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "cards": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["type", "headline"],
+        "additionalProperties": true,
+        "properties": {
+          "type": {
+            "enum": ["cover", "story", "stat", "bridge", "pitchcheck", "cta"]
+          },
+          "role": { "type": "string" },
+          "label": { "type": "string" },
+          "headline": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "body": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "media": { "type": "string" },
+          "mediaGallery": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "assetPlan": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "status": { "type": "string" },
+              "visualJob": { "type": "string" },
+              "requiredAsset": { "type": "string" },
+              "preferredMediaTypes": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "selectedMedia": { "type": ["string", "null"] },
+              "confidence": { "type": "number" },
+              "externalQueries": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "accent": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "source": { "type": "string" },
+          "ctaKeyword": { "type": "string" },
+          "ctaSub": { "type": "string" },
+          "proofBadge": { "type": "string" }
+        }
+      }
+    },
+    "caption": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
