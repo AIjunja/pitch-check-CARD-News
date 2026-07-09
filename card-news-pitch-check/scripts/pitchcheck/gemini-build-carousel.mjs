@@ -14,7 +14,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
-const DEFAULT_BANK = path.join(ROOT, "samples", "pitchcheck", "story-bank-60.json");
+const DEFAULT_BANK = path.join(ROOT, "samples", "pitchcheck", "viral-story-bank-60.json");
 const DEFAULT_IMAGE_REPORT = path.join(ROOT, "assets", "reference", "web", "football-story-bank-images.json");
 const DEFAULT_OUT_DIR = path.join(ROOT, "samples", "pitchcheck", "generated");
 const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash";
@@ -280,6 +280,21 @@ function selectedImageForTopic(imageReport, topicId) {
   };
 }
 
+function selectedImagesForTopic(imageReport, topic) {
+  const item = imageReport?.topics?.find((candidate) => candidate.id === topic.id);
+  const candidates = [item?.selected, ...(item?.selectedAlternates || [])].filter((candidate) => candidate?.localPath);
+  return candidates
+    .filter((candidate) => existsSync(path.join(ROOT, candidate.localPath)))
+    .map((candidate, index) => ({
+      id: `story-${String(index + 1).padStart(2, "0")}`,
+      rootPath: candidate.localPath,
+      alt: candidate.description || topic.visualNeed || topic.hook,
+      credit: [candidate.artist, candidate.license].filter(Boolean).join(" / ") || "Wikimedia Commons candidate",
+      usage: `story card ${index + 1}`,
+      sourcePage: candidate.sourcePage,
+    }));
+}
+
 function walkImages(dir) {
   const result = [];
   if (!existsSync(dir)) return result;
@@ -298,10 +313,18 @@ function discoverStoryMedia(topic, imageReport) {
   const override = explicitStoryMedia(topic);
   if (override.length) return override;
 
-  const media = [];
-  const selected = selectedImageForTopic(imageReport, topic.id);
-  if (selected) {
-    media.push({ ...selected, id: "story-01", usage: "story card 1" });
+  const media = selectedImagesForTopic(imageReport, topic);
+  if (topic.pillar && media.length) {
+    const original = [...media];
+    for (let index = media.length; media.length < 5; index += 1) {
+      const source = original[index % original.length];
+      media.push({
+        ...source,
+        id: `story-${String(media.length + 1).padStart(2, "0")}`,
+        usage: `story card ${media.length + 1}`,
+      });
+    }
+    return media;
   }
 
   const pool = storyFallbackPool();
@@ -486,9 +509,96 @@ const RELATABLE_COPY_OVERRIDES = {
   },
 };
 
+const EARLY_AD_TERMS = [
+  "피치체크",
+  "PITCHCHECK",
+  "PitchCheck",
+  "설치",
+  "앱",
+  "프로필 링크",
+  "댓글 [피치체크]",
+  "사용 영상",
+  "다운로드",
+  "CTA",
+  "출석 관리",
+  "일정 관리",
+  "운영 도구",
+];
+
+function hasEarlyAdSmell(card) {
+  const text = [
+    card?.label,
+    ...(Array.isArray(card?.headline) ? card.headline : [card?.headline]),
+    ...(Array.isArray(card?.body) ? card.body : [card?.body]),
+    ...(Array.isArray(card?.accent) ? card.accent : []),
+  ]
+    .filter(Boolean)
+    .join(" ");
+  return EARLY_AD_TERMS.some((term) => text.includes(term));
+}
+
+function viralFallbackCopy(topic) {
+  const reveal = cleanCopy(topic.fact || "이 축구 이야기는 출처 확인이 필요한 바이럴 소재입니다.");
+  const fun = cleanCopy(topic.whyFun || "친구에게 보내기 좋은 축구 이야기라 저장과 댓글을 만들기 쉽습니다.");
+  const share = cleanCopy(topic.shareTrigger || "이거 아는 친구 태그하고 반응을 보면 됩니다.");
+  const bridge = cleanCopy(
+    topic.pitchCheckBridge || "축구 얘기가 단톡을 살리듯, 팀 공지도 한 곳에 모이면 덜 피곤합니다.",
+  );
+  const card1 = topic.curiosityQuestion || topic.hook;
+
+  return {
+    cards: [
+      {
+        label: "알고 있었음?",
+        headline: topic.coverHeadline || toHeadlineLines(card1, topic.hook, 12),
+        body: "정답은 바로 말하지 말고, 다음 장에서 확인해보세요.",
+        accent: [firstKeyword(topic.hook), "진짜"],
+      },
+      {
+        label: topic.pillar === "ranking_comparison" ? "비교 포인트" : "숨은 이야기",
+        headline: topic.teaseHeadline || toHeadlineLines(topic.hook, topic.hook, 12),
+        body: compactLine(fun, 82),
+        accent: ["왜", "반전"],
+      },
+      {
+        label: "정답 공개",
+        headline: topic.revealHeadline || ["진짜 포인트는", "여기에 있어요"],
+        body: compactLine(reveal, 88),
+        accent: ["진짜", "포인트"],
+      },
+      {
+        label: "친구한테 보내기",
+        headline: topic.shareHeadline || ["이건 단톡에", "던지기 좋다"],
+        body: compactLine(share, 76),
+        accent: ["단톡", "친구"],
+      },
+      {
+        label: "댓글 유도",
+        headline: topic.engagementHeadline || ["너라면 누구", "태그할래?"],
+        body: "아는 친구 태그하고, 댓글로 본인 팀 얘기도 남겨보세요.",
+        accent: ["태그", "댓글"],
+      },
+      {
+        label: "우리 팀 현실",
+        headline: topic.softBridgeHeadline || ["축구 얘기는 재밌는데", "공지 확인은 피곤함"],
+        body: compactLine(bridge, 88),
+        accent: ["공지", "확인"],
+      },
+      {
+        label: "피치체크",
+        headline: topic.ctaHeadline || ["팀 운영 맡았다면", "이건 깔아두세요"],
+        body: ["프로필 링크 참고하세요.", "댓글 [피치체크] 남기면", "사용 영상도 보내드려요."],
+        accent: ["프로필 링크", "피치체크", "사용 영상"],
+      },
+    ],
+    caption: `${topic.hook}\n\n${reveal}\n\n${fun}\n\n${share}\n\n축구 얘기는 재밌게 나누고, 반복되는 팀 공지는 덜 피곤하게 정리하세요.\n\n프로필 링크 참고하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드려요.`,
+  };
+}
+
 function fallbackCopy(topic) {
   const override = RELATABLE_COPY_OVERRIDES[topic.id];
   if (override) return override;
+  if (topic.pillar) return viralFallbackCopy(topic);
 
   const hookLines = toHeadlineLines(topic.hook, topic.hook, 12);
   return {
@@ -550,27 +660,39 @@ function firstKeyword(text) {
 
 function buildGeminiPrompt(topic, sources) {
   return [
-    "너는 한국 인스타그램 카드뉴스 UX 카피라이터다.",
-    "목표: 축구인이 넘기지 않고 보는 꿀잼/정보형 카드뉴스를 만든다.",
-    "AIDA 구조를 지켜라. 1-5번은 축구 콘텐츠로 관심과 정보, 6번은 운영자 공감, 7번은 설치 CTA다.",
-    "중요: 제공된 fact를 바꾸거나 과장하지 마라. 출처 밖의 새 사실을 만들지 마라.",
-    "더 중요: 첫 장은 룰북 제목이 아니라 축구인이 바로 아는 상황이어야 한다.",
-    "나쁜 예: '킥오프 한 방으로 골 넣어도 인정됩니다'. 좋은 예: '완장 찼다고 권한 생기는 거 아님'.",
+    "너는 한국 축구 인스타그램 카드뉴스 기획자이자 UX 카피라이터다.",
+    "이번 작업의 목표는 광고가 아니다. 축구 팬이 자연스럽게 넘기고, 저장하고, 친구에게 보내는 바이럴 카드뉴스를 만든다.",
+    "피치체크는 앞에서 팔지 않는다. 1~5번은 순수 축구 썰/기록/비교/공감 콘텐츠여야 한다.",
+    "AIDA 구조: 1 Attention, 2 Interest, 3 Reveal, 4 Desire/Share, 5 Engagement, 6 Soft bridge, 7 CTA.",
     "",
-    "카피 원칙:",
-    "- 토스 UX Writing처럼 쓴다: 사용자가 바로 이해해야 하고, 다음 행동이 선명해야 한다.",
-    "- 한 카드에는 한 메시지만 쓴다.",
-    "- 짧게 쓰되 맥락을 없애지 않는다.",
-    "- 광고처럼 밀어붙이지 말고, 사용자가 겪는 상황을 먼저 말한다.",
-    "- 추상어를 피한다. '운영 효율'보다 '누가 오는지 매번 묻는 일'처럼 쓴다.",
-    "- 말하듯 자연스럽게 쓴다. 보고서체, 번역체, 기능 소개 문장 금지.",
-    "- 줄바꿈은 의미 단위로 한다. 조사나 짧은 단어만 한 줄에 남기지 않는다.",
-    "- headline은 2줄이지만 한 줄에 2~3글자만 남기지 않는다.",
-    "- '설치하세요'보다 왜 설치해야 하는지 먼저 말한다.",
-    "- 정보는 '오 신기하다'보다 '아 우리 팀 얘기네'가 먼저다.",
-    "- 뭔 말인지 1초 안에 안 잡히는 축구 잡학은 버린다.",
+    "레퍼런스에서 반영할 원칙:",
+    "- 썸네일/1장은 답을 공개하지 않는다. 질문, 의아함, 친구 태그 욕구를 만든다.",
+    "- SNS 카피는 모두가 아니라 한 명에게 쓴다. 독자 한 명, 상황 하나, 행동 하나가 선명해야 한다.",
+    "- 카피는 담백하되 귀에 걸려야 한다. 설명보다 '이거 친구한테 보내고 싶다'가 먼저다.",
+    "- 토스 UX Writing처럼 쓴다. 짧고, 바로 이해되고, 다음 행동이 선명해야 한다.",
     "",
-    "말투: 축구 커뮤니티에서 바로 읽히는 말투. 짧고 선명하지만 과하게 밈스럽지 않게.",
+    "절대 금지:",
+    "- 카드 1~5에 피치체크, PitchCheck, 앱, 설치, 프로필 링크, 댓글 [피치체크], 사용 영상, CTA, 운영 도구를 쓰지 마라.",
+    "- 카드 6에 '실제 화면', '기능 소개', '다운로드하세요' 같은 광고 설명을 쓰지 마라.",
+    "- 카드 1에서 정답을 공개하지 마라.",
+    "- 출처에 없는 사실, 루머, 과장된 단정, 최신 이적료 1위 같은 불확실한 현재형 주장을 만들지 마라.",
+    "- 보고서체, 번역체, 마케팅 문구, 추상어를 쓰지 마라. '운영 효율' 대신 '누가 오는지 매번 묻는 일'처럼 쓴다.",
+    "- headline 줄바꿈에서 조사나 2~3글자 단어를 혼자 남기지 마라.",
+    "",
+    "카드별 역할:",
+    "1. 궁금증 유발 제목. 답은 숨긴다. 축구 팬이 멈출 질문으로 쓴다.",
+    "2. 왜 궁금한지 상황을 키운다. 아직 정답을 다 말하지 않는다.",
+    "3. fact 공개. 제공된 fact만 사용한다.",
+    "4. 왜 재밌는지, 왜 공유할 만한지 팬 말투로 번역한다.",
+    "5. 댓글/친구 태그/저장 이유를 만든다. 제품 언급 금지.",
+    "6. 축구 단톡/팀 운영 공감으로 부드럽게 잇는다. 제품 기능 나열 금지.",
+    "7. 여기서만 피치체크 CTA. 프로필 링크 참고 + 댓글 [피치체크] 남기면 사용 영상 안내.",
+    "",
+    "말투:",
+    "- 축구 커뮤니티에서 바로 읽히는 말투.",
+    "- 너무 밈스럽게 과장하지 말고, 친구에게 말하듯 짧게.",
+    "- 'ㅋㅋ' 남발 금지. 하지만 무미건조한 설명문도 금지.",
+    "- 한 카드에는 한 메시지만.",
     "반환은 JSON만. 마크다운 금지.",
     "",
     "반환 스키마:",
@@ -591,32 +713,37 @@ function buildGeminiPrompt(topic, sources) {
     ),
     "",
     "cards는 반드시 7개.",
-    "각 headline은 정확히 2줄. 각 줄은 6~12자 사이를 권장한다.",
-    "headline은 단어를 억지로 자르지 말고, 사람이 말하는 의미 단위로 나눈다.",
-    "body는 카드당 70자 이내. 긴 설명은 caption으로 보낸다.",
-    "6번은 '실제 화면' 같은 설명문이 아니라 운영자가 겪는 상황을 말한다.",
-    "7번 body는 프로필 링크 설치와 댓글 [피치체크] 사용 영상 문구를 포함한다.",
-    "카드 역할:",
-    "1. 축구인이 실제로 겪는 장면으로 멈추게 하기",
-    "2. 그 장면에 숨어 있는 룰/기록 반전 한 줄",
-    "3. 그게 왜 웃긴지 동호회 말투로 번역",
-    "4. 조기축구/팀 운영자가 겪는 진짜 귀찮음",
-    "5. 확인을 시스템으로 넘겨야 하는 이유",
-    "6. 운영자가 매주 겪는 반복 질문을 정확히 말하기",
-    "7. 프로필 링크 설치 + 댓글 [피치체크] CTA",
+    "각 headline은 정확히 2줄. 각 줄은 6~14자 사이를 권장한다.",
+    "body는 카드당 80자 이내. 긴 설명은 caption에 쓴다.",
+    "caption은 카드 내용을 반복하지 말고, 출처 기반 설명 + 댓글 유도 + CTA를 자연스럽게 쓴다.",
     "",
     "소재:",
     JSON.stringify(
       {
         id: topic.id,
+        pillar: topic.pillar,
         category: topic.category,
+        angleType: topic.angleType,
+        oneReader: topic.oneReader,
+        desiredAction: topic.desiredAction,
         hook: topic.hook,
+        coverHeadline: topic.coverHeadline,
+        teaseHeadline: topic.teaseHeadline,
+        revealHeadline: topic.revealHeadline,
+        shareHeadline: topic.shareHeadline,
+        engagementHeadline: topic.engagementHeadline,
+        softBridgeHeadline: topic.softBridgeHeadline,
+        ctaHeadline: topic.ctaHeadline,
+        curiosityQuestion: topic.curiosityQuestion,
         fact: topic.fact,
         whyFun: topic.whyFun,
+        shareTrigger: topic.shareTrigger,
         pitchCheckBridge: topic.pitchCheckBridge,
         audienceScene: topic.audienceScene,
         relatabilityScore: topic.relatabilityScore,
         visualNeed: topic.visualNeed,
+        imageQueries: topic.imageQueries,
+        assetSearch: topic.assetSearch,
         motionIdea: topic.motionIdea,
         sources,
       },
@@ -669,13 +796,14 @@ function normalizeCopy(copy, topic) {
   const sourceCards = Array.isArray(copy?.cards) && copy.cards.length >= 7 ? copy.cards : fallback.cards;
   const cards = fallback.cards.map((base, index) => {
     const item = sourceCards[index] || {};
+    const guardedItem = topic.pillar && index < 5 && hasEarlyAdSmell(item) ? {} : item;
     return {
-      label: compactLine(item.label || base.label, 16),
-      headline: toHeadlineLines(item.headline, base.headline),
+      label: compactLine(guardedItem.label || base.label, 16),
+      headline: toHeadlineLines(guardedItem.headline, base.headline),
       body: Array.isArray(base.body)
-        ? toBodyLines(item.body, base.body)
-        : toBody(item.body, base.body),
-      accent: Array.isArray(item.accent) && item.accent.length ? item.accent.slice(0, 4) : base.accent,
+        ? toBodyLines(guardedItem.body, base.body)
+        : toBody(guardedItem.body, base.body),
+      accent: Array.isArray(guardedItem.accent) && guardedItem.accent.length ? guardedItem.accent.slice(0, 4) : base.accent,
     };
   });
 
@@ -706,13 +834,18 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
 
   const slug = `gemini-${storyTopic.id}`;
   const cardTypes = ["cover", "stat", "story", "bridge", "story", "pitchcheck", "cta"];
-  const roles = ["attention", "interest", "interest", "desire", "bridge", "desire-empathy", "final-cta"];
-  const sourceLabel = sources.map((source) => source.label).join(", ") || "PitchCheck story bank";
+  const roles = ["attention-curiosity", "interest-gap", "reveal-proof", "share-desire", "engagement", "soft-bridge", "final-cta"];
+  const sourceLabel = sources.map((source) => source.label).join(", ") || "PitchCheck viral story bank";
+  const storySearchQueries = [
+    ...(storyTopic.assetSearch?.queries || []),
+    ...(storyTopic.imageQueries || []),
+    storyTopic.visualNeed,
+  ].filter(Boolean);
 
   return {
     project: {
       slug,
-      title: `피치체크 축구 꿀잼 카드뉴스 - ${storyTopic.hook}`,
+      title: `피치체크 축구 바이럴 캐러셀 - ${storyTopic.hook}`,
       channel: "피치체크",
       brand: "PITCHCHECK",
       ratio: "4:5",
@@ -748,9 +881,11 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
     ],
     search: [
       {
-        query: storyTopic.imageQueries?.join(" / ") || storyTopic.visualNeed,
-        purpose: "Dynamic football story image candidates for cards 1-5.",
-        preferredSources: ["Wikimedia Commons", "official source media", "licensed editorial assets"],
+        query: storySearchQueries.join(" / "),
+        purpose: "Per-card viral football story image candidates for cards 1-5.",
+        preferredSources: ["official club/league/tournament media", "Wikimedia Commons", "licensed editorial assets"],
+        mustHave: storyTopic.assetSearch?.mustHave || ["player", "match action", "fan reaction"],
+        avoid: storyTopic.assetSearch?.avoid || ["logo only", "pet/animal", "product UI before card 6"],
       },
     ],
     media,
@@ -785,7 +920,7 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
     }),
     caption: copy.caption,
     notes:
-      "Generated from samples/pitchcheck/story-bank-60.json. Gemini only writes bounded copy; layout, CTA order, media selection, and rendering are deterministic code paths.",
+      "Generated from samples/pitchcheck/viral-story-bank-60.json. Gemini only writes bounded copy; viral topic selection, no-ad early-card guardrails, CTA order, media selection, carousel upload harness, and rendering are deterministic code paths.",
   };
 }
 

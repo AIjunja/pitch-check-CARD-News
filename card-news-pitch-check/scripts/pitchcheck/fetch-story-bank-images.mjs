@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
-const DEFAULT_INPUT = path.join(ROOT, "samples", "pitchcheck", "story-bank-60.json");
+const DEFAULT_INPUT = path.join(ROOT, "samples", "pitchcheck", "viral-story-bank-60.json");
 const DEFAULT_REPORT = path.join(ROOT, "assets", "reference", "web", "football-story-bank-images.json");
 const DEFAULT_MARKDOWN = path.join(ROOT, "assets", "reference", "web", "football-story-bank-ledger.md");
 const DEFAULT_DOWNLOAD_DIR = path.join(ROOT, "assets", "reference", "web", "football-story-bank");
@@ -33,6 +33,13 @@ const DYNAMIC_POSITIVE = [
   "champions league",
   "premier league",
   "team",
+  "fans",
+  "celebration",
+  "contract",
+  "transfer",
+  "captain",
+  "huddle",
+  "crowd",
   "training",
   "var",
 ];
@@ -67,6 +74,7 @@ function parseArgs() {
     limit: Infinity,
     perQuery: 8,
     queriesPerTopic: 3,
+    downloadCount: 3,
     delayMs: 900,
     retries: 3,
     retryBaseMs: 8000,
@@ -90,6 +98,8 @@ function parseArgs() {
       opts.perQuery = Number(args[++i]);
     } else if (arg === "--queries-per-topic") {
       opts.queriesPerTopic = Number(args[++i]);
+    } else if (arg === "--download-count") {
+      opts.downloadCount = Number(args[++i]);
     } else if (arg === "--delay-ms") {
       opts.delayMs = Number(args[++i]);
     } else if (arg === "--retries") {
@@ -261,6 +271,7 @@ function scoreCandidate(candidate, topic, query) {
     candidate.categories,
     topic.hook,
     topic.visualNeed,
+    ...(topic.assetSearch?.mustHave ?? []),
     query,
   ]
     .filter(Boolean)
@@ -293,6 +304,12 @@ function scoreCandidate(candidate, topic, query) {
   if (/flickr|wikimedia|commons/.test(candidate.sourcePage)) score += 2;
   if (/own work|photo|photograph|jpg|jpeg/.test(text)) score += 4;
   if (/logo|svg|diagram|map|flag/.test(candidate.title.toLowerCase())) score -= 30;
+  for (const word of topic.assetSearch?.mustHave ?? []) {
+    if (word.length > 2 && text.includes(word.toLowerCase())) score += 5;
+  }
+  for (const word of topic.assetSearch?.avoid ?? []) {
+    if (word.length > 2 && text.includes(word.toLowerCase())) score -= 16;
+  }
 
   return score;
 }
@@ -391,11 +408,14 @@ function uniqueCandidates(candidates) {
 }
 
 function buildQueries(topic, opts) {
-  const queries = [...(topic.imageQueries ?? [])];
+  const queries = [...(topic.assetSearch?.queries ?? []), ...(topic.imageQueries ?? [])];
   if (topic.category?.includes("law")) queries.push(`association football ${topic.category} referee`);
   if (topic.category?.includes("worldcup")) queries.push("FIFA World Cup football match");
   if (topic.category?.includes("champions")) queries.push("UEFA Champions League football match");
   if (topic.category?.includes("premier")) queries.push("Premier League football match");
+  if (topic.pillar === "legend_backstory") queries.push(`${topic.hook} football backstory`);
+  if (topic.pillar === "ranking_comparison") queries.push(`${topic.hook} football ranking`);
+  if (topic.pillar === "fandom_engagement") queries.push("amateur football team huddle fans");
 
   return [...new Set(queries.map((query) => query.trim()).filter(Boolean))].slice(0, opts.queriesPerTopic);
 }
@@ -516,6 +536,12 @@ function markdownForReport(report) {
       lines.push(`- Local: ${item.selected.localPath ? `\`${item.selected.localPath}\`` : "not downloaded"}`);
       lines.push(`- License: ${item.selected.license || "unknown"} / ${item.selected.artist || "unknown artist"}`);
       lines.push(`- Source page: ${item.selected.sourcePage}`);
+      if (item.selectedAlternates?.length) {
+        lines.push("- Alternates:");
+        for (const alt of item.selectedAlternates) {
+          lines.push(`  - ${alt.title} (score ${alt.score}) · \`${alt.localPath || "not downloaded"}\``);
+        }
+      }
     } else {
       lines.push("- Selected: manual search needed");
     }
@@ -573,22 +599,26 @@ async function main() {
     const candidates = uniqueCandidates(found);
     let selected = candidates[0] ? { ...candidates[0] } : null;
 
+    let selectedAlternates = [];
     if (opts.download && candidates.length) {
       const downloadErrors = [];
-      selected = null;
+      const downloaded = [];
       for (const candidate of candidates) {
+        if (downloaded.length >= opts.downloadCount) break;
         const candidateCopy = { ...candidate };
         try {
           const download = await downloadCandidate(candidateCopy, topic, opts);
           candidateCopy.localPath = download.path;
           candidateCopy.downloadSkipped = download.skipped;
-          selected = candidateCopy;
-          break;
+          downloaded.push(candidateCopy);
         } catch (error) {
           downloadErrors.push({ title: candidate.title, message: error.message });
         }
       }
-      if (!selected) {
+      if (downloaded.length) {
+        selected = downloaded[0];
+        selectedAlternates = downloaded.slice(1);
+      } else {
         selected = { ...candidates[0], downloadError: downloadErrors.map((item) => `${item.title}: ${item.message}`).join(" | ") };
       }
     }
@@ -613,6 +643,7 @@ async function main() {
       motionIdea: topic.motionIdea,
       queries,
       selected,
+      selectedAlternates,
       candidates,
       errors,
       sources: sourceUrls(topic, bank),

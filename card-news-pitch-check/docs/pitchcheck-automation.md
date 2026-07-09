@@ -21,13 +21,19 @@ The code handles:
 
 ## Content Rule
 
-Default PitchCheck structure:
+Default PitchCheck structure is now football-first viral content, not a direct
+app ad.
 
-1. Cards 1-5: football story, fan curiosity, or amateur-football pain.
-2. Card 6: PitchCheck feature CTA.
-3. Card 7: final comment/download CTA.
+1. Cards 1-5: pure football story, curiosity gap, ranking/comparison, or fandom engagement.
+2. Card 6: soft team-operation bridge based on a real amateur-football pain.
+3. Card 7: final profile-link/comment-keyword CTA.
 
-The renderer validates that the last two cards are `pitchcheck` and `cta` by default.
+Hard guardrail: cards 1-5 must not mention PitchCheck, app install, profile
+link, download, usage video, or CTA wording. The Gemini builder replaces early
+ad-smell cards with deterministic fallback copy when needed.
+
+The renderer validates that the last two cards are `pitchcheck` and `cta` by
+default.
 
 ## Usage
 
@@ -129,28 +135,33 @@ Important fields:
 
 Use `search[]` to store search intent. The renderer does not scrape random social images automatically because usage rights and source accuracy matter.
 
-## Football Fun Story Bank
+## Football Viral Story Bank
 
-The new low-token planning bank lives at:
+The current low-token planning bank lives at:
+
+```text
+samples/pitchcheck/viral-story-bank-60.json
+```
+
+It contains 60 football-card ideas built for viral Instagram carousel direction:
+
+- legend/player backstory;
+- curiosity-gap titles;
+- ranking/comparison topics;
+- fandom engagement and friend-tag prompts;
+- sourced facts, share triggers, PitchCheck bridge lines;
+- per-topic image search criteria and motion ideas.
+
+The default topic is `viral-001`, the Messi napkin contract story. It opens as
+a football-history curiosity gap and only bridges to PitchCheck on cards 6-7.
+
+The legacy rule/record bank is still kept at:
 
 ```text
 samples/pitchcheck/story-bank-60.json
 ```
 
-It contains 60 football-card ideas built for a fun/info/AIDA direction:
-
-- stronger curiosity hooks;
-- rule quirks and record facts football people may not know;
-- why the fact is fun;
-- a PitchCheck bridge line;
-- visual needs, image search queries, and motion ideas;
-- fact source references.
-
-The default topic is intentionally not the most obscure football fact. It is
-`fun-017`, the captain armband story, because it starts from a situation amateur
-football organizers immediately understand: the captain has no real privilege,
-but every attendance, time, and location question lands on them. This keeps the
-carousel from becoming a rulebook summary.
+Use it only when intentionally making rulebook-style content.
 
 To fetch image candidates for all 60 topics:
 
@@ -158,7 +169,9 @@ To fetch image candidates for all 60 topics:
 npm run images:pitchcheck-story-bank
 ```
 
-This calls Wikimedia Commons search for each topic's `imageQueries`, scores candidates for dynamic football visuals, downloads the top candidate per topic, and writes:
+This calls Wikimedia Commons search for each topic's `imageQueries` and
+`assetSearch.queries`, scores candidates for dynamic football visuals, downloads
+the top candidate per topic, and writes:
 
 ```text
 assets/reference/web/football-story-bank-images.json
@@ -179,18 +192,18 @@ $env:GEMINI_MODEL="gemini-3.5-flash"
 npm run gemini:pitchcheck
 ```
 
-Use `--topic fun-017` to force the current default sample, or pass another
-topic ID only after checking that the first card has a clear amateur-football
-scene.
+Use `--topic viral-001` to force the current default sample, or pass another
+topic ID only after checking that the first card creates a curiosity gap and
+does not reveal the answer too early.
 
 One command does:
 
-1. read `samples/pitchcheck/story-bank-60.json`;
+1. read `samples/pitchcheck/viral-story-bank-60.json`;
 2. ask Gemini only for bounded Korean copy;
-3. normalize the response into the fixed renderer schema;
-4. attach the selected football image candidate and real PitchCheck local app media;
+3. normalize the response into the fixed renderer schema and remove early ad-smell copy;
+4. attach selected football image candidates and real PitchCheck local app media;
 5. render 7 fixed-layout cards;
-6. create an upload package;
+6. create an Instagram carousel upload package;
 7. run the uploader in dry-run mode unless a real uploader command is configured.
 
 No API key test mode:
@@ -208,18 +221,46 @@ samples/pitchcheck/generated/
 Rendered projects are written to:
 
 ```text
-projects/gemini-fun-001/
+projects/gemini-viral-001/
 ```
 
 Upload packages are written to:
 
 ```text
-dist/uploads/gemini-fun-001/
+dist/uploads/gemini-viral-001/
   cards/
   docs/
+  carousel-upload-checklist.md
   upload-manifest.json
   upload-dry-run.log
 ```
+
+## Instagram Carousel Upload Harness
+
+This project packages cards for Instagram feed carousel upload, not as a Reel
+MP4. This is intentional: swipeable `1/N` card UI comes from a carousel post.
+
+`prepare-upload-package.mjs` adds `carouselUploadHarness` to
+`upload-manifest.json` and writes `carousel-upload-checklist.md`.
+
+It checks:
+
+- 2-20 images;
+- rendered PNG/JPEG cards;
+- exact 1080x1350 dimensions;
+- exact 4:5 ratio;
+- caption presence;
+- upload intent is `instagram-carousel`.
+
+Manual carousel-with-music flow:
+
+1. Open Instagram and choose Post, not Reel.
+2. Select the rendered card images in order.
+3. Add music during the post upload flow if available.
+4. Add caption, tags, collaborator, and publish as a carousel post.
+
+The local uploader cannot guarantee Reels-tab/full-screen recommendation
+placement. It only prepares a music-capable carousel package candidate.
 
 To connect a real uploader, set `PITCHCHECK_UPLOAD_COMMAND`. The command can use
 these tokens:

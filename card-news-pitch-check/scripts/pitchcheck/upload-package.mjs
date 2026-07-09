@@ -43,12 +43,26 @@ function fillTemplate(command, manifest, manifestPath) {
 function writeDryRunLog(manifestPath, manifest) {
   const packageDir = path.resolve(ROOT, manifest.packageDir);
   const logPath = path.join(packageDir, "upload-dry-run.log");
+  const harness = manifest.carouselUploadHarness;
   const lines = [
     `Dry run: ${new Date().toISOString()}`,
     `Manifest: ${rel(manifestPath)}`,
     `Title: ${manifest.title}`,
+    `Platform intent: ${manifest.platformIntent || "instagram-carousel"}`,
     `Cards: ${(manifest.cardImages || []).length}`,
+    `Carousel harness: ${harness?.status || "not recorded"}`,
     "",
+    "Carousel upload rule:",
+    "- Upload as an Instagram Post/carousel, not as a Reel MP4, when the goal is swipeable 1/N card UI.",
+    "- Add music in the Instagram post upload flow when available.",
+    "- Reels-tab/full-screen recommendation placement is not guaranteed by the local uploader.",
+    "",
+    ...(harness?.errors?.length
+      ? ["Blocking errors:", ...harness.errors.map((item) => `- ${item}`), ""]
+      : []),
+    ...(harness?.warnings?.length
+      ? ["Warnings:", ...harness.warnings.map((item) => `- ${item}`), ""]
+      : []),
     "Card order:",
     ...(manifest.cardImages || []).map((item, index) => `${index + 1}. ${item}`),
     "",
