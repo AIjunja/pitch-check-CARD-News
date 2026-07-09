@@ -1,0 +1,218 @@
+/* PitchCheck Premium Card News Style - Clean Editorial V2 */
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GmarketSansBold.woff');
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GmarketSansMedium.woff');
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GmarketSansLight.woff');
+
+:root {
+  --bg-gradient: linear-gradient(185deg, #0f1424 0%, #080a14 100%);
+  --panel-bg: rgba(255, 255, 255, 0.03);
+  --border-color: rgba(255, 255, 255, 0.07);
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --accent-mint: #00e6b4;
+  --accent-pink: #ff4a86;
+  --accent-yellow: #ffd53f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1080px;
+  height: 1350px;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  font-family: 'GmarketSansMedium', sans-serif;
+  overflow: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Base Card Layout */
+.card-container {
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+/* Category Badge Chip (Minimal & Premium) */
+.category-chip {
+  align-self: flex-start;
+  font-family: 'GmarketSansBold', sans-serif;
+  font-size: 24px;
+  color: var(--accent-mint);
+  background: rgba(0, 230, 180, 0.08);
+  border: 1px solid rgba(0, 230, 180, 0.2);
+  padding: 8px 20px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.category-chip.pink {
+  color: var(--accent-pink);
+  background: rgba(255, 74, 134, 0.08);
+  border-color: rgba(255, 74, 134, 0.2);
+}
+
+.category-chip.yellow {
+  color: var(--accent-yellow);
+  background: rgba(255, 213, 63, 0.08);
+  border-color: rgba(255, 213, 63, 0.2);
+}
+
+/* Headline Styling (Punchy, Clean, Larger) */
+.headline {
+  font-family: 'GmarketSansBold', sans-serif;
+  font-size: 80px;
+  line-height: 1.2;
+  color: var(--text-primary);
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.headline span.highlight-mint { color: var(--accent-mint); }
+.headline span.highlight-pink { color: var(--accent-pink); }
+.headline span.highlight-yellow { color: var(--accent-yellow); }
+
+/* Content Body Copy (Extremely Minimal, No paragraphs) */
+.body-copy {
+  font-family: 'GmarketSansLight', sans-serif;
+  font-size: 34px;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  letter-spacing: -0.5px;
+}
+
+/* Media Box (No Cropping Layout) */
+.media-container {
+  width: 100%;
+  height: 680px;
+  border-radius: 24px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.4);
+}
+
+.media-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* ENFORCES NO CROPPING */
+  display: block;
+}
+
+/* Footer elements */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  padding-top: 30px;
+  font-size: 24px;
+  color: #64748b;
+  font-family: 'GmarketSansLight', sans-serif;
+}
+
+.footer-brand {
+  font-family: 'GmarketSansBold', sans-serif;
+  color: var(--accent-mint);
+  font-size: 26px;
+  letter-spacing: -0.5px;
+}
+
+/* Cover Card Specifics */
+.cover-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.cover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(6, 9, 19, 0.1) 0%, rgba(6, 9, 19, 0.5) 45%, rgba(6, 9, 19, 0.95) 100%);
+  z-index: 1.5;
+}
+
+.cover-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 2;
+  position: relative;
+}
+
+/* Real App UI display */
+.app-screen-container {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.app-screen-image {
+  height: 100%;
+  border-radius: 36px;
+  border: 4px solid var(--border-color);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+
+/* Minimal Table */
+.fine-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fine-table td {
+  padding: 18px 10px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 32px;
+}
+
+.fine-table td.label {
+  font-family: 'GmarketSansMedium', sans-serif;
+  color: var(--text-secondary);
+}
+
+.fine-table td.value {
+  text-align: right;
+  font-family: 'GmarketSansBold', sans-serif;
+  color: var(--accent-pink);
+}
+
+/* General clean CTA Layout */
+.cta-box {
+  width: 100%;
+  background: rgba(255,255,255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 60px 40px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  margin-bottom: 50px;
+}

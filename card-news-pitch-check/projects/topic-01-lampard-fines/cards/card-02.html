@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Card 02 - Story 1</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .split-layout {
+      display: flex;
+      height: 520px;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+    .media-half {
+      width: 45%;
+      height: 100%;
+      border-radius: 24px;
+      background: rgba(0,0,0,0.2);
+      border: 1px solid var(--border-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .table-half {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="category-chip pink">📌 REAL RULE</div>
+    
+    <div class="split-layout">
+      <div class="media-half">
+        <img class="media-image" src="../../../assets/images/topic-01/detail_01.jpg" alt="Fine Sheet">
+      </div>
+      <div class="table-half">
+        <table class="fine-table">
+          <tbody>
+            <tr>
+              <td class="label">훈련 지각</td>
+              <td class="value">약 3,000만 원</td>
+            </tr>
+            <tr>
+              <td class="label">미팅 지각 (분당)</td>
+              <td class="value">약 75만 원</td>
+            </tr>
+            <tr>
+              <td class="label">식사 중 벨소리</td>
+              <td class="value">약 150만 원</td>
+            </tr>
+            <tr>
+              <td class="label">경기 당일 지각</td>
+              <td class="value">약 380만 원</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div>
+      <h2 class="headline" style="font-size: 72px; margin-bottom: 0;">
+        미팅 지각 분당 <span class="highlight-pink">75만 원</span>,<br>
+        전화 울리면 <span class="highlight-pink">150만 원</span>!
+      </h2>
+    </div>
+
+    <div class="card-footer">
+      <span>02 / 07</span>
+      <span class="footer-brand">PITCHCHECK</span>
+    </div>
+  </div>
+</body>
+</html>

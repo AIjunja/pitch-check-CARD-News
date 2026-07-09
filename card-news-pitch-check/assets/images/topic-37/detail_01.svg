@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "http://www.w3.org/Graphics/SVG/1.1/DTD/" "svg11-flat-20030114.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22cm" height="14cm"
+     viewBox="0 0 1150 720" stroke="white" version="1.1">
+  <!--player symbol define-->
+  <defs>
+    <symbol id="RedPlayer" viewBox="0 0 10 20">
+    	<circle cx="5" cy="5" r="5" stroke="red" fill="red" />
+    	<path d="M 5,10 v 5 l -5,5 m 5,-5 l 5,5 m -5,-10 l -5,5 m 5,-5 l 5,5" stroke="red" stroke-width="2" fill="red" />
+    </symbol>
+    <symbol id="BluePlayer" viewBox="0 0 10 20">
+    	<circle cx="5" cy="5" r="5" stroke="blue" fill="blue" />
+    	<path d="M 5,10 v 5 l -5,5 m 5,-5 l 5,5 m -5,-10 l -5,5 m 5,-5 l 5,5" stroke="blue" stroke-width="2" fill="blue" />
+    </symbol>
+  </defs>
+  <!--The Hole Area-->
+  <rect x="0" y="0" width="1150" height="720" fill="green"/>
+  <!--The field border and the middle line-->
+  <path d="M 575,20 h -525 v 680 h 1050 v -680 h -525 v 680" stroke="white" stroke-width="2" fill="green" id="L25"/>
+  <!--Center Mark-->
+  <circle cx="575" cy="360" r="91.5" stroke="white" stroke-width="2" fill-opacity="0"/>
+  <circle cx="575" cy="360" r="3" stroke="white" fill="white"/>
+  <!--Penalty Point-->
+  <circle cx="160" cy="360" r="3" stroke="white" fill="white"/>
+  <circle cx="990" cy="360" r="3" stroke="white" fill="white"/>
+  <!--Goalposts-->
+  <path d="M 50,323.4 h -20 v 73.2 h 20 m 1050,0 h 20 v -73.2 h -20" stroke="white" stroke-width="2" fill-opacity="0"/>
+  <!--Goal Area-->
+  <path d="M 50,268.4 h 55 v 55 73.2 55 h -55 m 1050,0 h -55 v -55 -73.2 -55 h 55" stroke="white" stroke-width="2" fill-opacity="0"/>
+  <!--Penalty Area-->
+  <path d="M 50,158.4 h 165 v 165 73.2 165 h -165 m 1050,0 h -165 v -165 -73.2 -165 h 165" stroke="white" stroke-width="2" fill-opacity="0"/>
+  <path d="M 215,286.875 A 91.5,91.5 0 0,1 215,433.125 M 935,286.875 A 91.5,91.5 0 0,0 935,433.125" stroke="white" stroke-width="2" fill-opacity="0"/>
+  <!--Corner Arcs-->
+  <path d="M 50,30 a 10,10 0 0,0 10,-10 m 0,680 a 10,10 0 0,0 -10,-10 m 1050,0 a 10,10 0 0,0 -10,10 m 0,-680 a 10,10 0 0,0 10,10"
+  	stroke="white" stroke-width="2" fill-opacity="0"/>
+  <!-- Dash line -->
+  <path d="M 320,20 v 680" stroke="black" stroke-width="1" stroke-dasharray="3,4" fill-opacity="0"/>
+  
+  <!--Red's Players-->
+  <use x="1085" y="355" width="10" height="20" xlink:href="#RedPlayer" /><!--Goalkeeper-->
+  <use x="685" y="95" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="695" y="215" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="675" y="395" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="715" y="555" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="465" y="97" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="415" y="245" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="445" y="565" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="465" y="355" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="355" y="525" width="10" height="20" xlink:href="#RedPlayer" />
+  <use x="300" y="223" width="10" height="20" xlink:href="#RedPlayer" />
+  <!--Blue's Players-->
+  <use x="55" y="355" width="10" height="20" xlink:href="#BluePlayer" /><!--Goalkeeper-->
+  <use x="320" y="232" width="10" height="20" xlink:href="#BluePlayer" />
+  <use x="345" y="355" width="10" height="20" xlink:href="#BluePlayer" />
+  <use x="445" y="120" width="10" height="20" xlink:href="#BluePlayer" />
+  <use x="335" y="115" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="345" y="495" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="645" y="155" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="635" y="515" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="395" y="595" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="435" y="350" width="10" height="20" xlink:href="#BluePlayer" />
+	<use x="375" y="275" width="10" height="20" xlink:href="#BluePlayer" />
+  <!--The Ball-->
+  <circle cx="460" cy="113" r="2" stroke="white" stroke-width="1" fill="white"/>
+  <!--Circle the offsided player-->
+  <circle cx="305" cy="233" r="14" stroke="red" stroke-dasharray="3,4" stroke-width="1" fill-opacity="0"/>
+</svg>
