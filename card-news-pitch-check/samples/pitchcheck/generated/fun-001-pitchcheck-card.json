@@ -84,99 +84,85 @@
     },
     {
       "id": "product-01",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-001.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
       "alt": "PitchCheck app proof 1",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-02",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-002.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-010.jpg",
       "alt": "PitchCheck app proof 2",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-03",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-004.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-012.jpg",
       "alt": "PitchCheck app proof 3",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-04",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-014.jpg",
       "alt": "PitchCheck app proof 4",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-05",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-006.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-020.jpg",
       "alt": "PitchCheck app proof 5",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-06",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-027.jpg",
       "alt": "PitchCheck app proof 6",
       "credit": "Local PitchCheck media",
-      "usage": "card 6 product proof"
+      "usage": "card 6 operations proof"
     },
     {
       "id": "product-07",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-008.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-029.jpg",
       "alt": "PitchCheck app proof 7",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     },
     {
       "id": "product-08",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-022.jpg",
       "alt": "PitchCheck app proof 8",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     },
     {
       "id": "product-09",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-010.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
       "alt": "PitchCheck app proof 9",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     },
     {
       "id": "product-10",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-011.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-006.jpg",
       "alt": "PitchCheck app proof 10",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     },
     {
       "id": "product-11",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-012.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
       "alt": "PitchCheck app proof 11",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     },
     {
       "id": "product-12",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-013.jpg",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-008.jpg",
       "alt": "PitchCheck app proof 12",
-      "credit": "Local PitchCheck media",
-      "usage": "card 7 CTA proof"
-    },
-    {
-      "id": "product-13",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-014.jpg",
-      "alt": "PitchCheck app proof 13",
-      "credit": "Local PitchCheck media",
-      "usage": "card 7 CTA proof"
-    },
-    {
-      "id": "product-14",
-      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-017.jpg",
-      "alt": "PitchCheck app proof 14",
       "credit": "Local PitchCheck media",
       "usage": "card 7 CTA proof"
     }
@@ -185,15 +171,15 @@
     {
       "type": "cover",
       "role": "attention",
-      "label": "축구 꿀잼 룰",
+      "label": "축구 룰",
       "headline": [
-        "킥오프 한 방으로",
-        "골 넣어도 인"
+        "킥오프 한 방으로 골",
+        "넣어도 인정됩니다"
       ],
       "body": "킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.",
       "accent": [
         "킥오프",
-        "진짜"
+        "인정"
       ],
       "source": "ifabLaw8",
       "media": "story-01"
@@ -201,15 +187,15 @@
     {
       "type": "stat",
       "role": "interest",
-      "label": "이게 왜 되냐면",
+      "label": "룰북 기준",
       "headline": [
-        "룰북에는",
-        "이렇게 적혀있음"
+        "헷갈려도",
+        "룰은 단순해요"
       ],
       "body": "킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.",
       "accent": [
-        "룰북",
-        "진짜"
+        "룰",
+        "단순"
       ],
       "source": "ifabLaw8",
       "media": "story-02"
@@ -220,7 +206,7 @@
       "label": "재밌는 포인트",
       "headline": [
         "알고 보면",
-        "장면이 다르게 보임"
+        "장면이 다르게 보여요"
       ],
       "body": "조기축구 첫 터치 장난이 사실 룰상으로는 진짜 무기가 될 수 있다는 반전이 있다.",
       "accent": [
@@ -233,15 +219,15 @@
     {
       "type": "bridge",
       "role": "desire",
-      "label": "동네축구 공감",
+      "label": "조기축구 공감",
       "headline": [
         "우리 팀도",
-        "이런 확인 많죠"
+        "매주 확인하죠"
       ],
-      "body": "출석, 장소, 시간, 회비, 포지션까지. 축구는 뛰기 전 확인부터 경기입니다.",
+      "body": "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 경기 전 확인할 게 많아요.",
       "accent": [
-        "확인",
-        "경기"
+        "매주",
+        "확인"
       ],
       "source": "ifabLaw8",
       "media": "story-04"
@@ -251,13 +237,13 @@
       "role": "bridge",
       "label": "피치체크 연결",
       "headline": [
-        "작은 확인이",
-        "팀 분위기를 바꿉니다"
+        "확인이 줄면",
+        "팀이 덜 흔들려요"
       ],
       "body": "첫 10초부터 집중해야 하듯, 팀 공지도 시작 전에 딱 정리돼야 한다.",
       "accent": [
         "확인",
-        "팀 분위기"
+        "팀"
       ],
       "source": "ifabLaw8",
       "media": "story-05"
@@ -267,13 +253,13 @@
       "role": "desire-empathy",
       "label": "운영자 공감",
       "headline": [
-        "축구보다 힘든 건",
-        "매주 확인하는 일"
+        "매주 묻는 일",
+        "그게 제일 힘들죠"
       ],
-      "body": "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 운영자가 매번 묻다가 먼저 지칩니다.",
+      "body": "출석, 일정, 위치 확인을 매번 손으로 하면 경기 전부터 지쳐요.",
       "accent": [
-        "매주 확인",
-        "운영자"
+        "매주",
+        "확인"
       ],
       "source": "PitchCheck local media",
       "mediaGallery": [
@@ -284,18 +270,20 @@
         "product-05",
         "product-06"
       ],
-      "proofBadge": "실제 피치체크 화면"
+      "proofBadge": "출석 · 일정 · 위치 확인"
     },
     {
       "type": "cta",
       "role": "final-cta",
       "label": "지금 설치",
       "headline": [
-        "팀 운영 막고 있다면",
+        "팀 운영이 막히면",
         "피치체크로 정리"
       ],
       "body": [
-        "프로필 링크에서 설치하세요 댓글 [피치체크] = 사용 영상"
+        "프로필 링크에서 설치하세요.",
+        "댓글 [피치체크] 남기면",
+        "사용 영상도 보내드려요."
       ],
       "accent": [
         "프로필 링크",
@@ -317,13 +305,13 @@
         "product-11",
         "product-12"
       ],
-      "ctaSub": "출석 · 일정 · 위치 체크를 한 곳에서",
+      "ctaSub": "출석 · 일정 · 위치 확인을 한 곳에서",
       "ctaActionLabel": "프로필 링크",
-      "ctaActionValue": "바로 설치",
-      "profileLinkNote": "댓글 [피치체크] = 사용 영상 보내드림",
+      "ctaActionValue": "설치하기",
+      "profileLinkNote": "댓글 [피치체크] 남기면 사용 영상도 보내드려요",
       "ctaKeyword": "피치체크"
     }
   ],
-  "caption": "킥오프 한 방으로 골 넣어도 인정됩니다\n\n킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.\n\n이런 작은 확인들이 쌓여서 축구가 굴러갑니다. 팀 운영도 마찬가지예요. 피치체크는 출석, 일정, 위치 확인을 한 번에 정리하게 만드는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드릴게요.",
+  "caption": "킥오프 한 방으로 골 넣어도 인정됩니다\n\n킥오프는 상대 골문으로 직접 들어가면 득점이다. 반대로 자기 골문으로 바로 들어가면 골이 아니라 상대 코너킥이다.\n\n재밌는 룰 하나 알고 보는 것도 좋지만, 우리 팀 경기는 매주 확인할 게 더 많죠. 누가 오는지, 어디로 오는지, 몇 시까지 오는지. 이걸 매번 손으로 하면 운영자가 먼저 지쳐요.\n\n피치체크는 출석, 일정, 위치 확인을 한 곳에서 정리하는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드려요.",
   "notes": "Generated from samples/pitchcheck/story-bank-60.json. Gemini only writes bounded copy; layout, CTA order, media selection, and rendering are deterministic code paths."
 }

@@ -22,13 +22,48 @@ const GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta";
 const IMAGE_EXTS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 
 const BLOCKED_PRODUCT_FRAMES = new Set([
+  "frame-001.jpg",
+  "frame-002.jpg",
   "frame-003.jpg",
-  "frame-015.jpg",
+  "frame-004.jpg",
   "frame-016.jpg",
+  "frame-017.jpg",
+  "video-001",
+  "video-002",
   "video-003",
-  "video-015",
+  "video-004",
   "video-016",
+  "video-017",
 ]);
+
+const CARD6_PRODUCT_FRAME_PRIORITY = [
+  "frame-009.jpg",
+  "frame-010.jpg",
+  "frame-012.jpg",
+  "frame-014.jpg",
+  "frame-020.jpg",
+  "frame-027.jpg",
+  "frame-029.jpg",
+  "frame-022.jpg",
+];
+
+const CARD7_PRODUCT_FRAME_PRIORITY = [
+  ...CARD6_PRODUCT_FRAME_PRIORITY,
+  "frame-005.jpg",
+  "frame-006.jpg",
+  "frame-007.jpg",
+  "frame-008.jpg",
+  "frame-011.jpg",
+  "frame-013.jpg",
+  "frame-015.jpg",
+  "frame-018.jpg",
+  "frame-021.jpg",
+  "frame-023.jpg",
+  "frame-024.jpg",
+  "frame-025.jpg",
+  "frame-026.jpg",
+  "frame-028.jpg",
+];
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -90,19 +125,101 @@ function compactLine(value, max = 34) {
   return text.slice(0, max - 1).trimEnd();
 }
 
-function toHeadlineLines(value, fallback) {
-  const lines = Array.isArray(value) ? value : String(value || fallback || "").split(/\n+/);
-  const clean = lines.map((line) => compactLine(line, 18)).filter(Boolean);
-  if (clean.length >= 2) return clean.slice(0, 2);
+function cleanCopy(value) {
+  return String(value || "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.!?])/g, "$1")
+    .trim();
+}
 
-  const text = clean[0] || compactLine(fallback || "축구 꿀잼 룰", 24);
-  const midpoint = Math.ceil(text.length / 2);
-  return [text.slice(0, midpoint).trim(), text.slice(midpoint).trim()].filter(Boolean).slice(0, 2);
+function splitLongKoreanToken(token, max) {
+  if (token.length <= max) return [token];
+  const breakMarks = ["하면", "라면", "부터", "까지", "에도", "으로", "에서", "처럼", "보다", "인데", "지만"];
+  for (const mark of breakMarks) {
+    const index = token.indexOf(mark);
+    const splitAt = index >= 4 ? index + mark.length : -1;
+    if (splitAt > 3 && token.length - splitAt > 3 && splitAt <= max + 2) {
+      return [token.slice(0, splitAt), token.slice(splitAt)];
+    }
+  }
+  return [token];
+}
+
+function wordWrap(text, max = 12) {
+  const words = cleanCopy(text).split(/\s+/).filter(Boolean);
+  if (!words.length) return [];
+
+  const lines = [];
+  let current = "";
+  for (const rawWord of words) {
+    const pieces = splitLongKoreanToken(rawWord, max);
+    for (const word of pieces) {
+      const candidate = current ? `${current} ${word}` : word;
+      if (candidate.length <= max || !current) {
+        current = candidate;
+      } else {
+        lines.push(current);
+        current = word;
+      }
+    }
+  }
+  if (current) lines.push(current);
+  return lines;
+}
+
+function rebalanceTwoLines(lines, max = 12) {
+  const clean = lines.map(cleanCopy).filter(Boolean);
+  if (clean.length <= 2 && clean.every((line) => line.length <= max + 3)) return clean;
+
+  const text = clean.join(" ");
+  const words = text.split(/\s+/).filter(Boolean);
+  if (words.length <= 2) return clean.slice(0, 2);
+
+  let best = null;
+  for (let split = 1; split < words.length; split += 1) {
+    const left = words.slice(0, split).join(" ");
+    const right = words.slice(split).join(" ");
+    if (left.length < 4 || right.length < 4) continue;
+    const longest = Math.max(left.length, right.length);
+    const balance = Math.abs(left.length - right.length);
+    const score = longest * 2 + balance;
+    if (!best || score < best.score) best = { lines: [left, right], score };
+  }
+  return best?.lines || clean.slice(0, 2);
+}
+
+function toHeadlineLines(value, fallback, max = 12) {
+  if (Array.isArray(value)) {
+    const manualLines = value.map(cleanCopy).filter(Boolean);
+    if (manualLines.length) {
+      const wrappedManual = manualLines.flatMap((line) => wordWrap(line, max));
+      if (wrappedManual.length <= 2) return wrappedManual;
+      return rebalanceTwoLines(wrappedManual, max).slice(0, 2);
+    }
+  }
+
+  const fallbackText = Array.isArray(fallback) ? fallback.join(" ") : fallback;
+  const raw = cleanCopy(value || fallbackText || "");
+  const wrapped = wordWrap(raw, max);
+  const balanced = rebalanceTwoLines(wrapped.length ? wrapped : wordWrap(fallbackText || "축구 꿀잼 룰", max), max);
+  return balanced.slice(0, 2);
 }
 
 function toBody(value, fallback) {
   const body = Array.isArray(value) ? value.join("\n") : String(value || fallback || "");
-  return compactLine(body, 84);
+  return compactLine(cleanCopy(body), 92);
+}
+
+function toBodyLines(value, fallback) {
+  const rawLines = Array.isArray(value)
+    ? value
+    : Array.isArray(fallback)
+      ? fallback
+      : String(value || fallback || "").split(/\n+/);
+  return rawLines
+    .map((line) => compactLine(cleanCopy(line), 46))
+    .filter(Boolean)
+    .slice(0, 3);
 }
 
 function topicBySelector(bank, opts) {
@@ -230,91 +347,109 @@ function stableIndex(value, length) {
 
 function discoverProductMedia() {
   const base = path.join(ROOT, "assets", "reference", "pitchcheck-local");
-  const images = walkImages(base)
+  const candidates = walkImages(base)
     .filter((file) => {
       const lower = file.toLowerCase();
       const name = path.basename(lower);
       if ([...BLOCKED_PRODUCT_FRAMES].some((blocked) => name.includes(blocked.toLowerCase()))) return false;
-      if (lower.includes("chuk9-card-refs")) return false;
       if (lower.includes("brand")) return false;
-      return lower.includes("pitchcheck-video") || lower.includes("pitchcheck-screens") || lower.includes("chuk9-zip-extracted");
+      return lower.includes("pitchcheck-video") || lower.includes("pitchcheck-screens");
     })
-    .sort((a, b) => {
-      const aw = scoreProductPath(a);
-      const bw = scoreProductPath(b);
-      if (bw !== aw) return bw - aw;
-      return a.localeCompare(b);
-    })
-    .slice(0, 14);
+    .sort((a, b) => a.localeCompare(b));
+
+  const proofFiles = sortProductCandidates(candidates, CARD6_PRODUCT_FRAME_PRIORITY).slice(0, 6);
+  const ctaFiles = sortProductCandidates(candidates, CARD7_PRODUCT_FRAME_PRIORITY).slice(0, 12);
+  const images = uniqueFiles([...proofFiles, ...ctaFiles]).slice(0, 14);
 
   return images.map((file, index) => ({
     id: `product-${String(index + 1).padStart(2, "0")}`,
     rootPath: path.relative(ROOT, file).replaceAll("\\", "/"),
     alt: `PitchCheck app proof ${index + 1}`,
     credit: "Local PitchCheck media",
-    usage: index < 6 ? "card 6 product proof" : "card 7 CTA proof",
+    usage: proofFiles.includes(file) ? "card 6 operations proof" : "card 7 CTA proof",
   }));
+}
+
+function uniqueFiles(files) {
+  return [...new Set(files)];
+}
+
+function sortProductCandidates(files, preferredFrameNames) {
+  const preferred = new Map(preferredFrameNames.map((name, index) => [name.toLowerCase(), index]));
+  return [...files].sort((a, b) => {
+    const aName = path.basename(a).toLowerCase();
+    const bName = path.basename(b).toLowerCase();
+    const aRank = preferred.has(aName) ? preferred.get(aName) : Number.MAX_SAFE_INTEGER;
+    const bRank = preferred.has(bName) ? preferred.get(bName) : Number.MAX_SAFE_INTEGER;
+    if (aRank !== bRank) return aRank - bRank;
+
+    const aw = scoreProductPath(a);
+    const bw = scoreProductPath(b);
+    if (bw !== aw) return bw - aw;
+    return a.localeCompare(b);
+  });
 }
 
 function scoreProductPath(file) {
   const lower = file.toLowerCase();
   let score = 0;
-  if (lower.includes("pitchcheck-video")) score += 40;
-  if (lower.includes("pitchcheck-screens")) score += 35;
-  if (lower.includes("chuk9-zip-extracted")) score += 18;
-  if (lower.includes("frame-00") || lower.includes("frame-01")) score += 8;
+  if (lower.includes("pitchcheck-video")) score += 50;
+  if (lower.includes("pitchcheck-screens")) score += 12;
+  if (lower.includes("frame-009") || lower.includes("frame-010") || lower.includes("frame-012")) score += 18;
+  if (lower.includes("frame-020") || lower.includes("frame-027") || lower.includes("frame-029")) score += 16;
   if (lower.includes("dog") || lower.includes("pet") || lower.includes("animal")) score -= 100;
   return score;
 }
 
 function fallbackCopy(topic) {
+  const hookLines = toHeadlineLines(topic.hook, topic.hook, 12);
   return {
     cards: [
       {
-        label: "축구 꿀잼 룰",
-        headline: toHeadlineLines(topic.hook, topic.hook),
+        label: "축구 룰",
+        headline: hookLines,
         body: topic.fact,
-        accent: [firstKeyword(topic.hook), "진짜"],
+        accent: [firstKeyword(topic.hook), "인정"],
       },
       {
-        label: "이게 왜 되냐면",
-        headline: ["룰북에는", "이렇게 적혀있음"],
+        label: "룰북 기준",
+        headline: ["헷갈려도", "룰은 단순해요"],
         body: topic.fact,
-        accent: ["룰북", "진짜"],
+        accent: ["룰", "단순"],
       },
       {
         label: "재밌는 포인트",
-        headline: ["알고 보면", "장면이 다르게 보임"],
+        headline: ["알고 보면", "장면이 다르게 보여요"],
         body: topic.whyFun,
         accent: ["알고 보면", "다르게"],
       },
       {
-        label: "동네축구 공감",
-        headline: ["우리 팀도", "이런 확인 많죠"],
-        body: "출석, 장소, 시간, 회비, 포지션까지. 축구는 뛰기 전 확인부터 경기입니다.",
-        accent: ["확인", "경기"],
+        label: "조기축구 공감",
+        headline: ["우리 팀도", "매주 확인하죠"],
+        body: "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 경기 전 확인할 게 많아요.",
+        accent: ["매주", "확인"],
       },
       {
         label: "피치체크 연결",
-        headline: ["작은 확인이", "팀 분위기를 바꿉니다"],
+        headline: ["확인이 줄면", "팀이 덜 흔들려요"],
         body: topic.pitchCheckBridge,
-        accent: ["확인", "팀 분위기"],
+        accent: ["확인", "팀"],
       },
       {
         label: "운영자 공감",
-        headline: ["축구보다 힘든 건", "매주 확인하는 일"],
-        body: "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 운영자가 매번 묻다가 먼저 지칩니다.",
-        accent: ["매주 확인", "운영자"],
+        headline: ["매주 묻는 일", "그게 제일 힘들죠"],
+        body: "출석, 일정, 위치 확인을 매번 손으로 하면 경기 전부터 지쳐요.",
+        accent: ["매주", "확인"],
       },
       {
         label: "지금 설치",
-        headline: ["팀 운영 막고 있다면", "피치체크로 정리"],
-        body: ["프로필 링크에서 설치하세요", "댓글 [피치체크] = 사용 영상"],
+        headline: ["팀 운영이 막히면", "피치체크로 정리"],
+        body: ["프로필 링크에서 설치하세요.", "댓글 [피치체크] 남기면", "사용 영상도 보내드려요."],
         accent: ["프로필 링크", "피치체크", "설치"],
       },
     ],
     caption:
-      `${topic.hook}\n\n${topic.fact}\n\n이런 작은 확인들이 쌓여서 축구가 굴러갑니다. 팀 운영도 마찬가지예요. 피치체크는 출석, 일정, 위치 확인을 한 번에 정리하게 만드는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드릴게요.`,
+      `${topic.hook}\n\n${topic.fact}\n\n재밌는 룰 하나 알고 보는 것도 좋지만, 우리 팀 경기는 매주 확인할 게 더 많죠. 누가 오는지, 어디로 오는지, 몇 시까지 오는지. 이걸 매번 손으로 하면 운영자가 먼저 지쳐요.\n\n피치체크는 출석, 일정, 위치 확인을 한 곳에서 정리하는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드려요.`,
   };
 }
 
@@ -327,11 +462,23 @@ function firstKeyword(text) {
 
 function buildGeminiPrompt(topic, sources) {
   return [
-    "너는 한국 인스타그램 카드뉴스 카피라이터다.",
+    "너는 한국 인스타그램 카드뉴스 UX 카피라이터다.",
     "목표: 축구인이 넘기지 않고 보는 꿀잼/정보형 카드뉴스를 만든다.",
     "AIDA 구조를 지켜라. 1-5번은 축구 콘텐츠로 관심과 정보, 6번은 운영자 공감, 7번은 설치 CTA다.",
     "중요: 제공된 fact를 바꾸거나 과장하지 마라. 출처 밖의 새 사실을 만들지 마라.",
-    "말투: 짧고 세게, 축구 커뮤니티에서 먹히게. 과한 광고 말투 금지.",
+    "",
+    "카피 원칙:",
+    "- 토스 UX Writing처럼 쓴다: 사용자가 바로 이해해야 하고, 다음 행동이 선명해야 한다.",
+    "- 한 카드에는 한 메시지만 쓴다.",
+    "- 짧게 쓰되 맥락을 없애지 않는다.",
+    "- 광고처럼 밀어붙이지 말고, 사용자가 겪는 상황을 먼저 말한다.",
+    "- 추상어를 피한다. '운영 효율'보다 '누가 오는지 매번 묻는 일'처럼 쓴다.",
+    "- 말하듯 자연스럽게 쓴다. 보고서체, 번역체, 기능 소개 문장 금지.",
+    "- 줄바꿈은 의미 단위로 한다. 조사나 짧은 단어만 한 줄에 남기지 않는다.",
+    "- headline은 2줄이지만 한 줄에 2~3글자만 남기지 않는다.",
+    "- '설치하세요'보다 왜 설치해야 하는지 먼저 말한다.",
+    "",
+    "말투: 축구 커뮤니티에서 바로 읽히는 말투. 짧고 선명하지만 과하게 밈스럽지 않게.",
     "반환은 JSON만. 마크다운 금지.",
     "",
     "반환 스키마:",
@@ -352,9 +499,19 @@ function buildGeminiPrompt(topic, sources) {
     ),
     "",
     "cards는 반드시 7개.",
-    "각 headline은 2줄, 각 줄 18자 안팎.",
-    "body는 카드당 80자 이내.",
-    "7번 body는 프로필 링크 설치와 댓글 [피치체크] 사용 영상 문구를 포함.",
+    "각 headline은 정확히 2줄. 각 줄은 6~12자 사이를 권장한다.",
+    "headline은 단어를 억지로 자르지 말고, 사람이 말하는 의미 단위로 나눈다.",
+    "body는 카드당 70자 이내. 긴 설명은 caption으로 보낸다.",
+    "6번은 '실제 화면' 같은 설명문이 아니라 운영자가 겪는 상황을 말한다.",
+    "7번 body는 프로필 링크 설치와 댓글 [피치체크] 사용 영상 문구를 포함한다.",
+    "카드 역할:",
+    "1. 축구인이 멈출 훅",
+    "2. 룰/기록 기준을 쉽게 설명",
+    "3. 알고 보면 재밌는 포인트",
+    "4. 조기축구/팀 운영 공감",
+    "5. 확인이 왜 중요한지 연결",
+    "6. 운영자가 매주 겪는 귀찮음을 정확히 말하기",
+    "7. 프로필 링크 설치 + 댓글 [피치체크] CTA",
     "",
     "소재:",
     JSON.stringify(
@@ -422,7 +579,7 @@ function normalizeCopy(copy, topic) {
       label: compactLine(item.label || base.label, 16),
       headline: toHeadlineLines(item.headline, base.headline),
       body: Array.isArray(base.body)
-        ? toBody(item.body, base.body.join("\n")).split(/\n+/).filter(Boolean)
+        ? toBodyLines(item.body, base.body)
         : toBody(item.body, base.body),
       accent: Array.isArray(item.accent) && item.accent.length ? item.accent.slice(0, 4) : base.accent,
     };
@@ -447,7 +604,10 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
   }));
 
   const productIds = productMedia.map((item) => item.id);
-  const proofGallery = productIds.slice(0, 6);
+  const proofGallery = productMedia
+    .filter((item) => item.usage === "card 6 operations proof")
+    .map((item) => item.id)
+    .slice(0, 6);
   const ctaGallery = productIds.slice(0, 12);
 
   const slug = `gemini-${storyTopic.id}`;
@@ -516,16 +676,16 @@ function buildRendererTopic(bank, storyTopic, copy, outputFile, imageReport, gem
         return {
           ...base,
           mediaGallery: proofGallery,
-          proofBadge: "실제 피치체크 화면",
+          proofBadge: "출석 · 일정 · 위치 확인",
         };
       }
       return {
         ...base,
         mediaGallery: ctaGallery,
-        ctaSub: "출석 · 일정 · 위치 체크를 한 곳에서",
+        ctaSub: "출석 · 일정 · 위치 확인을 한 곳에서",
         ctaActionLabel: "프로필 링크",
-        ctaActionValue: "바로 설치",
-        profileLinkNote: "댓글 [피치체크] = 사용 영상 보내드림",
+        ctaActionValue: "설치하기",
+        profileLinkNote: "댓글 [피치체크] 남기면 사용 영상도 보내드려요",
         ctaKeyword: "피치체크",
       };
     }),

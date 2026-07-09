@@ -242,7 +242,8 @@ body{font-family:"GmarketSans",system-ui,sans-serif;color:var(--text);letter-spa
 .copy{position:absolute;z-index:12;left:72px;right:72px;bottom:106px;min-height:330px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end}
 .copy-chip{display:inline-flex;align-items:center;min-height:55px;max-width:880px;margin:0 0 18px;padding:13px 20px 10px;background:rgba(0,0,0,.86);font-size:30px;line-height:1.08;font-weight:800;color:#fff;box-shadow:0 12px 32px rgba(0,0,0,.28)}
 .headline{max-width:940px;margin:0;display:flex;flex-direction:column;gap:9px;font-size:88px;line-height:1.05;font-weight:800;letter-spacing:0;text-shadow:0 8px 34px rgba(0,0,0,.7)}
-.headline span{display:block}
+.headline > span{display:block;white-space:nowrap}
+.headline .accent{display:inline}
 .body{max-width:900px;display:flex;flex-direction:column;gap:8px;margin:24px 0 0;font-size:34px;line-height:1.28;font-weight:500;color:rgba(255,255,255,.86);text-shadow:0 5px 26px rgba(0,0,0,.76)}
 .accent{color:var(--accent)}
 .source{position:absolute;z-index:10;left:72px;bottom:82px;font-size:22px;font-weight:500;color:rgba(255,255,255,.56)}
@@ -263,6 +264,7 @@ body{font-family:"GmarketSans",system-ui,sans-serif;color:var(--text);letter-spa
 .proof-gallery{position:absolute;z-index:6;left:56px;right:56px;top:98px;height:690px}
 .proof-frame{position:absolute;overflow:hidden;border:2px solid rgba(255,255,255,.16);border-radius:34px;background:#050607;box-shadow:0 26px 82px rgba(0,0,0,.46)}
 .proof-frame img{display:block;width:100%;height:100%;object-fit:cover}
+.pitchcheck .proof-frame img{object-fit:contain;background:#f6f8f7}
 .pitchcheck .proof-frame-1{left:0;top:70px;width:300px;height:590px;transform:rotate(-4deg)}
 .pitchcheck .proof-frame-2{left:290px;top:0;width:360px;height:668px;z-index:2}
 .pitchcheck .proof-frame-3{right:0;top:70px;width:300px;height:590px;transform:rotate(4deg)}
