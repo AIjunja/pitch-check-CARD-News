@@ -4,7 +4,9 @@
     "title": "피치체크 축구 꿀잼 스토리 소재 60",
     "channel": "피치체크",
     "purpose": "축구인들이 몰랐던 규칙, 기록, 역사, 장비, 운영 공감 소재를 카드뉴스/릴스 후보로 쓰기 위한 소스 뱅크",
-    "version": "2026-07-09"
+    "version": "2026-07-09",
+    "defaultTopicId": "fun-017",
+    "selectionRule": "기본 샘플은 룰북 지식보다 동호회 축구인이 바로 떠올리는 장면과 운영자 공감이 강한 소재를 먼저 쓴다."
   },
   "sourceRefs": {
     "ifabLaw1": "https://www.theifab.com/laws/latest/the-field-of-play/",
@@ -237,12 +239,14 @@
     {
       "id": "fun-017",
       "category": "law-quirk",
-      "hook": "주장은 완장이 있어도 특권은 없습니다",
+      "hook": "주장 완장 차면 권한보다 연락이 먼저 옵니다",
       "fact": "팀 주장은 완장을 차야 하지만 특별한 지위나 특권은 없다. 다만 팀 행동에 책임이 있다.",
-      "whyFun": "동호회 주장들이 웃으면서 공유하기 좋다.",
-      "pitchCheckBridge": "주장에게 모든 확인이 몰리면 번아웃 온다. 시스템으로 나눠야 한다.",
-      "visualNeed": "캡틴 완장, 심판과 대화하는 주장, 팀원들이 둘러싼 장면",
-      "imageQueries": ["football captain armband", "soccer captain talking referee", "football team captain"],
+      "whyFun": "룰북상 주장은 특권이 없는데 현실에서는 단톡방 문의 담당자가 되는 아이러니가 있다.",
+      "pitchCheckBridge": "주장에게 모든 출석, 장소, 시간 확인이 몰리면 번아웃이 온다. 반복 질문은 시스템으로 나눠야 한다.",
+      "audienceScene": "경기 2시간 전 단톡방에서 누가 오는지, 어디로 오는지, 몇 시까지 오는지 다시 묻는 주장/총무",
+      "relatabilityScore": 98,
+      "visualNeed": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌",
+      "imageQueries": ["football captain armband team", "soccer team captain huddle", "amateur football team captain"],
       "motionIdea": "완장에 '권한 X / 책임 O' 텍스트 스탬프",
       "sourceRefs": ["ifabLaw3"]
     },

@@ -65,6 +65,16 @@ const CARD7_PRODUCT_FRAME_PRIORITY = [
   "frame-028.jpg",
 ];
 
+const STORY_MEDIA_OVERRIDES = {
+  "fun-017": [
+    "assets/images/topic-08/cover.jpg",
+    "assets/images/topic-17/detail_03.jpg",
+    "assets/images/topic-04/detail_02.jpg",
+    "assets/images/topic-06/detail_01.jpg",
+    "assets/images/topic-17/detail_01.jpg",
+  ],
+};
+
 function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
@@ -73,6 +83,7 @@ function parseArgs() {
     outDir: DEFAULT_OUT_DIR,
     topicId: null,
     index: 1,
+    indexProvided: false,
     model: DEFAULT_MODEL,
     render: args.includes("--render"),
     package: args.includes("--package"),
@@ -88,7 +99,10 @@ function parseArgs() {
     else if (arg === "--image-report") opts.imageReportPath = path.resolve(ROOT, args[++i]);
     else if (arg === "--out-dir") opts.outDir = path.resolve(ROOT, args[++i]);
     else if (arg === "--topic") opts.topicId = args[++i];
-    else if (arg === "--index") opts.index = Number(args[++i]);
+    else if (arg === "--index") {
+      opts.index = Number(args[++i]);
+      opts.indexProvided = true;
+    }
     else if (arg === "--model") opts.model = args[++i];
     else if (arg === "--temperature") opts.temperature = Number(args[++i]);
   }
@@ -228,6 +242,10 @@ function topicBySelector(bank, opts) {
     if (!found) throw new Error(`Unknown story topic id: ${opts.topicId}`);
     return found;
   }
+  if (!opts.indexProvided && bank.project?.defaultTopicId) {
+    const found = bank.topics.find((topic) => topic.id === bank.project.defaultTopicId);
+    if (found) return found;
+  }
   const index = Math.max(1, Math.min(bank.topics.length, opts.index));
   return bank.topics[index - 1];
 }
@@ -277,6 +295,9 @@ function walkImages(dir) {
 }
 
 function discoverStoryMedia(topic, imageReport) {
+  const override = explicitStoryMedia(topic);
+  if (override.length) return override;
+
   const media = [];
   const selected = selectedImageForTopic(imageReport, topic.id);
   if (selected) {
@@ -303,6 +324,19 @@ function discoverStoryMedia(topic, imageReport) {
   }
 
   return media;
+}
+
+function explicitStoryMedia(topic) {
+  const files = STORY_MEDIA_OVERRIDES[topic.id] || [];
+  return files
+    .filter((rootPath) => existsSync(path.join(ROOT, rootPath)))
+    .map((rootPath, index) => ({
+      id: `story-${String(index + 1).padStart(2, "0")}`,
+      rootPath,
+      alt: `${topic.visualNeed} curated reference ${index + 1}`,
+      credit: "Curated local football reference / verify usage rights before final posting",
+      usage: `story card ${index + 1}`,
+    }));
 }
 
 function storyFallbackPool() {
@@ -401,7 +435,61 @@ function scoreProductPath(file) {
   return score;
 }
 
+const RELATABLE_COPY_OVERRIDES = {
+  "fun-017": {
+    cards: [
+      {
+        label: "주장 현실",
+        headline: ["완장 찼다고", "권한 생기는 거 아님"],
+        body: "IFAB 기준으로도 주장은 특별한 지위나 특권이 없습니다.",
+        accent: ["권한", "아님"],
+      },
+      {
+        label: "룰북 반전",
+        headline: ["있는 건 특권보다", "팀 행동 책임"],
+        body: "완장은 필요하지만, 경기 중 팀 행동에 책임을 지는 쪽에 가깝습니다.",
+        accent: ["책임"],
+      },
+      {
+        label: "동호회 번역",
+        headline: ["근데 현실은", "단톡 담당자"],
+        body: "장소 어디예요, 몇 시예요, 저 늦어요. 질문은 거의 주장한테 옵니다.",
+        accent: ["현실", "단톡"],
+      },
+      {
+        label: "제일 빡센 순간",
+        headline: ["경기 2시간 전", "답 안 한 사람"],
+        body: "한 명만 확인 안 해도 인원, 포지션, 회비 계산이 다 흔들려요.",
+        accent: ["2시간 전", "답 안 한"],
+      },
+      {
+        label: "그래서",
+        headline: ["주장이 아니라", "시스템이 물어야 함"],
+        body: "출석, 일정, 위치를 앱에 남기면 같은 질문을 덜 반복합니다.",
+        accent: ["시스템", "덜 반복"],
+      },
+      {
+        label: "피치체크",
+        headline: ["확인은 단톡 말고", "피치체크에 남겨요"],
+        body: "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 한 화면에서 확인하세요.",
+        accent: ["피치체크", "확인"],
+      },
+      {
+        label: "지금 설치",
+        headline: ["팀 운영 맡았다면", "이건 깔아두세요"],
+        body: ["프로필 링크에서 설치하세요.", "댓글 [피치체크] 남기면", "사용 영상도 보내드려요."],
+        accent: ["프로필 링크", "피치체크", "설치"],
+      },
+    ],
+    caption:
+      "주장 완장 차면 권한보다 연락이 먼저 옵니다.\n\n재밌는 건, 룰북 기준으로도 주장은 특별한 특권이 있는 사람이 아닙니다. 오히려 팀 행동에 책임을 지는 쪽에 가깝죠.\n\n근데 동호회 축구에서는 장소 어디냐, 몇 시냐, 누가 오냐, 회비 냈냐까지 거의 주장/총무에게 몰립니다. 한 명만 답이 없어도 경기 전부터 머리가 아파요.\n\n피치체크는 출석, 일정, 위치 확인을 한 곳에서 정리하는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드려요.",
+  },
+};
+
 function fallbackCopy(topic) {
+  const override = RELATABLE_COPY_OVERRIDES[topic.id];
+  if (override) return override;
+
   const hookLines = toHeadlineLines(topic.hook, topic.hook, 12);
   return {
     cards: [
@@ -466,6 +554,8 @@ function buildGeminiPrompt(topic, sources) {
     "목표: 축구인이 넘기지 않고 보는 꿀잼/정보형 카드뉴스를 만든다.",
     "AIDA 구조를 지켜라. 1-5번은 축구 콘텐츠로 관심과 정보, 6번은 운영자 공감, 7번은 설치 CTA다.",
     "중요: 제공된 fact를 바꾸거나 과장하지 마라. 출처 밖의 새 사실을 만들지 마라.",
+    "더 중요: 첫 장은 룰북 제목이 아니라 축구인이 바로 아는 상황이어야 한다.",
+    "나쁜 예: '킥오프 한 방으로 골 넣어도 인정됩니다'. 좋은 예: '완장 찼다고 권한 생기는 거 아님'.",
     "",
     "카피 원칙:",
     "- 토스 UX Writing처럼 쓴다: 사용자가 바로 이해해야 하고, 다음 행동이 선명해야 한다.",
@@ -477,6 +567,8 @@ function buildGeminiPrompt(topic, sources) {
     "- 줄바꿈은 의미 단위로 한다. 조사나 짧은 단어만 한 줄에 남기지 않는다.",
     "- headline은 2줄이지만 한 줄에 2~3글자만 남기지 않는다.",
     "- '설치하세요'보다 왜 설치해야 하는지 먼저 말한다.",
+    "- 정보는 '오 신기하다'보다 '아 우리 팀 얘기네'가 먼저다.",
+    "- 뭔 말인지 1초 안에 안 잡히는 축구 잡학은 버린다.",
     "",
     "말투: 축구 커뮤니티에서 바로 읽히는 말투. 짧고 선명하지만 과하게 밈스럽지 않게.",
     "반환은 JSON만. 마크다운 금지.",
@@ -505,12 +597,12 @@ function buildGeminiPrompt(topic, sources) {
     "6번은 '실제 화면' 같은 설명문이 아니라 운영자가 겪는 상황을 말한다.",
     "7번 body는 프로필 링크 설치와 댓글 [피치체크] 사용 영상 문구를 포함한다.",
     "카드 역할:",
-    "1. 축구인이 멈출 훅",
-    "2. 룰/기록 기준을 쉽게 설명",
-    "3. 알고 보면 재밌는 포인트",
-    "4. 조기축구/팀 운영 공감",
-    "5. 확인이 왜 중요한지 연결",
-    "6. 운영자가 매주 겪는 귀찮음을 정확히 말하기",
+    "1. 축구인이 실제로 겪는 장면으로 멈추게 하기",
+    "2. 그 장면에 숨어 있는 룰/기록 반전 한 줄",
+    "3. 그게 왜 웃긴지 동호회 말투로 번역",
+    "4. 조기축구/팀 운영자가 겪는 진짜 귀찮음",
+    "5. 확인을 시스템으로 넘겨야 하는 이유",
+    "6. 운영자가 매주 겪는 반복 질문을 정확히 말하기",
     "7. 프로필 링크 설치 + 댓글 [피치체크] CTA",
     "",
     "소재:",
@@ -522,6 +614,8 @@ function buildGeminiPrompt(topic, sources) {
         fact: topic.fact,
         whyFun: topic.whyFun,
         pitchCheckBridge: topic.pitchCheckBridge,
+        audienceScene: topic.audienceScene,
+        relatabilityScore: topic.relatabilityScore,
         visualNeed: topic.visualNeed,
         motionIdea: topic.motionIdea,
         sources,

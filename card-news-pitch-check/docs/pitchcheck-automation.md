@@ -146,6 +146,12 @@ It contains 60 football-card ideas built for a fun/info/AIDA direction:
 - visual needs, image search queries, and motion ideas;
 - fact source references.
 
+The default topic is intentionally not the most obscure football fact. It is
+`fun-017`, the captain armband story, because it starts from a situation amateur
+football organizers immediately understand: the captain has no real privilege,
+but every attendance, time, and location question lands on them. This keeps the
+carousel from becoming a rulebook summary.
+
 To fetch image candidates for all 60 topics:
 
 ```powershell
@@ -170,8 +176,12 @@ needs to match this renderer exactly.
 ```powershell
 $env:GEMINI_API_KEY="..."
 $env:GEMINI_MODEL="gemini-3.5-flash"
-npm run gemini:pitchcheck -- --topic fun-001
+npm run gemini:pitchcheck
 ```
+
+Use `--topic fun-017` to force the current default sample, or pass another
+topic ID only after checking that the first card has a clear amateur-football
+scene.
 
 One command does:
 

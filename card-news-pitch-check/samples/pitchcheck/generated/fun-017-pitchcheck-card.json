@@ -1,0 +1,311 @@
+{
+  "project": {
+    "slug": "gemini-fun-017",
+    "title": "피치체크 축구 꿀잼 카드뉴스 - 주장 완장 차면 권한보다 연락이 먼저 옵니다",
+    "channel": "피치체크",
+    "brand": "PITCHCHECK",
+    "ratio": "4:5",
+    "sourceLabel": "ifabLaw3",
+    "ctaKeyword": "피치체크",
+    "generator": {
+      "provider": "deterministic-fallback",
+      "model": "none",
+      "reason": "No Gemini API key or --no-gemini was used."
+    }
+  },
+  "style": {
+    "template": "chuk9-editorial-real-cta",
+    "accent": "#25d9a3",
+    "secondaryAccent": "#ffffff",
+    "logoText": "PITCHCHECK"
+  },
+  "sources": [
+    {
+      "label": "ifabLaw3",
+      "url": "https://www.theifab.com/laws/latest/the-players/",
+      "note": "Story-bank fact source."
+    },
+    {
+      "label": "Local PitchCheck media",
+      "note": "Local app screenshots and usage-video frames are used for cards 6-7."
+    }
+  ],
+  "search": [
+    {
+      "query": "football captain armband team / soccer team captain huddle / amateur football team captain",
+      "purpose": "Dynamic football story image candidates for cards 1-5.",
+      "preferredSources": [
+        "Wikimedia Commons",
+        "official source media",
+        "licensed editorial assets"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "story-01",
+      "path": "../../../assets/images/topic-08/cover.jpg",
+      "alt": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌 curated reference 1",
+      "credit": "Curated local football reference / verify usage rights before final posting",
+      "usage": "story card 1"
+    },
+    {
+      "id": "story-02",
+      "path": "../../../assets/images/topic-17/detail_03.jpg",
+      "alt": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌 curated reference 2",
+      "credit": "Curated local football reference / verify usage rights before final posting",
+      "usage": "story card 2"
+    },
+    {
+      "id": "story-03",
+      "path": "../../../assets/images/topic-04/detail_02.jpg",
+      "alt": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌 curated reference 3",
+      "credit": "Curated local football reference / verify usage rights before final posting",
+      "usage": "story card 3"
+    },
+    {
+      "id": "story-04",
+      "path": "../../../assets/images/topic-06/detail_01.jpg",
+      "alt": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌 curated reference 4",
+      "credit": "Curated local football reference / verify usage rights before final posting",
+      "usage": "story card 4"
+    },
+    {
+      "id": "story-05",
+      "path": "../../../assets/images/topic-17/detail_01.jpg",
+      "alt": "캡틴 완장, 팀 허들, 경기 전 단톡방처럼 문의가 몰리는 느낌 curated reference 5",
+      "credit": "Curated local football reference / verify usage rights before final posting",
+      "usage": "story card 5"
+    },
+    {
+      "id": "product-01",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-009.jpg",
+      "alt": "PitchCheck app proof 1",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-02",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-010.jpg",
+      "alt": "PitchCheck app proof 2",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-03",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-012.jpg",
+      "alt": "PitchCheck app proof 3",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-04",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-014.jpg",
+      "alt": "PitchCheck app proof 4",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-05",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-020.jpg",
+      "alt": "PitchCheck app proof 5",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-06",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-027.jpg",
+      "alt": "PitchCheck app proof 6",
+      "credit": "Local PitchCheck media",
+      "usage": "card 6 operations proof"
+    },
+    {
+      "id": "product-07",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-029.jpg",
+      "alt": "PitchCheck app proof 7",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-08",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-022.jpg",
+      "alt": "PitchCheck app proof 8",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-09",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-005.jpg",
+      "alt": "PitchCheck app proof 9",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-10",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-006.jpg",
+      "alt": "PitchCheck app proof 10",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-11",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-007.jpg",
+      "alt": "PitchCheck app proof 11",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    },
+    {
+      "id": "product-12",
+      "path": "../../../assets/reference/pitchcheck-local/pitchcheck-video/frames/frame-008.jpg",
+      "alt": "PitchCheck app proof 12",
+      "credit": "Local PitchCheck media",
+      "usage": "card 7 CTA proof"
+    }
+  ],
+  "cards": [
+    {
+      "type": "cover",
+      "role": "attention",
+      "label": "주장 현실",
+      "headline": [
+        "완장 찼다고",
+        "권한 생기는 거 아님"
+      ],
+      "body": "IFAB 기준으로도 주장은 특별한 지위나 특권이 없습니다.",
+      "accent": [
+        "권한",
+        "아님"
+      ],
+      "source": "ifabLaw3",
+      "media": "story-01"
+    },
+    {
+      "type": "stat",
+      "role": "interest",
+      "label": "룰북 반전",
+      "headline": [
+        "있는 건 특권보다",
+        "팀 행동 책임"
+      ],
+      "body": "완장은 필요하지만, 경기 중 팀 행동에 책임을 지는 쪽에 가깝습니다.",
+      "accent": [
+        "책임"
+      ],
+      "source": "ifabLaw3",
+      "media": "story-02"
+    },
+    {
+      "type": "story",
+      "role": "interest",
+      "label": "동호회 번역",
+      "headline": [
+        "근데 현실은",
+        "단톡 담당자"
+      ],
+      "body": "장소 어디예요, 몇 시예요, 저 늦어요. 질문은 거의 주장한테 옵니다.",
+      "accent": [
+        "현실",
+        "단톡"
+      ],
+      "source": "ifabLaw3",
+      "media": "story-03"
+    },
+    {
+      "type": "bridge",
+      "role": "desire",
+      "label": "제일 빡센 순간",
+      "headline": [
+        "경기 2시간 전",
+        "답 안 한 사람"
+      ],
+      "body": "한 명만 확인 안 해도 인원, 포지션, 회비 계산이 다 흔들려요.",
+      "accent": [
+        "2시간 전",
+        "답 안 한"
+      ],
+      "source": "ifabLaw3",
+      "media": "story-04"
+    },
+    {
+      "type": "story",
+      "role": "bridge",
+      "label": "그래서",
+      "headline": [
+        "주장이 아니라",
+        "시스템이 물어야 함"
+      ],
+      "body": "출석, 일정, 위치를 앱에 남기면 같은 질문을 덜 반복합니다.",
+      "accent": [
+        "시스템",
+        "덜 반복"
+      ],
+      "source": "ifabLaw3",
+      "media": "story-05"
+    },
+    {
+      "type": "pitchcheck",
+      "role": "desire-empathy",
+      "label": "피치체크",
+      "headline": [
+        "확인은 단톡 말고",
+        "피치체크에 남겨요"
+      ],
+      "body": "누가 오는지, 어디로 오는지, 몇 시까지 오는지. 한 화면에서 확인하세요.",
+      "accent": [
+        "피치체크",
+        "확인"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06"
+      ],
+      "proofBadge": "출석 · 일정 · 위치 확인"
+    },
+    {
+      "type": "cta",
+      "role": "final-cta",
+      "label": "지금 설치",
+      "headline": [
+        "팀 운영 맡았다면",
+        "이건 깔아두세요"
+      ],
+      "body": [
+        "프로필 링크에서 설치하세요.",
+        "댓글 [피치체크] 남기면",
+        "사용 영상도 보내드려요."
+      ],
+      "accent": [
+        "프로필 링크",
+        "피치체크",
+        "설치"
+      ],
+      "source": "PitchCheck local media",
+      "mediaGallery": [
+        "product-01",
+        "product-02",
+        "product-03",
+        "product-04",
+        "product-05",
+        "product-06",
+        "product-07",
+        "product-08",
+        "product-09",
+        "product-10",
+        "product-11",
+        "product-12"
+      ],
+      "ctaSub": "출석 · 일정 · 위치 확인을 한 곳에서",
+      "ctaActionLabel": "프로필 링크",
+      "ctaActionValue": "설치하기",
+      "profileLinkNote": "댓글 [피치체크] 남기면 사용 영상도 보내드려요",
+      "ctaKeyword": "피치체크"
+    }
+  ],
+  "caption": "주장 완장 차면 권한보다 연락이 먼저 옵니다.\n\n재밌는 건, 룰북 기준으로도 주장은 특별한 특권이 있는 사람이 아닙니다. 오히려 팀 행동에 책임을 지는 쪽에 가깝죠.\n\n근데 동호회 축구에서는 장소 어디냐, 몇 시냐, 누가 오냐, 회비 냈냐까지 거의 주장/총무에게 몰립니다. 한 명만 답이 없어도 경기 전부터 머리가 아파요.\n\n피치체크는 출석, 일정, 위치 확인을 한 곳에서 정리하는 팀 운영 도구입니다.\n\n프로필 링크에서 설치하고, 댓글에 [피치체크] 남기면 사용 영상도 보내드려요.",
+  "notes": "Generated from samples/pitchcheck/story-bank-60.json. Gemini only writes bounded copy; layout, CTA order, media selection, and rendering are deterministic code paths."
+}
