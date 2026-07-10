@@ -1606,9 +1606,26 @@ assert.deepEqual(
   portfolioTargets,
 );
 
-assert.equal(roster.length, 71, "roster must contain exactly 71 rows");
+assert.equal(roster.length, 114, "roster must contain exactly 114 rows");
 const rosterByName = new Map(roster.map((subject) => [subject.displayName, subject]));
-assert.equal(new Set(roster.map((subject) => subject.displayName)).size, 71, "roster must have exactly 71 display names");
+assert.equal(new Set(roster.map((subject) => subject.displayName)).size, 114, "roster must have exactly 114 display names");
+assert.deepEqual(
+  Object.fromEntries(
+    Object.keys(portfolioTargets).map((portfolio) => [
+      portfolio,
+      roster.filter((subject) => subject.portfolio === portfolio).length,
+    ]),
+  ),
+  {
+    global_legend: 26,
+    current_star: 33,
+    korea_asia: 22,
+    women: 18,
+    cult_unusual: 15,
+  },
+  "roster must distribute the 114 subjects across all portfolios",
+);
+assert.ok(roster.every((subject) => subject.target <= 6), "no roster subject may target more than 6 stories");
 assert.deepEqual(
   Object.fromEntries(
     [...rosterByName].map(([displayName, subject]) => [
@@ -1618,9 +1635,27 @@ assert.deepEqual(
   ),
   rosterContract,
 );
-assert.equal(rosterByName.get("Lionel Messi").target, 20);
-assert.equal(rosterByName.get("Cristiano Ronaldo").target, 20);
-assert.equal(rosterByName.get("Son Heung-min").target, 12);
+assert.equal(rosterByName.get("Lionel Messi").target, 6);
+assert.equal(rosterByName.get("Cristiano Ronaldo").target, 6);
+assert.equal(rosterByName.get("Son Heung-min").target, 4);
+for (const player of [
+  "Samuel Eto'o",
+  "Victor Osimhen",
+  "Achraf Hakimi",
+  "Cafu",
+  "Paolo Maldini",
+  "Lev Yashin",
+  "Gianluigi Donnarumma",
+  "Lee Woon-jae",
+  "Hong Myung-bo",
+  "Lee Dong-gook",
+  "Lucy Bronze",
+  "Asisat Oshoala",
+  "Jose Luis Chilavert",
+  "Kazuyoshi Miura",
+]) {
+  assert.ok(rosterByName.has(player), `${player}: diversity expansion must be present in the roster`);
+}
 assert.equal(
   roster
     .filter((subject) => subject.portfolio === "women")

@@ -222,41 +222,29 @@ git commit -m "Migrate 50 unique sourced player stories"
 
 **파일:**
 
-- 생성: `samples/pitchcheck/real-player-roster-300.json`
-- 수정: `scripts/pitchcheck/lib/real-story-validation.mjs`
-- 테스트: `scripts/pitchcheck/test-real-player-story-bank.mjs`
+- 수정: `samples/pitchcheck/real-player-roster-300.json`
+- 수정: `tests/fixtures/real-player-roster-300.contract.json`
+- 수정: `scripts/pitchcheck/test-real-player-story-bank.mjs`의 roster assertion
 
-- [ ] **1단계: 포트폴리오 총합과 핵심 선수 목표 검사 추가**
+- [x] **1단계: 포트폴리오 총합과 분산 기준 고정**
 
-```js
-assert.deepEqual(roster.portfolioTargets, {
-  global_legend: 130,
-  current_star: 80,
-  korea_asia: 40,
-  women: 30,
-  cult_unusual: 20,
-});
-assert.equal(Object.values(roster.portfolioTargets).reduce((a, b) => a + b, 0), 300);
-assert.ok(roster.players.find((p) => p.id === "lionel-messi").target >= 18);
-assert.ok(roster.players.find((p) => p.id === "cristiano-ronaldo").target >= 18);
-assert.ok(roster.players.find((p) => p.id === "son-heung-min").target >= 10);
-```
+포트폴리오 목표는 `global_legend 130`, `current_star 80`, `korea_asia 40`, `women 30`, `cult_unusual 20`으로 총 300개를 유지한다. roster는 114명의 고유 subject로 확장하고 포트폴리오별 고유 수는 각각 26, 33, 22, 18, 15명으로 고정한다. 모든 target은 1~6 범위에 두며 메시, 호날두, 손흥민의 목표도 각각 6, 6, 4개로 분산한다.
 
-- [ ] **2단계: 선수 명단 작성**
+- [x] **2단계: 지역·시대·역할을 포함한 선수 명단 작성**
 
-명단에는 최소한 메시, 호날두, 손흥민, 네이마르, 즐라탄, 호나우지뉴, 베컴, 루니, 앙리, 음바페, 살라, 모드리치, 더 브라위너, 캉테, 마르타, 알렉시아 푸테야스, 아다 헤게르베르그, 샘 커, 아이타나 본마티를 포함한다. `target`, `portfolio`, `searchNames`, `prioritySources`를 선수마다 기록한다.
+기존 71명의 `id`와 `portfolio`는 유지하고 target만 재조정한다. 새 명단에는 아프리카의 사무엘 에투·디디에 드로그바·빅터 오시멘·아시사트 오쇼알라, 남미의 가린샤·카푸·호베르투 카를루스·호세 루이스 칠라베르트, 유럽의 레프 야신·프란츠 베켄바워, 아시아 및 K리그의 이운재·홍명보·기성용·이동국·김진수, 여자축구의 호마레 사와·루시 브론즈·아시사트 오쇼알라를 포함한다. 골키퍼와 수비수, 현역과 은퇴 선수, 코치가 함께 검색되도록 각 행에 `target`, `portfolio`, `searchNames`, `prioritySources`를 기록한다.
 
-- [ ] **3단계: 포트폴리오 검사 구현 및 실행**
+- [x] **3단계: 포트폴리오·계약·다양성 검사 실행**
 
 실행: `node scripts/pitchcheck/test-real-player-story-bank.mjs`
 
-예상: `roster targets: 300`과 함께 통과한다.
+검사는 114개 고유 이름과 ID, 포트폴리오별 사건 합계, 포트폴리오별 subject 수, target 상한 6, 대표 지역·역할·시대 이름, `searchNames`와 `prioritySources` 필드를 모두 확인한다.
 
-- [ ] **4단계: 커밋**
+- [x] **4단계: 커밋**
 
 ```powershell
-git add samples/pitchcheck/real-player-roster-300.json scripts/pitchcheck/lib/real-story-validation.mjs scripts/pitchcheck/test-real-player-story-bank.mjs
-git commit -m "Define 300 story player portfolio"
+git add samples/pitchcheck/real-player-roster-300.json tests/fixtures/real-player-roster-300.contract.json scripts/pitchcheck/test-real-player-story-bank.mjs docs/superpowers/specs/2026-07-10-pitchcheck-300-real-player-stories-design.md docs/superpowers/plans/2026-07-10-pitchcheck-300-real-player-stories.md
+git commit -m "Diversify 300 story roster"
 ```
 
 ### 작업 4: 출처 카탈로그와 리서치 폴더
