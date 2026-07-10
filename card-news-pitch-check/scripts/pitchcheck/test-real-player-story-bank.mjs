@@ -1081,6 +1081,52 @@ for (const entry of sonSalahKoreanIndex) {
 assert.equal(new Set(sonSalahKoreanIndex.map((entry) => entry.eventKey)).size, 20);
 assert.equal(sonSalahFacts.size, 20);
 
+function assertGroundedTarget(topicId, sourceRef, claimPatterns, evidencePatterns) {
+  const topic = sonSalahSeeds.topics.find((candidate) => candidate.id === topicId);
+  assert.ok(topic, `${topicId}: targeted grounding topic missing`);
+  assert.ok(topic.sourceRefs.includes(sourceRef), `${topicId}: expected source ID ${sourceRef}`);
+  const topicClaims = [topic.hook, topic.fact, topic.context, ...topic.copy.cards.slice(0, 5)].join("\n");
+  const sourceEvidence = sonSalahSourceSnippets(sourceRef);
+  for (const pattern of claimPatterns) {
+    assert.match(topicClaims, pattern, `${topicId}: key claim missing from hook/fact/context/copy`);
+  }
+  for (const pattern of evidencePatterns) {
+    assert.match(sourceEvidence, pattern, `${topicId}: source evidence missing ${pattern}`);
+  }
+  assert.doesNotMatch(sourceEvidence, /(?:against|joined|star is|short of the|goals and)\s*$/m, `${topicId}: source evidence is truncated`);
+}
+
+assertGroundedTarget(
+  "son-005-first-asian-premier-league-century",
+  "son_source_05",
+  [/브라이턴/, /100호 골/, /첫 아시아 선수/],
+  [/Published 08 Apr 2023\./, /By scoring the opener against Brighton & Hove Albion, Son Heung-min joined/, /first Asian player to reach the milestone/],
+);
+assertGroundedTarget(
+  "son-006-shared-golden-boot-23",
+  "son_source_06",
+  [/노리치전/, /23골/, /살라/],
+  [/Son Heung-min shared the Castrol Golden Boot award with Salah, scoring twice in a 5-0 win over Norwich while Salah scored once against Wolves\. Both finished on 23 goals\./],
+);
+assertGroundedTarget(
+  "son-010-150-premier-league-goal-contributions",
+  "son_source_10",
+  [/2022\/23/, /47경기/, /해리 케인\(49\)/],
+  [/2022\/23 season came to a close/, /Heung-Min Son \(47\) and Ivan Perisic \(44\) complete the top three/],
+);
+assertGroundedTarget(
+  "son-011-asian-champions-league-scoring-leader",
+  "son_source_11",
+  [/19골/, /메흐디 타레미/, /막심 샤츠키흐/],
+  [/19: Heung-Min Son \(KOR – Leverkusen, Tottenham\)/, /13: Mehdi Taremi/, /11: Maksim Shatskikh/],
+);
+assertGroundedTarget(
+  "salah-004-fifty-seven-goal-involvements",
+  "salah_source_04",
+  [/52경기/, /34골/, /23도움/, /47개/],
+  [/34 strikes and 23 assists from his 52 outings/, /Those 34 strikes and 23 assists total 57 goal involvements/, /47 - came in the Premier League on the way to lifting the title/],
+);
+
 assert.throws(
   () => buildCatalog({ ian_wright_tpt: "https://notplayerstribune.com/example" }, sourcePackInputs),
   /ian_wright_tpt: unknown or malformed source URL/,

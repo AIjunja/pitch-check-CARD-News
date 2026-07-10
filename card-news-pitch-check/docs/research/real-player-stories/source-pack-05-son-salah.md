@@ -299,15 +299,11 @@ Use notes:
 
 ### Useful Text Snippets
 - Spurs star becomes first player from Asia to reach a century of strikes
-- By scoring the opener against
-- joined the Premier League's illustrious "100 Club" of players to reach a century of goals in the competition.
-- star is the first Asian player to reach the milestone.
+- Published 08 Apr 2023.
+- By scoring the opener against Brighton & Hove Albion, Son Heung-min joined the Premier League's illustrious "100 Club" of players to reach a century of goals in the competition.
+- The Tottenham Hotspur star is the first Asian player to reach the milestone.
 - “I take big responsibility. All the Asian players can believe they can also achieve big things”
-- Sonny on becoming the first Asian player to join the
-- Welcome to the 100 club, Heung-Min Son 👏
-- in 33rd place in the Premier League's all-time goalscorer rankings.
-- Son Heung-min is a superstar! 💫 🇰🇷
-- That Son's seventh strike of the season and his third in in his past four home appearances means he is still short of the 23 he struck to claim a share of the
+- That Son's seventh strike of the season and his third in his past four home appearances means he is still short of the 23 he struck to claim a share of the 2021/22 Castrol Golden Boot.
 
 ### Media Candidates
 - https://resources.premierleague.com/premierleague/photo/2023/04/08/1929296a-b2de-4a6a-ba60-c6b430cb2876/Son-clebrates-his-100th-PL-goal.jpg
@@ -351,17 +347,8 @@ Use notes:
 
 ### Useful Text Snippets
 - Remember the highs and lows of a dramatic campaign as Man City pip Liverpool to retain the Premier League title.
-- once again locked horns to earn the right to be called Premier League champions, and it was
-- 's side who triumphed again.
-- After winning the Trophy in 2020/21 with 86 points,
-- stepped up a gear and racked up 93 points in 2021/22.
-- The champions showed remarkable consistency thanks to incredible performances from the likes of
-- They were forced to maintain those levels by a similarly relentless Liverpool team who lost only two matches all season, one fewer than City.
-- 's side were 14 points behind the leaders in mid-January but battled back valiantly and took the race to the final day, ultimately missing out by just one point.
-- Man City began the season with a
-- but bounced back quickly, recording back-to-back 5-0 wins over
-- Elsewhere, there were strong starts from
-- , who all earned seven points from their opening three matches.
+- Son Heung-min shared the Castrol Golden Boot award with Salah, scoring twice in a 5-0 win over Norwich while Salah scored once against Wolves. Both finished on 23 goals.
+- Salah also claimed the Castrol Playmaker of the Season award with 13 assists.
 
 ### Media Candidates
 - https://resources.premierleague.com/premierleague/photo/2022/05/25/6b56b38c-4a3c-451a-b958-9d00798381bd/1398685461.jpg
@@ -706,16 +693,10 @@ Use notes:
 ### Useful Text Snippets
 - Which Asian players have the most appearances and goals in Europe's leading club competition?
 - Asian footballers were rare in western Europe when Bum-Kun Cha joined Eintracht Frankfurt in 1979, but the Korean forward was a trailblazer, winning the UEFA Cup with the club in 1980. Following in his footsteps, the best Asian players now express themselves in UEFA's club competitions, the likes of Mehdi Taremi, Heung-Min Son and Takumi Minamino gaining significant exposure in the UEFA Champions League.
-- – 8: Agim Meto (Besa, Flamurtari, Laç)
-- – 11:﻿ Abdulla Yusuf Helal (Slavia Praha, Liberec)
-- – 12: Hamza Choudhury (Leicester)
-- – 1= Reg Pickett (Ipswich Town), Gurpreet Singh Sandhu (Stabæk)
-- – 54: Kevin Diks (INA – Vitesse, Feyenoord, Copenhagen)
-- – 51: Mehdi Taremi (IRI – Porto, Inter, Olympiacos)
-- – 22: Merchas Doski (Slovacko, Viktoria Plzen)
-- – 68: Takumi Minamino (Salzburg, Liverpool, Monaco)
-- ﻿– 25: Musa Al-Taamari (APOEL)
-- – 10: Kwang-Ryong Pak (Basel, Vaduz)
+- Top-scoring Asian nationals in the UEFA Champions League (group stage/league phase to final): All 19 of Heung-Min Son's Champions League goals.
+- 19: Heung-Min Son (KOR – Leverkusen, Tottenham)
+- 13: Mehdi Taremi (IRI – Porto, Inter, Olympiacos)
+- 11: Maksim Shatskikh (UZB – Dynamo Kyiv)
 
 ### Media Candidates
 - https://editorial.uefa.com/resources/02a1-1fa1bf4a9c95-c136e00869b2-1000/ucl_24x27_-_web_specific_mulitplayer_x4_-_email_26_.jpeg
@@ -916,11 +897,11 @@ Use notes:
 - evidence: 손흥민이 2025년 한국축구협회 올해의 남자 선수상을 통산 8번째로 받았다.
 - scope: 수상 횟수와 발표문 속 토트넘 누적 기록만 사용한다.
 
-### 10. 프리미어리그 150개 골 관여
-- eventKey: `son-heung-min|2023|150-premier-league-goal-contributions`
+### 10. 2022/23시즌 47경기 출전
+- eventKey: `son-heung-min|2023|47-premier-league-appearances`
 - source IDs: son_source_10
-- evidence: 손흥민이 프리미어리그 100골과 50도움을 합쳐 150개 골 관여에 도달했다.
-- scope: 토트넘의 2022/23 시즌 숫자 정리만 사용한다.
+- evidence: 토트넘이 2022/23시즌 손흥민의 모든 대회 47경기 출전을 시즌 숫자로 정리했다.
+- scope: 토트넘의 2022/23 시즌 출전 숫자와 최다 출전 선수 비교만 사용한다.
 
 ### 11. UEFA가 정리한 아시아 챔피언스리그 최다 득점
 - eventKey: `son-heung-min|2025|asian-champions-league-goals`
@@ -1080,35 +1061,28 @@ Use notes:
 - https://telegram.me/share/url?url=&text=In
 - https://www.instagram.com/p/DWRvm_WjnhJ/?utm_source=ig_embed&amp;utm_campaign=loading
 
-## Source 16: Thank you, Mo Salah - a fond farewell to the Egyptian King - Liverpool FC
+## Source 16: Watch every Mohamed Salah goal and assist from 2024-25 - Liverpool FC
 
-- URL: https://www.liverpoolfc.com/news/thank-you-mo-salah-fond-farewell-egyptian-king
+- URL: https://www.liverpoolfc.com/news/watch-every-mohamed-salah-goal-and-assist-2024-25
 - Status: 200
-- Description: Mohamed Salah certainly fulfilled the promise he made on his first day as a Liverpool player.
-- Primary image candidate: https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-05/mo-salah-thank-you-v2-21052026_e5c08d00b008e5db6869195c8fd54f52.jpeg?itok=gt2hD1_U
+- Description: Watch all of Mohamed Salah's goal involvements from the 2024-25 season in our free compilation.
+- Primary image candidate: https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2025-06/mohamed-salah-liverpool-fc-020625_85db3c7f1fc429fff9400d7adeee7947.jpg?itok=MVemY_rb
 
 ### Headings
-- Thank you, Mo Salah - a fond farewell to the Egyptian King
+- Watch every Mohamed Salah goal and assist from 2024-25
 
 ### Useful Text Snippets
-- Mohamed Salah certainly fulfilled the promise he made on his first day as a Liverpool player.
-- "I will give 100 per cent and give everything for the club," the 25-year-old Salah vowed.
-- There is keeping your word, and then there is what followed from him over the next nine years.
-- The Egyptian who arrived with a point to prove departs Anfield with a near-unmatched legacy.
-- There is the success he helped deliver – enough to cement himself in club folklore by itself – but then the individual statistics that put him down as one of the best to have pulled on the shirt.
-- Greatness has been right before our eyes and the pleasure was ours.
+- Watch all of Mohamed Salah's goal involvements from the 2024-25 season in our free compilation.
+- The Egyptian produced 34 strikes and 23 assists from his 52 outings in Liverpool's memorable campaign just completed.
+- Those 34 strikes and 23 assists total 57 goal involvements from 52 outings.
+- The bulk of those - 47 - came in the Premier League on the way to lifting the title, as the No.11 equalled the all-time competition record.
+- Watch Salah's incredible exploits in the YouTube video below.
 - You have to accept cookies in order to view this content on our site.
-- goals and 120 assists from 442
-- – have scored more goals for Liverpool.
-- He is the Reds' all-time leading Premier League scorer and assister, too.
-- The 'serial winner' tag probably underwhelms the No.11, who lifted two league titles, the Champions League, FIFA Club World Cup, UEFA Super Cup, FA Cup and a pair of Carabao Cups during his time on Merseyside.
-- On top of that, he claimed three PFA Players' Player of the Year awards and the same number of FWA Footballer of the Year honours.
 
 ### Media Candidates
-- https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-05/mo-salah-thank-you-v2-21052026_e5c08d00b008e5db6869195c8fd54f52.jpeg?itok=gt2hD1_U
+- https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2025-06/mohamed-salah-liverpool-fc-020625_85db3c7f1fc429fff9400d7adeee7947.jpg?itok=MVemY_rb
 - https://www.liverpoolfc.com/liverpoolfc_crest.webp
 - https://www.liverpoolfc.com/standard-chartered.webp
-- https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-05/mo-salah-thank-you-v2-21052026_e5c08d00b008e5db6869195c8fd54f52.webp?itok=2IbD9DAF&width=1680
 - https://www.liverpoolfc.com/icon-facebook.webp
 - https://www.liverpoolfc.com/icon-twitter.webp
 - https://www.liverpoolfc.com/icon-email.webp
@@ -1121,8 +1095,8 @@ Use notes:
 - https://twitter.com/share?url=
 - https://wa.me/?text=
 - https://www.linkedin.com/feed/?shareActive=true&text=
-- https://telegram.me/share/url?url=&text=Thank
-- https://youtube.com/watch?v=1Z9cA8RyHyw
+- https://telegram.me/share/url?url=&text=Watch
+- https://youtube.com/watch?v=t5PtlOA0Ksc
 - https://www.liverpoolfc.com/info/ian-rush
 - https://www.liverpoolfc.com/info/roger-hunt
 - https://www.instagram.com/p/DWbf-zrjbgS/?utm_source=ig_embed&amp;utm_campaign=loading

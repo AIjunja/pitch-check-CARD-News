@@ -16,7 +16,7 @@
     "salah_source_01": "https://www.liverpoolfc.com/news/mohamed-salah-scores-landmark-50th-goal-champions-league",
     "salah_source_02": "https://www.premierleague.com/en/news/4314803/salah-sweeps-202425-player-of-the-season-golden-boot-and-playmaker-awards",
     "salah_source_03": "https://www.liverpoolfc.com/news/full-mohamed-salahs-message-liverpool-supporters",
-    "salah_source_04": "https://www.liverpoolfc.com/news/thank-you-mo-salah-fond-farewell-egyptian-king",
+    "salah_source_04": "https://www.liverpoolfc.com/news/watch-every-mohamed-salah-goal-and-assist-2024-25",
     "salah_source_05": "https://www.premierleague.com/en/news/688761/salah-breaks-record-as-liverpool-seal-top-four-spot",
     "salah_source_06": "https://www.premierleague.com/en/news/1206108/premierleague-golden-boot-award-winners",
     "salah_source_07": "https://www.uefa.com/uefachampionsleague/news/0274-14f2207191c2-31a2ab4d6dae-1000--2018-19-spurs-vs-ajax-barcelona-vs-liverpool-was-this-the-b/",
@@ -610,7 +610,7 @@
       "portfolio": "korea_asia",
       "category": "award",
       "eventDate": "2022-05-22",
-      "hook": "손흥민은 페널티킥 없이도 골든부트의 꼭대기에 섰다.",
+      "hook": "노리치전 두 골로 손흥민은 살라와 같은 23골에 도달했다.",
       "fact": "2021/22 프리미어리그에서 손흥민은 23골로 모하메드 살라와 골든부트를 공동 수상했다.",
       "context": "프리미어리그 시즌 리뷰는 손흥민이 노리치전에서 두 골을 넣었고 두 선수 모두 23골로 마쳤다고 기록한다.",
       "whyFun": "한 시즌의 마지막 장면이 두 명의 이름을 같은 줄에 올렸다.",
@@ -640,7 +640,7 @@
           "노리치전 두 골",
           "손흥민과 살라의 같은 숫자",
           "2021/22 시즌 리뷰",
-          "페널티킥 없이 만든 득점",
+          "노리치전 두 골로 만든 23골",
           "우리 팀도 결과만 비교하기보다 각자의 역할이 만든 숫자를 함께 보자",
           "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
         ],
@@ -677,8 +677,8 @@
           {
             "card": 5,
             "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
-            "subject": "페널티킥 없이 만든 득점",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 페널티킥 없이 만든 득점, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "노리치전 두 골로 만든 23골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 노리치전 두 골로 만든 23골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
@@ -709,7 +709,7 @@
           "cta"
         ],
         "cards": [
-          "손흥민은 페널티킥 없이도 골든부트의 꼭대기에 섰다.",
+          "노리치전 두 골로 손흥민은 살라와 같은 23골에 도달했다.",
           "2021/22 프리미어리그에서 손흥민은 23골로 모하메드 살라와 골든부트를 공동 수상했다.",
           "프리미어리그 시즌 리뷰는 손흥민이 노리치전에서 두 골을 넣었고 두 선수 모두 23골로 마쳤다고 기록한다.",
           "한 시즌의 마지막 장면이 두 명의 이름을 같은 줄에 올렸다.",
@@ -1069,17 +1069,17 @@
     },
     {
       "id": "son-010-150-premier-league-goal-contributions",
-      "eventKey": "son-heung-min|2023|150-premier-league-goal-contributions",
+      "eventKey": "son-heung-min|2023|47-premier-league-appearances",
       "player": "Son Heung-min",
       "portfolio": "korea_asia",
-      "category": "milestone",
-      "eventDate": "2023-04-01",
-      "hook": "100골을 넘은 뒤에도 손흥민의 다음 숫자는 멈추지 않았다.",
-      "fact": "토트넘은 손흥민이 2022/23 시즌 브라이턴전에서 프리미어리그 150개 골 관여를 달성했다고 기록했다.",
-      "context": "그 이정표는 프리미어리그 100골과 50도움의 합으로 정리됐다.",
-      "whyFun": "골만으로는 설명되지 않는 공격수의 다음 레벨이 숫자로 보인다.",
-      "shareTrigger": "누적 기여는 한 번의 하이라이트보다 긴 시즌을 말해준다.",
-      "evidence": "150개 공격포인트를 공식 출처의 본문과 기록에서 확인했다.",
+      "category": "season-statistics",
+      "eventDate": null,
+      "hook": "2022/23시즌 토트넘에서 손흥민은 47경기를 뛰었다.",
+      "fact": "토트넘은 2022/23시즌 모든 대회에서 손흥민이 47경기에 출전했다고 기록했다.",
+      "context": "토트넘의 시즌 숫자 리뷰는 손흥민(47)이 해리 케인(49), 이반 페리시치(44)와 최다 출전 선수 3명에 들었다고 정리했다.",
+      "whyFun": "한 시즌의 존재감은 골 장면뿐 아니라 매 경기 출석표에도 남는다.",
+      "shareTrigger": "눈에 띄는 한 장면보다 꾸준히 이름을 올린 기록이 오래 남는다.",
+      "evidence": "2022/23시즌 손흥민의 47경기 출전을 공식 출처의 시즌 숫자 리뷰에서 확인했다.",
       "sourceRefs": [
         "son_source_10"
       ],
@@ -1093,18 +1093,18 @@
       },
       "visualPlan": {
         "queries": [
-          "Son 150 Premier League goal contributions",
-          "Son 100 goals 50 assists Spurs",
-          "Tottenham season numbers Son",
-          "football goal contribution graphic",
-          "Son Premier League milestone"
+          "Son 47 appearances Tottenham 2022-23",
+          "Tottenham 2022-23 season numbers Son",
+          "Heung-Min Son 47 appearances",
+          "Tottenham season statistics football",
+          "Son Premier League season review"
         ],
         "cardPlan": [
-          "150개 골 관여",
-          "100골과 50도움",
-          "브라이턴전에서 열린 이정표",
-          "누적 기여의 힘",
-          "하이라이트 밖의 시즌",
+          "47경기 출전",
+          "토트넘 시즌 숫자 리뷰",
+          "손흥민 47경기",
+          "꾸준히 이름을 올린 시즌",
+          "하이라이트 밖의 출석표",
           "우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다",
           "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
         ],
@@ -1113,36 +1113,36 @@
           {
             "card": 1,
             "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
-            "subject": "150개 골 관여",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 150개 골 관여, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "47경기 출전",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 47경기 출전, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
             "card": 2,
             "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
-            "subject": "100골과 50도움",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 100골과 50도움, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "토트넘 시즌 숫자 리뷰",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 토트넘 시즌 숫자 리뷰, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
             "card": 3,
             "crop": "center 52% 46%, scale 1.08, keep action in middle third",
-            "subject": "브라이턴전에서 열린 이정표",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 브라이턴전에서 열린 이정표, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "손흥민 47경기",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 손흥민 47경기, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
             "card": 4,
             "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
-            "subject": "누적 기여의 힘",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 누적 기여의 힘, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "꾸준히 이름을 올린 시즌",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 꾸준히 이름을 올린 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
             "card": 5,
             "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
-            "subject": "하이라이트 밖의 시즌",
-            "prompt": "Reference-only editorial football visual for Son Heung-min: 하이라이트 밖의 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "하이라이트 밖의 출석표",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 하이라이트 밖의 출석표, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
@@ -1173,11 +1173,11 @@
           "cta"
         ],
         "cards": [
-          "100골을 넘은 뒤에도 손흥민의 다음 숫자는 멈추지 않았다.",
-          "토트넘은 손흥민이 2022/23 시즌 브라이턴전에서 프리미어리그 150개 골 관여를 달성했다고 기록했다.",
-          "그 이정표는 프리미어리그 100골과 50도움의 합으로 정리됐다.",
-          "골만으로는 설명되지 않는 공격수의 다음 레벨이 숫자로 보인다.",
-          "누적 기여는 한 번의 하이라이트보다 긴 시즌을 말해준다.",
+          "2022/23시즌 토트넘에서 손흥민은 47경기를 뛰었다.",
+          "토트넘은 2022/23시즌 모든 대회에서 손흥민이 47경기에 출전했다고 기록했다.",
+          "토트넘의 시즌 숫자 리뷰는 손흥민(47)이 해리 케인(49), 이반 페리시치(44)와 최다 출전 선수 3명에 들었다고 정리했다.",
+          "한 시즌의 존재감은 골 장면뿐 아니라 매 경기 출석표에도 남는다.",
+          "눈에 띄는 한 장면보다 꾸준히 이름을 올린 기록이 오래 남는다.",
           "우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다",
           "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
         ]
@@ -1772,7 +1772,7 @@
       "eventDate": "2025-05-25",
       "hook": "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
       "fact": "리버풀은 살라가 2024/25 시즌 52경기에서 34골과 23도움을 기록했다고 정리했다.",
-      "context": "리버풀은 그가 팬들 앞에서 두 번째 프리미어리그 우승을 들어 올리는 데 기여했다고 전했다.",
+      "context": "리버풀은 34골과 23도움 중 47개가 프리미어리그에서 나와 우승으로 이어졌다고 전했다.",
       "whyFun": "골과 도움을 더한 숫자가 한 시즌의 밀도를 보여준다.",
       "shareTrigger": "57개 관여는 혼자 빛난 기록이 아니라 우승으로 이어진 생산성이다.",
       "evidence": "2024/25 57개 관여를 공식 출처의 본문과 기록에서 확인했다.",
@@ -1798,7 +1798,7 @@
         "cardPlan": [
           "52경기 57개 공격포인트",
           "34골과 23도움",
-          "두 번째 프리미어리그 우승",
+          "리그 우승으로 이어진 47개 PL 관여",
           "생산성이 우승이 된 시즌",
           "골과 도움의 합",
           "우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다",
@@ -1823,8 +1823,8 @@
           {
             "card": 3,
             "crop": "center 52% 46%, scale 1.08, keep action in middle third",
-            "subject": "두 번째 프리미어리그 우승",
-            "prompt": "Reference-only editorial football visual for Mohamed Salah: 두 번째 프리미어리그 우승, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "subject": "리그 우승으로 이어진 47개 PL 관여",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 리그 우승으로 이어진 47개 PL 관여, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
             "usageStatus": "reference-only"
           },
           {
@@ -1871,7 +1871,7 @@
         "cards": [
           "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
           "리버풀은 살라가 2024/25 시즌 52경기에서 34골과 23도움을 기록했다고 정리했다.",
-          "리버풀은 그가 팬들 앞에서 두 번째 프리미어리그 우승을 들어 올리는 데 기여했다고 전했다.",
+          "리버풀은 34골과 23도움 중 47개가 프리미어리그에서 나와 우승으로 이어졌다고 전했다.",
           "골과 도움을 더한 숫자가 한 시즌의 밀도를 보여준다.",
           "57개 관여는 혼자 빛난 기록이 아니라 우승으로 이어진 생산성이다.",
           "우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다",
