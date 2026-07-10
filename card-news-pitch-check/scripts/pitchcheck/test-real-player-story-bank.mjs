@@ -600,6 +600,26 @@ for (const topic of ronaldoSeeds.topics) {
   assert.equal(topic.visualPlan?.usageStatus, "reference-only", `${topic.id}: visualPlan usageStatus`);
   assert.ok(Array.isArray(topic.visualPlan?.cardPlan), `${topic.id}: visualPlan.cardPlan must be an array`);
   assert.equal(topic.visualPlan.cardPlan.length, 7, `${topic.id}: visualPlan.cardPlan must have 7 entries`);
+  assert.ok(Array.isArray(topic.visualPlan?.cards), `${topic.id}: visualPlan.cards must be an array`);
+  assert.equal(topic.visualPlan.cards.length, 7, `${topic.id}: visualPlan.cards must have 7 entries`);
+  for (const [index, visualCard] of topic.visualPlan.cards.entries()) {
+    assert.equal(visualCard.card, index + 1, `${topic.id}: visualPlan.cards[${index}].card must match its position`);
+    assert.ok(typeof visualCard.crop === "string" && visualCard.crop.trim(), `${topic.id}: card ${index + 1} missing crop`);
+    assert.ok(
+      typeof visualCard.subject === "string" && visualCard.subject.trim(),
+      `${topic.id}: card ${index + 1} missing primary subject`,
+    );
+    assert.ok(
+      typeof visualCard.prompt === "string" && visualCard.prompt.trim(),
+      `${topic.id}: card ${index + 1} missing reproducible image prompt`,
+    );
+    assert.match(visualCard.prompt, /reference-only/i, `${topic.id}: card ${index + 1} prompt must be reference-only`);
+    assert.equal(
+      visualCard.usageStatus,
+      "reference-only",
+      `${topic.id}: card ${index + 1} usageStatus must be reference-only`,
+    );
+  }
   assert.equal(topic.copy.cards.length, 7, `${topic.id}: copy.cards must have 7 entries`);
   for (const [index, card] of topic.copy.cards.entries()) {
     const text = JSON.stringify(card);
