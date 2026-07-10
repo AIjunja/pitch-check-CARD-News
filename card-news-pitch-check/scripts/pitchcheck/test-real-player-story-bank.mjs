@@ -10,6 +10,7 @@ import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
 const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-messi.json");
+const RONALDO_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-ronaldo.json");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
 const BBC_YOUTUBE_VIDEO_ID = "6caCqn_nD6o";
 const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
@@ -138,6 +139,37 @@ function parseMessiKoreanIndex(sourcePack, sourcePackPath) {
   return entries;
 }
 
+function parseRonaldoKoreanIndex(sourcePack, sourcePackPath) {
+  const heading = "## 한국어 이벤트 인덱스: 근거 메모";
+  const headingIndex = sourcePack.indexOf(heading);
+  assert.notEqual(headingIndex, -1, `${sourcePackPath}: missing Korean Ronaldo index`);
+  const section = sourcePack.slice(headingIndex + heading.length).trim();
+  const entries = [...section.matchAll(
+    /^### (\d+)\. (.+)\r?\n- eventKey: `([^`]+)`\r?\n- source IDs: ([^\r\n]+)\r?\n- evidence: ([^\r\n]+)\r?\n- scope: ([^\r\n]+)$/gm,
+  )].map((match) => ({
+    number: Number(match[1]),
+    title: match[2].trim(),
+    eventKey: match[3].trim(),
+    sourceIds: match[4].split(",").map((sourceId) => sourceId.trim()).filter(Boolean),
+    evidence: match[5].trim(),
+    scope: match[6].trim(),
+  }));
+
+  assert.equal(entries.length, 20, `${sourcePackPath}: Korean Ronaldo index must contain exactly 20 entries`);
+  assert.deepEqual(
+    entries.map((entry) => entry.number),
+    Array.from({ length: 20 }, (_, index) => index + 1),
+    `${sourcePackPath}: Korean Ronaldo index entries must be numbered 1-20`,
+  );
+  for (const entry of entries) {
+    assert.ok(entry.title, `${entry.eventKey}: missing Korean event title`);
+    assert.ok(entry.sourceIds.length > 0, `${entry.eventKey}: missing source IDs`);
+    assert.ok(entry.evidence, `${entry.eventKey}: missing Korean evidence`);
+    assert.ok(entry.scope, `${entry.eventKey}: missing Korean scope`);
+  }
+  return entries;
+}
+
 function isCanonicalBbcYouTubeUrl(parsedUrl) {
   if (["www.youtube.com", "youtube.com"].includes(parsedUrl.hostname)) {
     return parsedUrl.pathname === "/watch" && parsedUrl.searchParams.get("v") === BBC_YOUTUBE_VIDEO_ID;
@@ -224,7 +256,12 @@ assert.ok(
   fs.existsSync(MESSI_SEEDS_PATH),
   "samples/pitchcheck/real-player-story-seeds-messi.json must exist",
 );
+assert.ok(
+  fs.existsSync(RONALDO_SEEDS_PATH),
+  "samples/pitchcheck/real-player-story-seeds-ronaldo.json must exist",
+);
 const messiSeeds = JSON.parse(fs.readFileSync(MESSI_SEEDS_PATH, "utf8"));
+const ronaldoSeeds = JSON.parse(fs.readFileSync(RONALDO_SEEDS_PATH, "utf8"));
 const roster = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-roster-300.json"), "utf8"),
 );
@@ -244,16 +281,28 @@ const sourcePackInputs = {
     path.join(ROOT, "docs/research/real-player-stories/source-pack-02-messi.md"),
     "utf8",
   ),
+  "docs/research/real-player-stories/source-pack-03-ronaldo.md": fs.readFileSync(
+    path.join(ROOT, "docs/research/real-player-stories/source-pack-03-ronaldo.md"),
+    "utf8",
+  ),
 };
 const messiKoreanIndex = parseMessiKoreanIndex(
   sourcePackInputs["docs/research/real-player-stories/source-pack-02-messi.md"],
   "docs/research/real-player-stories/source-pack-02-messi.md",
 );
+const ronaldoKoreanIndex = parseRonaldoKoreanIndex(
+  sourcePackInputs["docs/research/real-player-stories/source-pack-03-ronaldo.md"],
+  "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+);
 
 if (process.argv.includes("--write-catalog")) {
   fs.writeFileSync(
     CATALOG_PATH,
-    `${JSON.stringify(buildCatalog({ ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs }, sourcePackInputs), null, 2)}\n`,
+    `${JSON.stringify(
+      buildCatalog({ ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs }, sourcePackInputs),
+      null,
+      2,
+    )}\n`,
     "utf8",
   );
   console.log(`wrote ${path.relative(ROOT, CATALOG_PATH)}`);
@@ -269,13 +318,13 @@ const portfolioTargets = {
 const allowedPortfolios = new Set(Object.keys(portfolioTargets));
 const allowedSourceFamilies = new Set(["FIFA"]);
 
-const allSourceRefs = { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs };
+const allSourceRefs = { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs };
 const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const expectedSourceIds = Object.keys(allSourceRefs).sort();
 
-assert.equal(sourceCatalog.sources.length, 42);
-assert.equal(persistedSourceCatalog.sources.length, 42);
+assert.equal(sourceCatalog.sources.length, 62);
+assert.equal(persistedSourceCatalog.sources.length, 62);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
 assert.deepEqual(
   buildCatalog(allSourceRefs, sourcePackInputs),
@@ -479,6 +528,112 @@ assert.equal(
   "lionel-messi|2000|napkin-contract",
 );
 assert.equal(sourceCatalogById.get("messi_source_03")?.tier, "primary");
+
+const ronaldoEventKeys = new Set();
+const ronaldoFacts = new Set();
+const ronaldoSeedByEventKey = new Map();
+const ronaldoCtaTerms = /PitchCheck|피치체크|프로필 링크|다운로드|설치|\[피치체크\]/i;
+const ronaldoUnrelatedCtaTerms = /구독|구매|신청|뉴스레터|알림|설치|다운로드/i;
+
+assert.deepEqual(
+  validateStoryBank(ronaldoSeeds, { expectedCount: 20 }),
+  { topics: 20, uniqueEvents: 20 },
+);
+assert.equal(Object.keys(ronaldoSeeds.sourceRefs).length, 20);
+assert.ok(Object.keys(ronaldoSeeds.sourceRefs).every((sourceId) => /^ronaldo_source_\d{2}$/.test(sourceId)));
+assert.equal(new Set(ronaldoKoreanIndex.map((entry) => entry.eventKey)).size, 20);
+
+for (const entry of ronaldoKoreanIndex) {
+  const topic = ronaldoSeeds.topics.find((candidate) => candidate.eventKey === entry.eventKey);
+  assert.ok(topic, `${entry.eventKey}: Korean index eventKey missing from Ronaldo seeds`);
+  assert.deepEqual(entry.sourceIds, topic.sourceRefs, `${entry.eventKey}: Korean index source IDs changed`);
+}
+for (const topic of ronaldoSeeds.topics) {
+  assert.equal(
+    ronaldoKoreanIndex.filter((entry) => entry.eventKey === topic.eventKey).length,
+    1,
+    `${topic.eventKey}: Korean index must contain the seed eventKey exactly once`,
+  );
+}
+
+for (const sourceId of Object.keys(ronaldoSeeds.sourceRefs)) {
+  const source = sourceCatalogById.get(sourceId);
+  assert.ok(source, `${sourceId}: missing persisted catalog record`);
+  assert.match(source.url, /^https:\/\//, `${sourceId}: URL must use HTTPS`);
+  assert.ok(["primary", "official", "reputable-secondary"].includes(source.tier), `${sourceId}: unexpected tier`);
+  assert.equal(source.useStatus, "reference-only", `${sourceId}: useStatus must be reference-only`);
+  assert.equal(source.sourcePack, "docs/research/real-player-stories/source-pack-03-ronaldo.md");
+}
+
+for (const topic of ronaldoSeeds.topics) {
+  assert.match(topic.eventKey, /^cristiano-ronaldo\|[^|]+\|[a-z0-9]+(?:-[a-z0-9]+)*$/, `${topic.id}: invalid eventKey`);
+  assert.equal(ronaldoEventKeys.has(topic.eventKey), false, `${topic.id}: duplicate Ronaldo eventKey`);
+  assert.equal(ronaldoFacts.has(topic.fact), false, `${topic.id}: duplicate Ronaldo fact`);
+  ronaldoEventKeys.add(topic.eventKey);
+  ronaldoFacts.add(topic.fact);
+  ronaldoSeedByEventKey.set(topic.eventKey, topic);
+
+  assert.equal(topic.player, "Cristiano Ronaldo", `${topic.id}: player must be Cristiano Ronaldo`);
+  assert.equal(topic.portfolio, "global_legend", `${topic.id}: portfolio must be global_legend`);
+  assert.ok(typeof topic.category === "string" && topic.category.trim(), `${topic.id}: missing category`);
+  assert.ok(topic.eventDate === null || /^\d{4}-\d{2}-\d{2}$/.test(topic.eventDate), `${topic.id}: invalid eventDate`);
+  for (const field of ["hook", "fact", "context", "whyFun", "shareTrigger", "evidence"]) {
+    assert.ok(typeof topic[field] === "string" && topic[field].trim(), `${topic.id}: missing ${field}`);
+  }
+  assert.equal(topic.verification?.status, "verified", `${topic.id}: verification.status must be verified`);
+  assert.ok(
+    ["primary", "official", "reputable-secondary"].includes(topic.verification?.sourceTier),
+    `${topic.id}: invalid sourceTier`,
+  );
+  assert.ok(Array.isArray(topic.sourceRefs) && topic.sourceRefs.length > 0, `${topic.id}: missing sourceRefs`);
+  assert.ok(Array.isArray(topic.sourcePackRefs) && topic.sourcePackRefs.length > 0, `${topic.id}: missing sourcePackRefs`);
+  for (const sourceRef of topic.sourceRefs) {
+    assert.ok(sourceCatalogById.has(sourceRef), `${topic.id}: sourceRef ${sourceRef} missing from catalog`);
+    assert.ok(Object.hasOwn(ronaldoSeeds.sourceRefs, sourceRef), `${topic.id}: sourceRef ${sourceRef} must be Ronaldo-specific`);
+  }
+  for (const packRef of topic.sourcePackRefs) {
+    assert.ok(Object.hasOwn(sourcePackInputs, packRef), `${topic.id}: missing source pack ${packRef}`);
+    assert.equal(packRef, "docs/research/real-player-stories/source-pack-03-ronaldo.md");
+  }
+  assert.ok(Array.isArray(topic.visualPlan?.queries), `${topic.id}: visualPlan.queries must be an array`);
+  assert.ok(topic.visualPlan.queries.length >= 5, `${topic.id}: visualPlan.queries must have at least 5 entries`);
+  assert.equal(topic.visualPlan?.usageStatus, "reference-only", `${topic.id}: visualPlan usageStatus`);
+  assert.ok(Array.isArray(topic.visualPlan?.cardPlan), `${topic.id}: visualPlan.cardPlan must be an array`);
+  assert.equal(topic.visualPlan.cardPlan.length, 7, `${topic.id}: visualPlan.cardPlan must have 7 entries`);
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: copy.cards must have 7 entries`);
+  for (const [index, card] of topic.copy.cards.entries()) {
+    const text = JSON.stringify(card);
+    if (index < 5) {
+      assert.doesNotMatch(text, ronaldoCtaTerms, `${topic.id}: cards 1-5 must remain sourced story`);
+    } else if (index === 5) {
+      assert.doesNotMatch(text, ronaldoCtaTerms, `${topic.id}: card 6 must remain a soft amateur-team bridge`);
+    } else {
+      assert.match(text, /PitchCheck|피치체크/i, `${topic.id}: card 7 must contain the PitchCheck CTA`);
+      assert.match(text, /프로필 링크/i, `${topic.id}: card 7 must contain the profile link`);
+      assert.match(text, /\[피치체크\]/, `${topic.id}: card 7 must contain the comment keyword`);
+      const ctaOnlyText = text.replace(/PitchCheck|피치체크|프로필 링크|\[피치체크\]/gi, "");
+      assert.doesNotMatch(ctaOnlyText, ronaldoUnrelatedCtaTerms, `${topic.id}: card 7 has an unrelated CTA`);
+    }
+  }
+}
+
+assert.deepEqual(
+  ronaldoSeedByEventKey.get("cristiano-ronaldo|2003|manchester-united-debut")?.sourceRefs,
+  ["ronaldo_source_05"],
+);
+assert.match(
+  ronaldoSeedByEventKey.get("cristiano-ronaldo|2008|champions-league-final-penalty")?.copy.cards[2] ?? "",
+  /승부차기|penalty/i,
+);
+assert.deepEqual(
+  ronaldoSeedByEventKey.get("cristiano-ronaldo|2013|sweden-playoff-hat-trick")?.sourceRefs,
+  ["ronaldo_source_09"],
+);
+assert.match(
+  ronaldoSeedByEventKey.get("cristiano-ronaldo|2022|seven-hundredth-club-goal")?.fact ?? "",
+  /700/,
+);
+assert.equal(sourceCatalogById.get("ronaldo_source_01")?.tier, "official");
 
 assert.throws(
   () => buildCatalog({ ian_wright_tpt: "https://notplayerstribune.com/example" }, sourcePackInputs),

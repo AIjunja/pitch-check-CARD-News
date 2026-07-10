@@ -797,6 +797,404 @@
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_01",
+      "url": "https://www.olympics.com/en/athletes/cristiano-ronaldo-dos-santos-aveiro",
+      "publisher": "Olympics.com",
+      "title": "Cristiano Ronaldo Biography, Records, Teams, Titles Won, and Age",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/pcxgwhoweqzzhiuqbwqw",
+        "https://www.olympics.com/images/static/b2p-images/logo_color.svg",
+        "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/pcxgwhoweqzzhiuqbwqw",
+        "https://gstatic.olympics.com/s3/noc/oly/3x2/POR.png",
+        "https://gstatic.olympics.com/s1/t_s_athlete_medal/f_auto/static/dark/pictograms/2022/fbl.svg",
+        "https://www.olympics.com/akam/13/pixel_6109b940?a=dD1lMzk4MTlmZmJhMTQzMWYxMGNiOThiN2UxNzA3MWIxNjI5MzU5YjUxJmpzPW9mZg=="
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_02",
+      "url": "https://www.olympics.com/en/news/cristiano-ronaldo-seven-things-to-know-manchester-united-return",
+      "publisher": "Olympics.com",
+      "title": "Cristiano Ronaldo: 7 facts you did not know about the football megastar",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/ix5rdbcfnwifaf3oeozv",
+        "https://www.olympics.com/images/static/b2p-images/logo_color.svg",
+        "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ix5rdbcfnwifaf3oeozv",
+        "https://www.olympics.com/en/images/static/b2p-badges/app-store-en.svg",
+        "https://www.olympics.com/en/images/static/b2p-badges/google-play-en.svg",
+        "https://www.olympics.com/akam/13/pixel_6109b940?a=dD1lMzk4MTlmZmJhMTQzMWYxMGNiOThiN2UxNzA3MWIxNjI5MzU5YjUxJmpzPW9mZg=="
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_03",
+      "url": "https://www.theplayerstribune.com/articles/cristiano-ronaldo-madrid-english",
+      "publisher": "The Players' Tribune",
+      "title": "Madrid: My Story | By Cristiano Ronaldo",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/CRONALDO-SOCIAL-ENG-a0d6343fc122e661252b3fc0bee73ef8.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_crop",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_04",
+      "url": "https://www.manutd.com/en/mutv/videos/detail/cristiano-ronaldo-sporting-lisbon-friendly-highlights",
+      "publisher": "Manchester United",
+      "title": "When United first met Ronaldo | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://dynamic-crop-cdn.scoreplay.io/472/5160930/media_109065127_108673722.png?w=1200&h=630&fit=crop",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://www.manutd.com/_next/image?url=https%3A%2F%2Fdynamic-crop-cdn.scoreplay.io%2F472%2F5160930%2Fmedia_109065127_108673722.png&w=1920&q=75",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/4YYBTejRtUalvp4qwGSxLW/688c1fe91038dd5a5b9f6845bdd68cc3/Snapdragon.svg?fm=webp&fit=fill&f=top&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/luLpUp24wiiTg0oYEYNCj/28784fd6630e7e7454ee33290319ee09/Canon-Medical.svg?fm=webp&fit=fill&f=face&w=60&h=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_05",
+      "url": "https://www.manutd.com/en/mutv/videos/detail/man-utd-4-bolton-wanderers-0-extended-highlights-premier-league-2003-04",
+      "publisher": "Manchester United",
+      "title": "United 4 Bolton Wanderers 0 | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://dynamic-crop-cdn.scoreplay.io/472/4314570/media_96190956_95797459_compressed.jpg?w=1200&h=630&fit=crop",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://www.manutd.com/_next/image?url=https%3A%2F%2Fdynamic-crop-cdn.scoreplay.io%2F472%2F4314570%2Fmedia_96190956_95797459_compressed.jpg&w=1920&q=75",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/4YYBTejRtUalvp4qwGSxLW/688c1fe91038dd5a5b9f6845bdd68cc3/Snapdragon.svg?fm=webp&fit=fill&f=top&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/luLpUp24wiiTg0oYEYNCj/28784fd6630e7e7454ee33290319ee09/Canon-Medical.svg?fm=webp&fit=fill&f=face&w=60&h=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_06",
+      "url": "https://www.manutd.com/en/news/story-so-far-for-cristiano-ronaldo-as-he-returns-to-manchester-united",
+      "publisher": "Manchester United",
+      "title": "Cristiano Ronaldo: The incredible story so far | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://images.ctfassets.net/unzgbvss5tuy/72dIRG1HQhwiuGXYdmzmwG/834042c22bfaad79c2a4c0e8b45907a5/default_share_image.jpg?w=1200&h=630&fit=crop&f=face",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/4YYBTejRtUalvp4qwGSxLW/688c1fe91038dd5a5b9f6845bdd68cc3/Snapdragon.svg?fm=webp&fit=fill&f=top&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/luLpUp24wiiTg0oYEYNCj/28784fd6630e7e7454ee33290319ee09/Canon-Medical.svg?fm=webp&fit=fill&f=face&w=60&h=40",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/35FGz1lntJU0jcVaQIIzNT/58214f296df4470e545d7219e6de03cd/Casillero-del-diablo.svg?fm=webp&fit=fill&f=face&w=60&h=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_07",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01e8-0e750333e183-06456a1441e7-1000--2007-08-manchester-united-fc-1-1-chelsea-fc-6-5-on-pens-r/",
+      "publisher": "UEFA",
+      "title": "2007/08 Manchester United FC 1-1 Chelsea FC (6-5 on pens): Report | UEFA Champions League 2007/08",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/025b-0f0f9499213f-4ac6d5ad0ad9-1000/manchester_united_v_chelsea_-_uefa_champions_league_final.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/025b-0f0f9499213f-4ac6d5ad0ad9-1000/format/wide1/manchester_united_v_chelsea_-_uefa_champions_league_final.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_08",
+      "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+      "publisher": "Real Madrid",
+      "title": "Cristiano Ronaldo Dos Santos Aveiro - History and honours | Official website Real Madrid C.F.",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://publish.realmadrid.com/content/dam/common/statics/public-content/internet/web/rm-spa-web/images/meta/og-image.png",
+        "https://assets.realmadrid.com/is/content/realmadrid/emirates_gray1?$Mobile$&fit=wrap&wid=57",
+        "https://assets.realmadrid.com/is/content/realmadrid/adidas_gray?$Mobile$&fit=wrap&wid=57",
+        "https://assets.realmadrid.com/is/content/realmadrid/parche-15-ucl?$Mobile$&fit=wrap",
+        "https://assets.realmadrid.com/is/image/realmadrid/1330603286208?$Mobile$&fit=wrap&wid=312",
+        "https://assets.realmadrid.com/is/image/realmadrid/1330585233364-6?$Desktop$&fit=wrap",
+        "https://assets.realmadrid.com/is/image/realmadrid/1330536204796?$Desktop$&fit=wrap",
+        "https://assets.realmadrid.com/is/image/realmadrid/1330519672822-12?$Desktop$&fit=wrap"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_09",
+      "url": "https://www.uefa.com/european-qualifiers/news/0253-0d7eeff62152-38beffc43bd8-1000--ronaldo-hat-trick-takes-portugal-past-sweden/",
+      "publisher": "UEFA",
+      "title": "Ronaldo hat-trick takes Portugal past Sweden | European Qualifiers 2014",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0252-0d7eeff60ffa-99c6cad78b08-1000/2024877_w1.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0252-0d7eeff60ffa-99c6cad78b08-1000/format/wide1/2024877_w1.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0253-0d7eefa3bd2e-9a855190b7f0-1000/format/wide1/darijo_srna_croatia_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0253-0d7eecdfa253-337de68bf090-1000/format/wide1/2024866.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg?imwidth=36",
+        "https://editorial.uefa.com/resources/0253-0d0407c2cc59-b0d79517c5ca-1000/format/wide1/you_can_win_a_shirt_signed_by_shunsuke_nakamura.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_10",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0250-0c5117b84831-021a3db69776-1000--cristiano-ronaldo-makes-history-by-scoring-in-third-final/",
+      "publisher": "UEFA",
+      "title": "Cristiano Ronaldo makes history by scoring in third final | UEFA Champions League 2016/17",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0250-0c5117b82cf9-bec2b2d2f83f-1000/cristiano_ronaldo_real_madrid_.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0250-0c5117b82cf9-bec2b2d2f83f-1000/format/wide1/cristiano_ronaldo_real_madrid_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_11",
+      "url": "https://www.uefa.com/uefaeuro/history/news/025a-0ec0db63e375-e3d06be8c923-1000--euro-2016-all-you-need-to-know/",
+      "publisher": "UEFA",
+      "title": "EURO 2016: All you need to know | UEFA EURO 2016",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/025c-0f4992a70b3e-7fd7de3c6677-1000/wales_v_portugal_-_semi_final_uefa_euro_2016.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/025c-0f4992a70b3e-7fd7de3c6677-1000/format/wide1/wales_v_portugal_-_semi_final_uefa_euro_2016.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/025b-0edb36c0c5b7-32fbb08addd4-1000/format/wide1/russia_v_wales_-_group_b_uefa_euro_2016.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_12",
+      "url": "https://www.uefa.com/uefachampionsleague/match/2021701--juventus-vs-real-madrid/events/",
+      "publisher": "UEFA",
+      "title": "History: Juventus 0-3 Real Madrid Match Events: UEFA Champions League 2017/18 Quarter-finals",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://img.uefa.com/imgml/stadium/uw/250001576.jpg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_13",
+      "url": "https://inside.fifa.com/news/ronaldo-signs-for-juventus",
+      "publisher": "FIFA",
+      "title": "Ronaldo signs for Juventus",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/59ef4c1a02c84a78/webimage-uh98p8twqvnrxxtwrmj4-jpg.png",
+        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_14",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0247-0e98ea248c0b-875a6c798966-1000--what-ronaldo-said-in-his-first-outing-as-a-juventus-player/",
+      "publisher": "UEFA",
+      "title": "What Ronaldo said in his first outing as a Juventus player | UEFA Champions League 2018/19",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0247-0e98ea248f75-6977056f9e3c-1000/miralem_pjanic_and_cristiano_ronaldo_meet_as_juventus_team-mates.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0247-0e98ea248f75-6977056f9e3c-1000/format/wide1/miralem_pjanic_and_cristiano_ronaldo_meet_as_juventus_team-mates.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/027c-16d13cfdbad6-ada940f12974-1000/format/wide1/manchester_united_v_sheriff_tiraspol_group_e_-_uefa_europa_league.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0250-0d8226ea1a6f-1b4bce7c3aab-1000/format/wide1/cristiano_ronaldo_celebrates_his_fifth_title.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0247-0e98e857e0dc-e6facf5042b2-1000/format/wide1/cristiano_ronaldo_real_madrid_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/025c-0f210b4ce5df-c358e3105180-1000/format/wide1/lionel_messi_and_cristiano_ronaldo_how_many_more_records_will_they_break_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_15",
+      "url": "https://www.manutd.com/en/news/official-statement-on-agreement-reached-for-cristiano-ronaldo",
+      "publisher": "Manchester United",
+      "title": "United confirm Ronaldo agreement | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://images.ctfassets.net/unzgbvss5tuy/72dIRG1HQhwiuGXYdmzmwG/834042c22bfaad79c2a4c0e8b45907a5/default_share_image.jpg?w=1200&h=630&fit=crop&f=face",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://dynamic-crop-cdn.scoreplay.io/472/5294001/media_112868883_112477864.jpg?fmt=webp&f=center&w=720&h=480",
+        "https://dynamic-crop-cdn.scoreplay.io/472/5287471/media_112746112_112355077_compressed.jpg?fmt=webp&f=center&w=720&h=480",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/4YYBTejRtUalvp4qwGSxLW/688c1fe91038dd5a5b9f6845bdd68cc3/Snapdragon.svg?fm=webp&fit=fill&f=top&w=120&h=64"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_16",
+      "url": "https://www.manutd.com/en/news/cristiano-ronaldo-completes-transfer-to-man-utd-from-juventus",
+      "publisher": "Manchester United",
+      "title": "Ronaldo is coming home | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://images.ctfassets.net/unzgbvss5tuy/72dIRG1HQhwiuGXYdmzmwG/834042c22bfaad79c2a4c0e8b45907a5/default_share_image.jpg?w=1200&h=630&fit=crop&f=face",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://dynamic-crop-cdn.scoreplay.io/472/4312534/media_96071105_95677546_compressed.jpg?fmt=webp&f=center&w=720&h=227",
+        "https://dynamic-crop-cdn.scoreplay.io/472/4903450/media_102716650_102323825.jpg?fmt=webp&f=center&w=720&h=405",
+        "https://dynamic-crop-cdn.scoreplay.io/472/4312626/media_96074852_95681292_compressed.jpg?fmt=webp&f=center&w=720&h=227",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_17",
+      "url": "https://www.manutd.com/en/mutv/videos/detail/ronaldo-goal-against-everton-9-oct-2022",
+      "publisher": "Manchester United",
+      "title": "Watch Ronaldo's 700th club goal! | Manchester United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://images.ctfassets.net/unzgbvss5tuy/1f51ab72-57b9-4616-8ef2-ca52e1c6cbfd/31a666077537115c9101b9ae817c8c60/5cp18xbxkyxa0of6vqq6nn.jpg?w=1200&h=630&fit=crop",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/3gsTf0FNTtZjq0SOWwav56/728ad840148f80ac19e00840674ec9a8/Adidas.svg?fm=webp&fit=fill&f=bottom_right&w=43&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/54c4qZ9jIAH98RBWfqpsx3/f0cc8247cf7808c14394290bf2d40606/Snapdragon.svg?fm=webp&fit=fill&f=bottom_right&w=145&h=44",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/5GFoxbOTd249o0VhuZNczI/cde0cb3a7b895c6a99f2796433232819/TONAL_CREST_Black%C3%83___3x-png.png?fm=webp&f=center&w=600&h=600",
+        "https://www.manutd.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Funzgbvss5tuy%2F1f51ab72-57b9-4616-8ef2-ca52e1c6cbfd%2F31a666077537115c9101b9ae817c8c60%2F5cp18xbxkyxa0of6vqq6nn.jpg&w=1920&q=75",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/34Q54JVMeWbnjuvDF3jboJ/fbffc07715711b8ac2d0ad6db7f02583/Adidas.svg?fm=webp&fit=fill&f=right&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/4YYBTejRtUalvp4qwGSxLW/688c1fe91038dd5a5b9f6845bdd68cc3/Snapdragon.svg?fm=webp&fit=fill&f=top&w=120&h=64",
+        "https://contentfulproxy.stadion.io/unzgbvss5tuy/luLpUp24wiiTg0oYEYNCj/28784fd6630e7e7454ee33290319ee09/Canon-Medical.svg?fm=webp&fit=fill&f=face&w=60&h=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_18",
+      "url": "https://www.skysports.com/football/news/11667/12753309/cristiano-ronaldo-manchester-united-forward-to-leave-club-immmediately-by-mutual-consent-after-explosive-interview",
+      "publisher": "Sky Sports",
+      "title": "Cristiano Ronaldo leaves Manchester United by mutual consent following explosive interview with Piers Morgan",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://e0.365dm.com/22/11/1600x900/skysports-cristiano-ronaldo_5975043.png?20221122175135",
+        "https://www.skysports.com/assets/ui-graphics/ui-site-header-sky-sports-logo.svg",
+        "https://e2.365dm.com/football/badges/24/413.png",
+        "https://e2.365dm.com/football/badges/24/238.png",
+        "https://e2.365dm.com/football/badges/24/333.png",
+        "https://e2.365dm.com/football/badges/24/194.png",
+        "https://e2.365dm.com/football/badges/24/212.png",
+        "https://e2.365dm.com/football/badges/24/524.png"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_19",
+      "url": "https://www.theguardian.com/football/2022/dec/30/cristiano-ronaldo-al-nassr-saudi-arabia",
+      "publisher": "The Guardian",
+      "title": "Cristiano Ronaldo completes deal to join Saudi Arabian club Al Nassr",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/7d16d6a92d4ffdcb8c01b32fa234008fdd4154df/0_82_4096_2457/master/4096.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjIucG5n&enable=upscale&s=d7a73c34f792680a74a92c82b9183466",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/7d16d6a92d4ffdcb8c01b32fa234008fdd4154df/0_82_4096_2457/master/4096.jpg?width=465&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldo_source_20",
+      "url": "https://www.uefa.com/european-qualifiers/news/0257-0e001aafb4e9-7c6ad3889ce0-1000--cristiano-ronaldo-s-146-international-goals-opposition-w/",
+      "publisher": "UEFA",
+      "title": "Cristiano Ronaldo's 146 international goals: Opposition, when they were scored and how they were scored | European Qualifiers",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-03-ronaldo.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0261-1057d1a15399-afd9bb4e0ae1-1000/hungary_v_portugal_-_group_f_uefa_euro_2016.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/02a6-20e460be8f6c-ead70c780cf6-1000/format/wide1/cristiano_ronaldo_portugal_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0263-10d611e8da55-88be62118ac3-1000/format/wide1/serbia_v_portugal_-_uefa_euro_2020_qualifier.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
     }
   ]
 }
