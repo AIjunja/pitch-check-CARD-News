@@ -425,8 +425,8 @@ const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const expectedSourceIds = Object.keys(allSourceRefs).sort();
 
-assert.equal(sourceCatalog.sources.length, 82);
-assert.equal(persistedSourceCatalog.sources.length, 82);
+assert.equal(sourceCatalog.sources.length, 74);
+assert.equal(persistedSourceCatalog.sources.length, 74);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
 assert.deepEqual(
   buildCatalog(allSourceRefs, sourcePackInputs),
@@ -789,7 +789,7 @@ for (const player of ["Kylian Mbappe", "Erling Haaland"]) {
     `${player}: batch player must exist in the current_star roster`,
   );
 }
-assert.equal(Object.keys(mbappeHaalandSeeds.sourceRefs).length, 20);
+assert.equal(Object.keys(mbappeHaalandSeeds.sourceRefs).length, 12);
 assert.equal(new Set(mbappeHaalandKoreanIndex.map((entry) => entry.eventKey)).size, 20);
 assert.deepEqual(
   Object.fromEntries(
@@ -803,6 +803,23 @@ assert.deepEqual(
 
 const mbappeHaalandByEventKey = new Map(
   mbappeHaalandSeeds.topics.map((topic) => [topic.eventKey, topic]),
+);
+const mbappeHaalandActiveSourceIds = new Set(Object.keys(mbappeHaalandSeeds.sourceRefs));
+const mbappeHaalandTopicSourceIds = new Set(mbappeHaalandSeeds.topics.flatMap((topic) => topic.sourceRefs));
+assert.deepEqual(
+  [...mbappeHaalandActiveSourceIds].sort(),
+  [...mbappeHaalandTopicSourceIds].sort(),
+  "Mbappe/Haaland active source IDs must equal the union of topic sourceRefs",
+);
+const mbappeHaalandCatalogSourceIds = new Set(
+  sourceCatalog.sources
+    .filter((source) => source.sourcePack === "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md")
+    .map((source) => source.sourceId),
+);
+assert.deepEqual(
+  [...mbappeHaalandCatalogSourceIds].sort(),
+  [...mbappeHaalandActiveSourceIds].sort(),
+  "Mbappe/Haaland catalog must not contain unused batch source records",
 );
 const mbappeHaalandNoneFoundSourceIds = new Set([
   "mbappe_source_01",

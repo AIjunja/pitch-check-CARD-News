@@ -1197,64 +1197,6 @@
       "useStatus": "reference-only"
     },
     {
-      "sourceId": "mbappe_source_01",
-      "url": "https://www.fifa.com/en/archive/kylian-mbappe",
-      "publisher": "FIFA",
-      "title": "Kylian Mbappe | FIFA World Cup archive profile",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "mbappe_source_02",
-      "url": "https://inside.fifa.com/tournaments/mens/worldcup/2018russia/news/mbappe-slots-france-forward-sends-peru-home",
-      "publisher": "FIFA",
-      "title": "Mbappe sends France forward as Peru's hopes end",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [
-        "https://digitalhub.fifa.com/m/2af620409ec4f7c6/webimage-smhg6aotlzzbq5yazpn2-jpg.png",
-        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
-      ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "mbappe_source_03",
-      "url": "https://inside.fifa.com/en/tournaments/mens/worldcup/2018russia/news/157-awards-piece-2986294",
-      "publisher": "FIFA",
-      "title": "Golden consolation for magical Modric",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [
-        "https://digitalhub.fifa.com/m/228ab76c07a117aa/webimage-ro5kwcvuyb1znptnm659-jpg.png",
-        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
-      ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "mbappe_source_04",
-      "url": "https://www.fifa.com/en/articles/all-kylian-mbappe-world-cup-numbers-and-records",
-      "publisher": "FIFA",
-      "title": "Kylian Mbappe | FIFA World Cup stats and records",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
       "sourceId": "mbappe_source_05",
       "url": "https://www.uefa.com/uefachampionsleague/news/0237-0e967f2e8a88-6354403bb323-1000--mbappe-and-the-other-reasons-behind-monacos-success/",
       "publisher": "UEFA",
@@ -1377,35 +1319,6 @@
       "useStatus": "reference-only"
     },
     {
-      "sourceId": "haaland_source_01",
-      "url": "https://www.fifa.com/en/articles/u20-records",
-      "publisher": "FIFA",
-      "title": "FIFA U-20 World Cup records",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "haaland_source_02",
-      "url": "https://inside.fifa.com/tournaments/mens/u20worldcup/fifa-u-20-world-cup-poland-2019/news/nine-the-magic-number-for-norways-haland",
-      "publisher": "FIFA",
-      "title": "Nine the magic number for Norway’s Haland",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [
-        "https://digitalhub.fifa.com/m/5b5a91a6de01c6a7/webimage-tqzsmsadka3u7uluduck-jpg.png",
-        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
-      ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
       "sourceId": "haaland_source_03",
       "url": "https://www.uefa.com/uefachampionsleague/news/0255-0e99f0d0de23-1875c38767d1-1000--salzburg-sensation-haaland-on-his-debut-hat-trick/",
       "publisher": "UEFA",
@@ -1460,24 +1373,6 @@
         "https://editorial.uefa.com/resources/0267-11c3ac3c423c-790e46ad5b85-1000/format/wide1/borussia_dortmund_v_sevilla_fc_-_uefa_champions_league_round_of_16_leg_two.jpeg?imwidth=158",
         "https://editorial.uefa.com/resources/0266-1196c2859d20-238def3bd129-1000/format/wide1/haaland.jpeg?imwidth=158",
         "https://editorial.uefa.com/resources/0282-1839d515aec0-0543b2df112b-1000/format/wide1/fc_internazionale_v_manchester_city_fc_-_uefa_champions_league_final_2022_23.jpeg?imwidth=158"
-      ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "haaland_source_06",
-      "url": "https://www.premierleague.com/en/news/662064/records-players",
-      "publisher": "Premier League",
-      "title": "Records: Players",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [
-        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
-        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
-        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
-        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
@@ -1541,19 +1436,6 @@
         "https://editorial.uefa.com/resources/027e-1761da6c5e24-03f98827a354-1000/format/wide1/rb_leipzig_v_manchester_city_round_of_16_leg_one_-_uefa_champions_league.jpeg?imwidth=158",
         "https://editorial.uefa.com/resources/027e-1764741d8058-2df77784a073-1000/format/wide1/ucl_-_fedex_-_itz_-_frame_x1_-_twitter_2_.jpeg?imwidth=158"
       ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "haaland_source_10",
-      "url": "https://www.mancity.com/annualreport2023/wp-content/uploads/2023/11/manchester-city_annual-report_2022-23.pdf",
-      "publisher": "Manchester City",
-      "title": "Manchester City annual report 2022/23",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
-      "mediaCandidates": [],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
     }
