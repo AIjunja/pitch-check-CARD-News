@@ -1,42 +1,24 @@
 #!/usr/bin/env node
 
 import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateStoryBank } from "./lib/real-story-validation.mjs";
 import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
+import { buildGlobalLegendBank } from "./build-global-legend-bank.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
 const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-messi.json");
 const RONALDO_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-ronaldo.json");
 const GLOBAL_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-global.json");
+const GLOBAL_BANK_GENERATOR_PATH = path.join(ROOT, "scripts/pitchcheck/build-global-legend-bank.mjs");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
 const BBC_YOUTUBE_VIDEO_ID = "6caCqn_nD6o";
 const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
-
-export function buildGlobalLegendBank(messiSeeds, ronaldoSeeds) {
-  const messiSourceRefs = messiSeeds?.sourceRefs;
-  const ronaldoSourceRefs = ronaldoSeeds?.sourceRefs;
-  const messiTopics = messiSeeds?.topics;
-  const ronaldoTopics = ronaldoSeeds?.topics;
-
-  if (!messiSourceRefs || !ronaldoSourceRefs || !Array.isArray(messiTopics) || !Array.isArray(ronaldoTopics)) {
-    throw new Error("Messi and Ronaldo seed banks must contain sourceRefs and topics");
-  }
-
-  const sourceRefs = { ...messiSourceRefs, ...ronaldoSourceRefs };
-  if (Object.keys(sourceRefs).length !== Object.keys(messiSourceRefs).length + Object.keys(ronaldoSourceRefs).length) {
-    throw new Error("Messi and Ronaldo seed sourceRefs must be unique");
-  }
-
-  return {
-    name: "PitchCheck global legend story seeds",
-    sourceRefs,
-    topics: [...messiTopics, ...ronaldoTopics],
-  };
-}
 
 const publisherByHostname = new Map([
   ["www.theplayerstribune.com", { publisher: "The Players' Tribune", tier: "primary" }],
@@ -286,10 +268,6 @@ assert.ok(
 const messiSeeds = JSON.parse(fs.readFileSync(MESSI_SEEDS_PATH, "utf8"));
 const ronaldoSeeds = JSON.parse(fs.readFileSync(RONALDO_SEEDS_PATH, "utf8"));
 const builtGlobalSeeds = buildGlobalLegendBank(messiSeeds, ronaldoSeeds);
-if (process.argv.includes("--write-global")) {
-  fs.writeFileSync(GLOBAL_SEEDS_PATH, `${JSON.stringify(builtGlobalSeeds, null, 2)}\n`, "utf8");
-  console.log(`wrote ${path.relative(ROOT, GLOBAL_SEEDS_PATH)}`);
-}
 assert.ok(
   fs.existsSync(GLOBAL_SEEDS_PATH),
   "samples/pitchcheck/real-player-story-seeds-global.json must exist",
@@ -311,6 +289,24 @@ assert.deepEqual(
 assert.equal(new Set(globalSeeds.topics.map((topic) => topic.fact)).size, 40);
 assert.ok(globalSeeds.topics.every((topic) => topic.portfolio === "global_legend"));
 assert.doesNotMatch(JSON.stringify(globalSeeds), /alternate-hook/i);
+
+const generatorTempDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "pitchcheck-global-bank-"));
+const generatorOutputPath = path.join(generatorTempDirectory, "global.json");
+try {
+  assert.doesNotThrow(() => {
+    execFileSync(process.execPath, [GLOBAL_BANK_GENERATOR_PATH, "--output", generatorOutputPath], {
+      cwd: ROOT,
+      stdio: "pipe",
+    });
+  }, "global bank generator must exit cleanly");
+  assert.deepEqual(
+    JSON.parse(fs.readFileSync(generatorOutputPath, "utf8")),
+    globalSeeds,
+    "generator output must match committed global seeds",
+  );
+} finally {
+  fs.rmSync(generatorTempDirectory, { recursive: true, force: true });
+}
 const roster = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-roster-300.json"), "utf8"),
 );
