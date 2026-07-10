@@ -1109,7 +1109,7 @@ assertGroundedTarget(
   [/Son Heung-min shared the Castrol Golden Boot award with Salah, scoring twice in a 5-0 win over Norwich while Salah scored once against Wolves\. Both finished on 23 goals\./],
 );
 assertGroundedTarget(
-  "son-010-150-premier-league-goal-contributions",
+  "son-010-47-premier-league-appearances",
   "son_source_10",
   [/2022\/23/, /47경기/, /해리 케인\(49\)/],
   [/2022\/23 season came to a close/, /Heung-Min Son \(47\) and Ivan Perisic \(44\) complete the top three/],
