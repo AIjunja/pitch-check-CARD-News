@@ -453,7 +453,7 @@ const messiRetirement = messiSeeds.topics.find(
   (topic) => topic.id === "messi-013-international-retirement-announcement",
 );
 assert.deepEqual(messi005?.sourceRefs, ["messi_source_05"]);
-assert.match(messi005?.copy.cards[3] ?? "", /\b71분\b/);
+assert.match(messi005?.copy.cards[3] ?? "", /(?:^|[^0-9])71분(?:[^0-9]|$)/);
 assert.doesNotMatch(messi005?.copy.cards[3] ?? "", /다음 해|공식 데뷔/);
 assert.deepEqual(messi012?.sourceRefs, ["messi_source_20"]);
 assert.equal(messi012?.eventKey, "lionel-messi|2023|inter-miami-most-trophies-record");
