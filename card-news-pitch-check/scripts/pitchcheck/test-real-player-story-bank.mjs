@@ -9,6 +9,7 @@ import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
+const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-messi.json");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
 const BBC_YOUTUBE_VIDEO_ID = "6caCqn_nD6o";
 const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
@@ -21,6 +22,8 @@ const publisherByHostname = new Map([
   ["inside.fifa.com", { publisher: "FIFA", tier: "official" }],
   ["www.olympics.com", { publisher: "Olympics.com", tier: "official" }],
   ["olympics.com", { publisher: "Olympics.com", tier: "official" }],
+  ["www.fcbarcelona.com", { publisher: "FC Barcelona", tier: "official" }],
+  ["fcbarcelona.com", { publisher: "FC Barcelona", tier: "official" }],
   ["www.bundesliga.com", { publisher: "Bundesliga", tier: "official" }],
   ["bundesliga.com", { publisher: "Bundesliga", tier: "official" }],
   ["www.good.is", { publisher: "GOOD", tier: "reputable-secondary" }],
@@ -29,6 +32,28 @@ const publisherByHostname = new Map([
   ["theguardian.com", { publisher: "The Guardian", tier: "reputable-secondary" }],
   ["www.espn.com", { publisher: "ESPN", tier: "reputable-secondary" }],
   ["espn.com", { publisher: "ESPN", tier: "reputable-secondary" }],
+  ["apnews.com", { publisher: "Associated Press", tier: "reputable-secondary" }],
+  ["www.apnews.com", { publisher: "Associated Press", tier: "reputable-secondary" }],
+  ["www.bbc.com", { publisher: "BBC Sport", tier: "reputable-secondary" }],
+  ["bbc.com", { publisher: "BBC Sport", tier: "reputable-secondary" }],
+  ["www.bonhams.com", { publisher: "Bonhams", tier: "primary" }],
+  ["bonhams.com", { publisher: "Bonhams", tier: "primary" }],
+  ["www.guinnessworldrecords.com", { publisher: "Guinness World Records", tier: "official" }],
+  ["guinnessworldrecords.com", { publisher: "Guinness World Records", tier: "official" }],
+  ["www.uefa.com", { publisher: "UEFA", tier: "official" }],
+  ["uefa.com", { publisher: "UEFA", tier: "official" }],
+  ["www.intermiamicf.com", { publisher: "Inter Miami CF", tier: "official" }],
+  ["intermiamicf.com", { publisher: "Inter Miami CF", tier: "official" }],
+  ["www.leaguescup.com", { publisher: "Leagues Cup", tier: "official" }],
+  ["leaguescup.com", { publisher: "Leagues Cup", tier: "official" }],
+  ["www.manutd.com", { publisher: "Manchester United", tier: "official" }],
+  ["manutd.com", { publisher: "Manchester United", tier: "official" }],
+  ["www.realmadrid.com", { publisher: "Real Madrid", tier: "official" }],
+  ["realmadrid.com", { publisher: "Real Madrid", tier: "official" }],
+  ["www.skysports.com", { publisher: "Sky Sports", tier: "reputable-secondary" }],
+  ["skysports.com", { publisher: "Sky Sports", tier: "reputable-secondary" }],
+  ["www.transfermarkt.us", { publisher: "Transfermarkt", tier: "reputable-secondary" }],
+  ["transfermarkt.us", { publisher: "Transfermarkt", tier: "reputable-secondary" }],
 ]);
 
 function parseSourcePack(sourcePack, sourcePackPath) {
@@ -156,6 +181,11 @@ const legacyBank = JSON.parse(
 const migratedBank = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-story-migrated-50.json"), "utf8"),
 );
+assert.ok(
+  fs.existsSync(MESSI_SEEDS_PATH),
+  "samples/pitchcheck/real-player-story-seeds-messi.json must exist",
+);
+const messiSeeds = JSON.parse(fs.readFileSync(MESSI_SEEDS_PATH, "utf8"));
 const roster = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-roster-300.json"), "utf8"),
 );
@@ -171,12 +201,16 @@ const sourcePackInputs = {
     path.join(ROOT, "docs/ian-wright-teacher-source-pack.md"),
     "utf8",
   ),
+  "docs/research/real-player-stories/source-pack-02-messi.md": fs.readFileSync(
+    path.join(ROOT, "docs/research/real-player-stories/source-pack-02-messi.md"),
+    "utf8",
+  ),
 };
 
 if (process.argv.includes("--write-catalog")) {
   fs.writeFileSync(
     CATALOG_PATH,
-    `${JSON.stringify(buildCatalog(legacyBank.sourceRefs, sourcePackInputs), null, 2)}\n`,
+    `${JSON.stringify(buildCatalog({ ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs }, sourcePackInputs), null, 2)}\n`,
     "utf8",
   );
   console.log(`wrote ${path.relative(ROOT, CATALOG_PATH)}`);
@@ -192,15 +226,16 @@ const portfolioTargets = {
 const allowedPortfolios = new Set(Object.keys(portfolioTargets));
 const allowedSourceFamilies = new Set(["FIFA"]);
 
-const sourceCatalog = buildCatalog(legacyBank.sourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
+const allSourceRefs = { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs };
+const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
-const expectedSourceIds = Object.keys(legacyBank.sourceRefs).sort();
+const expectedSourceIds = Object.keys(allSourceRefs).sort();
 
-assert.equal(sourceCatalog.sources.length, 22);
-assert.equal(persistedSourceCatalog.sources.length, 22);
+assert.equal(sourceCatalog.sources.length, 42);
+assert.equal(persistedSourceCatalog.sources.length, 42);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
 assert.deepEqual(
-  buildCatalog(legacyBank.sourceRefs, sourcePackInputs),
+  buildCatalog(allSourceRefs, sourcePackInputs),
   persistedSourceCatalog,
   "rebuilding with the same inputs must preserve generatedAt and every catalog field",
 );
@@ -250,6 +285,89 @@ for (const topic of migratedBank.topics) {
     );
   }
 }
+
+const sourceCatalogById = new Map(sourceCatalog.sources.map((source) => [source.sourceId, source]));
+const migratedEventKeys = new Set(migratedBank.topics.map((topic) => topic.eventKey));
+const messiEventKeys = new Set();
+const messiFacts = new Set();
+const forbiddenEarlyMessiCta =
+  /피치체크|프로필\s*링크|프로필|설치|다운로드|사용\s*영상|\[피치체크\]|PitchCheck/i;
+const directCta = /프로필\s*링크|설치|다운로드|\[피치체크\]|사용\s*영상/i;
+
+assert.deepEqual(
+  validateStoryBank(messiSeeds, { expectedCount: 20 }),
+  { topics: 20, uniqueEvents: 20 },
+);
+assert.equal(Object.keys(messiSeeds.sourceRefs).length, 20);
+assert.equal(new Set(Object.keys(messiSeeds.sourceRefs)).size, 20);
+assert.ok(Object.keys(messiSeeds.sourceRefs).every((sourceId) => /^messi_source_\d{2}$/.test(sourceId)));
+
+for (const sourceId of Object.keys(messiSeeds.sourceRefs)) {
+  const source = sourceCatalogById.get(sourceId);
+  assert.ok(source, `${sourceId}: missing persisted catalog record`);
+  assert.match(source.url, /^https:\/\//, `${sourceId}: URL must use HTTPS`);
+  assert.ok(["primary", "official", "reputable-secondary"].includes(source.tier), `${sourceId}: unexpected tier`);
+  assert.equal(source.useStatus, "reference-only", `${sourceId}: useStatus must be reference-only`);
+  assert.equal(source.sourcePack, "docs/research/real-player-stories/source-pack-02-messi.md");
+}
+
+for (const topic of messiSeeds.topics) {
+  assert.ok(!migratedEventKeys.has(topic.eventKey), `${topic.id}: eventKey duplicates migrated topic`);
+  assert.match(topic.eventKey, /^lionel-messi\|[^|]+\|[a-z0-9]+(?:-[a-z0-9]+)*$/, `${topic.id}: invalid eventKey`);
+  assert.ok(!messiEventKeys.has(topic.eventKey), `${topic.id}: duplicate Messi eventKey`);
+  assert.ok(!messiFacts.has(topic.fact), `${topic.id}: duplicate Messi fact`);
+  messiEventKeys.add(topic.eventKey);
+  messiFacts.add(topic.fact);
+
+  assert.equal(topic.player, "Lionel Messi", `${topic.id}: player must be Lionel Messi`);
+  assert.equal(topic.portfolio, "global_legend", `${topic.id}: portfolio must be global_legend`);
+  assert.ok(typeof topic.category === "string" && topic.category.trim(), `${topic.id}: missing category`);
+  assert.doesNotMatch(topic.category, /alternate-hook/i, `${topic.id}: alternate hooks are not allowed`);
+  assert.ok(topic.eventDate === null || /^\d{4}-\d{2}-\d{2}$/.test(topic.eventDate), `${topic.id}: invalid eventDate`);
+  for (const field of ["hook", "fact", "context", "whyFun", "shareTrigger", "evidence"]) {
+    assert.ok(typeof topic[field] === "string" && topic[field].trim(), `${topic.id}: missing ${field}`);
+  }
+  assert.equal(topic.verification?.status, "verified", `${topic.id}: verification.status must be verified`);
+  assert.ok(
+    ["primary", "official", "reputable-secondary"].includes(topic.verification?.sourceTier),
+    `${topic.id}: invalid sourceTier`,
+  );
+  assert.ok(Array.isArray(topic.sourceRefs) && topic.sourceRefs.length > 0, `${topic.id}: missing sourceRefs`);
+  assert.ok(Array.isArray(topic.sourcePackRefs) && topic.sourcePackRefs.length > 0, `${topic.id}: missing sourcePackRefs`);
+  for (const sourceRef of topic.sourceRefs) {
+    assert.ok(sourceCatalogById.has(sourceRef), `${topic.id}: sourceRef ${sourceRef} missing from catalog`);
+    assert.ok(Object.hasOwn(messiSeeds.sourceRefs, sourceRef), `${topic.id}: sourceRef ${sourceRef} must be Messi-specific`);
+  }
+  for (const packRef of topic.sourcePackRefs) {
+    assert.ok(Object.hasOwn(sourcePackInputs, packRef), `${topic.id}: missing source pack ${packRef}`);
+    assert.equal(packRef, "docs/research/real-player-stories/source-pack-02-messi.md");
+  }
+  assert.ok(Array.isArray(topic.visualPlan?.queries), `${topic.id}: visualPlan.queries must be an array`);
+  assert.ok(topic.visualPlan.queries.length >= 5, `${topic.id}: visualPlan.queries must have at least 5 entries`);
+  assert.equal(topic.visualPlan?.usageStatus, "reference-only", `${topic.id}: visualPlan usageStatus`);
+  assert.ok(Array.isArray(topic.visualPlan?.cardPlan), `${topic.id}: visualPlan.cardPlan must be an array`);
+  assert.equal(topic.visualPlan.cardPlan.length, 7, `${topic.id}: visualPlan.cardPlan must have 7 entries`);
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: copy.cards must have 7 entries`);
+  for (const [index, card] of topic.copy.cards.entries()) {
+    const text = JSON.stringify(card);
+    if (index < 5) {
+      assert.doesNotMatch(text, forbiddenEarlyMessiCta, `${topic.id}: card ${index + 1} has early CTA`);
+    }
+    if (index === 5) {
+      assert.doesNotMatch(text, directCta, `${topic.id}: card 6 has direct CTA`);
+    }
+  }
+  assert.match(JSON.stringify(topic.copy.cards[6]), /프로필\s*링크/, `${topic.id}: card 7 missing profile link`);
+  assert.match(JSON.stringify(topic.copy.cards[6]), /\[피치체크\]/, `${topic.id}: card 7 missing comment keyword`);
+}
+
+assert.equal(messiEventKeys.size, 20);
+assert.equal(messiFacts.size, 20);
+assert.equal(
+  messiSeeds.topics.find((topic) => topic.id === "messi-003-napkin-contract")?.eventKey,
+  "lionel-messi|2000|napkin-contract",
+);
+assert.equal(sourceCatalogById.get("messi_source_03")?.tier, "primary");
 
 assert.throws(
   () => buildCatalog({ ian_wright_tpt: "https://notplayerstribune.com/example" }, sourcePackInputs),
