@@ -1,7 +1,18 @@
 #!/usr/bin/env node
 
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { validateStoryBank } from "./lib/real-story-validation.mjs";
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const legacyBank = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-story-bank-60.json"), "utf8"),
+);
+const migratedBank = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-story-migrated-50.json"), "utf8"),
+);
 
 function sevenCards() {
   return Array.from({ length: 7 }, (_, index) => ({
@@ -158,5 +169,39 @@ assert.deepEqual(
   validateStoryBank(bankWith([fixture({ copy: { cards: lateCtaCards } })]), { expectedCount: 1 }),
   { topics: 1, uniqueEvents: 1 },
 );
+
+assert.equal(migratedBank.topics.length, 50);
+assert.equal(new Set(migratedBank.topics.map((topic) => topic.eventKey)).size, 50);
+assert.equal(new Set(migratedBank.topics.map((topic) => topic.fact)).size, 50);
+
+const legacyById = new Map(legacyBank.topics.map((topic) => [topic.id, topic]));
+for (const topic of migratedBank.topics) {
+  const legacy = legacyById.get(topic.id);
+  assert.ok(legacy, `${topic.id}: missing from legacy bank`);
+  assert.ok(!topic.category.endsWith("alternate-hook"), `${topic.id}: alternate hook migrated`);
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: expected exactly 7 cards`);
+  for (const field of [
+    "sourceRefs",
+    "assetSearch",
+    "hook",
+    "fact",
+    "whyFun",
+    "shareTrigger",
+    "copy",
+  ]) {
+    assert.deepEqual(topic[field], legacy[field], `${topic.id}: changed ${field}`);
+  }
+  assert.equal(topic.player, topic.assetSearch.mustHave[0]);
+  assert.ok(topic.player.trim(), `${topic.id}: missing player`);
+  assert.equal(topic.origin, "migrated-60-bank");
+  assert.equal(topic.verification.status, "verified");
+  assert.ok(["primary", "official", "reputable-secondary"].includes(topic.verification.sourceTier));
+
+  const sensitive = /family-loss|war-childhood|second-chance/.test(topic.category);
+  assert.equal(
+    topic.verification.caveat,
+    sensitive ? "민감한 사건이므로 원문 맥락을 유지하고 선정적으로 확대하지 않는다." : null,
+  );
+}
 
 console.log("real story validation tests passed");
