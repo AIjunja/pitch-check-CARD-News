@@ -16,6 +16,7 @@ const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-s
 const RONALDO_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-ronaldo.json");
 const MBAPPE_HAALAND_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-mbappe-haaland.json");
 const SON_SALAH_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-son-salah.json");
+const WOMEN_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-women.json");
 const GLOBAL_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-global.json");
 const GLOBAL_BANK_GENERATOR_PATH = path.join(ROOT, "scripts/pitchcheck/build-global-legend-bank.mjs");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
@@ -72,6 +73,12 @@ const publisherByHostname = new Map([
   ["tottenhamhotspur.com", { publisher: "Tottenham Hotspur", tier: "official" }],
   ["www.liverpoolfc.com", { publisher: "Liverpool FC", tier: "official" }],
   ["liverpoolfc.com", { publisher: "Liverpool FC", tier: "official" }],
+  ["www.chelseafc.com", { publisher: "Chelsea FC", tier: "official" }],
+  ["chelseafc.com", { publisher: "Chelsea FC", tier: "official" }],
+  ["www.kfa.or.kr", { publisher: "Korea Football Association", tier: "official" }],
+  ["kfa.or.kr", { publisher: "Korea Football Association", tier: "official" }],
+  ["news.canadasoccer.com", { publisher: "Canada Soccer", tier: "official" }],
+  ["canadasoccer.com", { publisher: "Canada Soccer", tier: "official" }],
 ]);
 
 function parseSourcePack(sourcePack, sourcePackPath) {
@@ -420,6 +427,10 @@ const sourcePackInputs = {
     path.join(ROOT, "docs/research/real-player-stories/source-pack-05-son-salah.md"),
     "utf8",
   ),
+  "docs/research/real-player-stories/source-pack-06-women.md": fs.readFileSync(
+    path.join(ROOT, "docs/research/real-player-stories/source-pack-06-women.md"),
+    "utf8",
+  ),
 };
 const messiKoreanIndex = parseMessiKoreanIndex(
   sourcePackInputs["docs/research/real-player-stories/source-pack-02-messi.md"],
@@ -438,13 +449,19 @@ const sonSalahKoreanIndex = parseCurrentStarKoreanIndex(
   "docs/research/real-player-stories/source-pack-05-son-salah.md",
   "Son/Salah",
 );
+const womenSeeds = JSON.parse(fs.readFileSync(WOMEN_SEEDS_PATH, "utf8"));
+const womenKoreanIndex = parseCurrentStarKoreanIndex(
+  sourcePackInputs["docs/research/real-player-stories/source-pack-06-women.md"],
+  "docs/research/real-player-stories/source-pack-06-women.md",
+  "women",
+);
 
 if (process.argv.includes("--write-catalog")) {
   fs.writeFileSync(
     CATALOG_PATH,
     `${JSON.stringify(
       buildCatalog(
-        { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs, ...mbappeHaalandSeeds.sourceRefs, ...sonSalahSeeds.sourceRefs },
+        { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs, ...mbappeHaalandSeeds.sourceRefs, ...sonSalahSeeds.sourceRefs, ...womenSeeds.sourceRefs },
         sourcePackInputs,
       ),
       null,
@@ -471,13 +488,14 @@ const allSourceRefs = {
   ...ronaldoSeeds.sourceRefs,
   ...mbappeHaalandSeeds.sourceRefs,
   ...sonSalahSeeds.sourceRefs,
+  ...womenSeeds.sourceRefs,
 };
 const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const expectedSourceIds = Object.keys(allSourceRefs).sort();
 
-assert.equal(sourceCatalog.sources.length, 94);
-assert.equal(persistedSourceCatalog.sources.length, 94);
+assert.equal(sourceCatalog.sources.length, 114);
+assert.equal(persistedSourceCatalog.sources.length, 114);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
 assert.deepEqual(
   buildCatalog(allSourceRefs, sourcePackInputs),
@@ -489,8 +507,8 @@ assert.deepEqual(
   expectedSourceIds,
 );
 assert.deepEqual(
-  persistedSourceCatalog.sources.slice(0, 74),
-  sourceCatalog.sources.slice(0, 74),
+  persistedSourceCatalog.sources.slice(0, 94),
+  sourceCatalog.sources.slice(0, 94),
   "existing catalog records must remain unchanged and new records must append",
 );
 for (const source of sourceCatalog.sources) {
@@ -1080,6 +1098,100 @@ for (const entry of sonSalahKoreanIndex) {
 }
 assert.equal(new Set(sonSalahKoreanIndex.map((entry) => entry.eventKey)).size, 20);
 assert.equal(sonSalahFacts.size, 20);
+
+assert.deepEqual(
+  validateStoryBank(womenSeeds, { expectedCount: 20 }),
+  { topics: 20, uniqueEvents: 20 },
+);
+assert.equal(Object.keys(womenSeeds.sourceRefs).length, 20);
+assert.ok(Object.keys(womenSeeds.sourceRefs).every((sourceId) => /^(marta|alexia|aitana|sam|christine|ji)_source_\d{2}$/.test(sourceId)));
+assert.deepEqual(
+  Object.fromEntries(
+    [...new Set(womenSeeds.topics.map((topic) => topic.player))].map((player) => [
+      player,
+      womenSeeds.topics.filter((topic) => topic.player === player).length,
+    ]),
+  ),
+  { Marta: 5, "Alexia Putellas": 4, "Aitana Bonmati": 4, "Sam Kerr": 3, "Christine Sinclair": 3, "Ji So-yun": 1 },
+);
+const womenPackPath = "docs/research/real-player-stories/source-pack-06-women.md";
+const womenPack = sourcePackInputs[womenPackPath];
+assert.equal((womenPack.match(/^## Source /gm) ?? []).length, 20, "women source pack must contain 20 sources");
+assert.doesNotMatch(womenPack, /None found/i, "women source pack must not contain empty Scrapling sections");
+const womenActiveSourceIds = new Set(Object.keys(womenSeeds.sourceRefs));
+const womenTopicSourceIds = new Set(womenSeeds.topics.flatMap((topic) => topic.sourceRefs));
+assert.deepEqual(
+  [...womenActiveSourceIds].sort(),
+  [...womenTopicSourceIds].sort(),
+  "women active source IDs must equal the union of topic sourceRefs",
+);
+const womenCatalogSourceIds = new Set(
+  sourceCatalog.sources.filter((source) => source.sourcePack === womenPackPath).map((source) => source.sourceId),
+);
+assert.deepEqual(
+  [...womenCatalogSourceIds].sort(),
+  [...womenActiveSourceIds].sort(),
+  "women catalog must contain only active batch source records",
+);
+function womenSourceSnippets(sourceRef) {
+  const url = womenSeeds.sourceRefs[sourceRef];
+  assert.ok(url, `${sourceRef}: missing women source URL`);
+  const section = womenPack.split(/^## Source /m).find((candidate) => candidate.includes(`- URL: ${url}`));
+  assert.ok(section, `${sourceRef}: missing source section in women source pack`);
+  const snippets = section.match(/### Useful Text Snippets\s*\n([\s\S]*?)(?=\n### |\n## |$)/);
+  assert.ok(snippets, `${sourceRef}: missing Useful Text Snippets block`);
+  assert.doesNotMatch(snippets[1], /^_None found\._\s*$/m, `${sourceRef}: source has no usable snippet`);
+  return snippets[1];
+}
+const womenFacts = new Set();
+const womenTopicsByEventKey = new Map(womenSeeds.topics.map((topic) => [topic.eventKey, topic]));
+for (const topic of womenSeeds.topics) {
+  assert.equal(topic.portfolio, "women", `${topic.id}: wrong women portfolio`);
+  assert.equal(topic.verification?.status, "verified", `${topic.id}: verification.status must be verified`);
+  assert.equal(topic.verification?.sourceTier, "official", `${topic.id}: sourceTier must be official`);
+  assert.equal(womenFacts.has(topic.fact), false, `${topic.id}: duplicate women fact`);
+  womenFacts.add(topic.fact);
+  assert.deepEqual(topic.sourcePackRefs, [womenPackPath]);
+  assert.ok(Array.isArray(topic.sourceRefs) && topic.sourceRefs.length > 0, `${topic.id}: missing sourceRefs`);
+  for (const sourceRef of topic.sourceRefs) {
+    assert.ok(Object.hasOwn(womenSeeds.sourceRefs, sourceRef), `${topic.id}: sourceRef must be batch-specific`);
+    assert.equal(sourceCatalogById.get(sourceRef)?.sourcePack, womenPackPath);
+    assert.equal(sourceCatalogById.get(sourceRef)?.useStatus, "reference-only");
+    womenSourceSnippets(sourceRef);
+  }
+  assert.equal(topic.copy?.framework, "AIDA", `${topic.id}: copy framework must be AIDA`);
+  assert.deepEqual(topic.copy?.cardStages, ["attention", "interest", "desire", "proof", "action", "bridge", "cta"]);
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: copy.cards must have 7 entries`);
+  assert.equal(topic.visualPlan?.aspectRatio, "4:5", `${topic.id}: visual aspect ratio`);
+  assert.equal(topic.visualPlan?.usageStatus, "reference-only", `${topic.id}: visual usageStatus`);
+  assert.ok(Array.isArray(topic.visualPlan?.queries) && topic.visualPlan.queries.length >= 3, `${topic.id}: visual queries`);
+  assert.equal(topic.visualPlan?.cards?.length, 7, `${topic.id}: visual cards`);
+  for (const [index, visualCard] of topic.visualPlan.cards.entries()) {
+    assert.equal(visualCard.card, index + 1, `${topic.id}: visual card numbering`);
+    for (const field of ["crop", "subject", "prompt", "usageStatus"]) {
+      assert.ok(typeof visualCard[field] === "string" && visualCard[field].trim(), `${topic.id}: card ${index + 1} missing ${field}`);
+    }
+    assert.match(visualCard.prompt, /reference-only/i, `${topic.id}: visual prompt must be reference-only`);
+    assert.equal(visualCard.usageStatus, "reference-only", `${topic.id}: visual card usageStatus`);
+  }
+  for (const [index, card] of topic.copy.cards.entries()) {
+    const text = JSON.stringify(card);
+    if (index < 6) {
+      assert.doesNotMatch(text, /피치체크|프로필 링크|\[피치체크\]/i, `${topic.id}: early card CTA`);
+    } else {
+      assert.match(text, /피치체크/i, `${topic.id}: final card CTA`);
+      assert.match(text, /프로필 링크/i, `${topic.id}: final card profile link`);
+      assert.match(text, /\[피치체크\]/, `${topic.id}: final card comment keyword`);
+    }
+  }
+}
+for (const entry of womenKoreanIndex) {
+  const topic = womenTopicsByEventKey.get(entry.eventKey);
+  assert.ok(topic, `${entry.eventKey}: Korean women index eventKey missing from seeds`);
+  assert.deepEqual(entry.sourceIds, topic.sourceRefs, `${entry.eventKey}: Korean women index source IDs changed`);
+}
+assert.equal(new Set(womenKoreanIndex.map((entry) => entry.eventKey)).size, 20);
+assert.equal(womenFacts.size, 20);
 
 function assertGroundedTarget(topicId, sourceRef, claimPatterns, evidencePatterns) {
   const topic = sonSalahSeeds.topics.find((candidate) => candidate.id === topicId);

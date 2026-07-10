@@ -1843,6 +1843,282 @@
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "marta_source_01",
+      "url": "https://www.fifa.com/pt/the-best-fifa-football-awards/2024/articles/premio-marta-2024-vencedora",
+      "publisher": "FIFA",
+      "title": "Ela mesma: Marta ganha prêmio criado em seu nome",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "marta_source_02",
+      "url": "https://www.fifa.com/en/tournaments/olympicgames/paris2024/womens/articles/marta-200-games-brazil",
+      "publisher": "FIFA",
+      "title": "Marta reflects on a marred milestone",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "marta_source_03",
+      "url": "https://www.fifa.com/pt/tournaments/olympicgames/paris2024/womens/articles/marta-futebol-olimpiadas-paris-2024-recordes-estatisticas",
+      "publisher": "FIFA",
+      "title": "Marta fala sobre a missão cumprida em Paris",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "marta_source_04",
+      "url": "https://www.fifa.com/pt/tournaments/olympicgames/paris2024/womens/articles/marta-paris-2024-20-anos-primeira-olimpiada-2004",
+      "publisher": "FIFA",
+      "title": "O que mudou em Marta desde sua primeira Olimpíada",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "marta_source_05",
+      "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027/articles/every-marta-goal-womens-world-cup",
+      "publisher": "FIFA",
+      "title": "Watch: Every Marta goal at the FIFA Women’s World Cup",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "alexia_source_01",
+      "url": "https://www.fcbarcelona.com/en/news/4480770/the-eternal-captain-alexia-putellas-plays-500th-game-for-barca",
+      "publisher": "FC Barcelona",
+      "title": "The eternal captain: Alexia Putellas plays 500th game for Barça",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://www.fcbarcelona.com/fcbarcelona/photo/2026/04/02/e65af0ec-7549-44ae-94d7-6b9971e0bdd2/Alexia500Web.jpg.jpeg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "alexia_source_02",
+      "url": "https://www.uefa.com/womenschampionsleague/news/02a5-20b3ad685cb4-5f56219294cd-1000--alexia-putellas-named-2025-26-uefa-womens-champions-league-/",
+      "publisher": "UEFA",
+      "title": "Alexia Putellas named 2025/26 UEFA Women’s Champions League Player of the Season",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/02a5-20b3ad2dfb2f-f577669dad4b-1000/fbl-eur-c1-women-barcelona-bayern_munich.jpeg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "alexia_source_03",
+      "url": "https://www.fifa.com/es/articles/el-primer-gol-de-alexia-putellas-en-una-copa-mundial-con-el-sub-17-de-espana",
+      "publisher": "FIFA",
+      "title": "El primer gol de Alexia Putellas en una Copa Mundial",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "alexia_source_04",
+      "url": "https://www.fcbarcelona.com/en/football/womens-football/news/4509823/alexia-to-leave-bara-at-the-end-of-the-season",
+      "publisher": "FC Barcelona",
+      "title": "Alexia to leave Barça at the end of the season",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://www.fcbarcelona.com/fcbarcelona/photo/2026/05/26/52c86503-3192-4a7f-bfec-55da479f238a/3200x2000_KV_Alexia_Margin.jpg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "aitana_source_01",
+      "url": "https://www.fifa.com/en/the-best-fifa-football-awards/articles/aitana-bonmati-spain-interview-the-best",
+      "publisher": "FIFA",
+      "title": "Brilliant Bonmati reveals insatiable ambition",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "aitana_source_02",
+      "url": "https://www.uefa.com/womenschampionsleague/news/028d-1af9862331e9-90fcbcd9c8ba-1000--report-barcelona-win-third-title/",
+      "publisher": "UEFA",
+      "title": "Women's Champions League final report: Barcelona 2-0 Lyon",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/028d-1af9b90951af-3a5db80e2ccd-1000/fbl-eur-c1-women-barcelona-lyon.jpeg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "aitana_source_03",
+      "url": "https://www.fifa.com/es/the-best-fifa-football-awards/articles/aitana-bonmati-atributos-tecnicos-the-best",
+      "publisher": "FIFA",
+      "title": "Los atributos técnicos que consagraron a Bonmati como The Best",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "aitana_source_04",
+      "url": "https://www.uefa.com/womenschampionsleague/news/0284-18ade363b7e2-1c20da83bdc6-1000--how-brilliant-is-aitana-bonmati/",
+      "publisher": "UEFA",
+      "title": "How brilliant is Barcelona and Spain’s triple Ballon d’Or winner Aitana Bonmatí?",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/02a5-20b22349028b-f82660262bf9-1000/topshot-fbl-eur-c1-barcelona-lyon-trophy.jpeg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "sam_source_01",
+      "url": "https://www.fifa.com/en/articles/sam-kerr-achievements-personal-life-australia-matildas-womens-world-cup-2023",
+      "publisher": "FIFA",
+      "title": "Get to know Sam Kerr",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "sam_source_02",
+      "url": "https://inside.fifa.com/tournaments/womens/womensworldcup/france2019/news/high-flying-kerr-soars-to-new-aussie-landmark",
+      "publisher": "FIFA",
+      "title": "High-flying Kerr soars to new Aussie landmark",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/50aa99198645ad76/webimage-sfodv4xntswyqm7o1afw-jpg.png"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "sam_source_03",
+      "url": "https://www.chelseafc.com/en/news/article/we-are-chelsea-sam-kerr-on-that-announcement-video",
+      "publisher": "Chelsea FC",
+      "title": "We Are Chelsea: Sam Kerr on THAT announcement video",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "christine_source_01",
+      "url": "https://news.canadasoccer.com/simply-the-greatest-christine-sinclair-breaks-world-record-for-international-goals",
+      "publisher": "Canada Soccer",
+      "title": "Simply the greatest: Christine Sinclair breaks world record",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://cdn.assets.prezly.com/76cf734d-bd69-4589-914d-761bd307b003/-/preview/-/format/auto/simply-the-greatest-christine-sinclair-breaks-world-record-for-international-goals-header-image"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "christine_source_02",
+      "url": "https://www.fifa.com/en/tournaments/womens/womensworldcup/articles/christine-sinclair-canada-nwsl-football-retirement",
+      "publisher": "FIFA",
+      "title": "Legendary striker Sinclair calls time on pro career",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "christine_source_03",
+      "url": "https://news.canadasoccer.com/canada-soccer-hall-of-fame-announces-class-of-2025-hirschfeld-matheson-pye-and-sinclair",
+      "publisher": "Canada Soccer",
+      "title": "Canada Soccer Hall of Fame announces Class of 2025",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [
+        "https://cdn.assets.prezly.com/cea60017-27b6-4966-8de5-b2dd0251546f/-/preview/-/format/auto/20240308-CS-HOF-WebStoryHeader.jpg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ji_source_01",
+      "url": "https://www.kfa.or.kr/layer_popup/popup_live.php?act=news_tv_detail&check_url=bGF5ZXI%3D&div_code=news&idx=24873&lang=EN",
+      "publisher": "Korea Football Association",
+      "title": "Son Heungmin and Ji Soyun named KFA Player of the Year",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-06-women.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
     }
   ]
 }
