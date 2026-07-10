@@ -1101,11 +1101,11 @@ _None found._
 - evidence: Guinness World Records는 메시가 2012년 한 해 91골로 달력 연도 최다 득점 기록을 세웠다고 명시한다.
 - scope: 기네스가 제시한 91골 기록을 주장할 수 있으며, 공식전과 친선전의 집계 범위를 구분 없이 재해석하지 않는다.
 
-### 12. 월드컵 골든볼 기록
-- eventKey: `lionel-messi|2022|world-cup-golden-ball-record`
-- source IDs: messi_source_12
-- evidence: source pack에는 FIFA의 메시 골든볼 기록 기사 제목과 URL이 수록되어 있지만, 이 항목의 유용한 텍스트 스니펫은 비어 있다.
-- scope: 팩만으로는 두 번째 골든볼을 단정하지 않으며, 해당 FIFA 원문을 별도 확인한 경우에만 그 기록을 주장한다.
+### 12. 인터 마이애미 리그스컵의 개인 기록
+- eventKey: `lionel-messi|2023|inter-miami-most-trophies-record`
+- source IDs: messi_source_20
+- evidence: Inter Miami CF는 2023 리그스컵 결승에서 메시가 통산 트로피 44개를 기록하고 대회 최우수선수와 득점왕을 받았다고 전한다.
+- scope: 해당 경기 보고서가 제시한 44개 트로피와 두 개인상만 주장하며, 다른 대회나 이후 기록으로 확대하지 않는다.
 
 ### 13. 대표팀 은퇴 발표
 - eventKey: `lionel-messi|2016|international-retirement-announcement`

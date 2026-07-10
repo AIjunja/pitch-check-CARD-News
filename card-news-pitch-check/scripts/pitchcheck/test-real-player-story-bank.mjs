@@ -336,6 +336,12 @@ const messiFacts = new Set();
 const forbiddenEarlyMessiCta =
   /피치체크|프로필\s*링크|프로필|설치|다운로드|사용\s*영상|\[피치체크\]|PitchCheck/i;
 const directCta = /프로필\s*링크|설치|다운로드|\[피치체크\]|사용\s*영상/i;
+const cardRoleCtaTerms =
+  /피치체크|PitchCheck|프로필\s*링크|설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|댓글/i;
+const softBridgeForbiddenCta =
+  /피치체크|PitchCheck|프로필\s*링크|설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|댓글/i;
+const pitchCheckCtaTerms = /피치체크|PitchCheck|프로필\s*링크|댓글/i;
+const unrelatedCtaTerms = /설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|웹사이트|뉴스레터|구매|신청|가입/i;
 
 assert.deepEqual(
   validateStoryBank(messiSeeds, { expectedCount: 20 }),
@@ -420,9 +426,52 @@ for (const topic of messiSeeds.topics) {
       assert.doesNotMatch(text, directCta, `${topic.id}: card 6 has direct CTA`);
     }
   }
+  for (const [index, card] of topic.copy.cards.entries()) {
+    const text = JSON.stringify(card);
+    if (index <= 4) {
+      assert.doesNotMatch(text, cardRoleCtaTerms, `${topic.id}: cards 0-4 must not contain CTA terms`);
+    } else if (index === 5) {
+      assert.doesNotMatch(text, softBridgeForbiddenCta, `${topic.id}: card 5 must remain a soft bridge`);
+    } else {
+      assert.match(text, pitchCheckCtaTerms, `${topic.id}: card 6 must contain the PitchCheck CTA`);
+      assert.match(text, /프로필\s*링크/, `${topic.id}: card 6 must contain the profile-link bridge`);
+      assert.match(text, /\[피치체크\]/, `${topic.id}: card 6 must contain the comment keyword`);
+      const nonPitchCheckCtaText = text.replace(/피치체크|PitchCheck|프로필\s*링크|댓글/gi, "");
+      assert.doesNotMatch(
+        nonPitchCheckCtaText,
+        unrelatedCtaTerms,
+        `${topic.id}: card 6 has an unrelated CTA`,
+      );
+    }
+  }
   assert.match(JSON.stringify(topic.copy.cards[6]), /프로필\s*링크/, `${topic.id}: card 7 missing profile link`);
   assert.match(JSON.stringify(topic.copy.cards[6]), /\[피치체크\]/, `${topic.id}: card 7 missing comment keyword`);
 }
+
+const messi005 = messiSeedByEventKey.get("lionel-messi|2003|porto-friendly-debut");
+const messi012 = messiSeeds.topics.find((topic) => topic.id === "messi-012-inter-miami-most-trophies-record");
+const messiRetirement = messiSeeds.topics.find(
+  (topic) => topic.id === "messi-013-international-retirement-announcement",
+);
+assert.deepEqual(messi005?.sourceRefs, ["messi_source_05"]);
+assert.match(messi005?.copy.cards[3] ?? "", /71분/);
+assert.doesNotMatch(messi005?.copy.cards[3] ?? "", /다음 해|공식 데뷔/);
+assert.deepEqual(messi012?.sourceRefs, ["messi_source_20"]);
+assert.equal(messi012?.eventKey, "lionel-messi|2023|inter-miami-most-trophies-record");
+assert.deepEqual(messiRetirement?.sourceRefs, ["messi_source_13"]);
+assert.doesNotMatch(JSON.stringify(messiRetirement), /이후의 복귀|나중의 코파 우승|월드컵 우승|훗날의 반전/);
+assert.deepEqual(
+  messiKoreanIndex.find((entry) => entry.eventKey === messi012?.eventKey)?.sourceIds,
+  ["messi_source_20"],
+);
+assert.deepEqual(
+  messiKoreanIndex.find((entry) => entry.eventKey === messi005?.eventKey)?.sourceIds,
+  ["messi_source_05"],
+);
+assert.deepEqual(
+  messiKoreanIndex.find((entry) => entry.eventKey === messiRetirement?.eventKey)?.sourceIds,
+  ["messi_source_13"],
+);
 
 assert.equal(messiEventKeys.size, 20);
 assert.equal(messiFacts.size, 20);
