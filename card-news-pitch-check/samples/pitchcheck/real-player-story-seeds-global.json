@@ -1,0 +1,3270 @@
+{
+  "name": "PitchCheck global legend story seeds",
+  "sourceRefs": {
+    "messi_source_01": "https://www.olympics.com/en/athletes/lionel-messi",
+    "messi_source_02": "https://apnews.com/article/lionel-messi-world-cup-2026-argentina-2c6fd62146a2e4de22bee75f1ea3c9c0",
+    "messi_source_03": "https://www.bonhams.com/press_release/38298/",
+    "messi_source_04": "https://www.fcbarcelona.com/en/news/1692969/all-time-stats-for-messi-in-the-barca-youth-teams",
+    "messi_source_05": "https://www.fcbarcelona.com/en/news/4403264/22-years-since-leo-messi-debuted-for-fc-barcelona",
+    "messi_source_06": "https://www.fcbarcelona.com/en/news/4147765/20-years-since-leo-messis-fc-barcelona-debut",
+    "messi_source_07": "https://www.fcbarcelona.com/en/news/4256638/20-years-since-leo-messis-first-official-goal",
+    "messi_source_08": "https://www.fcbarcelona.com/en/news/4250088/18-years-since-messis-maradona-like-goal",
+    "messi_source_09": "https://www.olympics.com/en/news/lionel-messi-olympic-gold-medal-beijing-2008-final-football-barcelona",
+    "messi_source_10": "https://www.uefa.com/uefachampionsleague/news/01e0-0e7398054ce6-4b27ea9955b6-1000--messi-leads-barca-to-rome-glory/",
+    "messi_source_11": "https://www.guinnessworldrecords.com/world-records/106274-most-football-goals-scored-in-a-calendar-year",
+    "messi_source_12": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/messi-golden-ball-record",
+    "messi_source_13": "https://www.bbc.com/sport/football/36637591",
+    "messi_source_14": "https://www.fcbarcelona.com/en/news/769849/match-report-real-madrid-2-3-fc-barcelona-epic-late-win-reignites-title-race",
+    "messi_source_15": "https://www.fcbarcelona.com/en/news/1454280/messi-scores-his-50th-free-kick",
+    "messi_source_16": "https://www.fcbarcelona.com/en/news/2207655/leo-messi-not-staying-at-fc-barcelona",
+    "messi_source_17": "https://www.olympics.com/en/news/lionel-messi-copa-america-title-2021-olympic-gold-2008-argentina",
+    "messi_source_19": "https://www.intermiamicf.com/news/inter-miami-cf-signs-seven-time-ballon-d-or-winner-world-cup-champion-lionel-mes",
+    "messi_source_20": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-wins-2023-leagues-cup-title-to-clinch-historic-first-",
+    "messi_source_25": "https://www.espn.com/soccer/story/_/id/37630716/impact-superstar-move-psg-clubs-him",
+    "ronaldo_source_01": "https://www.olympics.com/en/athletes/cristiano-ronaldo-dos-santos-aveiro",
+    "ronaldo_source_02": "https://www.olympics.com/en/news/cristiano-ronaldo-seven-things-to-know-manchester-united-return",
+    "ronaldo_source_03": "https://www.theplayerstribune.com/articles/cristiano-ronaldo-madrid-english",
+    "ronaldo_source_04": "https://www.manutd.com/en/mutv/videos/detail/cristiano-ronaldo-sporting-lisbon-friendly-highlights",
+    "ronaldo_source_05": "https://www.manutd.com/en/mutv/videos/detail/man-utd-4-bolton-wanderers-0-extended-highlights-premier-league-2003-04",
+    "ronaldo_source_06": "https://www.manutd.com/en/news/story-so-far-for-cristiano-ronaldo-as-he-returns-to-manchester-united",
+    "ronaldo_source_07": "https://www.uefa.com/uefachampionsleague/news/01e8-0e750333e183-06456a1441e7-1000--2007-08-manchester-united-fc-1-1-chelsea-fc-6-5-on-pens-r/",
+    "ronaldo_source_08": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+    "ronaldo_source_09": "https://www.uefa.com/european-qualifiers/news/0253-0d7eeff62152-38beffc43bd8-1000--ronaldo-hat-trick-takes-portugal-past-sweden/",
+    "ronaldo_source_10": "https://www.uefa.com/uefachampionsleague/news/0250-0c5117b84831-021a3db69776-1000--cristiano-ronaldo-makes-history-by-scoring-in-third-final/",
+    "ronaldo_source_11": "https://www.uefa.com/uefaeuro/history/news/025a-0ec0db63e375-e3d06be8c923-1000--euro-2016-all-you-need-to-know/",
+    "ronaldo_source_12": "https://www.uefa.com/uefachampionsleague/match/2021701--juventus-vs-real-madrid/events/",
+    "ronaldo_source_13": "https://inside.fifa.com/news/ronaldo-signs-for-juventus",
+    "ronaldo_source_14": "https://www.uefa.com/uefachampionsleague/news/0247-0e98ea248c0b-875a6c798966-1000--what-ronaldo-said-in-his-first-outing-as-a-juventus-player/",
+    "ronaldo_source_15": "https://www.manutd.com/en/news/official-statement-on-agreement-reached-for-cristiano-ronaldo",
+    "ronaldo_source_16": "https://www.manutd.com/en/news/cristiano-ronaldo-completes-transfer-to-man-utd-from-juventus",
+    "ronaldo_source_17": "https://www.manutd.com/en/mutv/videos/detail/ronaldo-goal-against-everton-9-oct-2022",
+    "ronaldo_source_18": "https://www.skysports.com/football/news/11667/12753309/cristiano-ronaldo-manchester-united-forward-to-leave-club-immmediately-by-mutual-consent-after-explosive-interview",
+    "ronaldo_source_19": "https://www.theguardian.com/football/2022/dec/30/cristiano-ronaldo-al-nassr-saudi-arabia",
+    "ronaldo_source_20": "https://www.uefa.com/european-qualifiers/news/0257-0e001aafb4e9-7c6ad3889ce0-1000--cristiano-ronaldo-s-146-international-goals-opposition-w/"
+  },
+  "topics": [
+    {
+      "id": "messi-001-growth-treatment-move",
+      "eventKey": "lionel-messi|2000|growth-treatment-family-move",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "early-career",
+      "eventDate": null,
+      "hook": "13살 메시의 바르셀로나행은 축구 유학만의 이야기가 아니었다.",
+      "fact": "메시는 13세에 가족과 바르셀로나로 옮겼고, 구단의 도움으로 성장호르몬 치료를 받았다.",
+      "context": "올림픽 프로필은 그가 바르셀로나 U14 팀에서 뛰기 시작했다고 정리한다.",
+      "whyFun": "세계 최고 선수의 출발점이 이적시장보다 가족의 결단에 가까웠다는 대비가 선명하다.",
+      "shareTrigger": "재능 뒤에 있던 가족의 선택을 한 장면으로 떠올리게 한다.",
+      "evidence": "Olympics.com 선수 프로필의 어린 시절과 치료 지원 설명.",
+      "sourceRefs": [
+        "messi_source_01"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "치료의 세부 기간은 이 시드에서 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Lionel Messi childhood Rosario",
+          "Messi family Barcelona arrival",
+          "FC Barcelona La Masia 2000",
+          "young Lionel Messi Barcelona",
+          "Messi U14 Barcelona archive"
+        ],
+        "cardPlan": [
+          "가족 여행가방과 13세 숫자",
+          "로사리오에서 바르셀로나로 이어지는 지도",
+          "치료와 훈련을 상징하는 기록 사진",
+          "U14 유니폼 디테일",
+          "가족 결단을 보여주는 조용한 장면",
+          "동네 팀의 장거리 원정 집결",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "13살 메시가 가족과 바르셀로나로 떠난 이유",
+          "이건 축구 유학 이야기만은 아니었다.",
+          "성장호르몬 치료가 필요했던 소년에게 구단이 손을 내밀었다.",
+          "메시는 바르셀로나 U14에서 새 출발을 했다.",
+          "훗날의 전설은 가족의 이사 결정에서 이미 방향이 바뀌고 있었다.",
+          "우리 팀도 멀리 가는 경기일수록 누가 언제 합류하는지 먼저 맞춰두면 덜 흔들린다.",
+          "팀 일정과 출석 흐름은 프로필 링크에서 확인하고, 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-002-grandoli-right-wing",
+      "eventKey": "lionel-messi|1992|grandoli-right-wing",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "childhood",
+      "eventDate": null,
+      "hook": "다섯 살 메시는 전술 때문에 오른쪽에 선 게 아니었다.",
+      "fact": "그는 1992년 그란돌리에서 첫 경기를 뛰며, 울면 할머니 곁으로 갈 수 있게 오른쪽 윙에 섰다.",
+      "context": "AP는 이 선택이 전술이 아니라 어린 메시를 안심시키기 위한 배치였다고 전했다.",
+      "whyFun": "전설의 포지션 이야기가 아주 평범한 가족의 배려에서 시작된다.",
+      "shareTrigger": "처음 축구를 시작한 아이의 불안과 가족의 응원을 함께 떠올리게 한다.",
+      "evidence": "AP의 아반데라도 그란돌리 현장 보도.",
+      "sourceRefs": [
+        "messi_source_02"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "reputable-secondary",
+        "caveat": "AP가 전한 지역 클럽의 구술 맥락으로 제시한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Abanderado Grandoli Rosario Messi",
+          "young Lionel Messi Grandoli",
+          "Rosario neighborhood football pitch",
+          "Messi grandmother childhood",
+          "Grandoli club mural Messi"
+        ],
+        "cardPlan": [
+          "다섯 살 숫자와 작은 오른쪽 윙",
+          "할머니 가까이의 터치라인",
+          "그란돌리 클럽 외관",
+          "첫 경기의 작은 유니폼",
+          "가족이 지켜보는 운동장",
+          "초보 팀원의 낯선 포지션 배려",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "다섯 살 메시가 오른쪽 윙에 섰던 진짜 이유",
+          "감독의 전술판에는 없던 이유였다.",
+          "울면 곧바로 할머니 곁으로 갈 수 있게, 오른쪽에 세웠다.",
+          "장소는 로사리오의 동네 클럽 그란돌리.",
+          "그의 첫 경기는 그렇게 가족 가까이에서 시작됐다.",
+          "새 멤버가 어색해하면 역할보다 먼저 자리를 편하게 만들어주는 팀이 오래 간다.",
+          "우리 팀의 자리도 정리해두고 싶다면 프로필 링크로 가서 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-003-napkin-contract",
+      "eventKey": "lionel-messi|2000|napkin-contract",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "contract-backstory",
+      "eventDate": "2000-12-14",
+      "hook": "메시의 바르셀로나 계약 약속은 냅킨 위에서 시작됐다.",
+      "fact": "2000년 12월 14일 카를레스 렉사흐는 식당 냅킨에 메시 영입 약속을 적었다.",
+      "context": "협상은 지연됐고, 아버지 호르헤 메시가 확답을 기다리던 시점이었다.",
+      "whyFun": "축구사의 거대한 계약이 16.5cm 정사각형 냅킨이라는 작은 물건에 남았다.",
+      "shareTrigger": "종이 한 장이 선수와 구단의 미래를 바꾼 순간이라 저장할 이유가 뚜렷하다.",
+      "evidence": "Bonhams의 원본 냅킨 경매 보도와 계약 문구 설명.",
+      "sourceRefs": [
+        "messi_source_03"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "primary",
+        "caveat": "냅킨은 경매사가 보관·소개한 원본 설명을 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Lionel Messi napkin contract 2000",
+          "Carles Rexach napkin Bonhams",
+          "Pompeia tennis club Barcelona",
+          "young Messi Barcelona trial",
+          "Messi contract napkin close up"
+        ],
+        "cardPlan": [
+          "냅킨 질감 위의 질문",
+          "2000년 12월 14일 날짜",
+          "파란 펜 계약 문장",
+          "식당 테이블 재현 컷",
+          "작은 냅킨과 거대한 미래 대비",
+          "팀 약속을 기록으로 남기는 장면",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 계약은 왜 냅킨 위에 쓰였을까",
+          "2000년 12월 14일, 협상은 더는 미룰 수 없었다.",
+          "렉사흐는 식당 냅킨을 꺼내 메시 영입 약속을 적었다.",
+          "아버지 호르헤는 바르셀로나의 확답을 기다리고 있었다.",
+          "16.5cm 냅킨 한 장이 훗날의 역사를 품었다.",
+          "우리 팀도 중요한 약속은 말로 흘리지 말고 한곳에 남겨두는 편이 좋다.",
+          "약속과 일정이 흩어졌다면 프로필 링크에서 보고, 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-004-youth-mask-four-teams",
+      "eventKey": "lionel-messi|2003|youth-mask-four-teams",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "academy-resilience",
+      "eventDate": null,
+      "hook": "유소년 메시가 보호 마스크를 벗고 결승에서 두 골을 넣었다.",
+      "fact": "바르셀로나 유소년 시절 광대뼈 부상 뒤 마스크를 쓴 메시는 답답하다며 벗었고, 에스파뇰전 전반 전에 두 골을 넣었다.",
+      "context": "구단 기록은 그가 같은 시즌 네 팀에서 뛴 첫 선수이기도 했다고 설명한다.",
+      "whyFun": "부상 마스크와 네 팀을 오간 시즌이 한 장의 성장 서사로 연결된다.",
+      "shareTrigger": "잘하는 선수에게도 회복과 대기가 있었다는 장면이 남는다.",
+      "evidence": "FC Barcelona 유소년팀 통계 기사.",
+      "sourceRefs": [
+        "messi_source_04"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "마스크를 벗은 뒤의 골 장면은 구단 회고에 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "young Messi protective mask Barcelona",
+          "Messi Barcelona youth team 2003",
+          "La Masia Messi archive",
+          "Messi youth Espanyol final",
+          "Messi four teams season"
+        ],
+        "cardPlan": [
+          "보호 마스크와 얼굴 클로즈업",
+          "부상 뒤 복귀한 훈련장",
+          "마스크를 벗는 전환",
+          "에스파뇰전 두 골 숫자",
+          "네 팀 배지 배열",
+          "부상 복귀자를 맞는 아마추어 팀",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "보호 마스크를 벗은 유소년 메시",
+          "광대뼈를 다친 뒤에도 결승에 나섰다.",
+          "답답하다며 마스크를 벗은 그는 전반이 끝나기 전 두 골을 넣었다.",
+          "그 시즌, 메시는 네 팀에서 뛰었다.",
+          "한 단계씩 올라가는 속도는 이미 평범하지 않았다.",
+          "복귀한 팀원이 바로 적응하도록 역할과 출석을 미리 맞추면 팀도 덜 흔들린다.",
+          "우리 팀의 복귀 일정은 프로필 링크에서 정리하고, 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-005-porto-friendly-debut",
+      "eventKey": "lionel-messi|2003|porto-friendly-debut",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "senior-debut",
+      "eventDate": "2003-11-16",
+      "hook": "메시의 1군 첫 출전은 공식전이 아니라 포르투전 친선경기였다.",
+      "fact": "메시는 2003년 11월 16일 포르투와의 친선전에서 바르셀로나 1군에 처음 나섰다.",
+      "context": "당시 그는 16세였고, 구단은 이 경기를 그의 바르셀로나 데뷔일로 기록한다.",
+      "whyFun": "전설의 첫 장면은 거대한 결승이 아니라 친선전의 짧은 출전이었다.",
+      "shareTrigger": "모든 시작이 화려할 필요는 없다는 축구식 반전이 있다.",
+      "evidence": "FC Barcelona의 포르투 친선전 데뷔 회고.",
+      "sourceRefs": [
+        "messi_source_05"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "친선전 데뷔와 공식전 데뷔를 구분한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Porto friendly debut 2003",
+          "Lionel Messi 16 Barcelona debut",
+          "Barcelona Porto 16 November 2003",
+          "young Messi first team Barcelona",
+          "Barcelona 2003 friendly match"
+        ],
+        "cardPlan": [
+          "16세 메시와 포르투전 제목",
+          "친선전이라는 작은 표기",
+          "벤치에서 피치로 향하는 장면",
+          "첫 1군 유니폼",
+          "공식전 전의 첫 발자국",
+          "첫 출전 멤버를 편하게 맞는 팀",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 1군 데뷔는 결승전이 아니었다.",
+          "2003년 11월 16일, 상대는 포르투였다.",
+          "공식전도 아닌 친선전에서 16세 메시는 처음 1군 유니폼을 입었다.",
+          "71분에 교체로 들어와 첫 출전을 기록했다.",
+          "전설도 처음엔 경기 기록의 작은 줄에서 시작했다.",
+          "새로 들어온 멤버에게 첫 게임을 열어주는 순간이 팀 분위기를 바꾼다.",
+          "첫 경기 멤버를 정리하려면 프로필 링크로 가서 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-006-competitive-debut",
+      "eventKey": "lionel-messi|2004|competitive-debut",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "senior-debut",
+      "eventDate": "2004-10-16",
+      "hook": "친선전 뒤 11개월, 메시가 마침내 공식전에 들어갔다.",
+      "fact": "메시는 2004년 10월 16일 에스파뇰전에서 바르셀로나의 공식전 데뷔를 했다.",
+      "context": "포르투전 친선 출전과 달리, 이 경기는 리그 기록에 남는 첫 경쟁 경기였다.",
+      "whyFun": "같은 데뷔라도 친선전과 공식전 사이에는 11개월의 기다림이 있었다.",
+      "shareTrigger": "첫 기회 뒤에 다시 준비하는 시간의 가치를 보여준다.",
+      "evidence": "FC Barcelona의 20주년 공식 데뷔 회고.",
+      "sourceRefs": [
+        "messi_source_06"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "1군 친선전 데뷔와 공식전 데뷔는 별도 사건으로 관리한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi competitive debut Espanyol 2004",
+          "Barcelona Espanyol 16 October 2004 Messi",
+          "Lionel Messi first official match",
+          "young Messi Barcelona number 30",
+          "Barcelona derby 2004 Messi"
+        ],
+        "cardPlan": [
+          "11개월이라는 간격",
+          "에스파뇰전 경기장",
+          "교체 투입 순간",
+          "리그 기록 첫 줄",
+          "경쟁 경기의 긴장",
+          "대기 멤버의 출전 순서",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "친선전 데뷔 뒤, 메시는 11개월을 더 기다렸다.",
+          "2004년 10월 16일 에스파뇰전.",
+          "이날이 리그 기록에 남는 메시의 첫 공식전이었다.",
+          "포르투전의 첫 발과는 다른, 경쟁의 문이 열렸다.",
+          "한 번의 출전이 아니라 다음 기회를 준비한 시간이 있었다.",
+          "출전 순서가 분명하면 기다리는 팀원도 자기 준비를 놓치지 않는다.",
+          "우리 팀 출전 흐름은 프로필 링크에서 확인하고, 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-007-first-official-goal",
+      "eventKey": "lionel-messi|2005|first-official-goal",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "first-goal",
+      "eventDate": "2005-05-01",
+      "hook": "메시의 첫 공식 골은 한 번 취소된 뒤에야 들어갔다.",
+      "fact": "2005년 5월 1일 알바세테전에서 메시의 첫 골은 오프사이드로 취소됐지만, 곧 호나우지뉴의 패스를 받아 다시 골망을 갈랐다.",
+      "context": "구단은 이 골을 바르셀로나 1군에서의 첫 공식 득점으로 기록한다.",
+      "whyFun": "첫 골조차 한 번의 취소를 거쳐야 했다는 장면이 영화처럼 선명하다.",
+      "shareTrigger": "취소된 첫 시도 뒤에도 바로 다시 해낸 장면이라 응원하고 싶어진다.",
+      "evidence": "FC Barcelona의 첫 공식 골 20주년 기사.",
+      "sourceRefs": [
+        "messi_source_07"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "첫 시도 취소와 재득점 순서를 구단 회고에 맞춘다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi first official goal Albacete 2005",
+          "Ronaldinho Messi first goal",
+          "Barcelona Albacete May 2005",
+          "Messi chip goal first goal",
+          "young Messi celebrates Barcelona"
+        ],
+        "cardPlan": [
+          "취소된 첫 골의 전광판",
+          "오프사이드 깃발",
+          "호나우지뉴의 패스",
+          "두 번째 침투",
+          "첫 공식 골 세리머니",
+          "실수 뒤 다시 뛰는 동네 팀",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 첫 공식 골은 한 번 취소됐다.",
+          "2005년 알바세테전, 첫 슛은 오프사이드 판정.",
+          "하지만 호나우지뉴가 다시 패스를 내줬다.",
+          "메시는 이번엔 골망을 갈랐다.",
+          "첫 공식 골은 취소 뒤에 온 두 번째 기회였다.",
+          "한 번 꼬인 플레이 뒤에도 다음 패스를 믿어주는 팀이 더 강하다.",
+          "다음 게임 멤버와 시간을 맞추려면 프로필 링크로 가서 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-008-maradona-like-solo-goal",
+      "eventKey": "lionel-messi|2007|maradona-like-solo-goal",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "iconic-goal",
+      "eventDate": "2007-04-18",
+      "hook": "메시는 하프라인 근처에서 출발해 여섯 명을 지나갔다.",
+      "fact": "2007년 헤타페전에서 메시는 마라도나의 1986년 골을 떠올리게 하는 단독 돌파 골을 넣었다.",
+      "context": "바르셀로나는 이 장면을 '마라도나 같은 골'로 회고한다.",
+      "whyFun": "비교 대상이 역사상 가장 유명한 월드컵 골이라는 것 자체가 장면의 규모를 말해준다.",
+      "shareTrigger": "축구 팬이 몇 번을 봐도 다시 재생하는 돌파 골이다.",
+      "evidence": "FC Barcelona의 헤타페전 18주년 회고.",
+      "sourceRefs": [
+        "messi_source_08"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "'마라도나 같은' 표현은 구단의 비교 표현으로 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Getafe solo goal 2007",
+          "Messi Maradona like goal Barcelona",
+          "Barcelona Getafe Copa del Rey 2007",
+          "Messi dribbling six players",
+          "Messi 18 April 2007 goal"
+        ],
+        "cardPlan": [
+          "하프라인 출발점",
+          "첫 수비수 돌파",
+          "연속 드리블 궤적",
+          "골키퍼를 넘는 순간",
+          "마라도나 비교 자막",
+          "혼자 풀지 않고 연결하는 팀의 공간",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "하프라인 근처에서 공을 잡은 메시",
+          "헤타페전, 앞에는 수비수들이 줄지어 있었다.",
+          "그는 여섯 명을 지나 골키퍼까지 제쳤다.",
+          "바르셀로나는 이 골을 '마라도나 같은 골'로 기억한다.",
+          "한 번의 돌파가 축구 영상의 고전이 됐다.",
+          "개인의 번뜩임도 팀이 비워준 공간과 타이밍 위에서 더 빛난다.",
+          "우리 팀 움직임도 맞춰보고 싶다면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-009-beijing-olympic-gold",
+      "eventKey": "lionel-messi|2008|beijing-olympic-gold",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "international-title",
+      "eventDate": "2008-08-23",
+      "hook": "메시의 첫 큰 아르헨티나 금메달은 베이징에서 나왔다.",
+      "fact": "아르헨티나는 2008 베이징 올림픽 남자 축구 결승에서 나이지리아를 1-0으로 꺾고 금메달을 땄다.",
+      "context": "올림픽은 이 우승을 메시의 대표팀 주요 우승 경력의 출발점으로 되짚는다.",
+      "whyFun": "월드컵보다 먼저, 올림픽 결승의 작은 한 골이 대표팀 트로피의 첫 장이 됐다.",
+      "shareTrigger": "대표팀 우승 서사의 출발점을 알고 싶은 팬에게 분명한 저장 포인트다.",
+      "evidence": "Olympics.com의 베이징 2008 금메달 회고.",
+      "sourceRefs": [
+        "messi_source_09"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "결승 스코어와 메달 결과만 다룬다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Beijing 2008 Olympic gold",
+          "Argentina Nigeria Olympic final 2008",
+          "Messi Olympic medal Beijing",
+          "Argentina football gold medal 2008",
+          "Messi Argentina 2008 celebration"
+        ],
+        "cardPlan": [
+          "베이징 금메달 질문",
+          "결승 스코어 1-0",
+          "아르헨티나 국기와 시상대",
+          "메시의 메달",
+          "대표팀 우승의 첫 장",
+          "결승 전 집결과 역할 확인",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 대표팀 금메달은 월드컵보다 먼저 왔다.",
+          "장소는 2008년 베이징.",
+          "아르헨티나는 나이지리아를 1-0으로 꺾고 올림픽 금메달을 땄다.",
+          "메시에게는 대표팀 주요 우승의 첫 장이었다.",
+          "훗날의 긴 여정은 시상대 위 금빛에서 시작됐다.",
+          "큰 경기일수록 누가 먼저 모이는지 정해두면 준비가 가벼워진다.",
+          "우리 팀 집결도 정리하려면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-010-rome-champions-league-final",
+      "eventKey": "lionel-messi|2009|rome-champions-league-final",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "club-title",
+      "eventDate": "2009-05-27",
+      "hook": "로마의 결승, 메시는 헤딩으로 맨유를 무너뜨렸다.",
+      "fact": "2009 챔피언스리그 결승에서 메시는 맨체스터 유나이티드를 상대로 바르셀로나의 두 번째 골을 헤딩으로 넣었다.",
+      "context": "바르셀로나는 로마에서 2-0으로 이겨 유럽 정상에 올랐다.",
+      "whyFun": "작은 체격의 메시가 결승에서 헤딩 골을 넣었다는 반전이 장면을 더 또렷하게 만든다.",
+      "shareTrigger": "메시의 수많은 왼발 골과 다른 결승 한 장면이라 공유하기 좋다.",
+      "evidence": "UEFA의 2009 로마 결승 보도.",
+      "sourceRefs": [
+        "messi_source_10"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "득점 장면과 최종 스코어에 한정한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi header Manchester United Rome 2009",
+          "Barcelona Manchester United Champions League final 2009",
+          "Messi Rome final celebration",
+          "Stadio Olimpico 2009 Messi",
+          "Barcelona 2 0 Manchester United 2009"
+        ],
+        "cardPlan": [
+          "로마 결승의 밤",
+          "맨유전 헤딩 순간",
+          "공중에 뜬 메시",
+          "2-0 스코어",
+          "트로피를 향한 세리머니",
+          "세트피스 전 역할 나누기",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "로마 결승에서 메시가 넣은 골은 헤딩이었다.",
+          "2009년 챔피언스리그 결승, 상대는 맨유.",
+          "바르셀로나가 1-0으로 앞선 뒤 메시가 공중으로 뛰어올랐다.",
+          "헤딩 골로 2-0. 유럽 정상은 굳어졌다.",
+          "작은 체격이라는 고정관념까지 넘긴 결승 장면이었다.",
+          "세트피스도 누가 어디에 설지 맞아야 한 번의 찬스가 된다.",
+          "우리 팀 역할도 정리하려면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-011-calendar-year-scoring-record",
+      "eventKey": "lionel-messi|2012|calendar-year-scoring-record",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "scoring-record",
+      "eventDate": null,
+      "hook": "메시는 한 해에 91골을 넣었다.",
+      "fact": "기네스 세계기록은 메시의 2012년 91골을 남자 축구 선수의 한 해 최다 득점 기록으로 소개한다.",
+      "context": "이 수치는 바르셀로나와 아르헨티나에서 넣은 모든 공식 경기 득점을 합친 기록이다.",
+      "whyFun": "한 시즌도 아닌 달력 한 해에 91골이라는 숫자가 축구 감각을 잠시 멈추게 한다.",
+      "shareTrigger": "숫자 하나만으로도 친구에게 바로 보내고 싶은 기록이다.",
+      "evidence": "Guinness World Records의 연간 최다 득점 기록 페이지.",
+      "sourceRefs": [
+        "messi_source_11"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "기네스가 집계한 공식 경기 기준을 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi 91 goals 2012",
+          "Lionel Messi 2012 Barcelona goals",
+          "Guinness World Records Messi 91",
+          "Messi 2012 Argentina Barcelona",
+          "Messi goal celebration 2012"
+        ],
+        "cardPlan": [
+          "숫자 91 하나",
+          "2012년 달력",
+          "바르셀로나와 아르헨티나 분할",
+          "연속 득점 장면",
+          "기네스 기록 표기",
+          "시즌 출석을 쌓는 아마추어 팀",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "한 해에 91골. 메시의 2012년.",
+          "한 시즌이 아니라 1월부터 12월까지의 숫자다.",
+          "바르셀로나와 아르헨티나 공식전을 합쳐 91골.",
+          "기네스 세계기록은 이를 남자 축구 연간 최다 득점으로 소개한다.",
+          "숫자만으로도 축구의 시간 감각이 무너진다.",
+          "작은 팀도 한 경기씩 출석을 쌓으면 시즌 끝에 전혀 다른 기록이 남는다.",
+          "우리 팀 기록을 쌓고 싶다면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-012-inter-miami-most-trophies-record",
+      "eventKey": "lionel-messi|2023|inter-miami-most-trophies-record",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "club-record",
+      "eventDate": "2023-08-19",
+      "hook": "메시는 인터 마이애미의 첫 공식 트로피 경기에서 개인 기록까지 남겼다.",
+      "fact": "인터 마이애미는 메시가 2023 리그스컵에서 통산 트로피 44개를 기록하고 대회 최우수선수와 득점왕을 받았다고 전했다.",
+      "context": "메시는 내슈빌과의 결승에서 전반 23분 선제골을 넣었고, 인터 마이애미는 승부차기로 우승했다.",
+      "whyFun": "구단의 첫 공식 트로피와 메시의 개인 기록이 한 경기 보고서에 함께 남았다.",
+      "shareTrigger": "팀 우승 장면과 개인상 기록을 한 번에 비교할 수 있는 경기다.",
+      "evidence": "Inter Miami CF의 2023 리그스컵 결승전 경기 보고서.",
+      "sourceRefs": [
+        "messi_source_20"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "구단 경기 보고서가 제시한 44개 트로피와 개인상 기록의 범위만 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi 2023 Leagues Cup final",
+          "Inter Miami first trophy Messi",
+          "Messi Leagues Cup Best Player Top Scorer",
+          "Messi Nashville Leagues Cup final goal",
+          "Inter Miami 2023 trophy ceremony"
+        ],
+        "cardPlan": [
+          "리그스컵 결승 스코어",
+          "전반 23분 선제골",
+          "승부차기 우승",
+          "구단 첫 공식 트로피",
+          "최우수선수와 득점왕",
+          "통산 트로피 44개 기록",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시는 2023 리그스컵에서 우승과 개인 기록을 함께 남겼다.",
+          "인터 마이애미와 내슈빌의 결승은 1-1로 끝났다.",
+          "메시는 전반 23분 왼발 슛으로 선제골을 넣었다.",
+          "승부차기 끝에 인터 마이애미가 구단 첫 공식 트로피를 차지했다.",
+          "메시는 대회 최우수선수와 득점왕을 받았고 통산 트로피는 44개가 됐다.",
+          "우리 팀도 매 경기의 작은 기여를 남기면 시즌 끝에 이야기가 된다.",
+          "팀 기록을 남기려면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-013-international-retirement-announcement",
+      "eventKey": "lionel-messi|2016|international-retirement-announcement",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "international-career",
+      "eventDate": "2016-06-27",
+      "hook": "결승 패배 직후, 메시는 대표팀 은퇴를 선언했다.",
+      "fact": "2016 코파 아메리카 결승에서 칠레에 패한 뒤 메시는 아르헨티나 대표팀 은퇴를 발표했다.",
+      "context": "BBC는 그 발표가 승부차기 패배 직후 나왔다고 보도했다.",
+      "whyFun": "네 번의 결승과 승부차기 패배 뒤 나온 말이라 당시의 좌절이 선명하다.",
+      "shareTrigger": "결승 패배 직후 나온 한마디가 대표팀 도전의 무게를 그대로 보여준다.",
+      "evidence": "BBC Sport의 2016년 은퇴 발표 보도.",
+      "sourceRefs": [
+        "messi_source_13"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "reputable-secondary",
+        "caveat": "선언 당시의 보도 사실만 다루며 심리를 단정하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Argentina retirement announcement 2016",
+          "Argentina Chile Copa America final 2016 Messi",
+          "Messi 2016 penalty shootout",
+          "Messi Argentina disappointed 2016",
+          "Copa America Centenario final"
+        ],
+        "cardPlan": [
+          "결승 뒤의 침묵",
+          "칠레전 승부차기",
+          "은퇴 발표 헤드라인",
+          "대표팀 유니폼",
+          "네 번의 결승을 돌아보는 마무리",
+          "패배 뒤 팀 대화 자리",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "결승이 끝난 뒤, 메시는 은퇴를 말했다.",
+          "2016 코파 아메리카 결승에서 아르헨티나는 칠레에 졌다.",
+          "승부차기 뒤 메시는 대표팀 은퇴를 발표했다.",
+          "그 발표는 패배 직후 나왔다.",
+          "그날의 기록은 우승보다 먼저 남은 대표팀 은퇴 선언이었다.",
+          "진 경기 뒤에도 다음 약속을 바로 맞춰두면 팀은 다시 모일 이유를 찾는다.",
+          "다음 게임 약속은 프로필 링크에서 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-014-bernabeu-late-winner",
+      "eventKey": "lionel-messi|2017|bernabeu-late-winner",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "clasico",
+      "eventDate": "2017-04-23",
+      "hook": "베르나베우 92분, 메시는 2-3을 만들었다.",
+      "fact": "2017년 레알 마드리드전에서 메시는 추가시간 막판 결승골로 바르셀로나의 3-2 승리를 이끌었다.",
+      "context": "FC Barcelona의 경기 보고서는 이 승리가 리그 우승 경쟁을 다시 달아오르게 했다고 전한다.",
+      "whyFun": "엘 클라시코 원정, 추가시간, 결승골이라는 세 조건이 한 장면에 겹친다.",
+      "shareTrigger": "유니폼을 든 세리머니까지 한 번에 떠오르는 축구 밈급 장면이다.",
+      "evidence": "FC Barcelona의 2017 엘 클라시코 매치 리포트.",
+      "sourceRefs": [
+        "messi_source_14"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "경기 보고서의 추가시간 결승골과 스코어를 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Real Madrid 2 3 late winner 2017",
+          "Messi shirt celebration Bernabeu 2017",
+          "Barcelona Real Madrid April 2017 Messi",
+          "El Clasico 92 minute Messi",
+          "Messi 500th Barcelona goal"
+        ],
+        "cardPlan": [
+          "92분 시계",
+          "2-2 동점의 긴장",
+          "왼발 결승 슛",
+          "2-3 전광판",
+          "베르나베우 세리머니",
+          "막판 교체와 역할 확인",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "베르나베우 92분, 스코어는 2-2.",
+          "2017 엘 클라시코의 마지막 장면이었다.",
+          "메시는 추가시간 막판 왼발로 2-3을 만들었다.",
+          "바르셀로나는 레알 마드리드를 원정에서 꺾었다.",
+          "시간이 없을수록 한 번의 결정이 더 크게 남는다.",
+          "막판 교체가 있다면 누가 들어오고 나오는지 모두가 알아야 흔들리지 않는다.",
+          "우리 팀 교체 흐름은 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-015-fiftieth-free-kick",
+      "eventKey": "lionel-messi|2019|fiftieth-free-kick",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "set-piece-record",
+      "eventDate": null,
+      "hook": "메시의 프리킥 골은 50개에 도달했다.",
+      "fact": "FC Barcelona는 메시가 2019년 바야돌리드전에서 자신의 통산 50번째 프리킥 골을 넣었다고 기록했다.",
+      "context": "이 기록은 클럽과 아르헨티나에서 넣은 직접 프리킥을 합친 수치다.",
+      "whyFun": "가끔 터지는 한 방처럼 보이는 프리킥이 사실은 50번 누적된 기술이라는 점이 놀랍다.",
+      "shareTrigger": "'메시는 프리킥도 잘한다'를 숫자로 뒤집는 기록이다.",
+      "evidence": "FC Barcelona의 50번째 프리킥 골 기사.",
+      "sourceRefs": [
+        "messi_source_15"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "구단이 제시한 통산 직접 프리킥 기준을 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi 50th free kick Valladolid 2019",
+          "Lionel Messi free kick Barcelona",
+          "Messi direct free kick celebration",
+          "Barcelona Valladolid Messi 2019",
+          "Messi free kick technique"
+        ],
+        "cardPlan": [
+          "숫자 50과 프리킥 공",
+          "바야돌리드전 장면",
+          "벽 뒤 궤적",
+          "골망으로 휘는 공",
+          "누적된 50번째 표시",
+          "세트피스 키커 순서 공유",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 프리킥은 '잘 찬다'로 끝나지 않았다.",
+          "2019년 바야돌리드전에서 나온 한 골.",
+          "그 골은 메시의 통산 50번째 직접 프리킥 골이었다.",
+          "클럽과 아르헨티나에서 쌓인 숫자다.",
+          "한 번의 궤적 뒤에는 49번의 기록이 더 있었다.",
+          "세트피스 담당을 정해두면 작은 팀도 중요한 순간에 덜 망설인다.",
+          "우리 팀 역할을 정리하려면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-016-barcelona-exit",
+      "eventKey": "lionel-messi|2021|barcelona-exit",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "club-exit",
+      "eventDate": "2021-08-05",
+      "hook": "바르셀로나와 메시가 합의했는데도, 계약은 성사되지 못했다.",
+      "fact": "2021년 8월 바르셀로나는 라리가 선수 등록 규정 때문에 메시가 구단에 남을 수 없다고 발표했다.",
+      "context": "구단은 양측이 새 계약 의지가 있었지만 규정상 등록이 불가능했다고 밝혔다.",
+      "whyFun": "전설의 이별이 경기력이나 개인 갈등이 아니라 등록 규정에 막혔다는 점이 뜻밖이다.",
+      "shareTrigger": "팬들이 '바르셀로나의 메시'를 당연하게 여겼던 시대가 끝난 공식 순간이다.",
+      "evidence": "FC Barcelona의 2021년 공식 발표.",
+      "sourceRefs": [
+        "messi_source_16"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "구단 발표의 등록 규정 설명을 사실 범위로 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Barcelona Messi not staying announcement 2021",
+          "Lionel Messi Barcelona farewell 2021",
+          "Camp Nou Messi August 2021",
+          "FC Barcelona official statement Messi",
+          "Messi Barcelona press conference tears"
+        ],
+        "cardPlan": [
+          "바르셀로나 발표 제목",
+          "합의했지만이라는 대비",
+          "선수 등록 규정 문서",
+          "캄프 누의 빈 자리",
+          "17년의 마무리",
+          "팀 이탈 시 역할 재배치",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시와 바르셀로나는 합의했는데도 헤어졌다.",
+          "2021년 8월, 구단은 메시가 남지 못한다고 발표했다.",
+          "이유로 든 것은 라리가의 선수 등록 규정.",
+          "양측의 새 계약 의지만으로는 등록을 해결할 수 없었다.",
+          "17년의 바르셀로나 경력이 공식 발표 한 줄에서 멈췄다.",
+          "핵심 멤버가 빠질 때는 빈 역할을 누가 맡는지 먼저 정해야 팀이 덜 흔들린다.",
+          "우리 팀 역할 변경은 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-017-copa-america-title",
+      "eventKey": "lionel-messi|2021|copa-america-title",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "international-title",
+      "eventDate": "2021-07-10",
+      "hook": "메시는 여섯 번째 도전 끝에 코파 아메리카를 들었다.",
+      "fact": "아르헨티나는 2021 코파 아메리카 결승에서 브라질을 1-0으로 이기며 메시의 첫 코파 우승을 만들었다.",
+      "context": "올림픽은 이 우승이 아르헨티나의 28년 만의 대륙 우승이라고 설명한다.",
+      "whyFun": "마라카낭에서 브라질을 이기고, 오래 비어 있던 메시의 대표팀 트로피 칸을 채웠다.",
+      "shareTrigger": "2016 은퇴 선언을 알고 보면 더 크게 다가오는 대표팀 반전이다.",
+      "evidence": "Olympics.com의 2021 코파 아메리카 결승 회고.",
+      "sourceRefs": [
+        "messi_source_17"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "여섯 번째 도전은 해당 기사 설명을 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi Copa America 2021 trophy Maracana",
+          "Argentina Brazil final 2021 Messi",
+          "Di Maria goal Copa America final",
+          "Messi Argentina celebration 2021",
+          "Copa America trophy Messi"
+        ],
+        "cardPlan": [
+          "여섯 번째 도전 문구",
+          "마라카낭 결승",
+          "1-0 스코어",
+          "트로피를 든 메시",
+          "28년 만의 우승",
+          "오랜 멤버가 함께 맞는 결승",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "여섯 번째 도전 끝에, 메시가 코파를 들었다.",
+          "2021년 결승 상대는 브라질, 장소는 마라카낭.",
+          "아르헨티나는 1-0으로 이겼다.",
+          "메시에게는 첫 코파 아메리카 우승이었다.",
+          "아르헨티나는 28년 만에 대륙 정상으로 돌아왔다.",
+          "오래 함께한 멤버일수록 중요한 날의 집결과 역할을 더 또렷하게 맞춰야 한다.",
+          "우리 팀 약속도 프로필 링크에서 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-018-inter-miami-signing",
+      "eventKey": "lionel-messi|2023|inter-miami-signing",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "transfer",
+      "eventDate": "2023-07-15",
+      "hook": "메시는 인터 마이애미에서 새 커리어의 다음 장을 시작했다.",
+      "fact": "인터 마이애미는 2023년 메시 영입을 발표하며 계약이 2025 MLS 시즌까지 이어진다고 밝혔다.",
+      "context": "구단은 그가 지정선수 자리로 합류한다고 설명했고, 메시는 미국에서 새 프로젝트를 시작할 기회라고 말했다.",
+      "whyFun": "유럽의 전설이 MLS 신생 구단의 야심과 만나는 순간이라 축구 지도가 바뀌는 느낌을 준다.",
+      "shareTrigger": "다음 행선지를 둘러싼 긴 추측이 구단 발표로 끝난 순간이다.",
+      "evidence": "Inter Miami CF의 공식 영입 발표.",
+      "sourceRefs": [
+        "messi_source_19"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "계약 기간은 발표 당시 구단 안내 기준이다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Inter Miami signs Lionel Messi 2023",
+          "Messi Inter Miami announcement",
+          "Lionel Messi pink Inter Miami jersey",
+          "Inter Miami Messi July 2023",
+          "Messi Miami stadium presentation"
+        ],
+        "cardPlan": [
+          "마이애미 핑크 색감",
+          "공식 영입 발표",
+          "2025 시즌까지 계약 표기",
+          "새 유니폼",
+          "미국에서의 다음 장",
+          "새 멤버 환영과 역할 배정",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시는 마이애미에서 새 장을 열었다.",
+          "인터 마이애미는 2023년 그의 영입을 공식 발표했다.",
+          "구단 발표상 계약은 2025 MLS 시즌까지였다.",
+          "메시는 미국에서 새 프로젝트를 시작할 기회라고 말했다.",
+          "유럽의 전설이 MLS 신생 구단으로 향한 순간이었다.",
+          "새 멤버가 들어오면 환영만큼 역할과 첫 일정도 같이 맞춰야 한다.",
+          "우리 팀 새 멤버 일정은 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-019-inter-miami-first-trophy",
+      "eventKey": "lionel-messi|2023|inter-miami-first-trophy",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "club-title",
+      "eventDate": "2023-08-19",
+      "hook": "메시의 인터 마이애미는 첫 공식 트로피를 한 달 만에 들었다.",
+      "fact": "인터 마이애미는 2023 리그스컵 결승에서 내슈빌과 1-1 뒤 승부차기에서 이겨 구단 첫 공식 트로피를 획득했다.",
+      "context": "메시는 결승 전반 23분 선제골을 넣었고, 그 대회 10골을 기록했다.",
+      "whyFun": "새 스타의 합류가 곧바로 구단 역사상 첫 공식 우승으로 연결된 속도가 놀랍다.",
+      "shareTrigger": "새 팀의 첫 트로피라는 축구 서사의 가장 선명한 결말이다.",
+      "evidence": "Inter Miami CF의 2023 리그스컵 결승 공식 리캡.",
+      "sourceRefs": [
+        "messi_source_20"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "첫 공식 트로피와 결승 결과만 별도 사건으로 관리한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Inter Miami first trophy Leagues Cup 2023 Messi",
+          "Inter Miami Nashville final 2023 Messi",
+          "Messi Leagues Cup final goal",
+          "Inter Miami trophy celebration 2023",
+          "Messi pink jersey Leagues Cup"
+        ],
+        "cardPlan": [
+          "첫 공식 트로피 문구",
+          "내슈빌 결승 1-1",
+          "23분 메시 선제골",
+          "승부차기 긴장",
+          "구단 첫 우승 세리머니",
+          "결승 전 출석과 역할표",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시가 온 뒤, 마이애미의 첫 트로피는 빨랐다.",
+          "2023 리그스컵 결승은 1-1로 끝났다.",
+          "메시는 전반 23분 선제골을 넣었다.",
+          "승부차기 끝에 인터 마이애미가 이겼다.",
+          "그 트로피는 구단 역사상 첫 공식 우승이었다.",
+          "결승처럼 중요한 날일수록 누가 오는지와 맡을 일을 미리 확정해야 한다.",
+          "우리 팀 경기 준비는 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "messi-020-psg-move-impact",
+      "eventKey": "lionel-messi|2021|psg-move-impact",
+      "player": "Lionel Messi",
+      "portfolio": "global_legend",
+      "category": "transfer-impact",
+      "eventDate": null,
+      "hook": "메시의 PSG 이적은 한 선수의 유니폼 교체보다 훨씬 큰 파장을 남겼다.",
+      "fact": "ESPN은 메시의 바르셀로나 퇴단 1년 뒤 PSG와 바르셀로나, 그리고 메시 자신에게 남긴 영향을 분석했다.",
+      "context": "이 이적은 2021년 바르셀로나 이별 뒤 이뤄졌고 두 구단의 경기장 밖 관심도까지 바꿨다.",
+      "whyFun": "한 선수의 이동이 성적뿐 아니라 구단의 시선과 기대를 어떻게 바꾸는지 보여주는 사례다.",
+      "shareTrigger": "이적을 단순한 '새 팀' 소식으로 보지 않게 만드는 뒷이야기다.",
+      "evidence": "ESPN의 메시 PSG 이적 1년 영향 분석.",
+      "sourceRefs": [
+        "messi_source_25"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-02-messi.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "reputable-secondary",
+        "caveat": "영향 평가는 ESPN 분석의 관점임을 카드에서 단정적으로 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Messi PSG move impact 2021",
+          "Lionel Messi PSG presentation",
+          "Messi Barcelona PSG transition",
+          "Paris Saint Germain Messi 2021",
+          "Messi PSG first season"
+        ],
+        "cardPlan": [
+          "두 유니폼의 대비",
+          "바르셀로나를 떠난 뒤",
+          "PSG 입단 장면",
+          "한 해 뒤의 변화",
+          "이적이 남긴 파장",
+          "팀 이적 뒤 역할 재정렬",
+          "피치체크 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only"
+      },
+      "copy": {
+        "cards": [
+          "메시의 PSG 이적은 유니폼만 바꾼 일이 아니었다.",
+          "바르셀로나를 떠난 뒤, 그는 파리로 향했다.",
+          "1년 뒤 ESPN은 이 변화가 두 구단과 메시에게 남긴 영향을 분석했다.",
+          "한 선수의 이동은 경기장 밖의 시선과 기대도 함께 움직인다.",
+          "이적은 끝이 아니라, 여러 사람의 역할이 다시 정렬되는 시작이다.",
+          "우리 팀도 멤버 변화가 생기면 다음 경기의 역할부터 다시 맞추는 편이 좋다.",
+          "팀 변화가 잦다면 프로필 링크에서 보고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-001-sporting-trial-signing",
+      "eventKey": "cristiano-ronaldo|1997|sporting-cp-trial-signing",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "early-career",
+      "eventDate": null,
+      "hook": "1997년, 한 번의 트라이얼이 소년의 다음 무대를 바꿨다.",
+      "fact": "Ronaldo는 Andorinha 3년과 Nacional 2년 뒤 Sporting CP 트라이얼에서 인상을 남겨 1997년 영입됐다.",
+      "context": "Olympics.com은 Sporting CP를 포르투갈의 큰 클럽 중 하나로 소개한다.",
+      "whyFun": "동네 팀의 시간이 큰 클럽으로 이어지는 이동 경로가 한 줄에 보인다.",
+      "shareTrigger": "누군가의 시작점을 ‘유명해진 뒤’가 아니라 트라이얼 한 번으로 기억하게 한다.",
+      "evidence": "Olympics.com 프로필의 Andorinha·Nacional 경력과 1997년 Sporting CP 영입 설명.",
+      "sourceRefs": [
+        "ronaldo_source_01"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "트라이얼의 세부 평가 내용은 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Sporting CP 1997",
+          "young Ronaldo Sporting Lisbon",
+          "Andorinha football club Madeira",
+          "Sporting CP academy archive",
+          "Ronaldo childhood football trial"
+        ],
+        "cardPlan": [
+          "1997과 Sporting CP",
+          "Andorinha에서 Nacional까지",
+          "리스본 트라이얼",
+          "영입으로 바뀐 다음 장면",
+          "초기 경력의 안전한 범위",
+          "우리 아마추어팀도 다음 경기 합류 시간을 먼저 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 1997과 Sporting CP",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 1: Cristiano Ronaldo story subject for: 1997과 Sporting CP. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Andorinha에서 Nacional까지",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 2: Cristiano Ronaldo story subject for: Andorinha에서 Nacional까지. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 리스본 트라이얼",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 3: Cristiano Ronaldo story subject for: 리스본 트라이얼. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 영입으로 바뀐 다음 장면",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 4: Cristiano Ronaldo story subject for: 영입으로 바뀐 다음 장면. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 초기 경력의 안전한 범위",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 5: Cristiano Ronaldo story subject for: 초기 경력의 안전한 범위. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 다음 경기 합류 시간을 먼저 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 다음 경기 합류 시간을 먼저 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-001-sporting-trial-signing card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "1997년, Sporting CP 트라이얼에 선 소년",
+          "Andorinha에서 3년, Nacional에서 2년을 보냈다.",
+          "Sporting CP 트라이얼에서 인상을 남겼다.",
+          "Olympics.com은 그가 1997년 Sporting CP에 영입됐다고 전한다.",
+          "큰 무대의 첫 문은 이름이 아니라 트라이얼이었다.",
+          "우리 아마추어팀도 다음 경기 전에 누가 언제 합류하는지 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-002-airport-name",
+      "eventKey": "cristiano-ronaldo|unknown|international-airport-naming",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "legacy",
+      "eventDate": null,
+      "hook": "그의 이름은 경기장을 넘어 공항 표지판에도 남았다.",
+      "fact": "Olympics.com의 일곱 가지 사실은 Cristiano Ronaldo International Airport를 소개한다.",
+      "context": "같은 source는 심장 상태부터 공항 명명까지를 그에 관한 사실로 묶는다.",
+      "whyFun": "선수의 이력이 경기 기록이 아닌 장소의 이름으로도 기억되는 장면이다.",
+      "shareTrigger": "친구에게 ‘공항 이름으로도 만나는 축구 선수’라는 한 줄을 보내기 좋다.",
+      "evidence": "Olympics.com 기사 설명과 headings의 Cristiano Ronaldo International Airport 항목.",
+      "sourceRefs": [
+        "ronaldo_source_02"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "공항 명명의 날짜와 행정 절차는 이 시드에서 다루지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo International Airport Madeira",
+          "Madeira airport Ronaldo name",
+          "Funchal airport exterior",
+          "Cristiano Ronaldo airport sign",
+          "Portugal Madeira airport terminal"
+        ],
+        "cardPlan": [
+          "공항에 남은 이름",
+          "기사의 7가지 사실",
+          "Cristiano Ronaldo International Airport",
+          "축구장 밖의 legacy",
+          "명명 사실만 안전하게 정리",
+          "우리 아마추어팀도 원정 장소와 집결 지점을 먼저 확인한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 공항에 남은 이름",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 1: Cristiano Ronaldo story subject for: 공항에 남은 이름. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 기사의 7가지 사실",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 2: Cristiano Ronaldo story subject for: 기사의 7가지 사실. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Cristiano Ronaldo International Airport",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 3: Cristiano Ronaldo story subject for: Cristiano Ronaldo International Airport. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 축구장 밖의 legacy",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 4: Cristiano Ronaldo story subject for: 축구장 밖의 legacy. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 명명 사실만 안전하게 정리",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 5: Cristiano Ronaldo story subject for: 명명 사실만 안전하게 정리. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 원정 장소와 집결 지점을 먼저 확인한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 원정 장소와 집결 지점을 먼저 확인한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-002-airport-name card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "그의 이름이 공항 표지판에 붙었다.",
+          "Olympics.com의 ‘7가지 사실’에는 Cristiano Ronaldo International Airport가 나온다.",
+          "이건 골 기록이 아니라 장소의 이름에 관한 기록이다.",
+          "기사의 설명은 공항 명명 사실을 짧게 소개한다.",
+          "Ronaldo를 경기장 밖에서 기억하는 한 가지 방식이다.",
+          "우리 아마추어팀도 원정 장소와 집결 지점을 미리 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-003-andorinha-youth-team",
+      "eventKey": "cristiano-ronaldo|age-7|andorinha-youth-team",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "childhood",
+      "eventDate": null,
+      "hook": "7살 Ronaldo는 차가 지나가면 멈추는 거리 축구를 했다.",
+      "fact": "그는 마데이라 거리에서 친구들과 놀다가 아버지의 권유로 CF Andorinha 유소년팀에 갔다.",
+      "context": "아버지는 그 팀의 kitman이었고, Ronaldo는 아버지를 기쁘게 하려고 갔다고 회고한다.",
+      "whyFun": "골대도 없는 거리에서 규칙이 있는 첫 팀으로 넘어가는 대비가 선명하다.",
+      "shareTrigger": "누구에게나 ‘처음 팀에 들어간 이유’가 있었다는 기억을 건드린다.",
+      "evidence": "The Players’ Tribune에 실린 Ronaldo의 7살 시절과 CF Andorinha 유소년팀 회고.",
+      "sourceRefs": [
+        "ronaldo_source_03"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "primary",
+        "caveat": "거리 축구의 구체적 장소와 경기 수는 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Madeira childhood street football",
+          "CF Andorinha youth team",
+          "Madeira football street",
+          "young Ronaldo father football kitman",
+          "Andorinha football club Madeira archive"
+        ],
+        "cardPlan": [
+          "7살 거리 축구",
+          "차가 오면 경기를 멈췄다",
+          "아버지는 Andorinha kitman",
+          "유소년팀에 들어간 이유",
+          "첫 팀의 기억",
+          "우리 아마추어팀도 새 멤버의 첫 합류를 가볍게 맞이한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 7살 거리 축구",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 1: Cristiano Ronaldo story subject for: 7살 거리 축구. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 차가 오면 경기를 멈췄다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 2: Cristiano Ronaldo story subject for: 차가 오면 경기를 멈췄다. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 아버지는 Andorinha kitman",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 3: Cristiano Ronaldo story subject for: 아버지는 Andorinha kitman. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 유소년팀에 들어간 이유",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 4: Cristiano Ronaldo story subject for: 유소년팀에 들어간 이유. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 첫 팀의 기억",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 5: Cristiano Ronaldo story subject for: 첫 팀의 기억. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 새 멤버의 첫 합류를 가볍게 맞이한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 새 멤버의 첫 합류를 가볍게 맞이한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-003-andorinha-youth-team card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "7살 Ronaldo의 축구장은 마데이라의 거리였다.",
+          "골대도 없었고 차가 지나가면 경기를 멈췄다.",
+          "아버지는 CF Andorinha의 kitman이었다.",
+          "아버지의 권유에 그는 유소년팀으로 갔다.",
+          "전설의 첫 팀은 가족의 응원에서 시작됐다.",
+          "우리 아마추어팀도 새 멤버가 첫 경기에 합류하기 쉽게 맞이하면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-004-sporting-friendly",
+      "eventKey": "cristiano-ronaldo|2003|sporting-friendly-first-meeting",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "breakthrough",
+      "eventDate": null,
+      "hook": "맨유는 2003년 친선전에서 아직 어린 Ronaldo를 처음 만났다.",
+      "fact": "Manchester United는 Sporting을 상대로 한 전설적인 2003년 친선전과 어린 Ronaldo의 하이라이트를 소개한다.",
+      "context": "이 장면은 ‘When United first met Ronaldo’라는 구단 영상으로 남아 있다.",
+      "whyFun": "훗날의 이적보다 먼저, 한 경기의 첫인상이 있었다.",
+      "shareTrigger": "팬들이 ‘처음 봤던 순간’을 떠올리며 공유하기 좋은 제목이다.",
+      "evidence": "Manchester United 공식 MUTV source의 제목과 설명.",
+      "sourceRefs": [
+        "ronaldo_source_04"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "영상에 없는 경기 세부 수치는 추가하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Manchester United Sporting 2003 friendly Ronaldo",
+          "young Cristiano Ronaldo Sporting Lisbon",
+          "Old Trafford Ronaldo 2003 archive",
+          "Sporting CP Manchester United friendly",
+          "Ronaldo first meeting Manchester United"
+        ],
+        "cardPlan": [
+          "2003 친선전",
+          "맨유가 처음 본 어린 Ronaldo",
+          "Sporting과의 하이라이트",
+          "첫인상으로 남은 경기",
+          "영상 제목과 설명의 범위",
+          "우리 아마추어팀도 첫 친선전에서 역할을 가볍게 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 2003 친선전",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 1: Cristiano Ronaldo story subject for: 2003 친선전. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 맨유가 처음 본 어린 Ronaldo",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 2: Cristiano Ronaldo story subject for: 맨유가 처음 본 어린 Ronaldo. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Sporting과의 하이라이트",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 3: Cristiano Ronaldo story subject for: Sporting과의 하이라이트. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 첫인상으로 남은 경기",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 4: Cristiano Ronaldo story subject for: 첫인상으로 남은 경기. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 영상 제목과 설명의 범위",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 5: Cristiano Ronaldo story subject for: 영상 제목과 설명의 범위. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 첫 친선전에서 역할을 가볍게 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 첫 친선전에서 역할을 가볍게 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-004-sporting-friendly card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "맨유가 Ronaldo를 처음 만난 날",
+          "Manchester United 공식 영상은 2003년 Sporting 친선전을 소개한다.",
+          "영상의 주인공은 어린 Ronaldo였다.",
+          "제목부터 ‘When United first met Ronaldo’였다.",
+          "큰 이적보다 먼저 한 번의 친선전이 있었다.",
+          "우리 아마추어팀도 첫 친선전 전에 역할과 집결 시간을 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-005-manchester-united-debut",
+      "eventKey": "cristiano-ronaldo|2003|manchester-united-debut",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "debut",
+      "eventDate": "2003-08-16",
+      "hook": "2003년 8월 16일, Ronaldo의 맨유 데뷔전은 4-0 승리였다.",
+      "fact": "Manchester United는 Bolton Wanderers를 4-0으로 이긴 개막전에서 Cristiano Ronaldo가 데뷔했다고 기록한다.",
+      "context": "source 제목은 경기와 스코어를 함께 남긴다.",
+      "whyFun": "새 선수의 첫 장면과 팀의 완승이 한 경기 안에 겹친다.",
+      "shareTrigger": "팬들이 ‘데뷔전 스코어’를 바로 기억할 수 있는 숫자형 이야기다.",
+      "evidence": "Manchester United 공식 source의 2003년 8월 16일 경기 설명.",
+      "sourceRefs": [
+        "ronaldo_source_05"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "데뷔전의 개인 경기 기록은 source에 없는 범위로 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Manchester United debut Bolton 2003",
+          "Manchester United Bolton 4-0 16 August 2003",
+          "Ronaldo first match Old Trafford",
+          "Manchester United 2003 opening day",
+          "young Ronaldo United debut archive"
+        ],
+        "cardPlan": [
+          "2003년 8월 16일",
+          "Bolton전 맨유 데뷔",
+          "스코어는 4-0",
+          "공식 경기 설명에 남은 첫 장면",
+          "데뷔전의 숫자만 정확히",
+          "우리 아마추어팀도 시즌 첫 경기 출석을 먼저 확인한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 2003년 8월 16일",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 1: Cristiano Ronaldo story subject for: 2003년 8월 16일. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Bolton전 맨유 데뷔",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 2: Cristiano Ronaldo story subject for: Bolton전 맨유 데뷔. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 스코어는 4-0",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 3: Cristiano Ronaldo story subject for: 스코어는 4-0. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 공식 경기 설명에 남은 첫 장면",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 4: Cristiano Ronaldo story subject for: 공식 경기 설명에 남은 첫 장면. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 데뷔전의 숫자만 정확히",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 5: Cristiano Ronaldo story subject for: 데뷔전의 숫자만 정확히. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 첫 경기 출석을 먼저 확인한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 첫 경기 출석을 먼저 확인한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-005-manchester-united-debut card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "2003년 8월 16일, Ronaldo가 맨유에 데뷔했다.",
+          "상대는 Bolton Wanderers였다.",
+          "Manchester United는 4-0으로 이겼다.",
+          "구단 source는 이 경기를 개막전으로 설명한다.",
+          "데뷔전의 첫 숫자는 4-0이었다.",
+          "우리 아마추어팀도 시즌 첫 경기 전에 출석 흐름을 먼저 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-006-old-trafford-return",
+      "eventKey": "cristiano-ronaldo|2021|old-trafford-return",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "return",
+      "eventDate": null,
+      "hook": "맨유는 Ronaldo의 커리어를 시작한 클럽이었고, 그는 Old Trafford로 돌아왔다.",
+      "fact": "Manchester United source는 그가 돌아오며 새로운 장이 열렸다고 설명한다.",
+      "context": "Olympics.com은 맨유가 17살 Ronaldo의 커리어를 시작하게 한 클럽이라고 쓴다.",
+      "whyFun": "출발점과 복귀점이 같은 경기장 이름으로 연결된다.",
+      "shareTrigger": "‘처음 시작한 곳으로 돌아온다’는 구조가 팬의 기억을 건드린다.",
+      "evidence": "Manchester United와 Olympics.com source의 Old Trafford 복귀·커리어 시작 설명.",
+      "sourceRefs": [
+        "ronaldo_source_06",
+        "ronaldo_source_02"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "복귀 시즌의 경기 결과는 이 시드에서 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Manchester United return Old Trafford 2021",
+          "Ronaldo Old Trafford return portrait",
+          "Manchester United Ronaldo 17-year-old archive",
+          "Old Trafford Ronaldo comeback",
+          "Ronaldo United return announcement"
+        ],
+        "cardPlan": [
+          "출발점으로의 복귀",
+          "17살에 시작한 맨유",
+          "새 장으로 돌아온 Old Trafford",
+          "커리어의 앞뒤가 연결됐다",
+          "복귀 사실의 범위만 정리",
+          "우리 아마추어팀도 오래 쉰 멤버의 복귀 일정을 먼저 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 출발점으로의 복귀",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 1: Cristiano Ronaldo story subject for: 출발점으로의 복귀. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 17살에 시작한 맨유",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 2: Cristiano Ronaldo story subject for: 17살에 시작한 맨유. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 새 장으로 돌아온 Old Trafford",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 3: Cristiano Ronaldo story subject for: 새 장으로 돌아온 Old Trafford. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 커리어의 앞뒤가 연결됐다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 4: Cristiano Ronaldo story subject for: 커리어의 앞뒤가 연결됐다. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 복귀 사실의 범위만 정리",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 5: Cristiano Ronaldo story subject for: 복귀 사실의 범위만 정리. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 오래 쉰 멤버의 복귀 일정을 먼저 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 오래 쉰 멤버의 복귀 일정을 먼저 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-006-old-trafford-return card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo는 자신을 시작하게 한 클럽으로 돌아왔다.",
+          "Olympics.com은 그가 17살에 맨유와 연결됐다고 설명한다.",
+          "Manchester United source는 Old Trafford의 새 장을 말한다.",
+          "출발점과 복귀점이 같은 클럽이었다.",
+          "이 이야기는 경기 결과보다 장소의 연결이 핵심이다.",
+          "우리 아마추어팀도 오래 쉰 멤버의 복귀 일정을 먼저 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-007-champions-final-penalty",
+      "eventKey": "cristiano-ronaldo|2008|champions-league-final-penalty",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "resilience",
+      "eventDate": null,
+      "hook": "Ronaldo는 챔피언스리그 결승에서 골을 넣고 승부차기도 겪었다.",
+      "fact": "UEFA는 2007/08 결승에서 그가 26분 헤딩골을 넣었고 승부차기에서 실축했지만 맨유가 6-5로 이겼다고 기록한다.",
+      "context": "그가 직접 실축을 최악의 날이라 했다가 우승 뒤 가장 행복한 날이라 회고한 장면이다.",
+      "whyFun": "한 경기 안에서 골, 실축, 우승의 감정이 모두 뒤집힌다.",
+      "shareTrigger": "실수와 결과가 같은 밤에 함께 있었다는 반전이 강하다.",
+      "evidence": "UEFA 결승전 리포트의 26분 헤딩골, 승부차기 실축과 6-5 결과 설명.",
+      "sourceRefs": [
+        "ronaldo_source_07"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "실축 이후의 감정은 source에 실린 본인 인용 범위로만 다룬다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo 2008 Champions League final header",
+          "Manchester United Chelsea 2008 final penalty shootout",
+          "Ronaldo missed penalty final 2008",
+          "Luzhniki Stadium 2008 final Ronaldo",
+          "Ronaldo Champions League trophy 2008"
+        ],
+        "cardPlan": [
+          "결승의 26분",
+          "헤딩골",
+          "승부차기 실축",
+          "맨유의 6-5 승리",
+          "최악의 날에서 가장 행복한 날로",
+          "우리 아마추어팀도 승부차기 순서를 경기 전에 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 결승의 26분",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 1: Cristiano Ronaldo story subject for: 결승의 26분. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 헤딩골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 2: Cristiano Ronaldo story subject for: 헤딩골. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 승부차기 실축",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 3: Cristiano Ronaldo story subject for: 승부차기 실축. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 맨유의 6-5 승리",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 4: Cristiano Ronaldo story subject for: 맨유의 6-5 승리. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 최악의 날에서 가장 행복한 날로",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 5: Cristiano Ronaldo story subject for: 최악의 날에서 가장 행복한 날로. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 승부차기 순서를 경기 전에 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 승부차기 순서를 경기 전에 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-007-champions-final-penalty card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "2008 챔피언스리그 결승, Ronaldo가 먼저 골을 넣었다.",
+          "UEFA는 26분 헤딩골을 기록했다.",
+          "하지만 승부차기에서 실축했다.",
+          "맨유는 6-5로 이겼고, Ronaldo는 그 밤을 최악이자 가장 행복한 날로 말했다.",
+          "한 결승에 골과 실수가 함께 있었다.",
+          "우리 아마추어팀도 승부차기 순서를 경기 전에 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-008-real-madrid-goals",
+      "eventKey": "cristiano-ronaldo|2009|real-madrid-451-goals",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "club-record",
+      "eventDate": null,
+      "hook": "레알 마드리드에서 Ronaldo는 438경기에 451골을 남겼다.",
+      "fact": "Real Madrid 공식 페이지는 그가 2009년 공개됐고 438번의 공식 출전에 451골을 넣었다고 설명한다.",
+      "context": "구단은 그를 클럽 역사상 최다 득점자로 소개한다.",
+      "whyFun": "출전 수보다 골 수가 더 큰 숫자로 남는 보기 드문 비율이다.",
+      "shareTrigger": "451와 438이라는 숫자만으로도 저장하고 싶은 기록 카드가 된다.",
+      "evidence": "Real Madrid 공식 레전드 페이지의 2009 공개, 451골, 438경기 설명.",
+      "sourceRefs": [
+        "ronaldo_source_08"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "경쟁 경기 기준과 구단의 집계 표현을 그대로 따른다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Real Madrid 451 goals",
+          "Ronaldo Real Madrid unveiling 6 July 2009",
+          "Santiago Bernabeu Ronaldo presentation",
+          "Real Madrid all time top scorer Ronaldo",
+          "Ronaldo Real Madrid archive"
+        ],
+        "cardPlan": [
+          "2009 베르나베우 공개",
+          "438번의 공식 출전",
+          "451골",
+          "레알 역사상 최다 득점자",
+          "숫자의 집계 범위 고정",
+          "우리 아마추어팀도 시즌 경기 수와 득점 기록을 따로 남긴다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 2009 베르나베우 공개",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 1: Cristiano Ronaldo story subject for: 2009 베르나베우 공개. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 438번의 공식 출전",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 2: Cristiano Ronaldo story subject for: 438번의 공식 출전. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 451골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 3: Cristiano Ronaldo story subject for: 451골. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 레알 역사상 최다 득점자",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 4: Cristiano Ronaldo story subject for: 레알 역사상 최다 득점자. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 숫자의 집계 범위 고정",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 5: Cristiano Ronaldo story subject for: 숫자의 집계 범위 고정. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 경기 수와 득점 기록을 따로 남긴다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 경기 수와 득점 기록을 따로 남긴다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-008-real-madrid-goals card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "레알 마드리드에서 Ronaldo의 숫자",
+          "2009년 7월 6일 Santiago Bernabeu에 공개됐다.",
+          "공식 출전은 438경기였다.",
+          "골은 451개였다.",
+          "Real Madrid는 그를 클럽 역사상 최다 득점자로 소개한다.",
+          "우리 아마추어팀도 시즌 경기 수와 득점 기록을 따로 남겨두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-009-sweden-playoff-hat-trick",
+      "eventKey": "cristiano-ronaldo|2013|sweden-playoff-hat-trick",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "international",
+      "eventDate": null,
+      "hook": "스웨덴이 두 골을 넣자 Ronaldo가 해트트릭으로 답했다.",
+      "fact": "UEFA는 포르투갈이 스웨덴을 상대로 한 월드컵 플레이오프에서 Ronaldo의 해트트릭으로 통과했다고 기록한다.",
+      "context": "스웨덴은 후반 5분 사이 두 골을 넣었지만, Ronaldo가 두 골을 더해 진출을 확정했다.",
+      "whyFun": "상대의 추격이 가장 뜨거워진 순간에 해트트릭의 마지막 장면이 나왔다.",
+      "shareTrigger": "한 경기의 흐름을 숫자와 반전으로 설명할 수 있다.",
+      "evidence": "UEFA의 Sweden 2-3 Portugal 및 Ronaldo 해트트릭 경기 설명.",
+      "sourceRefs": [
+        "ronaldo_source_09"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "플레이오프 전체 일정과 다른 경기 기록은 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Sweden Portugal playoff hat trick",
+          "Sweden 2-3 Portugal Ronaldo 2013",
+          "Ronaldo hat trick Friends Arena",
+          "Portugal World Cup playoff Ronaldo",
+          "Ronaldo Moutinho assist Sweden"
+        ],
+        "cardPlan": [
+          "스웨덴의 추격",
+          "후반 5분 사이 두 골",
+          "Ronaldo의 연속 득점",
+          "해트트릭으로 포르투갈 통과",
+          "경기 흐름의 반전",
+          "우리 아마추어팀도 역전 상황의 교체 순서를 미리 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 스웨덴의 추격",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 1: Cristiano Ronaldo story subject for: 스웨덴의 추격. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 후반 5분 사이 두 골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 2: Cristiano Ronaldo story subject for: 후반 5분 사이 두 골. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Ronaldo의 연속 득점",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 3: Cristiano Ronaldo story subject for: Ronaldo의 연속 득점. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 해트트릭으로 포르투갈 통과",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 4: Cristiano Ronaldo story subject for: 해트트릭으로 포르투갈 통과. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 경기 흐름의 반전",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 5: Cristiano Ronaldo story subject for: 경기 흐름의 반전. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 역전 상황의 교체 순서를 미리 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 역전 상황의 교체 순서를 미리 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-009-sweden-playoff-hat-trick card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "스웨덴이 두 골을 넣자 경기가 다시 열렸다.",
+          "Ronaldo는 포르투갈의 월드컵 플레이오프에서 차이를 만들었다.",
+          "UEFA는 그의 해트트릭을 기록했다.",
+          "스웨덴의 두 골 뒤 Ronaldo가 두 골을 더했다.",
+          "포르투갈은 결국 다음 월드컵으로 향했다.",
+          "우리 아마추어팀도 역전 상황의 교체 순서를 경기 전에 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-010-third-champions-final",
+      "eventKey": "cristiano-ronaldo|2017|third-champions-league-final",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "champions-league",
+      "eventDate": null,
+      "hook": "Ronaldo는 챔피언스리그 결승 세 번에서 골을 넣은 첫 선수가 됐다.",
+      "fact": "UEFA는 2017년 카디프 결승에서 Real Madrid가 Juventus를 4-1로 이겼고, Ronaldo가 20분에 득점했다고 설명한다.",
+      "context": "그의 두 번째 골은 해당 시즌 득점 선두 12골과 챔피언스리그 통산 105골로 이어졌다.",
+      "whyFun": "결승 무대라는 가장 큰 장면을 세 번의 반복 기록으로 바꾼다.",
+      "shareTrigger": "‘첫 번째’라는 기록과 4-1 스코어가 한 장에 들어온다.",
+      "evidence": "UEFA의 2017 카디프 결승 및 세 번째 결승 득점 기록.",
+      "sourceRefs": [
+        "ronaldo_source_10"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "UEFA 기사에 명시된 기록과 경기 결과만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo 2017 Champions League final Cardiff Juventus",
+          "Real Madrid Juventus 4-1 2017 final Ronaldo",
+          "Ronaldo third Champions League final goal",
+          "Cardiff Champions League final Ronaldo",
+          "Ronaldo Champions League 105 goals"
+        ],
+        "cardPlan": [
+          "세 번째 결승 득점",
+          "카디프 20분",
+          "Real Madrid 4-1 Juventus",
+          "시즌 12골과 통산 105골",
+          "UEFA가 기록한 첫 선수",
+          "우리 아마추어팀도 결승 전 역할과 교체 순서를 맞춘다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 세 번째 결승 득점",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 1: Cristiano Ronaldo story subject for: 세 번째 결승 득점. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 카디프 20분",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 2: Cristiano Ronaldo story subject for: 카디프 20분. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Real Madrid 4-1 Juventus",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 3: Cristiano Ronaldo story subject for: Real Madrid 4-1 Juventus. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 시즌 12골과 통산 105골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 4: Cristiano Ronaldo story subject for: 시즌 12골과 통산 105골. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: UEFA가 기록한 첫 선수",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 5: Cristiano Ronaldo story subject for: UEFA가 기록한 첫 선수. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 결승 전 역할과 교체 순서를 맞춘다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 결승 전 역할과 교체 순서를 맞춘다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-010-third-champions-final card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo가 챔피언스리그 결승에서 또 골을 넣었다.",
+          "2017년 카디프, 20분이었다.",
+          "Real Madrid는 Juventus를 4-1로 이겼다.",
+          "UEFA는 그를 세 번의 결승에서 득점한 첫 선수로 기록한다.",
+          "두 번째 골은 시즌 12골과 통산 105골로 이어졌다.",
+          "우리 아마추어팀도 결승 전 역할과 교체 순서를 맞춰두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-011-euro-2016-touchline",
+      "eventKey": "cristiano-ronaldo|2016|euro-final-touchline-leadership",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "international",
+      "eventDate": "2016-07-10",
+      "hook": "부상으로 나간 주장이 터치라인에서 팀을 밀어붙였다.",
+      "fact": "Portugal은 EURO 2016 결승에서 France를 1-0으로 이겼고, Ronaldo는 25분 부상 교체 뒤 뒤에서 팀을 격려했다.",
+      "context": "UEFA는 결승을 2016년 7월 10일로 기록하며, 결승골은 연장 109분에 나왔다고 설명한다.",
+      "whyFun": "뛰지 못하는 시간이 리더십의 장면으로 바뀐다.",
+      "shareTrigger": "선수가 경기장 밖에 있어도 팀의 장면 안에 있다는 메시지가 남는다.",
+      "evidence": "UEFA EURO 2016 결승 리포트의 부상 교체, 터치라인 격려, 1-0 결과.",
+      "sourceRefs": [
+        "ronaldo_source_11"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "리더십 평가는 source에 인용된 격려 장면의 범위로만 표현한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Euro 2016 touchline injured final",
+          "Portugal France Euro 2016 final Ronaldo",
+          "Eder 109th minute Euro 2016",
+          "Stade de France Euro 2016 final",
+          "Ronaldo coaching from touchline Portugal"
+        ],
+        "cardPlan": [
+          "2016년 7월 10일 결승",
+          "25분 부상 교체",
+          "터치라인에서 팀을 격려",
+          "Portugal 1-0 France",
+          "연장 109분 결승골",
+          "우리 아마추어팀도 벤치에서 응원할 역할을 미리 정한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 2016년 7월 10일 결승",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 1: Cristiano Ronaldo story subject for: 2016년 7월 10일 결승. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 25분 부상 교체",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 2: Cristiano Ronaldo story subject for: 25분 부상 교체. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 터치라인에서 팀을 격려",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 3: Cristiano Ronaldo story subject for: 터치라인에서 팀을 격려. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Portugal 1-0 France",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 4: Cristiano Ronaldo story subject for: Portugal 1-0 France. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 연장 109분 결승골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 5: Cristiano Ronaldo story subject for: 연장 109분 결승골. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 벤치에서 응원할 역할을 미리 정한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 벤치에서 응원할 역할을 미리 정한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-011-euro-2016-touchline card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "EURO 2016 결승에서 Ronaldo는 25분에 나왔다.",
+          "Portugal은 France와 맞붙었다.",
+          "그는 터치라인 뒤에서 팀을 격려했다.",
+          "결승은 연장전 끝에 Portugal의 1-0 승리였다.",
+          "UEFA는 결승골을 109분으로 기록한다.",
+          "우리 아마추어팀도 벤치에서 응원할 역할을 미리 정해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-012-turin-overhead-kick",
+      "eventKey": "cristiano-ronaldo|2018|turin-overhead-kick-ovation",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "match-memory",
+      "eventDate": null,
+      "hook": "Ronaldo는 유벤투스 팬의 기립박수를 이적 뒤 첫 기억으로 꺼냈다.",
+      "fact": "UEFA 경기 페이지는 2017/18 Juventus-Real Madrid 8강 경기를 남겼고, Ronaldo는 Juventus 첫 기자회견에서 토리노 오버헤드킥 뒤 팬들의 박수를 회고했다.",
+      "context": "그는 그 반응에 감사했고 Juventus의 환영에 보답하고 싶다고 말했다.",
+      "whyFun": "상대 팬의 박수가 다음 팀의 첫 인사로 이어지는 장면이다.",
+      "shareTrigger": "라이벌 팬의 박수가 이적 서사의 앞부분이 된다는 반전이 있다.",
+      "evidence": "UEFA 경기 이벤트 페이지와 첫 Juventus 기자회견에 실린 오버헤드킥·기립박수 회고.",
+      "sourceRefs": [
+        "ronaldo_source_12",
+        "ronaldo_source_14"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "경기 페이지의 이벤트 세부와 기자회견 회고를 섞어 새 경기 기록으로 만들지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo overhead kick Juventus Turin ovation",
+          "Juventus Real Madrid 2018 quarter final Ronaldo",
+          "Allianz Stadium Ronaldo bicycle kick",
+          "Juventus fans standing ovation Ronaldo",
+          "Ronaldo first Juventus press conference"
+        ],
+        "cardPlan": [
+          "토리노의 오버헤드킥",
+          "유벤투스 팬들의 기립박수",
+          "2017/18 8강 경기 페이지",
+          "첫 Juventus 기자회견에서 회고",
+          "박수에 보답하고 싶다는 말",
+          "우리 아마추어팀도 경기 뒤 상대 팀과 인사를 챙긴다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 토리노의 오버헤드킥",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 1: Cristiano Ronaldo story subject for: 토리노의 오버헤드킥. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 유벤투스 팬들의 기립박수",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 2: Cristiano Ronaldo story subject for: 유벤투스 팬들의 기립박수. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 2017/18 8강 경기 페이지",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 3: Cristiano Ronaldo story subject for: 2017/18 8강 경기 페이지. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 첫 Juventus 기자회견에서 회고",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 4: Cristiano Ronaldo story subject for: 첫 Juventus 기자회견에서 회고. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 박수에 보답하고 싶다는 말",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 5: Cristiano Ronaldo story subject for: 박수에 보답하고 싶다는 말. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 경기 뒤 상대 팀과 인사를 챙긴다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 경기 뒤 상대 팀과 인사를 챙긴다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-012-turin-overhead-kick card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo가 Juventus 첫 기자회견에서 꺼낸 장면",
+          "토리노에서 오버헤드킥을 넣었다.",
+          "유벤투스 팬들은 기립박수로 반응했다.",
+          "UEFA에는 2017/18 Juventus-Real Madrid 8강 경기 페이지가 남아 있다.",
+          "Ronaldo는 그 환영에 보답하고 싶다고 말했다.",
+          "우리 아마추어팀도 경기 뒤 상대 팀과 인사를 챙겨두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-013-juventus-signing",
+      "eventKey": "cristiano-ronaldo|2018|juventus-signing",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "transfer",
+      "eventDate": null,
+      "hook": "FIFA source의 제목은 짧고 분명했다. Ronaldo가 Juventus와 계약했다.",
+      "fact": "FIFA source는 ‘Ronaldo signs for Juventus’라는 제목으로 이적을 다룬다.",
+      "context": "UEFA 기자회견에서 Ronaldo는 Juventus가 자신을 영입하기로 한 데 감사하다고 말했다.",
+      "whyFun": "이적의 거대한 장면이 제목 한 줄과 첫 인사로 압축된다.",
+      "shareTrigger": "새 팀 이름만으로 다음 커리어의 시작을 알릴 수 있다.",
+      "evidence": "FIFA source 제목과 UEFA의 Juventus 첫 기자회견 설명.",
+      "sourceRefs": [
+        "ronaldo_source_13",
+        "ronaldo_source_14"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "계약 금액·기간은 source에 명시된 범위가 아니므로 쓰지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo signs for Juventus FIFA",
+          "Ronaldo Juventus presentation 2018",
+          "Juventus Ronaldo shirt number 7",
+          "Ronaldo Juventus press conference",
+          "Ronaldo Turin arrival Juventus"
+        ],
+        "cardPlan": [
+          "Ronaldo signs for Juventus",
+          "FIFA source의 제목",
+          "새 팀은 Juventus",
+          "첫 기자회견에서 감사를 전했다",
+          "계약 세부는 확장하지 않기",
+          "우리 아마추어팀도 새 시즌 합류일을 한 줄로 공유한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Ronaldo signs for Juventus",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 1: Cristiano Ronaldo story subject for: Ronaldo signs for Juventus. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: FIFA source의 제목",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 2: Cristiano Ronaldo story subject for: FIFA source의 제목. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 새 팀은 Juventus",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 3: Cristiano Ronaldo story subject for: 새 팀은 Juventus. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 첫 기자회견에서 감사를 전했다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 4: Cristiano Ronaldo story subject for: 첫 기자회견에서 감사를 전했다. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 계약 세부는 확장하지 않기",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 5: Cristiano Ronaldo story subject for: 계약 세부는 확장하지 않기. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 새 시즌 합류일을 한 줄로 공유한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 새 시즌 합류일을 한 줄로 공유한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-013-juventus-signing card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "FIFA가 남긴 짧은 제목",
+          "Ronaldo signs for Juventus.",
+          "새 팀은 Juventus였다.",
+          "그는 Juventus가 자신을 영입한 데 감사하다고 말했다.",
+          "이적의 핵심은 팀과 첫 인사까지다.",
+          "우리 아마추어팀도 새 시즌 합류일을 한 줄로 공유해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-014-juventus-first-outing",
+      "eventKey": "cristiano-ronaldo|2018|juventus-first-outing",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "transfer",
+      "eventDate": null,
+      "hook": "Ronaldo는 Juventus에서 휴가를 보내러 온 것이 아니라고 말했다.",
+      "fact": "첫 Juventus 기자회견에서 그는 팀의 역사를 남기고 트로피를 들고 싶다고 말했다.",
+      "context": "그는 Juventus가 큰 도전이며 육체적·정신적으로 준비됐다고 설명했다.",
+      "whyFun": "이적 발표가 곧바로 목표와 태도에 관한 선언으로 이어진다.",
+      "shareTrigger": "새 팀 유니폼보다 먼저 나온 ‘무엇을 하러 왔는가’의 답이다.",
+      "evidence": "UEFA의 Ronaldo Juventus 첫 기자회견 인용문.",
+      "sourceRefs": [
+        "ronaldo_source_14"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "기자회견에서 말한 목표를 실제 결과로 바꾸어 쓰지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo first outing Juventus press conference",
+          "Cristiano Ronaldo Juventus 2018 interview",
+          "Ronaldo Juventus number 7 shirt",
+          "Juventus press room Ronaldo",
+          "Ronaldo Turin new challenge"
+        ],
+        "cardPlan": [
+          "첫 Juventus 기자회견",
+          "휴가를 위해 온 것이 아니다",
+          "역사에 중요한 흔적을 남기고 싶다",
+          "모든 트로피를 원한다",
+          "말과 결과를 섞지 않기",
+          "우리 아마추어팀도 시즌 목표와 실제 결과를 따로 기록한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 첫 Juventus 기자회견",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 1: Cristiano Ronaldo story subject for: 첫 Juventus 기자회견. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 휴가를 위해 온 것이 아니다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 2: Cristiano Ronaldo story subject for: 휴가를 위해 온 것이 아니다. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 역사에 중요한 흔적을 남기고 싶다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 3: Cristiano Ronaldo story subject for: 역사에 중요한 흔적을 남기고 싶다. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 모든 트로피를 원한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 4: Cristiano Ronaldo story subject for: 모든 트로피를 원한다. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 말과 결과를 섞지 않기",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 5: Cristiano Ronaldo story subject for: 말과 결과를 섞지 않기. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 목표와 실제 결과를 따로 기록한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 목표와 실제 결과를 따로 기록한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-014-juventus-first-outing card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo의 Juventus 첫 기자회견",
+          "그는 휴가를 보내러 온 것이 아니라고 말했다.",
+          "Juventus 역사에 중요한 흔적을 남기고 싶다고 했다.",
+          "모든 트로피를 위해 싸우겠다고 말했다.",
+          "이건 결과가 아니라 새 도전에 대한 본인의 선언이다.",
+          "우리 아마추어팀도 시즌 목표와 실제 결과를 따로 기록해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-015-united-agreement",
+      "eventKey": "cristiano-ronaldo|2021|united-agreement-to-return",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "return",
+      "eventDate": null,
+      "hook": "맨유는 Ronaldo를 집으로 데려오는 합의를 공식 발표했다.",
+      "fact": "Manchester United source는 Ronaldo를 다시 데려오기 위한 합의가 이뤄졌다고 발표했다.",
+      "context": "source description은 이 합의를 ‘Ronaldo home’이라는 표현으로 설명한다.",
+      "whyFun": "오래된 팬의 감정이 구단 공식 문장으로 바뀌는 순간이다.",
+      "shareTrigger": "‘집으로 돌아온다’는 표현이 팬의 반응을 바로 끌어낸다.",
+      "evidence": "Manchester United 공식 발표 제목과 설명.",
+      "sourceRefs": [
+        "ronaldo_source_15"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "합의 발표와 최종 이적 완료를 동일한 시점으로 쓰지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Manchester United official Ronaldo agreement 2021",
+          "Ronaldo home Manchester United announcement",
+          "Ronaldo United fans return",
+          "Manchester United Ronaldo shirt 2021",
+          "Old Trafford Ronaldo return news"
+        ],
+        "cardPlan": [
+          "공식 발표",
+          "Ronaldo를 다시 데려오는 합의",
+          "Manchester United의 source",
+          "‘집으로’라는 표현",
+          "합의와 완료를 구분",
+          "우리 아마추어팀도 합류 합의와 실제 등록을 따로 확인한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 공식 발표",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 1: Cristiano Ronaldo story subject for: 공식 발표. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Ronaldo를 다시 데려오는 합의",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 2: Cristiano Ronaldo story subject for: Ronaldo를 다시 데려오는 합의. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Manchester United의 source",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 3: Cristiano Ronaldo story subject for: Manchester United의 source. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: ‘집으로’라는 표현",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 4: Cristiano Ronaldo story subject for: ‘집으로’라는 표현. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 합의와 완료를 구분",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 5: Cristiano Ronaldo story subject for: 합의와 완료를 구분. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 합류 합의와 실제 등록을 따로 확인한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 합류 합의와 실제 등록을 따로 확인한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-015-united-agreement card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "맨유가 Ronaldo를 다시 데려오는 합의를 발표했다.",
+          "공식 source의 제목은 United confirm Ronaldo agreement였다.",
+          "설명에는 Ronaldo를 집으로 데려온다는 표현이 나온다.",
+          "이건 합의 발표의 순간이다.",
+          "최종 이적 완료와는 시점을 구분해야 한다.",
+          "우리 아마추어팀도 합류 합의와 실제 등록을 따로 확인해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-016-united-return-finalized",
+      "eventKey": "cristiano-ronaldo|2021|return-from-juventus-finalized",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "return",
+      "eventDate": null,
+      "hook": "이번에는 합의가 아니라, Juventus에서 맨유로의 복귀가 끝났다.",
+      "fact": "Manchester United source는 Ronaldo의 Juventus발 맨유 복귀가 최종 확정됐다고 전한다.",
+      "context": "source title은 ‘Ronaldo is coming home’이라고 적는다.",
+      "whyFun": "같은 복귀라도 합의와 완료라는 두 개의 문턱이 있다.",
+      "shareTrigger": "앞선 발표와 최종 확정을 나눠 보는 팬용 타임라인이 된다.",
+      "evidence": "Manchester United 공식 source의 복귀 완료 제목과 설명.",
+      "sourceRefs": [
+        "ronaldo_source_16"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "복귀 완료 이후 경기 장면은 이 source로 확장하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo is coming home Manchester United official",
+          "Ronaldo transfer completed from Juventus",
+          "Manchester United Ronaldo homecoming 2021",
+          "Ronaldo United announcement graphic",
+          "Ronaldo Old Trafford homecoming"
+        ],
+        "cardPlan": [
+          "복귀 완료",
+          "Juventus에서 맨유로",
+          "Manchester United의 공식 source",
+          "‘Ronaldo is coming home’",
+          "합의 뒤 최종 확정",
+          "우리 아마추어팀도 등록 완료 뒤 실제 경기 일정을 확인한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 복귀 완료",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 1: Cristiano Ronaldo story subject for: 복귀 완료. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Juventus에서 맨유로",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 2: Cristiano Ronaldo story subject for: Juventus에서 맨유로. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: Manchester United의 공식 source",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 3: Cristiano Ronaldo story subject for: Manchester United의 공식 source. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: ‘Ronaldo is coming home’",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 4: Cristiano Ronaldo story subject for: ‘Ronaldo is coming home’. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 합의 뒤 최종 확정",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 5: Cristiano Ronaldo story subject for: 합의 뒤 최종 확정. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 등록 완료 뒤 실제 경기 일정을 확인한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 등록 완료 뒤 실제 경기 일정을 확인한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-016-united-return-finalized card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "이번에는 Ronaldo의 복귀가 최종 확정됐다.",
+          "출발지는 Juventus였다.",
+          "도착지는 Manchester United였다.",
+          "공식 source 제목은 ‘Ronaldo is coming home’이었다.",
+          "합의 발표와 최종 완료는 서로 다른 장면이다.",
+          "우리 아마추어팀도 등록 완료 뒤 실제 경기 일정을 확인해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-017-seven-hundredth-club-goal",
+      "eventKey": "cristiano-ronaldo|2022|seven-hundredth-club-goal",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "record",
+      "eventDate": null,
+      "hook": "Ronaldo의 클럽 축구 700번째 골이 결승골이 됐다.",
+      "fact": "Manchester United는 Everton전에서 Ronaldo의 700번째 클럽 골이 승부를 가른 매치위너였다고 설명한다.",
+      "context": "같은 설명은 Casemiro의 어시스트도 함께 언급한다.",
+      "whyFun": "큰 기록이 팀 승리와 동료의 패스로 동시에 완성된다.",
+      "shareTrigger": "700이라는 숫자와 어시스트가 함께 있어 혼자만의 기록처럼 보이지 않는다.",
+      "evidence": "Manchester United 공식 MUTV source의 Everton전 700번째 클럽 골 설명.",
+      "sourceRefs": [
+        "ronaldo_source_17"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "source가 제시한 클럽 골 집계와 Casemiro 어시스트만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo 700th club goal Everton Casemiro assist",
+          "Manchester United Everton Ronaldo October 2022",
+          "Ronaldo 700 club goals celebration",
+          "Ronaldo Everton match winner",
+          "Casemiro assist Ronaldo 700th goal"
+        ],
+        "cardPlan": [
+          "700번째 클럽 골",
+          "Everton전",
+          "매치위너가 된 기록",
+          "Casemiro의 어시스트",
+          "기록과 동료의 한 장면",
+          "우리 아마추어팀도 득점과 도움을 함께 기록한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 700번째 클럽 골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 1: Cristiano Ronaldo story subject for: 700번째 클럽 골. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Everton전",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 2: Cristiano Ronaldo story subject for: Everton전. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 매치위너가 된 기록",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 3: Cristiano Ronaldo story subject for: 매치위너가 된 기록. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: Casemiro의 어시스트",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 4: Cristiano Ronaldo story subject for: Casemiro의 어시스트. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 기록과 동료의 한 장면",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 5: Cristiano Ronaldo story subject for: 기록과 동료의 한 장면. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 득점과 도움을 함께 기록한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 득점과 도움을 함께 기록한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-017-seven-hundredth-club-goal card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo의 클럽 축구 700번째 골",
+          "상대는 Everton이었다.",
+          "Manchester United는 그 골을 매치위너라고 설명한다.",
+          "Casemiro의 어시스트도 함께 남았다.",
+          "700이라는 기록은 팀의 패스로 완성됐다.",
+          "우리 아마추어팀도 득점과 도움을 함께 기록해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-018-mutual-consent-exit",
+      "eventKey": "cristiano-ronaldo|2022|manchester-united-mutual-consent-exit",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "career-turn",
+      "eventDate": "2022-11-23",
+      "hook": "2022년 11월, Ronaldo와 맨유는 계약을 상호 합의로 끝냈다.",
+      "fact": "Sky Sports는 2022년 11월 23일 맨유가 Ronaldo와 계약을 상호 합의로 종료했다고 보도했다.",
+      "context": "Ronaldo는 맨유와 팬들을 사랑하는 마음은 변하지 않지만 새 도전을 찾을 때라고 말했다.",
+      "whyFun": "한 시대의 끝을 구단 발표와 선수의 짧은 문장이 함께 기록한다.",
+      "shareTrigger": "이별을 과장하지 않고 공식 문장과 인용으로 남긴다.",
+      "evidence": "Sky Sports의 날짜, 상호 합의 종료, Ronaldo 인용문.",
+      "sourceRefs": [
+        "ronaldo_source_18"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "reputable-secondary",
+        "caveat": "인터뷰의 모든 주장이나 이후 행보는 이 시드에서 다루지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Ronaldo Manchester United mutual consent November 2022",
+          "Sky Sports Ronaldo departure United",
+          "Ronaldo Piers Morgan interview 2022",
+          "Manchester United Ronaldo farewell",
+          "Ronaldo new challenge quote"
+        ],
+        "cardPlan": [
+          "2022년 11월 23일",
+          "맨유와 계약 종료",
+          "상호 합의라는 표현",
+          "팬들을 사랑한다는 Ronaldo의 말",
+          "새 도전을 찾는다고 했다",
+          "우리 아마추어팀도 시즌 종료와 다음 합류를 따로 공지한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 2022년 11월 23일",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 1: Cristiano Ronaldo story subject for: 2022년 11월 23일. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 맨유와 계약 종료",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 2: Cristiano Ronaldo story subject for: 맨유와 계약 종료. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 상호 합의라는 표현",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 3: Cristiano Ronaldo story subject for: 상호 합의라는 표현. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 팬들을 사랑한다는 Ronaldo의 말",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 4: Cristiano Ronaldo story subject for: 팬들을 사랑한다는 Ronaldo의 말. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 새 도전을 찾는다고 했다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 5: Cristiano Ronaldo story subject for: 새 도전을 찾는다고 했다. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 종료와 다음 합류를 따로 공지한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 종료와 다음 합류를 따로 공지한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-018-mutual-consent-exit card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "2022년 11월 23일, 맨유가 공식 문장을 냈다.",
+          "Ronaldo와 계약을 상호 합의로 종료했다.",
+          "Sky Sports는 이별의 날짜와 방식을 보도했다.",
+          "Ronaldo는 팬들을 사랑하는 마음은 변하지 않는다고 말했다.",
+          "그리고 새 도전을 찾을 때라고 했다.",
+          "우리 아마추어팀도 시즌 종료와 다음 합류를 따로 공지해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-019-al-nassr-signing",
+      "eventKey": "cristiano-ronaldo|2022|al-nassr-signing",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "transfer",
+      "eventDate": null,
+      "hook": "맨유를 떠난 뒤 Ronaldo의 다음 셔츠는 Al Nassr의 No.7이었다.",
+      "fact": "The Guardian은 Ronaldo가 Al Nassr에 합류했고 계약이 2025년 6월까지라고 보도했다.",
+      "context": "구단 공식 계정은 Ronaldo가 이름이 붙은 No.7 셔츠를 들고 있는 사진을 올렸다.",
+      "whyFun": "팀이 바뀌어도 No.7이라는 상징이 이어지는 장면이다.",
+      "shareTrigger": "새 클럽과 익숙한 번호가 한 장의 셔츠로 보인다.",
+      "evidence": "The Guardian의 Al Nassr 합류, 계약 기간, No.7 셔츠 설명.",
+      "sourceRefs": [
+        "ronaldo_source_19"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "reputable-secondary",
+        "caveat": "계약 이후의 현재 상태는 이 source의 당시 보도 범위를 넘지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Al Nassr No 7 shirt",
+          "Ronaldo Al Nassr signing December 2022",
+          "Al Nassr Ronaldo presentation",
+          "Ronaldo holding Al Nassr shirt",
+          "Riyadh Al Nassr Ronaldo"
+        ],
+        "cardPlan": [
+          "다음 셔츠는 Al Nassr",
+          "계약은 2025년 6월까지",
+          "구단 공식 계정의 발표",
+          "이름이 붙은 No.7 셔츠",
+          "새 팀과 익숙한 번호",
+          "우리 아마추어팀도 이적 뒤 새 유니폼과 번호를 기록한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 다음 셔츠는 Al Nassr",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 1: Cristiano Ronaldo story subject for: 다음 셔츠는 Al Nassr. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 계약은 2025년 6월까지",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 2: Cristiano Ronaldo story subject for: 계약은 2025년 6월까지. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 구단 공식 계정의 발표",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 3: Cristiano Ronaldo story subject for: 구단 공식 계정의 발표. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 이름이 붙은 No.7 셔츠",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 4: Cristiano Ronaldo story subject for: 이름이 붙은 No.7 셔츠. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 새 팀과 익숙한 번호",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 5: Cristiano Ronaldo story subject for: 새 팀과 익숙한 번호. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 이적 뒤 새 유니폼과 번호를 기록한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 이적 뒤 새 유니폼과 번호를 기록한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-019-al-nassr-signing card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "Ronaldo가 Al Nassr에 합류했다.",
+          "The Guardian은 계약이 2025년 6월까지라고 보도했다.",
+          "구단 공식 계정은 합류 소식을 올렸다.",
+          "사진 속 셔츠에는 Ronaldo의 No.7이 적혀 있었다.",
+          "새 클럽에서도 익숙한 번호가 이어졌다.",
+          "우리 아마추어팀도 이적 뒤 새 유니폼과 번호를 기록해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "ronaldo-020-international-goals-record",
+      "eventKey": "cristiano-ronaldo|unknown|146-international-goals",
+      "player": "Cristiano Ronaldo",
+      "portfolio": "global_legend",
+      "category": "international-record",
+      "eventDate": null,
+      "hook": "UEFA source는 Ronaldo의 포르투갈 대표팀 골을 146개로 정리했다.",
+      "fact": "UEFA는 Ronaldo가 남자 대표팀 역사상 146골을 기록한 세계 기록 보유자라고 소개한다.",
+      "context": "기사 summary는 233번의 대표팀 경기와 100골을 넘은 두 번째 남자 선수라는 맥락을 함께 제시한다.",
+      "whyFun": "골 수 하나가 경기 수와 대표팀 역사까지 함께 열어 준다.",
+      "shareTrigger": "146, 233, 100이라는 숫자 세 개로 저장 가치가 생긴다.",
+      "evidence": "UEFA European Qualifiers source의 146 국제골, 233경기, 100골 통과 설명.",
+      "sourceRefs": [
+        "ronaldo_source_20"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-03-ronaldo.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "146골은 source가 제시한 시점의 수치로만 사용하며 현재 기록으로 재해석하지 않는다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Cristiano Ronaldo Portugal 146 international goals UEFA",
+          "Ronaldo Portugal national team record",
+          "Ronaldo 233 national team games",
+          "Portugal Ronaldo international goals celebration",
+          "UEFA Ronaldo goals infographic"
+        ],
+        "cardPlan": [
+          "146 국제골",
+          "UEFA가 정리한 세계 기록",
+          "233번의 대표팀 경기",
+          "100골을 넘은 두 번째 남자 선수",
+          "숫자의 기준 시점 고정",
+          "우리 아마추어팀도 시즌 골과 출전 수의 기준일을 함께 기록한다",
+          "PitchCheck 프로필 링크 CTA"
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 146 국제골",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 1: Cristiano Ronaldo story subject for: 146 국제골. Editorial football-story visual, 4:5 portrait composition, center 50% 42%, scale 1.05, leave top 22% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: UEFA가 정리한 세계 기록",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 2: Cristiano Ronaldo story subject for: UEFA가 정리한 세계 기록. Editorial football-story visual, 4:5 portrait composition, center 48% 50%, scale 1.00, leave left 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep face or action in middle third",
+            "subject": "Cristiano Ronaldo story subject for: 233번의 대표팀 경기",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 3: Cristiano Ronaldo story subject for: 233번의 대표팀 경기. Editorial football-story visual, 4:5 portrait composition, center 52% 46%, scale 1.08, keep face or action in middle third, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 100골을 넘은 두 번째 남자 선수",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 4: Cristiano Ronaldo story subject for: 100골을 넘은 두 번째 남자 선수. Editorial football-story visual, 4:5 portrait composition, center 50% 54%, scale 1.02, leave top 18% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "Cristiano Ronaldo story subject for: 숫자의 기준 시점 고정",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 5: Cristiano Ronaldo story subject for: 숫자의 기준 시점 고정. Editorial football-story visual, 4:5 portrait composition, center 50% 48%, scale 1.00, reserve bottom 20% for evidence label, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 골과 출전 수의 기준일을 함께 기록한다",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 6: Cristiano Ronaldo story subject for: 우리 아마추어팀도 시즌 골과 출전 수의 기준일을 함께 기록한다. Editorial football-story visual, 4:5 portrait composition, center 56% 50%, scale 0.96, leave right 24% text-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "PitchCheck profile-link CTA with amateur football scheduling context",
+            "prompt": "Reference-only search/recreation prompt for ronaldo-020-international-goals-record card 7: PitchCheck profile-link CTA with amateur football scheduling context. Editorial football-story visual, 4:5 portrait composition, center 50% 52%, scale 1.00, leave bottom 28% CTA-safe, documentary reference mood, clear text-safe space, no logos, no copied source text, and no downloaded copyrighted asset.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "cards": [
+          "UEFA가 정리한 Ronaldo의 대표팀 기록",
+          "국제골은 146개로 제시됐다.",
+          "대표팀 경기는 233번이었다.",
+          "100골을 넘은 두 번째 남자 선수라는 설명도 붙었다.",
+          "이 숫자들은 UEFA source가 제시한 시점의 기록이다.",
+          "우리 아마추어팀도 시즌 골과 출전 수의 기준일을 함께 기록해두면 된다.",
+          "피치체크 프로필 링크에서 우리 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    }
+  ]
+}

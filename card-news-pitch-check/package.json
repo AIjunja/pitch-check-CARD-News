@@ -7,6 +7,7 @@
     "collect:pitchcheck-local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/pitchcheck/collect-local-media.ps1",
     "board:pitchcheck-local": "node scripts/pitchcheck/render-media-board.mjs",
     "bank:pitchcheck-real-stories": "node scripts/pitchcheck/generate-real-player-story-bank.mjs",
+    "bank:pitchcheck-global-legend": "node scripts/pitchcheck/test-real-player-story-bank.mjs --write-global",
     "assets:pitchcheck-plan": "node scripts/pitchcheck/resolve-story-assets.mjs samples/pitchcheck/lampard-fines-real-cta.json --write",
     "gemini:pitchcheck": "node scripts/pitchcheck/gemini-build-carousel.mjs --render --package --upload",
     "gemini:pitchcheck:dry": "node scripts/pitchcheck/gemini-build-carousel.mjs --no-gemini --render --package --upload",

@@ -11,9 +11,32 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
 const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-messi.json");
 const RONALDO_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-ronaldo.json");
+const GLOBAL_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-global.json");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
 const BBC_YOUTUBE_VIDEO_ID = "6caCqn_nD6o";
 const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
+
+export function buildGlobalLegendBank(messiSeeds, ronaldoSeeds) {
+  const messiSourceRefs = messiSeeds?.sourceRefs;
+  const ronaldoSourceRefs = ronaldoSeeds?.sourceRefs;
+  const messiTopics = messiSeeds?.topics;
+  const ronaldoTopics = ronaldoSeeds?.topics;
+
+  if (!messiSourceRefs || !ronaldoSourceRefs || !Array.isArray(messiTopics) || !Array.isArray(ronaldoTopics)) {
+    throw new Error("Messi and Ronaldo seed banks must contain sourceRefs and topics");
+  }
+
+  const sourceRefs = { ...messiSourceRefs, ...ronaldoSourceRefs };
+  if (Object.keys(sourceRefs).length !== Object.keys(messiSourceRefs).length + Object.keys(ronaldoSourceRefs).length) {
+    throw new Error("Messi and Ronaldo seed sourceRefs must be unique");
+  }
+
+  return {
+    name: "PitchCheck global legend story seeds",
+    sourceRefs,
+    topics: [...messiTopics, ...ronaldoTopics],
+  };
+}
 
 const publisherByHostname = new Map([
   ["www.theplayerstribune.com", { publisher: "The Players' Tribune", tier: "primary" }],
@@ -262,6 +285,32 @@ assert.ok(
 );
 const messiSeeds = JSON.parse(fs.readFileSync(MESSI_SEEDS_PATH, "utf8"));
 const ronaldoSeeds = JSON.parse(fs.readFileSync(RONALDO_SEEDS_PATH, "utf8"));
+const builtGlobalSeeds = buildGlobalLegendBank(messiSeeds, ronaldoSeeds);
+if (process.argv.includes("--write-global")) {
+  fs.writeFileSync(GLOBAL_SEEDS_PATH, `${JSON.stringify(builtGlobalSeeds, null, 2)}\n`, "utf8");
+  console.log(`wrote ${path.relative(ROOT, GLOBAL_SEEDS_PATH)}`);
+}
+assert.ok(
+  fs.existsSync(GLOBAL_SEEDS_PATH),
+  "samples/pitchcheck/real-player-story-seeds-global.json must exist",
+);
+const globalSeeds = JSON.parse(fs.readFileSync(GLOBAL_SEEDS_PATH, "utf8"));
+assert.deepEqual(globalSeeds, builtGlobalSeeds, "global seeds must be reproducible from Messi and Ronaldo seeds");
+assert.deepEqual(builtGlobalSeeds.topics.slice(0, 20), messiSeeds.topics);
+assert.deepEqual(builtGlobalSeeds.topics.slice(20), ronaldoSeeds.topics);
+assert.deepEqual(validateStoryBank(globalSeeds, { expectedCount: 40 }), { topics: 40, uniqueEvents: 40 });
+assert.deepEqual(
+  Object.fromEntries(
+    [...new Set(globalSeeds.topics.map((topic) => topic.player))].map((player) => [
+      player,
+      globalSeeds.topics.filter((topic) => topic.player === player).length,
+    ]),
+  ),
+  { "Lionel Messi": 20, "Cristiano Ronaldo": 20 },
+);
+assert.equal(new Set(globalSeeds.topics.map((topic) => topic.fact)).size, 40);
+assert.ok(globalSeeds.topics.every((topic) => topic.portfolio === "global_legend"));
+assert.doesNotMatch(JSON.stringify(globalSeeds), /alternate-hook/i);
 const roster = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-roster-300.json"), "utf8"),
 );
@@ -379,6 +428,23 @@ for (const topic of migratedBank.topics) {
 }
 
 const sourceCatalogById = new Map(sourceCatalog.sources.map((source) => [source.sourceId, source]));
+assert.equal(Object.keys(globalSeeds.sourceRefs).length, 40);
+for (const sourceRef of Object.keys(globalSeeds.sourceRefs)) {
+  assert.ok(sourceCatalogById.has(sourceRef), `global sourceRef ${sourceRef} missing from catalog`);
+}
+for (const topic of globalSeeds.topics) {
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: global copy.cards must have 7 entries`);
+  assert.equal(topic.visualPlan.cardPlan.length, 7, `${topic.id}: global visualPlan.cardPlan must have 7 entries`);
+  if (topic.visualPlan.cards !== undefined) {
+    assert.equal(topic.visualPlan.cards.length, 7, `${topic.id}: global visualPlan.cards must have 7 entries`);
+  }
+  for (const sourceRef of topic.sourceRefs) {
+    assert.ok(sourceCatalogById.has(sourceRef), `${topic.id}: global sourceRef ${sourceRef} missing from catalog`);
+  }
+  for (const packRef of topic.sourcePackRefs) {
+    assert.ok(Object.hasOwn(sourcePackInputs, packRef), `${topic.id}: global sourcePackRef ${packRef} missing`);
+  }
+}
 const migratedEventKeys = new Set(migratedBank.topics.map((topic) => topic.eventKey));
 const messiEventKeys = new Set();
 const messiFacts = new Set();
