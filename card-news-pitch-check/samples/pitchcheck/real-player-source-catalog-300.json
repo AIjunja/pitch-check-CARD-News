@@ -1195,6 +1195,367 @@
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_01",
+      "url": "https://www.fifa.com/en/archive/kylian-mbappe",
+      "publisher": "FIFA",
+      "title": "Kylian Mbappe | FIFA World Cup archive profile",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_02",
+      "url": "https://inside.fifa.com/tournaments/mens/worldcup/2018russia/news/mbappe-slots-france-forward-sends-peru-home",
+      "publisher": "FIFA",
+      "title": "Mbappe sends France forward as Peru's hopes end",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/2af620409ec4f7c6/webimage-smhg6aotlzzbq5yazpn2-jpg.png",
+        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_03",
+      "url": "https://inside.fifa.com/en/tournaments/mens/worldcup/2018russia/news/157-awards-piece-2986294",
+      "publisher": "FIFA",
+      "title": "Golden consolation for magical Modric",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/228ab76c07a117aa/webimage-ro5kwcvuyb1znptnm659-jpg.png",
+        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_04",
+      "url": "https://www.fifa.com/en/articles/all-kylian-mbappe-world-cup-numbers-and-records",
+      "publisher": "FIFA",
+      "title": "Kylian Mbappe | FIFA World Cup stats and records",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_05",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0237-0e967f2e8a88-6354403bb323-1000--mbappe-and-the-other-reasons-behind-monacos-success/",
+      "publisher": "UEFA",
+      "title": "Mbappé and the other reasons behind Monaco's success | UEFA Champions League 2016/17",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0237-0e967f2e85da-e276b291c858-1000/monaco_players_dance_in_front_of_their_fans_as_they_march_on.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0237-0e967f2e85da-e276b291c858-1000/format/wide1/monaco_players_dance_in_front_of_their_fans_as_they_march_on.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0237-0e967f2e88ab-ccc3d4ea399a-1000/format/wide1/danijel_subasic_monaco_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_06",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0238-0e96a70d2e98-580112abf6c8-1000--mbappe-double-gives-monaco-edge-at-dortmund/",
+      "publisher": "UEFA",
+      "title": "Mbappé double gives Monaco edge at Dortmund | UEFA Champions League 2016/17",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0257-0de5df0efd61-306a4567ad9e-1000/kylian_mbappe_enjoys_his_fourth_uefa_champions_league_goal_of_the_season.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0238-0e96a70d2b18-45d9a863e132-1000/format/wide1/kylian_mbappe_takes_the_plaudits_after_his_19th-minute_strike.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_07",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0257-0deff76864ef-2e0c3c19f9b0-1000--how-does-mbappe-compare-to-messi-raul-and-ronaldo-at-18/",
+      "publisher": "UEFA",
+      "title": "How does Mbappé compare to Messi, Raúl and Ronaldo at 18? | UEFA Champions League 2016/17",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0257-0deff76864ec-274cf850e051-1000/kylian_mbappe_is_mobbed_following_his_third-minute_effort.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0257-0deff76864ec-274cf850e051-1000/format/wide1/kylian_mbappe_is_mobbed_following_his_third-minute_effort.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0257-0deff76864ed-ef85caea7b1b-1000/format/wide1/lionel_messi_celebrates_first_uefa_champions_league_goal.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0257-0deff76864ed-3a84fcf6b9d5-1000/format/wide1/arsene_wenger_thierry_henry_arsenal_fc_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0257-0deff76864ee-2429e679aca4-1000/format/wide1/kylian_mbappe_monaco_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_08",
+      "url": "https://www.uefa.com/news/0274-14ce5c537085-08c45b3067c4-1000--world-cup-fixtures/",
+      "publisher": "UEFA",
+      "title": "2022 World Cup results: All the European sides' games after France finish runners-up",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/027c-16dcd8043f74-450203fe8c07-1000/fbl-wc-2022-match64-arg-fra.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/027c-16dcd8043f74-450203fe8c07-1000/format/wide1/fbl-wc-2022-match64-arg-fra.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/027b-16a4dd201501-51b2f9da91be-1000/format/wide1/england_v_ir_iran_group_b_-_fifa_world_cup_qatar_2022.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027c-16bb7fca8b61-49ba474c354d-1000/format/wide1/portugal_v_ghana_group_h_-_fifa_world_cup_qatar_2022.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027b-16a88c46ae16-8aba0c4bd773-1000/format/wide1/france_v_croatia_-_2018_fifa_world_cup_russia_final.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/02a7-210cbe821842-43ba956fb556-1000/format/wide1/portugal_v_croatia_round_of_32_-_fifa_world_cup_2026.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_09",
+      "url": "https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-10-07-2024",
+      "publisher": "Real Madrid",
+      "title": "Official Announcement: Kylian Mbappé's presentation",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://assets.realmadrid.com/is/image/realmadrid/FOTO_ESCUDO_COMUNICADO_OFICIAL?wid=1200&hei=675",
+        "https://assets.realmadrid.com/is/content/realmadrid/emirates_gray1?$Mobile$&fit=wrap&wid=57",
+        "https://assets.realmadrid.com/is/content/realmadrid/adidas_gray?$Mobile$&fit=wrap&wid=57",
+        "https://assets.realmadrid.com/is/content/realmadrid/parche-15-ucl?$Mobile$&fit=wrap",
+        "https://assets.realmadrid.com/is/image/realmadrid/FOTO_ESCUDO_COMUNICADO_OFICIAL?$Desktop$&fit=wrap",
+        "https://assets.realmadrid.com/is/content/realmadrid/Google%20Play%20Badge_en?$Mobile$&fit=wrap",
+        "https://assets.realmadrid.com/is/content/realmadrid/App%20Store%20Badge_en?$Mobile$&fit=wrap",
+        "https://assets.realmadrid.com/is/content/realmadrid/Huawei%20Store%20Badge_en?$Mobile$&fit=wrap"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_source_10",
+      "url": "https://www.uefa.com/uefachampionsleague/news/026d-13576e235a82-2cfb6b06ef27-1000--mbappe-to-leave-paris-how-brilliant-is-he/",
+      "publisher": "UEFA",
+      "title": "Kylian Mbappé goals, records, stats and claims to fame: How brilliant is the Real Madrid and France star? | UEFA Champions League 2025/26",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/02a4-2065e54569b0-30ed2bfe1972-1000/real_madrid_cf_v_fc_bayern_munchen_-_uefa_champions_league_2025_26_quarter-final_first_leg.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/02a6-20ca237cd768-3681d7e52c39-1000/format/wide1/monaco_v_tottenham_-_champions_league.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027d-17094efdc1e2-5d95ee6f5df8-1000/format/wide1/fbl-fra-ligue1-psg.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/026a-12767ace1c17-aa9d6a476c6a-1000/format/wide1/mbaspace.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_01",
+      "url": "https://www.fifa.com/en/articles/u20-records",
+      "publisher": "FIFA",
+      "title": "FIFA U-20 World Cup records",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_02",
+      "url": "https://inside.fifa.com/tournaments/mens/u20worldcup/fifa-u-20-world-cup-poland-2019/news/nine-the-magic-number-for-norways-haland",
+      "publisher": "FIFA",
+      "title": "Nine the magic number for Norway’s Haland",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/5b5a91a6de01c6a7/webimage-tqzsmsadka3u7uluduck-jpg.png",
+        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_03",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0255-0e99f0d0de23-1875c38767d1-1000--salzburg-sensation-haaland-on-his-debut-hat-trick/",
+      "publisher": "UEFA",
+      "title": "Salzburg sensation: Haaland on his debut hat-trick | UEFA Champions League 2019/20",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0255-0e99f0d0def8-a70620e3213b-1000/erling_braut_haaland_celebrates_the_first_of_his_three_against_genk.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0255-0e99f0d0def8-a70620e3213b-1000/format/wide1/erling_braut_haaland_celebrates_the_first_of_his_three_against_genk.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0255-0e99f0d0d9ef-424495fd0f64-1000/format/wide1/jesse_marsch_hee-chan_hwang_salzburg_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0260-1033cdb4cc78-0ff792890254-1000/format/wide1/fbl-eur-c1-psg-bayern_munich.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/02a6-20e3dfc1e0cf-dd39c5a285f1-1000/format/wide1/uefa_champions_league_fc_barcelona_v_psv_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_04",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0b5eefac-1d059dc19659-1000--genk-v-salzburg-facts/",
+      "publisher": "UEFA",
+      "title": "Genk v Salzburg facts | UEFA Champions League 2019/20",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0255-0e9a0b5ee674-6679b106d4c6-1000/genk_s_jhon_lucumi_and_joakim_m_hle_right_after_the_6-2_defeat_at_salzburg.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0255-0e9a0b5ee674-6679b106d4c6-1000/format/wide1/genk_s_jhon_lucumi_and_joakim_m_hle_right_after_the_6-2_defeat_at_salzburg.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_05",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0268-11f9321e7599-fde3dd4a7bd0-1000--erling-haaland-in-the-champions-league-records-stats-who-h/",
+      "publisher": "UEFA",
+      "title": "Erling Haaland in the Champions League: Records, stats, who he has scored against, how he compares to Mbappé, Ronaldo, Messi | UEFA Champions League",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0282-182efbdd5963-6bd06e960daa-1000/manchester_city_fc_v_real_madrid_semi-final_second_leg_-_uefa_champions_league.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0269-1266710d96ba-40c3e7e0ff72-1000/format/wide1/borussia_dortmund_v_sevilla_fc_-_uefa_champions_league_round_of_16_leg_two.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0267-11c3ac3c423c-790e46ad5b85-1000/format/wide1/borussia_dortmund_v_sevilla_fc_-_uefa_champions_league_round_of_16_leg_two.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0266-1196c2859d20-238def3bd129-1000/format/wide1/haaland.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0282-1839d515aec0-0543b2df112b-1000/format/wide1/fc_internazionale_v_manchester_city_fc_-_uefa_champions_league_final_2022_23.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_06",
+      "url": "https://www.premierleague.com/en/news/662064/records-players",
+      "publisher": "Premier League",
+      "title": "Records: Players",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_07",
+      "url": "https://www.premierleague.com/en/news/3793778/haaland-makes-history-after-scoring-50th-premier-league-goal",
+      "publisher": "Premier League",
+      "title": "Haaland makes history after scoring 50th Premier League goal",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.com/premierleague/photo/2023/11/25/3348fe34-9f56-4ae6-a2e8-426a7698ed26/2023-11-25T125854Z_295701729_UP1EJBP102552_RTRMADP_3_SOCCER-ENGLAND-MCI-LIV-REPORT.JPG",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/11/25/d1035a28-800f-4321-bcf0-b605de729907/2023-11-25T125854Z_295701729_UP1EJBP102552_RTRMADP_3_SOCCER-ENGLAND-MCI-LIV-REPORT.JPG?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_08",
+      "url": "https://www.premierleague.com/en/news/3486228",
+      "publisher": "Premier League",
+      "title": "Haaland claims 2022/23 Golden Boot",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.com/premierleague/photo/2023/05/28/27c4eec7-49c2-4abe-a081-ec1d27a2311e/2023-05-28T173847Z_1871495450_UP1EJ5S1D0K97_RTRMADP_3_SOCCER-ENGLAND-BRE-MCI-REPORT.JPG",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/05/28/921a6ea9-3b1d-41bf-92ec-eceb3f841e89/2023-05-28T173847Z_1871495450_UP1EJ5S1D0K97_RTRMADP_3_SOCCER-ENGLAND-BRE-MCI-REPORT.JPG?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_09",
+      "url": "https://www.uefa.com/uefachampionsleague/news/027f-1788c57f2a9b-526f2f47f6a2-1000--man-city-7-0-leipzig-agg-8-1-haaland-hits-five-on-record/",
+      "publisher": "UEFA",
+      "title": "Man City 7-0 Leipzig (agg: 8-1): Haaland hits five on record-breaking night | UEFA Champions League 2022/23",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0284-18de5d4fd04f-45fdda05a2f2-1000/manchester_city_v_rb_leipzig_round_of_16_second_leg_-_uefa_champions_league.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/027f-1788c57f2a9b-282abdfade50-1000/format/wide1/manchester_city_v_rb_leipzig_round_of_16_second_leg_-_uefa_champions_league.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027d-170f993beb67-09af9588ef01-1000/format/wide1/uefa_champions_league_2022_23_round_of_16_draw.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027f-178df3560968-79d699fc25c0-1000/format/wide1/ucl_qf_draw.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027e-1761da6c5e24-03f98827a354-1000/format/wide1/rb_leipzig_v_manchester_city_round_of_16_leg_one_-_uefa_champions_league.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027e-1764741d8058-2df77784a073-1000/format/wide1/ucl_-_fedex_-_itz_-_frame_x1_-_twitter_2_.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "haaland_source_10",
+      "url": "https://www.mancity.com/annualreport2023/wp-content/uploads/2023/11/manchester-city_annual-report_2022-23.pdf",
+      "publisher": "Manchester City",
+      "title": "Manchester City annual report 2022/23",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
     }
   ]
 }
