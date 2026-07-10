@@ -53,10 +53,17 @@ function parseSourcePack(sourcePack, sourcePackPath) {
     if (!url) {
       throw new Error(`${sourcePackPath}: Source ${sourceNumber}: missing URL`);
     }
+    const existing = records.get(url);
+    if (existing) {
+      throw new Error(
+        `${sourcePackPath}: duplicate source URL ${url} in Source ${existing.sourceNumber} and Source ${sourceNumber}`,
+      );
+    }
 
     const mediaBlock = section.match(/### Media Candidates\r?\n([\s\S]*?)(?=\r?\n### |\r?\n## |$)/)?.[1] ?? "";
     const mediaCandidates = [...mediaBlock.matchAll(/^- (https:\/\/\S+)$/gm)].map((match) => match[1]);
     records.set(url, {
+      sourceNumber,
       title,
       status: section.match(/^- Status: (.+)$/m)?.[1] ?? null,
       mediaCandidates: [...new Set(mediaCandidates)],
@@ -308,6 +315,20 @@ assert.throws(
     },
   ),
   /duplicate source URL .*first\.md.*second\.md/,
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: canonicalBbcYouTubeUrl },
+    {
+      "same-pack.md": `${singleSourcePack("First copy")}
+## Source 2: Second copy
+
+- URL: ${canonicalBbcYouTubeUrl}
+- Status: 200
+`,
+    },
+  ),
+  /same-pack\.md: duplicate source URL .*Source 1.*Source 2/,
 );
 
 function sevenCards() {
