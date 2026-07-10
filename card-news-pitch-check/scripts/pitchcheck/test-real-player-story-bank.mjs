@@ -338,8 +338,7 @@ const forbiddenEarlyMessiCta =
 const directCta = /프로필\s*링크|설치|다운로드|\[피치체크\]|사용\s*영상/i;
 const cardRoleCtaTerms =
   /피치체크|PitchCheck|프로필\s*링크|설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|댓글/i;
-const softBridgeForbiddenCta =
-  /피치체크|PitchCheck|프로필\s*링크|설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|댓글/i;
+const softBridgeForbiddenCta = cardRoleCtaTerms;
 const pitchCheckCtaTerms = /피치체크|PitchCheck|프로필\s*링크|댓글/i;
 const unrelatedCtaTerms = /설치|다운로드|앱|구독|팔로우|좋아요|사용\s*영상|웹사이트|뉴스레터|구매|신청|가입/i;
 
@@ -454,7 +453,7 @@ const messiRetirement = messiSeeds.topics.find(
   (topic) => topic.id === "messi-013-international-retirement-announcement",
 );
 assert.deepEqual(messi005?.sourceRefs, ["messi_source_05"]);
-assert.match(messi005?.copy.cards[3] ?? "", /71분/);
+assert.match(messi005?.copy.cards[3] ?? "", /\b71분\b/);
 assert.doesNotMatch(messi005?.copy.cards[3] ?? "", /다음 해|공식 데뷔/);
 assert.deepEqual(messi012?.sourceRefs, ["messi_source_20"]);
 assert.equal(messi012?.eventKey, "lionel-messi|2023|inter-miami-most-trophies-record");
