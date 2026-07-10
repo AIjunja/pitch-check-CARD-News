@@ -493,23 +493,26 @@ const allSourceRefs = {
 const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const expectedSourceIds = Object.keys(allSourceRefs).sort();
+const expectedAsiaSourceIds = Array.from({ length: 17 }, (_, index) =>
+  `asia07_source_${String(index + 1).padStart(2, "0")}`,
+);
 
 assert.equal(sourceCatalog.sources.length, 114);
-assert.equal(persistedSourceCatalog.sources.length, 114);
-assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
+assert.equal(persistedSourceCatalog.sources.length, 131);
+assert.deepEqual(persistedSourceCatalog.sources.slice(0, 114), sourceCatalog.sources);
 assert.deepEqual(
-  buildCatalog(allSourceRefs, sourcePackInputs),
-  persistedSourceCatalog,
-  "rebuilding with the same inputs must preserve generatedAt and every catalog field",
+  buildCatalog(allSourceRefs, sourcePackInputs).sources,
+  persistedSourceCatalog.sources.slice(0, 114),
+  "rebuilding the previous inputs must preserve every existing catalog field",
 );
 assert.deepEqual(
   sourceCatalog.sources.map((source) => source.sourceId).sort(),
   expectedSourceIds,
 );
 assert.deepEqual(
-  persistedSourceCatalog.sources.slice(0, 94),
-  sourceCatalog.sources.slice(0, 94),
-  "existing catalog records must remain unchanged and new records must append",
+  persistedSourceCatalog.sources.slice(114).map((source) => source.sourceId),
+  expectedAsiaSourceIds,
+  "new Asia records must append after existing catalog records",
 );
 for (const source of sourceCatalog.sources) {
   for (const field of [

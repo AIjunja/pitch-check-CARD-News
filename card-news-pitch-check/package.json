@@ -18,7 +18,7 @@
     "render:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs",
     "sample:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json",
     "sample:pitchcheck-real-cta": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines-real-cta.json",
-    "test": "node scripts/pitchcheck/test-real-player-story-bank.mjs && node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json --dry-run"
+    "test": "node scripts/pitchcheck/test-real-player-story-bank.mjs && node scripts/pitchcheck/test-asia-story-batch.mjs && node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json --dry-run"
   },
   "keywords": [],
   "author": "",
