@@ -79,6 +79,28 @@ function migrationBank(overrides = {}) {
   };
 }
 
+function assertRosterSubjectShape(subject) {
+  const name = subject.displayName;
+  assert.match(subject.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/, `${name}: id must be a lowercase slug`);
+  assert.ok(allowedPortfolios.has(subject.portfolio), `${name}: invalid portfolio`);
+  assert.ok(Number.isInteger(subject.target) && subject.target > 0, `${name}: invalid target`);
+  assert.ok(["player", "coach"].includes(subject.subjectType), `${name}: invalid subjectType`);
+  assert.ok(name.trim(), `${name}: missing displayName`);
+  assert.ok(Array.isArray(subject.searchNames), `${name}: searchNames must be an array`);
+  assert.ok(subject.searchNames.length >= 2, `${name}: searchNames must have at least two entries`);
+  assert.ok(
+    subject.searchNames.every((query) => typeof query === "string" && query.trim().length > 0),
+    `${name}: searchNames must contain non-empty trimmed strings`,
+  );
+  assert.ok(subject.searchNames.includes(name), `${name}: displayName missing from searchNames`);
+  assert.ok(Array.isArray(subject.prioritySources), `${name}: prioritySources must be an array`);
+  assert.ok(subject.prioritySources.length > 0, `${name}: prioritySources must not be empty`);
+  assert.ok(
+    subject.prioritySources.every((source) => typeof source === "string" && allowedSourceFamilies.has(source)),
+    `${name}: prioritySources contains an unknown source family`,
+  );
+}
+
 const migratedFresh = migrateStoryBank(legacyBank);
 assert.deepEqual(migratedFresh, migratedBank);
 
@@ -293,6 +315,7 @@ assert.deepEqual(
   portfolioTargets,
 );
 
+assert.equal(roster.length, 71, "roster must contain exactly 71 rows");
 const rosterByName = new Map(roster.map((subject) => [subject.displayName, subject]));
 assert.equal(new Set(roster.map((subject) => subject.displayName)).size, 71, "roster must have exactly 71 display names");
 assert.deepEqual(
@@ -325,22 +348,7 @@ for (const [player, count] of migratedCounts) {
 
 assert.equal(new Set(roster.map((subject) => subject.id)).size, roster.length);
 for (const subject of roster) {
-  const name = subject.displayName;
-  assert.match(subject.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/, `${name}: id must be a lowercase slug`);
-  assert.ok(allowedPortfolios.has(subject.portfolio), `${name}: invalid portfolio`);
-  assert.ok(Number.isInteger(subject.target) && subject.target > 0, `${name}: invalid target`);
-  assert.ok(["player", "coach"].includes(subject.subjectType), `${name}: invalid subjectType`);
-  assert.ok(name.trim(), `${name}: missing displayName`);
-  assert.ok(Array.isArray(subject.searchNames), `${name}: searchNames must be an array`);
-  assert.ok(subject.searchNames.length >= 2, `${name}: searchNames must have at least two entries`);
-  assert.ok(subject.searchNames.every((query) => typeof query === "string"), `${name}: searchNames must contain strings`);
-  assert.ok(subject.searchNames.includes(name), `${name}: displayName missing from searchNames`);
-  assert.ok(Array.isArray(subject.prioritySources), `${name}: prioritySources must be an array`);
-  assert.ok(subject.prioritySources.length > 0, `${name}: prioritySources must not be empty`);
-  assert.ok(
-    subject.prioritySources.every((source) => typeof source === "string" && allowedSourceFamilies.has(source)),
-    `${name}: prioritySources contains an unknown source family`,
-  );
+  assertRosterSubjectShape(subject);
 }
 assert.deepEqual(
   roster.filter((subject) => subject.subjectType === "coach").map((subject) => subject.displayName).sort(),
@@ -350,6 +358,15 @@ assert.ok(
   roster
     .filter((subject) => subject.displayName !== "Marcelo Bielsa")
     .every((subject) => subject.subjectType === "player"),
+);
+
+const emptySecondaryQuerySubject = {
+  ...roster[0],
+  searchNames: [roster[0].displayName, "   "],
+};
+assert.throws(
+  () => assertRosterSubjectShape(emptySecondaryQuerySubject),
+  /Lionel Messi: searchNames must contain non-empty trimmed strings/,
 );
 
 const legacyById = new Map(legacyBank.topics.map((topic) => [topic.id, topic]));
