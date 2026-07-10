@@ -94,6 +94,21 @@ assert.throws(
   /forbidden early CTA/,
 );
 
+const missingSourceRefsTopic = fixture({ id: "real-source-refs-missing" });
+delete missingSourceRefsTopic.sourceRefs;
+
+for (const topic of [
+  missingSourceRefsTopic,
+  fixture({ id: "real-source-refs-null", sourceRefs: null }),
+  fixture({ id: "real-source-refs-string", sourceRefs: "source_a" }),
+  fixture({ id: "real-source-refs-object", sourceRefs: { source_a: true } }),
+]) {
+  assert.throws(
+    () => validateStoryBank(bankWith([topic])),
+    new RegExp(`${topic.id}: sourceRefs must be an array`),
+  );
+}
+
 assert.throws(
   () => validateStoryBank(bankWith([fixture({ sourceRefs: ["source_missing"] })])),
   /missing source source_missing/,

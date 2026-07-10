@@ -37,9 +37,14 @@ export function validateStoryBank(bank, { expectedCount } = {}) {
       }
     }
 
-    for (const sourceRef of topic?.sourceRefs ?? []) {
-      if (!Object.hasOwn(sourceRefs, sourceRef)) {
-        errors.push(`${topicId}: missing source ${sourceRef}`);
+    const topicSourceRefs = topic?.sourceRefs;
+    if (!Array.isArray(topicSourceRefs)) {
+      errors.push(`${topicId}: sourceRefs must be an array`);
+    } else {
+      for (const sourceRef of topicSourceRefs) {
+        if (!Object.hasOwn(sourceRefs, sourceRef)) {
+          errors.push(`${topicId}: missing source ${sourceRef}`);
+        }
       }
     }
   }
