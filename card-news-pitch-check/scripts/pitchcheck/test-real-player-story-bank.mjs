@@ -44,6 +44,8 @@ const publisherByHostname = new Map([
   ["uefa.com", { publisher: "UEFA", tier: "official" }],
   ["www.intermiamicf.com", { publisher: "Inter Miami CF", tier: "official" }],
   ["intermiamicf.com", { publisher: "Inter Miami CF", tier: "official" }],
+  ["www.fcbarcelona.com", { publisher: "FC Barcelona", tier: "official" }],
+  ["fcbarcelona.com", { publisher: "FC Barcelona", tier: "official" }],
   ["www.leaguescup.com", { publisher: "Leagues Cup", tier: "official" }],
   ["leaguescup.com", { publisher: "Leagues Cup", tier: "official" }],
   ["www.manutd.com", { publisher: "Manchester United", tier: "official" }],

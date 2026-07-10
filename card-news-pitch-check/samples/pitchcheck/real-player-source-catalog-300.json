@@ -613,6 +613,19 @@
       "useStatus": "reference-only"
     },
     {
+      "sourceId": "messi_source_12",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/messi-golden-ball-record",
+      "publisher": "FIFA",
+      "title": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/messi-golden-ball-record",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-02-messi.md",
+      "mediaCandidates": [],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
       "sourceId": "messi_source_13",
       "url": "https://www.bbc.com/sport/football/36637591",
       "publisher": "BBC Sport",
@@ -765,45 +778,22 @@
       "useStatus": "reference-only"
     },
     {
-      "sourceId": "messi_source_21",
-      "url": "https://www.leaguescup.com/news/lionel-messi-s-leagues-cup-2023-glory-becoming-winningest-player-in-history",
-      "publisher": "Leagues Cup",
-      "title": "Lionel Messi’s Leagues Cup 2023 Glory: Becoming Winningest Player in History | LeaguesCup.com",
+      "sourceId": "messi_source_25",
+      "url": "https://www.espn.com/soccer/story/_/id/37630716/impact-superstar-move-psg-clubs-him",
+      "publisher": "ESPN",
+      "title": "Lionel Messi's Barcelona exit, one year later: The impact of superstar's move to PSG on both clubs, and on him",
       "publishedAt": null,
       "status": "200",
-      "tier": "official",
+      "tier": "reputable-secondary",
       "sourcePack": "docs/research/real-player-stories/source-pack-02-messi.md",
       "mediaCandidates": [
-        "https://images.mlssoccer.com/image/private/t_editorial_landscape_3_4_desktop/lc-prd/a0ffooq54spr8uzfurkg.png",
-        "https://images.mlssoccer.com/image/upload/assets/lc/logos/lc-logo",
-        "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/f_png/lc-prd/a0ffooq54spr8uzfurkg.png",
-        "https://www.leaguescup.com/assets/images/share.png",
-        "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/lc-prd/yms7rzzgxwcrxjp1jifv.jpg",
-        "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/lc-prd/nsgegabkanrwrlgpnen7.jpg",
-        "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/f_auto/lc-prd/iwshglwwsrodrkr2ngw1.jpg",
-        "https://images.mlssoccer.com/image/upload/v1680232383/assets/lc/logos/Leagues_Cup-Cup-Logo-480x480_ytky7i"
-      ],
-      "rightsNote": "Media candidates are reference-only until rights are verified.",
-      "useStatus": "reference-only"
-    },
-    {
-      "sourceId": "messi_source_23",
-      "url": "https://www.fcbarcelona.com/en/news/1832225/messi-20-years-20-records",
-      "publisher": "FC Barcelona",
-      "title": "Messi: 20 years, 20 records",
-      "publishedAt": null,
-      "status": "200",
-      "tier": "official",
-      "sourcePack": "docs/research/real-player-stories/source-pack-02-messi.md",
-      "mediaCandidates": [
-        "https://www.fcbarcelona.com/fcbarcelona/photo/2020/09/17/27bdc0ac-db7d-474d-8e9d-fd733d23b764/3200x2000_20anysMessi-min.jpg",
-        "https://www.fcbarcelona.com/photo-resources/fcbarcelona/photo/2018/10/18/2bc43670-d59c-40c9-a9b3-f2f8f1cc8167/icon_cub.png?width=56&height=56",
-        "https://www.fcbarcelona.com/resources/v3.7.8-8763/i/elements/badge-app-store.svg",
-        "https://www.fcbarcelona.com/resources/v3.7.8-8763/i/elements/badge-google-play.svg",
-        "https://www.fcbarcelona.com/photo-resources/2020/09/17/f61485e4-0473-4844-be55-b0640af22aeb/3200x2000_20anysMessi-min.jpg?width=1200&height=750",
-        "https://www.fcbarcelona.com/photo-resources/2020/09/17/f61485e4-0473-4844-be55-b0640af22aeb/3200x2000_20anysMessi-min.jpg?width=128&height=80",
-        "https://www.fcbarcelona.com/photo-resources/2020/09/16/d03b04b8-cc15-448a-89a9-45d47c00883d/mini_messi-cesar.jpg?width=1200&height=750",
-        "https://www.fcbarcelona.com/photo-resources/2020/09/16/6dc5a181-c606-4cb4-9c68-1ba14f00b8c0/mini_messi-seis-balones-de-oro.jpg?width=1200&height=750"
+        "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1221%2Fr954008_1296x729_16%2D9.jpg",
+        "https://a.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dsoccer.png&w=40&h=40&scale=crop&cquality=40&location=origin",
+        "https://a.espncdn.com/combiner/i?img=/i/content-reactions/check.png&h=80&w=80",
+        "https://a.espncdn.com/combiner/i?img=/photo/2022/0804/r1044383_1296x1296_1-1.jpg&w=130&h=130&scale=crop&location=center",
+        "https://a.espncdn.com/combiner/i?img=/photo/2022/0803/r1043869_1296x1296_1-1.jpg&w=130&h=130&scale=crop&location=center",
+        "https://a.espncdn.com/combiner/i?img=/photo/2020/1021/r763848_1296x1296_1-1.jpg&w=130&h=130&scale=crop&location=center",
+        "https://a.espncdn.com/photo/2021/0105/Article_Placement_1920x1080_AllSoccer_%20(1).jpg"
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
