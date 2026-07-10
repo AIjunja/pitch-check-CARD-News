@@ -9,6 +9,8 @@ import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
+const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
+const BBC_YOUTUBE_VIDEO_ID = "6caCqn_nD6o";
 const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
 
 const publisherByHostname = new Map([
@@ -30,20 +32,32 @@ const publisherByHostname = new Map([
 ]);
 
 function parseSourcePack(sourcePack, sourcePackPath) {
-  const headings = [...sourcePack.matchAll(/^## Source \d+: (.+)$/gm)];
+  const sourceMarkers = sourcePack.match(/^## Source\b.*$/gm) ?? [];
+  const headings = [...sourcePack.matchAll(/^## Source (\d+):[ \t]*(.*)$/gm)];
+  if (headings.length === 0 || headings.length !== sourceMarkers.length) {
+    throw new Error(`${sourcePackPath}: missing Source heading structure`);
+  }
+
   const records = new Map();
 
   for (let index = 0; index < headings.length; index += 1) {
     const sectionStart = headings[index].index + headings[index][0].length;
     const sectionEnd = headings[index + 1]?.index ?? sourcePack.length;
     const section = sourcePack.slice(sectionStart, sectionEnd);
+    const sourceNumber = headings[index][1];
+    const title = headings[index][2].trim();
+    if (!title) {
+      throw new Error(`${sourcePackPath}: Source ${sourceNumber}: missing title`);
+    }
     const url = section.match(/^- URL: (https:\/\/\S+)$/m)?.[1];
-    if (!url) continue;
+    if (!url) {
+      throw new Error(`${sourcePackPath}: Source ${sourceNumber}: missing URL`);
+    }
 
     const mediaBlock = section.match(/### Media Candidates\r?\n([\s\S]*?)(?=\r?\n### |\r?\n## |$)/)?.[1] ?? "";
     const mediaCandidates = [...mediaBlock.matchAll(/^- (https:\/\/\S+)$/gm)].map((match) => match[1]);
     records.set(url, {
-      title: headings[index][1],
+      title,
       status: section.match(/^- Status: (.+)$/m)?.[1] ?? null,
       mediaCandidates: [...new Set(mediaCandidates)],
       sourcePack: sourcePackPath,
@@ -51,6 +65,13 @@ function parseSourcePack(sourcePack, sourcePackPath) {
   }
 
   return records;
+}
+
+function isCanonicalBbcYouTubeUrl(parsedUrl) {
+  if (["www.youtube.com", "youtube.com"].includes(parsedUrl.hostname)) {
+    return parsedUrl.pathname === "/watch" && parsedUrl.searchParams.get("v") === BBC_YOUTUBE_VIDEO_ID;
+  }
+  return parsedUrl.hostname === "youtu.be" && parsedUrl.pathname === `/${BBC_YOUTUBE_VIDEO_ID}`;
 }
 
 function getPublisherAndTier(sourceId, url) {
@@ -65,11 +86,11 @@ function getPublisherAndTier(sourceId, url) {
     throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
   }
 
-  if (
-    sourceId === "ian_teacher_bbc"
-    && new Set(["www.youtube.com", "youtube.com", "youtu.be"]).has(parsedUrl.hostname)
-  ) {
-    return { publisher: "BBC via YouTube", tier: "primary" };
+  if (sourceId === "ian_teacher_bbc") {
+    if (isCanonicalBbcYouTubeUrl(parsedUrl)) {
+      return { publisher: "BBC via YouTube", tier: "primary" };
+    }
+    throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
   }
 
   const publisher = publisherByHostname.get(parsedUrl.hostname);
@@ -79,7 +100,7 @@ function getPublisherAndTier(sourceId, url) {
   return publisher;
 }
 
-export function buildCatalog(sourceRefs, sourcePackInputs, generatedAt = new Date().toISOString()) {
+export function buildCatalog(sourceRefs, sourcePackInputs, generatedAt = CATALOG_GENERATED_AT) {
   if (!sourceRefs || typeof sourceRefs !== "object" || Array.isArray(sourceRefs)) {
     throw new Error("sourceRefs must be a non-null object");
   }
@@ -87,6 +108,10 @@ export function buildCatalog(sourceRefs, sourcePackInputs, generatedAt = new Dat
   const packRecords = new Map();
   for (const [sourcePackPath, sourcePack] of Object.entries(sourcePackInputs ?? {})) {
     for (const [url, record] of parseSourcePack(sourcePack, sourcePackPath)) {
+      const existing = packRecords.get(url);
+      if (existing) {
+        throw new Error(`duplicate source URL ${url} in ${existing.sourcePack} and ${sourcePackPath}`);
+      }
       packRecords.set(url, record);
     }
   }
@@ -141,6 +166,15 @@ const sourcePackInputs = {
   ),
 };
 
+if (process.argv.includes("--write-catalog")) {
+  fs.writeFileSync(
+    CATALOG_PATH,
+    `${JSON.stringify(buildCatalog(legacyBank.sourceRefs, sourcePackInputs), null, 2)}\n`,
+    "utf8",
+  );
+  console.log(`wrote ${path.relative(ROOT, CATALOG_PATH)}`);
+}
+
 const portfolioTargets = {
   global_legend: 130,
   current_star: 80,
@@ -158,6 +192,11 @@ const expectedSourceIds = Object.keys(legacyBank.sourceRefs).sort();
 assert.equal(sourceCatalog.sources.length, 22);
 assert.equal(persistedSourceCatalog.sources.length, 22);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
+assert.deepEqual(
+  buildCatalog(legacyBank.sourceRefs, sourcePackInputs),
+  persistedSourceCatalog,
+  "rebuilding with the same inputs must preserve generatedAt and every catalog field",
+);
 assert.deepEqual(
   sourceCatalog.sources.map((source) => source.sourceId).sort(),
   expectedSourceIds,
@@ -212,6 +251,63 @@ assert.throws(
 assert.throws(
   () => buildCatalog({ unknown: "https://example.com/story" }, sourcePackInputs),
   /unknown: unknown or malformed source URL/,
+);
+
+const canonicalBbcYouTubeUrl = "https://www.youtube.com/watch?v=6caCqn_nD6o";
+const singleSourcePack = (title, url = canonicalBbcYouTubeUrl) => `## Source 1: ${title}
+
+- URL: ${url}
+- Status: 200
+
+### Media Candidates
+- https://example.com/media.jpg
+`;
+
+assert.equal(legacyBank.sourceRefs.ian_teacher_bbc, canonicalBbcYouTubeUrl);
+assert.deepEqual(
+  buildCatalog(
+    { ian_teacher_bbc: "https://youtu.be/6caCqn_nD6o" },
+    { "fixture.md": singleSourcePack("BBC video", "https://youtu.be/6caCqn_nD6o") },
+  ).sources[0].tier,
+  "primary",
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: "https://www.youtube.com/watch?v=another-video" },
+    { "fixture.md": singleSourcePack("Different BBC video", "https://www.youtube.com/watch?v=another-video") },
+  ),
+  /ian_teacher_bbc: unknown or malformed source URL/,
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: canonicalBbcYouTubeUrl },
+    { "missing-url.md": "## Source 1: BBC video\n\n- Status: 200\n" },
+  ),
+  /missing-url\.md: Source 1: missing URL/,
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: canonicalBbcYouTubeUrl },
+    { "missing-title.md": singleSourcePack("   ") },
+  ),
+  /missing-title\.md: Source 1: missing title/,
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: canonicalBbcYouTubeUrl },
+    { "missing-heading.md": `- URL: ${canonicalBbcYouTubeUrl}\n- Status: 200\n` },
+  ),
+  /missing-heading\.md: missing Source heading structure/,
+);
+assert.throws(
+  () => buildCatalog(
+    { ian_teacher_bbc: canonicalBbcYouTubeUrl },
+    {
+      "first.md": singleSourcePack("First copy"),
+      "second.md": singleSourcePack("Second copy"),
+    },
+  ),
+  /duplicate source URL .*first\.md.*second\.md/,
 );
 
 function sevenCards() {
@@ -580,15 +676,6 @@ for (const topic of migratedBank.topics) {
     topic.verification.caveat,
     sensitive ? "민감한 사건이므로 원문 맥락을 유지하고 선정적으로 확대하지 않는다." : null,
   );
-}
-
-if (process.argv.includes("--write-catalog")) {
-  fs.writeFileSync(
-    CATALOG_PATH,
-    `${JSON.stringify(buildCatalog(legacyBank.sourceRefs, sourcePackInputs), null, 2)}\n`,
-    "utf8",
-  );
-  console.log(`wrote ${path.relative(ROOT, CATALOG_PATH)}`);
 }
 
 console.log("real story validation tests passed");
