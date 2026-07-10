@@ -101,6 +101,43 @@ function parseSourcePack(sourcePack, sourcePackPath) {
   return records;
 }
 
+function parseMessiKoreanIndex(sourcePack, sourcePackPath) {
+  const heading = "## 한국어 사건 인덱스와 근거 메모";
+  const headingIndex = sourcePack.indexOf(heading);
+  assert.notEqual(headingIndex, -1, `${sourcePackPath}: missing Korean Messi index`);
+  assert.equal(
+    sourcePack.slice(headingIndex + heading.length).trimStart().startsWith("### "),
+    true,
+    `${sourcePackPath}: Korean Messi index must contain entries`,
+  );
+
+  const section = sourcePack.slice(headingIndex + heading.length).trim();
+  const entries = [...section.matchAll(
+    /^### (\d+)\. (.+)\r?\n- eventKey: `([^`]+)`\r?\n- source IDs: ([^\r\n]+)\r?\n- evidence: ([^\r\n]+)\r?\n- scope: ([^\r\n]+)$/gm,
+  )].map((match) => ({
+    number: Number(match[1]),
+    title: match[2].trim(),
+    eventKey: match[3].trim(),
+    sourceIds: match[4].split(",").map((sourceId) => sourceId.trim()).filter(Boolean),
+    evidence: match[5].trim(),
+    scope: match[6].trim(),
+  }));
+
+  assert.equal(entries.length, 20, `${sourcePackPath}: Korean Messi index must contain exactly 20 entries`);
+  assert.deepEqual(
+    entries.map((entry) => entry.number),
+    Array.from({ length: 20 }, (_, index) => index + 1),
+    `${sourcePackPath}: Korean Messi index entries must be numbered 1-20`,
+  );
+  for (const entry of entries) {
+    assert.ok(entry.title, `${entry.eventKey}: missing Korean event title`);
+    assert.ok(entry.sourceIds.length > 0, `${entry.eventKey}: missing source IDs`);
+    assert.ok(entry.evidence, `${entry.eventKey}: missing Korean evidence`);
+    assert.ok(entry.scope, `${entry.eventKey}: missing Korean scope`);
+  }
+  return entries;
+}
+
 function isCanonicalBbcYouTubeUrl(parsedUrl) {
   if (["www.youtube.com", "youtube.com"].includes(parsedUrl.hostname)) {
     return parsedUrl.pathname === "/watch" && parsedUrl.searchParams.get("v") === BBC_YOUTUBE_VIDEO_ID;
@@ -208,6 +245,10 @@ const sourcePackInputs = {
     "utf8",
   ),
 };
+const messiKoreanIndex = parseMessiKoreanIndex(
+  sourcePackInputs["docs/research/real-player-stories/source-pack-02-messi.md"],
+  "docs/research/real-player-stories/source-pack-02-messi.md",
+);
 
 if (process.argv.includes("--write-catalog")) {
   fs.writeFileSync(
@@ -303,6 +344,26 @@ assert.deepEqual(
 assert.equal(Object.keys(messiSeeds.sourceRefs).length, 20);
 assert.equal(new Set(Object.keys(messiSeeds.sourceRefs)).size, 20);
 assert.ok(Object.keys(messiSeeds.sourceRefs).every((sourceId) => /^messi_source_\d{2}$/.test(sourceId)));
+
+const messiSeedByEventKey = new Map();
+for (const topic of messiSeeds.topics) {
+  assert.ok(typeof topic.evidence === "string" && topic.evidence.trim(), `${topic.id}: seed evidence must be non-empty`);
+  assert.equal(messiSeedByEventKey.has(topic.eventKey), false, `${topic.id}: duplicate seed eventKey`);
+  messiSeedByEventKey.set(topic.eventKey, topic);
+}
+assert.equal(new Set(messiKoreanIndex.map((entry) => entry.eventKey)).size, 20);
+for (const entry of messiKoreanIndex) {
+  const topic = messiSeedByEventKey.get(entry.eventKey);
+  assert.ok(topic, `${entry.eventKey}: Korean index eventKey missing from Messi seeds`);
+  assert.deepEqual(entry.sourceIds, topic.sourceRefs, `${entry.eventKey}: Korean index source IDs changed`);
+}
+for (const topic of messiSeeds.topics) {
+  assert.equal(
+    messiKoreanIndex.filter((entry) => entry.eventKey === topic.eventKey).length,
+    1,
+    `${topic.eventKey}: Korean index must contain the seed eventKey exactly once`,
+  );
+}
 
 for (const sourceId of Object.keys(messiSeeds.sourceRefs)) {
   const source = sourceCatalogById.get(sourceId);

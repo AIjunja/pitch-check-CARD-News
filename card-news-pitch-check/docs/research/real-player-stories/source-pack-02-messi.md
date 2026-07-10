@@ -1032,6 +1032,128 @@ _None found._
 - on Aug. 4, 2021, Barca president Joan Laporta's activity on his phone alerted the other members of the club's travelling delegation to an issue. Less than 24 hours later, the nature of Laporta's frenzied calls became clear as the Catalan club made the announcement that rocked football:
 - Messi, 34 at the time, spent 20 years at Barcelona after arriving from
 - as a teenager. During that time, he became the club's record appearance holder and top scorer, scoring 672 times in 778 games. He won four Champions League and 11 LaLiga titles, and was named the best player in the world on six occasions (and for a seventh time since leaving.) Barca without Messi was unthinkable; Messi playing in another club's shirt was unimaginable.
+
+## 한국어 사건 인덱스와 근거 메모
+
+### 1. 성장호르몬 치료를 위한 바르셀로나 이주
+- eventKey: `lionel-messi|2000|growth-treatment-family-move`
+- source IDs: messi_source_01
+- evidence: Olympics.com 선수 프로필은 메시가 13세에 가족과 바르셀로나로 옮겼고, 구단이 성장호르몬 치료를 도왔다고 설명한다.
+- scope: 13세의 가족 이주와 구단의 치료 지원까지 주장할 수 있으며, 치료의 세부 비용이나 의학적 결과는 주장하지 않는다.
+
+### 2. 그란돌리에서 시작한 오른쪽 윙
+- eventKey: `lionel-messi|1992|grandoli-right-wing`
+- source IDs: messi_source_02
+- evidence: AP는 메시가 1992년 로사리오의 아반데라도 그란돌리에서 첫 경기를 뛰었고, 할머니 곁에 있으려고 오른쪽 윙에 섰다고 전한다.
+- scope: 첫 경기의 장소·연도와 오른쪽 윙에 선 이유까지 주장할 수 있으며, 당시 전술적 역할로 확대하지 않는다.
+
+### 3. 식당 냅킨에 적힌 영입 약속
+- eventKey: `lionel-messi|2000|napkin-contract`
+- source IDs: messi_source_03
+- evidence: Bonhams는 2000년 12월 14일 카를레스 렉사흐가 바르셀로나의 메시 영입 약속을 냅킨에 적었다고 설명한다.
+- scope: 날짜와 냅킨 문서의 영입 약속을 주장할 수 있으며, 냅킨 자체가 최종 계약서였다고 표현하지 않는다.
+
+### 4. 마스크를 벗고 넣은 유소년 결승 두 골
+- eventKey: `lionel-messi|2003|youth-mask-four-teams`
+- source IDs: messi_source_04
+- evidence: FC Barcelona는 광대뼈 부상 뒤 보호 마스크를 쓴 메시가 숨쉬기 어렵다며 벗었고, 에스파뇰전 전반 전에 두 골을 넣었다고 기록한다.
+- scope: 보호 마스크와 두 골, 해당 유소년 경기 맥락까지 주장할 수 있으며, 부상 정도나 경기 전체의 개인 기록은 덧붙이지 않는다.
+
+### 5. 포르투전 친선경기 데뷔
+- eventKey: `lionel-messi|2003|porto-friendly-debut`
+- source IDs: messi_source_05
+- evidence: FC Barcelona의 회고는 메시가 2003년 11월 16일 포르투와의 친선경기에서 교체 출전하며 첫 모습을 보였다고 설명한다.
+- scope: 날짜·상대·친선경기라는 데뷔 맥락만 주장할 수 있으며, 공식전 데뷔로 혼동하지 않는다.
+
+### 6. 에스파뇰전 공식전 데뷔
+- eventKey: `lionel-messi|2004|competitive-debut`
+- source IDs: messi_source_06
+- evidence: FC Barcelona는 2004년 10월 16일 에스파뇰전이 메시의 바르셀로나 1군 공식전 첫 출전이었다고 기록한다.
+- scope: 1군 공식전 데뷔의 날짜와 상대를 주장할 수 있으며, 선발 출전이나 풀타임 출전으로 확대하지 않는다.
+
+### 7. 취소된 뒤 다시 완성한 첫 공식 골
+- eventKey: `lionel-messi|2005|first-official-goal`
+- source IDs: messi_source_07
+- evidence: FC Barcelona는 2005년 5월 1일 알바세테전에서 첫 골이 오프사이드로 취소된 뒤 호나우지뉴의 도움으로 다시 골을 넣었다고 전한다.
+- scope: 첫 공식 골의 날짜·상대와 취소 후 득점 흐름을 주장할 수 있으며, 해당 골을 경기의 결승골이라고 부르지 않는다.
+
+### 8. 마라도나를 떠올리게 한 헤타페 단독 돌파
+- eventKey: `lionel-messi|2007|maradona-like-solo-goal`
+- source IDs: messi_source_08
+- evidence: FC Barcelona는 2007년 코파 델 레이 헤타페전의 메시 골을 마라도나의 골과 닮은 장면으로 회고한다.
+- scope: 헤타페전의 단독 돌파 골과 마라도나와의 비교 맥락을 주장할 수 있으며, 두 선수가 같은 기술을 재현했다고 단정하지 않는다.
+
+### 9. 베이징 올림픽 축구 금메달
+- eventKey: `lionel-messi|2008|beijing-olympic-gold`
+- source IDs: messi_source_09
+- evidence: Olympics.com은 메시가 아르헨티나와 함께 베이징 2008 올림픽 축구 금메달을 따냈고, 이를 소중한 우승으로 여겼다고 설명한다.
+- scope: 2008 베이징 축구 금메달과 메시의 대회 참가 맥락을 주장할 수 있으며, 개인 득점이나 결승 세부 장면은 이 source만으로 확장하지 않는다.
+
+### 10. 로마 챔피언스리그 결승의 헤딩 골
+- eventKey: `lionel-messi|2009|rome-champions-league-final`
+- source IDs: messi_source_10
+- evidence: UEFA는 2009 챔피언스리그 결승에서 메시가 맨체스터 유나이티드를 상대로 대회 9호인 헤딩 골을 넣었다고 보도한다.
+- scope: 2009 결승의 상대·헤딩 득점과 바르셀로나 우승 맥락을 주장할 수 있으며, 결승의 모든 경기 기록을 대표한다고 쓰지 않는다.
+
+### 11. 2012년 한 해 91골
+- eventKey: `lionel-messi|2012|calendar-year-scoring-record`
+- source IDs: messi_source_11
+- evidence: Guinness World Records는 메시가 2012년 한 해 91골로 달력 연도 최다 득점 기록을 세웠다고 명시한다.
+- scope: 기네스가 제시한 91골 기록을 주장할 수 있으며, 공식전과 친선전의 집계 범위를 구분 없이 재해석하지 않는다.
+
+### 12. 월드컵 골든볼 기록
+- eventKey: `lionel-messi|2022|world-cup-golden-ball-record`
+- source IDs: messi_source_12
+- evidence: source pack에는 FIFA의 메시 골든볼 기록 기사 제목과 URL이 수록되어 있지만, 이 항목의 유용한 텍스트 스니펫은 비어 있다.
+- scope: 팩만으로는 두 번째 골든볼을 단정하지 않으며, 해당 FIFA 원문을 별도 확인한 경우에만 그 기록을 주장한다.
+
+### 13. 대표팀 은퇴 발표
+- eventKey: `lionel-messi|2016|international-retirement-announcement`
+- source IDs: messi_source_13
+- evidence: BBC는 2016 코파 아메리카 결승에서 칠레에 패한 뒤 메시가 대표팀 은퇴를 발표하며 대표팀이 끝났다고 말했다고 보도한다.
+- scope: 결승 패배 직후의 은퇴 발표를 주장할 수 있으며, 이후 대표팀 경력까지 끝났다고 영구적으로 표현하지 않는다.
+
+### 14. 베르나베우 추가시간 결승골
+- eventKey: `lionel-messi|2017|bernabeu-late-winner`
+- source IDs: messi_source_14
+- evidence: FC Barcelona의 경기 보고서는 메시가 레알 마드리드전 추가시간에 골을 넣어 3-2 승리를 확정했다고 기록한다.
+- scope: 2017 엘 클라시코의 3-2 승리와 추가시간 결승골을 주장할 수 있으며, 우승을 확정한 골이라고 표현하지 않는다.
+
+### 15. 통산 50번째 프리킥 골
+- eventKey: `lionel-messi|2019|fiftieth-free-kick`
+- source IDs: messi_source_15
+- evidence: FC Barcelona는 2019년 바야돌리드전 프리킥으로 메시가 프로 통산 50번째 프리킥 골에 도달했다고 설명한다.
+- scope: 프로 통산 50번째 프리킥 골과 바야돌리드전 맥락을 주장할 수 있으며, 모든 대회에서의 세부 분포를 생략해 새 기록으로 만들지 않는다.
+
+### 16. 바르셀로나와의 결별
+- eventKey: `lionel-messi|2021|barcelona-exit`
+- source IDs: messi_source_16
+- evidence: FC Barcelona는 2021년 양측이 합의와 재계약 의사가 있었지만 라리가 선수 등록 규정 때문에 메시가 잔류할 수 없었다고 발표했다.
+- scope: 2021년 잔류 불발의 공식 사유를 주장할 수 있으며, 협상 과정의 비공개 동기나 책임 소재는 단정하지 않는다.
+
+### 17. 아르헨티나의 첫 코파 아메리카 우승
+- eventKey: `lionel-messi|2021|copa-america-title`
+- source IDs: messi_source_17
+- evidence: Olympics.com은 아르헨티나가 2021년 결승에서 브라질을 1-0으로 이겼고, 메시가 처음으로 코파 아메리카를 우승했다고 전한다.
+- scope: 결승 상대·스코어와 메시의 첫 코파 우승을 주장할 수 있으며, 그 우승이 대표팀의 모든 대회 무패를 뜻한다고 쓰지 않는다.
+
+### 18. 인터 마이애미 입단
+- eventKey: `lionel-messi|2023|inter-miami-signing`
+- source IDs: messi_source_19
+- evidence: Inter Miami CF는 2023년 메시 영입을 공식 발표하며 계약이 2025 MLS 시즌까지 이어진다고 밝혔다.
+- scope: 2023년 공식 영입 발표와 발표문에 적힌 계약 기간을 주장할 수 있으며, 이후 계약 연장이나 현재 소속은 이 source로 단정하지 않는다.
+
+### 19. 인터 마이애미의 첫 공식 트로피
+- eventKey: `lionel-messi|2023|inter-miami-first-trophy`
+- source IDs: messi_source_20
+- evidence: Inter Miami CF는 2023 리그스컵 결승이 1-1로 끝난 뒤 승부차기에서 내슈빌을 꺾어 구단 첫 공식 트로피를 얻었다고 기록한다.
+- scope: 결승 결과와 구단 첫 공식 트로피라는 범위를 주장할 수 있으며, 메시 개인이 혼자 우승을 만들었다고 표현하지 않는다.
+
+### 20. PSG 이적 1년의 영향
+- eventKey: `lionel-messi|2021|psg-move-impact`
+- source IDs: messi_source_25
+- evidence: ESPN은 메시가 2021년 바르셀로나를 떠나 PSG로 옮긴 뒤 1년 동안 두 구단과 메시 본인에게 미친 영향을 분석한다.
+- scope: 이적과 ESPN의 1년 영향 분석이라는 사실을 주장할 수 있으며, 영향의 인과관계를 단일 수치나 단정적 평가로 바꾸지 않는다.
 - , who was collecting family from the airport, didn't believe the news when he heard it. Striker
 - , who had only just signed for Barca, partly on the premise of playing with his long-time friend Messi, was with Spanish Twitch streamer Ibai Llanos when the news broke, and like De Jong, he refused to believe it too. He even thought Barca's website had been hacked. Still in denial, Aguero then believed it must be a tactic to convince LaLiga to let Barca register Messi given his importance to Spanish football.
 - As it turned out, it was neither of those things. Barca,
