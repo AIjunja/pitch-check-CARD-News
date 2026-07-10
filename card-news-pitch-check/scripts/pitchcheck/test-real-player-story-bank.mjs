@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateStoryBank } from "./lib/real-story-validation.mjs";
+import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const legacyBank = JSON.parse(
@@ -44,6 +45,96 @@ function copyWithTerm(term, cardIndex = 0) {
   cards[cardIndex] = { ...cards[cardIndex], body: `본문 ${term}` };
   return { cards };
 }
+
+function migrationBank(overrides = {}) {
+  return {
+    sourceRefs: {
+      source_a: "https://www.theplayerstribune.com/articles/example",
+    },
+    topics: [
+      {
+        id: "real-001-example-event",
+        category: "example",
+        sourceRefs: ["source_a"],
+        assetSearch: { mustHave: ["Incorrect Player"] },
+      },
+    ],
+    ...overrides,
+  };
+}
+
+const migratedFresh = migrateStoryBank(legacyBank);
+assert.deepEqual(migratedFresh, migratedBank);
+
+const migrationById = new Map(migratedFresh.topics.map((topic) => [topic.id, topic]));
+assert.equal(
+  migrationById.get("real-001-ian-wright-teacher-reunion").eventKey,
+  "ian-wright|legacy-sourced|ian-wright-teacher-reunion",
+);
+assert.equal(
+  migrationById.get("real-002-ian-wright-brighton-train").verification.sourceTier,
+  "primary",
+);
+assert.equal(
+  migrationById.get("real-023-mane-match-interrupted").verification.sourceTier,
+  "official",
+);
+assert.equal(
+  migrationById.get("real-031-rashford-mum-three-jobs").verification.sourceTier,
+  "reputable-secondary",
+);
+assert.equal(
+  migrationById.get("real-046-bielsa-let-villa-score").eventKey,
+  "marcelo-bielsa|legacy-sourced|bielsa-let-villa-score",
+);
+
+assert.throws(() => migrateStoryBank(null), /bank must be a non-null object/);
+assert.throws(() => migrateStoryBank({ sourceRefs: {} }), /bank\.topics must be an array/);
+assert.throws(
+  () => migrateStoryBank({ topics: [], sourceRefs: [] }),
+  /bank\.sourceRefs must be a non-null plain object/,
+);
+assert.throws(
+  () => migrateStoryBank({ sourceRefs: {}, topics: [null] }),
+  /topic 0: must be a non-null object/,
+);
+assert.throws(
+  () => migrateStoryBank(migrationBank({ topics: [{}] })),
+  /topic 0: id must be a non-empty string/,
+);
+assert.throws(
+  () => migrateStoryBank(migrationBank({ topics: [{ id: "real-001-example-event" }] })),
+  /real-001-example-event: category must be a non-empty string/,
+);
+assert.throws(
+  () => migrateStoryBank(migrationBank({ topics: [{ id: "real-001-example-event", category: "example" }] })),
+  /real-001-example-event: sourceRefs must be an array/,
+);
+assert.throws(
+  () => migrateStoryBank(migrationBank({ sourceRefs: {}, topics: [{ id: "real-001-example-event", category: "example", sourceRefs: ["source_a"] }] })),
+  /real-001-example-event: missing canonical player mapping for source_a/,
+);
+assert.throws(
+  () => migrateStoryBank({
+    sourceRefs: { ian_wright_tpt: "https://notplayerstribune.com/example" },
+    topics: [{ id: "real-001-example-event", category: "example", sourceRefs: ["ian_wright_tpt"] }],
+  }),
+  /real-001-example-event: unknown source tier for ian_wright_tpt: https:\/\/notplayerstribune\.com\/example/,
+);
+assert.throws(
+  () => migrateStoryBank({
+    sourceRefs: { rashford_guardian: "https://fakeguardian.com/example" },
+    topics: [{ id: "real-001-example-event", category: "example", sourceRefs: ["rashford_guardian"] }],
+  }),
+  /real-001-example-event: unknown source tier for rashford_guardian: https:\/\/fakeguardian\.com\/example/,
+);
+assert.throws(
+  () => migrateStoryBank({
+    sourceRefs: { ian_wright_tpt: "https://notplayerstribune.com/example" },
+    topics: [{ id: "real-001-example-event", category: "example-alternate-hook", sourceRefs: ["ian_wright_tpt"] }],
+  }),
+  /real-001-example-event: unknown source tier for ian_wright_tpt: https:\/\/notplayerstribune\.com\/example/,
+);
 
 for (const bank of [null, undefined, 42, "story bank", true]) {
   assert.throws(
