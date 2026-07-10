@@ -8,6 +8,116 @@ import { validateStoryBank } from "./lib/real-story-validation.mjs";
 import { migrateStoryBank } from "./migrate-real-player-story-bank.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-catalog-300.json");
+const REFERENCE_ONLY_RIGHTS_NOTE = "Media candidates are reference-only until rights are verified.";
+
+const publisherByHostname = new Map([
+  ["www.theplayerstribune.com", { publisher: "The Players' Tribune", tier: "primary" }],
+  ["theplayerstribune.com", { publisher: "The Players' Tribune", tier: "primary" }],
+  ["www.fifa.com", { publisher: "FIFA", tier: "official" }],
+  ["fifa.com", { publisher: "FIFA", tier: "official" }],
+  ["inside.fifa.com", { publisher: "FIFA", tier: "official" }],
+  ["www.olympics.com", { publisher: "Olympics.com", tier: "official" }],
+  ["olympics.com", { publisher: "Olympics.com", tier: "official" }],
+  ["www.bundesliga.com", { publisher: "Bundesliga", tier: "official" }],
+  ["bundesliga.com", { publisher: "Bundesliga", tier: "official" }],
+  ["www.good.is", { publisher: "GOOD", tier: "reputable-secondary" }],
+  ["good.is", { publisher: "GOOD", tier: "reputable-secondary" }],
+  ["www.theguardian.com", { publisher: "The Guardian", tier: "reputable-secondary" }],
+  ["theguardian.com", { publisher: "The Guardian", tier: "reputable-secondary" }],
+  ["www.espn.com", { publisher: "ESPN", tier: "reputable-secondary" }],
+  ["espn.com", { publisher: "ESPN", tier: "reputable-secondary" }],
+]);
+
+function parseSourcePack(sourcePack, sourcePackPath) {
+  const headings = [...sourcePack.matchAll(/^## Source \d+: (.+)$/gm)];
+  const records = new Map();
+
+  for (let index = 0; index < headings.length; index += 1) {
+    const sectionStart = headings[index].index + headings[index][0].length;
+    const sectionEnd = headings[index + 1]?.index ?? sourcePack.length;
+    const section = sourcePack.slice(sectionStart, sectionEnd);
+    const url = section.match(/^- URL: (https:\/\/\S+)$/m)?.[1];
+    if (!url) continue;
+
+    const mediaBlock = section.match(/### Media Candidates\r?\n([\s\S]*?)(?=\r?\n### |\r?\n## |$)/)?.[1] ?? "";
+    const mediaCandidates = [...mediaBlock.matchAll(/^- (https:\/\/\S+)$/gm)].map((match) => match[1]);
+    records.set(url, {
+      title: headings[index][1],
+      status: section.match(/^- Status: (.+)$/m)?.[1] ?? null,
+      mediaCandidates: [...new Set(mediaCandidates)],
+      sourcePack: sourcePackPath,
+    });
+  }
+
+  return records;
+}
+
+function getPublisherAndTier(sourceId, url) {
+  let parsedUrl;
+  try {
+    parsedUrl = new URL(url);
+  } catch {
+    throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
+  }
+
+  if (parsedUrl.protocol !== "https:") {
+    throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
+  }
+
+  if (
+    sourceId === "ian_teacher_bbc"
+    && new Set(["www.youtube.com", "youtube.com", "youtu.be"]).has(parsedUrl.hostname)
+  ) {
+    return { publisher: "BBC via YouTube", tier: "primary" };
+  }
+
+  const publisher = publisherByHostname.get(parsedUrl.hostname);
+  if (!publisher) {
+    throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
+  }
+  return publisher;
+}
+
+export function buildCatalog(sourceRefs, sourcePackInputs, generatedAt = new Date().toISOString()) {
+  if (!sourceRefs || typeof sourceRefs !== "object" || Array.isArray(sourceRefs)) {
+    throw new Error("sourceRefs must be a non-null object");
+  }
+
+  const packRecords = new Map();
+  for (const [sourcePackPath, sourcePack] of Object.entries(sourcePackInputs ?? {})) {
+    for (const [url, record] of parseSourcePack(sourcePack, sourcePackPath)) {
+      packRecords.set(url, record);
+    }
+  }
+
+  const sources = Object.entries(sourceRefs).map(([sourceId, url]) => {
+    if (typeof url !== "string" || !url.trim()) {
+      throw new Error(`${sourceId}: unknown or malformed source URL: ${url}`);
+    }
+    const publisher = getPublisherAndTier(sourceId, url);
+    const collected = packRecords.get(url);
+    if (!collected) {
+      throw new Error(`${sourceId}: missing source-pack record for ${url}`);
+    }
+
+    return {
+      sourceId,
+      url,
+      publisher: publisher.publisher,
+      title: collected.title,
+      publishedAt: null,
+      status: collected.status,
+      tier: publisher.tier,
+      sourcePack: collected.sourcePack,
+      mediaCandidates: collected.mediaCandidates,
+      rightsNote: REFERENCE_ONLY_RIGHTS_NOTE,
+      useStatus: "reference-only",
+    };
+  });
+
+  return { version: "2026-07-10-real-player-source-catalog", generatedAt, sources };
+}
 const legacyBank = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-story-bank-60.json"), "utf8"),
 );
@@ -20,6 +130,16 @@ const roster = JSON.parse(
 const rosterContract = JSON.parse(
   fs.readFileSync(path.join(ROOT, "tests/fixtures/real-player-roster-300.contract.json"), "utf8"),
 );
+const sourcePackInputs = {
+  "docs/real-player-story-scrapling-source-pack.md": fs.readFileSync(
+    path.join(ROOT, "docs/real-player-story-scrapling-source-pack.md"),
+    "utf8",
+  ),
+  "docs/ian-wright-teacher-source-pack.md": fs.readFileSync(
+    path.join(ROOT, "docs/ian-wright-teacher-source-pack.md"),
+    "utf8",
+  ),
+};
 
 const portfolioTargets = {
   global_legend: 130,
@@ -30,6 +150,69 @@ const portfolioTargets = {
 };
 const allowedPortfolios = new Set(Object.keys(portfolioTargets));
 const allowedSourceFamilies = new Set(["FIFA"]);
+
+const sourceCatalog = buildCatalog(legacyBank.sourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
+const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
+const expectedSourceIds = Object.keys(legacyBank.sourceRefs).sort();
+
+assert.equal(sourceCatalog.sources.length, 22);
+assert.equal(persistedSourceCatalog.sources.length, 22);
+assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
+assert.deepEqual(
+  sourceCatalog.sources.map((source) => source.sourceId).sort(),
+  expectedSourceIds,
+);
+for (const source of sourceCatalog.sources) {
+  for (const field of [
+    "sourceId",
+    "url",
+    "publisher",
+    "title",
+    "publishedAt",
+    "status",
+    "tier",
+    "sourcePack",
+    "mediaCandidates",
+    "rightsNote",
+    "useStatus",
+  ]) {
+    assert.ok(Object.hasOwn(source, field), `${source.sourceId}: missing ${field}`);
+  }
+  assert.match(source.url, /^https:\/\//, `${source.sourceId}: URL must use HTTPS`);
+  assert.ok(source.publisher.trim(), `${source.sourceId}: missing publisher`);
+  assert.ok(source.title.trim(), `${source.sourceId}: missing title`);
+  assert.ok(source.publishedAt === null || typeof source.publishedAt === "string");
+  assert.ok(source.status === null || typeof source.status === "string");
+  assert.ok(
+    ["primary", "official", "reputable-secondary"].includes(source.tier),
+    `${source.sourceId}: unexpected tier`,
+  );
+  assert.ok(
+    Object.hasOwn(sourcePackInputs, source.sourcePack),
+    `${source.sourceId}: unexpected source pack`,
+  );
+  assert.ok(Array.isArray(source.mediaCandidates), `${source.sourceId}: media candidates must be an array`);
+  assert.match(source.rightsNote, /reference-only.*rights/i, `${source.sourceId}: missing rights note`);
+  assert.equal(source.useStatus, "reference-only");
+}
+
+for (const topic of migratedBank.topics) {
+  for (const sourceId of topic.sourceRefs) {
+    assert.ok(
+      sourceCatalog.sources.some((source) => source.sourceId === sourceId),
+      `${topic.id}: missing catalog source ${sourceId}`,
+    );
+  }
+}
+
+assert.throws(
+  () => buildCatalog({ ian_wright_tpt: "https://notplayerstribune.com/example" }, sourcePackInputs),
+  /ian_wright_tpt: unknown or malformed source URL/,
+);
+assert.throws(
+  () => buildCatalog({ unknown: "https://example.com/story" }, sourcePackInputs),
+  /unknown: unknown or malformed source URL/,
+);
 
 function sevenCards() {
   return Array.from({ length: 7 }, (_, index) => ({
@@ -397,6 +580,15 @@ for (const topic of migratedBank.topics) {
     topic.verification.caveat,
     sensitive ? "민감한 사건이므로 원문 맥락을 유지하고 선정적으로 확대하지 않는다." : null,
   );
+}
+
+if (process.argv.includes("--write-catalog")) {
+  fs.writeFileSync(
+    CATALOG_PATH,
+    `${JSON.stringify(buildCatalog(legacyBank.sourceRefs, sourcePackInputs), null, 2)}\n`,
+    "utf8",
+  );
+  console.log(`wrote ${path.relative(ROOT, CATALOG_PATH)}`);
 }
 
 console.log("real story validation tests passed");

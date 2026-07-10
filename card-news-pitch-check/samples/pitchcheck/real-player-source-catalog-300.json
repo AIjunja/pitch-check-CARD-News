@@ -1,0 +1,388 @@
+{
+  "version": "2026-07-10-real-player-source-catalog",
+  "generatedAt": "2026-07-10T08:45:43.405Z",
+  "sources": [
+    {
+      "sourceId": "ian_teacher_good",
+      "url": "https://www.good.is/ian-wright-cries-uncontrollably-after-reuniting-with-his-beloved-teacher-who-he-thought-had-died/",
+      "publisher": "GOOD",
+      "title": "Ian Wright cries 'uncontrollably' after reuniting with his beloved teacher who he thought had died",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/ian-wright-teacher-source-pack.md",
+      "mediaCandidates": [
+        "https://www.good.is/wp-content/uploads/sites/3/2024/04/origin-494.jpg",
+        "https://www.good.is/wp-content/plugins/wpforms/assets/images/submit-spin.svg",
+        "https://goodinc.com/wp-content/uploads/2025/12/image-9.jpg?w=81",
+        "https://www.good.is/wp-content/uploads/sites/3/2024/04/origin-494.jpg?w=1024",
+        "https://www.good.is/wp-content/uploads/sites/3/2024/04/origin-258.jpg?w=1200&quality=80"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ian_teacher_bbc",
+      "url": "https://www.youtube.com/watch?v=6caCqn_nD6o",
+      "publisher": "BBC via YouTube",
+      "title": "Ian Wright’s teacher gave him direction and purpose during his turbulent upbringing - BBC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/ian-wright-teacher-source-pack.md",
+      "mediaCandidates": [
+        "https://i.ytimg.com/vi/6caCqn_nD6o/maxresdefault.jpg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ian_wright_tpt",
+      "url": "https://www.theplayerstribune.com/articles/ian-wright-earning-my-smile",
+      "publisher": "The Players' Tribune",
+      "title": "Earning My Smile | By Ian Wright",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/arsenal_great_ian_wright_on_playing_aggressively-ad8110a4a1f35d7786dbf50d40d5aa7e.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "lukaku_tpt",
+      "url": "https://www.theplayerstribune.com/articles/romelu-lukaku-ive-got-some-things-to-say",
+      "publisher": "The Players' Tribune",
+      "title": "I've Got Some Things to Say | By Romelu Lukaku",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/lukaku-5419e7a190d4b993cd825b62f2648c79.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "de_bruyne_tpt",
+      "url": "https://www.theplayerstribune.com/articles/kevin-de-bruyne-man-city-let-me-talk",
+      "publisher": "The Players' Tribune",
+      "title": "Let Me Talk | By Kevin De Bruyne",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/kevin-dfa0b5994c3716d6b89d72350de4dafa.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mbappe_tpt",
+      "url": "https://www.theplayerstribune.com/articles/kylian-mbappe-a-letter-to-young-kylians",
+      "publisher": "The Players' Tribune",
+      "title": "A Letter to Young Kylians | By Kylian Mbappé",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/mbappe-a991a29f9df6b45071a8d7a70cc0a34f.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "ronaldinho_tpt",
+      "url": "https://www.theplayerstribune.com/articles/letter-to-my-younger-self-ronaldinho",
+      "publisher": "The Players' Tribune",
+      "title": "Letter to My Younger Self | By Ronaldinho",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagewebpbase64UklGRqDDAwBXRUJQVlA4IJTDAwDQOAy-5845ee795f2aebc3107c65213572d6ac.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "pele_tpt",
+      "url": "https://www.theplayerstribune.com/articles/pele-soccer-letter-to-my-younger-self",
+      "publisher": "The Players' Tribune",
+      "title": "Letter to My Younger Self | By Pelé",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/pele-Social-Card-fa8863cf43c48bf29379e3799adc23ec.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill",
+        "https://images2.minutemediacdn.com/image/upload/c_crop"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "di_maria_tpt",
+      "url": "https://www.theplayerstribune.com/articles/angel-di-maria-argentina-english",
+      "publisher": "The Players' Tribune",
+      "title": "In the Rain, in the Cold, in the Dark | By Ángel Di María",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_crop,w_1778,h_1000,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/Angel-Di-Maria-TITLE-TWITTER-02304989dda0210d39ea766f7c8ae5cd.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_crop",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "nani_tpt",
+      "url": "https://www.theplayerstribune.com/articles/luis-nani-orlando-city-soccer",
+      "publisher": "The Players' Tribune",
+      "title": "Some Stories I’ve Never Told | By Nani",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "primary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagewebpbase64UklGRhrCBgBXRUJQVlA4WAoAAAAgAAA-b185ad7e05ccc2578459436332576f41.jpg",
+        "https://images2.minutemediacdn.com/image/upload/c_fill"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mane_olympics",
+      "url": "https://www.olympics.com/en/news/sadio-mane-why-i-wanted-to-build-a-hospital",
+      "publisher": "Olympics.com",
+      "title": "Sadio Mané: Why I wanted to build a hospital",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/i0ua8andat4osn7tx0ll",
+        "https://www.olympics.com/images/static/b2p-images/logo_color.svg",
+        "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/i0ua8andat4osn7tx0ll",
+        "https://www.olympics.com/en/images/static/b2p-badges/app-store-en.svg",
+        "https://www.olympics.com/en/images/static/b2p-badges/google-play-en.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "davies_bundesliga",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/alphonso-davies-from-refugee-to-bayern-munich-canada-world-cup-1239",
+      "publisher": "Bundesliga",
+      "title": "Alphonso Davies' journey: from a refugee camp to world football star with Bayern Munich and Canada",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://assets.bundesliga.com/video/jw/9kiEqYUF.jpg?fit=1200,630",
+        "https://www.bundesliga.com/assets/logos/wm-2026-alt-positive.svg",
+        "https://www.bundesliga.com/assets/logos/wm-2026-alt-negative.svg",
+        "https://www.bundesliga.com/assets/header-metanavigation/bundesliga-app-logo.svg",
+        "https://www.bundesliga.com/assets/header-metanavigation/fantasy-app-logo.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "lee_fifa",
+      "url": "https://inside.fifa.com/tournaments/mens/u20worldcup/fifa-u-20-world-cup-poland-2019/news/from-reality-tv-to-wonder-kid-lee",
+      "publisher": "FIFA",
+      "title": "From reality TV to wonder kid Lee",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://digitalhub.fifa.com/m/605981858ebaad97/webimage-129802200HC016_FIFA_Executi.png",
+        "https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic",
+        "https://digitalhub.fifa.com/m/24c7bd71bc6c64e7/webimage-shezuy26jdbh1yqke7jh-jpg.png"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "rashford_guardian",
+      "url": "https://www.theguardian.com/sport/2021/jan/04/the-guardian-footballer-of-the-year-marcus-rashford-my-mum-is-everything",
+      "publisher": "The Guardian",
+      "title": "The Guardian Footballer of the Year Marcus Rashford: 'My mum is everything'",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/a1fd5e424295699de3fcbf3e5de6e8727b658152/0_0_2500_1500/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=a9ea3c79b1bfe51a0ef778e7b077b7bf",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/a1fd5e424295699de3fcbf3e5de6e8727b658152/0_0_2500_1500/master/2500.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2018/01/10/David_Hytner",
+        "https://i.guim.co.uk/img/media/1033af6092c7b1ea8dbe5e0551d6f650de8af581/0_0_2000_1333/master/2000.jpg?width=445&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "vardy_guardian",
+      "url": "https://www.theguardian.com/football/2015/jun/06/leicester-jamie-vardy-non-league-england",
+      "publisher": "The Guardian",
+      "title": "Jamie Vardy, the Stocksbridge Park Steels striker who went on to England",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/static/sys-images/Sport/Pix/pictures/2015/6/5/1433462144183/Jamie-Vardy-009.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tYWdlLTIwMTUucG5n&enable=upscale&s=4b18777a5b8ebc670229ed613aaa469f",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/static/sys-images/Sport/Pix/pictures/2015/6/5/1433462144183/Jamie-Vardy-009.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2017/10/06/Jamie-Jackson",
+        "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/5/1433462215062/0ae66d1b-be07-4191-b41e-baa61f01e6e5-2060x1236.jpeg?width=445&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "modric_guardian",
+      "url": "https://www.theguardian.com/football/2020/sep/09/luka-modric-things-that-arent-nice-happen-in-war-but-i-dont-have-hate-croatia-real-madrid-child",
+      "publisher": "The Guardian",
+      "title": "Luka Modric: ‘Things that aren’t nice happen in war but I don’t have hate’ | Sid Lowe",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/8dcfc5ca1ca3243e5be0848a60ffcb8e78bdc6e7/30_457_1130_677/master/1130.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=2824c61e2c88803fd0cc9f115a6e22f3",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/8dcfc5ca1ca3243e5be0848a60ffcb8e78bdc6e7/30_457_1130_677/master/1130.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2018/05/25/Sid_Lowe",
+        "https://i.guim.co.uk/img/media/5e11e4040c05d966bde468fa26ad8b69f6921743/0_937_2035_1677/master/2035.jpg?width=445&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "mahrez_guardian",
+      "url": "https://www.theguardian.com/football/2015/sep/12/leicester-city-riyad-mahrez-father-dream-algeria-world-cup",
+      "publisher": "The Guardian",
+      "title": "Leicester City’s Riyad Mahrez is fast fulfilling his late father’s dreams",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/6926b276c29cd79fd35eee796e0bdc6cfce5410a/260_104_4658_2795/master/4658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tYWdlLTIwMTUucG5n&enable=upscale&s=75b490bf94885f549e1daf9f7a555ec0",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/6926b276c29cd79fd35eee796e0bdc6cfce5410a/260_104_4658_2795/master/4658.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2018/02/21/Paul_Doyle"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "di_canio_guardian",
+      "url": "https://www.theguardian.com/football/2001/nov/29/newsstory.sport4",
+      "publisher": "The Guardian",
+      "title": "Di Canio wins Fifa fair play award",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "hunt_espn",
+      "url": "https://www.espn.com/soccer/story/_/id/37337803/werder-bremen-aaron-hunt-hailed-penalty-honesty-admitting-diving",
+      "publisher": "ESPN",
+      "title": "Aaron Hunt hailed for penalty honesty",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png",
+        "https://a.espncdn.com/combiner/i?img=%2Fredesign%2Fassets%2Fimg%2Ficons%2FESPN%2Dicon%2Dsoccer.png&w=40&h=40&scale=crop&cquality=40&location=origin",
+        "https://a.espncdn.com/combiner/i?img=/i/content-reactions/check.png&h=80&w=80"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "bielsa_guardian",
+      "url": "https://www.theguardian.com/football/2019/apr/28/leeds-aston-villa-championship-match-report",
+      "publisher": "The Guardian",
+      "title": "Leeds let Aston Villa equalise and hand promotion to Sheffield United",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/f89c54b2a153090ed4a9a2f43ceb09e9ac22051c/0_42_2112_1267/master/2112.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTkucG5n&enable=upscale&s=e0d5ec47be174bb4ea93a850c582e2c3",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/f89c54b2a153090ed4a9a2f43ceb09e9ac22051c/0_42_2112_1267/master/2112.jpg?width=465&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "kante_guardian",
+      "url": "https://www.theguardian.com/commentisfree/2018/nov/15/chelsea-ngolo-kante-football-world-cup-corrupt",
+      "publisher": "The Guardian",
+      "title": "Chelsea’s N’Golo Kanté is the hero that football needs | Iman Amrani",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/ce2528bb85403cd401aec36b046ad9f3e171ef45/0_377_3620_2171/master/3620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMtYWdlLTIwMTgucG5n&enable=upscale&s=99d2559643659f33f0c7362bcf41cb73",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=commentisfree",
+        "https://i.guim.co.uk/img/media/ce2528bb85403cd401aec36b046ad9f3e171ef45/0_377_3620_2171/master/3620.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2018/01/16/Iman_Amrani",
+        "https://i.guim.co.uk/img/media/63a98e4201ac18c818b83fc191854ca6c941b81e/298_219_2385_1431/master/2385.jpg?width=445&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_guardian",
+      "url": "https://www.theguardian.com/football/2019/mar/08/son-heung-min-tottenham-spurs-interview-marriage-wait",
+      "publisher": "The Guardian",
+      "title": "Son Heung-min: ‘My father says I shouldn’t marry until I retire and I agree’",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "reputable-secondary",
+      "sourcePack": "docs/real-player-story-scrapling-source-pack.md",
+      "mediaCandidates": [
+        "https://i.guim.co.uk/img/media/fbf86859b648d77504abd80930b0a8f41dd9c88e/0_0_5064_3039/master/5064.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTkucG5n&enable=upscale&s=26a4c525ddf63346e942368a89ac8846",
+        "https://sb.scorecardresearch.com/p?c1=2&c2=6035250&cv=2.0&cj=1&cs_ucfr=0&comscorekw=football",
+        "https://i.guim.co.uk/img/media/fbf86859b648d77504abd80930b0a8f41dd9c88e/0_0_5064_3373/master/5064.jpg?width=465&dpr=1&s=none&crop=none",
+        "https://i.guim.co.uk/img/uploads/2018/01/10/David_Hytner",
+        "https://i.guim.co.uk/img/media/fb54f5f96ecb9c580893b86a576294ffdbbf4944/0_0_2000_1290/master/2000.jpg?width=445&dpr=1&s=none&crop=none"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    }
+  ]
+}
