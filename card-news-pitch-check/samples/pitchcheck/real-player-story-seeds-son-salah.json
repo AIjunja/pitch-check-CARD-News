@@ -1,0 +1,2347 @@
+{
+  "name": "PitchCheck Son and Salah sourced story seeds",
+  "sourceRefs": {
+    "son_source_01": "https://www.tottenhamhotspur.com/news/1000463/sonny-departs-for-lafc",
+    "son_source_02": "https://www.tottenhamhotspur.com/news/988109/sonny-named-club-captain",
+    "son_source_03": "https://www.tottenhamhotspur.com/news/983481",
+    "son_source_04": "https://www.premierleague.com/en/news/4365044/son-heung-min-legacy-at-tottenham-hotspur-records-awards-goals-assists-trophy",
+    "son_source_05": "https://www.premierleague.com/en/news/3141989",
+    "son_source_06": "https://www.premierleague.com/en/news/2634049",
+    "son_source_07": "https://www.tottenhamhotspur.com/news/983012/its-gold-for-sonny",
+    "son_source_08": "https://www.bundesliga.com/en/bundesliga/news/heung-min-son-tottenham-spurs-leverkusen-hamburg-made-in-bundesliga-3293-2268",
+    "son_source_09": "https://www.tottenhamhotspur.com/news/984775/sonny-reclaims-kfa-honour",
+    "son_source_10": "https://www.tottenhamhotspur.com/news/1015940/the-202223-season-in-numbers",
+    "son_source_11": "https://www.uefa.com/news/0253-0e904ea2629d-a8657de76e1c-1000--europe-s-top-asian-performers/",
+    "son_source_12": "https://www.tottenhamhotspur.com/news/984527/spurs-will-always-be-in-my-heart-sons-emotional-farewell-to-fans",
+    "salah_source_01": "https://www.liverpoolfc.com/news/mohamed-salah-scores-landmark-50th-goal-champions-league",
+    "salah_source_02": "https://www.premierleague.com/en/news/4314803/salah-sweeps-202425-player-of-the-season-golden-boot-and-playmaker-awards",
+    "salah_source_03": "https://www.liverpoolfc.com/news/full-mohamed-salahs-message-liverpool-supporters",
+    "salah_source_04": "https://www.liverpoolfc.com/news/thank-you-mo-salah-fond-farewell-egyptian-king",
+    "salah_source_05": "https://www.premierleague.com/en/news/688761/salah-breaks-record-as-liverpool-seal-top-four-spot",
+    "salah_source_06": "https://www.premierleague.com/en/news/1206108/premierleague-golden-boot-award-winners",
+    "salah_source_07": "https://www.uefa.com/uefachampionsleague/news/0274-14f2207191c2-31a2ab4d6dae-1000--2018-19-spurs-vs-ajax-barcelona-vs-liverpool-was-this-the-b/",
+    "salah_source_08": "https://www.liverpoolfc.com/news/mohamed-salah-scores-200th-goal-liverpool-0"
+  },
+  "topics": [
+    {
+      "id": "son-001-tottenham-to-lafc",
+      "eventKey": "son-heung-min|2025|tottenham-to-lafc",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "club-move",
+      "eventDate": "2025-08-06",
+      "hook": "10년의 토트넘을 떠나 손흥민은 LAFC로 향했다.",
+      "fact": "토트넘은 2025년 8월 6일 손흥민의 LAFC 완전 이적을 발표했다.",
+      "context": "구단은 손흥민이 토트넘에서 454경기 173골을 기록했고 2023년 주장으로 선임됐다고 정리했다.",
+      "whyFun": "한 줄짜리 이적 공지가 한 시대의 숫자를 한꺼번에 꺼낸다.",
+      "shareTrigger": "익숙한 유니폼을 벗는 순간, 기록이 작별 인사가 된다.",
+      "evidence": "이적 발표를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_01"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Heung-min LAFC transfer 2025",
+          "Son Tottenham farewell",
+          "LAFC Son presentation",
+          "Son 454 appearances Spurs",
+          "football transfer farewell editorial"
+        ],
+        "cardPlan": [
+          "LAFC로 향한 새 출발",
+          "토트넘에서 454경기 173골",
+          "10년의 기록이 남긴 장면",
+          "2025년 8월 6일 공식 발표",
+          "새 팀에서도 이어질 다음 장",
+          "우리 팀도 변화의 순간을 기록해두면 흐름이 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "LAFC로 향한 새 출발",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: LAFC로 향한 새 출발, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "토트넘에서 454경기 173골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 토트넘에서 454경기 173골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "10년의 기록이 남긴 장면",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 10년의 기록이 남긴 장면, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "2025년 8월 6일 공식 발표",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 2025년 8월 6일 공식 발표, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "새 팀에서도 이어질 다음 장",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 새 팀에서도 이어질 다음 장, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 변화의 순간을 기록해두면 흐름이 보인다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 변화의 순간을 기록해두면 흐름이 보인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "10년의 토트넘을 떠나 손흥민은 LAFC로 향했다.",
+          "토트넘은 2025년 8월 6일 손흥민의 LAFC 완전 이적을 발표했다.",
+          "구단은 손흥민이 토트넘에서 454경기 173골을 기록했고 2023년 주장으로 선임됐다고 정리했다.",
+          "한 줄짜리 이적 공지가 한 시대의 숫자를 한꺼번에 꺼낸다.",
+          "익숙한 유니폼을 벗는 순간, 기록이 작별 인사가 된다.",
+          "우리 팀도 변화의 순간을 기록해두면 흐름이 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-002-club-captain",
+      "eventKey": "son-heung-min|2023|tottenham-club-captain",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "leadership",
+      "eventDate": "2023-08-12",
+      "hook": "손흥민의 다음 역할은 주장 완장이었다.",
+      "fact": "토트넘은 2023년 8월 12일 손흥민을 구단 주장으로 임명했다.",
+      "context": "구단은 그가 한국 대표팀 주장으로도 뛰며, 토트넘 홋스퍼 스타디움의 첫 프리미어리그·챔피언스리그 골을 기록했다고 소개했다.",
+      "whyFun": "골을 넣던 선수가 경기장 안팎의 기준을 세우는 역할로 이동했다.",
+      "shareTrigger": "완장은 기록의 끝이 아니라 책임의 시작처럼 보인다.",
+      "evidence": "주장 선임를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_02"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Heung-min captain Tottenham 2023",
+          "Son captain armband Spurs",
+          "Tottenham leadership football",
+          "Son South Korea captain",
+          "football captain portrait"
+        ],
+        "cardPlan": [
+          "완장을 찬 손흥민",
+          "2023년 구단 주장 선임",
+          "대표팀 주장과 클럽 주장",
+          "두 경기장의 첫 골 기록",
+          "역할이 바뀐 순간",
+          "우리 팀도 주장을 정할 때 역할과 책임을 먼저 맞춰두면 된다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "완장을 찬 손흥민",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 완장을 찬 손흥민, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "2023년 구단 주장 선임",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 2023년 구단 주장 선임, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "대표팀 주장과 클럽 주장",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 대표팀 주장과 클럽 주장, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "두 경기장의 첫 골 기록",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 두 경기장의 첫 골 기록, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "역할이 바뀐 순간",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 역할이 바뀐 순간, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 주장을 정할 때 역할과 책임을 먼저 맞춰두면 된다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 주장을 정할 때 역할과 책임을 먼저 맞춰두면 된다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "손흥민의 다음 역할은 주장 완장이었다.",
+          "토트넘은 2023년 8월 12일 손흥민을 구단 주장으로 임명했다.",
+          "구단은 그가 한국 대표팀 주장으로도 뛰며, 토트넘 홋스퍼 스타디움의 첫 프리미어리그·챔피언스리그 골을 기록했다고 소개했다.",
+          "골을 넣던 선수가 경기장 안팎의 기준을 세우는 역할로 이동했다.",
+          "완장은 기록의 끝이 아니라 책임의 시작처럼 보인다.",
+          "우리 팀도 주장을 정할 때 역할과 책임을 먼저 맞춰두면 된다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-003-contract-until-2026",
+      "eventKey": "son-heung-min|2025|tottenham-contract-extension",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "club-milestone",
+      "eventDate": "2025-01-07",
+      "hook": "떠나기 전, 토트넘은 손흥민의 계약을 한 번 더 붙잡았다.",
+      "fact": "토트넘은 2025년 1월 손흥민의 계약을 2026년 여름까지 연장하는 옵션을 행사했다.",
+      "context": "당시 구단은 손흥민이 토트넘에서 431경기 169골을 기록했고, 2019년 새 경기장의 첫 골들을 만들었다고 설명했다.",
+      "whyFun": "계약 한 줄 안에 한 선수의 경기장 이정표가 압축돼 있다.",
+      "shareTrigger": "연장 발표는 숫자로 남은 시간을 보여주는 작은 타임캡슐이다.",
+      "evidence": "계약 연장를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_03"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Tottenham contract extended 2025",
+          "Son first Tottenham Stadium goal",
+          "Son football contract announcement",
+          "Tottenham Stadium football history",
+          "Son Spurs archive"
+        ],
+        "cardPlan": [
+          "2026년 여름까지 이어진 약속",
+          "431경기 169골의 시간",
+          "새 경기장의 첫 골",
+          "계약 발표가 꺼낸 이정표",
+          "남은 시간을 세는 방법",
+          "우리 팀도 시즌 약속을 날짜와 역할로 남겨두면 실행이 쉬워진다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "2026년 여름까지 이어진 약속",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 2026년 여름까지 이어진 약속, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "431경기 169골의 시간",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 431경기 169골의 시간, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "새 경기장의 첫 골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 새 경기장의 첫 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "계약 발표가 꺼낸 이정표",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 계약 발표가 꺼낸 이정표, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "남은 시간을 세는 방법",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 남은 시간을 세는 방법, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 시즌 약속을 날짜와 역할로 남겨두면 실행이 쉬워진다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 시즌 약속을 날짜와 역할로 남겨두면 실행이 쉬워진다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "떠나기 전, 토트넘은 손흥민의 계약을 한 번 더 붙잡았다.",
+          "토트넘은 2025년 1월 손흥민의 계약을 2026년 여름까지 연장하는 옵션을 행사했다.",
+          "당시 구단은 손흥민이 토트넘에서 431경기 169골을 기록했고, 2019년 새 경기장의 첫 골들을 만들었다고 설명했다.",
+          "계약 한 줄 안에 한 선수의 경기장 이정표가 압축돼 있다.",
+          "연장 발표는 숫자로 남은 시간을 보여주는 작은 타임캡슐이다.",
+          "우리 팀도 시즌 약속을 날짜와 역할로 남겨두면 실행이 쉬워진다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-004-premier-league-127-goals-71-assists",
+      "eventKey": "son-heung-min|2025|premier-league-legacy",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "records",
+      "eventDate": "2025-06-01",
+      "hook": "손흥민의 프리미어리그 작별 인사는 골과 도움의 표였다.",
+      "fact": "프리미어리그는 손흥민이 토트넘에서 127골과 71도움을 기록했다고 정리했다.",
+      "context": "그 기록으로 손흥민은 리그 역대 득점과 도움 모두 상위 20위에 들었고, 198개 공격포인트를 남겼다.",
+      "whyFun": "골만 세면 보이지 않던 창조자의 숫자가 함께 드러난다.",
+      "shareTrigger": "잘 넣는 선수와 잘 만드는 선수가 한 사람 안에 겹친다.",
+      "evidence": "PL 기록를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_04"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Premier League 127 goals 71 assists",
+          "Son Spurs legacy statistics",
+          "Premier League football records",
+          "Son goal assist editorial",
+          "Tottenham legacy timeline"
+        ],
+        "cardPlan": [
+          "127골과 71도움",
+          "198개 공격포인트",
+          "득점과 도움 모두 상위 20위",
+          "한 시대를 정리한 숫자",
+          "골과 도움을 함께 보는 기록",
+          "우리 팀도 득점뿐 아니라 만든 기회까지 기록하면 기여가 선명해진다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "127골과 71도움",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 127골과 71도움, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "198개 공격포인트",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 198개 공격포인트, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "득점과 도움 모두 상위 20위",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 득점과 도움 모두 상위 20위, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "한 시대를 정리한 숫자",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 한 시대를 정리한 숫자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "골과 도움을 함께 보는 기록",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 골과 도움을 함께 보는 기록, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 득점뿐 아니라 만든 기회까지 기록하면 기여가 선명해진다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 득점뿐 아니라 만든 기회까지 기록하면 기여가 선명해진다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "손흥민의 프리미어리그 작별 인사는 골과 도움의 표였다.",
+          "프리미어리그는 손흥민이 토트넘에서 127골과 71도움을 기록했다고 정리했다.",
+          "그 기록으로 손흥민은 리그 역대 득점과 도움 모두 상위 20위에 들었고, 198개 공격포인트를 남겼다.",
+          "골만 세면 보이지 않던 창조자의 숫자가 함께 드러난다.",
+          "잘 넣는 선수와 잘 만드는 선수가 한 사람 안에 겹친다.",
+          "우리 팀도 득점뿐 아니라 만든 기회까지 기록하면 기여가 선명해진다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-005-first-asian-premier-league-century",
+      "eventKey": "son-heung-min|2023|first-asian-premier-league-100-goals",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "asia-record",
+      "eventDate": "2023-04-08",
+      "hook": "아시아 선수 최초의 프리미어리그 100골은 브라이턴전 선제골이었다.",
+      "fact": "손흥민은 2023년 4월 8일 브라이턴전에서 프리미어리그 100호 골을 넣었다.",
+      "context": "프리미어리그는 그가 대회 100골 클럽에 들어간 첫 아시아 선수라고 밝혔다.",
+      "whyFun": "거대한 기록도 결국 한 번의 선제골에서 열린다.",
+      "shareTrigger": "100이라는 둥근 숫자보다, 그 문을 처음 연 국적이 더 오래 남는다.",
+      "evidence": "아시아 최초를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_05"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son 100 Premier League goals Brighton",
+          "first Asian Premier League 100 club",
+          "Son goal Brighton 2023",
+          "Premier League milestone football",
+          "Son Asian football record"
+        ],
+        "cardPlan": [
+          "아시아 최초 PL 100골",
+          "브라이턴전 선제골",
+          "100호 골이 열린 순간",
+          "한 번의 슈팅이 만든 문",
+          "기록의 이름을 바꾼 장면",
+          "우리 팀도 작은 누적 기록을 주간 단위로 확인하면 다음 목표가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "아시아 최초 PL 100골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 아시아 최초 PL 100골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "브라이턴전 선제골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 브라이턴전 선제골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "100호 골이 열린 순간",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 100호 골이 열린 순간, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "한 번의 슈팅이 만든 문",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 한 번의 슈팅이 만든 문, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "기록의 이름을 바꾼 장면",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 기록의 이름을 바꾼 장면, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 작은 누적 기록을 주간 단위로 확인하면 다음 목표가 보인다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 작은 누적 기록을 주간 단위로 확인하면 다음 목표가 보인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "아시아 선수 최초의 프리미어리그 100골은 브라이턴전 선제골이었다.",
+          "손흥민은 2023년 4월 8일 브라이턴전에서 프리미어리그 100호 골을 넣었다.",
+          "프리미어리그는 그가 대회 100골 클럽에 들어간 첫 아시아 선수라고 밝혔다.",
+          "거대한 기록도 결국 한 번의 선제골에서 열린다.",
+          "100이라는 둥근 숫자보다, 그 문을 처음 연 국적이 더 오래 남는다.",
+          "우리 팀도 작은 누적 기록을 주간 단위로 확인하면 다음 목표가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-006-shared-golden-boot-23",
+      "eventKey": "son-heung-min|2022|shared-premier-league-golden-boot",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "award",
+      "eventDate": "2022-05-22",
+      "hook": "손흥민은 페널티킥 없이도 골든부트의 꼭대기에 섰다.",
+      "fact": "2021/22 프리미어리그에서 손흥민은 23골로 모하메드 살라와 골든부트를 공동 수상했다.",
+      "context": "프리미어리그 시즌 리뷰는 손흥민이 노리치전에서 두 골을 넣었고 두 선수 모두 23골로 마쳤다고 기록한다.",
+      "whyFun": "한 시즌의 마지막 장면이 두 명의 이름을 같은 줄에 올렸다.",
+      "shareTrigger": "공동 수상은 경쟁이면서 동시에 서로의 기준을 증명하는 장면이다.",
+      "evidence": "골든부트를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_06"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son 2021-22 Golden Boot 23 goals",
+          "Son Norwich two goals",
+          "Premier League Golden Boot football",
+          "Son Salah shared award",
+          "football award ceremony editorial"
+        ],
+        "cardPlan": [
+          "23골로 공동 골든부트",
+          "노리치전 두 골",
+          "손흥민과 살라의 같은 숫자",
+          "2021/22 시즌 리뷰",
+          "페널티킥 없이 만든 득점",
+          "우리 팀도 결과만 비교하기보다 각자의 역할이 만든 숫자를 함께 보자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "23골로 공동 골든부트",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 23골로 공동 골든부트, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "노리치전 두 골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 노리치전 두 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "손흥민과 살라의 같은 숫자",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 손흥민과 살라의 같은 숫자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "2021/22 시즌 리뷰",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 2021/22 시즌 리뷰, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "페널티킥 없이 만든 득점",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 페널티킥 없이 만든 득점, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 결과만 비교하기보다 각자의 역할이 만든 숫자를 함께 보자",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 결과만 비교하기보다 각자의 역할이 만든 숫자를 함께 보자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "손흥민은 페널티킥 없이도 골든부트의 꼭대기에 섰다.",
+          "2021/22 프리미어리그에서 손흥민은 23골로 모하메드 살라와 골든부트를 공동 수상했다.",
+          "프리미어리그 시즌 리뷰는 손흥민이 노리치전에서 두 골을 넣었고 두 선수 모두 23골로 마쳤다고 기록한다.",
+          "한 시즌의 마지막 장면이 두 명의 이름을 같은 줄에 올렸다.",
+          "공동 수상은 경쟁이면서 동시에 서로의 기준을 증명하는 장면이다.",
+          "우리 팀도 결과만 비교하기보다 각자의 역할이 만든 숫자를 함께 보자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-007-asian-games-gold",
+      "eventKey": "son-heung-min|2018|asian-games-gold",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "korea-asia",
+      "eventDate": "2018-09-01",
+      "hook": "한국의 금메달 경기에서 손흥민은 주장 완장과 두 번의 도움을 남겼다.",
+      "fact": "손흥민은 2018년 아시안게임 결승에서 한국의 일본전 2-1 연장 승리를 이끌었다.",
+      "context": "토트넘은 손흥민이 한국을 주장했고, 연장전 두 골에 모두 도움을 기록했다고 전했다.",
+      "whyFun": "우승 장면의 주인공이 직접 넣은 골이 아니라 연결한 패스였다.",
+      "shareTrigger": "가장 큰 경기에서 도움도 역사의 중심이 될 수 있다.",
+      "evidence": "아시안게임 금메달를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_07"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Asian Games 2018 gold medal",
+          "South Korea Japan Asian Games final",
+          "Son captain Asian Games",
+          "football extra time assist",
+          "Korea football gold medal editorial"
+        ],
+        "cardPlan": [
+          "아시안게임 금메달",
+          "일본전 2-1 연장 승리",
+          "주장 손흥민의 두 도움",
+          "골보다 먼저 보이는 연결",
+          "한국 축구의 큰 밤",
+          "우리 팀도 결과를 만든 패스와 지원을 기록하면 보이지 않던 기여가 남는다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "아시안게임 금메달",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 아시안게임 금메달, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "일본전 2-1 연장 승리",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 일본전 2-1 연장 승리, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "주장 손흥민의 두 도움",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 주장 손흥민의 두 도움, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "골보다 먼저 보이는 연결",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 골보다 먼저 보이는 연결, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "한국 축구의 큰 밤",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 한국 축구의 큰 밤, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 결과를 만든 패스와 지원을 기록하면 보이지 않던 기여가 남는다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 결과를 만든 패스와 지원을 기록하면 보이지 않던 기여가 남는다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "한국의 금메달 경기에서 손흥민은 주장 완장과 두 번의 도움을 남겼다.",
+          "손흥민은 2018년 아시안게임 결승에서 한국의 일본전 2-1 연장 승리를 이끌었다.",
+          "토트넘은 손흥민이 한국을 주장했고, 연장전 두 골에 모두 도움을 기록했다고 전했다.",
+          "우승 장면의 주인공이 직접 넣은 골이 아니라 연결한 패스였다.",
+          "가장 큰 경기에서 도움도 역사의 중심이 될 수 있다.",
+          "우리 팀도 결과를 만든 패스와 지원을 기록하면 보이지 않던 기여가 남는다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-008-bundesliga-made-in-germany",
+      "eventKey": "son-heung-min|2010|bundesliga-rise",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "early-career",
+      "eventDate": null,
+      "hook": "손흥민의 유럽 이야기는 함부르크에서 시작됐다.",
+      "fact": "손흥민은 16세였던 2008년 부모의 조언으로 함부르크에 도착했고, 2010년 10월 첫 분데스리가 골을 넣었다.",
+      "context": "분데스리가는 그가 함부르크와 레버쿠젠에서 135경기 41골을 기록했다고 소개한다.",
+      "whyFun": "세계적인 장면의 앞부분에는 낯선 도시로 향한 16세의 선택이 있었다.",
+      "shareTrigger": "완성된 선수보다 성장 중인 선수를 떠올리게 하는 기록이다.",
+      "evidence": "분데스리가 성장기를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_08"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Heung-min Hamburg 2008",
+          "Son first Bundesliga goal 2010",
+          "Son Leverkusen Bundesliga",
+          "young Korean footballer Germany",
+          "Bundesliga archive football"
+        ],
+        "cardPlan": [
+          "16세에 함부르크로",
+          "2010년 첫 분데스리가 골",
+          "135경기 41골",
+          "독일에서 시작된 유럽 여정",
+          "큰 선수가 되기 전의 선택",
+          "우리 팀도 첫 합류 시기의 작은 변화를 기록하면 성장 속도를 읽을 수 있다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "16세에 함부르크로",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 16세에 함부르크로, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "2010년 첫 분데스리가 골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 2010년 첫 분데스리가 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "135경기 41골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 135경기 41골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "독일에서 시작된 유럽 여정",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 독일에서 시작된 유럽 여정, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "큰 선수가 되기 전의 선택",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 큰 선수가 되기 전의 선택, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 첫 합류 시기의 작은 변화를 기록하면 성장 속도를 읽을 수 있다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 첫 합류 시기의 작은 변화를 기록하면 성장 속도를 읽을 수 있다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "손흥민의 유럽 이야기는 함부르크에서 시작됐다.",
+          "손흥민은 16세였던 2008년 부모의 조언으로 함부르크에 도착했고, 2010년 10월 첫 분데스리가 골을 넣었다.",
+          "분데스리가는 그가 함부르크와 레버쿠젠에서 135경기 41골을 기록했다고 소개한다.",
+          "세계적인 장면의 앞부분에는 낯선 도시로 향한 16세의 선택이 있었다.",
+          "완성된 선수보다 성장 중인 선수를 떠올리게 하는 기록이다.",
+          "우리 팀도 첫 합류 시기의 작은 변화를 기록하면 성장 속도를 읽을 수 있다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-009-eighth-kfa-award",
+      "eventKey": "son-heung-min|2025|eighth-korean-footballer-of-year",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "award",
+      "eventDate": "2025-03-31",
+      "hook": "한국 최고의 남자 선수 투표에서 손흥민은 다시 정상으로 돌아왔다.",
+      "fact": "손흥민은 2025년 한국축구협회 선정 올해의 남자 선수상을 통산 8번째로 받았다.",
+      "context": "토트넘은 그가 당시 클럽 448경기에서 173골을 기록했고, 2023년 주장 선임 뒤 50골에 관여했다고 전했다.",
+      "whyFun": "상 하나가 개인 기록과 주장 시기의 숫자를 함께 불러낸다.",
+      "shareTrigger": "정상에 다시 오르는 이야기는 꾸준함이 얼마나 오래 작동하는지 보여준다.",
+      "evidence": "KFA 올해의 선수를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_09"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Korean Footballer of the Year 2025",
+          "Son KFA award eighth time",
+          "Son Tottenham captain statistics",
+          "Korean football award editorial",
+          "Son 2024 goals"
+        ],
+        "cardPlan": [
+          "통산 8번째 KFA 올해의 선수",
+          "다시 돌아온 정상",
+          "주장 시기 50골 관여",
+          "448경기 173골",
+          "꾸준함이 만든 재수상",
+          "우리 팀도 시즌의 공로를 숫자와 함께 되돌아보면 다음 리더가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "통산 8번째 KFA 올해의 선수",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 통산 8번째 KFA 올해의 선수, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "다시 돌아온 정상",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 다시 돌아온 정상, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "주장 시기 50골 관여",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 주장 시기 50골 관여, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "448경기 173골",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 448경기 173골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "꾸준함이 만든 재수상",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 꾸준함이 만든 재수상, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 시즌의 공로를 숫자와 함께 되돌아보면 다음 리더가 보인다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 시즌의 공로를 숫자와 함께 되돌아보면 다음 리더가 보인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "한국 최고의 남자 선수 투표에서 손흥민은 다시 정상으로 돌아왔다.",
+          "손흥민은 2025년 한국축구협회 선정 올해의 남자 선수상을 통산 8번째로 받았다.",
+          "토트넘은 그가 당시 클럽 448경기에서 173골을 기록했고, 2023년 주장 선임 뒤 50골에 관여했다고 전했다.",
+          "상 하나가 개인 기록과 주장 시기의 숫자를 함께 불러낸다.",
+          "정상에 다시 오르는 이야기는 꾸준함이 얼마나 오래 작동하는지 보여준다.",
+          "우리 팀도 시즌의 공로를 숫자와 함께 되돌아보면 다음 리더가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-010-150-premier-league-goal-contributions",
+      "eventKey": "son-heung-min|2023|150-premier-league-goal-contributions",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "milestone",
+      "eventDate": "2023-04-01",
+      "hook": "100골을 넘은 뒤에도 손흥민의 다음 숫자는 멈추지 않았다.",
+      "fact": "토트넘은 손흥민이 2022/23 시즌 브라이턴전에서 프리미어리그 150개 골 관여를 달성했다고 기록했다.",
+      "context": "그 이정표는 프리미어리그 100골과 50도움의 합으로 정리됐다.",
+      "whyFun": "골만으로는 설명되지 않는 공격수의 다음 레벨이 숫자로 보인다.",
+      "shareTrigger": "누적 기여는 한 번의 하이라이트보다 긴 시즌을 말해준다.",
+      "evidence": "150개 공격포인트를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_10"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son 150 Premier League goal contributions",
+          "Son 100 goals 50 assists Spurs",
+          "Tottenham season numbers Son",
+          "football goal contribution graphic",
+          "Son Premier League milestone"
+        ],
+        "cardPlan": [
+          "150개 골 관여",
+          "100골과 50도움",
+          "브라이턴전에서 열린 이정표",
+          "누적 기여의 힘",
+          "하이라이트 밖의 시즌",
+          "우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "150개 골 관여",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 150개 골 관여, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "100골과 50도움",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 100골과 50도움, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "브라이턴전에서 열린 이정표",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 브라이턴전에서 열린 이정표, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "누적 기여의 힘",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 누적 기여의 힘, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "하이라이트 밖의 시즌",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 하이라이트 밖의 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "100골을 넘은 뒤에도 손흥민의 다음 숫자는 멈추지 않았다.",
+          "토트넘은 손흥민이 2022/23 시즌 브라이턴전에서 프리미어리그 150개 골 관여를 달성했다고 기록했다.",
+          "그 이정표는 프리미어리그 100골과 50도움의 합으로 정리됐다.",
+          "골만으로는 설명되지 않는 공격수의 다음 레벨이 숫자로 보인다.",
+          "누적 기여는 한 번의 하이라이트보다 긴 시즌을 말해준다.",
+          "우리 팀도 골과 도움을 함께 세면 반복되는 기여를 놓치지 않는다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-011-asian-champions-league-scoring-leader",
+      "eventKey": "son-heung-min|2025|asian-champions-league-goals",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "korea-asia",
+      "eventDate": null,
+      "hook": "아시아 선수들의 유럽 챔피언스리그 기록표에서 손흥민의 이름은 가장 위에 있었다.",
+      "fact": "UEFA는 손흥민을 아시아 국적 선수 중 챔피언스리그 최다 득점자로 소개하며 19골을 기록했다고 정리했다.",
+      "context": "UEFA의 비교표에는 손흥민 뒤로 메흐디 타레미와 막심 샤츠키흐 등이 이어진다.",
+      "whyFun": "유럽 무대의 기록표가 아시아 선수의 계보를 한 화면에 보여준다.",
+      "shareTrigger": "한 명의 기록은 다음 세대가 도전할 기준선이 된다.",
+      "evidence": "UEFA 아시아 기록를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_11"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son UEFA Champions League Asian top scorer",
+          "Son 19 Champions League goals",
+          "Asian footballers Champions League",
+          "UEFA football records",
+          "Son European football legacy"
+        ],
+        "cardPlan": [
+          "아시아 최다 챔피언스리그 득점",
+          "19골로 세운 기준선",
+          "UEFA 기록표 속 손흥민",
+          "다음 세대가 볼 숫자",
+          "유럽에서 커진 아시아의 이름",
+          "우리 팀도 개인 기록을 팀의 다음 기준선으로 번역하면 동기부여가 된다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "아시아 최다 챔피언스리그 득점",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 아시아 최다 챔피언스리그 득점, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "19골로 세운 기준선",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 19골로 세운 기준선, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "UEFA 기록표 속 손흥민",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: UEFA 기록표 속 손흥민, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "다음 세대가 볼 숫자",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 다음 세대가 볼 숫자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "유럽에서 커진 아시아의 이름",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 유럽에서 커진 아시아의 이름, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 개인 기록을 팀의 다음 기준선으로 번역하면 동기부여가 된다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 개인 기록을 팀의 다음 기준선으로 번역하면 동기부여가 된다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "아시아 선수들의 유럽 챔피언스리그 기록표에서 손흥민의 이름은 가장 위에 있었다.",
+          "UEFA는 손흥민을 아시아 국적 선수 중 챔피언스리그 최다 득점자로 소개하며 19골을 기록했다고 정리했다.",
+          "UEFA의 비교표에는 손흥민 뒤로 메흐디 타레미와 막심 샤츠키흐 등이 이어진다.",
+          "유럽 무대의 기록표가 아시아 선수의 계보를 한 화면에 보여준다.",
+          "한 명의 기록은 다음 세대가 도전할 기준선이 된다.",
+          "우리 팀도 개인 기록을 팀의 다음 기준선으로 번역하면 동기부여가 된다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "son-012-europa-league-captain-farewell",
+      "eventKey": "son-heung-min|2025|europa-league-captain-farewell",
+      "player": "Son Heung-min",
+      "portfolio": "korea_asia",
+      "category": "club-trophy",
+      "eventDate": "2025-08-06",
+      "hook": "손흥민의 토트넘 마지막 장면은 주장으로 들어 올린 유럽 트로피였다.",
+      "fact": "토트넘은 손흥민이 2025년 UEFA 유로파리그 결승에서 팀을 주장해 빌바오 우승을 이끌었다고 전했다.",
+      "context": "구단은 그 우승이 17년 만의 은메달을 끝낸 순간이었고, 손흥민의 토트넘 10년을 마무리하는 장면이었다고 설명했다.",
+      "whyFun": "작별 인사가 가장 큰 트로피를 들어 올린 순간과 겹쳤다.",
+      "shareTrigger": "떠나는 날의 박수는 결과와 관계의 시간이 함께 쌓였다는 증거다.",
+      "evidence": "유로파리그 우승과 작별를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "son_source_12"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Son Europa League final captain 2025",
+          "Son Tottenham Bilbao trophy",
+          "Son farewell Spurs fans",
+          "football captain trophy lift",
+          "Tottenham Europa League 2025 editorial"
+        ],
+        "cardPlan": [
+          "주장으로 들어 올린 유로파리그",
+          "빌바오에서의 마지막 트로피",
+          "17년 만의 우승",
+          "토트넘 10년의 마지막 장면",
+          "작별과 정상의 겹침",
+          "우리 팀도 시즌 마지막에 결과뿐 아니라 함께 만든 시간을 남겨두면 좋다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "주장으로 들어 올린 유로파리그",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 주장으로 들어 올린 유로파리그, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "빌바오에서의 마지막 트로피",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 빌바오에서의 마지막 트로피, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "17년 만의 우승",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 17년 만의 우승, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "토트넘 10년의 마지막 장면",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 토트넘 10년의 마지막 장면, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "작별과 정상의 겹침",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 작별과 정상의 겹침, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 시즌 마지막에 결과뿐 아니라 함께 만든 시간을 남겨두면 좋다",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 우리 팀도 시즌 마지막에 결과뿐 아니라 함께 만든 시간을 남겨두면 좋다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Son Heung-min: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "손흥민의 토트넘 마지막 장면은 주장으로 들어 올린 유럽 트로피였다.",
+          "토트넘은 손흥민이 2025년 UEFA 유로파리그 결승에서 팀을 주장해 빌바오 우승을 이끌었다고 전했다.",
+          "구단은 그 우승이 17년 만의 은메달을 끝낸 순간이었고, 손흥민의 토트넘 10년을 마무리하는 장면이었다고 설명했다.",
+          "작별 인사가 가장 큰 트로피를 들어 올린 순간과 겹쳤다.",
+          "떠나는 날의 박수는 결과와 관계의 시간이 함께 쌓였다는 증거다.",
+          "우리 팀도 시즌 마지막에 결과뿐 아니라 함께 만든 시간을 남겨두면 좋다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-001-first-african-50-ucl-goals",
+      "eventKey": "mohamed-salah|2026|first-african-50-champions-league-goals",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "european-record",
+      "eventDate": "2026-03-19",
+      "hook": "살라는 챔피언스리그 50골을 찍은 첫 아프리카 선수다.",
+      "fact": "리버풀은 2026년 3월 살라가 갈라타사라이전에서 챔피언스리그 본선 50골을 달성했다고 발표했다.",
+      "context": "리버풀은 그가 이 기록을 세운 첫 아프리카 선수이자 대회 역사상 12명뿐인 50골 클럽의 한 명이라고 전했다.",
+      "whyFun": "한 번의 감아차기가 대륙 전체의 기록표를 바꿨다.",
+      "shareTrigger": "50이라는 숫자가 개인 기록을 넘어 아프리카 축구의 기준선이 된다.",
+      "evidence": "챔피언스리그 50골를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_01"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 50 Champions League goals 2026",
+          "first African player 50 UCL goals",
+          "Salah Galatasaray Liverpool",
+          "Champions League goal celebration",
+          "African football record editorial"
+        ],
+        "cardPlan": [
+          "아프리카 최초 UCL 50골",
+          "갈라타사라이전 감아차기",
+          "12명뿐인 50골 클럽",
+          "대륙의 기준을 바꾼 숫자",
+          "리버풀에서 쌓은 유럽 기록",
+          "우리 팀도 개인 기록을 팀의 다음 기준선으로 바꿔 말하면 동료가 함께 움직인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "아프리카 최초 UCL 50골",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 아프리카 최초 UCL 50골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "갈라타사라이전 감아차기",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 갈라타사라이전 감아차기, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "12명뿐인 50골 클럽",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 12명뿐인 50골 클럽, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "대륙의 기준을 바꾼 숫자",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 대륙의 기준을 바꾼 숫자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "리버풀에서 쌓은 유럽 기록",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 리버풀에서 쌓은 유럽 기록, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 개인 기록을 팀의 다음 기준선으로 바꿔 말하면 동료가 함께 움직인다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 개인 기록을 팀의 다음 기준선으로 바꿔 말하면 동료가 함께 움직인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라는 챔피언스리그 50골을 찍은 첫 아프리카 선수다.",
+          "리버풀은 2026년 3월 살라가 갈라타사라이전에서 챔피언스리그 본선 50골을 달성했다고 발표했다.",
+          "리버풀은 그가 이 기록을 세운 첫 아프리카 선수이자 대회 역사상 12명뿐인 50골 클럽의 한 명이라고 전했다.",
+          "한 번의 감아차기가 대륙 전체의 기록표를 바꿨다.",
+          "50이라는 숫자가 개인 기록을 넘어 아프리카 축구의 기준선이 된다.",
+          "우리 팀도 개인 기록을 팀의 다음 기준선으로 바꿔 말하면 동료가 함께 움직인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-002-fourth-golden-boot",
+      "eventKey": "mohamed-salah|2025|fourth-premier-league-golden-boot",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "award",
+      "eventDate": "2025-05-25",
+      "hook": "살라는 골든부트와 도움왕, 올해의 선수상을 한 시즌에 묶었다.",
+      "fact": "살라는 2024/25 프리미어리그에서 29골로 골든부트를 받고 플레이메이커상도 차지했다.",
+      "context": "프리미어리그는 그가 득점·도움·올해의 선수상을 한 시즌에 모두 받은 최초의 선수이며, 골든부트 4회로 앙리와 어깨를 나란히 했다고 밝혔다.",
+      "whyFun": "득점왕 한 줄이 아니라 세 개의 상이 같은 시즌에 쌓였다.",
+      "shareTrigger": "골을 넣는 일과 만드는 일이 동시에 최고였다는 이야기다.",
+      "evidence": "2024/25 개인상를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_02"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 2024-25 Golden Boot 29 goals",
+          "Salah Playmaker award 2025",
+          "Salah fourth Premier League Golden Boot",
+          "Premier League awards Salah",
+          "Liverpool 2025 title celebration"
+        ],
+        "cardPlan": [
+          "29골로 네 번째 골든부트",
+          "플레이메이커상까지",
+          "한 시즌 세 개의 개인상",
+          "앙리와 나란히 선 기록",
+          "넣고 만든 시즌",
+          "우리 팀도 득점과 도움을 따로 보지 말고 한 시즌의 전체 기여로 돌아보자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "29골로 네 번째 골든부트",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 29골로 네 번째 골든부트, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "플레이메이커상까지",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 플레이메이커상까지, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "한 시즌 세 개의 개인상",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 한 시즌 세 개의 개인상, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "앙리와 나란히 선 기록",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 앙리와 나란히 선 기록, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "넣고 만든 시즌",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 넣고 만든 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 득점과 도움을 따로 보지 말고 한 시즌의 전체 기여로 돌아보자",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 득점과 도움을 따로 보지 말고 한 시즌의 전체 기여로 돌아보자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라는 골든부트와 도움왕, 올해의 선수상을 한 시즌에 묶었다.",
+          "살라는 2024/25 프리미어리그에서 29골로 골든부트를 받고 플레이메이커상도 차지했다.",
+          "프리미어리그는 그가 득점·도움·올해의 선수상을 한 시즌에 모두 받은 최초의 선수이며, 골든부트 4회로 앙리와 어깨를 나란히 했다고 밝혔다.",
+          "득점왕 한 줄이 아니라 세 개의 상이 같은 시즌에 쌓였다.",
+          "골을 넣는 일과 만드는 일이 동시에 최고였다는 이야기다.",
+          "우리 팀도 득점과 도움을 따로 보지 말고 한 시즌의 전체 기여로 돌아보자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-003-announces-liverpool-departure",
+      "eventKey": "mohamed-salah|2026|liverpool-departure-announcement",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "farewell",
+      "eventDate": "2026-03-24",
+      "hook": "살라는 리버풀 팬들에게 먼저 작별의 첫 문장을 보냈다.",
+      "fact": "살라는 2026년 3월 24일 2025/26 시즌을 끝으로 리버풀을 떠나겠다고 발표했다.",
+      "context": "리버풀은 그가 레즈로서 아홉 번째 시즌을 보내며 클럽 역사에 남을 유산을 만들었다고 전했다.",
+      "whyFun": "이별은 경기 결과가 아니라 한 문장의 고백으로 먼저 시작됐다.",
+      "shareTrigger": "오래 함께한 장소를 떠날 때 남는 것은 숫자와 사람에게 건넨 말이다.",
+      "evidence": "리버풀 이별 발표를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_03"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah Liverpool leaving 2026",
+          "Salah farewell message Liverpool supporters",
+          "Salah Anfield farewell editorial",
+          "Liverpool number 11 farewell",
+          "football player goodbye message"
+        ],
+        "cardPlan": [
+          "2025/26 시즌 뒤 리버풀을 떠난다",
+          "팬들에게 보낸 첫 작별",
+          "레즈로서 아홉 번째 시즌",
+          "숫자보다 먼저 나온 한 문장",
+          "클럽과 선수의 마지막 페이지",
+          "우리 팀도 시즌이 끝날 때 서로에게 남길 말을 미리 정리해두면 좋다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "2025/26 시즌 뒤 리버풀을 떠난다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 2025/26 시즌 뒤 리버풀을 떠난다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "팬들에게 보낸 첫 작별",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 팬들에게 보낸 첫 작별, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "레즈로서 아홉 번째 시즌",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 레즈로서 아홉 번째 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "숫자보다 먼저 나온 한 문장",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 숫자보다 먼저 나온 한 문장, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "클럽과 선수의 마지막 페이지",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 클럽과 선수의 마지막 페이지, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 시즌이 끝날 때 서로에게 남길 말을 미리 정리해두면 좋다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 시즌이 끝날 때 서로에게 남길 말을 미리 정리해두면 좋다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라는 리버풀 팬들에게 먼저 작별의 첫 문장을 보냈다.",
+          "살라는 2026년 3월 24일 2025/26 시즌을 끝으로 리버풀을 떠나겠다고 발표했다.",
+          "리버풀은 그가 레즈로서 아홉 번째 시즌을 보내며 클럽 역사에 남을 유산을 만들었다고 전했다.",
+          "이별은 경기 결과가 아니라 한 문장의 고백으로 먼저 시작됐다.",
+          "오래 함께한 장소를 떠날 때 남는 것은 숫자와 사람에게 건넨 말이다.",
+          "우리 팀도 시즌이 끝날 때 서로에게 남길 말을 미리 정리해두면 좋다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-004-fifty-seven-goal-involvements",
+      "eventKey": "mohamed-salah|2025|57-goal-involvements",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "season-peak",
+      "eventDate": "2025-05-25",
+      "hook": "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
+      "fact": "리버풀은 살라가 2024/25 시즌 52경기에서 34골과 23도움을 기록했다고 정리했다.",
+      "context": "리버풀은 그가 팬들 앞에서 두 번째 프리미어리그 우승을 들어 올리는 데 기여했다고 전했다.",
+      "whyFun": "골과 도움을 더한 숫자가 한 시즌의 밀도를 보여준다.",
+      "shareTrigger": "57개 관여는 혼자 빛난 기록이 아니라 우승으로 이어진 생산성이다.",
+      "evidence": "2024/25 57개 관여를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_04"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 34 goals 23 assists 2024-25",
+          "Salah 57 goal involvements Liverpool",
+          "Liverpool Premier League title 2025 Salah",
+          "Salah season highlights editorial",
+          "Liverpool football statistics"
+        ],
+        "cardPlan": [
+          "52경기 57개 공격포인트",
+          "34골과 23도움",
+          "두 번째 프리미어리그 우승",
+          "생산성이 우승이 된 시즌",
+          "골과 도움의 합",
+          "우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "52경기 57개 공격포인트",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 52경기 57개 공격포인트, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "34골과 23도움",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 34골과 23도움, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "두 번째 프리미어리그 우승",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 두 번째 프리미어리그 우승, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "생산성이 우승이 된 시즌",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 생산성이 우승이 된 시즌, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "골과 도움의 합",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 골과 도움의 합, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
+          "리버풀은 살라가 2024/25 시즌 52경기에서 34골과 23도움을 기록했다고 정리했다.",
+          "리버풀은 그가 팬들 앞에서 두 번째 프리미어리그 우승을 들어 올리는 데 기여했다고 전했다.",
+          "골과 도움을 더한 숫자가 한 시즌의 밀도를 보여준다.",
+          "57개 관여는 혼자 빛난 기록이 아니라 우승으로 이어진 생산성이다.",
+          "우리 팀도 득점과 도움을 한 화면에 모으면 시즌의 밀도가 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-005-32-goal-record",
+      "eventKey": "mohamed-salah|2018|32-goal-premier-league-record",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "records",
+      "eventDate": "2018-05-13",
+      "hook": "살라의 첫 리버풀 시즌은 38경기 체제의 새 골 기록이 됐다.",
+      "fact": "살라는 2017/18 프리미어리그에서 32골을 넣어 38경기 시즌 최다골 기록을 세웠다.",
+      "context": "프리미어리그는 그 골이 브라이턴전에서 나왔고, 이전 31골 기록을 넘어섰다고 전했다.",
+      "whyFun": "데뷔 시즌의 마지막 골이 기존 전설들의 숫자를 넘어섰다.",
+      "shareTrigger": "처음 돌아온 무대에서 가장 높은 기준을 새로 쓴 반전이다.",
+      "evidence": "38경기 시즌 32골를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_05"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 32 goals 2017-18 Premier League",
+          "Salah Brighton 32nd goal",
+          "Salah Golden Boot 2018",
+          "Premier League 38 match record",
+          "Liverpool Salah debut season"
+        ],
+        "cardPlan": [
+          "38경기 시즌 32골 기록",
+          "브라이턴전 마지막 골",
+          "31골의 벽을 넘다",
+          "데뷔 시즌 골든부트",
+          "돌아온 잉글랜드에서 세운 기준",
+          "우리 팀도 첫 시즌의 결과를 다음 시즌의 기준선으로 기록해두면 성장 폭이 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "38경기 시즌 32골 기록",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 38경기 시즌 32골 기록, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "브라이턴전 마지막 골",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 브라이턴전 마지막 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "31골의 벽을 넘다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 31골의 벽을 넘다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "데뷔 시즌 골든부트",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 데뷔 시즌 골든부트, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "돌아온 잉글랜드에서 세운 기준",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 돌아온 잉글랜드에서 세운 기준, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 첫 시즌의 결과를 다음 시즌의 기준선으로 기록해두면 성장 폭이 보인다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 첫 시즌의 결과를 다음 시즌의 기준선으로 기록해두면 성장 폭이 보인다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라의 첫 리버풀 시즌은 38경기 체제의 새 골 기록이 됐다.",
+          "살라는 2017/18 프리미어리그에서 32골을 넣어 38경기 시즌 최다골 기록을 세웠다.",
+          "프리미어리그는 그 골이 브라이턴전에서 나왔고, 이전 31골 기록을 넘어섰다고 전했다.",
+          "데뷔 시즌의 마지막 골이 기존 전설들의 숫자를 넘어섰다.",
+          "처음 돌아온 무대에서 가장 높은 기준을 새로 쓴 반전이다.",
+          "우리 팀도 첫 시즌의 결과를 다음 시즌의 기준선으로 기록해두면 성장 폭이 보인다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-006-four-golden-boots",
+      "eventKey": "mohamed-salah|2025|four-premier-league-golden-boots",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "award",
+      "eventDate": "2025-05-25",
+      "hook": "살라의 골든부트는 한 번의 반짝임이 아니라 네 번의 반복이었다.",
+      "fact": "프리미어리그 기록표는 살라가 2017/18, 2018/19, 2021/22, 2024/25에 골든부트를 받았다고 기록한다.",
+      "context": "그 기록으로 살라는 프리미어리그 최다 골든부트 공동 기록인 4회에 도달했다.",
+      "whyFun": "서로 다른 시즌의 이름이 한 줄에 모이면 꾸준함의 모양이 보인다.",
+      "shareTrigger": "최고를 한 번 찍는 것보다 다시 돌아오는 일이 더 어렵다.",
+      "evidence": "골든부트 4회를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_06"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah four Premier League Golden Boots",
+          "Salah Golden Boot history Liverpool",
+          "Premier League top scorers Salah",
+          "Salah 2017 2019 2022 2025 awards",
+          "football consistency record"
+        ],
+        "cardPlan": [
+          "골든부트 네 번",
+          "네 시즌에 걸친 반복",
+          "2017/18부터 2024/25까지",
+          "한 줄로 이어진 꾸준함",
+          "최고로 다시 돌아오는 선수",
+          "우리 팀도 한 번의 성공보다 반복 가능한 루틴을 함께 기록하자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "골든부트 네 번",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 골든부트 네 번, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "네 시즌에 걸친 반복",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 네 시즌에 걸친 반복, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "2017/18부터 2024/25까지",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 2017/18부터 2024/25까지, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "한 줄로 이어진 꾸준함",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 한 줄로 이어진 꾸준함, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "최고로 다시 돌아오는 선수",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 최고로 다시 돌아오는 선수, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 한 번의 성공보다 반복 가능한 루틴을 함께 기록하자",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 한 번의 성공보다 반복 가능한 루틴을 함께 기록하자, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라의 골든부트는 한 번의 반짝임이 아니라 네 번의 반복이었다.",
+          "프리미어리그 기록표는 살라가 2017/18, 2018/19, 2021/22, 2024/25에 골든부트를 받았다고 기록한다.",
+          "그 기록으로 살라는 프리미어리그 최다 골든부트 공동 기록인 4회에 도달했다.",
+          "서로 다른 시즌의 이름이 한 줄에 모이면 꾸준함의 모양이 보인다.",
+          "최고를 한 번 찍는 것보다 다시 돌아오는 일이 더 어렵다.",
+          "우리 팀도 한 번의 성공보다 반복 가능한 루틴을 함께 기록하자",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-007-earliest-champions-league-final-goal",
+      "eventKey": "mohamed-salah|2019|earliest-champions-league-final-goal",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "european-final",
+      "eventDate": "2019-06-01",
+      "hook": "챔피언스리그 결승의 가장 이른 골 기록은 시작 2분 만에 나왔다.",
+      "fact": "UEFA는 2019년 결승에서 살라가 토트넘을 상대로 전반 2분 페널티킥을 넣었다고 기록한다.",
+      "context": "UEFA는 이 골을 챔피언스리그 결승 역사상 가장 이른 골이라고 설명했다.",
+      "whyFun": "90분짜리 결승이 시작 120초 만에 이야기의 방향을 바꿨다.",
+      "shareTrigger": "큰 경기에서 첫 장면을 맡는 선수에게 필요한 건 속도보다 침착함이다.",
+      "evidence": "챔피언스리그 결승 선제골를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_07"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 2019 Champions League final goal",
+          "Salah Tottenham final penalty",
+          "earliest Champions League final goal",
+          "Liverpool Madrid 2019 final",
+          "Salah European trophy celebration"
+        ],
+        "cardPlan": [
+          "결승 시작 2분의 페널티킥",
+          "가장 이른 결승 골",
+          "토트넘전 선제 장면",
+          "120초가 바꾼 결승",
+          "침착함이 만든 첫 컷",
+          "우리 팀도 경기 초반 맡을 역할과 약속을 미리 맞춰두면 흔들림이 줄어든다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "결승 시작 2분의 페널티킥",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 결승 시작 2분의 페널티킥, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "가장 이른 결승 골",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 가장 이른 결승 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "토트넘전 선제 장면",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 토트넘전 선제 장면, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "120초가 바꾼 결승",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 120초가 바꾼 결승, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "침착함이 만든 첫 컷",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 침착함이 만든 첫 컷, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 경기 초반 맡을 역할과 약속을 미리 맞춰두면 흔들림이 줄어든다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 경기 초반 맡을 역할과 약속을 미리 맞춰두면 흔들림이 줄어든다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "챔피언스리그 결승의 가장 이른 골 기록은 시작 2분 만에 나왔다.",
+          "UEFA는 2019년 결승에서 살라가 토트넘을 상대로 전반 2분 페널티킥을 넣었다고 기록한다.",
+          "UEFA는 이 골을 챔피언스리그 결승 역사상 가장 이른 골이라고 설명했다.",
+          "90분짜리 결승이 시작 120초 만에 이야기의 방향을 바꿨다.",
+          "큰 경기에서 첫 장면을 맡는 선수에게 필요한 건 속도보다 침착함이다.",
+          "우리 팀도 경기 초반 맡을 역할과 약속을 미리 맞춰두면 흔들림이 줄어든다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    },
+    {
+      "id": "salah-008-two-hundred-liverpool-goals",
+      "eventKey": "mohamed-salah|2023|two-hundred-liverpool-goals",
+      "player": "Mohamed Salah",
+      "portfolio": "current_star",
+      "category": "club-milestone",
+      "eventDate": "2023-12-09",
+      "hook": "살라는 리버풀에서 327경기 만에 200골을 찍었다.",
+      "fact": "살라는 2023년 12월 크리스털 팰리스전에서 리버풀 통산 200호 골을 넣었다.",
+      "context": "리버풀은 그가 구단 역사상 다섯 번째로 200골에 도달했고, 당시 역대 득점 5위였다고 전했다.",
+      "whyFun": "한 골이 개인의 숫자에서 클럽의 역사로 넘어가는 순간이다.",
+      "shareTrigger": "200골은 오래 뛴 기록이 아니라 특별한 이름들과 같은 줄에 선 기록이다.",
+      "evidence": "리버풀 200골를 공식 출처의 본문과 기록에서 확인했다.",
+      "sourceRefs": [
+        "salah_source_08"
+      ],
+      "sourcePackRefs": [
+        "docs/research/real-player-stories/source-pack-05-son-salah.md"
+      ],
+      "verification": {
+        "status": "verified",
+        "sourceTier": "official",
+        "caveat": "출처가 직접 확인하는 기록과 사건만 사용한다."
+      },
+      "visualPlan": {
+        "queries": [
+          "Mohamed Salah 200 Liverpool goals 2023",
+          "Salah Crystal Palace 200th goal",
+          "Liverpool all time scorers Salah",
+          "Salah 327 appearances 200 goals",
+          "Liverpool milestone celebration"
+        ],
+        "cardPlan": [
+          "리버풀 200골",
+          "327경기 만의 더블 센추리",
+          "클럽 역사상 다섯 번째",
+          "크리스털 팰리스전의 한 골",
+          "개인 숫자가 클럽 기록이 된 순간",
+          "우리 팀도 누적 기록의 순간을 함께 축하하면 다음 목표를 오래 붙잡을 수 있다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ],
+        "usageStatus": "reference-only",
+        "cards": [
+          {
+            "card": 1,
+            "crop": "center 50% 42%, scale 1.05, leave top 22% text-safe",
+            "subject": "리버풀 200골",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 리버풀 200골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 2,
+            "crop": "center 48% 50%, scale 1.00, leave left 18% text-safe",
+            "subject": "327경기 만의 더블 센추리",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 327경기 만의 더블 센추리, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 3,
+            "crop": "center 52% 46%, scale 1.08, keep action in middle third",
+            "subject": "클럽 역사상 다섯 번째",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 클럽 역사상 다섯 번째, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 4,
+            "crop": "center 50% 54%, scale 1.02, leave top 18% text-safe",
+            "subject": "크리스털 팰리스전의 한 골",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 크리스털 팰리스전의 한 골, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 5,
+            "crop": "center 50% 48%, scale 1.00, reserve bottom 20% for evidence label",
+            "subject": "개인 숫자가 클럽 기록이 된 순간",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 개인 숫자가 클럽 기록이 된 순간, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 6,
+            "crop": "center 56% 50%, scale 0.96, leave right 24% text-safe",
+            "subject": "우리 팀도 누적 기록의 순간을 함께 축하하면 다음 목표를 오래 붙잡을 수 있다",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 우리 팀도 누적 기록의 순간을 함께 축하하면 다음 목표를 오래 붙잡을 수 있다, 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          },
+          {
+            "card": 7,
+            "crop": "center 50% 52%, scale 1.00, leave bottom 28% CTA-safe",
+            "subject": "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요.",
+            "prompt": "Reference-only editorial football visual for Mohamed Salah: 피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요., 4:5 portrait, clear text-safe space, no copied source text, no unverified logos.",
+            "usageStatus": "reference-only"
+          }
+        ]
+      },
+      "copy": {
+        "framework": "AIDA",
+        "cardStages": [
+          "attention",
+          "interest",
+          "desire",
+          "proof",
+          "action",
+          "bridge",
+          "cta"
+        ],
+        "cards": [
+          "살라는 리버풀에서 327경기 만에 200골을 찍었다.",
+          "살라는 2023년 12월 크리스털 팰리스전에서 리버풀 통산 200호 골을 넣었다.",
+          "리버풀은 그가 구단 역사상 다섯 번째로 200골에 도달했고, 당시 역대 득점 5위였다고 전했다.",
+          "한 골이 개인의 숫자에서 클럽의 역사로 넘어가는 순간이다.",
+          "200골은 오래 뛴 기록이 아니라 특별한 이름들과 같은 줄에 선 기록이다.",
+          "우리 팀도 누적 기록의 순간을 함께 축하하면 다음 목표를 오래 붙잡을 수 있다",
+          "피치체크 프로필 링크에서 팀 일정과 출석 흐름을 확인하고 댓글에 [피치체크]를 남겨보세요."
+        ]
+      }
+    }
+  ]
+}

@@ -15,6 +15,7 @@ const CATALOG_PATH = path.join(ROOT, "samples/pitchcheck/real-player-source-cata
 const MESSI_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-messi.json");
 const RONALDO_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-ronaldo.json");
 const MBAPPE_HAALAND_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-mbappe-haaland.json");
+const SON_SALAH_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-son-salah.json");
 const GLOBAL_SEEDS_PATH = path.join(ROOT, "samples/pitchcheck/real-player-story-seeds-global.json");
 const GLOBAL_BANK_GENERATOR_PATH = path.join(ROOT, "scripts/pitchcheck/build-global-legend-bank.mjs");
 const CATALOG_GENERATED_AT = "2026-07-10T00:00:00.000Z";
@@ -67,6 +68,10 @@ const publisherByHostname = new Map([
   ["premierleague.com", { publisher: "Premier League", tier: "official" }],
   ["www.mancity.com", { publisher: "Manchester City", tier: "official" }],
   ["mancity.com", { publisher: "Manchester City", tier: "official" }],
+  ["www.tottenhamhotspur.com", { publisher: "Tottenham Hotspur", tier: "official" }],
+  ["tottenhamhotspur.com", { publisher: "Tottenham Hotspur", tier: "official" }],
+  ["www.liverpoolfc.com", { publisher: "Liverpool FC", tier: "official" }],
+  ["liverpoolfc.com", { publisher: "Liverpool FC", tier: "official" }],
 ]);
 
 function parseSourcePack(sourcePack, sourcePackPath) {
@@ -211,6 +216,37 @@ function parseMbappeHaalandKoreanIndex(sourcePack, sourcePackPath) {
   return entries;
 }
 
+function parseCurrentStarKoreanIndex(sourcePack, sourcePackPath, label) {
+  const heading = "## 한국어 이벤트 인덱스: 근거 메모";
+  const headingIndex = sourcePack.indexOf(heading);
+  assert.notEqual(headingIndex, -1, `${sourcePackPath}: missing Korean ${label} index`);
+  const section = sourcePack.slice(headingIndex + heading.length).trim();
+  const entries = [...section.matchAll(
+    /^### (\d+)\. (.+)\r?\n- eventKey: `([^`]+)`\r?\n- source IDs: ([^\r\n]+)\r?\n- evidence: ([^\r\n]+)\r?\n- scope: ([^\r\n]+)$/gm,
+  )].map((match) => ({
+    number: Number(match[1]),
+    title: match[2].trim(),
+    eventKey: match[3].trim(),
+    sourceIds: match[4].split(",").map((sourceId) => sourceId.trim()).filter(Boolean),
+    evidence: match[5].trim(),
+    scope: match[6].trim(),
+  }));
+
+  assert.equal(entries.length, 20, `${sourcePackPath}: Korean ${label} index must contain exactly 20 entries`);
+  assert.deepEqual(
+    entries.map((entry) => entry.number),
+    Array.from({ length: 20 }, (_, index) => index + 1),
+    `${sourcePackPath}: Korean ${label} index entries must be numbered 1-20`,
+  );
+  for (const entry of entries) {
+    assert.ok(entry.title, `${entry.eventKey}: missing Korean event title`);
+    assert.ok(entry.sourceIds.length > 0, `${entry.eventKey}: missing source IDs`);
+    assert.ok(entry.evidence, `${entry.eventKey}: missing Korean evidence`);
+    assert.ok(entry.scope, `${entry.eventKey}: missing Korean scope`);
+  }
+  return entries;
+}
+
 function isCanonicalBbcYouTubeUrl(parsedUrl) {
   if (["www.youtube.com", "youtube.com"].includes(parsedUrl.hostname)) {
     return parsedUrl.pathname === "/watch" && parsedUrl.searchParams.get("v") === BBC_YOUTUBE_VIDEO_ID;
@@ -308,6 +344,11 @@ assert.ok(
   "samples/pitchcheck/real-player-story-seeds-mbappe-haaland.json must exist",
 );
 const mbappeHaalandSeeds = JSON.parse(fs.readFileSync(MBAPPE_HAALAND_SEEDS_PATH, "utf8"));
+assert.ok(
+  fs.existsSync(SON_SALAH_SEEDS_PATH),
+  "samples/pitchcheck/real-player-story-seeds-son-salah.json must exist",
+);
+const sonSalahSeeds = JSON.parse(fs.readFileSync(SON_SALAH_SEEDS_PATH, "utf8"));
 const builtGlobalSeeds = buildGlobalLegendBank(messiSeeds, ronaldoSeeds);
 assert.ok(
   fs.existsSync(GLOBAL_SEEDS_PATH),
@@ -375,6 +416,10 @@ const sourcePackInputs = {
     path.join(ROOT, "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md"),
     "utf8",
   ),
+  "docs/research/real-player-stories/source-pack-05-son-salah.md": fs.readFileSync(
+    path.join(ROOT, "docs/research/real-player-stories/source-pack-05-son-salah.md"),
+    "utf8",
+  ),
 };
 const messiKoreanIndex = parseMessiKoreanIndex(
   sourcePackInputs["docs/research/real-player-stories/source-pack-02-messi.md"],
@@ -388,13 +433,18 @@ const mbappeHaalandKoreanIndex = parseMbappeHaalandKoreanIndex(
   sourcePackInputs["docs/research/real-player-stories/source-pack-04-mbappe-haaland.md"],
   "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md",
 );
+const sonSalahKoreanIndex = parseCurrentStarKoreanIndex(
+  sourcePackInputs["docs/research/real-player-stories/source-pack-05-son-salah.md"],
+  "docs/research/real-player-stories/source-pack-05-son-salah.md",
+  "Son/Salah",
+);
 
 if (process.argv.includes("--write-catalog")) {
   fs.writeFileSync(
     CATALOG_PATH,
     `${JSON.stringify(
       buildCatalog(
-        { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs, ...mbappeHaalandSeeds.sourceRefs },
+        { ...legacyBank.sourceRefs, ...messiSeeds.sourceRefs, ...ronaldoSeeds.sourceRefs, ...mbappeHaalandSeeds.sourceRefs, ...sonSalahSeeds.sourceRefs },
         sourcePackInputs,
       ),
       null,
@@ -420,13 +470,14 @@ const allSourceRefs = {
   ...messiSeeds.sourceRefs,
   ...ronaldoSeeds.sourceRefs,
   ...mbappeHaalandSeeds.sourceRefs,
+  ...sonSalahSeeds.sourceRefs,
 };
 const sourceCatalog = buildCatalog(allSourceRefs, sourcePackInputs, "2026-07-10T00:00:00.000Z");
 const persistedSourceCatalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
 const expectedSourceIds = Object.keys(allSourceRefs).sort();
 
-assert.equal(sourceCatalog.sources.length, 74);
-assert.equal(persistedSourceCatalog.sources.length, 74);
+assert.equal(sourceCatalog.sources.length, 94);
+assert.equal(persistedSourceCatalog.sources.length, 94);
 assert.deepEqual(persistedSourceCatalog.sources, sourceCatalog.sources);
 assert.deepEqual(
   buildCatalog(allSourceRefs, sourcePackInputs),
@@ -438,8 +489,8 @@ assert.deepEqual(
   expectedSourceIds,
 );
 assert.deepEqual(
-  persistedSourceCatalog.sources.slice(0, 62),
-  sourceCatalog.sources.slice(0, 62),
+  persistedSourceCatalog.sources.slice(0, 74),
+  sourceCatalog.sources.slice(0, 74),
   "existing catalog records must remain unchanged and new records must append",
 );
 for (const source of sourceCatalog.sources) {
@@ -925,6 +976,110 @@ for (const sourceRef of Object.keys(mbappeHaalandSeeds.sourceRefs)) {
   assert.equal(source.useStatus, "reference-only", `${sourceRef}: useStatus must be reference-only`);
   assert.equal(source.sourcePack, "docs/research/real-player-stories/source-pack-04-mbappe-haaland.md");
 }
+
+assert.deepEqual(
+  validateStoryBank(sonSalahSeeds, { expectedCount: 20 }),
+  { topics: 20, uniqueEvents: 20 },
+);
+assert.equal(Object.keys(sonSalahSeeds.sourceRefs).length, 20);
+assert.ok(Object.keys(sonSalahSeeds.sourceRefs).every((sourceId) => /^(son|salah)_source_\d{2}$/.test(sourceId)));
+assert.deepEqual(
+  Object.fromEntries(
+    [...new Set(sonSalahSeeds.topics.map((topic) => topic.player))].map((player) => [
+      player,
+      sonSalahSeeds.topics.filter((topic) => topic.player === player).length,
+    ]),
+  ),
+  { "Son Heung-min": 12, "Mohamed Salah": 8 },
+);
+const sonSalahByEventKey = new Map(sonSalahSeeds.topics.map((topic) => [topic.eventKey, topic]));
+const sonSalahFacts = new Set();
+const sonSalahActiveSourceIds = new Set(Object.keys(sonSalahSeeds.sourceRefs));
+const sonSalahTopicSourceIds = new Set(sonSalahSeeds.topics.flatMap((topic) => topic.sourceRefs));
+assert.deepEqual(
+  [...sonSalahActiveSourceIds].sort(),
+  [...sonSalahTopicSourceIds].sort(),
+  "Son/Salah active source IDs must equal the union of topic sourceRefs",
+);
+const sonSalahCatalogSourceIds = new Set(
+  sourceCatalog.sources
+    .filter((source) => source.sourcePack === "docs/research/real-player-stories/source-pack-05-son-salah.md")
+    .map((source) => source.sourceId),
+);
+assert.deepEqual(
+  [...sonSalahCatalogSourceIds].sort(),
+  [...sonSalahActiveSourceIds].sort(),
+  "Son/Salah catalog must not contain unused batch source records",
+);
+function sonSalahSourceSnippets(sourceRef) {
+  const match = /^(son|salah)_source_(\d+)$/.exec(sourceRef);
+  assert.ok(match, `${sourceRef}: malformed Son/Salah source ID`);
+  const sourceNumber = Number(match[2]) + (match[1] === "salah" ? 12 : 0);
+  const pack = sourcePackInputs["docs/research/real-player-stories/source-pack-05-son-salah.md"];
+  const section = pack
+    .split(/^## Source /m)
+    .find((candidate) => candidate.startsWith(`${sourceNumber}:`));
+  assert.ok(section, `${sourceRef}: missing source section in the Son/Salah source pack`);
+  const snippets = section.match(/### Useful Text Snippets\s*\n([\s\S]*?)(?=\n### |\n## |$)/);
+  assert.ok(snippets, `${sourceRef}: missing Useful Text Snippets block`);
+  return snippets[1];
+}
+for (const topic of sonSalahSeeds.topics) {
+  assert.match(topic.eventKey, /^(son-heung-min|mohamed-salah)\|[^|]+\|[a-z0-9]+(?:-[a-z0-9]+)*$/, `${topic.id}: invalid eventKey`);
+  assert.equal(sonSalahFacts.has(topic.fact), false, `${topic.id}: duplicate fact`);
+  sonSalahFacts.add(topic.fact);
+  assert.equal(topic.verification?.status, "verified", `${topic.id}: verification.status must be verified`);
+  assert.equal(topic.verification?.sourceTier, "official", `${topic.id}: sourceTier must be official`);
+  assert.equal(
+    topic.portfolio,
+    topic.player === "Son Heung-min" ? "korea_asia" : "current_star",
+    `${topic.id}: wrong portfolio`,
+  );
+  assert.ok(Array.isArray(topic.sourceRefs) && topic.sourceRefs.length > 0, `${topic.id}: missing sourceRefs`);
+  assert.deepEqual(topic.sourcePackRefs, ["docs/research/real-player-stories/source-pack-05-son-salah.md"]);
+  for (const sourceRef of topic.sourceRefs) {
+    assert.ok(Object.hasOwn(sonSalahSeeds.sourceRefs, sourceRef), `${topic.id}: sourceRef must be batch-specific`);
+    assert.equal(sourceCatalogById.get(sourceRef)?.sourcePack, "docs/research/real-player-stories/source-pack-05-son-salah.md");
+    assert.equal(sourceCatalogById.get(sourceRef)?.useStatus, "reference-only");
+    assert.doesNotMatch(sonSalahSourceSnippets(sourceRef), /^_None found\._\s*$/, `${topic.id}: ${sourceRef} has no usable snippet`);
+  }
+  assert.equal(topic.copy?.framework, "AIDA", `${topic.id}: copy framework must be AIDA`);
+  assert.deepEqual(
+    topic.copy?.cardStages,
+    ["attention", "interest", "desire", "proof", "action", "bridge", "cta"],
+    `${topic.id}: AIDA card stages changed`,
+  );
+  assert.equal(topic.copy.cards.length, 7, `${topic.id}: copy.cards must have 7 entries`);
+  assert.ok(Array.isArray(topic.visualPlan?.queries) && topic.visualPlan.queries.length >= 5, `${topic.id}: visual queries`);
+  assert.equal(topic.visualPlan?.usageStatus, "reference-only", `${topic.id}: visual usageStatus`);
+  assert.equal(topic.visualPlan?.cardPlan?.length, 7, `${topic.id}: visual cardPlan`);
+  assert.equal(topic.visualPlan?.cards?.length, 7, `${topic.id}: visual cards`);
+  for (const [index, visualCard] of topic.visualPlan.cards.entries()) {
+    assert.equal(visualCard.card, index + 1, `${topic.id}: visual card numbering`);
+    for (const field of ["crop", "subject", "prompt", "usageStatus"]) {
+      assert.ok(typeof visualCard[field] === "string" && visualCard[field].trim(), `${topic.id}: card ${index + 1} missing ${field}`);
+    }
+    assert.match(visualCard.prompt, /reference-only/i, `${topic.id}: visual prompt must be reference-only`);
+    assert.equal(visualCard.usageStatus, "reference-only", `${topic.id}: visual card usageStatus`);
+  }
+  for (const [index, card] of topic.copy.cards.entries()) {
+    const text = JSON.stringify(card);
+    if (index < 6) {
+      assert.doesNotMatch(text, /PitchCheck|피치체크|프로필 링크|\[피치체크\]/i, `${topic.id}: early card CTA`);
+    } else {
+      assert.match(text, /PitchCheck|피치체크/i, `${topic.id}: final card CTA`);
+      assert.match(text, /프로필 링크/i, `${topic.id}: final card profile link`);
+      assert.match(text, /\[피치체크\]/, `${topic.id}: final card comment keyword`);
+    }
+  }
+}
+for (const entry of sonSalahKoreanIndex) {
+  const topic = sonSalahByEventKey.get(entry.eventKey);
+  assert.ok(topic, `${entry.eventKey}: Korean index eventKey missing from Son/Salah seeds`);
+  assert.deepEqual(entry.sourceIds, topic.sourceRefs, `${entry.eventKey}: Korean index source IDs changed`);
+}
+assert.equal(new Set(sonSalahKoreanIndex.map((entry) => entry.eventKey)).size, 20);
+assert.equal(sonSalahFacts.size, 20);
 
 assert.throws(
   () => buildCatalog({ ian_wright_tpt: "https://notplayerstribune.com/example" }, sourcePackInputs),

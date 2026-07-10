@@ -1438,6 +1438,412 @@
       ],
       "rightsNote": "Media candidates are reference-only until rights are verified.",
       "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_01",
+      "url": "https://www.tottenhamhotspur.com/news/1000463/sonny-departs-for-lafc",
+      "publisher": "Tottenham Hotspur",
+      "title": "Sonny departs for LAFC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/27/936c0ca3-043b-44f1-af8a-e423dc8cdd61/e88mti0Y.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_02",
+      "url": "https://www.tottenhamhotspur.com/news/988109/sonny-named-club-captain",
+      "publisher": "Tottenham Hotspur",
+      "title": "Sonny named Club captain",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/02/26581744-3664-4bf4-80ef-483aa795a0ee/2a6pYjvP.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/2623ad58-562d-4093-85cd-7d0796eefe16/jg107338.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/83d51c3a-36ed-4f5b-b9dd-665697b17153/jg107373_1.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/21a79c25-6664-498f-a3ab-c643dcad1e52/jg208108.jpg?width=752&height=412",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_03",
+      "url": "https://www.tottenhamhotspur.com/news/983481",
+      "publisher": "Tottenham Hotspur",
+      "title": "Sonny's contract extended",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/03/a3deda58-270f-4830-88f6-51c5e3a0fbeb/aYvuFGQS.png",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_04",
+      "url": "https://www.premierleague.com/en/news/4365044/son-heung-min-legacy-at-tottenham-hotspur-records-awards-goals-assists-trophy",
+      "publisher": "Premier League",
+      "title": "Son's Spurs legacy: Records, loyalty and European glory",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.pulselive.com/premierleague/photo/2025/08/02/36499e08-c3ad-458d-a09b-5003abdbe31a/Son-Heung-min-feature-lead-composite.png",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/08/02/ac634e99-3114-4c1e-8ce6-c85d0b60b36a/Son-Heung-min-feature-lead-composite.png?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_05",
+      "url": "https://www.premierleague.com/en/news/3141989",
+      "publisher": "Premier League",
+      "title": "Son makes history with 100th Premier League goal",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.com/premierleague/photo/2023/04/08/1929296a-b2de-4a6a-ba60-c6b430cb2876/Son-clebrates-his-100th-PL-goal.jpg",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/04/08/1929296a-b2de-4a6a-ba60-c6b430cb2876/Son-clebrates-his-100th-PL-goal.jpg?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_06",
+      "url": "https://www.premierleague.com/en/news/2634049",
+      "publisher": "Premier League",
+      "title": "2021/22 Season Review",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.com/premierleague/photo/2022/05/25/6b56b38c-4a3c-451a-b958-9d00798381bd/1398685461.jpg",
+        "https://resources.premierleague.pulselive.com/photo-resources/2022/05/25/45abbb8a-8385-4eea-9296-df5efde69803/1398685461.jpg?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2022/05/24/95498ab3-b28c-40b1-b371-98bc5bfbb4cf/1398680788.jpg?width=1400&height=800",
+        "https://resources.premierleague.pulselive.com/photo-resources/2022/05/24/1cf366b0-8272-43f7-b2b2-0027124eb9e5/Brentford-Arsenal.jpg?width=1400&height=800",
+        "https://resources.premierleague.pulselive.com/photo-resources/2022/05/24/dcd047e8-9035-4003-be19-874246254d0f/1339681123.jpg?width=1400&height=800",
+        "https://resources.premierleague.pulselive.com/photo-resources/2022/05/25/5e388471-7208-49e3-a44e-6de964053712/1342430889.jpg?width=1400&height=800",
+        "https://resources.premierleague.pulselive.com/photo-resources/2021/10/03/1554be31-e631-4811-8da2-1fedd83de580/1344613975.jpg?width=1400&height=800",
+        "https://resources.premierleague.pulselive.com/photo-resources/2021/10/24/80829ff5-4834-43d8-827e-fe82edc79d9d/1236108755.jpg?width=1400&height=800"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_07",
+      "url": "https://www.tottenhamhotspur.com/news/983012/its-gold-for-sonny",
+      "publisher": "Tottenham Hotspur",
+      "title": "It's gold for Sonny!",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/02/63624dbf-6de1-4e46-9ed2-f31410d9153d/9F1XZpNM.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/1ba9fc72-1509-46e8-9b38-e734cad05cd5/international_southkorea_asiangames_heungminson_japan_goldmedalmatch_1.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/ae35bde0-50d3-4202-9774-c9f0e8c686fc/international_southkorea_asiangames_heungminson_japan_goldmedalmatch_3.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/bde423d6-3283-4291-91fe-3e9543d56da8/international_southkorea_asiangames_heungminson_japan_goldmedalmatch_2.jpg?width=752&height=412",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_08",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/heung-min-son-tottenham-spurs-leverkusen-hamburg-made-in-bundesliga-3293-2268",
+      "publisher": "Bundesliga",
+      "title": "Heung-min Son: Tottenham's lethal attacker, made in the Bundesliga",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://assets.bundesliga.com/tachyon/sites/2/2019/02/son-leverkusen-ball-applause-b04-1718-1920-com.jpg?crop=0px,0px,1920px,1080px&fit=1200,630",
+        "https://www.bundesliga.com/assets/logos/wm-2026-alt-positive.svg",
+        "https://www.bundesliga.com/assets/logos/wm-2026-alt-negative.svg",
+        "https://www.bundesliga.com/assets/header-metanavigation/bundesliga-app-logo.svg",
+        "https://www.bundesliga.com/assets/header-metanavigation/fantasy-app-logo.svg",
+        "https://www.bundesliga.com/assets/logo/bundesliga_pos.svg",
+        "https://www.bundesliga.com/assets/logo/bundesliga_neg.svg",
+        "https://www.bundesliga.com/assets/icons/simple/arrow-simple-down.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_09",
+      "url": "https://www.tottenhamhotspur.com/news/984775/sonny-reclaims-kfa-honour",
+      "publisher": "Tottenham Hotspur",
+      "title": "Sonny reclaims KFA honour",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/02/b62eed6a-a5c9-450f-a048-32fe94d9af2d/x4VgAOAu.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_10",
+      "url": "https://www.tottenhamhotspur.com/news/1015940/the-202223-season-in-numbers",
+      "publisher": "Tottenham Hotspur",
+      "title": "The 2022/23 season in numbers",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/02/4f84e28d-c72d-42c6-b873-f47a9e796487/rw786Oiq.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/2e037f2f-0055-4c3f-ae19-fc27c38548d0/gettyimages-1413259904.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/a5d14889-9f25-4e38-b251-d22503f62b17/gettyimages-1410486261.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/a854277d-1aff-4f34-b647-2f99bf6aabc6/gettyimages-1242341645.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/2d1285a7-3ee6-4cc5-a0d4-e49ea2277484/ivan-perisic-arsenal.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/c5639d12-34eb-423b-a3a7-12fcfc786551/gettyimages-1494052782.jpg?width=752&height=412",
+        "https://resources.thfc.pulselive.com/photo-migration/migration/82e4344f-44af-4ec9-aba0-06e5e956091e/gettyimages-1460307712.jpg?width=752&height=412"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_11",
+      "url": "https://www.uefa.com/news/0253-0e904ea2629d-a8657de76e1c-1000--europe-s-top-asian-performers/",
+      "publisher": "UEFA",
+      "title": "Mehdi Taremi, Heung-Min Son, Takumi Minamino, Maksim Shatskikh: Who are Asia's top UEFA Champions League performers?",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/02a1-1fa1bf4a9c95-c136e00869b2-1000/ucl_24x27_-_web_specific_mulitplayer_x4_-_email_26_.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/02a1-1fa1bf4a9c95-c136e00869b2-1000/format/wide1/ucl_24x27_-_web_specific_mulitplayer_x4_-_email_26_.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/02a6-20e388d425c0-b3a1bf8b00cf-1000/format/wide1/vladimir_maminov_fc_lokomotiv_moskva_.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/02a6-20e388d425c0-b094851bfe05-1000/format/wide1/andy_o_brien_of_newcastle_and_maksim_shatskikh_of_dynamo_kiev.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/02a6-20d810060489-f7fdfb922984-1000/format/wide1/832297.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/02a6-20e388d425c0-6760e5773523-1000/format/wide1/espanyol_barcelona_v_wolverhampton_wanderers_-_uefa_europa_league_round_of_32_second_leg.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "son_source_12",
+      "url": "https://www.tottenhamhotspur.com/news/984527/spurs-will-always-be-in-my-heart-sons-emotional-farewell-to-fans",
+      "publisher": "Tottenham Hotspur",
+      "title": "“Spurs will always be in my heart” – Son’s emotional farewell to fans",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.thfc.pulselive.com/thfc/photo/2026/02/02/30a7cca8-84d5-4d7d-a4d5-4deb5d4df14e/SUC93WS8.jpg",
+        "https://resources.thfc.pulselive.com/thfc/document/2025/09/11/7f611588-e6a6-4daa-a09c-d08078b6ba9a/logo.svg",
+        "https://www.tottenhamhotspur.com/resources/ver/v1.5.2/i/elements/spurs-footer.svg"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_01",
+      "url": "https://www.liverpoolfc.com/news/mohamed-salah-scores-landmark-50th-goal-champions-league",
+      "publisher": "Liverpool FC",
+      "title": "Mohamed Salah scores landmark 50th goal in the Champions League - Liverpool FC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-03/mohamed-salah-19032026_c16c0920ee06137076f84f3eafa67f81.jpg?itok=mMiJwoXJ",
+        "https://www.liverpoolfc.com/liverpoolfc_crest.webp",
+        "https://www.liverpoolfc.com/standard-chartered.webp",
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-03/mohamed-salah-19032026_c16c0920ee06137076f84f3eafa67f81.webp?itok=MpDeSB4N&width=1680",
+        "https://www.liverpoolfc.com/icon-facebook.webp",
+        "https://www.liverpoolfc.com/icon-twitter.webp",
+        "https://www.liverpoolfc.com/icon-email.webp",
+        "https://www.liverpoolfc.com/icon-whatsapp.webp"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_02",
+      "url": "https://www.premierleague.com/en/news/4314803/salah-sweeps-202425-player-of-the-season-golden-boot-and-playmaker-awards",
+      "publisher": "Premier League",
+      "title": "Salah makes history with Golden Boot and Playmaker awards",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.pulselive.com/premierleague/photo/2025/05/25/19e1e04c-6890-431a-8337-5c952cda335b/GettyImages-2216995141.jpg",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/25/f5c0c71a-7d0f-468d-9bd8-7e73525f1ae2/GettyImages-2216995141.jpg?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_03",
+      "url": "https://www.liverpoolfc.com/news/full-mohamed-salahs-message-liverpool-supporters",
+      "publisher": "Liverpool FC",
+      "title": "In full: Mohamed Salah's message to Liverpool supporters - Liverpool FC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-03/mohamed-salah-liverpool-fc-240326_a07933431fe9a33856c3d374b4e85063.jpg?itok=D-psjoGD",
+        "https://www.liverpoolfc.com/liverpoolfc_crest.webp",
+        "https://www.liverpoolfc.com/standard-chartered.webp",
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-03/mohamed-salah-liverpool-fc-240326_a07933431fe9a33856c3d374b4e85063.webp?itok=aCoLvR0q&width=1680",
+        "https://www.liverpoolfc.com/icon-facebook.webp",
+        "https://www.liverpoolfc.com/icon-twitter.webp",
+        "https://www.liverpoolfc.com/icon-email.webp",
+        "https://www.liverpoolfc.com/icon-whatsapp.webp"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_04",
+      "url": "https://www.liverpoolfc.com/news/thank-you-mo-salah-fond-farewell-egyptian-king",
+      "publisher": "Liverpool FC",
+      "title": "Thank you, Mo Salah - a fond farewell to the Egyptian King - Liverpool FC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-05/mo-salah-thank-you-v2-21052026_e5c08d00b008e5db6869195c8fd54f52.jpeg?itok=gt2hD1_U",
+        "https://www.liverpoolfc.com/liverpoolfc_crest.webp",
+        "https://www.liverpoolfc.com/standard-chartered.webp",
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2026-05/mo-salah-thank-you-v2-21052026_e5c08d00b008e5db6869195c8fd54f52.webp?itok=2IbD9DAF&width=1680",
+        "https://www.liverpoolfc.com/icon-facebook.webp",
+        "https://www.liverpoolfc.com/icon-twitter.webp",
+        "https://www.liverpoolfc.com/icon-email.webp",
+        "https://www.liverpoolfc.com/icon-whatsapp.webp"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_05",
+      "url": "https://www.premierleague.com/en/news/688761/salah-breaks-record-as-liverpool-seal-top-four-spot",
+      "publisher": "Premier League",
+      "title": "Salah breaks record as Liverpool seal top-four spot",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.com/premierleague/photo/2018/05/13/0ec3b746-b441-4bf9-b5e8-a0422c08124d/958072134.jpg",
+        "https://resources.premierleague.pulselive.com/photo-resources/2018/05/13/4ada3b8d-32fb-440c-9c7a-c22470df0a18/958072134.jpg?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_06",
+      "url": "https://www.premierleague.com/en/news/1206108/premierleague-golden-boot-award-winners",
+      "publisher": "Premier League",
+      "title": "Premier League top scorers: What is the Golden Boot award?",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://resources.premierleague.pulselive.com/premierleague/photo/2026/02/28/6930ca8a-ad3f-49b7-9ee7-e87b7edc8e87/Premier-League-Golden-Boot-2025-26.jpg",
+        "https://resources.premierleague.pulselive.com/photo-resources/2026/02/28/8bac3f96-b32e-4dcf-a610-befe97b3ceb6/Premier-League-Golden-Boot-2025-26.jpg?width=1440",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/07/10/91ad5a6f-a580-4d8f-9359-9bc0ef76dc4c/ADB.png?width=90&height=60",
+        "https://resources.premierleague.pulselive.com/photo-resources/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/6e1736ce-16e4-48d4-bd0d-669d2860837a/CocaCola_2526_Partner.png?width=115&height=40",
+        "https://resources.premierleague.pulselive.com/photo-resources/2025/05/31/5b1c886f-e3b5-461d-b764-054b0ccffcb9/Topps_2526_Partner.png?width=115&height=40"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_07",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0274-14f2207191c2-31a2ab4d6dae-1000--2018-19-spurs-vs-ajax-barcelona-vs-liverpool-was-this-the-b/",
+      "publisher": "UEFA",
+      "title": "2018/19 Spurs vs Ajax, Barcelona vs Liverpool: Was this the best-ever pair of UEFA Champions League semi-finals? | UEFA Champions League 2023/24",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://editorial.uefa.com/resources/0289-19ebecf37aec-3a278952773f-1000/liverpool_v_barcelona_-_uefa_champions_league_semi_final_second_leg.jpeg",
+        "https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg",
+        "https://editorial.uefa.com/resources/0289-19ebecf37aec-3a278952773f-1000/format/wide1/liverpool_v_barcelona_-_uefa_champions_league_semi_final_second_leg.jpeg?imwidth=158",
+        "https://img.uefa.com/imgml/void.svg",
+        "https://editorial.uefa.com/resources/0289-19ebecf37aed-096a53328a78-1000/format/wide1/as_roma_vs_liverpool_fc_uefa_champions_league.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0289-19ebecf37aee-9b738a95c41c-1000/format/wide1/soccer_-_uefa_champions_league_-_semi-final_-_second_leg_-_deportivo_la_coruna_v_fc_porto.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/0271-142b1e04ee7f-4813c0f3f001-1000/format/wide1/arsenal_v_manchester_united_-_uefa_champions_league_semi_final.jpeg?imwidth=158",
+        "https://editorial.uefa.com/resources/027c-16c998dea524-ec5627881b2f-1000/format/wide1/16x9_sfclassic.jpeg?imwidth=158"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
+    },
+    {
+      "sourceId": "salah_source_08",
+      "url": "https://www.liverpoolfc.com/news/mohamed-salah-scores-200th-goal-liverpool-0",
+      "publisher": "Liverpool FC",
+      "title": "Mohamed Salah scores 200th goal for Liverpool - Liverpool FC",
+      "publishedAt": null,
+      "status": "200",
+      "tier": "official",
+      "sourcePack": "docs/research/real-player-stories/source-pack-05-son-salah.md",
+      "mediaCandidates": [
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2023-12/salah-200-lfc-091223.jpg?itok=I91U-T4B",
+        "https://www.liverpoolfc.com/liverpoolfc_crest.webp",
+        "https://www.liverpoolfc.com/standard-chartered.webp",
+        "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2023-12/salah-200-lfc-091223.webp?itok=wkQ2Btwu&width=1680",
+        "https://www.liverpoolfc.com/icon-facebook.webp",
+        "https://www.liverpoolfc.com/icon-twitter.webp",
+        "https://www.liverpoolfc.com/icon-email.webp",
+        "https://www.liverpoolfc.com/icon-whatsapp.webp"
+      ],
+      "rightsNote": "Media candidates are reference-only until rights are verified.",
+      "useStatus": "reference-only"
     }
   ]
 }
