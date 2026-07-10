@@ -14,6 +14,17 @@ const legacyBank = JSON.parse(
 const migratedBank = JSON.parse(
   fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-story-migrated-50.json"), "utf8"),
 );
+const roster = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "samples/pitchcheck/real-player-roster-300.json"), "utf8"),
+);
+
+const portfolioTargets = {
+  global_legend: 130,
+  current_star: 80,
+  korea_asia: 40,
+  women: 30,
+  cult_unusual: 20,
+};
 
 function sevenCards() {
   return Array.from({ length: 7 }, (_, index) => ({
@@ -264,6 +275,49 @@ assert.deepEqual(
 assert.equal(migratedBank.topics.length, 50);
 assert.equal(new Set(migratedBank.topics.map((topic) => topic.eventKey)).size, 50);
 assert.equal(new Set(migratedBank.topics.map((topic) => topic.fact)).size, 50);
+
+assert.deepEqual(
+  Object.fromEntries(
+    Object.keys(portfolioTargets).map((portfolio) => [
+      portfolio,
+      roster
+        .filter((subject) => subject.portfolio === portfolio)
+        .reduce((total, subject) => total + subject.target, 0),
+    ]),
+  ),
+  portfolioTargets,
+);
+
+const rosterByName = new Map(roster.map((subject) => [subject.displayName, subject]));
+assert.equal(rosterByName.get("Lionel Messi").target, 20);
+assert.equal(rosterByName.get("Cristiano Ronaldo").target, 20);
+assert.equal(rosterByName.get("Son Heung-min").target, 12);
+assert.equal(
+  roster
+    .filter((subject) => subject.portfolio === "women")
+    .reduce((total, subject) => total + subject.target, 0),
+  30,
+);
+
+const migratedCounts = new Map();
+for (const topic of migratedBank.topics) {
+  migratedCounts.set(topic.player, (migratedCounts.get(topic.player) ?? 0) + 1);
+}
+for (const [player, count] of migratedCounts) {
+  assert.ok(rosterByName.has(player), `${player}: missing from roster`);
+  assert.ok(rosterByName.get(player).target >= count, `${player}: target below migrated count`);
+}
+
+assert.equal(new Set(roster.map((subject) => subject.id)).size, roster.length);
+for (const subject of roster) {
+  assert.ok(Number.isInteger(subject.target) && subject.target > 0, `${subject.displayName}: invalid target`);
+  assert.ok(["player", "coach"].includes(subject.subjectType), `${subject.displayName}: invalid subjectType`);
+  assert.ok(subject.displayName.trim(), `${subject.id}: missing displayName`);
+  assert.ok(Array.isArray(subject.searchNames) && subject.searchNames.includes(subject.displayName));
+  assert.ok(subject.searchNames.some((query) => query.trim() && query !== subject.displayName));
+  assert.ok(Array.isArray(subject.prioritySources) && subject.prioritySources.length > 0);
+}
+assert.equal(rosterByName.get("Marcelo Bielsa").subjectType, "coach");
 
 const legacyById = new Map(legacyBank.topics.map((topic) => [topic.id, topic]));
 for (const topic of migratedBank.topics) {
