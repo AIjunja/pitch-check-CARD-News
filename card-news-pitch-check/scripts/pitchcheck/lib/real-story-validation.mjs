@@ -7,11 +7,28 @@ function cardText(value) {
   return "";
 }
 
+function isPlainObject(value) {
+  if (value === null || typeof value !== "object" || Array.isArray(value)) return false;
+  const prototype = Object.getPrototypeOf(value);
+  return prototype === Object.prototype || prototype === null;
+}
+
 export function validateStoryBank(bank, { expectedCount } = {}) {
+  if (bank === null || typeof bank !== "object") {
+    throw new Error("bank must be a non-null object");
+  }
+
   const errors = [];
   const eventKeys = new Set();
-  const topics = bank?.topics ?? [];
-  const sourceRefs = bank?.sourceRefs ?? {};
+  const hasValidTopics = Array.isArray(bank.topics);
+  const hasValidSourceRefs = isPlainObject(bank.sourceRefs);
+  const topics = hasValidTopics ? bank.topics : [];
+  const sourceRefs = hasValidSourceRefs ? bank.sourceRefs : {};
+
+  if (!hasValidTopics) errors.push("bank.topics must be an array");
+  if (!hasValidSourceRefs) {
+    errors.push("bank.sourceRefs must be a non-null plain object");
+  }
 
   for (const topic of topics) {
     const topicId = topic?.id ?? "unknown topic";
@@ -40,7 +57,7 @@ export function validateStoryBank(bank, { expectedCount } = {}) {
     const topicSourceRefs = topic?.sourceRefs;
     if (!Array.isArray(topicSourceRefs)) {
       errors.push(`${topicId}: sourceRefs must be an array`);
-    } else {
+    } else if (hasValidSourceRefs) {
       for (const sourceRef of topicSourceRefs) {
         if (!Object.hasOwn(sourceRefs, sourceRef)) {
           errors.push(`${topicId}: missing source ${sourceRef}`);
@@ -49,7 +66,7 @@ export function validateStoryBank(bank, { expectedCount } = {}) {
     }
   }
 
-  if (expectedCount !== undefined && topics.length !== expectedCount) {
+  if (hasValidTopics && expectedCount !== undefined && topics.length !== expectedCount) {
     errors.push(`expected ${expectedCount} topics, got ${topics.length}`);
   }
 

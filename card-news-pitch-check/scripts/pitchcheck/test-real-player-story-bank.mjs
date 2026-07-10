@@ -34,6 +34,33 @@ function copyWithTerm(term, cardIndex = 0) {
   return { cards };
 }
 
+for (const bank of [null, undefined, 42, "story bank", true]) {
+  assert.throws(
+    () => validateStoryBank(bank),
+    /bank must be a non-null object/,
+  );
+}
+
+assert.throws(() => validateStoryBank({}), /bank\.topics must be an array/);
+assert.throws(
+  () => validateStoryBank({}),
+  /bank\.sourceRefs must be a non-null plain object/,
+);
+
+for (const topics of [undefined, null, 42, "topics"]) {
+  assert.throws(
+    () => validateStoryBank({ topics, sourceRefs: {} }),
+    /bank\.topics must be an array/,
+  );
+}
+
+for (const sourceRefs of [null, [], "source refs", 42, true, new Date(0), new Map()]) {
+  assert.throws(
+    () => validateStoryBank({ topics: [fixture()], sourceRefs }),
+    /bank\.sourceRefs must be a non-null plain object/,
+  );
+}
+
 const duplicate = bankWith([
   fixture({ id: "real-001", eventKey: "messi|2007|getafe-goal" }),
   fixture({ id: "real-002", eventKey: "messi|2007|getafe-goal" }),
