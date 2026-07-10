@@ -26,6 +26,80 @@ const portfolioTargets = {
   cult_unusual: 20,
 };
 
+const EXPECTED_ROSTER = {
+  "Lionel Messi": { portfolio: "global_legend", target: 20 },
+  "Cristiano Ronaldo": { portfolio: "global_legend", target: 20 },
+  Pele: { portfolio: "global_legend", target: 8 },
+  "Diego Maradona": { portfolio: "global_legend", target: 8 },
+  "Johan Cruyff": { portfolio: "global_legend", target: 7 },
+  "Zinedine Zidane": { portfolio: "global_legend", target: 7 },
+  "Ronaldo Nazario": { portfolio: "global_legend", target: 7 },
+  Ronaldinho: { portfolio: "global_legend", target: 8 },
+  "David Beckham": { portfolio: "global_legend", target: 7 },
+  "Wayne Rooney": { portfolio: "global_legend", target: 6 },
+  "Thierry Henry": { portfolio: "global_legend", target: 7 },
+  Kaka: { portfolio: "global_legend", target: 5 },
+  "Andres Iniesta": { portfolio: "global_legend", target: 6 },
+  Xavi: { portfolio: "global_legend", target: 5 },
+  "Gianluigi Buffon": { portfolio: "global_legend", target: 5 },
+  "Paolo Maldini": { portfolio: "global_legend", target: 4 },
+  "Kylian Mbappe": { portfolio: "current_star", target: 6 },
+  "Erling Haaland": { portfolio: "current_star", target: 7 },
+  Neymar: { portfolio: "current_star", target: 6 },
+  "Mohamed Salah": { portfolio: "current_star", target: 5 },
+  "Kevin De Bruyne": { portfolio: "current_star", target: 2 },
+  "Luka Modric": { portfolio: "current_star", target: 5 },
+  "Jude Bellingham": { portfolio: "current_star", target: 5 },
+  "Vinicius Junior": { portfolio: "current_star", target: 4 },
+  "Robert Lewandowski": { portfolio: "current_star", target: 4 },
+  "Harry Kane": { portfolio: "current_star", target: 4 },
+  "Virgil van Dijk": { portfolio: "current_star", target: 3 },
+  "Antoine Griezmann": { portfolio: "current_star", target: 3 },
+  "N'Golo Kante": { portfolio: "current_star", target: 3 },
+  "Sadio Mane": { portfolio: "current_star", target: 3 },
+  "Marcus Rashford": { portfolio: "current_star", target: 3 },
+  "Romelu Lukaku": { portfolio: "current_star", target: 3 },
+  "Alphonso Davies": { portfolio: "current_star", target: 3 },
+  "Riyad Mahrez": { portfolio: "current_star", target: 3 },
+  "Angel Di Maria": { portfolio: "current_star", target: 3 },
+  Nani: { portfolio: "current_star", target: 3 },
+  Rodri: { portfolio: "current_star", target: 2 },
+  "Son Heung-min": { portfolio: "korea_asia", target: 12 },
+  "Park Ji-sung": { portfolio: "korea_asia", target: 5 },
+  "Cha Bum-kun": { portfolio: "korea_asia", target: 4 },
+  "Kim Min-jae": { portfolio: "korea_asia", target: 3 },
+  "Lee Kang-in": { portfolio: "korea_asia", target: 3 },
+  "Hwang Hee-chan": { portfolio: "korea_asia", target: 2 },
+  "Takefusa Kubo": { portfolio: "korea_asia", target: 2 },
+  "Kaoru Mitoma": { portfolio: "korea_asia", target: 2 },
+  "Keisuke Honda": { portfolio: "korea_asia", target: 2 },
+  "Hidetoshi Nakata": { portfolio: "korea_asia", target: 2 },
+  "Ali Daei": { portfolio: "korea_asia", target: 2 },
+  "Shinji Kagawa": { portfolio: "korea_asia", target: 1 },
+  Marta: { portfolio: "women", target: 5 },
+  "Alexia Putellas": { portfolio: "women", target: 4 },
+  "Aitana Bonmati": { portfolio: "women", target: 4 },
+  "Ada Hegerberg": { portfolio: "women", target: 3 },
+  "Sam Kerr": { portfolio: "women", target: 3 },
+  "Christine Sinclair": { portfolio: "women", target: 3 },
+  "Mia Hamm": { portfolio: "women", target: 2 },
+  "Abby Wambach": { portfolio: "women", target: 2 },
+  "Ji So-yun": { portfolio: "women", target: 2 },
+  "Cho So-hyun": { portfolio: "women", target: 1 },
+  "Wendie Renard": { portfolio: "women", target: 1 },
+  "Ian Wright": { portfolio: "cult_unusual", target: 3 },
+  "Jamie Vardy": { portfolio: "cult_unusual", target: 4 },
+  "Paolo Di Canio": { portfolio: "cult_unusual", target: 1 },
+  "Aaron Hunt": { portfolio: "cult_unusual", target: 1 },
+  "Marcelo Bielsa": { portfolio: "cult_unusual", target: 1 },
+  "Miroslav Klose": { portfolio: "cult_unusual", target: 2 },
+  "Rickie Lambert": { portfolio: "cult_unusual", target: 2 },
+  "Aritz Aduriz": { portfolio: "cult_unusual", target: 2 },
+  "Roger Milla": { portfolio: "cult_unusual", target: 2 },
+  "Dario Hubner": { portfolio: "cult_unusual", target: 1 },
+  "Luca Toni": { portfolio: "cult_unusual", target: 1 },
+};
+
 function sevenCards() {
   return Array.from({ length: 7 }, (_, index) => ({
     label: `card-${index + 1}`,
@@ -289,6 +363,16 @@ assert.deepEqual(
 );
 
 const rosterByName = new Map(roster.map((subject) => [subject.displayName, subject]));
+assert.equal(new Set(roster.map((subject) => subject.displayName)).size, 71);
+assert.deepEqual(
+  Object.fromEntries(
+    [...rosterByName].map(([displayName, subject]) => [
+      displayName,
+      { portfolio: subject.portfolio, target: subject.target },
+    ]),
+  ),
+  EXPECTED_ROSTER,
+);
 assert.equal(rosterByName.get("Lionel Messi").target, 20);
 assert.equal(rosterByName.get("Cristiano Ronaldo").target, 20);
 assert.equal(rosterByName.get("Son Heung-min").target, 12);
@@ -317,7 +401,15 @@ for (const subject of roster) {
   assert.ok(subject.searchNames.some((query) => query.trim() && query !== subject.displayName));
   assert.ok(Array.isArray(subject.prioritySources) && subject.prioritySources.length > 0);
 }
-assert.equal(rosterByName.get("Marcelo Bielsa").subjectType, "coach");
+assert.deepEqual(
+  roster.filter((subject) => subject.subjectType === "coach").map((subject) => subject.displayName).sort(),
+  ["Marcelo Bielsa"],
+);
+assert.ok(
+  roster
+    .filter((subject) => subject.displayName !== "Marcelo Bielsa")
+    .every((subject) => subject.subjectType === "player"),
+);
 
 const legacyById = new Map(legacyBank.topics.map((topic) => [topic.id, topic]));
 for (const topic of migratedBank.topics) {
