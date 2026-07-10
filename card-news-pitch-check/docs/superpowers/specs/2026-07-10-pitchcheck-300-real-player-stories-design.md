@@ -1,111 +1,111 @@
-# PitchCheck 300 Real Player Stories Design
+# 피치체크 실제 선수 스토리 300개 설계
 
-Date: 2026-07-10
+작성일: 2026-07-10
 
-## Goal
+## 목표
 
-Build a production-ready bank of 300 Korean Instagram carousel plans based on 300 distinct, verifiable football events. A player may have multiple episodes, but the same event cannot be counted twice through alternate hooks or wording changes.
+서로 다른 실제 축구 사건 300개를 바탕으로, 바로 인스타그램 캐러셀에 사용할 수 있는 한국어 기획안 300개를 만든다. 한 선수에게 여러 에피소드를 배정할 수 있지만, 같은 사건의 제목이나 훅만 바꿔 새로운 기획으로 세지 않는다.
 
-The bank must work deterministically without an LLM and preserve the same structure when Gemini Flash rewrites copy. Cards 1-5 deliver the football story, card 6 creates a natural amateur-team connection, and card 7 is the only direct PitchCheck CTA.
+LLM 없이도 항상 같은 구조의 결과물을 만들 수 있어야 하며, Gemini Flash가 카피를 다듬더라도 사실과 카드 구조는 유지되어야 한다. 1~5장은 축구 이야기만 전달하고, 6장은 아마추어 팀의 상황과 자연스럽게 연결하며, 7장에서만 피치체크를 직접 안내한다.
 
-## Existing Bank Reuse
+## 기존 60개 활용 방식
 
-The current 60-row bank contains 50 distinct event facts and 10 alternate-hook rows.
+현재 60개 뱅크에는 서로 다른 실제 사건 50개와, 같은 사건의 훅만 바꾼 항목 10개가 들어 있다.
 
-- Reuse the 50 distinct sourced events.
-- Exclude all 10 alternate-hook rows from the 300-event count.
-- Preserve useful source references, image queries, and event facts from the 50 rows.
-- Assign a stable `eventKey` to every reused event so future hook variants cannot be counted as new stories.
-- Rewrite weak scaffold copy such as meta commentary, generic motivational sentences, and forced PitchCheck bridges.
+- 출처가 있는 실제 사건 50개는 그대로 활용한다.
+- 대체 훅 10개는 300개 집계에서 제외한다.
+- 기존 50개의 출처, 이미지 검색어, 사실 요약 중 쓸 만한 정보는 보존한다.
+- 각 사건에 고유한 `eventKey`를 부여해 제목을 바꾼 중복 항목이 다시 들어오지 못하게 한다.
+- 메타 문구, 뻔한 교훈, 억지스러운 피치체크 연결 등 약한 초안 카피는 다시 쓴다.
 
-The final count is therefore:
+최종 구성은 다음과 같다.
 
-- 50 migrated distinct events
-- 250 newly researched distinct events
-- 300 total distinct events
+- 기존 실제 사건 50개
+- 새로 조사할 실제 사건 250개
+- 서로 다른 실제 사건 총 300개
 
-## Editorial Portfolio
+## 선수와 콘텐츠 구성
 
-Use a hybrid portfolio so recognisable names carry reach while less familiar stories create freshness.
+인지도가 높은 선수로 도달률을 확보하면서, 덜 알려진 신선한 이야기로 저장과 공유를 만들기 위해 하이브리드 구성을 사용한다.
 
-| Portfolio | Target |
+| 구성 | 목표 개수 |
 | --- | ---: |
-| Global superstars and legends | 130 |
-| Current active stars | 80 |
-| Korean and Asian players | 40 |
-| Women's football | 30 |
-| Cult heroes, lower-league stories, and unusual fair-play events | 20 |
-| Total | 300 |
+| 글로벌 슈퍼스타와 레전드 | 130 |
+| 현재 활약 중인 스타 | 80 |
+| 한국 및 아시아 선수 | 40 |
+| 여자축구 선수 | 30 |
+| 컬트 히어로, 하부리그, 특이한 페어플레이 사건 | 20 |
+| 합계 | 300 |
 
-Portfolio labels are exclusive accounting buckets even when a player could fit multiple groups. Lionel Messi and Cristiano Ronaldo should each receive roughly 18-20 distinct events. Son Heung-min should receive roughly 10-12. Neymar, Zlatan Ibrahimovic, Ronaldinho, David Beckham, Wayne Rooney, Thierry Henry, Kylian Mbappe, Mohamed Salah, Luka Modric, Kevin De Bruyne, and comparable anchors should receive 5-10 when enough strong sourced events exist.
+한 선수가 여러 분류에 해당하더라도 집계할 때는 한 분류에만 넣는다. 리오넬 메시와 크리스티아누 호날두는 각각 약 18~20개, 손흥민은 약 10~12개를 목표로 한다. 네이마르, 즐라탄 이브라히모비치, 호나우지뉴, 데이비드 베컴, 웨인 루니, 티에리 앙리, 킬리안 음바페, 모하메드 살라, 루카 모드리치, 케빈 더 브라위너 등은 좋은 출처가 충분할 때 각각 5~10개를 배정한다.
 
-Do not force a quota when the available stories are weak. Reallocate unused slots to another player with stronger evidence and visuals.
+정해둔 개수를 채우기 위해 약한 이야기를 억지로 넣지 않는다. 출처나 장면이 약하면, 더 강한 이야기가 있는 다른 선수에게 수량을 재배정한다.
 
-## Event Eligibility
+## 실제 사건으로 인정하는 기준
 
-An event is eligible only when all conditions are met:
+아래 조건을 모두 만족해야 기획안에 포함한다.
 
-1. It concerns a real football player and a concrete action, scene, decision, conflict, object, quote, or consequence.
-2. It has one direct or primary source, or two independent reputable secondary sources.
-3. It can be explained without inventing dialogue, motives, dates, numbers, or causality.
-4. It is distinct from every existing `eventKey`.
-5. It supports a curiosity-driven cover without withholding information dishonestly.
-6. It has a concrete visual route such as an official image, match frame, interview frame, archival scene, or safe reconstruction.
-7. It provides a natural reason to save, share, tag, or comment.
+1. 실제 축구 선수에게 일어난 구체적인 행동, 장면, 선택, 갈등, 물건, 발언 또는 결과여야 한다.
+2. 선수 본인이나 공식 기관 등 직접 출처 하나가 있거나, 신뢰할 수 있는 독립적인 보도 출처 두 개가 있어야 한다.
+3. 대화, 동기, 날짜, 숫자, 인과관계를 지어내지 않고 설명할 수 있어야 한다.
+4. 기존 모든 `eventKey`와 다른 사건이어야 한다.
+5. 사실을 왜곡하지 않으면서 궁금증형 표지를 만들 수 있어야 한다.
+6. 공식 사진, 경기 영상, 인터뷰 영상, 기록 화면, 안전한 재현 이미지 등 구체적인 시각화 경로가 있어야 한다.
+7. 저장, 공유, 친구 태그 또는 댓글을 유도할 자연스러운 이유가 있어야 한다.
 
-Reject unsourced social-media anecdotes, Wikipedia-only claims, quote-card websites, duplicated events, generic career summaries, transfer rumours presented as facts, and tragedy used only as clickbait.
+출처 없는 SNS 썰, 위키백과만 근거로 한 주장, 명언 카드 사이트, 중복 사건, 단순 커리어 요약, 확인되지 않은 이적설, 비극만 자극적으로 소비하는 소재는 제외한다.
 
-## Source Standard
+## 출처 기준
 
-Use this order of preference:
+다음 순서로 출처를 우선한다.
 
-1. Player-authored articles, autobiographical excerpts, direct interviews, official documentaries, and verified player or club statements.
-2. FIFA, UEFA, confederations, leagues, clubs, national teams, and tournament archives.
-3. Reuters, AP, BBC, ESPN, The Guardian, major newspapers, and established football publications.
-4. Credible specialist reporting when a stronger source is unavailable.
+1. 선수가 직접 쓴 글, 자서전 발췌, 직접 인터뷰, 공식 다큐멘터리, 선수·구단의 공식 발표
+2. FIFA, UEFA, 대륙 연맹, 리그, 구단, 국가대표팀, 대회 공식 기록
+3. Reuters, AP, BBC, ESPN, The Guardian, 주요 신문과 검증된 축구 매체
+4. 더 강한 출처를 찾기 어려울 때 사용하는 신뢰도 높은 전문 매체
 
-Scrapling is a URL reader, not the discovery engine. Discover candidate URLs through targeted search, then pass a conservative curated list through Scrapling. Split research into source packs of approximately 25-40 URLs to keep review manageable.
+Scrapling은 소재를 발견하는 검색기가 아니라, 선택한 URL을 깊게 읽는 도구로 사용한다. 먼저 검색을 통해 후보 URL을 찾고, 검토한 URL만 Scrapling에 넣는다. 한 번에 약 25~40개 URL로 출처 팩을 나눠 검토한다.
 
-Sensitive allegations, disciplinary cases, crime, family deaths, medical claims, and disputed transfers require either a primary source or two reputable sources. Every row stores source tier, verification status, and any caveat.
+범죄, 징계, 가족 사망, 의료 정보, 논란이 있는 이적이나 계약 등 민감한 내용은 직접 출처 하나 또는 신뢰할 수 있는 출처 두 개가 필요하다. 모든 사건에는 출처 등급, 검증 상태, 주의 문구를 저장한다.
 
-## Story Categories
+## 이야기 종류
 
-Maintain variety across the bank. Categories include:
+300개가 비슷한 성공담으로 보이지 않도록 다음 유형을 섞는다.
 
-- unknown childhood scenes and objects
-- rejection, late breakthroughs, and second chances
-- transfer, contract, and dressing-room backstories
-- tactical adaptations and signature-skill origins
-- injuries, recoveries, and hidden match context
-- family sacrifice, mentors, and teammate relationships
-- rivalry, pressure, and misunderstood public images
-- fair play, honesty, leadership, and unusual decisions
-- national-team and tournament stories
-- community impact and social action
-- funny routines, superstitions, pranks, and culture shock
-- records with surprising context rather than bare ranking lists
+- 잘 알려지지 않은 어린 시절 장면과 물건
+- 방출, 거절, 늦은 데뷔, 두 번째 기회
+- 이적, 계약, 라커룸 뒷이야기
+- 플레이 스타일과 대표 기술이 만들어진 계기
+- 부상, 회복, 유명 경기 뒤에 숨은 상황
+- 가족의 희생, 은사, 동료 관계
+- 라이벌 관계, 압박, 잘못 알려진 선수 이미지
+- 페어플레이, 정직, 리더십, 특이한 경기 중 선택
+- 국가대표팀과 국제대회 비하인드
+- 사회 활동과 고향에 대한 기여
+- 루틴, 징크스, 장난, 문화 충격 등 재미있는 일화
+- 숫자만 나열하지 않고 맥락이 놀라운 기록
 
-No single category may exceed 20 percent of the bank. Poverty, war, bereavement, and family tragedy combined should remain below 15 percent so the channel does not become exploitative or emotionally one-note.
+한 유형이 전체의 20%를 넘지 않게 한다. 가난, 전쟁, 사별, 가족 비극을 합친 비중은 15% 미만으로 유지해 콘텐츠가 감정 착취처럼 보이지 않게 한다.
 
-## Data Model
+## 데이터 구조
 
-Move source facts out of the large JavaScript generator and into validated JSON data.
+사실 데이터를 거대한 자바스크립트 파일에 직접 넣지 않고, 검증 가능한 JSON 데이터로 분리한다.
 
-Each story record contains:
+각 사건은 다음 정보를 가진다.
 
 ```json
 {
   "id": "real-001-player-event",
-  "eventKey": "player|year-or-era|canonical-event",
-  "player": "Player Name",
-  "portfolio": "global-legend",
+  "eventKey": "선수|연도-또는-시기|대표-사건명",
+  "player": "선수 이름",
+  "portfolio": "global_legend",
   "category": "transfer-backstory",
-  "eventDate": "YYYY-MM-DD or documented era",
-  "hook": "Korean curiosity hook",
-  "fact": "Verified event summary",
-  "context": "Information needed to understand the scene",
-  "whyFun": "Why a football fan cares",
-  "shareTrigger": "Natural save, share, or comment reason",
+  "eventDate": "YYYY-MM-DD 또는 확인된 시기",
+  "hook": "한국어 궁금증형 훅",
+  "fact": "검증된 사건 요약",
+  "context": "사건을 이해하는 데 필요한 배경",
+  "whyFun": "축구 팬이 재미있어할 이유",
+  "shareTrigger": "저장·공유·댓글을 누를 이유",
   "sourceRefs": ["source-id"],
   "verification": {
     "status": "verified",
@@ -117,114 +117,116 @@ Each story record contains:
 }
 ```
 
-Maintain a separate source catalog keyed by `source-id`, containing URL, publisher, title, publication date, source tier, media candidates, rights note, retrieval status, and local source-pack path.
+출처는 별도의 카탈로그에서 `source-id`로 관리한다. 출처 카탈로그에는 URL, 매체, 제목, 발행일, 출처 등급, 이미지·영상 후보, 사용 권리 메모, 수집 상태, 로컬 출처 팩 경로를 기록한다.
 
-## Seven-Card Storyboard
+## 7장 스토리보드
 
-Every one of the 300 records includes complete copy and a visual job for each card.
+300개 모두 7장의 완성 카피와 카드별 이미지 역할을 가진다.
 
-1. Attention: a concrete mystery, contradiction, object, number, or decision. Do not reveal the answer prematurely.
-2. Interest: establish time, place, stakes, and the visible scene without filler.
-3. Reveal: state the sourced event clearly and precisely.
-4. Meaning: show the consequence, reversal, football significance, or human emotion.
-5. Social response: invite a specific opinion, comparison, friend tag, or save reason tied to the event.
-6. Soft bridge: connect the event to one of four amateur-team situations: gathering players, assigning roles, communicating changes, or preserving team records. Do not mention installation, profile links, or app features here.
-7. Action: show real PitchCheck brand/product evidence and use the fixed action pair: profile link plus the `[피치체크]` comment keyword.
+1. 관심: 구체적인 미스터리, 모순, 물건, 숫자 또는 선택을 던진다. 답을 너무 일찍 공개하지 않는다.
+2. 흥미: 시간, 장소, 이해관계와 눈앞의 장면을 군더더기 없이 보여준다.
+3. 공개: 출처로 확인된 실제 사건을 명확하게 설명한다.
+4. 의미: 사건의 결과, 반전, 축구적 의미 또는 감정을 보여준다.
+5. 반응: 사건과 직접 연결된 의견, 비교, 친구 태그, 저장 이유를 제안한다.
+6. 자연스러운 연결: 선수 모으기, 역할 정하기, 변경사항 전달하기, 팀 기록 남기기 중 어울리는 아마추어 팀 상황으로 연결한다. 설치, 프로필 링크, 앱 기능은 언급하지 않는다.
+7. 행동: 실제 피치체크 로고와 제품 장면을 보여주고, 프로필 링크와 댓글 키워드 `[피치체크]`를 안내한다.
 
-Card 6 must be selected from a bridge taxonomy rather than generated from a generic motivational sentence. If no natural bridge exists, use a brief football-fan reflection and let card 7 make the product transition.
+6번 장은 뻔한 동기부여 문장을 생성하지 않고, 정해진 연결 유형 중 사건에 맞는 것을 선택한다. 자연스러운 연결이 없는 이야기라면 짧은 축구 팬 공감으로 마무리하고, 7번에서만 제품으로 전환한다.
 
-## Copy Rules
+## 카피 규칙
 
-- Use short, spoken Korean with one idea per card.
-- Prefer visible actions and objects over abstract adjectives.
-- Never use meta copy such as "정답을 바로 말하면 재미없어요".
-- Do not write generic lessons such as "포기하지 않으면 성공한다".
-- Preserve factual uncertainty with phrases such as "인터뷰에서 말했다" or "보도에 따르면".
-- Do not manufacture direct quotations.
-- Store semantic text blocks; let HTML/CSS perform wrapping. Manual line breaks must follow phrase boundaries and cannot strand one- or two-character fragments.
-- Cards 1-5 cannot contain PitchCheck, app, install, download, profile-link, or usage-video language.
-- Run Korean humanization and line-break QA on deterministic and Gemini-generated copy.
+- 짧고 말하듯 자연스러운 한국어를 쓴다.
+- 카드마다 한 가지 이야기만 전달한다.
+- 추상적인 형용사보다 눈에 보이는 행동과 물건을 쓴다.
+- `정답을 바로 말하면 재미없어요` 같은 제작자 시점의 문구를 쓰지 않는다.
+- `포기하지 않으면 성공한다` 같은 뻔한 교훈을 쓰지 않는다.
+- 불확실성이 있는 사실은 `인터뷰에서 말했다`, `보도에 따르면`처럼 출처 수준을 문장에 반영한다.
+- 확인되지 않은 직접 인용문을 만들지 않는다.
+- 글은 의미 단위로 저장하고 HTML/CSS가 자동으로 줄바꿈하게 한다.
+- 수동 줄바꿈이 필요하면 어절과 문장 성분을 지키며, 한두 글자만 홀로 남기지 않는다.
+- 1~5장에는 피치체크, 앱, 설치, 다운로드, 프로필 링크, 사용 영상 문구를 넣지 않는다.
+- 고정 카피와 Gemini 카피 모두 한국어 자연스러움과 줄바꿈 검사를 통과해야 한다.
 
-## Visual Planning
+## 이미지와 영상 계획
 
-Every story includes:
+모든 사건에 다음 내용을 포함한다.
 
-- one cover query focused on the player and the event;
-- one context query for the club, tournament, childhood, interview, or location;
-- one proof query tied to the source or match;
-- one reaction or consequence query;
-- one fallback reconstruction prompt;
-- per-card crop and subject guidance;
-- `direct-use`, `licensed`, `reference-only`, or `recreate` usage status.
+- 선수와 사건을 함께 찾는 표지 이미지 검색어
+- 구단, 대회, 어린 시절, 인터뷰, 장소 등을 찾는 배경 검색어
+- 출처나 실제 경기를 확인하는 증거 이미지 검색어
+- 반응이나 결과를 보여주는 검색어
+- 사용할 수 있는 실제 이미지가 없을 때의 재현 이미지 프롬프트
+- 카드별 크롭 위치와 주요 피사체 안내
+- `직접 사용`, `라이선스 확인`, `참고 전용`, `재현 필요` 상태
 
-Research stores candidate metadata first. The system downloads only assets with acceptable rights or explicitly permitted local media. Reference-only editorial images may guide cropping and reconstruction but cannot silently become publishable assets.
+리서치 단계에서는 이미지 후보의 정보부터 저장한다. 사용 권리가 확인됐거나 사용자가 제공한 로컬 미디어만 자동 다운로드한다. 기사 사진처럼 참고 전용인 이미지는 구도와 장면 참고에는 쓸 수 있지만, 게시 가능한 이미지로 몰래 처리하지 않는다.
 
-Cards 6-7 use the verified local PitchCheck logo, real team/product captures, and approved CTA media. Generic gallery screens, pets, unrelated football stock, and AI portraits are rejected.
+6~7장은 로컬에서 확인한 실제 피치체크 로고, 팀 화면, 제품 캡처, 승인된 CTA 미디어를 사용한다. 일반 갤러리 화면, 동물 사진, 관련 없는 축구 스톡, AI 선수 초상은 제외한다.
 
-## Pipeline
+## 제작 흐름
 
-1. Migrate 50 distinct existing events and assign `eventKey` values.
-2. Build a roster and quota manifest for the remaining 250 events.
-3. Discover high-quality candidate sources in manageable player batches.
-4. Produce Scrapling source packs from selected URLs.
-5. Extract atomic event candidates with evidence snippets and media candidates.
-6. Deduplicate by player, canonical event, date/era, and semantic fact similarity.
-7. Score and reject weak candidates.
-8. Write complete deterministic Korean storyboards and visual plans.
-9. Validate all records against the schema and editorial rules.
-10. Let Gemini Flash rewrite only inside the verified fact boundary.
-11. Generate the final 300-story bank, source catalog, audit report, and image-query ledger.
+1. 기존 실제 사건 50개를 옮기고 `eventKey`를 부여한다.
+2. 남은 250개를 채울 선수 명단과 수량표를 만든다.
+3. 선수 묶음별로 신뢰할 수 있는 출처 후보를 찾는다.
+4. 선택한 URL로 Scrapling 출처 팩을 만든다.
+5. 기사와 인터뷰에서 하나의 장면으로 설명 가능한 사건을 추출한다.
+6. 선수, 대표 사건, 날짜·시기, 의미 유사도를 기준으로 중복을 제거한다.
+7. 점수를 매겨 약한 후보를 제외한다.
+8. 완성된 한국어 7장 카피와 이미지 계획을 작성한다.
+9. 모든 데이터를 스키마와 편집 규칙으로 검사한다.
+10. Gemini Flash는 검증된 사실 범위 안에서만 카피를 다듬는다.
+11. 최종 300개 뱅크, 출처 카탈로그, 검수 보고서, 이미지 검색 장부를 생성한다.
 
-## Quality Scoring
+## 품질 점수
 
-Score every candidate out of 100:
+후보마다 100점 만점으로 평가한다.
 
-| Dimension | Points |
+| 평가 항목 | 배점 |
 | --- | ---: |
-| Source confidence | 25 |
-| Specificity of the scene | 20 |
-| Hook strength | 15 |
-| Freshness to Korean football fans | 15 |
-| Visual potential | 15 |
-| Save, share, or comment potential | 10 |
+| 출처 신뢰도 | 25 |
+| 장면의 구체성 | 20 |
+| 첫 장 훅의 힘 | 15 |
+| 한국 축구 팬에게 느껴지는 신선함 | 15 |
+| 이미지·영상 가능성 | 15 |
+| 저장·공유·댓글 가능성 | 10 |
 
-The default publishing threshold is 75. Source confidence below 15 is an automatic rejection regardless of total score.
+기본 통과 기준은 75점이다. 출처 신뢰도가 15점 미만이면 총점과 관계없이 제외한다.
 
-Automated checks must fail when:
+다음 조건에서는 자동 검사가 실패해야 한다.
 
-- total rows are not exactly 300;
-- unique `eventKey` count is not exactly 300;
-- any story lacks seven cards;
-- any source reference is missing from the catalog;
-- cards 1-5 contain forbidden PitchCheck CTA terms;
-- a card lacks a visual job;
-- the same event is reused as an alternate hook;
-- a required verification caveat is absent.
+- 전체 사건이 정확히 300개가 아닌 경우
+- 고유한 `eventKey`가 정확히 300개가 아닌 경우
+- 7장이 모두 없는 기획안이 있는 경우
+- 출처 카탈로그에 없는 `sourceRef`가 있는 경우
+- 1~5장에 금지된 피치체크 CTA 문구가 있는 경우
+- 이미지 역할이 비어 있는 카드가 있는 경우
+- 같은 사건이 대체 훅으로 다시 들어간 경우
+- 필요한 주의 문구가 빠진 경우
 
-## Gemini Boundary
+## Gemini가 바꿀 수 있는 범위
 
-Gemini Flash may improve Korean hooks, rhythm, and captions, but it cannot change `eventKey`, player, date, factual claim, source references, verification status, card count, CTA position, or visual rights status.
+Gemini Flash는 한국어 훅, 문장 리듬, 캡션을 개선할 수 있다. 하지만 `eventKey`, 선수, 날짜, 실제 사실, 출처, 검증 상태, 카드 수, CTA 위치, 이미지 사용 권리 상태는 변경할 수 없다.
 
-When Gemini output fails validation, the deterministic version remains the usable fallback. This keeps output quality and structure independent of model availability.
+Gemini 출력이 검사를 통과하지 못하면 고정 생성 카피를 그대로 사용한다. 모델이 없거나 바뀌어도 결과 구조와 사실 품질이 무너지지 않게 한다.
 
-## Deliverables
+## 최종 산출물
 
 - `samples/pitchcheck/real-player-story-bank-300.json`
 - `samples/pitchcheck/real-player-source-catalog-300.json`
 - `samples/pitchcheck/real-player-roster-300.json`
 - `assets/reference/web/real-player-story-images-300.json`
 - `assets/reference/web/real-player-story-image-ledger-300.md`
-- batched source packs under `docs/research/real-player-stories/`
+- `docs/research/real-player-stories/` 아래의 선수 묶음별 출처 팩
 - `docs/pitchcheck-real-player-story-audit-300.md`
-- generator, migration, validation, deduplication, and image-query scripts
-- updated Gemini, render, package, and npm defaults
+- 생성, 마이그레이션, 검증, 중복 제거, 이미지 검색 스크립트
+- 300개 뱅크를 기본값으로 사용하는 Gemini, 렌더링, 패키징, npm 명령
 
-## Verification
+## 검증 방법
 
-Verification includes schema parsing, exact-count and unique-event tests, source-catalog integrity, forbidden-copy checks, seven-card checks, duplicate-fact similarity review, image-ledger completeness, deterministic render of representative topics, Gemini dry-run compatibility, and the existing test suite.
+JSON 스키마 검사, 정확한 개수와 고유 사건 검사, 출처 연결 검사, 금지 카피 검사, 7장 검사, 유사 사건 검토, 이미지 장부 완성도 검사, 대표 주제 렌더링, Gemini 드라이런 호환성, 기존 테스트를 모두 실행한다.
 
-Representative render QA must include at least Lionel Messi, Cristiano Ronaldo, Son Heung-min, one women's football story, one lesser-known player, and one migrated event from the original bank.
+대표 렌더링 검수에는 메시, 호날두, 손흥민, 여자축구 선수 한 명, 덜 알려진 선수 한 명, 기존 뱅크에서 옮긴 사건 한 개가 반드시 포함되어야 한다.
 
-## Scope Boundary
+## 이번 작업의 범위
 
-This phase creates the 300 complete plans and the automation required to reproduce them. It does not automatically publish 300 posts or download unlicensed editorial photography. Rendering and publishing remain selectable downstream steps after topic and media approval.
+이번 단계에서는 완성된 기획안 300개와 이를 반복 생성하는 자동화 코드를 만든다. 300개 게시물을 자동 업로드하거나, 사용 권리가 없는 기사 사진을 일괄 다운로드하지는 않는다. 렌더링과 게시 작업은 주제와 이미지가 승인된 뒤 선택적으로 실행한다.
