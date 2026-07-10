@@ -804,6 +804,56 @@ assert.deepEqual(
 const mbappeHaalandByEventKey = new Map(
   mbappeHaalandSeeds.topics.map((topic) => [topic.eventKey, topic]),
 );
+const mbappeHaalandNoneFoundSourceIds = new Set([
+  "mbappe_source_01",
+  "mbappe_source_02",
+  "mbappe_source_03",
+  "mbappe_source_04",
+  "haaland_source_01",
+  "haaland_source_02",
+  "haaland_source_10",
+]);
+const mbappeHaalandExpectedGrounding = new Map([
+  ["mbappe-004-monaco-manchester-city-two-leg-scoring", ["mbappe_source_05"]],
+  ["mbappe-005-five-champions-league-goals-at-eighteen", ["mbappe_source_07"]],
+  ["mbappe-007-uefa-competition-debut-before-sixteen", ["mbappe_source_10"]],
+  ["mbappe-010-france-all-time-top-scorer", ["mbappe_source_10"]],
+  ["haaland-001-youngest-champions-league-first-half-hat-trick", ["haaland_source_03"]],
+  ["haaland-002-eight-goals-in-first-five-champions-league-appearances", ["haaland_source_05"]],
+  ["haaland-009-fastest-fifty-champions-league-goals", ["haaland_source_05"]],
+]);
+function mbappeHaalandSourceSnippets(sourceRef) {
+  const match = /^(mbappe|haaland)_source_(\d+)$/.exec(sourceRef);
+  assert.ok(match, `${sourceRef}: malformed Mbappe/Haaland source ID`);
+  const sourceNumber = Number(match[2]) + (match[1] === "haaland" ? 10 : 0);
+  const pack = sourcePackInputs["docs/research/real-player-stories/source-pack-04-mbappe-haaland.md"];
+  const section = pack
+    .split(/^## Source /m)
+    .find((candidate) => candidate.startsWith(`${sourceNumber}:`));
+  assert.ok(section, `${sourceRef}: missing source section in the batch source pack`);
+  const snippets = section.match(/### Useful Text Snippets\s*\n([\s\S]*?)(?=\n### |\n## |$)/);
+  assert.ok(snippets, `${sourceRef}: missing Useful Text Snippets block`);
+  return snippets[1];
+}
+for (const topic of mbappeHaalandSeeds.topics) {
+  for (const sourceRef of topic.sourceRefs) {
+    assert.equal(
+      mbappeHaalandNoneFoundSourceIds.has(sourceRef),
+      false,
+      `${topic.id}: batch must not use a source whose Useful Text Snippets are _None found._`,
+    );
+    assert.doesNotMatch(
+      mbappeHaalandSourceSnippets(sourceRef),
+      /^_None found\._\s*$/,
+      `${topic.id}: ${sourceRef} has no explicit Scrapling Useful Text Snippets`,
+    );
+  }
+}
+for (const [topicId, expectedSourceRefs] of mbappeHaalandExpectedGrounding) {
+  const topic = mbappeHaalandSeeds.topics.find((candidate) => candidate.id === topicId);
+  assert.ok(topic, `${topicId}: targeted grounded replacement topic is missing`);
+  assert.deepEqual(topic.sourceRefs, expectedSourceRefs, `${topicId}: targeted source mapping changed`);
+}
 for (const entry of mbappeHaalandKoreanIndex) {
   const topic = mbappeHaalandByEventKey.get(entry.eventKey);
   assert.ok(topic, `${entry.eventKey}: Korean index eventKey missing from Mbappe/Haaland seeds`);

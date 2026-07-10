@@ -848,17 +848,17 @@ _None found._
 - evidence: UEFA 경기 기사에 따르면 음바페는 2017년 4월 도르트문트전에서 전후반 한 골씩 넣어 모나코의 3-2 승리에 기여했다.
 - scope: 해당 챔피언스리그 8강 1차전의 두 골과 경기 흐름만 다룬다.
 
-### 4. 프랑스의 월드컵 최연소 득점자
-- eventKey: `kylian-mbappe|2018|youngest-french-world-cup-scorer`
-- source IDs: mbappe_source_02
-- evidence: FIFA는 2018년 페루전 결승골로 음바페가 19세 183일에 프랑스 월드컵 최연소 득점자가 됐다고 기록한다.
-- scope: 2018 러시아 월드컵 프랑스-페루전의 득점 연령 기록만 다룬다.
+### 4. 맨체스터 시티전 두 경기 득점
+- eventKey: `kylian-mbappe|2017|monaco-manchester-city-two-leg-scoring`
+- source IDs: mbappe_source_05
+- evidence: UEFA는 음바페가 모나코의 맨체스터 시티전 두 경기에서 모두 득점했고, 첫 두 챔피언스리그 선발 경기에서 이 기록을 만들었다고 전한다.
+- scope: 2016/17 챔피언스리그 맨체스터 시티전 두 경기와 첫 두 선발 경기 기록만 다룬다.
 
-### 5. 펠레 이후 가장 어린 녹아웃 멀티골 기록
-- eventKey: `kylian-mbappe|2018|youngest-knockout-brace-since-pele`
-- source IDs: mbappe_source_03
-- evidence: FIFA는 음바페가 2018년 아르헨티나전 두 골로 1958년 펠레 이후 월드컵 녹아웃에서 가장 어린 멀티골 선수가 됐고 영플레이어상을 받았다고 전한다.
-- scope: 2018 월드컵 아르헨티나전과 대회 영플레이어상에 한정하며 이후 수상 이력은 포함하지 않는다.
+### 5. 18세 120일의 챔피언스리그 5골
+- eventKey: `kylian-mbappe|2017|five-champions-league-goals-at-eighteen`
+- source IDs: mbappe_source_07
+- evidence: UEFA는 음바페가 18세 120일에 챔피언스리그 5골을 기록해 대회 기록을 세웠다고 정리한다.
+- scope: 18세 120일과 챔피언스리그 5골이라는 기록만 다룬다.
 
 ### 6. 월드컵 결승 해트트릭
 - eventKey: `kylian-mbappe|2022|world-cup-final-hat-trick`
@@ -866,11 +866,11 @@ _None found._
 - evidence: UEFA는 2022년 아르헨티나와의 월드컵 결승에서 음바페가 결승전 역사상 두 번째 해트트릭을 기록했다고 보도한다.
 - scope: 2022 카타르 월드컵 결승의 3득점과 승부차기 결과만 다룬다.
 
-### 7. 카타르 월드컵 8골 골든부트
-- eventKey: `kylian-mbappe|2022|world-cup-golden-boot`
-- source IDs: mbappe_source_04
-- evidence: FIFA 기록 페이지는 음바페가 2022 월드컵에서 8골로 득점왕이 되어 adidas 골든부트를 받았다고 명시한다.
-- scope: 2022 월드컵 대회 득점과 수상에 한정하며 클럽 시즌 득점은 포함하지 않는다.
+### 7. 16세 생일 열흘 전 UEFA 대회 데뷔
+- eventKey: `kylian-mbappe|2014|uefa-competition-debut-before-sixteen`
+- source IDs: mbappe_source_10
+- evidence: UEFA는 음바페가 16번째 생일을 열흘 앞두고 UEFA 대회 첫 경기를 치렀다고 정리한다.
+- scope: 첫 UEFA 대회 출전 시점과 이후 시니어 UEFA 클럽 대회 데뷔의 상대적 간격만 다룬다.
 
 ### 8. 레알 마드리드의 5년 계약 발표
 - eventKey: `kylian-mbappe|2024|real-madrid-five-year-contract`
@@ -884,23 +884,23 @@ _None found._
 - evidence: UEFA는 음바페가 2024년 12월 10일 25세에 챔피언스리그 50골에 도달했다고 정리한다.
 - scope: UEFA 클럽 대항전 통계의 2024년 12월 10일 기준에 한정하며 현재 누적 기록으로 갱신하지 않는다.
 
-### 10. 19세 월드컵 우승과 결승 득점
-- eventKey: `kylian-mbappe|2018|world-champion-at-nineteen`
-- source IDs: mbappe_source_01
-- evidence: FIFA는 음바페가 19세에 프랑스의 2018 월드컵 우승에 기여했고 결승에서 득점한 10대 선수였다고 설명한다.
-- scope: 2018 월드컵 우승과 결승 득점이라는 대회 맥락만 다루며 선수 경력 전체의 순위를 주장하지 않는다.
+### 10. 프랑스 역대 최다 득점자
+- eventKey: `kylian-mbappe|2026|france-all-time-top-scorer`
+- source IDs: mbappe_source_10
+- evidence: UEFA는 음바페가 2025/26 챔피언스리그 득점왕에 오른 뒤 프랑스 대표팀 역대 최다 득점자가 됐다고 정리한다.
+- scope: UEFA 기록 기사에 명시된 2025/26 득점왕과 프랑스 최다 득점자 서술만 다룬다.
 
-### 11. U-20 월드컵 한 경기 9골
-- eventKey: `erling-haaland|2019|u20-nine-goal-match`
-- source IDs: haaland_source_02
-- evidence: FIFA는 2019 U-20 월드컵 노르웨이-온두라스전에서 홀란이 9골을 넣어 한 경기 최다 득점 기록을 세웠다고 기록한다.
-- scope: 2019년 5월 30일 U-20 월드컵 조별리그 한 경기의 기록만 다룬다.
+### 11. 최연소 챔피언스리그 전반 해트트릭
+- eventKey: `erling-haaland|2019|youngest-champions-league-first-half-hat-trick`
+- source IDs: haaland_source_03
+- evidence: UEFA는 홀란이 잘츠부르크의 챔피언스리그 데뷔전에서 전반 해트트릭을 완성해 대회 최연소 전반 해트트릭 선수가 됐다고 기록한다.
+- scope: 2019년 잘츠부르크-헹크 데뷔전의 전반 해트트릭과 최연소 기록만 다룬다.
 
-### 12. U-20 월드컵 득점왕
-- eventKey: `erling-haaland|2019|u20-golden-boot`
-- source IDs: haaland_source_01
-- evidence: FIFA U-20 월드컵 기록표는 홀란을 2019년 대회 9골 득점왕으로 표시한다.
-- scope: 2019 U-20 월드컵 개인 득점왕 기록에 한정하며 A대표팀이나 클럽 득점은 포함하지 않는다.
+### 12. 첫 5경기 챔피언스리그 8골
+- eventKey: `erling-haaland|2019|eight-goals-in-first-five-champions-league-appearances`
+- source IDs: haaland_source_05
+- evidence: UEFA는 홀란이 챔피언스리그 첫 5경기에서 8골을 넣어 이 기록을 세운 네 번째 선수였다고 정리한다.
+- scope: 챔피언스리그 첫 5경기 8골과 네 번째 선수라는 기록만 다룬다.
 
 ### 13. 챔피언스리그 데뷔전 전반 해트트릭
 - eventKey: `erling-haaland|2019|champions-league-debut-hat-trick`
@@ -938,11 +938,11 @@ _None found._
 - evidence: UEFA는 홀란이 2023년 라이프치히전에서 5골을 넣었고 22세 236일, 25경기 만에 챔피언스리그 30골에 도달했다고 기록한다.
 - scope: 2023년 3월 14일 7-0 경기의 5골과 당시 30골 기록에 한정한다.
 
-### 19. 한 시즌 공식전 52골
-- eventKey: `erling-haaland|2023|fifty-two-goal-all-competitions-season`
-- source IDs: haaland_source_10
-- evidence: 맨체스터 시티 2022/23 연차보고서는 홀란이 모든 대회를 합쳐 52골을 넣어 프리미어리그 선수의 단일 시즌 기록을 세웠다고 명시한다.
-- scope: 2022/23 시즌 공식전 합산 52골과 보고서의 기록 서술만 다룬다.
+### 19. 49경기 만에 챔피언스리그 50골
+- eventKey: `erling-haaland|2025|fastest-fifty-champions-league-goals`
+- source IDs: haaland_source_05
+- evidence: UEFA는 홀란이 2025/26 시즌 나폴리전에서 챔피언스리그 50골을 49경기 만에 달성해 최단 경기 기록을 세웠다고 기록한다.
+- scope: 2025/26 나폴리전과 챔피언스리그 49경기 50골 기록만 다룬다.
 
 ### 20. 35경기 만에 챔피언스리그 40골
 - eventKey: `erling-haaland|2023|fastest-forty-champions-league-goals`
