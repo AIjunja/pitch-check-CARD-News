@@ -19,7 +19,7 @@
 | 카드 | 역할 | 선택 에셋 | 상태 | 사용 방식 |
 |---|---|---|---|---|
 | 1 | Attention | `assets/official/pl-son-100-hero.jpg` | reference-only | 풀블리드 세리머니. 손흥민을 우측에 두고 좌측 상단을 제목 안전영역으로 사용. |
-| 2 | Interest | `assets/official/spurs-brighton-100.jpg` | reference-only | 브라이턴전 액션 컷. 100호 골이 나온 실제 경기 맥락을 보여준다. |
+| 2 | Interest | `assets/official/pl-son-100-hero.jpg` | reference-only | 프리미어리그가 100호 골 기사에 사용한 공식 세리머니 사진. `100호 골 직후`라고 명시한다. |
 | 3 | Desire | `assets/official/spurs-source-page.png` | reference-only | 공식 토트넘 페이지의 제목과 첫 문단을 증거 영역으로 크롭한다. 쿠키 팝업 영역은 사용하지 않는다. |
 | 4 | Proof | HTML-native 재현 | recreate | 25야드 컬러의 출발점, 슈팅 궤적, 골문 상단 코너를 피치 다이어그램으로 재현한다. |
 | 5 | Meaning | `assets/official/spurs-first-pl-goal.jpg` + `pl-son-100-hero.jpg` | reference-only | 2015년 첫 골과 2023년 100호 골을 좌우 비교한다. |
@@ -48,3 +48,7 @@
 - 1~5번의 선수 스토리만 사건별로 교체한다.
 - 6번은 운영자 공감, 7번은 설치 행동이라는 AIDA 역할을 바꾸지 않는다.
 - 새로운 가상 앱 대시보드 이미지를 생성해 6·7번에 넣지 않는다.
+
+## 연관성 검수에서 제외한 후보
+
+- `spurs-brighton-100.jpg`: 같은 브라이턴전 사진이지만 헤딩 장면이라 100호 골 슈팅을 설명하는 Card 2에서는 제외했다.

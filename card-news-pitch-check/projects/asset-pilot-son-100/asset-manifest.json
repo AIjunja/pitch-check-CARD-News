@@ -13,7 +13,7 @@
       "width": 3303,
       "height": 2202,
       "rights": "reference-only",
-      "cards": [1, 5]
+      "cards": [1, 2, 5]
     },
     {
       "id": "spurs-brighton-100",
@@ -24,7 +24,8 @@
       "width": 1200,
       "height": 581,
       "rights": "reference-only",
-      "cards": [2]
+      "cards": [],
+      "note": "Rejected for final cards: same Brighton match, but the frame shows a header rather than the 100th-goal curler."
     },
     {
       "id": "spurs-first-pl-goal",
