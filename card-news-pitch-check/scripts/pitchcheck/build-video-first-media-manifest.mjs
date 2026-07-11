@@ -23,11 +23,16 @@ const junkWords = /reaction|gameplay|efootball|fc 2[4-9]|compilation|edit|shorts
 
 const tokenize = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9가-힣 ]/g, " ").split(/\s+/).filter((word) => word.length > 2);
 const genericTokens = new Set(tokenize("official highlights interview football soccer player match action moment story goal celebration record source confirmed event frame archive family childhood life impact injury comeback second emotional documentary champions league premier world cup career club korea fair training"));
+const actionWords = new Set(tokenize("teacher reunion trial signing contract presentation debut final injury hospital retirement farewell transfer penalty hat-trick hattrick trophy medal airport record captain award refugee warzone childhood"));
 const finalizeOnly = process.argv.includes("--finalize-only");
 const safe = (value) => String(value).toLowerCase().replace(/[^a-z0-9가-힣]+/g, "-").replace(/^-|-$/g, "").slice(0, 90);
 
 function queryFor(topic) {
-  const sceneQuery = topic.assetSearch?.queries?.[0] || `${topic.player} ${topic.category || "football story"}`;
+  const sceneQuery = topic.visualNeed
+    || topic.visualPlan?.queries?.[0]
+    || topic.assetSearch?.queries?.[3]
+    || topic.assetSearch?.queries?.[0]
+    || `${topic.player} ${topic.category || "football story"}`;
   return `${sceneQuery} official highlights interview`.replace(/\s+/g, " ").trim();
 }
 
@@ -42,6 +47,19 @@ function score(entry, topic) {
   if (junkWords.test(text)) value -= 35;
   if ((entry.duration || 0) >= 20 && (entry.duration || 0) <= 900) value += 8;
   return value;
+}
+
+function isRelevantCandidate(candidate, topic, query) {
+  const playerTokens = tokenize(topic.player);
+  const haystack = tokenize(`${candidate.title || ""} ${candidate.description || ""}`);
+  const queryTokens = tokenize(query);
+  const hasPlayer = playerTokens.some((token) => haystack.includes(token));
+  const requiredNumbers = queryTokens.filter((token) => /\d/.test(token));
+  const requiredActions = queryTokens.filter((token) => actionWords.has(token));
+  const numbersMatch = requiredNumbers.every((token) => haystack.includes(token));
+  const actionMatch = !requiredActions.length || requiredActions.some((token) => haystack.includes(token));
+  const meaningfulOverlap = (candidate.eventOverlap || []).filter((token) => !genericTokens.has(token));
+  return hasPlayer && numbersMatch && actionMatch && meaningfulOverlap.length > 0 && candidate.score >= 20;
 }
 
 async function searchTopic(topic) {
@@ -64,11 +82,7 @@ async function searchTopic(topic) {
       score: score(entry, topic),
       eventOverlap: eventTokens.filter((token) => tokenize(`${entry.title || ""} ${entry.description || ""}`).includes(token)),
     })).sort((a, b) => b.score - a.score);
-    const selected = candidates.find((candidate) => {
-      const titleTokens = tokenize(candidate.title);
-      const hasPlayer = playerTokens.size > 0 && [...playerTokens].some((token) => titleTokens.includes(token));
-      return hasPlayer && candidate.eventOverlap.length > 0 && candidate.score >= 20;
-    }) || null;
+    const selected = candidates.find((candidate) => isRelevantCandidate(candidate, topic, query)) || null;
     const fallback = fallbackByTopic.get(topic.id);
     const duration = selected?.duration || 60;
     const ratios = [0.12, 0.3, 0.48, 0.7, 0.86];
@@ -114,11 +128,7 @@ async function searchTopic(topic) {
 for (const topic of bank.topics) {
   const cached = cache.get(topic.id);
   if (!cached?.video) continue;
-  const playerTokens = tokenize(topic.player);
-  const titleTokens = tokenize(cached.video.title);
-  const meaningfulOverlap = (cached.video.eventOverlap || []).filter((token) => !genericTokens.has(token));
-  const hasPlayer = playerTokens.some((token) => titleTokens.includes(token));
-  if (!hasPlayer || !meaningfulOverlap.length || cached.video.score < 20) {
+  if (!isRelevantCandidate(cached.video, topic, cached.query || queryFor(topic))) {
     cached.video = null;
     cached.confidence = "none";
     cached.slots = cached.slots.map((slot) => ({ ...slot, videoUrl: null, startSeconds: null, status: "image-fallback-only", humanTimestampReview: false }));
@@ -134,6 +144,25 @@ for (let index = 0; index < pending.length; index += 3) {
 }
 
 const items = bank.topics.map((topic) => cache.get(topic.id));
+for (const item of items) {
+  if (!item.video) continue;
+  const haystack = tokenize(`${item.video.title || ""} ${item.video.description || ""}`);
+  const eventOverlap = (item.video.eventOverlap || []).filter((token) => !genericTokens.has(token));
+  const queryActions = tokenize(item.query).filter((token) => actionWords.has(token));
+  const actionMatch = queryActions.some((token) => haystack.includes(token));
+  item.slots = item.slots.map((slot) => {
+    const needTokens = tokenize(slot.need).filter((token) => !genericTokens.has(token));
+    const needMatch = needTokens.some((token) => haystack.includes(token));
+    const useVideo = slot.card === 1
+      ? eventOverlap.length > 0 && (needMatch || actionMatch)
+      : slot.card === 3
+        ? eventOverlap.length >= 2
+        : needMatch;
+    return useVideo
+      ? { ...slot, status: "video-candidate-found", humanTimestampReview: true }
+      : { ...slot, videoUrl: null, startSeconds: null, status: "image-fallback-only", humanTimestampReview: false };
+  });
+}
 for (const item of items) {
   if (!item.video?.thumbnail) continue;
   try {
@@ -154,6 +183,7 @@ const totals = {
   lowConfidence: items.filter((item) => item.confidence === "low").length,
   imageFallbackOnly: items.filter((item) => !item.video).length,
   timestampReviewRequired: items.filter((item) => item.video).length,
+  videoBackedSlots: items.reduce((sum, item) => sum + item.slots.filter((slot) => slot.videoUrl).length, 0),
 };
 fs.writeFileSync(reportPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), totals, items }, null, 2)}\n`);
 const lines = [
@@ -163,6 +193,7 @@ const lines = [
   `- 카드 1~5 슬롯: ${totals.slots}개`,
   `- 영상 후보 확보: ${totals.withVideo}개`,
   `- 영상 없음·이미지 fallback: ${totals.imageFallbackOnly}개`,
+  `- 영상 연결 카드 슬롯: ${totals.videoBackedSlots}개`,
   `- 높은 신뢰도: ${totals.highConfidence}개`,
   `- 중간 신뢰도: ${totals.mediumConfidence}개`,
   `- 낮은 신뢰도: ${totals.lowConfidence}개`,

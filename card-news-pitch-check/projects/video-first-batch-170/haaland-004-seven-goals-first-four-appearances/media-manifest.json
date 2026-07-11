@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "haaland-004-seven-goals-first-four-appearances",
+  "eventKey": "erling-haaland|2019|seven-goals-in-first-four-champions-league-appearances",
+  "player": "Erling Haaland",
+  "hook": "홀란은 챔피언스리그 첫 네 경기에서 7골을 쌓았다.",
+  "sourceRefs": [
+    "haaland_source_04"
+  ],
+  "videoCandidate": {
+    "id": "2x6Oq6xD75U",
+    "url": "https://www.youtube.com/watch?v=2x6Oq6xD75U",
+    "title": "ERLING BRAUT HAALAND: 7 #UCL Matches, 10 #UCL Goals!",
+    "description": "Record-breaking teenager Erling Braut Haaland has continued his goal-scoring form in the #UCL for new club Borussia Dortmund ...",
+    "duration": 50,
+    "channel": "UEFA",
+    "channelUrl": "https://www.youtube.com/channel/UCyGa1YEx9ST66rYrJTGIKOw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/2x6Oq6xD75U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6_XZY5-z3BdDj2bfV4aYN97-DlQ",
+    "score": 69,
+    "eventOverlap": [
+      "goals"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/haaland-004-seven-goals-first-four-appearances.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "홀란은 챔피언스리그 첫 네 경기에서 7골을 쌓았다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-004-seven-goals-first-four-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "데뷔전의 폭발은 다음 경기에서도 멈추지 않았다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-004-seven-goals-first-four-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 첫 경기부터 네 경기까지 이어진 7골을 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-004-seven-goals-first-four-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "리버풀과 나폴리전에서도 득점을 더했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-004-seven-goals-first-four-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 골보다 무서운 건 다음 세 경기였다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-004-seven-goals-first-four-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

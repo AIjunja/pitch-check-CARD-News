@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-002-airport-name",
+  "eventKey": "cristiano-ronaldo|unknown|international-airport-naming",
+  "player": "Cristiano Ronaldo",
+  "hook": "그의 이름은 경기장을 넘어 공항 표지판에도 남았다.",
+  "sourceRefs": [
+    "ronaldo_source_02"
+  ],
+  "videoCandidate": {
+    "id": "1GL5sWHUHvc",
+    "url": "https://www.youtube.com/watch?v=1GL5sWHUHvc",
+    "title": "CRISTIANO RONALDO INTERVIEW IN AIRPORT OF MADEIRA",
+    "description": "CRISTIANO RONALDO INTERVIEW MADEIRA.",
+    "duration": 103,
+    "channel": "CR7TWIN",
+    "channelUrl": "https://www.youtube.com/channel/UCR9GZuima_8SGJ1BmxRvvpg",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/1GL5sWHUHvc/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gKAAqACigIMCAAQARhyIE8oLjAP&rs=AOn4CLBArFwzfIBrl63HLf9xL7pAnOWTwg",
+    "score": 24,
+    "eventOverlap": [
+      "airport",
+      "madeira"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-002-airport-name.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "그의 이름이 공항 표지판에 붙었다.",
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=1GL5sWHUHvc",
+        "startSeconds": 10,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/manual-ronaldo-airport.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Olympics.com의 ‘7가지 사실’에는 Cristiano Ronaldo International Airport가 나온다.",
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-ronaldo-airport.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "이건 골 기록이 아니라 장소의 이름에 관한 기록이다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=1GL5sWHUHvc",
+        "startSeconds": 47,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/manual-ronaldo-airport.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "기사의 설명은 공항 명명 사실을 짧게 소개한다.",
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-ronaldo-airport.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "Ronaldo를 경기장 밖에서 기억하는 한 가지 방식이다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-ronaldo-airport.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

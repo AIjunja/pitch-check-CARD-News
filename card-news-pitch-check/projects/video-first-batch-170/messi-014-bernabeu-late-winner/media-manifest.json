@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "topicId": "messi-014-bernabeu-late-winner",
+  "eventKey": "lionel-messi|2017|bernabeu-late-winner",
+  "player": "Lionel Messi",
+  "hook": "베르나베우 92분, 메시는 2-3을 만들었다.",
+  "sourceRefs": [
+    "messi_source_14"
+  ],
+  "videoCandidate": {
+    "id": "wQZQADpna9Q",
+    "url": "https://www.youtube.com/watch?v=wQZQADpna9Q",
+    "title": "Leo Messi Goal vs Real Madrid 2017 | RAY HUDSON AMAZING COMMENTARY | 720p 60fps - By Pirelli7",
+    "description": "Ray Hudson amazing commentary Messi goal vs Real madrid - Barcelona 2-3 | 60fps. By Pirelli7 ▻ Subscribe: ...",
+    "duration": 136,
+    "channel": "Francesco Pirelli7",
+    "channelUrl": "https://www.youtube.com/channel/UCmQqSk8k_4MM-y6ALGLjJfA",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/wQZQADpna9Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQojTyQdt6NNa9zGTBHChysU6G7g",
+    "score": 20,
+    "eventOverlap": [
+      "real",
+      "madrid",
+      "2017"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-014-bernabeu-late-winner.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "베르나베우 92분, 스코어는 2-2.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-014-bernabeu-late-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2017 엘 클라시코의 마지막 장면이었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-014-bernabeu-late-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "메시는 추가시간 막판 왼발로 2-3을 만들었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=wQZQADpna9Q",
+        "startSeconds": 63,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-014-bernabeu-late-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "바르셀로나는 레알 마드리드를 원정에서 꺾었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-014-bernabeu-late-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "시간이 없을수록 한 번의 결정이 더 크게 남는다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-014-bernabeu-late-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-003-napkin-contract",
+  "eventKey": "lionel-messi|2000|napkin-contract",
+  "player": "Lionel Messi",
+  "hook": "메시의 바르셀로나 계약 약속은 냅킨 위에서 시작됐다.",
+  "sourceRefs": [
+    "messi_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 계약은 왜 냅킨 위에 쓰였을까",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-003-napkin-contract.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2000년 12월 14일, 협상은 더는 미룰 수 없었다.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-003-napkin-contract.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "렉사흐는 식당 냅킨을 꺼내 메시 영입 약속을 적었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-003-napkin-contract.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "아버지 호르헤는 바르셀로나의 확답을 기다리고 있었다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-003-napkin-contract.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "16.5cm 냅킨 한 장이 훗날의 역사를 품었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-003-napkin-contract.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "alexia-003-u17-world-cup-first-goal",
+  "eventKey": "alexia-putellas|2010|u17-world-cup-first-goal",
+  "player": "Alexia Putellas",
+  "hook": "Alexia의 FIFA 월드컵 첫 골은 16세 때 왼발로 나왔다.",
+  "sourceRefs": [
+    "alexia_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Alexia의 FIFA 월드컵 첫 골은 16세 때 왼발로 나왔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/alexia-003-u17-world-cup-first-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2010년 U-17 월드컵 일본전에서 스페인의 두 번째 골을 기록했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/alexia-003-u17-world-cup-first-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "스페인은 4-1로 이겼고 Alexia는 세 번의 터치 뒤 마무리했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/alexia-003-u17-world-cup-first-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "훗날의 스타도 첫 국제무대에서는 한 번의 왼발로 자신을 소개했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/alexia-003-u17-world-cup-first-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 골은 커리어 전체를 예고하는 작은 예고편이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/alexia-003-u17-world-cup-first-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

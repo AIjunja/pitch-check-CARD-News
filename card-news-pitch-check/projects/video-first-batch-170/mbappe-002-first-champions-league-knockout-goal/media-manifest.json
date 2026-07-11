@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-002-first-champions-league-knockout-goal",
+  "eventKey": "kylian-mbappe|2017|first-champions-league-knockout-goal",
+  "player": "Kylian Mbappe",
+  "hook": "18세 음바페는 챔피언스리그 첫 녹아웃 무대부터 골을 넣었다.",
+  "sourceRefs": [
+    "mbappe_source_07"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "18세 음바페, 첫 녹아웃 무대부터 골을 넣었다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-002-first-champions-league-knockout-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "그런데 진짜 기록은 다음 장면부터였다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-002-first-champions-league-knockout-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 첫 네 녹아웃 경기 연속 득점을 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-002-first-champions-league-knockout-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "맨체스터 시티와 도르트문트를 상대로 이어진 흐름.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-002-first-champions-league-knockout-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 번의 재능보다 무서운 건 반복되는 증명이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-002-first-champions-league-knockout-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-047-kante-normal-salary",
+  "eventKey": "n-golo-kante|legacy-sourced|kante-normal-salary",
+  "player": "N'Golo Kante",
+  "hook": "캉테는 그냥 평범한 월급을 원했다",
+  "sourceRefs": [
+    "kante_guardian"
+  ],
+  "videoCandidate": {
+    "id": "FeZfTawjw3o",
+    "url": "https://www.youtube.com/watch?v=FeZfTawjw3o",
+    "title": "N'Golo Kanté reacts to winning the UEFA Champions League.",
+    "description": "He was absolutely sensational in the final. Man of the Match N'Golo Kanté reacts to Chelsea winning the UEFA Champions ...",
+    "duration": 61,
+    "channel": "Virgin Media Sport",
+    "channelUrl": "https://www.youtube.com/channel/UCXIQcJ1TcFeMlF32vAOORLQ",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/FeZfTawjw3o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgzIDwofzAP&rs=AOn4CLDBCpEdYwtddX81oHmXYiE_5ZyO5A",
+    "score": 45,
+    "eventOverlap": [
+      "chelsea"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-047-kante-normal-salary.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "그냥",
+          "평범한 월급"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "캉테",
+          "정상 급여"
+        ]
+      },
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-047-kante-normal-salary.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "절세 구조보다",
+          "정상 급여"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "캉테",
+          "정상 급여"
+        ]
+      },
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-047-kante-normal-salary.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "캉테다운",
+          "선택이었다"
+        ],
+        "body": "Guardian은 Mediapart 보도를 인용해 캉테가 이미지권 일부를 조세 회피처 구조로 받는 방식을 거절하고 정상 급여를 원했다고 전했다.",
+        "accent": [
+          "캉테",
+          "정상 급여"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-047-kante-normal-salary.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "이미 겸손한 선수 이미지가 있었는데, 돈 문제에서도 같은 결이 나온 게 강하다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-047-kante-normal-salary.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "캉테 미담 수집하는 팬들에게 잘 맞는다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-047-kante-normal-salary.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

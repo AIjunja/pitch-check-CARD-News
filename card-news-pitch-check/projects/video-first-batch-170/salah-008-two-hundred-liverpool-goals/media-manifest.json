@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "salah-008-two-hundred-liverpool-goals",
+  "eventKey": "mohamed-salah|2023|two-hundred-liverpool-goals",
+  "player": "Mohamed Salah",
+  "hook": "살라는 리버풀에서 327경기 만에 200골을 찍었다.",
+  "sourceRefs": [
+    "salah_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라는 리버풀에서 327경기 만에 200골을 찍었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-008-two-hundred-liverpool-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "살라는 2023년 12월 크리스털 팰리스전에서 리버풀 통산 200호 골을 넣었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-008-two-hundred-liverpool-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "리버풀은 그가 구단 역사상 다섯 번째로 200골에 도달했고, 당시 역대 득점 5위였다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-008-two-hundred-liverpool-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 골이 개인의 숫자에서 클럽의 역사로 넘어가는 순간이다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-008-two-hundred-liverpool-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "200골은 오래 뛴 기록이 아니라 특별한 이름들과 같은 줄에 선 기록이다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-008-two-hundred-liverpool-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

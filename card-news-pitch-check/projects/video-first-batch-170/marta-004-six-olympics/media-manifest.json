@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "marta-004-six-olympics",
+  "eventKey": "marta|2004-2024|six-olympics",
+  "player": "Marta",
+  "hook": "Marta의 올림픽 이야기는 2004년에서 2024년까지 이어졌다.",
+  "sourceRefs": [
+    "marta_source_04"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Marta의 올림픽 이야기는 2004년에서 2024년까지 이어졌다.",
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-004-six-olympics.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 아테네부터 파리까지 여섯 번의 출전을 기록했다.",
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-004-six-olympics.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Marta는 처음엔 소집이 기뻤고, 마지막에는 다시 선택받아 안도했다고 회고했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-004-six-olympics.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "같은 무대가 20년 뒤 전혀 다른 감정으로 돌아왔다.",
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-004-six-olympics.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "기록은 숫자지만 오래 버틴 선수에게는 감정의 연표다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-004-six-olympics.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

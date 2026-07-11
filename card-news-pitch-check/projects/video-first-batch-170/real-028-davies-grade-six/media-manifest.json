@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "topicId": "real-028-davies-grade-six",
+  "eventKey": "alphonso-davies|legacy-sourced|davies-grade-six",
+  "player": "Alphonso Davies",
+  "hook": "초등학교 선생님은 그를 항상 춤추던 아이로 기억했다",
+  "sourceRefs": [
+    "davies_bundesliga"
+  ],
+  "videoCandidate": {
+    "id": "SlIpGofAp3c",
+    "url": "https://www.youtube.com/watch?v=SlIpGofAp3c",
+    "title": "Davies to start against Belgium | Full Team Canada news conference from Qatar",
+    "description": "Team Canada head coach John Herdman says Alphonso Davies will be on the pitch for their first game of the World Cup against ...",
+    "duration": 813,
+    "channel": "CBC News",
+    "channelUrl": "https://www.youtube.com/channel/UCuFFtHWoLl5fauMMD5Ww2jA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/SlIpGofAp3c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrGykSsg935ofm4eEV7tWCCvMsVA",
+    "score": 41,
+    "eventOverlap": [
+      "canada"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-028-davies-grade-six.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "항상 웃고",
+          "춤추던 아이"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "6학년",
+          "춤"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-026-davies-refugee-camp.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "어떤 종목을 해도",
+          "눈에 띄었다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "6학년",
+          "춤"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-026-davies-refugee-camp.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 아이가",
+          "데이비스"
+        ],
+        "body": "데이비스의 6학년 교사이자 스포츠 코치는 그가 복도에서 늘 웃고 춤추던 아이였고 어떤 종목이든 재능이 있었다고 회상했다.",
+        "accent": [
+          "6학년",
+          "춤"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-026-davies-refugee-camp.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "난민 캠프 서사 뒤에 밝은 아이의 장면이 붙어서 더 입체적으로 보인다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-026-davies-refugee-camp.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "선수 어린 시절 썰 좋아하는 친구들이 저장하기 좋은 카드다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "coach player interaction",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=SlIpGofAp3c",
+        "startSeconds": 697,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-026-davies-refugee-camp.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

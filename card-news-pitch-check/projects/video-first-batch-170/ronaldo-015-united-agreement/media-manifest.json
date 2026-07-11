@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-015-united-agreement",
+  "eventKey": "cristiano-ronaldo|2021|united-agreement-to-return",
+  "player": "Cristiano Ronaldo",
+  "hook": "맨유는 Ronaldo를 집으로 데려오는 합의를 공식 발표했다.",
+  "sourceRefs": [
+    "ronaldo_source_15"
+  ],
+  "videoCandidate": {
+    "id": "9a3noL4i5J0",
+    "url": "https://www.youtube.com/watch?v=9a3noL4i5J0",
+    "title": "Cristiano Ronaldo signs for Manchester United! | Where He Belongs | New Signings 2021/22",
+    "description": "Manchester United is delighted to confirm the signing of Cristiano Ronaldo on a two year contract with the option to extend for a ...",
+    "duration": 63,
+    "channel": "Manchester United",
+    "channelUrl": "https://www.youtube.com/channel/UC6yW44UGJJBvYTlfC7CRg2Q",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/9a3noL4i5J0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC6-Uwf3RBVyW4uVrA0nzWv94X0DA",
+    "score": 81,
+    "eventOverlap": [
+      "manchester",
+      "united",
+      "2021"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-015-united-agreement.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "맨유가 Ronaldo를 다시 데려오는 합의를 발표했다.",
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "공식 source의 제목은 United confirm Ronaldo agreement였다.",
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "설명에는 Ronaldo를 집으로 데려온다는 표현이 나온다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=9a3noL4i5J0",
+        "startSeconds": 28,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "이건 합의 발표의 순간이다.",
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "최종 이적 완료와는 시점을 구분해야 한다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

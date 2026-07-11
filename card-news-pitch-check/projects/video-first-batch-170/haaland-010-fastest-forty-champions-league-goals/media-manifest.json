@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "haaland-010-fastest-forty-champions-league-goals",
+  "eventKey": "erling-haaland|2023|fastest-forty-champions-league-goals",
+  "player": "Erling Haaland",
+  "hook": "챔피언스리그 40골까지 35경기, 홀란은 또 속도 기록을 세웠다.",
+  "sourceRefs": [
+    "haaland_source_05"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "챔피언스리그 40골까지 35경기, 홀란은 또 속도를 기록했다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "40이라는 숫자보다 도착 경기 수가 먼저 보인다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 최연소이자 최단 경기 도달 기록이라고 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "30골을 소개한 뒤 다음 숫자도 빠르게 넘어섰다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이번 기록의 주인공은 골보다 속도였다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

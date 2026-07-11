@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-007-uefa-competition-debut-before-sixteen",
+  "eventKey": "kylian-mbappe|2014|uefa-competition-debut-before-sixteen",
+  "player": "Kylian Mbappe",
+  "hook": "음바페는 16번째 생일 열흘 전 UEFA 대회에 처음 등장했다.",
+  "sourceRefs": [
+    "mbappe_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "음바페는 16번째 생일 열흘 전 UEFA 대회에 처음 등장했다",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "챔피언스리그 스타가 되기 전 출발점은 더 빨랐다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 첫 UEFA 대회 출전 시점을 16세 생일 열흘 전으로 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "이후 1년하고도 하루 뒤 시니어 UEFA 클럽 대회에도 데뷔했다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "유럽 무대의 첫 날짜가 이미 남다른 기록이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "topicId": "son-007-asian-games-gold",
+  "eventKey": "son-heung-min|2018|asian-games-gold",
+  "player": "Son Heung-min",
+  "hook": "한국의 금메달 경기에서 손흥민은 주장 완장과 두 번의 도움을 남겼다.",
+  "sourceRefs": [
+    "son_source_07"
+  ],
+  "videoCandidate": {
+    "id": "kT--kwxuQq0",
+    "url": "https://www.youtube.com/watch?v=kT--kwxuQq0",
+    "title": "HEUNG-MIN SON RETURNS TO HOTSPUR WAY AFTER ASIAN GAMES GOLD MEDAL!",
+    "description": "Watch Heung-min Son arrive at Hotspur Way and meet his teammates for the first time since winning a gold medal at the 2018 ...",
+    "duration": 84,
+    "channel": "Tottenham Hotspur",
+    "channelUrl": "https://www.youtube.com/channel/UCEg25rdRZXg32iwai6N6l0w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/kT--kwxuQq0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLANBLZFpW4grCLyvDEtBoQxwZID6w",
+    "score": 69,
+    "eventOverlap": [
+      "asian",
+      "games",
+      "2018",
+      "gold",
+      "medal"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/son-007-asian-games-gold.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "한국의 금메달 경기에서 손흥민은 주장 완장과 두 번의 도움을 남겼다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kT--kwxuQq0",
+        "startSeconds": 8,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-007-asian-games-gold.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "손흥민은 2018년 아시안게임 결승에서 한국의 일본전 2-1 연장 승리를 이끌었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-007-asian-games-gold.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "토트넘은 손흥민이 한국을 주장했고, 연장전 두 골에 모두 도움을 기록했다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kT--kwxuQq0",
+        "startSeconds": 38,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-007-asian-games-gold.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "우승 장면의 주인공이 직접 넣은 골이 아니라 연결한 패스였다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kT--kwxuQq0",
+        "startSeconds": 57,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-007-asian-games-gold.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "가장 큰 경기에서 도움도 역사의 중심이 될 수 있다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-007-asian-games-gold.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

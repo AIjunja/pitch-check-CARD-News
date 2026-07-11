@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "topicId": "real-014-pele-sock-ball",
+  "eventKey": "pele|legacy-sourced|pele-sock-ball",
+  "player": "Pele",
+  "hook": "펠레의 첫 공은 축구공이 아니었다",
+  "sourceRefs": [
+    "pele_tpt"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "첫 공은",
+          "양말이었다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "펠레",
+          "양말공"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "신문지를 넣고",
+          "차기 시작했다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "펠레",
+          "양말공"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 아이가",
+          "펠레였다"
+        ],
+        "body": "펠레는 어린 시절 진짜 공을 살 돈이 없어 낡은 양말 안에 신문지를 넣어 공처럼 만들었다고 썼다.",
+        "accent": [
+          "펠레",
+          "양말공"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "축구 역사상 가장 큰 이름의 시작이 너무 작고 구체적이라 더 강하다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "축구화보다 공부터 찾던 친구들이 저장할 만한 이야기다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

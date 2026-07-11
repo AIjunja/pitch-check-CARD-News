@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "messi-004-youth-mask-four-teams",
+  "eventKey": "lionel-messi|2003|youth-mask-four-teams",
+  "player": "Lionel Messi",
+  "hook": "유소년 메시가 보호 마스크를 벗고 결승에서 두 골을 넣었다.",
+  "sourceRefs": [
+    "messi_source_04"
+  ],
+  "videoCandidate": {
+    "id": "j9ihJMqZGD0",
+    "url": "https://www.youtube.com/watch?v=j9ihJMqZGD0",
+    "title": "Messi's first official goal for FC Barcelona",
+    "description": "FC Barcelona on Social Media Subscribe to our official channel ...",
+    "duration": 86,
+    "channel": "FC Barcelona",
+    "channelUrl": "https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/j9ihJMqZGD0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEoI_T5gbYuEd2mOBK9tvw1lc1Fg",
+    "score": 69,
+    "eventOverlap": [
+      "barcelona"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-004-youth-mask-four-teams.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "보호 마스크를 벗은 유소년 메시",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-004-youth-mask-four-teams.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "광대뼈를 다친 뒤에도 결승에 나섰다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-004-youth-mask-four-teams.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "답답하다며 마스크를 벗은 그는 전반이 끝나기 전 두 골을 넣었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-004-youth-mask-four-teams.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "그 시즌, 메시는 네 팀에서 뛰었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-004-youth-mask-four-teams.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 단계씩 올라가는 속도는 이미 평범하지 않았다.",
+      "role": "emotion",
+      "need": "injury moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-004-youth-mask-four-teams.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

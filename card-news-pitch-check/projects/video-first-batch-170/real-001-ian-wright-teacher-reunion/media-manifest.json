@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "topicId": "real-001-ian-wright-teacher-reunion",
+  "eventKey": "ian-wright|legacy-sourced|ian-wright-teacher-reunion",
+  "player": "Ian Wright",
+  "hook": "죽은 줄 알았던 선생님이 눈앞에 나타났다",
+  "sourceRefs": [
+    "ian_teacher_good",
+    "ian_teacher_bbc"
+  ],
+  "videoCandidate": {
+    "id": "6caCqn_nD6o",
+    "url": "https://www.youtube.com/watch?v=6caCqn_nD6o",
+    "title": "Ian Wright’s teacher gave him direction and purpose during his turbulent upbringing - BBC",
+    "description": "Subscribe and to the BBC https://bit.ly/BBCYouTubeSub Watch the BBC first on iPlayer https://bbc.in/iPlayer-Home Ian ...",
+    "duration": 263,
+    "channel": "BBC",
+    "channelUrl": "https://www.youtube.com/channel/UCCj956IF62FbT7Gouszaj9w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/6caCqn_nD6o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcuZMFzgrZwySsHw2PmZxpEBpzvQ",
+    "score": 41,
+    "eventOverlap": [
+      "teacher"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-001-ian-wright-teacher-reunion.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "죽은 줄 알았던",
+          "선생님이 왔다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "이언 라이트",
+          "은사님"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6caCqn_nD6o",
+        "startSeconds": 30,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-001-ian-wright-teacher-reunion.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "카메라 앞에서",
+          "그가 멈춘 이유"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "이언 라이트",
+          "은사님"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-001-ian-wright-teacher-reunion.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "이언 라이트는",
+          "모자를 벗었다"
+        ],
+        "body": "이언 라이트는 ITV 다큐 촬영 중, 세상을 떠난 줄 알았던 초등학교 은사 Sydney Pigden을 Highbury에서 다시 만났다.",
+        "accent": [
+          "이언 라이트",
+          "은사님"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-001-ian-wright-teacher-reunion.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "충격을 받은 그는 모자를 벗고 인사한 뒤 얼굴을 가리고 울었다. 골 장면보다 오래 남는 축구 장면이다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-001-ian-wright-teacher-reunion.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "이 장면 아는 사람보다 모르는 사람이 훨씬 많아서, 아스널 팬 친구한테 보내기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "coach player interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-001-ian-wright-teacher-reunion.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

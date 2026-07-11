@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "alexia-001-barcelona-500th-game",
+  "eventKey": "alexia-putellas|2026|barcelona-500th-game",
+  "player": "Alexia Putellas",
+  "hook": "Alexia의 바르사 500번째 경기는 챔피언스리그 클라시코였다.",
+  "sourceRefs": [
+    "alexia_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Alexia의 바르사 500번째 경기는 챔피언스리그 클라시코였다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-001-barcelona-500th-game.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FC Barcelona는 레알 마드리드전에서 이 이정표를 발표했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-001-barcelona-500th-game.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단은 Alexia를 229골과 35개 트로피의 역대 최다 득점자로 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-001-barcelona-500th-game.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "500번째 출전 무대가 가장 큰 라이벌전이었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-001-barcelona-500th-game.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "숫자 하나가 선수와 팀의 성장 곡선을 함께 보여준다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-001-barcelona-500th-game.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "salah-003-announces-liverpool-departure",
+  "eventKey": "mohamed-salah|2026|liverpool-departure-announcement",
+  "player": "Mohamed Salah",
+  "hook": "살라는 리버풀 팬들에게 먼저 작별의 첫 문장을 보냈다.",
+  "sourceRefs": [
+    "salah_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라는 리버풀 팬들에게 먼저 작별의 첫 문장을 보냈다.",
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-003-announces-liverpool-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "살라는 2026년 3월 24일 2025/26 시즌을 끝으로 리버풀을 떠나겠다고 발표했다.",
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-003-announces-liverpool-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "리버풀은 그가 레즈로서 아홉 번째 시즌을 보내며 클럽 역사에 남을 유산을 만들었다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-003-announces-liverpool-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "이별은 경기 결과가 아니라 한 문장의 고백으로 먼저 시작됐다.",
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-003-announces-liverpool-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "오래 함께한 장소를 떠날 때 남는 것은 숫자와 사람에게 건넨 말이다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-003-announces-liverpool-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

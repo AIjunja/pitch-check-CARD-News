@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-010-france-all-time-top-scorer",
+  "eventKey": "kylian-mbappe|2026|france-all-time-top-scorer",
+  "player": "Kylian Mbappe",
+  "hook": "음바페는 2025/26 시즌 프랑스 역대 최다 득점자가 됐다.",
+  "sourceRefs": [
+    "mbappe_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "음바페는 2025/26 시즌 프랑스 역대 최다 득점자가 됐다",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "챔피언스리그 득점왕과 대표팀 기록이 한 시즌에 겹쳤다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 그가 2025/26 챔피언스리그 득점왕에 오른 뒤 프랑스 최다 득점자가 됐다고 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "클럽과 국가대표 기록표가 동시에 바뀐 순간이다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "현재의 득점왕이 곧 역대 기록의 주인공이 됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

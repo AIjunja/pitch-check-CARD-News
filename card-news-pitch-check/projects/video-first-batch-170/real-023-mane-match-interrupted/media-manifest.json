@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "topicId": "real-023-mane-match-interrupted",
+  "eventKey": "sadio-mane|legacy-sourced|mane-match-interrupted",
+  "player": "Sadio Mane",
+  "hook": "경기 직전, 사촌이 다가와 한 말을 믿지 못했다",
+  "sourceRefs": [
+    "mane_olympics"
+  ],
+  "videoCandidate": {
+    "id": "2BPXKrykYdA",
+    "url": "https://www.youtube.com/watch?v=2BPXKrykYdA",
+    "title": "FOOTAGE! Sadio Mane playing football in the rain with friends on his Childhood playground in Senegal",
+    "description": "FOLLOW SPORTS EXTRA ON SOCIAL MEDIA INSTAGRAM; http://www.instagram.com/sports_extra01 FACEBOOK ...",
+    "duration": 118,
+    "channel": "SPORTS EXTRA",
+    "channelUrl": "https://www.youtube.com/channel/UCm2RqEwKvwEBxrjTOW8K3tg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/2BPXKrykYdA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBMDF_vzJ4xE4P_i_zzrAo-zlXMQ",
+    "score": 41,
+    "eventOverlap": [
+      "senegal"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-023-mane-match-interrupted.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "경기 직전",
+          "믿지 못한 말"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "마네",
+          "아버지"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2BPXKrykYdA",
+        "startSeconds": 12,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "처음엔 농담인 줄",
+          "알았다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "마네",
+          "아버지"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "아버지가",
+          "돌아가셨다"
+        ],
+        "body": "마네는 일곱 살 때 경기하려던 순간 사촌에게 아버지의 죽음을 들었고, 처음엔 이해하지 못했다고 전해졌다.",
+        "accent": [
+          "마네",
+          "아버지"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "마네가 왜 고향에 병원을 세우려 했는지 감정의 출발점이 보인다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "마네 미담을 단순 기부 뉴스로만 본 친구에게 보내기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "lee-002-young-laliga-appearance",
+  "eventKey": "lee-kang-in|2019|young-laliga-appearance",
+  "player": "Lee Kang-in",
+  "hook": "이강인은 17세 10개월 24일에 라리가 두 번째 최연소 출전자가 됐다.",
+  "sourceRefs": [
+    "asia07_source_07"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "이강인은 17세 10개월 24일에 라리가 두 번째 최연소 출전자가 됐다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 바야돌리드전 출전 나이와 순위를 구체적으로 기록했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "여섯 살 때 TV에서 발렌시아 스카우트의 눈에 띄어 아카데미에 들어갔다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "작은 화면의 한 장면이 스페인 1부리그 기록표로 이어졌다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "나이는 작았지만 기록은 1부리그의 것이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

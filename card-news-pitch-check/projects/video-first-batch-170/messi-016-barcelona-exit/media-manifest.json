@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-016-barcelona-exit",
+  "eventKey": "lionel-messi|2021|barcelona-exit",
+  "player": "Lionel Messi",
+  "hook": "바르셀로나와 메시가 합의했는데도, 계약은 성사되지 못했다.",
+  "sourceRefs": [
+    "messi_source_16"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시와 바르셀로나는 합의했는데도 헤어졌다.",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-016-barcelona-exit.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2021년 8월, 구단은 메시가 남지 못한다고 발표했다.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-016-barcelona-exit.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "이유로 든 것은 라리가의 선수 등록 규정.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-016-barcelona-exit.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "양측의 새 계약 의지만으로는 등록을 해결할 수 없었다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-016-barcelona-exit.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "17년의 바르셀로나 경력이 공식 발표 한 줄에서 멈췄다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-016-barcelona-exit.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

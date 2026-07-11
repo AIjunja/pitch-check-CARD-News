@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-013-juventus-signing",
+  "eventKey": "cristiano-ronaldo|2018|juventus-signing",
+  "player": "Cristiano Ronaldo",
+  "hook": "FIFA source의 제목은 짧고 분명했다. Ronaldo가 Juventus와 계약했다.",
+  "sourceRefs": [
+    "ronaldo_source_13",
+    "ronaldo_source_14"
+  ],
+  "videoCandidate": {
+    "id": "vLd14WVqenM",
+    "url": "https://www.youtube.com/watch?v=vLd14WVqenM",
+    "title": "How Cristiano Ronaldo will fit at Juventus and in Serie A after leaving Real Madrid | ESPN FC",
+    "description": "ESPN FC's Stewart Robson and Alexis Nunes break down how Cristiano Ronaldo will fit at Juventus and in Serie A after leaving ...",
+    "duration": 125,
+    "channel": "ESPN",
+    "channelUrl": "https://www.youtube.com/channel/UCiWLfSweyRNmLpgEHekhoAg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/vLd14WVqenM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApizHvJFjDWeQ4AqeiG2xhjsTqng",
+    "score": 57,
+    "eventOverlap": [
+      "juventus"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-013-juventus-signing.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "FIFA가 남긴 짧은 제목",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-013-juventus-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Ronaldo signs for Juventus.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-013-juventus-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "새 팀은 Juventus였다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-013-juventus-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "그는 Juventus가 자신을 영입한 데 감사하다고 말했다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-013-juventus-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이적의 핵심은 팀과 첫 인사까지다.",
+      "role": "emotion",
+      "need": "official interview close-up",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-013-juventus-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

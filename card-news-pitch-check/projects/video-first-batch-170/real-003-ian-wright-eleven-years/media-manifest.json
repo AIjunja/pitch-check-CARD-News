@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "topicId": "real-003-ian-wright-eleven-years",
+  "eventKey": "ian-wright|legacy-sourced|ian-wright-eleven-years",
+  "player": "Ian Wright",
+  "hook": "프로가 되기 전까지 11년을 거절당했다",
+  "sourceRefs": [
+    "ian_wright_tpt"
+  ],
+  "videoCandidate": {
+    "id": "TCuc7XekGMw",
+    "url": "https://www.youtube.com/watch?v=TCuc7XekGMw",
+    "title": "Ian Wright interview: Going on holiday with Crystal Palace",
+    "description": "Ian Wright talks about the first time that he ever went abroad with Crystal Palace. The former England and Arsenal striker explains ...",
+    "duration": 153,
+    "channel": "JOE",
+    "channelUrl": "https://www.youtube.com/channel/UCOYXMJcUXo58HmJN1vuzKUA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/TCuc7XekGMw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHyLjr22leSrzW7TuH6oq7a1jo7A",
+    "score": 41,
+    "eventOverlap": [
+      "crystal",
+      "palace"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-003-ian-wright-eleven-years.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "11년 동안",
+          "거절당했다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "11년",
+          "22살"
+        ]
+      },
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-002-ian-wright-brighton-train.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "포기할 만한데",
+          "왜 남았을까"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "11년",
+          "22살"
+        ]
+      },
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-002-ian-wright-brighton-train.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "22살 직전에",
+          "프로가 됐다"
+        ],
+        "body": "이언 라이트는 11살부터 여러 클럽 테스트를 봤지만, 22살 생일 몇 주 전까지 프로 계약을 받지 못했다고 썼다.",
+        "accent": [
+          "11년",
+          "22살"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=TCuc7XekGMw",
+        "startSeconds": 71,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-002-ian-wright-brighton-train.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "레전드 서사가 멋진 이유는 재능보다 버틴 시간이 먼저 보이기 때문이다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-002-ian-wright-brighton-train.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "늦게 터지는 선수 좋아하는 친구들이 반응하기 좋은 소재다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-002-ian-wright-brighton-train.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-006-old-trafford-return",
+  "eventKey": "cristiano-ronaldo|2021|old-trafford-return",
+  "player": "Cristiano Ronaldo",
+  "hook": "맨유는 Ronaldo의 커리어를 시작한 클럽이었고, 그는 Old Trafford로 돌아왔다.",
+  "sourceRefs": [
+    "ronaldo_source_06",
+    "ronaldo_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Ronaldo는 자신을 시작하게 한 클럽으로 돌아왔다.",
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Olympics.com은 그가 17살에 맨유와 연결됐다고 설명한다.",
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Manchester United source는 Old Trafford의 새 장을 말한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "출발점과 복귀점이 같은 클럽이었다.",
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이 이야기는 경기 결과보다 장소의 연결이 핵심이다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-006-old-trafford-return.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

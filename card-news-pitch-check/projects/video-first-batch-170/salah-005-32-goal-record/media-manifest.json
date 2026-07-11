@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "topicId": "salah-005-32-goal-record",
+  "eventKey": "mohamed-salah|2018|32-goal-premier-league-record",
+  "player": "Mohamed Salah",
+  "hook": "살라의 첫 리버풀 시즌은 38경기 체제의 새 골 기록이 됐다.",
+  "sourceRefs": [
+    "salah_source_05"
+  ],
+  "videoCandidate": {
+    "id": "hPUwNpHhqpc",
+    "url": "https://www.youtube.com/watch?v=hPUwNpHhqpc",
+    "title": "17/18: The Season Of Mohamed Salah | Best Liverpool Goals & Highlights",
+    "description": "2017/18 - The season of Mohamed Salah - a compilation of the best goals, assists and highlights from the Liverpool forward.",
+    "duration": 784,
+    "channel": "Premier League",
+    "channelUrl": "https://www.youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/hPUwNpHhqpc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGBKk5v7jAYXY0s6TYD6YCH3z7yw",
+    "score": 42,
+    "eventOverlap": [
+      "goals",
+      "2017"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/salah-005-32-goal-record.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라의 첫 리버풀 시즌은 38경기 체제의 새 골 기록이 됐다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/salah-005-32-goal-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "살라는 2017/18 프리미어리그에서 32골을 넣어 38경기 시즌 최다골 기록을 세웠다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/salah-005-32-goal-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "프리미어리그는 그 골이 브라이턴전에서 나왔고, 이전 31골 기록을 넘어섰다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hPUwNpHhqpc",
+        "startSeconds": 374,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/salah-005-32-goal-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "데뷔 시즌의 마지막 골이 기존 전설들의 숫자를 넘어섰다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/salah-005-32-goal-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "처음 돌아온 무대에서 가장 높은 기준을 새로 쓴 반전이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/salah-005-32-goal-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

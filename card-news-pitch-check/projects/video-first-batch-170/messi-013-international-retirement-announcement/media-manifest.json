@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-013-international-retirement-announcement",
+  "eventKey": "lionel-messi|2016|international-retirement-announcement",
+  "player": "Lionel Messi",
+  "hook": "결승 패배 직후, 메시는 대표팀 은퇴를 선언했다.",
+  "sourceRefs": [
+    "messi_source_13"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "결승이 끝난 뒤, 메시는 은퇴를 말했다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-013-international-retirement-announcement.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2016 코파 아메리카 결승에서 아르헨티나는 칠레에 졌다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-013-international-retirement-announcement.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "승부차기 뒤 메시는 대표팀 은퇴를 발표했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-013-international-retirement-announcement.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "그 발표는 패배 직후 나왔다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-013-international-retirement-announcement.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "그날의 기록은 우승보다 먼저 남은 대표팀 은퇴 선언이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-013-international-retirement-announcement.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

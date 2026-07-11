@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "topicId": "real-005-lukaku-no-electricity",
+  "eventKey": "romelu-lukaku|legacy-sourced|lukaku-no-electricity",
+  "player": "Romelu Lukaku",
+  "hook": "밤에 집에 오면 불이 꺼져 있었다",
+  "sourceRefs": [
+    "lukaku_tpt"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "불이 꺼진",
+          "집에서 자랐다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "전기",
+          "축구 방송"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "축구 방송도",
+          "끊겼던 시절"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "전기",
+          "축구 방송"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그게 루카쿠의",
+          "어린 시절"
+        ],
+        "body": "루카쿠는 어린 시절 집에 전기가 2주, 3주씩 끊기고 축구 방송도 볼 수 없었다고 회고했다.",
+        "accent": [
+          "전기",
+          "축구 방송"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "나중에 세계 무대에서 뛰는 선수가 한때 축구 중계도 못 보던 아이였다는 반전이 세다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "선수 인생 역전 스토리 좋아하는 친구들이 저장하기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

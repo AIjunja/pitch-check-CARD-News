@@ -1,0 +1,1535 @@
+{
+  "generatedAt": "2026-07-11T09:05:55.609Z",
+  "stories": [
+    {
+      "topicId": "real-001-ian-wright-teacher-reunion",
+      "player": "Ian Wright",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-001-ian-wright-teacher-reunion/media-manifest.json"
+    },
+    {
+      "topicId": "real-002-ian-wright-brighton-train",
+      "player": "Ian Wright",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-002-ian-wright-brighton-train/media-manifest.json"
+    },
+    {
+      "topicId": "real-003-ian-wright-eleven-years",
+      "player": "Ian Wright",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-003-ian-wright-eleven-years/media-manifest.json"
+    },
+    {
+      "topicId": "real-004-lukaku-watered-milk",
+      "player": "Romelu Lukaku",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-004-lukaku-watered-milk/media-manifest.json"
+    },
+    {
+      "topicId": "real-005-lukaku-no-electricity",
+      "player": "Romelu Lukaku",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-005-lukaku-no-electricity/media-manifest.json"
+    },
+    {
+      "topicId": "real-006-lukaku-bakery-bread",
+      "player": "Romelu Lukaku",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-006-lukaku-bakery-bread/media-manifest.json"
+    },
+    {
+      "topicId": "real-007-de-bruyne-sterling-tabloid",
+      "player": "Kevin De Bruyne",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-007-de-bruyne-sterling-tabloid/media-manifest.json"
+    },
+    {
+      "topicId": "real-008-de-bruyne-chelsea-reject",
+      "player": "Kevin De Bruyne",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-008-de-bruyne-chelsea-reject/media-manifest.json"
+    },
+    {
+      "topicId": "real-009-mbappe-toy-car-pitch",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-009-mbappe-toy-car-pitch/media-manifest.json"
+    },
+    {
+      "topicId": "real-010-mbappe-bondy-handshake",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-010-mbappe-bondy-handshake/media-manifest.json"
+    },
+    {
+      "topicId": "real-011-mbappe-dreams-are-free",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-011-mbappe-dreams-are-free/media-manifest.json"
+    },
+    {
+      "topicId": "real-012-ronaldinho-father-news",
+      "player": "Ronaldinho",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-012-ronaldinho-father-news/media-manifest.json"
+    },
+    {
+      "topicId": "real-013-ronaldinho-father-believed",
+      "player": "Ronaldinho",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-013-ronaldinho-father-believed/media-manifest.json"
+    },
+    {
+      "topicId": "real-014-pele-sock-ball",
+      "player": "Pele",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-014-pele-sock-ball/media-manifest.json"
+    },
+    {
+      "topicId": "real-015-pele-shoeless-ones",
+      "player": "Pele",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-015-pele-shoeless-ones/media-manifest.json"
+    },
+    {
+      "topicId": "real-016-pele-front-yard-stadium",
+      "player": "Pele",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-016-pele-front-yard-stadium/media-manifest.json"
+    },
+    {
+      "topicId": "real-017-di-maria-final-injection",
+      "player": "Angel Di Maria",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-017-di-maria-final-injection/media-manifest.json"
+    },
+    {
+      "topicId": "real-018-di-maria-sabella-choice",
+      "player": "Angel Di Maria",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-018-di-maria-sabella-choice/media-manifest.json"
+    },
+    {
+      "topicId": "real-019-di-maria-fireworks-night",
+      "player": "Angel Di Maria",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-019-di-maria-fireworks-night/media-manifest.json"
+    },
+    {
+      "topicId": "real-020-nani-free-food",
+      "player": "Nani",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-020-nani-free-food/media-manifest.json"
+    },
+    {
+      "topicId": "real-021-nani-one-bedroom",
+      "player": "Nani",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-021-nani-one-bedroom/media-manifest.json"
+    },
+    {
+      "topicId": "real-022-nani-leaking-roof",
+      "player": "Nani",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-022-nani-leaking-roof/media-manifest.json"
+    },
+    {
+      "topicId": "real-023-mane-match-interrupted",
+      "player": "Sadio Mane",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-023-mane-match-interrupted/media-manifest.json"
+    },
+    {
+      "topicId": "real-024-mane-no-hospital",
+      "player": "Sadio Mane",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-024-mane-no-hospital/media-manifest.json"
+    },
+    {
+      "topicId": "real-025-mane-father-burial",
+      "player": "Sadio Mane",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-025-mane-father-burial/media-manifest.json"
+    },
+    {
+      "topicId": "real-026-davies-refugee-camp",
+      "player": "Alphonso Davies",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-026-davies-refugee-camp/media-manifest.json"
+    },
+    {
+      "topicId": "real-027-davies-parents-escaped",
+      "player": "Alphonso Davies",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-027-davies-parents-escaped/media-manifest.json"
+    },
+    {
+      "topicId": "real-028-davies-grade-six",
+      "player": "Alphonso Davies",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-028-davies-grade-six/media-manifest.json"
+    },
+    {
+      "topicId": "real-029-lee-kang-in-reality-tv",
+      "player": "Lee Kang-in",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-029-lee-kang-in-reality-tv/media-manifest.json"
+    },
+    {
+      "topicId": "real-030-lee-kang-in-valencia-debut",
+      "player": "Lee Kang-in",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-030-lee-kang-in-valencia-debut/media-manifest.json"
+    },
+    {
+      "topicId": "real-031-rashford-mum-three-jobs",
+      "player": "Marcus Rashford",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-031-rashford-mum-three-jobs/media-manifest.json"
+    },
+    {
+      "topicId": "real-032-rashford-school-meals",
+      "player": "Marcus Rashford",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-032-rashford-school-meals/media-manifest.json"
+    },
+    {
+      "topicId": "real-033-rashford-ten-million-meals",
+      "player": "Marcus Rashford",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-033-rashford-ten-million-meals/media-manifest.json"
+    },
+    {
+      "topicId": "real-034-vardy-eighth-tier",
+      "player": "Jamie Vardy",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-034-vardy-eighth-tier/media-manifest.json"
+    },
+    {
+      "topicId": "real-035-vardy-electronic-tag",
+      "player": "Jamie Vardy",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-035-vardy-electronic-tag/media-manifest.json"
+    },
+    {
+      "topicId": "real-036-vardy-rejected-short",
+      "player": "Jamie Vardy",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-036-vardy-rejected-short/media-manifest.json"
+    },
+    {
+      "topicId": "real-037-vardy-stocksbridge-goals",
+      "player": "Jamie Vardy",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-037-vardy-stocksbridge-goals/media-manifest.json"
+    },
+    {
+      "topicId": "real-038-modric-burnt-house",
+      "player": "Luka Modric",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-038-modric-burnt-house/media-manifest.json"
+    },
+    {
+      "topicId": "real-039-modric-grandfather",
+      "player": "Luka Modric",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-039-modric-grandfather/media-manifest.json"
+    },
+    {
+      "topicId": "real-040-modric-casket-memory",
+      "player": "Luka Modric",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-040-modric-casket-memory/media-manifest.json"
+    },
+    {
+      "topicId": "real-041-mahrez-father-dream",
+      "player": "Riyad Mahrez",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-041-mahrez-father-dream/media-manifest.json"
+    },
+    {
+      "topicId": "real-042-mahrez-too-skinny",
+      "player": "Riyad Mahrez",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-042-mahrez-too-skinny/media-manifest.json"
+    },
+    {
+      "topicId": "real-043-mahrez-quimper-clever",
+      "player": "Riyad Mahrez",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-043-mahrez-quimper-clever/media-manifest.json"
+    },
+    {
+      "topicId": "real-044-di-canio-empty-net",
+      "player": "Paolo Di Canio",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-044-di-canio-empty-net/media-manifest.json"
+    },
+    {
+      "topicId": "real-045-aaron-hunt-dive",
+      "player": "Aaron Hunt",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-045-aaron-hunt-dive/media-manifest.json"
+    },
+    {
+      "topicId": "real-046-bielsa-let-villa-score",
+      "player": "Marcelo Bielsa",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-046-bielsa-let-villa-score/media-manifest.json"
+    },
+    {
+      "topicId": "real-047-kante-normal-salary",
+      "player": "N'Golo Kante",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-047-kante-normal-salary/media-manifest.json"
+    },
+    {
+      "topicId": "real-048-son-four-hour-keepy",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-048-son-four-hour-keepy/media-manifest.json"
+    },
+    {
+      "topicId": "real-049-son-start-over",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-049-son-start-over/media-manifest.json"
+    },
+    {
+      "topicId": "real-050-son-father-everything",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/real-050-son-father-everything/media-manifest.json"
+    },
+    {
+      "topicId": "messi-001-growth-treatment-move",
+      "player": "Lionel Messi",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-001-growth-treatment-move/media-manifest.json"
+    },
+    {
+      "topicId": "messi-002-grandoli-right-wing",
+      "player": "Lionel Messi",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-002-grandoli-right-wing/media-manifest.json"
+    },
+    {
+      "topicId": "messi-003-napkin-contract",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-003-napkin-contract/media-manifest.json"
+    },
+    {
+      "topicId": "messi-004-youth-mask-four-teams",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-004-youth-mask-four-teams/media-manifest.json"
+    },
+    {
+      "topicId": "messi-005-porto-friendly-debut",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-005-porto-friendly-debut/media-manifest.json"
+    },
+    {
+      "topicId": "messi-006-competitive-debut",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-006-competitive-debut/media-manifest.json"
+    },
+    {
+      "topicId": "messi-007-first-official-goal",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-007-first-official-goal/media-manifest.json"
+    },
+    {
+      "topicId": "messi-008-maradona-like-solo-goal",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-008-maradona-like-solo-goal/media-manifest.json"
+    },
+    {
+      "topicId": "messi-009-beijing-olympic-gold",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-009-beijing-olympic-gold/media-manifest.json"
+    },
+    {
+      "topicId": "messi-010-rome-champions-league-final",
+      "player": "Lionel Messi",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-010-rome-champions-league-final/media-manifest.json"
+    },
+    {
+      "topicId": "messi-011-calendar-year-scoring-record",
+      "player": "Lionel Messi",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-011-calendar-year-scoring-record/media-manifest.json"
+    },
+    {
+      "topicId": "messi-012-inter-miami-most-trophies-record",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-012-inter-miami-most-trophies-record/media-manifest.json"
+    },
+    {
+      "topicId": "messi-013-international-retirement-announcement",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-013-international-retirement-announcement/media-manifest.json"
+    },
+    {
+      "topicId": "messi-014-bernabeu-late-winner",
+      "player": "Lionel Messi",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-014-bernabeu-late-winner/media-manifest.json"
+    },
+    {
+      "topicId": "messi-015-fiftieth-free-kick",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-015-fiftieth-free-kick/media-manifest.json"
+    },
+    {
+      "topicId": "messi-016-barcelona-exit",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-016-barcelona-exit/media-manifest.json"
+    },
+    {
+      "topicId": "messi-017-copa-america-title",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-017-copa-america-title/media-manifest.json"
+    },
+    {
+      "topicId": "messi-018-inter-miami-signing",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-018-inter-miami-signing/media-manifest.json"
+    },
+    {
+      "topicId": "messi-019-inter-miami-first-trophy",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-019-inter-miami-first-trophy/media-manifest.json"
+    },
+    {
+      "topicId": "messi-020-psg-move-impact",
+      "player": "Lionel Messi",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/messi-020-psg-move-impact/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-001-sporting-trial-signing",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-001-sporting-trial-signing/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-002-airport-name",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-002-airport-name/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-003-andorinha-youth-team",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-003-andorinha-youth-team/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-004-sporting-friendly",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-004-sporting-friendly/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-005-manchester-united-debut",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-005-manchester-united-debut/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-006-old-trafford-return",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-006-old-trafford-return/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-007-champions-final-penalty",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-007-champions-final-penalty/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-008-real-madrid-goals",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-008-real-madrid-goals/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-009-sweden-playoff-hat-trick",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-009-sweden-playoff-hat-trick/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-010-third-champions-final",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-010-third-champions-final/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-011-euro-2016-touchline",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-011-euro-2016-touchline/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-012-turin-overhead-kick",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-012-turin-overhead-kick/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-013-juventus-signing",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-013-juventus-signing/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-014-juventus-first-outing",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-014-juventus-first-outing/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-015-united-agreement",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-015-united-agreement/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-016-united-return-finalized",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-016-united-return-finalized/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-017-seven-hundredth-club-goal",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-017-seven-hundredth-club-goal/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-018-mutual-consent-exit",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-018-mutual-consent-exit/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-019-al-nassr-signing",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-019-al-nassr-signing/media-manifest.json"
+    },
+    {
+      "topicId": "ronaldo-020-international-goals-record",
+      "player": "Cristiano Ronaldo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ronaldo-020-international-goals-record/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-001-monaco-champions-league-debut",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-001-monaco-champions-league-debut/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-001-youngest-champions-league-first-half-hat-trick",
+      "player": "Erling Haaland",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-001-youngest-champions-league-first-half-hat-trick/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-002-eight-goals-in-first-five-champions-league-appearances",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-003-champions-league-debut-hat-trick",
+      "player": "Erling Haaland",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-003-champions-league-debut-hat-trick/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-004-seven-goals-first-four-appearances",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-004-seven-goals-first-four-appearances/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-005-ten-champions-league-goals-in-seven-games",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-005-ten-champions-league-goals-in-seven-games/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-002-first-champions-league-knockout-goal",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-002-first-champions-league-knockout-goal/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-003-monaco-dortmund-double",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-003-monaco-dortmund-double/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-004-monaco-manchester-city-two-leg-scoring",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-004-monaco-manchester-city-two-leg-scoring/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-005-five-champions-league-goals-at-eighteen",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-005-five-champions-league-goals-at-eighteen/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-006-world-cup-final-hat-trick",
+      "player": "Kylian Mbappe",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-006-world-cup-final-hat-trick/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-007-uefa-competition-debut-before-sixteen",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-007-uefa-competition-debut-before-sixteen/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-008-real-madrid-five-year-contract",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-008-real-madrid-five-year-contract/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-009-fifty-champions-league-goals",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-009-fifty-champions-league-goals/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-006-premier-league-debut-season-record",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-006-premier-league-debut-season-record/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-007-fastest-fifty-premier-league-goals",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-007-fastest-fifty-premier-league-goals/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-008-leipzig-five-goal-night",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-008-leipzig-five-goal-night/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-009-fastest-fifty-champions-league-goals",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-009-fastest-fifty-champions-league-goals/media-manifest.json"
+    },
+    {
+      "topicId": "haaland-010-fastest-forty-champions-league-goals",
+      "player": "Erling Haaland",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/haaland-010-fastest-forty-champions-league-goals/media-manifest.json"
+    },
+    {
+      "topicId": "mbappe-010-france-all-time-top-scorer",
+      "player": "Kylian Mbappe",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mbappe-010-france-all-time-top-scorer/media-manifest.json"
+    },
+    {
+      "topicId": "son-001-tottenham-to-lafc",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-001-tottenham-to-lafc/media-manifest.json"
+    },
+    {
+      "topicId": "son-002-club-captain",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-002-club-captain/media-manifest.json"
+    },
+    {
+      "topicId": "son-003-contract-until-2026",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-003-contract-until-2026/media-manifest.json"
+    },
+    {
+      "topicId": "son-004-premier-league-127-goals-71-assists",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-004-premier-league-127-goals-71-assists/media-manifest.json"
+    },
+    {
+      "topicId": "son-005-first-asian-premier-league-century",
+      "player": "Son Heung-min",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-005-first-asian-premier-league-century/media-manifest.json"
+    },
+    {
+      "topicId": "son-006-shared-golden-boot-23",
+      "player": "Son Heung-min",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-006-shared-golden-boot-23/media-manifest.json"
+    },
+    {
+      "topicId": "son-007-asian-games-gold",
+      "player": "Son Heung-min",
+      "videoSlots": 3,
+      "imageSlots": 2,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-007-asian-games-gold/media-manifest.json"
+    },
+    {
+      "topicId": "son-008-bundesliga-made-in-germany",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-008-bundesliga-made-in-germany/media-manifest.json"
+    },
+    {
+      "topicId": "son-009-eighth-kfa-award",
+      "player": "Son Heung-min",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-009-eighth-kfa-award/media-manifest.json"
+    },
+    {
+      "topicId": "son-010-47-premier-league-appearances",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-010-47-premier-league-appearances/media-manifest.json"
+    },
+    {
+      "topicId": "son-011-asian-champions-league-scoring-leader",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-011-asian-champions-league-scoring-leader/media-manifest.json"
+    },
+    {
+      "topicId": "son-012-europa-league-captain-farewell",
+      "player": "Son Heung-min",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/son-012-europa-league-captain-farewell/media-manifest.json"
+    },
+    {
+      "topicId": "salah-001-first-african-50-ucl-goals",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-001-first-african-50-ucl-goals/media-manifest.json"
+    },
+    {
+      "topicId": "salah-002-fourth-golden-boot",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-002-fourth-golden-boot/media-manifest.json"
+    },
+    {
+      "topicId": "salah-003-announces-liverpool-departure",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-003-announces-liverpool-departure/media-manifest.json"
+    },
+    {
+      "topicId": "salah-004-fifty-seven-goal-involvements",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-004-fifty-seven-goal-involvements/media-manifest.json"
+    },
+    {
+      "topicId": "salah-005-32-goal-record",
+      "player": "Mohamed Salah",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-005-32-goal-record/media-manifest.json"
+    },
+    {
+      "topicId": "salah-006-four-golden-boots",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-006-four-golden-boots/media-manifest.json"
+    },
+    {
+      "topicId": "salah-007-earliest-champions-league-final-goal",
+      "player": "Mohamed Salah",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-007-earliest-champions-league-final-goal/media-manifest.json"
+    },
+    {
+      "topicId": "salah-008-two-hundred-liverpool-goals",
+      "player": "Mohamed Salah",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/salah-008-two-hundred-liverpool-goals/media-manifest.json"
+    },
+    {
+      "topicId": "marta-001-marta-award-winning-goal",
+      "player": "Marta",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/marta-001-marta-award-winning-goal/media-manifest.json"
+    },
+    {
+      "topicId": "marta-002-brazil-200th-appearance",
+      "player": "Marta",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/marta-002-brazil-200th-appearance/media-manifest.json"
+    },
+    {
+      "topicId": "marta-003-third-olympic-silver",
+      "player": "Marta",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/marta-003-third-olympic-silver/media-manifest.json"
+    },
+    {
+      "topicId": "marta-004-six-olympics",
+      "player": "Marta",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/marta-004-six-olympics/media-manifest.json"
+    },
+    {
+      "topicId": "marta-005-world-cup-17-goals",
+      "player": "Marta",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/marta-005-world-cup-17-goals/media-manifest.json"
+    },
+    {
+      "topicId": "alexia-001-barcelona-500th-game",
+      "player": "Alexia Putellas",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/alexia-001-barcelona-500th-game/media-manifest.json"
+    },
+    {
+      "topicId": "alexia-002-uwcl-player-of-season",
+      "player": "Alexia Putellas",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/alexia-002-uwcl-player-of-season/media-manifest.json"
+    },
+    {
+      "topicId": "alexia-003-u17-world-cup-first-goal",
+      "player": "Alexia Putellas",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/alexia-003-u17-world-cup-first-goal/media-manifest.json"
+    },
+    {
+      "topicId": "alexia-004-barcelona-departure",
+      "player": "Alexia Putellas",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/alexia-004-barcelona-departure/media-manifest.json"
+    },
+    {
+      "topicId": "aitana-001-world-cup-and-the-best",
+      "player": "Aitana Bonmati",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/aitana-001-world-cup-and-the-best/media-manifest.json"
+    },
+    {
+      "topicId": "aitana-002-uwcl-final-player-of-match",
+      "player": "Aitana Bonmati",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/aitana-002-uwcl-final-player-of-match/media-manifest.json"
+    },
+    {
+      "topicId": "aitana-003-technical-movement-analysis",
+      "player": "Aitana Bonmati",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/aitana-003-technical-movement-analysis/media-manifest.json"
+    },
+    {
+      "topicId": "aitana-004-barcelona-journey-to-training",
+      "player": "Aitana Bonmati",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/aitana-004-barcelona-journey-to-training/media-manifest.json"
+    },
+    {
+      "topicId": "sam-001-australia-debut",
+      "player": "Sam Kerr",
+      "videoSlots": 2,
+      "imageSlots": 3,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/sam-001-australia-debut/media-manifest.json"
+    },
+    {
+      "topicId": "sam-002-four-goals-jamaica",
+      "player": "Sam Kerr",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/sam-002-four-goals-jamaica/media-manifest.json"
+    },
+    {
+      "topicId": "sam-003-chelsea-contract-extension",
+      "player": "Sam Kerr",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/sam-003-chelsea-contract-extension/media-manifest.json"
+    },
+    {
+      "topicId": "christine-001-international-goals-world-record",
+      "player": "Christine Sinclair",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/christine-001-international-goals-world-record/media-manifest.json"
+    },
+    {
+      "topicId": "christine-002-professional-retirement",
+      "player": "Christine Sinclair",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/christine-002-professional-retirement/media-manifest.json"
+    },
+    {
+      "topicId": "christine-003-hall-of-fame-selection",
+      "player": "Christine Sinclair",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/christine-003-hall-of-fame-selection/media-manifest.json"
+    },
+    {
+      "topicId": "ji-001-kfa-player-of-year",
+      "player": "Ji So-yun",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/ji-001-kfa-player-of-year/media-manifest.json"
+    },
+    {
+      "topicId": "park-001-2002-portugal-goal",
+      "player": "Park Ji-sung",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/park-001-2002-portugal-goal/media-manifest.json"
+    },
+    {
+      "topicId": "park-002-psv-champions-league-semi-final",
+      "player": "Park Ji-sung",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/park-002-psv-champions-league-semi-final/media-manifest.json"
+    },
+    {
+      "topicId": "park-003-manchester-united-2008-champions-league",
+      "player": "Park Ji-sung",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/park-003-manchester-united-2008-champions-league/media-manifest.json"
+    },
+    {
+      "topicId": "park-004-first-asian-champions-league-final",
+      "player": "Park Ji-sung",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/park-004-first-asian-champions-league-final/media-manifest.json"
+    },
+    {
+      "topicId": "park-005-100-international-caps",
+      "player": "Park Ji-sung",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/park-005-100-international-caps/media-manifest.json"
+    },
+    {
+      "topicId": "kim-001-kfa-player-of-year-2023",
+      "player": "Kim Min-jae",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/kim-001-kfa-player-of-year-2023/media-manifest.json"
+    },
+    {
+      "topicId": "kim-002-napoli-serie-a-2023",
+      "player": "Kim Min-jae",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/kim-002-napoli-serie-a-2023/media-manifest.json"
+    },
+    {
+      "topicId": "kim-003-napoli-to-bayern",
+      "player": "Kim Min-jae",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/kim-003-napoli-to-bayern/media-manifest.json"
+    },
+    {
+      "topicId": "lee-001-u20-golden-ball",
+      "player": "Lee Kang-in",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/lee-001-u20-golden-ball/media-manifest.json"
+    },
+    {
+      "topicId": "lee-002-young-laliga-appearance",
+      "player": "Lee Kang-in",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/lee-002-young-laliga-appearance/media-manifest.json"
+    },
+    {
+      "topicId": "lee-003-psg-first-korean",
+      "player": "Lee Kang-in",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/lee-003-psg-first-korean/media-manifest.json"
+    },
+    {
+      "topicId": "hwang-001-portugal-stoppage-time-winner",
+      "player": "Hwang Hee-chan",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/hwang-001-portugal-stoppage-time-winner/media-manifest.json"
+    },
+    {
+      "topicId": "hwang-002-wolves-13-goals",
+      "player": "Hwang Hee-chan",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/hwang-002-wolves-13-goals/media-manifest.json"
+    },
+    {
+      "topicId": "kubo-001-laliga-fc-futures",
+      "player": "Takefusa Kubo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/kubo-001-laliga-fc-futures/media-manifest.json"
+    },
+    {
+      "topicId": "kubo-002-laliga-player-month",
+      "player": "Takefusa Kubo",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/kubo-002-laliga-player-month/media-manifest.json"
+    },
+    {
+      "topicId": "mitoma-001-first-japanese-seven-goals",
+      "player": "Kaoru Mitoma",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mitoma-001-first-japanese-seven-goals/media-manifest.json"
+    },
+    {
+      "topicId": "mitoma-002-japanese-premier-league-record",
+      "player": "Kaoru Mitoma",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/mitoma-002-japanese-premier-league-record/media-manifest.json"
+    },
+    {
+      "topicId": "honda-001-three-world-cup-goals",
+      "player": "Keisuke Honda",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/honda-001-three-world-cup-goals/media-manifest.json"
+    },
+    {
+      "topicId": "honda-002-cameroon-denmark-goals",
+      "player": "Keisuke Honda",
+      "videoSlots": 1,
+      "imageSlots": 4,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/honda-002-cameroon-denmark-goals/media-manifest.json"
+    },
+    {
+      "topicId": "nakata-001-2002-tunisia-goal",
+      "player": "Hidetoshi Nakata",
+      "videoSlots": 0,
+      "imageSlots": 5,
+      "readyForStaticRender": true,
+      "readyForVideoRender": false,
+      "manifest": "projects/video-first-batch-170/nakata-001-2002-tunisia-goal/media-manifest.json"
+    }
+  ]
+}

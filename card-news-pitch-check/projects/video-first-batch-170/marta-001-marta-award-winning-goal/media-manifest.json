@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "topicId": "marta-001-marta-award-winning-goal",
+  "eventKey": "marta|2024|marta-award-winning-goal",
+  "player": "Marta",
+  "hook": "Marta의 이름을 딴 첫 상을 Marta 본인의 골이 가져갔다.",
+  "sourceRefs": [
+    "marta_source_01"
+  ],
+  "videoCandidate": {
+    "id": "Olmh1GLDhZI",
+    "url": "https://www.youtube.com/watch?v=Olmh1GLDhZI",
+    "title": "Sakina Karchaoui | France v Sweden | FIFA Marta Award 2024 Nominee",
+    "description": "Sakina Karchaoui's goal for France against Sweden was nominated for the FIFA Marta Award 2024. Watch every FIFA Marta ...",
+    "duration": 31,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/Olmh1GLDhZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKQfk3-_izilc6BfoeMX8cUgfMoA",
+    "score": 77,
+    "eventOverlap": [
+      "award",
+      "2024",
+      "fifa"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/marta-001-marta-award-winning-goal.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Marta의 이름을 딴 첫 상을 Marta 본인의 골이 가져갔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Olmh1GLDhZI",
+        "startSeconds": 2,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-001-marta-award-winning-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 2024년 첫 Marta Award를 브라질-자메이카전 골에 수여했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-001-marta-award-winning-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "팬과 FIFA 레전드 패널 투표가 각각 절반씩 반영됐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Olmh1GLDhZI",
+        "startSeconds": 13,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-001-marta-award-winning-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "이름을 남기는 데서 끝나지 않고 그 이름의 기준까지 세웠다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-001-marta-award-winning-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 골이 선수의 기록을 넘어 상의 기준이 됐다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-001-marta-award-winning-goal.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

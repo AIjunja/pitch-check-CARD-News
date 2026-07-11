@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "aitana-001-world-cup-and-the-best",
+  "eventKey": "aitana-bonmati|2023|world-cup-and-the-best",
+  "player": "Aitana Bonmati",
+  "hook": "Aitana는 월드컵 우승과 최고의 선수상을 한 해에 겹쳐 올렸다.",
+  "sourceRefs": [
+    "aitana_source_01"
+  ],
+  "videoCandidate": {
+    "id": "OxL-I4SdACo",
+    "url": "https://www.youtube.com/watch?v=OxL-I4SdACo",
+    "title": "INSIDE VIEW I AITANA BONMATÍ WINS BALLON D'OR 2023! 🥇💙❤️",
+    "description": "The best women's player in the world is still a blaugrana! Aitana Bonmatí is the Ballon d'Or winner for 2023, a prize which places ...",
+    "duration": 628,
+    "channel": "FC Barcelona",
+    "channelUrl": "https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/OxL-I4SdACo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnyfvaqadLm7fhtiMWHM6Yr6WFVw",
+    "score": 81,
+    "eventOverlap": [
+      "2023"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/aitana-001-world-cup-and-the-best.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Aitana는 월드컵 우승과 최고의 선수상을 한 해에 겹쳐 올렸다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/aitana-001-world-cup-and-the-best.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 2023 여자 월드컵 우승과 Golden Ball, The Best 수상을 확인한다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/aitana-001-world-cup-and-the-best.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Aitana는 같은 해 바르셀로나 챔피언스리그 우승에도 기여했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/aitana-001-world-cup-and-the-best.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "팀 트로피와 개인상이 한 해의 한 문장에 들어간다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/aitana-001-world-cup-and-the-best.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "혼자 빛난 기록이 아니라 두 팀의 우승을 이어 붙인 시즌이다.",
+      "role": "emotion",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/aitana-001-world-cup-and-the-best.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

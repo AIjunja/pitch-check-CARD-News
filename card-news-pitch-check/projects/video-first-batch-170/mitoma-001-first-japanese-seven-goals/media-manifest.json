@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mitoma-001-first-japanese-seven-goals",
+  "eventKey": "kaoru-mitoma|2023|first-japanese-seven-premier-league-goals",
+  "player": "Kaoru Mitoma",
+  "hook": "미토마 가오루는 프리미어리그에서 일본 선수 최초로 7골을 찍었다.",
+  "sourceRefs": [
+    "asia07_source_13"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "미토마 가오루는 프리미어리그에서 일본 선수 최초로 7골을 찍었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mitoma-001-first-japanese-seven-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "브라이턴은 그가 일본 선수 최초로 7골을 기록했다고 전했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mitoma-001-first-japanese-seven-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "브렌트퍼드전 기사와 이미지 캡션이 같은 신기록을 남겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mitoma-001-first-japanese-seven-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "드리블러의 이름이 일본 선수 기록표 첫 줄에 올랐다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mitoma-001-first-japanese-seven-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 시즌 골 숫자가 국적별 리그 기록으로 바뀌었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mitoma-001-first-japanese-seven-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-004-premier-league-127-goals-71-assists",
+  "eventKey": "son-heung-min|2025|premier-league-legacy",
+  "player": "Son Heung-min",
+  "hook": "손흥민의 프리미어리그 작별 인사는 골과 도움의 표였다.",
+  "sourceRefs": [
+    "son_source_04"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "손흥민의 프리미어리그 작별 인사는 골과 도움의 표였다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-004-premier-league-127-goals-71-assists.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "프리미어리그는 손흥민이 토트넘에서 127골과 71도움을 기록했다고 정리했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-004-premier-league-127-goals-71-assists.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그 기록으로 손흥민은 리그 역대 득점과 도움 모두 상위 20위에 들었고, 198개 공격포인트를 남겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-004-premier-league-127-goals-71-assists.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "골만 세면 보이지 않던 창조자의 숫자가 함께 드러난다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-004-premier-league-127-goals-71-assists.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "잘 넣는 선수와 잘 만드는 선수가 한 사람 안에 겹친다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-004-premier-league-127-goals-71-assists.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

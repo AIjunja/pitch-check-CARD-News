@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-014-juventus-first-outing",
+  "eventKey": "cristiano-ronaldo|2018|juventus-first-outing",
+  "player": "Cristiano Ronaldo",
+  "hook": "Ronaldo는 Juventus에서 휴가를 보내러 온 것이 아니라고 말했다.",
+  "sourceRefs": [
+    "ronaldo_source_14"
+  ],
+  "videoCandidate": {
+    "id": "V_vjWX8tawQ",
+    "url": "https://www.youtube.com/watch?v=V_vjWX8tawQ",
+    "title": "Cristiano Ronaldo Full Pre-Match Press Conference - Manchester United v Juventus - Champions League",
+    "description": "Press conferences with Juventus forward Cristiano Ronaldo ahead of the Champions League game against Manchester United.",
+    "duration": 609,
+    "channel": "BeanymanSports",
+    "channelUrl": "https://www.youtube.com/channel/UCiVg6vRhuyjsWgHkDNOig6A",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/V_vjWX8tawQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvUksAcHggT7cClYQwWUm6i_K11g",
+    "score": 53,
+    "eventOverlap": [
+      "juventus",
+      "press",
+      "conference"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-014-juventus-first-outing.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Ronaldo의 Juventus 첫 기자회견",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-014-juventus-first-outing.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "그는 휴가를 보내러 온 것이 아니라고 말했다.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=V_vjWX8tawQ",
+        "startSeconds": 181,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-014-juventus-first-outing.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Juventus 역사에 중요한 흔적을 남기고 싶다고 했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=V_vjWX8tawQ",
+        "startSeconds": 290,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-014-juventus-first-outing.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "모든 트로피를 위해 싸우겠다고 말했다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-014-juventus-first-outing.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이건 결과가 아니라 새 도전에 대한 본인의 선언이다.",
+      "role": "emotion",
+      "need": "official interview close-up",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-014-juventus-first-outing.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

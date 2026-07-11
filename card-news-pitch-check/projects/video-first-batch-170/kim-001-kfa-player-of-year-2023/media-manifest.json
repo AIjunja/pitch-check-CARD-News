@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "kim-001-kfa-player-of-year-2023",
+  "eventKey": "kim-min-jae|2023|kfa-player-of-year",
+  "player": "Kim Min-jae",
+  "hook": "김민재는 2023년 손흥민의 4년 연속 수상을 멈추고 KFA 올해의 선수가 됐다.",
+  "sourceRefs": [
+    "asia07_source_04"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "김민재는 2023년 손흥민의 4년 연속 수상을 멈추고 KFA 올해의 선수가 됐다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/kim-001-kfa-player-of-year-2023.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "KFA는 김민재가 137점으로 남자 부문 1위를 차지했다고 발표했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/kim-001-kfa-player-of-year-2023.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "2021년과 2022년 2위였던 수비수가 이번엔 정상에 올랐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/kim-001-kfa-player-of-year-2023.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "8년 만에 수비수가 이 부문을 수상했다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/kim-001-kfa-player-of-year-2023.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "화려한 득점이 아니라 수비의 신뢰가 투표를 뒤집었다.",
+      "role": "emotion",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/kim-001-kfa-player-of-year-2023.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

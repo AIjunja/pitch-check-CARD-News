@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "alexia-002-uwcl-player-of-season",
+  "eventKey": "alexia-putellas|2026|uwcl-player-of-season",
+  "player": "Alexia Putellas",
+  "hook": "Alexia는 우승 트로피와 함께 챔피언스리그 시즌 최우수 선수도 가져갔다.",
+  "sourceRefs": [
+    "alexia_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Alexia는 우승 트로피와 함께 챔피언스리그 시즌 최우수 선수도 가져갔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-002-uwcl-player-of-season.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 2025/26 대회 최우수 선수로 Alexia를 선정했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-002-uwcl-player-of-season.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "11경기에서 7골과 7도움, 총 14개 공격 포인트를 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-002-uwcl-player-of-season.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "바르셀로나는 결승에서 4-0으로 우승했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-002-uwcl-player-of-season.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "트로피를 들어 올린 장면과 만든 과정이 함께 남았다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-002-uwcl-player-of-season.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

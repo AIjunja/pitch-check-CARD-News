@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "aitana-002-uwcl-final-player-of-match",
+  "eventKey": "aitana-bonmati|2024|uwcl-final-player-of-match",
+  "player": "Aitana Bonmati",
+  "hook": "Aitana는 챔피언스리그 결승에서 경기 전체를 움직인 선수로 뽑혔다.",
+  "sourceRefs": [
+    "aitana_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Aitana는 챔피언스리그 결승에서 경기 전체를 움직인 선수로 뽑혔다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-002-uwcl-final-player-of-match.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 바르셀로나의 2-0 승리와 Aitana의 Player of the Match 선정을 기록했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-002-uwcl-final-player-of-match.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "전진 패스, 볼 회수, 득점 장면이 평가 근거였다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-002-uwcl-final-player-of-match.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "결승 최우수 선수의 이유가 골 하나가 아니라 연결이었다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-002-uwcl-final-player-of-match.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "보이지 않는 패스와 회수가 결승의 표정이 됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-002-uwcl-final-player-of-match.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "topicId": "real-024-mane-no-hospital",
+  "eventKey": "sadio-mane|legacy-sourced|mane-no-hospital",
+  "player": "Sadio Mane",
+  "hook": "고향엔 아버지를 치료할 병원이 없었다",
+  "sourceRefs": [
+    "mane_olympics"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "고향엔",
+          "병원이 없었다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "병원",
+          "Bambali"
+        ]
+      },
+      "role": "hook",
+      "need": "injury moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "전통 치료에",
+          "기댈 수밖에"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "병원",
+          "Bambali"
+        ]
+      },
+      "role": "context",
+      "need": "medical treatment interview",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "마네가 기억한",
+          "가장 큰 결핍"
+        ],
+        "body": "Olympics.com은 마네의 아버지가 아팠지만 Bambali 지역에 병원이 없어 가족이 전통 치료를 시도했다고 전했다.",
+        "accent": [
+          "병원",
+          "Bambali"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "이후 병원 건립 이야기가 그냥 선행이 아니라 개인적 기억에서 출발했다는 점이 강하다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "return to training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "선수의 고향 기여 이야기를 좋아하는 팬에게 잘 맞는다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "haaland-008-leipzig-five-goal-night",
+  "eventKey": "erling-haaland|2023|leipzig-five-goal-night",
+  "player": "Erling Haaland",
+  "hook": "라이프치히전 63분, 홀란은 챔피언스리그에서 다섯 골을 넣었다.",
+  "sourceRefs": [
+    "haaland_source_09"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "라이프치히전 63분, 홀란은 다섯 골을 넣었다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-008-leipzig-five-goal-night.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "그날은 한 경기만 터진 게 아니었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-008-leipzig-five-goal-night.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 25경기 만의 챔피언스리그 30골도 함께 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-008-leipzig-five-goal-night.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "맨시티는 7-0, 합계 8-1로 8강에 갔다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-008-leipzig-five-goal-night.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "골 수와 이정표가 같은 밤에 겹쳤다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-008-leipzig-five-goal-night.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-009-fifty-champions-league-goals",
+  "eventKey": "kylian-mbappe|2024|fifty-champions-league-goals",
+  "player": "Kylian Mbappe",
+  "hook": "25세에 챔피언스리그 50골, 음바페의 속도는 나이로도 설명됐다.",
+  "sourceRefs": [
+    "mbappe_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "25세에 챔피언스리그 50골, 음바페의 속도",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "50이라는 숫자는 어디서 시작됐을까.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 2024년 12월 10일 50골 도달을 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "모나코에서 파리, 레알 마드리드로 이어진 유럽 무대.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이적은 바뀌어도 누적된 장면은 남았다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

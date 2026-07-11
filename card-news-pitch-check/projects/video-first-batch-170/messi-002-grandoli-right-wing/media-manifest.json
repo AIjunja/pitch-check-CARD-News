@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "topicId": "messi-002-grandoli-right-wing",
+  "eventKey": "lionel-messi|1992|grandoli-right-wing",
+  "player": "Lionel Messi",
+  "hook": "다섯 살 메시는 전술 때문에 오른쪽에 선 게 아니었다.",
+  "sourceRefs": [
+    "messi_source_02"
+  ],
+  "videoCandidate": {
+    "id": "0j9POXpurPU",
+    "url": "https://www.youtube.com/watch?v=0j9POXpurPU",
+    "title": "This Is How Lionel Messi Played Before Joining Barcelona",
+    "description": "Messi as a kid (between 5 & 11 years old) in Rosario playing for Grandoli & Newell's Old Boys. Pure talent. Support me: ...",
+    "duration": 408,
+    "channel": "Messi TheBoss",
+    "channelUrl": "https://www.youtube.com/channel/UCAXvfUwC7SIoC6f2ATpNfMg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/0j9POXpurPU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYOiaP5cR_hUH_puMChnt9ApUHdQ",
+    "score": 49,
+    "eventOverlap": [
+      "grandoli",
+      "rosario"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-002-grandoli-right-wing.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "다섯 살 메시가 오른쪽 윙에 섰던 진짜 이유",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-002-grandoli-right-wing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "감독의 전술판에는 없던 이유였다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-002-grandoli-right-wing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "울면 곧바로 할머니 곁으로 갈 수 있게, 오른쪽에 세웠다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=0j9POXpurPU",
+        "startSeconds": 194,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/messi-002-grandoli-right-wing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "장소는 로사리오의 동네 클럽 그란돌리.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-002-grandoli-right-wing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "그의 첫 경기는 그렇게 가족 가까이에서 시작됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-002-grandoli-right-wing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

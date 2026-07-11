@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "sam-002-four-goals-jamaica",
+  "eventKey": "sam-kerr|2019|four-goals-jamaica",
+  "player": "Sam Kerr",
+  "hook": "Sam Kerr가 여자 월드컵 한 경기에서 호주의 네 골을 모두 넣었다.",
+  "sourceRefs": [
+    "sam_source_02"
+  ],
+  "videoCandidate": {
+    "id": "a2MnHJtomsg",
+    "url": "https://www.youtube.com/watch?v=a2MnHJtomsg",
+    "title": "\"Suck on that one!\" - Sam Kerr's message for the critics - 2019 FIFA Women’s World Cup",
+    "description": "Australia's captain had a message for the critics of the Matildas after their 3-2 win over Brazil. For more videos head to ...",
+    "duration": 57,
+    "channel": "SBS Sport ",
+    "channelUrl": "https://www.youtube.com/channel/UCn6UMS98Ox-B3jkSWlweJ2w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/a2MnHJtomsg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCv369qNtyzi7krQrNZx7Mk9tnNpg",
+    "score": 53,
+    "eventOverlap": [
+      "2019"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/sam-002-four-goals-jamaica.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Sam Kerr가 여자 월드컵 한 경기에서 호주의 네 골을 모두 넣었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/sam-002-four-goals-jamaica.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2019년 자메이카전에서 4-1 승리를 만들었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/sam-002-four-goals-jamaica.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "FIFA는 Kerr를 호주 최초의 성인 여자 월드컵 해트트릭 선수로 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/sam-002-four-goals-jamaica.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 경기의 득점표가 국가 기록으로 바뀌었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/sam-002-four-goals-jamaica.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "네 골은 호주 월드컵 이야기의 새 기준이 됐다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/sam-002-four-goals-jamaica.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

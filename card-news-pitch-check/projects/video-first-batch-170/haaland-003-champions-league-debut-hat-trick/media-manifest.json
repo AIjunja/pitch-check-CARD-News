@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "topicId": "haaland-003-champions-league-debut-hat-trick",
+  "eventKey": "erling-haaland|2019|champions-league-debut-hat-trick",
+  "player": "Erling Haaland",
+  "hook": "챔피언스리그 데뷔전, 홀란은 전반에 해트트릭을 끝냈다.",
+  "sourceRefs": [
+    "haaland_source_03"
+  ],
+  "videoCandidate": {
+    "id": "EJgBpS8fTLg",
+    "url": "https://www.youtube.com/watch?v=EJgBpS8fTLg",
+    "title": "Erling Haaland UEFA Champions League feature",
+    "description": "Im Alter von nur 19 Jahren hat sich Erling Haaland nach nur 100 Sekunden auf der großen Bühne vorgestellt. Die Champions ...",
+    "duration": 232,
+    "channel": "FC Red Bull Salzburg",
+    "channelUrl": "https://www.youtube.com/channel/UCNXjAsLzro7bnZVWqnnkgsg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/EJgBpS8fTLg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6GLtNMAYJuG22MDdJrntCrBB4qQ",
+    "score": 49,
+    "eventOverlap": [
+      "hat"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/haaland-003-champions-league-debut-hat-trick.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "챔피언스리그 데뷔전, 홀란은 전반 해트트릭을 끝냈다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=EJgBpS8fTLg",
+        "startSeconds": 26,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "꿈의 첫 페이지에서 바로 세 줄을 썼다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 헹크전 전반 세 골을 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "경기 전에는 데뷔가 어린 시절 꿈이라고 말했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 무대가 곧바로 기록의 무대가 됐다.",
+      "role": "emotion",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

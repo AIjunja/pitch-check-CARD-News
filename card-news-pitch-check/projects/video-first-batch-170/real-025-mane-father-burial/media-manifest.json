@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-025-mane-father-burial",
+  "eventKey": "sadio-mane|legacy-sourced|mane-father-burial",
+  "player": "Sadio Mane",
+  "hook": "아버지의 시신을 고향에 모셔오지도 못했다",
+  "sourceRefs": [
+    "mane_olympics"
+  ],
+  "videoCandidate": {
+    "id": "nkmqzw1Jxgo",
+    "url": "https://www.youtube.com/watch?v=nkmqzw1Jxgo",
+    "title": "Kalidou Koulibaly | Winning AFCON 2021, Sadio Mane & Why He Chose To Represent Senegal",
+    "description": "Subscribe to The Players' Tribune Football: https://www.youtube.com/channel/UCEr15cEX4sKQzbGqehLemoQ » Subscribe to ...",
+    "duration": 440,
+    "channel": "Players' Tribune Football",
+    "channelUrl": "https://www.youtube.com/channel/UCEr15cEX4sKQzbGqehLemoQ",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/nkmqzw1Jxgo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhNZWlNYywledNDrvLLL0zEd33uQ",
+    "score": 49,
+    "eventOverlap": [
+      "senegal"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-025-mane-father-burial.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "고향에",
+          "모셔오지 못했다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "고향",
+          "가족"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "보안 상황 때문에",
+          "가족도 막혔다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "고향",
+          "가족"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "마네 가족의",
+          "어린 기억"
+        ],
+        "body": "Olympics.com은 당시 남부 세네갈의 보안 상황 때문에 마네 가족이 아버지의 시신을 Bambali로 데려오지 못했다고 전했다.",
+        "accent": [
+          "고향",
+          "가족"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "기부 금액보다 이런 배경이 먼저 보이면 스토리의 무게가 완전히 달라진다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "마네를 좋아하는 사람이라면 끝까지 넘길 소재다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-sadio-mane-hospital.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

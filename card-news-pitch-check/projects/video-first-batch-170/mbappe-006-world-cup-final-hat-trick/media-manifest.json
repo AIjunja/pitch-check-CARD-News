@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "mbappe-006-world-cup-final-hat-trick",
+  "eventKey": "kylian-mbappe|2022|world-cup-final-hat-trick",
+  "player": "Kylian Mbappe",
+  "hook": "월드컵 결승에서 세 골, 음바페는 역사상 두 번째 결승 해트트릭을 만들었다.",
+  "sourceRefs": [
+    "mbappe_source_08"
+  ],
+  "videoCandidate": {
+    "id": "UO2S8hdJ4kA",
+    "url": "https://www.youtube.com/watch?v=UO2S8hdJ4kA",
+    "title": "TWO GOALS IN 95 SECONDS! Kylian Mbappé's 2022 FIFA World Cup Final Brace",
+    "description": "It took France's Kylian Mbappe merely 95 seconds to score the second-fastest double in FIFA World Cup history, dramatically ...",
+    "duration": 116,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/UO2S8hdJ4kA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsQhTXQaCfdirj6wqIV56ixE9sSw",
+    "score": 73,
+    "eventOverlap": [
+      "final",
+      "2022"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/mbappe-006-world-cup-final-hat-trick.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "월드컵 결승에서 세 골, 음바페는 역사를 만들었다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=UO2S8hdJ4kA",
+        "startSeconds": 12,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-006-world-cup-final-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "그런데 프랑스는 우승하지 못했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-006-world-cup-final-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 결승전 역사상 두 번째 해트트릭이라고 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=UO2S8hdJ4kA",
+        "startSeconds": 54,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-006-world-cup-final-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "경기는 3-3 연장전 뒤 승부차기로 끝났다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-006-world-cup-final-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "개인의 폭발과 팀의 결과가 서로 다른 방향으로 남았다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-006-world-cup-final-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

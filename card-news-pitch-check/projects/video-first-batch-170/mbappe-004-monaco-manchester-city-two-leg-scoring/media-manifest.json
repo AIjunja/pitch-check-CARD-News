@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-004-monaco-manchester-city-two-leg-scoring",
+  "eventKey": "kylian-mbappe|2017|monaco-manchester-city-two-leg-scoring",
+  "player": "Kylian Mbappe",
+  "hook": "음바페는 맨체스터 시티와의 두 경기에서 모두 득점했다.",
+  "sourceRefs": [
+    "mbappe_source_05"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "음바페는 맨체스터 시티와의 두 경기에서 모두 득점했다",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-004-monaco-manchester-city-two-leg-scoring.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "첫 두 챔피언스리그 선발 경기부터 흐름이 이어졌다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-004-monaco-manchester-city-two-leg-scoring.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 모나코의 맨체스터 시티전 두 경기 득점을 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-004-monaco-manchester-city-two-leg-scoring.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "모나코는 그 흐름을 타고 8강에 올랐다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-004-monaco-manchester-city-two-leg-scoring.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 번의 반짝임이 아니라 두 경기 연속이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-004-monaco-manchester-city-two-leg-scoring.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

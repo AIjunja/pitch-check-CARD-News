@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-008-real-madrid-goals",
+  "eventKey": "cristiano-ronaldo|2009|real-madrid-451-goals",
+  "player": "Cristiano Ronaldo",
+  "hook": "레알 마드리드에서 Ronaldo는 438경기에 451골을 남겼다.",
+  "sourceRefs": [
+    "ronaldo_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "레알 마드리드에서 Ronaldo의 숫자",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-008-real-madrid-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2009년 7월 6일 Santiago Bernabeu에 공개됐다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-008-real-madrid-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "공식 출전은 438경기였다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-008-real-madrid-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "골은 451개였다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-008-real-madrid-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "Real Madrid는 그를 클럽 역사상 최다 득점자로 소개한다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-008-real-madrid-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

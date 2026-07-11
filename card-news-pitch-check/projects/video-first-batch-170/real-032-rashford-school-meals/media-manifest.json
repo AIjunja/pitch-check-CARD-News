@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "topicId": "real-032-rashford-school-meals",
+  "eventKey": "marcus-rashford|legacy-sourced|rashford-school-meals",
+  "player": "Marcus Rashford",
+  "hook": "그도 한때 무료 급식에 기대던 아이였다",
+  "sourceRefs": [
+    "rashford_guardian"
+  ],
+  "videoCandidate": {
+    "id": "a3-ElL9Mru0",
+    "url": "https://www.youtube.com/watch?v=a3-ElL9Mru0",
+    "title": "Marcus Rashford reacts to the government's u-turn on free school meals and returning to football",
+    "description": "SUBSCRIBE ▻ http://bit.ly/SSFootballSub PREMIER LEAGUE HIGHLIGHTS ▻ http://bit.ly/SkySportsPLHighlights Marcus ...",
+    "duration": 921,
+    "channel": "Sky Sports Premier League",
+    "channelUrl": "https://www.youtube.com/channel/UCNAf1k0yIjyGu3k9BwAg3lg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/a3-ElL9Mru0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDea9N6P7159H8M2Bwt8ha9kbWtDw",
+    "score": 69,
+    "eventOverlap": [
+      "free",
+      "school",
+      "meals"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-032-rashford-school-meals.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "무료 급식에",
+          "기대던 아이"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "무료 급식",
+          "래시포드"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "그래서 밥 문제를",
+          "그냥 못 넘겼다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "무료 급식",
+          "래시포드"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "래시포드의",
+          "진짜 동기"
+        ],
+        "body": "Guardian은 래시포드가 어린 시절 breakfast club, free school meals, food bank 경험에 기대야 했다고 전했다.",
+        "accent": [
+          "무료 급식",
+          "래시포드"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=a3-ElL9Mru0",
+        "startSeconds": 440,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "선수의 캠페인이 왜 그렇게 집요했는지 한 번에 이해되는 소재다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "경기 밖 영향력 이야기 좋아하는 팬들에게 강하다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

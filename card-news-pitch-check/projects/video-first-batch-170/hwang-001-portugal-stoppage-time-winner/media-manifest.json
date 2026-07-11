@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "topicId": "hwang-001-portugal-stoppage-time-winner",
+  "eventKey": "hwang-hee-chan|2022|portugal-stoppage-time-winner",
+  "player": "Hwang Hee-chan",
+  "hook": "황희찬의 90+1분 골이 한국을 월드컵 16강으로 밀어 올렸다.",
+  "sourceRefs": [
+    "asia07_source_09"
+  ],
+  "videoCandidate": {
+    "id": "DVNwiAPuPTY",
+    "url": "https://www.youtube.com/watch?v=DVNwiAPuPTY",
+    "title": "LATE DRAMA as Hwang winner decides group! | Korea Republic v Portugal | FIFA World Cup Qatar 2022",
+    "description": "Watch the Korea Republic v Portugal Group H highlights from the FIFA World Cup Qatar 2022. Get all the highlights from Qatar ...",
+    "duration": 125,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/DVNwiAPuPTY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRNmyj2XpPjjZASYPhShxWnCpJhg",
+    "score": 69,
+    "eventOverlap": [
+      "portugal",
+      "2022"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/hwang-001-portugal-stoppage-time-winner.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "황희찬의 90+1분 골이 한국을 월드컵 16강으로 밀어 올렸다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/hwang-001-portugal-stoppage-time-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 포르투갈전 2-1 승리와 황희찬의 추가시간 결승골을 기록했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/hwang-001-portugal-stoppage-time-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "한국은 선제골을 내주고도 동점과 역전으로 조 2위가 됐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DVNwiAPuPTY",
+        "startSeconds": 58,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/hwang-001-portugal-stoppage-time-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "마지막 1분이 조별리그의 모든 계산을 바꿨다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/hwang-001-portugal-stoppage-time-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "끝까지 남은 한 명의 움직임이 팀을 다음 라운드로 보냈다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/hwang-001-portugal-stoppage-time-winner.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

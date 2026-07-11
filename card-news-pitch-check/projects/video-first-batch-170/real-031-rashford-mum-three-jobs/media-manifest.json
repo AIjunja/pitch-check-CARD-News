@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "topicId": "real-031-rashford-mum-three-jobs",
+  "eventKey": "marcus-rashford|legacy-sourced|rashford-mum-three-jobs",
+  "player": "Marcus Rashford",
+  "hook": "래시포드는 어머니의 표정을 기억한다",
+  "sourceRefs": [
+    "rashford_guardian"
+  ],
+  "videoCandidate": {
+    "id": "NaJFeTpXnxM",
+    "url": "https://www.youtube.com/watch?v=NaJFeTpXnxM",
+    "title": "Marcus Rashford has helped end stigma for \"school meal kids\" - former Education Secretary | LBC",
+    "description": "Marcus Rashford has lifted the morale of children and adults across the UK that have felt sensitive for having to use free school ...",
+    "duration": 390,
+    "channel": "LBC",
+    "channelUrl": "https://www.youtube.com/channel/UCb1Ti1WKPauPpXkYKVHNpsw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/NaJFeTpXnxM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHdlGLiHWvgktx_J1a0UCEblcfJg",
+    "score": 41,
+    "eventOverlap": [
+      "free",
+      "school"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-031-rashford-mum-three-jobs.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "어머니의",
+          "그 표정을 기억"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "래시포드",
+          "어머니"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "세 가지 일을 하며",
+          "식탁을 버텼다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "래시포드",
+          "어머니"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 기억이",
+          "캠페인이 됐다"
+        ],
+        "body": "Guardian은 래시포드의 어머니 Mel이 다섯 남매를 키우며 여러 일을 했고, 식탁을 걱정하던 표정이 그의 활동에 영향을 줬다고 전했다.",
+        "accent": [
+          "래시포드",
+          "어머니"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NaJFeTpXnxM",
+        "startSeconds": 185,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "그의 사회 활동이 갑자기 나온 이미지 메이킹이 아니라 어린 시절 기억에서 출발했다는 점이 중요하다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "축구 선수가 사회를 바꾼 이야기로 저장 가치가 높다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

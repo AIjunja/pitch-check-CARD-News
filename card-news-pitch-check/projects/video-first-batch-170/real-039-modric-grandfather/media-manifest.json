@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-039-modric-grandfather",
+  "eventKey": "luka-modric|legacy-sourced|modric-grandfather",
+  "player": "Luka Modric",
+  "hook": "그의 이름은 할아버지에게서 왔다",
+  "sourceRefs": [
+    "modric_guardian"
+  ],
+  "videoCandidate": {
+    "id": "nfXkwUJt9Fs",
+    "url": "https://www.youtube.com/watch?v=nfXkwUJt9Fs",
+    "title": "Luka Modric criticises English arrogance after Croatia reach World Cup final",
+    "description": "Luka Modric criticises English arrogance after Croatia reach World Cup final \"English journalists, pundits from television, they ...",
+    "duration": 114,
+    "channel": "Skillz Unleashed",
+    "channelUrl": "https://www.youtube.com/channel/UC-s6Y8VOpe1PoMI8mHv--qQ",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/nfXkwUJt9Fs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzU5Y6f7oHh3mGgspNjHt3yKu4YQ",
+    "score": 20,
+    "eventOverlap": [
+      "croatia"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-039-modric-grandfather.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "그 이름은",
+          "할아버지에게서"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "할아버지",
+          "여섯 살"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-038-modric-burnt-house.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "여섯 살 때",
+          "그를 잃었다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "할아버지",
+          "여섯 살"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-038-modric-burnt-house.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "루카 모드리치의",
+          "가족사"
+        ],
+        "body": "Guardian은 모드리치가 이름을 물려받은 할아버지 Luka Sr가 전쟁 중 살해됐고, 당시 모드리치는 여섯 살이었다고 전했다.",
+        "accent": [
+          "할아버지",
+          "여섯 살"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-038-modric-burnt-house.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "우리가 아는 이름 하나 뒤에도 가족의 기억이 숨어 있었다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-038-modric-burnt-house.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "선수 이름 유래 좋아하는 팬들이 반응하기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-038-modric-burnt-house.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

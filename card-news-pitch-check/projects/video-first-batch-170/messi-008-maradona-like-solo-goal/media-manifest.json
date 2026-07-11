@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-008-maradona-like-solo-goal",
+  "eventKey": "lionel-messi|2007|maradona-like-solo-goal",
+  "player": "Lionel Messi",
+  "hook": "메시는 하프라인 근처에서 출발해 여섯 명을 지나갔다.",
+  "sourceRefs": [
+    "messi_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "하프라인 근처에서 공을 잡은 메시",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-008-maradona-like-solo-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "헤타페전, 앞에는 수비수들이 줄지어 있었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-008-maradona-like-solo-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그는 여섯 명을 지나 골키퍼까지 제쳤다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-008-maradona-like-solo-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "바르셀로나는 이 골을 '마라도나 같은 골'로 기억한다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-008-maradona-like-solo-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 번의 돌파가 축구 영상의 고전이 됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-008-maradona-like-solo-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

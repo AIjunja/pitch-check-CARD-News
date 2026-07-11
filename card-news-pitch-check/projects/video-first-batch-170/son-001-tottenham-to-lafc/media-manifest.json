@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-001-tottenham-to-lafc",
+  "eventKey": "son-heung-min|2025|tottenham-to-lafc",
+  "player": "Son Heung-min",
+  "hook": "10년의 토트넘을 떠나 손흥민은 LAFC로 향했다.",
+  "sourceRefs": [
+    "son_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "10년의 토트넘을 떠나 손흥민은 LAFC로 향했다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-001-tottenham-to-lafc.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "토트넘은 2025년 8월 6일 손흥민의 LAFC 완전 이적을 발표했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-001-tottenham-to-lafc.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단은 손흥민이 토트넘에서 454경기 173골을 기록했고 2023년 주장으로 선임됐다고 정리했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-001-tottenham-to-lafc.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 줄짜리 이적 공지가 한 시대의 숫자를 한꺼번에 꺼낸다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-001-tottenham-to-lafc.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "익숙한 유니폼을 벗는 순간, 기록이 작별 인사가 된다.",
+      "role": "emotion",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-001-tottenham-to-lafc.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

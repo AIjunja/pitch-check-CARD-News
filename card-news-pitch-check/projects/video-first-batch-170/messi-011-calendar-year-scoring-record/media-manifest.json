@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "topicId": "messi-011-calendar-year-scoring-record",
+  "eventKey": "lionel-messi|2012|calendar-year-scoring-record",
+  "player": "Lionel Messi",
+  "hook": "메시는 한 해에 91골을 넣었다.",
+  "sourceRefs": [
+    "messi_source_11"
+  ],
+  "videoCandidate": {
+    "id": "OksvY7cSvZw",
+    "url": "https://www.youtube.com/watch?v=OksvY7cSvZw",
+    "title": "How A Slightly OVERWEIGHT Messi Broke Football",
+    "description": "In 2012, Lionel Messi did something football may never see again. 91 goals in a single calendar year. But this story isn't just about ...",
+    "duration": 638,
+    "channel": "Azam Abdallah",
+    "channelUrl": "https://www.youtube.com/channel/UCC8Gn8d39a14s2ampKhePLw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/OksvY7cSvZw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6yoHsutMD9pCY-aEKFKLgSfEuqQ",
+    "score": 41,
+    "eventOverlap": [
+      "goals",
+      "2012"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-011-calendar-year-scoring-record.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "한 해에 91골. 메시의 2012년.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-011-calendar-year-scoring-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "한 시즌이 아니라 1월부터 12월까지의 숫자다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-011-calendar-year-scoring-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "바르셀로나와 아르헨티나 공식전을 합쳐 91골.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=OksvY7cSvZw",
+        "startSeconds": 304,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/messi-011-calendar-year-scoring-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "기네스 세계기록은 이를 남자 축구 연간 최다 득점으로 소개한다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-011-calendar-year-scoring-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "숫자만으로도 축구의 시간 감각이 무너진다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-011-calendar-year-scoring-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-010-47-premier-league-appearances",
+  "eventKey": "son-heung-min|2023|47-premier-league-appearances",
+  "player": "Son Heung-min",
+  "hook": "2022/23시즌 토트넘에서 손흥민은 47경기를 뛰었다.",
+  "sourceRefs": [
+    "son_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "2022/23시즌 토트넘에서 손흥민은 47경기를 뛰었다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-010-47-premier-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "토트넘은 2022/23시즌 모든 대회에서 손흥민이 47경기에 출전했다고 기록했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-010-47-premier-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "토트넘의 시즌 숫자 리뷰는 손흥민(47)이 해리 케인(49), 이반 페리시치(44)와 최다 출전 선수 3명에 들었다고 정리했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-010-47-premier-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 시즌의 존재감은 골 장면뿐 아니라 매 경기 출석표에도 남는다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-010-47-premier-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "눈에 띄는 한 장면보다 꾸준히 이름을 올린 기록이 오래 남는다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-010-47-premier-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

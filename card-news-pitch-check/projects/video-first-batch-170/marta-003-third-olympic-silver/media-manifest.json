@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "marta-003-third-olympic-silver",
+  "eventKey": "marta|2024|third-olympic-silver",
+  "player": "Marta",
+  "hook": "Marta는 올림픽 은메달을 세 번 목에 걸었다.",
+  "sourceRefs": [
+    "marta_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Marta는 올림픽 은메달을 세 번 목에 걸었다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-003-third-olympic-silver.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 파리 2024 뒤 이 기록과 30경기 출전을 함께 정리했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-003-third-olympic-silver.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "브라질은 결승에서 미국에 0-1로 패했고 Marta는 교체로 투입됐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-003-third-olympic-silver.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "우승컵 하나만으로는 설명되지 않는 긴 결승의 역사다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-003-third-olympic-silver.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "메달의 색보다 세 번의 결승에 도달한 시간이 먼저 보인다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-003-third-olympic-silver.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

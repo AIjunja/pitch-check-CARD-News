@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "marta-005-world-cup-17-goals",
+  "eventKey": "marta|2003-2019|womens-world-cup-record",
+  "player": "Marta",
+  "hook": "Marta의 여자 월드컵 17골은 아직 누구도 넘지 못했다.",
+  "sourceRefs": [
+    "marta_source_05"
+  ],
+  "videoCandidate": {
+    "id": "F6IkXn5MQhY",
+    "url": "https://www.youtube.com/watch?v=F6IkXn5MQhY",
+    "title": "Brazil Legend Marta Receives The FIFA Special Award",
+    "description": "Relive #TheBest FIFA Football Awards 2023 on FIFA+: ...",
+    "duration": 226,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/F6IkXn5MQhY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2wPH-5NXo7TLwcGoqPQI_dnuVfQ",
+    "score": 69,
+    "eventOverlap": [
+      "fifa"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/marta-005-world-cup-17-goals.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Marta의 여자 월드컵 17골은 아직 누구도 넘지 못했다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-005-world-cup-17-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 이 기록을 남녀 월드컵 역사상 최다로 소개한다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-005-world-cup-17-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "대회별 골 모음은 기록이 쌓인 시간을 보여준다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-005-world-cup-17-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 선수의 골 모음이 대회 전체의 기준표가 됐다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-005-world-cup-17-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "17이라는 숫자는 아직 닿지 못한 높이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-005-world-cup-17-goals.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

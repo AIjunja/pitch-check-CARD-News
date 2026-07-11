@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "salah-004-fifty-seven-goal-involvements",
+  "eventKey": "mohamed-salah|2025|57-goal-involvements",
+  "player": "Mohamed Salah",
+  "hook": "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
+  "sourceRefs": [
+    "salah_source_04"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라의 2024/25는 52경기 57개 공격포인트로 끝났다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-004-fifty-seven-goal-involvements.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "리버풀은 살라가 2024/25 시즌 52경기에서 34골과 23도움을 기록했다고 정리했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-004-fifty-seven-goal-involvements.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "리버풀은 34골과 23도움 중 47개가 프리미어리그에서 나와 우승으로 이어졌다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-004-fifty-seven-goal-involvements.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "골과 도움을 더한 숫자가 한 시즌의 밀도를 보여준다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-004-fifty-seven-goal-involvements.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "57개 관여는 혼자 빛난 기록이 아니라 우승으로 이어진 생산성이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-004-fifty-seven-goal-involvements.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

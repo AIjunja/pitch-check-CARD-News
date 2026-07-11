@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-003-andorinha-youth-team",
+  "eventKey": "cristiano-ronaldo|age-7|andorinha-youth-team",
+  "player": "Cristiano Ronaldo",
+  "hook": "7살 Ronaldo는 차가 지나가면 멈추는 거리 축구를 했다.",
+  "sourceRefs": [
+    "ronaldo_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "7살 Ronaldo의 축구장은 마데이라의 거리였다.",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-003-andorinha-youth-team.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "골대도 없었고 차가 지나가면 경기를 멈췄다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-003-andorinha-youth-team.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "아버지는 CF Andorinha의 kitman이었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-003-andorinha-youth-team.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "아버지의 권유에 그는 유소년팀으로 갔다.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-003-andorinha-youth-team.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "전설의 첫 팀은 가족의 응원에서 시작됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-003-andorinha-youth-team.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

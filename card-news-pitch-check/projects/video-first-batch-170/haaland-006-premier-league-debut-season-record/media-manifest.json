@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "haaland-006-premier-league-debut-season-record",
+  "eventKey": "erling-haaland|2023|premier-league-debut-season-record",
+  "player": "Erling Haaland",
+  "hook": "프리미어리그 데뷔 시즌 36골, 홀란은 단일 시즌 기록을 바꿨다.",
+  "sourceRefs": [
+    "haaland_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "프리미어리그 데뷔 시즌 36골, 홀란은 기준선을 바꿨다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-006-premier-league-debut-season-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "첫 시즌이라는 말이 무색한 숫자였다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-006-premier-league-debut-season-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "프리미어리그는 35경기 36골을 공식 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-006-premier-league-debut-season-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "데뷔 시즌 골든부트까지 받았다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-006-premier-league-debut-season-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 해에 리그의 오래된 기준선을 넘어섰다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-006-premier-league-debut-season-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

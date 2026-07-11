@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "park-002-psv-champions-league-semi-final",
+  "eventKey": "park-ji-sung|2004-2005|psv-champions-league-semi-final",
+  "player": "Park Ji-sung",
+  "hook": "박지성은 PSV에서 챔피언스리그 4강과 두 번의 리그 우승을 함께 만들었다.",
+  "sourceRefs": [
+    "asia07_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "박지성은 PSV에서 챔피언스리그 4강과 두 번의 리그 우승을 함께 만들었다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-002-psv-champions-league-semi-final.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2002년 월드컵 뒤 에인트호번으로 건너가 주전이 됐다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-002-psv-champions-league-semi-final.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "PSV는 2004/05 챔피언스리그에서 4강에 올랐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-002-psv-champions-league-semi-final.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "두 번의 리그 우승과 컵 우승까지 공식 기록에 남았다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-002-psv-champions-league-semi-final.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "낯선 리그에서 버틴 시간이 유럽 4강으로 바뀌었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-002-psv-champions-league-semi-final.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "mbappe-001-monaco-champions-league-debut",
+  "eventKey": "kylian-mbappe|2016|monaco-champions-league-debut",
+  "player": "Kylian Mbappe",
+  "hook": "17세 음바페의 챔피언스리그 첫 장면은 교체 출전이었다.",
+  "sourceRefs": [
+    "mbappe_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "17세 음바페의 챔피언스리그 첫 장면",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "처음부터 선발이었던 건 아니다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "2016년, 모나코의 어린 공격수는 교체로 유럽 무대에 들어섰다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "레버쿠젠전에서 시작된 첫 챔피언스리그 기록.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "전설의 첫 컷은 마지막 30분에서 찍혔다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-001-monaco-champions-league-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

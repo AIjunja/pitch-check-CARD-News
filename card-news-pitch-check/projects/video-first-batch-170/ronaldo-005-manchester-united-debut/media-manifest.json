@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-005-manchester-united-debut",
+  "eventKey": "cristiano-ronaldo|2003|manchester-united-debut",
+  "player": "Cristiano Ronaldo",
+  "hook": "2003년 8월 16일, Ronaldo의 맨유 데뷔전은 4-0 승리였다.",
+  "sourceRefs": [
+    "ronaldo_source_05"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "2003년 8월 16일, Ronaldo가 맨유에 데뷔했다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-005-manchester-united-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "상대는 Bolton Wanderers였다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-005-manchester-united-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Manchester United는 4-0으로 이겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-005-manchester-united-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "구단 source는 이 경기를 개막전으로 설명한다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-005-manchester-united-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "데뷔전의 첫 숫자는 4-0이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-005-manchester-united-debut.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

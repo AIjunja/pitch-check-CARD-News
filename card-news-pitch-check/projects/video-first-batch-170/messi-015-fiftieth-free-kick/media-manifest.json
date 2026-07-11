@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-015-fiftieth-free-kick",
+  "eventKey": "lionel-messi|2019|fiftieth-free-kick",
+  "player": "Lionel Messi",
+  "hook": "메시의 프리킥 골은 50개에 도달했다.",
+  "sourceRefs": [
+    "messi_source_15"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 프리킥은 '잘 찬다'로 끝나지 않았다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-015-fiftieth-free-kick.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2019년 바야돌리드전에서 나온 한 골.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-015-fiftieth-free-kick.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그 골은 메시의 통산 50번째 직접 프리킥 골이었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-015-fiftieth-free-kick.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "클럽과 아르헨티나에서 쌓인 숫자다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-015-fiftieth-free-kick.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 번의 궤적 뒤에는 49번의 기록이 더 있었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-015-fiftieth-free-kick.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "salah-001-first-african-50-ucl-goals",
+  "eventKey": "mohamed-salah|2026|first-african-50-champions-league-goals",
+  "player": "Mohamed Salah",
+  "hook": "살라는 챔피언스리그 50골을 찍은 첫 아프리카 선수다.",
+  "sourceRefs": [
+    "salah_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라는 챔피언스리그 50골을 찍은 첫 아프리카 선수다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-001-first-african-50-ucl-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "리버풀은 2026년 3월 살라가 갈라타사라이전에서 챔피언스리그 본선 50골을 달성했다고 발표했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-001-first-african-50-ucl-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "리버풀은 그가 이 기록을 세운 첫 아프리카 선수이자 대회 역사상 12명뿐인 50골 클럽의 한 명이라고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-001-first-african-50-ucl-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 번의 감아차기가 대륙 전체의 기록표를 바꿨다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-001-first-african-50-ucl-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "50이라는 숫자가 개인 기록을 넘어 아프리카 축구의 기준선이 된다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-001-first-african-50-ucl-goals.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

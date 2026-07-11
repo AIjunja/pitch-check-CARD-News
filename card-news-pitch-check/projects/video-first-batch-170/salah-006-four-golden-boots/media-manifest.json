@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "salah-006-four-golden-boots",
+  "eventKey": "mohamed-salah|2025|four-premier-league-golden-boots",
+  "player": "Mohamed Salah",
+  "hook": "살라의 골든부트는 한 번의 반짝임이 아니라 네 번의 반복이었다.",
+  "sourceRefs": [
+    "salah_source_06"
+  ],
+  "videoCandidate": {
+    "id": "uuz1wggsGCU",
+    "url": "https://www.youtube.com/watch?v=uuz1wggsGCU",
+    "title": "Mo Salah receives the Golden Boot and Playmaker awards 🏆",
+    "description": "Subscribe to Sky Sports Premier League: https://bit.ly/SubscribeSkySportsPL ▻ Watch Sky Sports: https://bit.ly/BuySkySports Ian ...",
+    "duration": 135,
+    "channel": "Sky Sports Premier League",
+    "channelUrl": "https://www.youtube.com/channel/UCNAf1k0yIjyGu3k9BwAg3lg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/uuz1wggsGCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUWQmgMhHGWfkI2Cq0Y0xdE2AuEg",
+    "score": 61,
+    "eventOverlap": [
+      "golden"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/salah-006-four-golden-boots.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라의 골든부트는 한 번의 반짝임이 아니라 네 번의 반복이었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-006-four-golden-boots.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "프리미어리그 기록표는 살라가 2017/18, 2018/19, 2021/22, 2024/25에 골든부트를 받았다고 기록한다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-006-four-golden-boots.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그 기록으로 살라는 프리미어리그 최다 골든부트 공동 기록인 4회에 도달했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-006-four-golden-boots.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "서로 다른 시즌의 이름이 한 줄에 모이면 꾸준함의 모양이 보인다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-006-four-golden-boots.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "최고를 한 번 찍는 것보다 다시 돌아오는 일이 더 어렵다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-006-four-golden-boots.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

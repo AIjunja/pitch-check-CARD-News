@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-019-inter-miami-first-trophy",
+  "eventKey": "lionel-messi|2023|inter-miami-first-trophy",
+  "player": "Lionel Messi",
+  "hook": "메시의 인터 마이애미는 첫 공식 트로피를 한 달 만에 들었다.",
+  "sourceRefs": [
+    "messi_source_20"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시가 온 뒤, 마이애미의 첫 트로피는 빨랐다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2023 리그스컵 결승은 1-1로 끝났다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "메시는 전반 23분 선제골을 넣었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "승부차기 끝에 인터 마이애미가 이겼다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "그 트로피는 구단 역사상 첫 공식 우승이었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

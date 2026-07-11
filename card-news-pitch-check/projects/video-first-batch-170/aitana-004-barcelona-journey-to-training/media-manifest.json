@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "aitana-004-barcelona-journey-to-training",
+  "eventKey": "aitana-bonmati|2011|barcelona-journey-to-training",
+  "player": "Aitana Bonmati",
+  "hook": "Aitana는 13세부터 아버지와 거의 두 시간씩 훈련장으로 이동했다.",
+  "sourceRefs": [
+    "aitana_source_04"
+  ],
+  "videoCandidate": {
+    "id": "1sJRWXg35MY",
+    "url": "https://www.youtube.com/watch?v=1sJRWXg35MY",
+    "title": "Two amazing goals by Aitana Bonmatí",
+    "description": "FC Barcelona on Social Media Subscribe to our official channel ...",
+    "duration": 59,
+    "channel": "FC Barcelona",
+    "channelUrl": "https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/1sJRWXg35MY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsdITIptGTkXF58XFvj-JUyk62eQ",
+    "score": 61,
+    "eventOverlap": [
+      "barcelona"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/aitana-004-barcelona-journey-to-training.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Aitana는 13세부터 아버지와 거의 두 시간씩 훈련장으로 이동했다.",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-004-barcelona-journey-to-training.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 대중교통 통학과 바르사 유소년 합류를 소개한다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-004-barcelona-journey-to-training.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그녀는 유소년과 B팀을 거쳐 16세에 1군으로 승격됐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-004-barcelona-journey-to-training.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "세계적인 미드필더의 시작은 반복된 이동이었다.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-004-barcelona-journey-to-training.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "실력의 장면 뒤에는 매일 같은 길을 건넌 시간이 있다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/aitana-004-barcelona-journey-to-training.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-012-inter-miami-most-trophies-record",
+  "eventKey": "lionel-messi|2023|inter-miami-most-trophies-record",
+  "player": "Lionel Messi",
+  "hook": "메시는 인터 마이애미의 첫 공식 트로피 경기에서 개인 기록까지 남겼다.",
+  "sourceRefs": [
+    "messi_source_20"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시는 2023 리그스컵에서 우승과 개인 기록을 함께 남겼다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "인터 마이애미와 내슈빌의 결승은 1-1로 끝났다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "메시는 전반 23분 왼발 슛으로 선제골을 넣었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "승부차기 끝에 인터 마이애미가 구단 첫 공식 트로피를 차지했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "메시는 대회 최우수선수와 득점왕을 받았고 통산 트로피는 44개가 됐다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-012-inter-miami-most-trophies-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

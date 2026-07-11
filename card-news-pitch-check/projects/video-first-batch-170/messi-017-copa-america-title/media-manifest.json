@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-017-copa-america-title",
+  "eventKey": "lionel-messi|2021|copa-america-title",
+  "player": "Lionel Messi",
+  "hook": "메시는 여섯 번째 도전 끝에 코파 아메리카를 들었다.",
+  "sourceRefs": [
+    "messi_source_17"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "여섯 번째 도전 끝에, 메시가 코파를 들었다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-copa-2021.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2021년 결승 상대는 브라질, 장소는 마라카낭.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-copa-2021.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "아르헨티나는 1-0으로 이겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-copa-2021.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "메시에게는 첫 코파 아메리카 우승이었다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-copa-2021.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "아르헨티나는 28년 만에 대륙 정상으로 돌아왔다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-copa-2021.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

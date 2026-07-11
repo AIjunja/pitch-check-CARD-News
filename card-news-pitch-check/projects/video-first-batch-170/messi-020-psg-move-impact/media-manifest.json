@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-020-psg-move-impact",
+  "eventKey": "lionel-messi|2021|psg-move-impact",
+  "player": "Lionel Messi",
+  "hook": "메시의 PSG 이적은 한 선수의 유니폼 교체보다 훨씬 큰 파장을 남겼다.",
+  "sourceRefs": [
+    "messi_source_25"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 PSG 이적은 유니폼만 바꾼 일이 아니었다.",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-020-psg-move-impact.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "바르셀로나를 떠난 뒤, 그는 파리로 향했다.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-020-psg-move-impact.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "1년 뒤 ESPN은 이 변화가 두 구단과 메시에게 남긴 영향을 분석했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-020-psg-move-impact.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 선수의 이동은 경기장 밖의 시선과 기대도 함께 움직인다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-020-psg-move-impact.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이적은 끝이 아니라, 여러 사람의 역할이 다시 정렬되는 시작이다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-020-psg-move-impact.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

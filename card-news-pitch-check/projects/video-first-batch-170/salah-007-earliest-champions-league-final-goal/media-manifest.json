@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "salah-007-earliest-champions-league-final-goal",
+  "eventKey": "mohamed-salah|2019|earliest-champions-league-final-goal",
+  "player": "Mohamed Salah",
+  "hook": "챔피언스리그 결승의 가장 이른 골 기록은 시작 2분 만에 나왔다.",
+  "sourceRefs": [
+    "salah_source_07"
+  ],
+  "videoCandidate": {
+    "id": "g4Md86GvNYI",
+    "url": "https://www.youtube.com/watch?v=g4Md86GvNYI",
+    "title": "Liverpool Fans React To Mo Salah's Penalty NYC   Champions League Final 2019   YouTube",
+    "description": "LiverpoolFC #ChampionsLeagueFinal2019 #NYC.",
+    "duration": 269,
+    "channel": "Football war",
+    "channelUrl": "https://www.youtube.com/channel/UCn5syc7qkdENGa-jj5zYLAQ",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/g4Md86GvNYI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5yl-9MMx1oybmzMpjwq4GcpBLrQ",
+    "score": 20,
+    "eventOverlap": [
+      "2019",
+      "final"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/salah-007-earliest-champions-league-final-goal.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "챔피언스리그 결승의 가장 이른 골 기록은 시작 2분 만에 나왔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=g4Md86GvNYI",
+        "startSeconds": 30,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/salah-007-earliest-champions-league-final-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 2019년 결승에서 살라가 토트넘을 상대로 전반 2분 페널티킥을 넣었다고 기록한다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-007-earliest-champions-league-final-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 이 골을 챔피언스리그 결승 역사상 가장 이른 골이라고 설명했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=g4Md86GvNYI",
+        "startSeconds": 127,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/salah-007-earliest-champions-league-final-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "90분짜리 결승이 시작 120초 만에 이야기의 방향을 바꿨다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-007-earliest-champions-league-final-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "큰 경기에서 첫 장면을 맡는 선수에게 필요한 건 속도보다 침착함이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-007-earliest-champions-league-final-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

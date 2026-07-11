@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-015-pele-shoeless-ones",
+  "eventKey": "pele|legacy-sourced|pele-shoeless-ones",
+  "player": "Pele",
+  "hook": "그들은 스스로를 맨발들이라고 불렀다",
+  "sourceRefs": [
+    "pele_tpt"
+  ],
+  "videoCandidate": {
+    "id": "bUTRZGCiiFs",
+    "url": "https://www.youtube.com/watch?v=bUTRZGCiiFs",
+    "title": "🇧🇷 Pele's Top 5 Goals | FIFA World Cup",
+    "description": "Of Pele's 77 international goals with Brazil, 12 were scored at the FIFA World Cup – and to date, the Brazilian remains the ...",
+    "duration": 106,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/bUTRZGCiiFs/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCN_yCiflnMQe-bjHRt6QaJzsC7fg",
+    "score": 73,
+    "eventOverlap": [
+      "brazil"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-015-pele-shoeless-ones.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "그 팀 이름은",
+          "맨발들이었다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "맨발",
+          "펠레"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "축구화가 없어도",
+          "몇 시간씩 찼다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "맨발",
+          "펠레"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 안에",
+          "펠레가 있었다"
+        ],
+        "body": "펠레는 축구화를 살 수 없어 친구들과 'The Shoeless Ones'처럼 불리며 물웅덩이를 피해 공을 찼다고 썼다.",
+        "accent": [
+          "맨발",
+          "펠레"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "장비보다 놀이가 먼저였던 축구의 원형이 살아있는 이야기다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "장비병 있는 친구한테 던지기 좋은 카드다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-014-pele-sock-ball.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

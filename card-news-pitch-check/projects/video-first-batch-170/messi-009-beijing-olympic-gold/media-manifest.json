@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-009-beijing-olympic-gold",
+  "eventKey": "lionel-messi|2008|beijing-olympic-gold",
+  "player": "Lionel Messi",
+  "hook": "메시의 첫 큰 아르헨티나 금메달은 베이징에서 나왔다.",
+  "sourceRefs": [
+    "messi_source_09"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 대표팀 금메달은 월드컵보다 먼저 왔다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-beijing-2008.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "장소는 2008년 베이징.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-beijing-2008.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "아르헨티나는 나이지리아를 1-0으로 꺾고 올림픽 금메달을 땄다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-beijing-2008.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "메시에게는 대표팀 주요 우승의 첫 장이었다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-beijing-2008.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "훗날의 긴 여정은 시상대 위 금빛에서 시작됐다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/manual-messi-beijing-2008.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

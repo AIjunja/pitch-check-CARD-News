@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "christine-003-hall-of-fame-selection",
+  "eventKey": "christine-sinclair|2025|hall-of-fame-selection",
+  "player": "Christine Sinclair",
+  "hook": "Christine Sinclair의 다음 무대는 캐나다 축구 명예의 전당이었다.",
+  "sourceRefs": [
+    "christine_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Christine Sinclair의 다음 무대는 캐나다 축구 명예의 전당이었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/christine-003-hall-of-fame-selection.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Canada Soccer는 2025년 특별 선정으로 그녀를 만장일치 확정했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/christine-003-hall-of-fame-selection.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "공식 경력에는 올림픽 금메달, 23골 시즌, 올림픽 득점왕이 담겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/christine-003-hall-of-fame-selection.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "기록이 경기장을 넘어 한 나라의 기억 보관소로 들어갔다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/christine-003-hall-of-fame-selection.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "명예의 전당은 숫자를 공동 기억으로 바꾼다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/christine-003-hall-of-fame-selection.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

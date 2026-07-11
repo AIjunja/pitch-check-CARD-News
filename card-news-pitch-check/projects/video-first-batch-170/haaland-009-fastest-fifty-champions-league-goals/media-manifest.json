@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "haaland-009-fastest-fifty-champions-league-goals",
+  "eventKey": "erling-haaland|2025|fastest-fifty-champions-league-goals",
+  "player": "Erling Haaland",
+  "hook": "홀란은 챔피언스리그 50골에 49경기 만에 도착했다.",
+  "sourceRefs": [
+    "haaland_source_05"
+  ],
+  "videoCandidate": {
+    "id": "VPgwGN9kGpI",
+    "url": "https://www.youtube.com/watch?v=VPgwGN9kGpI",
+    "title": "Erling Haaland's First 100 Premier League Goals",
+    "description": "Love this video? We've got even more for you to enjoy on the Premier League App iOS: https://preml.ge/PLAppYT Android: ...",
+    "duration": 899,
+    "channel": "Premier League",
+    "channelUrl": "https://www.youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/VPgwGN9kGpI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCELg3W7K9z-1LguPBukaBwn-w-xQ",
+    "score": 73,
+    "eventOverlap": [
+      "goals"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/haaland-009-fastest-fifty-champions-league-goals.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "홀란은 챔피언스리그 50골에 49경기 만에 도착했다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "50이라는 숫자보다 도착 경기 수가 먼저 보인다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 2025/26 나폴리전에서 최단 경기 50골 기록을 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "35골과 40골에 이어 다음 이정표도 빠르게 넘어섰다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이번 기록의 주인공은 골보다 속도였다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

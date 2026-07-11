@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "topicId": "son-005-first-asian-premier-league-century",
+  "eventKey": "son-heung-min|2023|first-asian-premier-league-100-goals",
+  "player": "Son Heung-min",
+  "hook": "아시아 선수 최초의 프리미어리그 100골은 브라이턴전 선제골이었다.",
+  "sourceRefs": [
+    "son_source_05"
+  ],
+  "videoCandidate": {
+    "id": "qbleOWjptz8",
+    "url": "https://www.youtube.com/watch?v=qbleOWjptz8",
+    "title": "Amazing achievement Son Heung min after scoring 100 goals for Spurs Post match Spurs vs Brighton",
+    "description": "Tottenham Hotspur vs Brighton & Hove Albion.",
+    "duration": 22,
+    "channel": "LifeIsBeautiful",
+    "channelUrl": "https://www.youtube.com/channel/UChvGeIJF_9K68AqihYjb3kA",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/qbleOWjptz8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsz31NzZ1qhJWMDo5NWmLJdCDoHQ",
+    "score": 20,
+    "eventOverlap": [
+      "100",
+      "goals",
+      "brighton"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/son-005-first-asian-premier-league-century.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "아시아 선수 최초의 프리미어리그 100골은 브라이턴전 선제골이었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-005-first-asian-premier-league-century.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "손흥민은 2023년 4월 8일 브라이턴전에서 프리미어리그 100호 골을 넣었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-005-first-asian-premier-league-century.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "프리미어리그는 그가 대회 100골 클럽에 들어간 첫 아시아 선수라고 밝혔다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qbleOWjptz8",
+        "startSeconds": 9,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-005-first-asian-premier-league-century.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "거대한 기록도 결국 한 번의 선제골에서 열린다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-005-first-asian-premier-league-century.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "100이라는 둥근 숫자보다, 그 문을 처음 연 국적이 더 오래 남는다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-005-first-asian-premier-league-century.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "topicId": "messi-001-growth-treatment-move",
+  "eventKey": "lionel-messi|2000|growth-treatment-family-move",
+  "player": "Lionel Messi",
+  "hook": "13살 메시의 바르셀로나행은 축구 유학만의 이야기가 아니었다.",
+  "sourceRefs": [
+    "messi_source_01"
+  ],
+  "videoCandidate": {
+    "id": "X735ujGcJh8",
+    "url": "https://www.youtube.com/watch?v=X735ujGcJh8",
+    "title": "When Messi was Leo: trip in Rosario meeting old Messi friends",
+    "description": "Interviews with many of the people from Lionel Messi's childhood. Discussing what it was like growing up with the future world ...",
+    "duration": 275,
+    "channel": "GOAL",
+    "channelUrl": "https://www.youtube.com/channel/UCjVd6vTuoAYLFYvX5TSK1aA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/X735ujGcJh8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhhIGEoYTAP&rs=AOn4CLBP1uLMQ54unoA7lXrsDdjwkcdqvg",
+    "score": 41,
+    "eventOverlap": [
+      "rosario"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-001-growth-treatment-move.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "13살 메시가 가족과 바르셀로나로 떠난 이유",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=X735ujGcJh8",
+        "startSeconds": 31,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/messi-001-growth-treatment-move.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "이건 축구 유학 이야기만은 아니었다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-001-growth-treatment-move.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "성장호르몬 치료가 필요했던 소년에게 구단이 손을 내밀었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-001-growth-treatment-move.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "메시는 바르셀로나 U14에서 새 출발을 했다.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-001-growth-treatment-move.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "훗날의 전설은 가족의 이사 결정에서 이미 방향이 바뀌고 있었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-001-growth-treatment-move.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

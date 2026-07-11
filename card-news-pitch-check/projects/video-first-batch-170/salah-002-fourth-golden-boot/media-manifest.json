@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "salah-002-fourth-golden-boot",
+  "eventKey": "mohamed-salah|2025|fourth-premier-league-golden-boot",
+  "player": "Mohamed Salah",
+  "hook": "살라는 골든부트와 도움왕, 올해의 선수상을 한 시즌에 묶었다.",
+  "sourceRefs": [
+    "salah_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "살라는 골든부트와 도움왕, 올해의 선수상을 한 시즌에 묶었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-002-fourth-golden-boot.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "살라는 2024/25 프리미어리그에서 29골로 골든부트를 받고 플레이메이커상도 차지했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-002-fourth-golden-boot.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "프리미어리그는 그가 득점·도움·올해의 선수상을 한 시즌에 모두 받은 최초의 선수이며, 골든부트 4회로 앙리와 어깨를 나란히 했다고 밝혔다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-002-fourth-golden-boot.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "득점왕 한 줄이 아니라 세 개의 상이 같은 시즌에 쌓였다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-002-fourth-golden-boot.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "골을 넣는 일과 만드는 일이 동시에 최고였다는 이야기다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/salah-002-fourth-golden-boot.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

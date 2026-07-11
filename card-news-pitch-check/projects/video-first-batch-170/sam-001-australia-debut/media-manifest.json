@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "sam-001-australia-debut",
+  "eventKey": "sam-kerr|2010|australia-debut",
+  "player": "Sam Kerr",
+  "hook": "Sam Kerr는 축구를 시작한 지 3년 만에 15세로 호주 대표팀에 데뷔했다.",
+  "sourceRefs": [
+    "sam_source_01"
+  ],
+  "videoCandidate": {
+    "id": "XGZoFp7GuO4",
+    "url": "https://www.youtube.com/watch?v=XGZoFp7GuO4",
+    "title": "Sam Kerr | Icons: Episode 5",
+    "description": "From her debut at 15 years old to becoming Australia's all-time leading scorer, Sam Kerr's journey has been an incredible one.",
+    "duration": 1620,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/XGZoFp7GuO4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDEjgtPiq1yQRpcxH4YEFzvZR4WAg",
+    "score": 61,
+    "eventOverlap": [
+      "australia",
+      "debut"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/sam-001-australia-debut.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Sam Kerr는 축구를 시작한 지 3년 만에 15세로 호주 대표팀에 데뷔했다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=XGZoFp7GuO4",
+        "startSeconds": 192,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-001-australia-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Kerr는 12세까지 호주식 풋볼을 하다가 축구로 전환했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-001-australia-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "13세 때 70m를 달려 넣은 골이 코치에게 기억됐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=XGZoFp7GuO4",
+        "startSeconds": 776,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-001-australia-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "종목을 바꾼 뒤 가장 빠른 길로 국가대표가 됐다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-001-australia-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "늦게 시작한 것처럼 보여도 몸의 언어는 이미 준비돼 있었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-001-australia-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

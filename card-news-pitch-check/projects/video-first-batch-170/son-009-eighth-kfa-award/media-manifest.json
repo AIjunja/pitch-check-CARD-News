@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "topicId": "son-009-eighth-kfa-award",
+  "eventKey": "son-heung-min|2025|eighth-korean-footballer-of-year",
+  "player": "Son Heung-min",
+  "hook": "한국 최고의 남자 선수 투표에서 손흥민은 다시 정상으로 돌아왔다.",
+  "sourceRefs": [
+    "son_source_09"
+  ],
+  "videoCandidate": {
+    "id": "kYhiY1v9Dkk",
+    "url": "https://www.youtube.com/watch?v=kYhiY1v9Dkk",
+    "title": "Son Heung-Min MIRACLE FREE KICK GOAL Equalizes For LAFC! | 2025 Audi MLS Cup Playoffs",
+    "description": "Watch every match with MLS Season Pass on Apple TV: http://apple.co/MLS The plays here: https://www.mlssoccer.com/messi/ ...",
+    "duration": 85,
+    "channel": "Major League Soccer",
+    "channelUrl": "https://www.youtube.com/channel/UCSZbXT5TLLW_i-5W8FZpFsg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/kYhiY1v9Dkk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQ6oBR9j-OHF8B4DtGPtda16y5rA",
+    "score": 53,
+    "eventOverlap": [
+      "the",
+      "2025"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/son-009-eighth-kfa-award.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "한국 최고의 남자 선수 투표에서 손흥민은 다시 정상으로 돌아왔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-009-eighth-kfa-award.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "손흥민은 2025년 한국축구협회 선정 올해의 남자 선수상을 통산 8번째로 받았다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-009-eighth-kfa-award.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "토트넘은 그가 당시 클럽 448경기에서 173골을 기록했고, 2023년 주장 선임 뒤 50골에 관여했다고 전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kYhiY1v9Dkk",
+        "startSeconds": 39,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-009-eighth-kfa-award.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "상 하나가 개인 기록과 주장 시기의 숫자를 함께 불러낸다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-009-eighth-kfa-award.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "정상에 다시 오르는 이야기는 꾸준함이 얼마나 오래 작동하는지 보여준다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-009-eighth-kfa-award.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

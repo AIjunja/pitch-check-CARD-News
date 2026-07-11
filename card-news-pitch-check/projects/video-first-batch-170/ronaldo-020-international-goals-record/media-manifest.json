@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-020-international-goals-record",
+  "eventKey": "cristiano-ronaldo|unknown|146-international-goals",
+  "player": "Cristiano Ronaldo",
+  "hook": "UEFA source는 Ronaldo의 포르투갈 대표팀 골을 146개로 정리했다.",
+  "sourceRefs": [
+    "ronaldo_source_20"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "UEFA가 정리한 Ronaldo의 대표팀 기록",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-020-international-goals-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "국제골은 146개로 제시됐다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-020-international-goals-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "대표팀 경기는 233번이었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-020-international-goals-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "100골을 넘은 두 번째 남자 선수라는 설명도 붙었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-020-international-goals-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이 숫자들은 UEFA source가 제시한 시점의 기록이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-020-international-goals-record.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

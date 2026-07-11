@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "haaland-005-ten-champions-league-goals-in-seven-games",
+  "eventKey": "erling-haaland|2020|ten-champions-league-goals-in-seven-games",
+  "player": "Erling Haaland",
+  "hook": "도르트문트 챔피언스리그 첫 경기에서 두 골, 홀란은 7경기 만에 10골이 됐다.",
+  "sourceRefs": [
+    "haaland_source_05"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "도르트문트 첫 챔피언스리그 경기에서 두 골",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "홀란은 7경기 만에 대회 10골이 됐다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 잘츠부르크에서 만든 흐름이 이어졌다고 설명한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "클럽이 바뀌었지만 기록은 리셋되지 않았다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "새 유니폼도 그의 속도를 늦추지 못했다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

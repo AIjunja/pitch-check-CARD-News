@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "topicId": "real-021-nani-one-bedroom",
+  "eventKey": "nani|legacy-sourced|nani-one-bedroom",
+  "player": "Nani",
+  "hook": "한 방짜리 집 바닥엔 구멍이 있었다",
+  "sourceRefs": [
+    "nani_tpt"
+  ],
+  "videoCandidate": {
+    "id": "48yiEntpSo4",
+    "url": "https://www.youtube.com/watch?v=48yiEntpSo4",
+    "title": "Nani: All The Goals! 🔥⚽️",
+    "description": "Watch EVERY single goal scored by Nani for Manchester United. 0:00 Intro 0:28 2007/08 2:53 2008/09 6:18 2009/10 9:56 ...",
+    "duration": 1395,
+    "channel": "Manchester United",
+    "channelUrl": "https://www.youtube.com/channel/UC6yW44UGJJBvYTlfC7CRg2Q",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/48yiEntpSo4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDobNFPpg0Va8vkPdw7y7IEhQDr5w",
+    "score": 53,
+    "eventOverlap": [
+      "manchester",
+      "united"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-021-nani-one-bedroom.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "한 방짜리 집",
+          "바닥의 구멍"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "한 방",
+          "나니"
+        ]
+      },
+      "role": "hook",
+      "need": "early life location",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-020-nani-free-food.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "쥐와 도마뱀이",
+          "기어다녔다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "한 방",
+          "나니"
+        ]
+      },
+      "role": "context",
+      "need": "community documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-020-nani-free-food.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "나니의",
+          "어린 시절"
+        ],
+        "body": "나니는 어머니와 형제자매 여덟 명과 한 방짜리 집에서 살았고, 바닥 구멍 사이로 쥐와 도마뱀이 다녔다고 썼다.",
+        "accent": [
+          "한 방",
+          "나니"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=48yiEntpSo4",
+        "startSeconds": 668,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-020-nani-free-food.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "축구 스타의 이전 삶이 너무 구체적이라 한 장면처럼 떠오른다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "present day player portrait",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-020-nani-free-food.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "성장 서사 좋아하는 팬들이 저장하기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-020-nani-free-food.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

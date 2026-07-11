@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-006-lukaku-bakery-bread",
+  "eventKey": "romelu-lukaku|legacy-sourced|lukaku-bakery-bread",
+  "player": "Romelu Lukaku",
+  "hook": "빵집에서 빵을 외상으로 가져오던 아이",
+  "sourceRefs": [
+    "lukaku_tpt"
+  ],
+  "videoCandidate": {
+    "id": "brObf1YZgds",
+    "url": "https://www.youtube.com/watch?v=brObf1YZgds",
+    "title": "Romelu Lukaku Goal | Belgium 3-2 Senegal",
+    "description": "Watch Romelu Lukaku's goal for Belgium that sparked their comeback in the 3-2 win against Senegal in their Round of 32 match ...",
+    "duration": 6,
+    "channel": "FIFA",
+    "channelUrl": "https://www.youtube.com/channel/UCpcTrCXblq78GZrTUTLWeBw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/brObf1YZgds/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDewEM7Yhe-FbP7umMq9OCa4kPR0A",
+    "score": 57,
+    "eventOverlap": [
+      "belgium"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-006-lukaku-bakery-bread.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "빵을 외상으로",
+          "가져왔다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "빵집",
+          "가족"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "월요일에 받고",
+          "금요일에 갚았다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "빵집",
+          "가족"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 아이가",
+          "루카쿠였다"
+        ],
+        "body": "루카쿠는 어머니가 동네 빵집에서 빵을 먼저 가져오고 금요일에 갚는 날들도 있었다고 썼다.",
+        "accent": [
+          "빵집",
+          "가족"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "이런 장면을 알면 선수의 세리머니도 조금 다르게 보인다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "가족 서사에 약한 축구 팬한테 꽂히는 소재다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-004-lukaku-watered-milk.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "christine-002-professional-retirement",
+  "eventKey": "christine-sinclair|2024|professional-retirement",
+  "player": "Christine Sinclair",
+  "hook": "Christine Sinclair가 25시즌의 프로 커리어에 마침표를 찍었다.",
+  "sourceRefs": [
+    "christine_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Christine Sinclair가 25시즌의 프로 커리어에 마침표를 찍었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-002-professional-retirement.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 2024 NWSL 시즌 뒤 은퇴를 보도했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-002-professional-retirement.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "당시 국제 190골, 포틀랜드 79골과 6개 트로피가 남았다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-002-professional-retirement.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "마지막 시즌이 국제 기록과 클럽 기록을 함께 정리했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-002-professional-retirement.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "끝났다는 소식보다 25시즌의 숫자가 오래 남는다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-002-professional-retirement.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

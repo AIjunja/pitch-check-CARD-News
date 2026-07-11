@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "haaland-001-youngest-champions-league-first-half-hat-trick",
+  "eventKey": "erling-haaland|2019|youngest-champions-league-first-half-hat-trick",
+  "player": "Erling Haaland",
+  "hook": "홀란은 챔피언스리그 데뷔전에서 최연소 전반 해트트릭 기록을 세웠다.",
+  "sourceRefs": [
+    "haaland_source_03"
+  ],
+  "videoCandidate": {
+    "id": "kK0Puj4ySO4",
+    "url": "https://www.youtube.com/watch?v=kK0Puj4ySO4",
+    "title": "HIGHLIGHTS! HAALAND HAT-TRICK HELPS CITY BACK TO PREMIER LEAGUE SUMMIT | Man City 5 1 Fulham",
+    "description": "An Erling Haaland hat-trick helped City move back to the Premier League summit and maintain our 100% start to the 2023/24 ...",
+    "duration": 150,
+    "channel": "Man City",
+    "channelUrl": "https://www.youtube.com/channel/UCkzCjdRMrW2vXLx8mvPVLdQ",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/kK0Puj4ySO4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRSbjWVmtxC0GQqKOpqMJTz_7Jkw",
+    "score": 49,
+    "eventOverlap": [
+      "hat",
+      "trick"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "홀란은 챔피언스리그 데뷔전에서 최연소 전반 해트트릭을 기록했다",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kK0Puj4ySO4",
+        "startSeconds": 16,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "첫 경기의 세 골에 최연소 기록까지 붙었다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 잘츠부르크 데뷔전 전반 해트트릭을 최연소 기록으로 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kK0Puj4ySO4",
+        "startSeconds": 70,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "헹크전에서 나온 세 골이 유럽 기록표에 남았다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "데뷔와 기록이 한 장면에 겹친 순간.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-001-youngest-champions-league-first-half-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

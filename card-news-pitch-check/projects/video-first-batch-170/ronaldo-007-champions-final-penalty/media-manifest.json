@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-007-champions-final-penalty",
+  "eventKey": "cristiano-ronaldo|2008|champions-league-final-penalty",
+  "player": "Cristiano Ronaldo",
+  "hook": "Ronaldo는 챔피언스리그 결승에서 골을 넣고 승부차기도 겪었다.",
+  "sourceRefs": [
+    "ronaldo_source_07"
+  ],
+  "videoCandidate": {
+    "id": "ATrK3WMnc-o",
+    "url": "https://www.youtube.com/watch?v=ATrK3WMnc-o",
+    "title": "Cristiano Ronaldo & Sir Alex Ferguson celebrate Manchester United's 2008 Champions League success ❤️",
+    "description": "Two legendary Manchester United figures celebrate together following their 2008 Champions League final success against ...",
+    "duration": 196,
+    "channel": "TNT Sports Football",
+    "channelUrl": "https://www.youtube.com/channel/UC4i_9WvfPRTuRWEaWyfKuFw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/ATrK3WMnc-o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlo4xSHVSshBctDFcEoApiMwIuHA",
+    "score": 49,
+    "eventOverlap": [
+      "2008",
+      "final"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-007-champions-final-penalty.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "2008 챔피언스리그 결승, Ronaldo가 먼저 골을 넣었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ATrK3WMnc-o",
+        "startSeconds": 22,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-007-champions-final-penalty.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 26분 헤딩골을 기록했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-007-champions-final-penalty.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "하지만 승부차기에서 실축했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ATrK3WMnc-o",
+        "startSeconds": 92,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-007-champions-final-penalty.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "맨유는 6-5로 이겼고, Ronaldo는 그 밤을 최악이자 가장 행복한 날로 말했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-007-champions-final-penalty.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 결승에 골과 실수가 함께 있었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-007-champions-final-penalty.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

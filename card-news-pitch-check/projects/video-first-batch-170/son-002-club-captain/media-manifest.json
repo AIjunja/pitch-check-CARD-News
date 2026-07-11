@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-002-club-captain",
+  "eventKey": "son-heung-min|2023|tottenham-club-captain",
+  "player": "Son Heung-min",
+  "hook": "손흥민의 다음 역할은 주장 완장이었다.",
+  "sourceRefs": [
+    "son_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "손흥민의 다음 역할은 주장 완장이었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-002-club-captain.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "토트넘은 2023년 8월 12일 손흥민을 구단 주장으로 임명했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-002-club-captain.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단은 그가 한국 대표팀 주장으로도 뛰며, 토트넘 홋스퍼 스타디움의 첫 프리미어리그·챔피언스리그 골을 기록했다고 소개했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-002-club-captain.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "골을 넣던 선수가 경기장 안팎의 기준을 세우는 역할로 이동했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-002-club-captain.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "완장은 기록의 끝이 아니라 책임의 시작처럼 보인다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-002-club-captain.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "topicId": "real-033-rashford-ten-million-meals",
+  "eventKey": "marcus-rashford|legacy-sourced|rashford-ten-million-meals",
+  "player": "Marcus Rashford",
+  "hook": "한 선수의 경험이 수백만 끼 식사로 이어졌다",
+  "sourceRefs": [
+    "rashford_guardian"
+  ],
+  "videoCandidate": {
+    "id": "vyHZ8rbJQUQ",
+    "url": "https://www.youtube.com/watch?v=vyHZ8rbJQUQ",
+    "title": "Marcus Rashford tells of childhood poverty in campaign for free school meals - BBC News",
+    "description": "The England and Manchester United footballer Marcus Rashford has been speaking about his own experiences of poverty and ...",
+    "duration": 193,
+    "channel": "BBC News",
+    "channelUrl": "https://www.youtube.com/channel/UC16niRr50-MSBwiO3YDb3RA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/vyHZ8rbJQUQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUn94Xak5M0jXAVF43DY8JTzPhJQ",
+    "score": 41,
+    "eventOverlap": [
+      "england",
+      "campaign"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-033-rashford-ten-million-meals.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "한 선수의 기억",
+          "수백만 끼로"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "1,000만 끼",
+          "사회 영향"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "축구장 밖에서",
+          "더 크게 움직였다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "1,000만 끼",
+          "사회 영향"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "래시포드의",
+          "2020년"
+        ],
+        "body": "Guardian은 래시포드가 FareShare와 함께 아이들과 가족에게 거의 1,000만 끼 식사를 제공하도록 돕고, 아동 식량 빈곤 이슈를 공론화했다고 전했다.",
+        "accent": [
+          "1,000만 끼",
+          "사회 영향"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=vyHZ8rbJQUQ",
+        "startSeconds": 91,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "득점 기록 말고도 축구 선수가 남길 수 있는 기록이 있다는 걸 보여준다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "축구가 사회와 연결되는 콘텐츠로 공유하기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-031-rashford-mum-three-jobs.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-034-vardy-eighth-tier",
+  "eventKey": "jamie-vardy|legacy-sourced|vardy-eighth-tier",
+  "player": "Jamie Vardy",
+  "hook": "잉글랜드 대표가 되기 전, 그는 8부 리그 선수였다",
+  "sourceRefs": [
+    "vardy_guardian"
+  ],
+  "videoCandidate": {
+    "id": "Ec8hDRJuj04",
+    "url": "https://www.youtube.com/watch?v=Ec8hDRJuj04",
+    "title": "Could YOU be the next Jamie Vardy?!",
+    "description": "Jamie Vardy has set up the V9 Academy to try and find the next non-league footballer to follow in his footsteps and reach the ...",
+    "duration": 1177,
+    "channel": "Sky Sports Premier League",
+    "channelUrl": "https://www.youtube.com/channel/UCNAf1k0yIjyGu3k9BwAg3lg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/Ec8hDRJuj04/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxL61HwA2P9u2Tj25KznhHm7dpvg",
+    "score": 61,
+    "eventOverlap": [
+      "non"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-034-vardy-eighth-tier.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "대표팀 전엔",
+          "8부 리그"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "8부",
+          "바디"
+        ]
+      },
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-034-vardy-eighth-tier.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "처음엔 동료들도",
+          "누군지 몰랐다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "8부",
+          "바디"
+        ]
+      },
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-034-vardy-eighth-tier.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "그 선수가",
+          "제이미 바디"
+        ],
+        "body": "Guardian은 제이미 바디가 Halifax로 가기 전 Northern Premier League의 Stocksbridge Park Steels에서 뛰었다고 전했다.",
+        "accent": [
+          "8부",
+          "바디"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-034-vardy-eighth-tier.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "프리미어리그 동화가 왜 동화인지 한 장면으로 보이는 이야기다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-034-vardy-eighth-tier.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "늦게 터지는 선수 좋아하는 사람에게 잘 먹힌다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-034-vardy-eighth-tier.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

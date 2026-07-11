@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-030-lee-kang-in-valencia-debut",
+  "eventKey": "lee-kang-in|legacy-sourced|lee-kang-in-valencia-debut",
+  "player": "Lee Kang-in",
+  "hook": "막내였는데 공을 잡으면 막내처럼 안 보였다",
+  "sourceRefs": [
+    "lee_fifa"
+  ],
+  "videoCandidate": {
+    "id": "Vg9dop5y51o",
+    "url": "https://www.youtube.com/watch?v=Vg9dop5y51o",
+    "title": "LaLiga Young Talents: Kang In Lee",
+    "description": "Disfruta de los mejores detalles de una de las promesas de LaLiga: Kang In Lee, jugador del Valencia CF! LaLiga Santander ...",
+    "duration": 157,
+    "channel": "LALIGA EA SPORTS",
+    "channelUrl": "https://www.youtube.com/channel/UCTv-XvfzLX3i4IGWAm4sbmA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/Vg9dop5y51o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgZRPg9QkReBOGvXI_zZ1NGUOI8A",
+    "score": 41,
+    "eventOverlap": [
+      "valencia"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-030-lee-kang-in-valencia-debut.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "막내였는데",
+          "공은 어른처럼"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "막내",
+          "침착함"
+        ]
+      },
+      "role": "hook",
+      "need": "match action",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "FIFA가 본 건",
+          "나이보다 침착함"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "막내",
+          "침착함"
+        ]
+      },
+      "role": "context",
+      "need": "teammate interaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "U-20의",
+          "이강인"
+        ],
+        "body": "FIFA는 2019 U-20 월드컵 당시 이강인이 대표팀 막내였지만 성숙한 플레이를 보여줬고, Valencia가 라리가 데뷔를 시킨 이유도 보인다고 썼다.",
+        "accent": [
+          "막내",
+          "침착함"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "나이보다 경기 이해도가 먼저 보였다는 점이 팬들이 좋아하는 포인트다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "post-match reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "유망주 논쟁 좋아하는 친구들에게 던지기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-029-lee-kang-in-reality-tv.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

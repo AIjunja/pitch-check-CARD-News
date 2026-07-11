@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "christine-001-international-goals-world-record",
+  "eventKey": "christine-sinclair|2020|international-goals-world-record",
+  "player": "Christine Sinclair",
+  "hook": "Christine Sinclair의 185번째 국제골이 축구의 세계 기록을 바꿨다.",
+  "sourceRefs": [
+    "christine_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Christine Sinclair의 185번째 국제골이 축구의 세계 기록을 바꿨다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-001-international-goals-world-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2020년 1월 29일 세인트키츠 네비스전에서 기록 골이 나왔다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-001-international-goals-world-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "전반 23분, 290경기 185골이라는 숫자가 남았다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-001-international-goals-world-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "세계 기록은 한 번의 페널티킥에서 태어났다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-001-international-goals-world-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "185는 골 수이면서 20년 넘게 이어진 대표팀 출석표다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/christine-001-international-goals-world-record.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "marta-002-brazil-200th-appearance",
+  "eventKey": "marta|2024|brazil-200th-appearance",
+  "player": "Marta",
+  "hook": "Marta는 브라질 유니폼을 입고 200번째 경기에 나섰다.",
+  "sourceRefs": [
+    "marta_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Marta는 브라질 유니폼을 입고 200번째 경기에 나섰다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-002-brazil-200th-appearance.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FIFA는 2024년 7월 28일 일본전에서 이 이정표를 기록했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-002-brazil-200th-appearance.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Marta는 일본전에서 85분을 뛰었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-002-brazil-200th-appearance.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "기념비적인 숫자도 경기는 끝까지 흘러간다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-002-brazil-200th-appearance.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "200번의 선택이 한 숫자에 담겼다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/marta-002-brazil-200th-appearance.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "son-011-asian-champions-league-scoring-leader",
+  "eventKey": "son-heung-min|2025|asian-champions-league-goals",
+  "player": "Son Heung-min",
+  "hook": "아시아 선수들의 유럽 챔피언스리그 기록표에서 손흥민의 이름은 가장 위에 있었다.",
+  "sourceRefs": [
+    "son_source_11"
+  ],
+  "videoCandidate": {
+    "id": "QfFsH6Hul6g",
+    "url": "https://www.youtube.com/watch?v=QfFsH6Hul6g",
+    "title": "INTERVIEW | HEUNG-MIN SON ON 'BEAUTIFUL MOMENT' WITH THE FANS | Spurs 5-0 Crvena Zvedza",
+    "description": "Heung-min Son speaks to SpursTV following Tottenham Hotspur's 5-0 UEFA Champions League win against Crvena Zvedza.",
+    "duration": 255,
+    "channel": "Tottenham Hotspur",
+    "channelUrl": "https://www.youtube.com/channel/UCEg25rdRZXg32iwai6N6l0w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/QfFsH6Hul6g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAllpwnpsy_qfq8irSKSmTJyjldPw",
+    "score": 69,
+    "eventOverlap": [
+      "uefa"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/son-011-asian-champions-league-scoring-leader.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "아시아 선수들의 유럽 챔피언스리그 기록표에서 손흥민의 이름은 가장 위에 있었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 손흥민을 아시아 국적 선수 중 챔피언스리그 최다 득점자로 소개하며 19골을 기록했다고 정리했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA의 비교표에는 손흥민 뒤로 메흐디 타레미와 막심 샤츠키흐 등이 이어진다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "유럽 무대의 기록표가 아시아 선수의 계보를 한 화면에 보여준다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 명의 기록은 다음 세대가 도전할 기준선이 된다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

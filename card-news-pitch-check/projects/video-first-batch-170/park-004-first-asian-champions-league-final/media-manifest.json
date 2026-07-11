@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "park-004-first-asian-champions-league-final",
+  "eventKey": "park-ji-sung|2010-2011|first-asian-champions-league-final",
+  "player": "Park Ji-sung",
+  "hook": "박지성은 아시아 선수 최초로 유럽 최고 클럽대항전 결승에 나섰다.",
+  "sourceRefs": [
+    "asia07_source_02"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "박지성은 아시아 선수 최초로 유럽 최고 클럽대항전 결승에 나섰다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "UEFA는 그를 유러피언컵·챔피언스리그 결승 첫 아시아 선수로 기록한다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "PSV와 맨유에서 챔피언스리그 54경기에 출전했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 번의 결승이 아니라 아시아 선수의 첫 문이었다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "누군가의 첫 기록은 다음 선수의 출발선이 된다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-011-asian-champions-league-scoring-leader.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

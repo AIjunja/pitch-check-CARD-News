@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-007-first-official-goal",
+  "eventKey": "lionel-messi|2005|first-official-goal",
+  "player": "Lionel Messi",
+  "hook": "메시의 첫 공식 골은 한 번 취소된 뒤에야 들어갔다.",
+  "sourceRefs": [
+    "messi_source_07"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 첫 공식 골은 한 번 취소됐다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-007-first-official-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2005년 알바세테전, 첫 슛은 오프사이드 판정.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-007-first-official-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "하지만 호나우지뉴가 다시 패스를 내줬다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-007-first-official-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "메시는 이번엔 골망을 갈랐다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-007-first-official-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 공식 골은 취소 뒤에 온 두 번째 기회였다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-007-first-official-goal.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

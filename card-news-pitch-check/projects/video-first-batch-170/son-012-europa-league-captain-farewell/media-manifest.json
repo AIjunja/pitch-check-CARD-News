@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-012-europa-league-captain-farewell",
+  "eventKey": "son-heung-min|2025|europa-league-captain-farewell",
+  "player": "Son Heung-min",
+  "hook": "손흥민의 토트넘 마지막 장면은 주장으로 들어 올린 유럽 트로피였다.",
+  "sourceRefs": [
+    "son_source_12"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "손흥민의 토트넘 마지막 장면은 주장으로 들어 올린 유럽 트로피였다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-012-europa-league-captain-farewell.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "토트넘은 손흥민이 2025년 UEFA 유로파리그 결승에서 팀을 주장해 빌바오 우승을 이끌었다고 전했다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-012-europa-league-captain-farewell.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단은 그 우승이 17년 만의 은메달을 끝낸 순간이었고, 손흥민의 토트넘 10년을 마무리하는 장면이었다고 설명했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-012-europa-league-captain-farewell.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "작별 인사가 가장 큰 트로피를 들어 올린 순간과 겹쳤다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-012-europa-league-captain-farewell.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "떠나는 날의 박수는 결과와 관계의 시간이 함께 쌓였다는 증거다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-012-europa-league-captain-farewell.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

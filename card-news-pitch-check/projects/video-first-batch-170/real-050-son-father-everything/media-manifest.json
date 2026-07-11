@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "topicId": "real-050-son-father-everything",
+  "eventKey": "son-heung-min|legacy-sourced|son-father-everything",
+  "player": "Son Heung-min",
+  "hook": "손흥민은 아버지 없이는 지금의 자신도 없다고 했다",
+  "sourceRefs": [
+    "son_guardian"
+  ],
+  "videoCandidate": {
+    "id": "QfFsH6Hul6g",
+    "url": "https://www.youtube.com/watch?v=QfFsH6Hul6g",
+    "title": "INTERVIEW | HEUNG-MIN SON ON 'BEAUTIFUL MOMENT' WITH THE FANS | Spurs 5-0 Crvena Zvedza",
+    "description": "Heung-min Son speaks to SpursTV following Tottenham Hotspur's 5-0 UEFA Champions League win against Crvena Zvedza.",
+    "duration": 255,
+    "channel": "Tottenham Hotspur",
+    "channelUrl": "https://www.youtube.com/channel/UCEg25rdRZXg32iwai6N6l0w",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/QfFsH6Hul6g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAllpwnpsy_qfq8irSKSmTJyjldPw",
+    "score": 69,
+    "eventOverlap": [
+      "tottenham"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/real-050-son-father-everything.jpg"
+  },
+  "confidence": "high",
+  "cards": [
+    {
+      "card": 1,
+      "copy": {
+        "label": "몰랐던 장면",
+        "headline": [
+          "아버지 없이는",
+          "지금도 없었다"
+        ],
+        "body": "정답을 바로 말하면 재미없어요. 이건 축구 팬들이 저장해두기 좋은 실제 선수 이야기입니다.",
+        "accent": [
+          "아버지",
+          "존경"
+        ]
+      },
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-048-son-four-hour-keepy.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": {
+        "label": "왜 놀랍냐면",
+        "headline": [
+          "무서웠지만",
+          "존경했다"
+        ],
+        "body": "유명한 이름 뒤에, 경기 기록보다 더 오래 남는 한 장면이 숨어 있었거든요.",
+        "accent": [
+          "아버지",
+          "존경"
+        ]
+      },
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-048-son-four-hour-keepy.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": {
+        "label": "실제 이야기",
+        "headline": [
+          "손흥민이 말한",
+          "진짜 도움"
+        ],
+        "body": "Guardian 인터뷰에서 손흥민은 아버지가 무섭고 엄격했지만 자신에게 필요한 것을 늘 생각했고, 아버지 없이는 지금 위치에 없었을 것이라고 말했다.",
+        "accent": [
+          "아버지",
+          "존경"
+        ]
+      },
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-048-son-four-hour-keepy.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": {
+        "label": "친구한테 보내기",
+        "headline": [
+          "이 장면 알고 보면",
+          "선수가 다르게 보임"
+        ],
+        "body": "훈련 에피소드만 보면 딱딱하지만, 본인의 애정까지 같이 봐야 균형이 맞다.",
+        "accent": [
+          "몰랐던 사실",
+          "저장각"
+        ]
+      },
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-048-son-four-hour-keepy.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": {
+        "label": "댓글 유도",
+        "headline": [
+          "이 선수 팬이면",
+          "누구 태그할래요"
+        ],
+        "body": "손흥민 가족 서사 좋아하는 팬들이 저장하기 좋다.",
+        "accent": [
+          "친구 태그",
+          "공유"
+        ]
+      },
+      "role": "emotion",
+      "need": "official interview close-up",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/real-048-son-four-hour-keepy.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

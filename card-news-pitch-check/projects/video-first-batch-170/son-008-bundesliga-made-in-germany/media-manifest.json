@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-008-bundesliga-made-in-germany",
+  "eventKey": "son-heung-min|2010|bundesliga-rise",
+  "player": "Son Heung-min",
+  "hook": "손흥민의 유럽 이야기는 함부르크에서 시작됐다.",
+  "sourceRefs": [
+    "son_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "손흥민의 유럽 이야기는 함부르크에서 시작됐다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-008-bundesliga-made-in-germany.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "손흥민은 16세였던 2008년 부모의 조언으로 함부르크에 도착했고, 2010년 10월 첫 분데스리가 골을 넣었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-008-bundesliga-made-in-germany.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "분데스리가는 그가 함부르크와 레버쿠젠에서 135경기 41골을 기록했다고 소개한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-008-bundesliga-made-in-germany.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "세계적인 장면의 앞부분에는 낯선 도시로 향한 16세의 선택이 있었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-008-bundesliga-made-in-germany.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "완성된 선수보다 성장 중인 선수를 떠올리게 하는 기록이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-008-bundesliga-made-in-germany.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

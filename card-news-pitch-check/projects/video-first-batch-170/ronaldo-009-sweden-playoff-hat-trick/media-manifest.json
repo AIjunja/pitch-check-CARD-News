@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-009-sweden-playoff-hat-trick",
+  "eventKey": "cristiano-ronaldo|2013|sweden-playoff-hat-trick",
+  "player": "Cristiano Ronaldo",
+  "hook": "스웨덴이 두 골을 넣자 Ronaldo가 해트트릭으로 답했다.",
+  "sourceRefs": [
+    "ronaldo_source_09"
+  ],
+  "videoCandidate": {
+    "id": "WW_jeBGuAPs",
+    "url": "https://www.youtube.com/watch?v=WW_jeBGuAPs",
+    "title": "Ronaldo's amazing hat-trick - Sweden vs Portugal",
+    "description": "Cristiano Ronaldo scored three goals in the FIFA World Cup playoff between Sweden and Portugal. Twitter ...",
+    "duration": 54,
+    "channel": "GOAL",
+    "channelUrl": "https://www.youtube.com/channel/UCjVd6vTuoAYLFYvX5TSK1aA",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/WW_jeBGuAPs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKh_Aiu5OaWUW6fBbp34KsonKrGQ",
+    "score": 41,
+    "eventOverlap": [
+      "sweden",
+      "portugal",
+      "playoff",
+      "hat",
+      "trick"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-009-sweden-playoff-hat-trick.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "스웨덴이 두 골을 넣자 경기가 다시 열렸다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WW_jeBGuAPs",
+        "startSeconds": 4,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-009-sweden-playoff-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Ronaldo는 포르투갈의 월드컵 플레이오프에서 차이를 만들었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-009-sweden-playoff-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 그의 해트트릭을 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WW_jeBGuAPs",
+        "startSeconds": 24,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-009-sweden-playoff-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "스웨덴의 두 골 뒤 Ronaldo가 두 골을 더했다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-009-sweden-playoff-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "포르투갈은 결국 다음 월드컵으로 향했다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-009-sweden-playoff-hat-trick.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "alexia-004-barcelona-departure",
+  "eventKey": "alexia-putellas|2026|barcelona-departure",
+  "player": "Alexia Putellas",
+  "hook": "14시즌, 507경기, 232골 뒤 Alexia가 바르사와 작별한다.",
+  "sourceRefs": [
+    "alexia_source_04"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "14시즌, 507경기, 232골 뒤 Alexia가 바르사와 작별한다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-004-barcelona-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "FC Barcelona는 시즌 종료 뒤 Alexia가 떠난다고 발표했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-004-barcelona-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단 발표에는 38개 트로피와 주장으로서의 기록이 담겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-004-barcelona-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "작별 공지 하나가 한 시대의 숫자를 꺼냈다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-004-barcelona-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "이 소식은 이적보다 한 팀의 성장 기록에 가깝다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/alexia-004-barcelona-departure.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

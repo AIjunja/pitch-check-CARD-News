@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "sam-003-chelsea-contract-extension",
+  "eventKey": "sam-kerr|2024|chelsea-contract-extension",
+  "player": "Sam Kerr",
+  "hook": "떠나는 영상처럼 보였던 공지의 결말은 Sam Kerr의 잔류였다.",
+  "sourceRefs": [
+    "sam_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "떠나는 영상처럼 보였던 공지의 결말은 Sam Kerr의 잔류였다.",
+      "role": "hook",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-003-chelsea-contract-extension.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "첼시는 Kerr와 2026년까지 2년 계약 연장을 발표했다.",
+      "role": "context",
+      "need": "contract signing press conference",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-003-chelsea-contract-extension.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "구단은 2019년 이후 국내 트로피 11개를 기록했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-003-chelsea-contract-extension.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "작별처럼 시작한 영상이 20분 뒤 잔류 발표로 뒤집혔다.",
+      "role": "result",
+      "need": "new club presentation",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-003-chelsea-contract-extension.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "계약 연장은 팀을 계속 선택한 이유를 보여준다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/sam-003-chelsea-contract-extension.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "topicId": "son-006-shared-golden-boot-23",
+  "eventKey": "son-heung-min|2022|shared-premier-league-golden-boot",
+  "player": "Son Heung-min",
+  "hook": "노리치전 두 골로 손흥민은 살라와 같은 23골에 도달했다.",
+  "sourceRefs": [
+    "son_source_06"
+  ],
+  "videoCandidate": {
+    "id": "4mn49-Yx8UI",
+    "url": "https://www.youtube.com/watch?v=4mn49-Yx8UI",
+    "title": "23 Goals Son Heung Min - Golden Boot Winner 2021/22",
+    "description": "Thanks For Watching. Like √ Comment √ Subcribe √. Music. - - -. “Some contents are used for educational purpose under fair ...",
+    "duration": 194,
+    "channel": "Benconk",
+    "channelUrl": "https://www.youtube.com/channel/UCQFQjen7HaQU4Sq8-IraMyg",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/4mn49-Yx8UI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNCN1QVdlJQ7_33etxPNjN9hCWeQ",
+    "score": 24,
+    "eventOverlap": [
+      "2021",
+      "golden",
+      "boot",
+      "goals"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/son-006-shared-golden-boot-23.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "노리치전 두 골로 손흥민은 살라와 같은 23골에 도달했다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-006-shared-golden-boot-23.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2021/22 프리미어리그에서 손흥민은 23골로 모하메드 살라와 골든부트를 공동 수상했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-006-shared-golden-boot-23.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "프리미어리그 시즌 리뷰는 손흥민이 노리치전에서 두 골을 넣었고 두 선수 모두 23골로 마쳤다고 기록한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4mn49-Yx8UI",
+        "startSeconds": 91,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/son-006-shared-golden-boot-23.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "한 시즌의 마지막 장면이 두 명의 이름을 같은 줄에 올렸다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-006-shared-golden-boot-23.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "공동 수상은 경쟁이면서 동시에 서로의 기준을 증명하는 장면이다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-006-shared-golden-boot-23.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

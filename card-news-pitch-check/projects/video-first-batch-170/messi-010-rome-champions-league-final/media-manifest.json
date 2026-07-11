@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "topicId": "messi-010-rome-champions-league-final",
+  "eventKey": "lionel-messi|2009|rome-champions-league-final",
+  "player": "Lionel Messi",
+  "hook": "로마의 결승, 메시는 헤딩으로 맨유를 무너뜨렸다.",
+  "sourceRefs": [
+    "messi_source_10"
+  ],
+  "videoCandidate": {
+    "id": "zNQI2pcPs-I",
+    "url": "https://www.youtube.com/watch?v=zNQI2pcPs-I",
+    "title": "When Messi crushed the soul of Prime Manchester United",
+    "description": "When Messi crushed the soul of prime Manchester United in the 2009 and 2011 UEFA Champions League finals, Rio Ferdinand ...",
+    "duration": 248,
+    "channel": "SombreroFlicks",
+    "channelUrl": "https://www.youtube.com/channel/UC7xivATKKzNtVDzfMRLa2FA",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/zNQI2pcPs-I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB53i5lzk4MvKFZE_gwk4eah10ogA",
+    "score": 24,
+    "eventOverlap": [
+      "manchester",
+      "united",
+      "2009"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/messi-010-rome-champions-league-final.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "로마 결승에서 메시가 넣은 골은 헤딩이었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-010-rome-champions-league-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2009년 챔피언스리그 결승, 상대는 맨유.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-010-rome-champions-league-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "바르셀로나가 1-0으로 앞선 뒤 메시가 공중으로 뛰어올랐다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zNQI2pcPs-I",
+        "startSeconds": 117,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/messi-010-rome-champions-league-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "헤딩 골로 2-0. 유럽 정상은 굳어졌다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-010-rome-champions-league-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "작은 체격이라는 고정관념까지 넘긴 결승 장면이었다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/messi-010-rome-champions-league-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

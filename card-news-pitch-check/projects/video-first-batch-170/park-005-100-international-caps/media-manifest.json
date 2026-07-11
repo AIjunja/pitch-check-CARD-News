@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "topicId": "park-005-100-international-caps",
+  "eventKey": "park-ji-sung|2002-2010|100-international-caps",
+  "player": "Park Ji-sung",
+  "hook": "박지성의 대표팀 기록은 100경기와 세 번의 월드컵으로 요약된다.",
+  "sourceRefs": [
+    "asia07_source_01",
+    "asia07_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "박지성의 대표팀 기록은 100경기와 세 번의 월드컵으로 요약된다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-005-100-international-caps.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "PSV는 그가 2002·2006·2010 월드컵에 참가했다고 기록한다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-005-100-international-caps.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "FIFA는 세 대회 모두에서 박지성이 골을 넣었다고 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-005-100-international-caps.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "숫자 하나는 출전이고 세 번의 월드컵은 시대의 길이다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-005-100-international-caps.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "꾸준함이 쌓이면 경력이 나라의 연표가 된다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/park-005-100-international-caps.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

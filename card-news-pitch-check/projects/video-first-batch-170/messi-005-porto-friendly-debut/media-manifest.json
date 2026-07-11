@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "messi-005-porto-friendly-debut",
+  "eventKey": "lionel-messi|2003|porto-friendly-debut",
+  "player": "Lionel Messi",
+  "hook": "메시의 1군 첫 출전은 공식전이 아니라 포르투전 친선경기였다.",
+  "sourceRefs": [
+    "messi_source_05"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "메시의 1군 데뷔는 결승전이 아니었다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-005-porto-friendly-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2003년 11월 16일, 상대는 포르투였다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-005-porto-friendly-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "공식전도 아닌 친선전에서 16세 메시는 처음 1군 유니폼을 입었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-005-porto-friendly-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "71분에 교체로 들어와 첫 출전을 기록했다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-005-porto-friendly-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "전설도 처음엔 경기 기록의 작은 줄에서 시작했다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/messi-005-porto-friendly-debut.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

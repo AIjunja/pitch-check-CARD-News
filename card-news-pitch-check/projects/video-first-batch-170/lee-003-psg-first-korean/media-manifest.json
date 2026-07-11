@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "lee-003-psg-first-korean",
+  "eventKey": "lee-kang-in|2023|psg-first-korean",
+  "player": "Lee Kang-in",
+  "hook": "이강인은 PSG가 처음 영입한 한국 선수가 됐다.",
+  "sourceRefs": [
+    "asia07_source_08"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "이강인은 PSG가 처음 영입한 한국 선수가 됐다.",
+      "role": "hook",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/lee-003-psg-first-korean.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "PSG 공식 프로필은 그를 인천 출신 선수로 소개한다.",
+      "role": "context",
+      "need": "trophy ceremony",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/lee-003-psg-first-korean.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "10세에 발렌시아로 이동해 2019년 코파 델 레이 우승도 경험했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/lee-003-psg-first-korean.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "인천에서 시작한 경력이 파리의 구단 페이지로 연결됐다.",
+      "role": "result",
+      "need": "team celebration crowd",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/lee-003-psg-first-korean.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 한국 선수라는 문장은 이적보다 오래 남는 이정표다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170-source-pages/lee-003-psg-first-korean.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-010-third-champions-final",
+  "eventKey": "cristiano-ronaldo|2017|third-champions-league-final",
+  "player": "Cristiano Ronaldo",
+  "hook": "Ronaldo는 챔피언스리그 결승 세 번에서 골을 넣은 첫 선수가 됐다.",
+  "sourceRefs": [
+    "ronaldo_source_10"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "Ronaldo가 챔피언스리그 결승에서 또 골을 넣었다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-010-third-champions-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "2017년 카디프, 20분이었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-010-third-champions-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Real Madrid는 Juventus를 4-1로 이겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-010-third-champions-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "UEFA는 그를 세 번의 결승에서 득점한 첫 선수로 기록한다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-010-third-champions-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "두 번째 골은 시즌 12골과 통산 105골로 이어졌다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-010-third-champions-final.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-011-euro-2016-touchline",
+  "eventKey": "cristiano-ronaldo|2016|euro-final-touchline-leadership",
+  "player": "Cristiano Ronaldo",
+  "hook": "부상으로 나간 주장이 터치라인에서 팀을 밀어붙였다.",
+  "sourceRefs": [
+    "ronaldo_source_11"
+  ],
+  "videoCandidate": {
+    "id": "pdd4blf0Lz4",
+    "url": "https://www.youtube.com/watch?v=pdd4blf0Lz4",
+    "title": "Cristiano Ronaldo as coach Euro Final 2016",
+    "description": "Cristiano Ronaldo's sideline heroics prove he is a real team player.",
+    "duration": 82,
+    "channel": "Gypsy Sports",
+    "channelUrl": "https://www.youtube.com/channel/UC_DBq6uOyfKK5ts9VxgJlkg",
+    "verified": false,
+    "thumbnail": "https://i.ytimg.com/vi/pdd4blf0Lz4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGUoMjAP&rs=AOn4CLADzsVL8jERSgyi_C3qaQqEzYex8g",
+    "score": 24,
+    "eventOverlap": [
+      "euro",
+      "2016",
+      "final"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/ronaldo-011-euro-2016-touchline.jpg"
+  },
+  "confidence": "low",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "EURO 2016 결승에서 Ronaldo는 25분에 나왔다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pdd4blf0Lz4",
+        "startSeconds": 8,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-011-euro-2016-touchline.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Portugal은 France와 맞붙었다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-011-euro-2016-touchline.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "그는 터치라인 뒤에서 팀을 격려했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "video",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pdd4blf0Lz4",
+        "startSeconds": 37,
+        "durationSeconds": 4,
+        "localClip": null,
+        "reviewRequired": true
+      },
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-011-euro-2016-touchline.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "결승은 연장전 끝에 Portugal의 1-0 승리였다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-011-euro-2016-touchline.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "UEFA는 결승골을 109분으로 기록한다.",
+      "role": "emotion",
+      "need": "injury moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-011-euro-2016-touchline.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

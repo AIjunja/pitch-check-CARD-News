@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "mbappe-003-monaco-dortmund-double",
+  "eventKey": "kylian-mbappe|2017|monaco-dortmund-double",
+  "player": "Kylian Mbappe",
+  "hook": "도르트문트 원정에서 음바페는 전반과 후반에 한 번씩 터졌다.",
+  "sourceRefs": [
+    "mbappe_source_06"
+  ],
+  "videoCandidate": {
+    "id": "XkY_OZ7PC3U",
+    "url": "https://www.youtube.com/watch?v=XkY_OZ7PC3U",
+    "title": "Happy Birthday Kylian Mbappé - #Remember 👀 2013-2017",
+    "description": "Pour être au plus prêt de votre équipe, abonnez-vous ! http://bit.ly/1gGJvT1 Kylian Mbappé fête ses 21 ans ce vendredi.",
+    "duration": 312,
+    "channel": "AS MONACO",
+    "channelUrl": "https://www.youtube.com/channel/UCHy548EHHX9f-ETJlm18Jiw",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/XkY_OZ7PC3U/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArFtMtO1sypHHcjBWpcIRxb2wkXA",
+    "score": 37,
+    "eventOverlap": [
+      "2017"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/mbappe-003-monaco-dortmund-double.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "도르트문트 원정에서 전후반 한 골씩",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-003-monaco-dortmund-double.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "음바페는 한 가지 방식으로만 풀지 않았다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-003-monaco-dortmund-double.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "첫 골은 흐름 속에서, 두 번째 골은 가로채고 질주해 만들었다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-003-monaco-dortmund-double.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "모나코는 3-2로 8강 1차전을 가져갔다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-003-monaco-dortmund-double.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "한 경기 안에서도 속도와 판단이 번갈아 빛났다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/mbappe-003-monaco-dortmund-double.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

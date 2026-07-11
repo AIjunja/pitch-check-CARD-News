@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "son-003-contract-until-2026",
+  "eventKey": "son-heung-min|2025|tottenham-contract-extension",
+  "player": "Son Heung-min",
+  "hook": "떠나기 전, 토트넘은 손흥민의 계약을 한 번 더 붙잡았다.",
+  "sourceRefs": [
+    "son_source_03"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "떠나기 전, 토트넘은 손흥민의 계약을 한 번 더 붙잡았다.",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-003-contract-until-2026.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "토트넘은 2025년 1월 손흥민의 계약을 2026년 여름까지 연장하는 옵션을 행사했다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-003-contract-until-2026.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "당시 구단은 손흥민이 토트넘에서 431경기 169골을 기록했고, 2019년 새 경기장의 첫 골들을 만들었다고 설명했다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-003-contract-until-2026.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "계약 한 줄 안에 한 선수의 경기장 이정표가 압축돼 있다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-003-contract-until-2026.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "연장 발표는 숫자로 남은 시간을 보여주는 작은 타임캡슐이다.",
+      "role": "emotion",
+      "need": "transfer announcement",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/son-003-contract-until-2026.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "topicId": "ronaldo-001-sporting-trial-signing",
+  "eventKey": "cristiano-ronaldo|1997|sporting-cp-trial-signing",
+  "player": "Cristiano Ronaldo",
+  "hook": "1997년, 한 번의 트라이얼이 소년의 다음 무대를 바꿨다.",
+  "sourceRefs": [
+    "ronaldo_source_01"
+  ],
+  "videoCandidate": null,
+  "confidence": "none",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "1997년, Sporting CP 트라이얼에 선 소년",
+      "role": "hook",
+      "need": "childhood archive",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-001-sporting-trial-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "Andorinha에서 3년, Nacional에서 2년을 보냈다.",
+      "role": "context",
+      "need": "youth academy training",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-001-sporting-trial-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "Sporting CP 트라이얼에서 인상을 남겼다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-001-sporting-trial-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "Olympics.com은 그가 1997년 Sporting CP에 영입됐다고 전한다.",
+      "role": "result",
+      "need": "family documentary",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-001-sporting-trial-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "큰 무대의 첫 문은 이름이 아니라 트라이얼이었다.",
+      "role": "emotion",
+      "need": "teammate or crowd reaction",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/ronaldo-001-sporting-trial-signing.png",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}

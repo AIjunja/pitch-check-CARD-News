@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "topicId": "haaland-002-eight-goals-in-first-five-champions-league-appearances",
+  "eventKey": "erling-haaland|2019|eight-goals-in-first-five-champions-league-appearances",
+  "player": "Erling Haaland",
+  "hook": "홀란은 챔피언스리그 첫 5경기에서 8골을 몰아쳤다.",
+  "sourceRefs": [
+    "haaland_source_05"
+  ],
+  "videoCandidate": {
+    "id": "tAP3EX3eh4E",
+    "url": "https://www.youtube.com/watch?v=tAP3EX3eh4E",
+    "title": "Erling Haaland jokes with Thierry Henry and talks making Champions League history | UCL on CBS",
+    "description": "The 2022-23 Champions League golden boot leader tied an all-time single-game record for most goals as Manchester City blow ...",
+    "duration": 316,
+    "channel": "CBS Sports Golazo",
+    "channelUrl": "https://www.youtube.com/channel/UCET00YnetHT7tOpu12v8jxg",
+    "verified": true,
+    "thumbnail": "https://i.ytimg.com/vi/tAP3EX3eh4E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCW2AfvB75yKqk2WNA-JClUbq1HNg",
+    "score": 41,
+    "eventOverlap": [
+      "goals"
+    ],
+    "thumbnailLocalPath": "assets/reference/web/real-player-video-first-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg"
+  },
+  "confidence": "medium",
+  "cards": [
+    {
+      "card": 1,
+      "copy": "홀란은 챔피언스리그 첫 5경기에서 8골을 넣었다",
+      "role": "hook",
+      "need": "shooting moment",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "copy": "데뷔전 뒤에도 득점 흐름은 멈추지 않았다.",
+      "role": "context",
+      "need": "ball flight goalmouth",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "copy": "UEFA는 첫 5경기 8골을 기록한 네 번째 선수라고 정리한다.",
+      "role": "proof",
+      "need": "source-confirmed event frame",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "copy": "잘츠부르크에서 시작한 유럽 무대의 초반 기록이었다.",
+      "role": "result",
+      "need": "goal celebration teammates",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "copy": "첫 경기보다 무서운 건 다섯 경기까지 이어진 속도였다.",
+      "role": "emotion",
+      "need": "record milestone match",
+      "renderMedia": "image",
+      "video": null,
+      "image": "assets/reference/web/real-player-grounded-170/haaland-002-eight-goals-in-first-five-champions-league-appearances.jpg",
+      "rights": "reference-only"
+    },
+    {
+      "card": 6,
+      "role": "bridge",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png",
+      "rights": "direct-use"
+    },
+    {
+      "card": 7,
+      "role": "cta",
+      "renderMedia": "locked-cta",
+      "image": "projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-07-approved.png",
+      "rights": "direct-use"
+    }
+  ],
+  "readyForStaticRender": true,
+  "readyForVideoRender": false
+}
