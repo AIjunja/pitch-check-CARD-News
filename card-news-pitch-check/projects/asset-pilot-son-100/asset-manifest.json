@@ -13,7 +13,7 @@
       "width": 3303,
       "height": 2202,
       "rights": "reference-only",
-      "cards": [1, 2, 5]
+      "cards": [1, 5]
     },
     {
       "id": "spurs-brighton-100",
@@ -47,7 +47,7 @@
       "width": 2048,
       "height": 992,
       "rights": "reference-only",
-      "cards": [1, 2]
+      "cards": [1]
     },
     {
       "id": "pl-source-page",
@@ -75,8 +75,28 @@
       "id": "shot-trajectory-recreation",
       "type": "html-native-reconstruction",
       "rights": "recreate",
+      "cards": [],
+      "spec": "Superseded by a real impact photo after visual review."
+    },
+    {
+      "id": "son-100-shot-front",
+      "path": "assets/field-candidates/shot-02-gukje.png",
+      "type": "match-photo",
+      "sourceUrl": "https://cdn.gukjenews.com/news/photo/202304/2692427_2714567_353.png",
+      "pageUrl": "https://www.gukjenews.com/news/articleView.html?idxno=2692427",
+      "rights": "reference-only",
+      "cards": [2],
+      "note": "Actual 100th-goal shooting sequence; selected for the Brighton opener copy."
+    },
+    {
+      "id": "son-100-impact-close",
+      "path": "assets/field-candidates/shot-01-gukje.png",
+      "type": "match-photo",
+      "sourceUrl": "https://cdn.gukjenews.com/news/photo/202304/2692427_2714566_3450.png",
+      "pageUrl": "https://www.gukjenews.com/news/articleView.html?idxno=2692427",
+      "rights": "reference-only",
       "cards": [4],
-      "spec": "Portrait pitch diagram showing a 25-yard right-foot curler from the left half-space into the upper-right corner. No league or club marks."
+      "note": "Tighter impact frame showing Son striking through the ball under pressure."
     },
     {
       "id": "pitchcheck-approved-card-06",

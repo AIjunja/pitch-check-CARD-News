@@ -34,6 +34,8 @@ h1 .yellow, h2 .yellow { color: var(--yellow); }
 .media { position: relative; border-radius: 8px; overflow: hidden; background: #151917; }
 .media img { width: 100%; height: 100%; object-fit: cover; }
 .media .tag { position: absolute; left: 24px; bottom: 22px; padding: 10px 16px; background: rgba(0,0,0,.76); color: white; font-size: 24px; font-weight: 700; }
+.impact-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(0,0,0,.34)); pointer-events: none; }
+.impact-media .tag { z-index: 3; }
 .text-block { position: relative; }
 .number { width: 60px; height: 60px; display: grid; place-items: center; background: var(--mint); color: #07100d; font-size: 31px; font-weight: 700; border-radius: 50%; margin-bottom: 20px; }
 h2 { margin: 0; font-size: 77px; line-height: 1.1; font-weight: 700; word-break: keep-all; }
@@ -62,4 +64,3 @@ h2 { margin: 0; font-size: 77px; line-height: 1.1; font-weight: 700; word-break:
 .compare-copy { margin-top: 34px; }
 .compare h2 { font-size: 72px; }
 .compare .footer { position: absolute; left: 64px; right: 64px; bottom: 55px; }
-
