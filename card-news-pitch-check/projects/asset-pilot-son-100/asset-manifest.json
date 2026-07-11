@@ -78,13 +78,51 @@
       "spec": "Portrait pitch diagram showing a 25-yard right-foot curler from the left half-space into the upper-right corner. No league or club marks."
     },
     {
-      "id": "pitchcheck-dashboard",
-      "path": "assets/pitchcheck/dashboard.jpg",
-      "type": "brand-product-screen",
-      "width": 768,
-      "height": 1376,
+      "id": "pitchcheck-approved-card-06",
+      "path": "assets/pitchcheck/approved-cta/card-06-approved.png",
+      "type": "approved-cta-card",
+      "width": 1080,
+      "height": 1350,
       "rights": "direct-use",
-      "cards": [6, 7]
+      "cards": [6],
+      "note": "Locked CTA template: operator empathy using real PitchCheck screens."
+    },
+    {
+      "id": "pitchcheck-approved-card-07",
+      "path": "assets/pitchcheck/approved-cta/card-07-approved.png",
+      "type": "approved-cta-card",
+      "width": 1080,
+      "height": 1350,
+      "rights": "direct-use",
+      "cards": [7],
+      "note": "Locked CTA template: profile link plus [피치체크] comment action."
+    },
+    {
+      "id": "pitchcheck-real-team-create",
+      "path": "assets/pitchcheck/real-screens/team-create-real.png",
+      "type": "real-product-screen",
+      "width": 1792,
+      "height": 2400,
+      "rights": "direct-use",
+      "cards": [6]
+    },
+    {
+      "id": "pitchcheck-operator-pain-01",
+      "path": "assets/pitchcheck/real-screens/operator-pain-01.jpg",
+      "type": "approved-local-frame",
+      "width": 540,
+      "height": 1170,
+      "rights": "direct-use",
+      "cards": [6]
+    },
+    {
+      "id": "pitchcheck-operator-pain-02",
+      "path": "assets/pitchcheck/real-screens/operator-pain-02.jpg",
+      "type": "approved-local-frame",
+      "width": 540,
+      "height": 1170,
+      "rights": "direct-use",
+      "cards": [6]
     },
     {
       "id": "pitchcheck-wordmark",
