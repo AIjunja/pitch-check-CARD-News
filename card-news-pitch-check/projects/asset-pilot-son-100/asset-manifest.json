@@ -1,0 +1,107 @@
+{
+  "topicId": "son-005-first-asian-premier-league-century",
+  "eventKey": "son-heung-min|2023|first-asian-premier-league-100-goals",
+  "ratio": "4:5",
+  "canvas": { "width": 1080, "height": 1350 },
+  "assets": [
+    {
+      "id": "pl-son-100-hero",
+      "path": "assets/official/pl-son-100-hero.jpg",
+      "type": "official-media",
+      "sourceUrl": "https://resources.premierleague.com/premierleague/photo/2023/04/08/1929296a-b2de-4a6a-ba60-c6b430cb2876/Son-clebrates-his-100th-PL-goal.jpg",
+      "pageUrl": "https://www.premierleague.com/en/news/3141989",
+      "width": 3303,
+      "height": 2202,
+      "rights": "reference-only",
+      "cards": [1, 5]
+    },
+    {
+      "id": "spurs-brighton-100",
+      "path": "assets/official/spurs-brighton-100.jpg",
+      "type": "official-media",
+      "sourceUrl": "https://resources.thfc.pulselive.com/photo-migration/migration/7ca66c87-ef8c-4845-aca6-6725670c9ec6/brighton-home-1.jpg?width=752&height=412",
+      "pageUrl": "https://www.tottenhamhotspur.com/news/1015531/sonny-hits-100-goal-milestone-in-the-premier-league",
+      "width": 1200,
+      "height": 581,
+      "rights": "reference-only",
+      "cards": [2]
+    },
+    {
+      "id": "spurs-first-pl-goal",
+      "path": "assets/official/spurs-first-pl-goal.jpg",
+      "type": "official-media",
+      "sourceUrl": "https://resources.thfc.pulselive.com/photo-migration/migration/3fccd2e5-02d2-485c-970d-08d247bb408f/sonny-pl-palace1.jpg?width=752&height=412",
+      "pageUrl": "https://www.tottenhamhotspur.com/news/1015531/sonny-hits-100-goal-milestone-in-the-premier-league",
+      "width": 1000,
+      "height": 581,
+      "rights": "reference-only",
+      "cards": [5]
+    },
+    {
+      "id": "spurs-son-celebration",
+      "path": "assets/official/spurs-son-celebration.jpg",
+      "type": "official-media",
+      "sourceUrl": "https://resources.thfc.pulselive.com/photo-migration/migration/d7f7e52c-fea2-472b-ac16-c0e89336ce52/gettyimages-1250890881.jpg?width=752&height=412",
+      "pageUrl": "https://www.tottenhamhotspur.com/news/987608/stellini-on-amazing-sonny",
+      "width": 2048,
+      "height": 992,
+      "rights": "reference-only",
+      "cards": [1, 2]
+    },
+    {
+      "id": "pl-source-page",
+      "path": "assets/official/pl-source-page.png",
+      "type": "source-proof-screenshot",
+      "pageUrl": "https://www.premierleague.com/en/news/3141989",
+      "width": 1440,
+      "height": 1800,
+      "rights": "reference-only",
+      "cards": [3],
+      "note": "Cookie modal must be excluded from the final crop."
+    },
+    {
+      "id": "spurs-source-page",
+      "path": "assets/official/spurs-source-page.png",
+      "type": "source-proof-screenshot",
+      "pageUrl": "https://www.tottenhamhotspur.com/news/1015531/sonny-hits-100-goal-milestone-in-the-premier-league",
+      "width": 1440,
+      "height": 1800,
+      "rights": "reference-only",
+      "cards": [3],
+      "note": "Use a crop below the cookie modal or replace with an HTML source citation panel."
+    },
+    {
+      "id": "shot-trajectory-recreation",
+      "type": "html-native-reconstruction",
+      "rights": "recreate",
+      "cards": [4],
+      "spec": "Portrait pitch diagram showing a 25-yard right-foot curler from the left half-space into the upper-right corner. No league or club marks."
+    },
+    {
+      "id": "pitchcheck-dashboard",
+      "path": "assets/pitchcheck/dashboard.jpg",
+      "type": "brand-product-screen",
+      "width": 768,
+      "height": 1376,
+      "rights": "direct-use",
+      "cards": [6, 7]
+    },
+    {
+      "id": "pitchcheck-wordmark",
+      "path": "assets/pitchcheck/pitchcheck-wordmark-horizontal.png",
+      "type": "brand-logo",
+      "width": 381,
+      "height": 95,
+      "rights": "direct-use",
+      "cards": [7]
+    }
+  ],
+  "motionCandidates": [
+    {
+      "url": "https://www.tottenhamhotspur.com/spurs-tv/2023/april/son-on-his-really-special-100th-league-goal-in-win-against-brighton/",
+      "owner": "Tottenham Hotspur",
+      "rights": "reference-only",
+      "use": "Shot timing reference only; recreate the trajectory with HTML/CSS motion."
+    }
+  ]
+}
