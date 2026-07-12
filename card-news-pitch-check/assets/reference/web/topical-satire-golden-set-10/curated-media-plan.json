@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-07-13",
+  "rights": "reference-only",
+  "topics": [
+    {
+      "topicId": "hwang-001-portugal-stoppage-time-winner",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 144, "rationale": "결승골 뒤 황희찬의 강한 표정" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 120, "rationale": "탈락 직전 긴장한 한국 관중" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 108, "rationale": "손흥민이 역습을 전개하는 순간" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 132, "rationale": "황희찬과 동료의 결승골 세리머니" },
+        { "card": 5, "sourceRole": "current", "timestamp": 22.2, "rationale": "2026 조별리그 탈락 뒤 대표팀 반응" }
+      ]
+    },
+    {
+      "topicId": "messi-011-calendar-year-scoring-record",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 135, "rationale": "91골 기록을 상징하는 트로피 엔딩" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 35.6, "rationale": "2012년 바르셀로나 유니폼의 득점 장면" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 121.2, "rationale": "기록 달성 직후 메시의 세리머니" },
+        { "card": 4, "sourceRole": "current", "timestamp": 0.2, "rationale": "최근 메시의 표정 클로즈업" },
+        { "card": 5, "sourceRole": "current", "timestamp": 58, "rationale": "숫자보다 장면을 남기는 최근 세리머니" }
+      ]
+    },
+    {
+      "topicId": "ronaldo-011-euro-2016-touchline",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 8.2, "rationale": "부상 교체 뒤 터치라인에 선 호날두" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 45, "rationale": "동료에게 손짓하는 호날두" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 77.8, "rationale": "우승 직전 벤치의 격한 반응" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 57.3, "rationale": "감독과 나란히 지시하는 터치라인 장면" },
+        { "card": 5, "sourceRole": "current", "timestamp": 62.9, "rationale": "2026 탈락 뒤 자기 서사를 말하는 인터뷰" }
+      ]
+    },
+    {
+      "topicId": "son-007-asian-games-gold",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 48, "rationale": "0-0 흐름 속 초조한 손흥민" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 84, "rationale": "손흥민이 공격을 전개하는 결승 장면" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 132, "rationale": "동료들과 함께 환호하는 주장" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 228, "rationale": "금메달 뒤 웃는 손흥민" },
+        { "card": 5, "sourceRole": "current", "timestamp": 29.3, "rationale": "2026 탈락 직후 대표팀 선수들의 표정" }
+      ]
+    },
+    {
+      "topicId": "park-001-2002-portugal-goal",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 178.2, "rationale": "박지성의 상징적인 골 세리머니" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 19.8, "rationale": "가슴 트래핑과 수비를 접는 순간" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 39.6, "rationale": "왼발 슈팅이 골문으로 향하는 순간" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 49.5, "rationale": "득점 뒤 동료에게 달려가는 박지성" },
+        { "card": 5, "sourceRole": "current", "timestamp": 23.3, "rationale": "2026 조별리그 탈락 뒤 사임 기자회견" }
+      ]
+    },
+    {
+      "topicId": "lee-001-u20-golden-ball",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 48, "rationale": "결승전을 앞둔 한국 U-20 대표팀" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 72, "rationale": "이강인이 공격을 만드는 결승 장면" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 0.2, "rationale": "인판티노에게 골든볼을 받는 이강인" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 60, "rationale": "경기 중 이강인의 집중한 표정" },
+        { "card": 5, "sourceRole": "current", "timestamp": 6.4, "rationale": "2026 월드컵에서 드리블하는 이강인" }
+      ]
+    },
+    {
+      "topicId": "real-034-vardy-eighth-tier",
+      "cards": [
+        { "card": 1, "sourceRole": "current", "timestamp": 0.2, "rationale": "현재 바디의 강한 표정 클로즈업" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 24.5, "rationale": "스톡스브리지 팀 단체 사진" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 63.7, "rationale": "논리그 시절 팀 동료들의 현장 사진" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 44.1, "rationale": "프리미어리그 우승 팀 사진" },
+        { "card": 5, "sourceRole": "current", "timestamp": 168, "rationale": "크레모네세 유니폼을 든 39세 바디" }
+      ]
+    },
+    {
+      "topicId": "real-044-di-canio-empty-net",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 208, "samplingStart": 188, "samplingInterval": 2, "samplingIndex": 10, "rationale": "빈 골문 앞 공격이 이어지는 순간" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 210, "samplingStart": 188, "samplingInterval": 2, "samplingIndex": 11, "rationale": "골키퍼가 쓰러진 채 크로스가 올라오는 순간" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 214, "samplingStart": 188, "samplingInterval": 2, "samplingIndex": 13, "rationale": "디 카니오가 슈팅 대신 공을 잡는 순간" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 216, "samplingStart": 188, "samplingInterval": 2, "samplingIndex": 14, "rationale": "선수들이 디 카니오의 선택에 반응하는 장면" },
+        { "card": 5, "sourceRole": "current", "timestamp": 59.2, "rationale": "VAR 온필드 모니터를 확인하는 심판" }
+      ]
+    },
+    {
+      "topicId": "real-046-bielsa-let-villa-score",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 48, "rationale": "빌라 선수가 쓰러진 경기 현장" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 60, "rationale": "리즈가 공격을 이어가 득점하는 장면" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 144, "rationale": "동점골을 지시하는 비엘사의 터치라인" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 168, "rationale": "1-1 뒤 양 팀 선수들의 반응" },
+        { "card": 5, "sourceRole": "current", "timestamp": 24, "rationale": "2026 우루과이 기자회견의 비엘사" }
+      ]
+    },
+    {
+      "topicId": "real-038-modric-burnt-house",
+      "cards": [
+        { "card": 1, "sourceRole": "historical", "timestamp": 180, "rationale": "전쟁 흔적이 남은 모드리치의 옛집" },
+        { "card": 2, "sourceRole": "historical", "timestamp": 84, "rationale": "어린 모드리치와 가족의 기록 사진" },
+        { "card": 3, "sourceRole": "historical", "timestamp": 192, "rationale": "거리에서 공을 차던 어린 시절 영상" },
+        { "card": 4, "sourceRole": "historical", "timestamp": 120, "rationale": "커리어를 돌아보는 모드리치 인터뷰 클로즈업" },
+        { "card": 5, "sourceRole": "current", "timestamp": 110, "rationale": "200번째 A매치 승리 뒤 크로아티아 선수들" }
+      ]
+    }
+  ]
+}

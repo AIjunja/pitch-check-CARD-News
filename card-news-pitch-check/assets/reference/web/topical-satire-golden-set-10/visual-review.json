@@ -1,0 +1,16 @@
+{
+  "reviewedAt": "2026-07-13",
+  "reviewer": "Codex visual inspection",
+  "topics": [
+    { "topicId": "hwang-001-portugal-stoppage-time-winner", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "골 직전, 역습, 세리머니, 2026 귀국 반응이 분리됨" },
+    { "topicId": "messi-011-calendar-year-scoring-record", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "기록 상징, 2012 득점, 세리머니, 최근 클로즈업이 분리됨" },
+    { "topicId": "ronaldo-011-euro-2016-touchline", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "터치라인 지시 동작과 2026 인터뷰가 분리됨" },
+    { "topicId": "son-007-asian-games-gold", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "결승 흐름, 동료 반응, 메달, 2026 탈락 반응이 분리됨" },
+    { "topicId": "park-001-2002-portugal-goal", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "트래핑, 슈팅, 세리머니, 2026 사임 회견이 분리됨" },
+    { "topicId": "lee-001-u20-golden-ball", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "결승, 공격 전개, 골든볼 시상, 2026 드리블이 분리됨" },
+    { "topicId": "real-034-vardy-eighth-tier", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "현재 얼굴, 논리그 팀, 우승 팀, 크레모네세가 분리됨" },
+    { "topicId": "real-044-di-canio-empty-net", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "저화질 역사 영상이지만 공격, 부상, 캐치, 반응, VAR 순서가 정확함" },
+    { "topicId": "real-046-bielsa-let-villa-score", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "부상, 리즈 득점, 비엘사 지시, 재개, 2026 회견이 분리됨" },
+    { "topicId": "real-038-modric-burnt-house", "status": "pass", "cards": [1, 2, 3, 4, 5], "note": "옛집, 가족, 어린 시절 축구, 본인 인터뷰, 2026 경기로 분리됨" }
+  ]
+}
