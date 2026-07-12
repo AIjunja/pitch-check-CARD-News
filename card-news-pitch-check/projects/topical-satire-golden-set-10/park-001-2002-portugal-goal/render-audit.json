@@ -1,0 +1,224 @@
+{
+  "topicId": "park-001-2002-portugal-goal",
+  "strictMedia": true,
+  "cards": 7,
+  "width": 1080,
+  "height": 1350,
+  "mediaAudit": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/park-001-2002-portugal-goal/card-01.jpg",
+      "sha256": "f7ad71350faf33ac03803647be5e1073442080a4dd4efe603fed07bdf9ca8d1b",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=yT1i3vxGvUc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 972.265625,
+          "right": 1014,
+          "bottom": 1157.046875,
+          "width": 950,
+          "height": 184.78125
+        },
+        "body": {
+          "left": 64,
+          "top": 1177.046875,
+          "right": 914,
+          "bottom": 1217,
+          "width": 850,
+          "height": 39.953125
+        },
+        "source": {
+          "left": 64,
+          "top": 1245,
+          "right": 1016,
+          "bottom": 1282,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/park-001-2002-portugal-goal/card-02.jpg",
+      "sha256": "4f55cb8f918b60d9d2ed9816a862ae7927409f03a84f31e27d2cf516ca4107b4",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=yT1i3vxGvUc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/park-001-2002-portugal-goal/card-03.jpg",
+      "sha256": "8b427b18d203676ea6159501071a0f52f1ae8ee387a7eb06ccb9365556b0acf8",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=yT1i3vxGvUc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/park-001-2002-portugal-goal/card-04.jpg",
+      "sha256": "e3c22b9bdb622094e35f94b7599dfc9337469ee8b7fe7d982bf34ee9aa1d919f",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=yT1i3vxGvUc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/park-001-2002-portugal-goal/card-05.jpg",
+      "sha256": "7163bc5ecff12db74c827190092669ccef56aedebde642f8cd9dd16ecca49490",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=3xT5TNmpDaE",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    }
+  ]
+}

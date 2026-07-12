@@ -1,0 +1,224 @@
+{
+  "topicId": "messi-011-calendar-year-scoring-record",
+  "strictMedia": true,
+  "cards": 7,
+  "width": 1080,
+  "height": 1350,
+  "mediaAudit": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/messi-011-calendar-year-scoring-record/card-01.jpg",
+      "sha256": "a90f80c336cf481d38331fb34688abc417601d60d14dca92b7ba7ff37dacc474",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=0diLypIMGWQ",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 972.265625,
+          "right": 1014,
+          "bottom": 1157.046875,
+          "width": 950,
+          "height": 184.78125
+        },
+        "body": {
+          "left": 64,
+          "top": 1177.046875,
+          "right": 914,
+          "bottom": 1217,
+          "width": 850,
+          "height": 39.953125
+        },
+        "source": {
+          "left": 64,
+          "top": 1245,
+          "right": 1016,
+          "bottom": 1282,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/messi-011-calendar-year-scoring-record/card-02.jpg",
+      "sha256": "38c0d4a4d88f5e007672b3719fb6786e254e653381a8d61a33f22d219e35c3fa",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=0diLypIMGWQ",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/messi-011-calendar-year-scoring-record/card-03.jpg",
+      "sha256": "78cbb8eeb959395182b9f4d0b8b3b4df34ce17b3ef0243ba532c843a5ff01079",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=0diLypIMGWQ",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/messi-011-calendar-year-scoring-record/card-04.jpg",
+      "sha256": "381a052a9d7f394c44b64de1d5039283069f5c0cb3d38c379ec58e3b641741cd",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=K6fltq0dn_E",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/messi-011-calendar-year-scoring-record/card-05.jpg",
+      "sha256": "0be90b1e045bcdaadd93616a35e8696462a9443ca109b7783e2ee1f4a9c8ad1b",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=K6fltq0dn_E",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    }
+  ]
+}

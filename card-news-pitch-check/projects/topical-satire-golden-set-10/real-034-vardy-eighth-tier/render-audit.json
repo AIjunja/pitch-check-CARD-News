@@ -1,0 +1,224 @@
+{
+  "topicId": "real-034-vardy-eighth-tier",
+  "strictMedia": true,
+  "cards": 7,
+  "width": 1080,
+  "height": 1350,
+  "mediaAudit": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-034-vardy-eighth-tier/card-01.jpg",
+      "sha256": "a484828b1b233abb42139f33e61bd0ff08e8aed9751639e1945720b56ee835de",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xs8VEZssKmM",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 972.265625,
+          "right": 1014,
+          "bottom": 1157.046875,
+          "width": 950,
+          "height": 184.78125
+        },
+        "body": {
+          "left": 64,
+          "top": 1177.046875,
+          "right": 914,
+          "bottom": 1217,
+          "width": 850,
+          "height": 39.953125
+        },
+        "source": {
+          "left": 64,
+          "top": 1245,
+          "right": 1016,
+          "bottom": 1282,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-034-vardy-eighth-tier/card-02.jpg",
+      "sha256": "056438aba84c61012282c719b3bb5566c14d555114a78aa0246d5351d4b2856b",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=67NYUuPVtXw",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-034-vardy-eighth-tier/card-03.jpg",
+      "sha256": "57114ca75091c3f6a1f3fdbcf1a54b72449a2c01c33d11ed7ae92a730225adaa",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=67NYUuPVtXw",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-034-vardy-eighth-tier/card-04.jpg",
+      "sha256": "2e85fa8ebfaf867a4f7bd3babeb3c015a416d9646ffbb5fb7220fc71dafef01a",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=67NYUuPVtXw",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-034-vardy-eighth-tier/card-05.jpg",
+      "sha256": "cdf16b72f645ddb3d614784c0f2584a9b663d08cc63c1bc540f7c4950c44afae",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xs8VEZssKmM",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    }
+  ]
+}

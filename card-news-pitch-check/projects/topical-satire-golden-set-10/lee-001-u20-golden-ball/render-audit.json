@@ -1,0 +1,224 @@
+{
+  "topicId": "lee-001-u20-golden-ball",
+  "strictMedia": true,
+  "cards": 7,
+  "width": 1080,
+  "height": 1350,
+  "mediaAudit": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/lee-001-u20-golden-ball/card-01.jpg",
+      "sha256": "a6bc8e2a860573cbd03c56ac7b93dfe71aa7201ecddacaa93f2c744c424ee31f",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EB_sP0qkRc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 879.875,
+          "right": 1014,
+          "bottom": 1157.046875,
+          "width": 950,
+          "height": 277.171875
+        },
+        "body": {
+          "left": 64,
+          "top": 1177.046875,
+          "right": 914,
+          "bottom": 1217,
+          "width": 850,
+          "height": 39.953125
+        },
+        "source": {
+          "left": 64,
+          "top": 1245,
+          "right": 1016,
+          "bottom": 1282,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/lee-001-u20-golden-ball/card-02.jpg",
+      "sha256": "4fcec65b2210e8397a4b3af4d56dc751b0ba272f8aef22e1f15961b4bc4fea91",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EB_sP0qkRc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/lee-001-u20-golden-ball/card-03.jpg",
+      "sha256": "1ac1f332221800dc49ee0252c0c05df5880fbb4b0de96b3d86cfe4e3529ad066",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EB_sP0qkRc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/lee-001-u20-golden-ball/card-04.jpg",
+      "sha256": "42f79586952c0fa87a49f76eac0393b87e8a3b176d13aae6c16e7743bf634041",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EB_sP0qkRc",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/lee-001-u20-golden-ball/card-05.jpg",
+      "sha256": "a61c7741f55fe24329a85d8ecb512e9a165a8645e9ae4e8f3aaa1339e9203a23",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=DPym8A45Tdk",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    }
+  ]
+}

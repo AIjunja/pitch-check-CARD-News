@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-07-12T15:46:52.723Z",
+  "bank": "samples/pitchcheck/topical-satire-golden-set-10.json",
+  "media": "assets/reference/web/topical-satire-golden-set-10/curated-media.json",
+  "strictMedia": true,
+  "results": [
+    {
+      "topicId": "hwang-001-portugal-stoppage-time-winner",
+      "output": "projects/topical-satire-golden-set-10/hwang-001-portugal-stoppage-time-winner/output"
+    },
+    {
+      "topicId": "messi-011-calendar-year-scoring-record",
+      "output": "projects/topical-satire-golden-set-10/messi-011-calendar-year-scoring-record/output"
+    },
+    {
+      "topicId": "ronaldo-011-euro-2016-touchline",
+      "output": "projects/topical-satire-golden-set-10/ronaldo-011-euro-2016-touchline/output"
+    },
+    {
+      "topicId": "son-007-asian-games-gold",
+      "output": "projects/topical-satire-golden-set-10/son-007-asian-games-gold/output"
+    },
+    {
+      "topicId": "park-001-2002-portugal-goal",
+      "output": "projects/topical-satire-golden-set-10/park-001-2002-portugal-goal/output"
+    },
+    {
+      "topicId": "lee-001-u20-golden-ball",
+      "output": "projects/topical-satire-golden-set-10/lee-001-u20-golden-ball/output"
+    },
+    {
+      "topicId": "real-034-vardy-eighth-tier",
+      "output": "projects/topical-satire-golden-set-10/real-034-vardy-eighth-tier/output"
+    },
+    {
+      "topicId": "real-044-di-canio-empty-net",
+      "output": "projects/topical-satire-golden-set-10/real-044-di-canio-empty-net/output"
+    },
+    {
+      "topicId": "real-046-bielsa-let-villa-score",
+      "output": "projects/topical-satire-golden-set-10/real-046-bielsa-let-villa-score/output"
+    },
+    {
+      "topicId": "real-038-modric-burnt-house",
+      "output": "projects/topical-satire-golden-set-10/real-038-modric-burnt-house/output"
+    }
+  ]
+}

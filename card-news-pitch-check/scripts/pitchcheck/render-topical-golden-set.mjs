@@ -118,9 +118,22 @@ try {
       await page.setContent(htmlFor(topic, topic.copy.cards[number - 1], mediaCard, number), { waitUntil: 'load' });
       await page.evaluate(() => document.fonts.ready);
       await page.waitForFunction(() => [...document.images].every((image) => image.complete && image.naturalWidth > 0));
+      const layout = await page.evaluate(() => {
+        const rect = (selector) => {
+          const value = document.querySelector(selector).getBoundingClientRect();
+          return { left: value.left, top: value.top, right: value.right, bottom: value.bottom, width: value.width, height: value.height };
+        };
+        return {
+          card: rect('.card'), headline: rect('h1'), body: rect('.body'), source: rect('.source'),
+          documentWidth: document.documentElement.scrollWidth, documentHeight: document.documentElement.scrollHeight,
+        };
+      });
+      if (layout.documentWidth > 1080 || layout.documentHeight > 1350 || layout.headline.right > 1016 || layout.body.right > 1016 || layout.body.bottom + 12 > layout.source.top) {
+        throw new Error(`Layout overflow: ${topic.id} card ${number} ${JSON.stringify(layout)}`);
+      }
       const outputFile = path.join(outputDir, `card-${String(number).padStart(2, '0')}.png`);
       await page.screenshot({ path: outputFile });
-      mediaAudit.push({ card: number, path: mediaCard.path, sha256: mediaCard.sha256, visualReview: mediaCard.visualReview, sourceUrl: mediaCard.sourceUrl });
+      mediaAudit.push({ card: number, path: mediaCard.path, sha256: mediaCard.sha256, visualReview: mediaCard.visualReview, sourceUrl: mediaCard.sourceUrl, layout });
     }
 
     fs.copyFileSync(cta06, path.join(outputDir, 'card-06.png'));
@@ -135,4 +148,10 @@ try {
   await browser.close();
 }
 
-fs.writeFileSync(path.join(options.output, 'index.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), bank: options.bank, media: options.media, strictMedia: options.strictMedia, results }, null, 2)}\n`);
+fs.writeFileSync(path.join(options.output, 'index.json'), `${JSON.stringify({
+  generatedAt: new Date().toISOString(),
+  bank: path.relative(ROOT, options.bank).replaceAll('\\', '/'),
+  media: path.relative(ROOT, options.media).replaceAll('\\', '/'),
+  strictMedia: options.strictMedia,
+  results,
+}, null, 2)}\n`);

@@ -1,0 +1,224 @@
+{
+  "topicId": "real-038-modric-burnt-house",
+  "strictMedia": true,
+  "cards": 7,
+  "width": 1080,
+  "height": 1350,
+  "mediaAudit": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-038-modric-burnt-house/card-01.jpg",
+      "sha256": "87a61b44441309faf0915bb8b89df5e79933ade70240aea2e499f6159b6d6842",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=A_74vBv5qu8",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 972.265625,
+          "right": 1014,
+          "bottom": 1157.046875,
+          "width": 950,
+          "height": 184.78125
+        },
+        "body": {
+          "left": 64,
+          "top": 1177.046875,
+          "right": 914,
+          "bottom": 1217,
+          "width": 850,
+          "height": 39.953125
+        },
+        "source": {
+          "left": 64,
+          "top": 1245,
+          "right": 1016,
+          "bottom": 1282,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-038-modric-burnt-house/card-02.jpg",
+      "sha256": "146120b6c7c0e9afc605c141e7fe7e843538b276d38077021c0ae34641d60855",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=A_74vBv5qu8",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-038-modric-burnt-house/card-03.jpg",
+      "sha256": "432e65b41f616819c3b13d11becb19ba1e5d4a4bbd7e30edc9fcd364d62bebaf",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=A_74vBv5qu8",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-038-modric-burnt-house/card-04.jpg",
+      "sha256": "9ae3e356ef5f9dd94fbaf28e9feb09e2bdddc8bb618031c31833f7bea4c9d0ba",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=A_74vBv5qu8",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1008.84375,
+          "width": 900,
+          "height": 42.90625
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/topical-satire-golden-set-10/curated-frames/real-038-modric-burnt-house/card-05.jpg",
+      "sha256": "7b6a6dc1a65de888b3f7b8398950bcf25c2ea40989bad24b10c405aa3d56b28e",
+      "visualReview": "pass",
+      "sourceUrl": "https://www.youtube.com/watch?v=Y5PJGL-8qyM",
+      "layout": {
+        "card": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1350,
+          "width": 1080,
+          "height": 1350
+        },
+        "headline": {
+          "left": 64,
+          "top": 786,
+          "right": 1004,
+          "bottom": 941.9375,
+          "width": 940,
+          "height": 155.9375
+        },
+        "body": {
+          "left": 64,
+          "top": 965.9375,
+          "right": 964,
+          "bottom": 1051.75,
+          "width": 900,
+          "height": 85.8125
+        },
+        "source": {
+          "left": 64,
+          "top": 1249,
+          "right": 1016,
+          "bottom": 1286,
+          "width": 952,
+          "height": 37
+        },
+        "documentWidth": 1080,
+        "documentHeight": 1350
+      }
+    }
+  ]
+}

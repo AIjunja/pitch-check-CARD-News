@@ -18,6 +18,12 @@
     "render:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs",
     "sample:pitchcheck": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json",
     "sample:pitchcheck-real-cta": "node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines-real-cta.json",
+    "test:pitchcheck-topical": "node scripts/pitchcheck/test-topical-golden-set.mjs && node scripts/pitchcheck/test-topical-render-inputs.mjs",
+    "media:pitchcheck-topical:prepare": "node scripts/pitchcheck/prepare-topical-media-candidates.mjs",
+    "media:pitchcheck-topical:extract": "node scripts/pitchcheck/extract-topical-curated-media.mjs",
+    "render:pitchcheck-topical": "node scripts/pitchcheck/render-topical-golden-set.mjs --strict-media",
+    "audit:pitchcheck-topical": "node scripts/pitchcheck/audit-topical-golden-set.mjs",
+    "check:pitchcheck-topical": "npm run test:pitchcheck-topical && npm run render:pitchcheck-topical && npm run audit:pitchcheck-topical",
     "test": "node scripts/pitchcheck/test-real-player-story-bank.mjs && node scripts/pitchcheck/test-asia-story-batch.mjs && node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json --dry-run"
   },
   "keywords": [],
