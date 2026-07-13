@@ -25,6 +25,16 @@ five-slots-per-day queue at 10:00, 12:00, 14:00, 16:00, and 18:00 KST.
 
 ## One-time account authorization
 
+Preferred Instagram flow: start the local receiver, then open the authorization
+URL it prints. The CDN callback forwards the OAuth result to localhost and the
+receiver verifies `pitchcheck_official` before storing the long-lived token.
+
+```powershell
+npm run auth:pitchcheck-social:local -- --port 43761 --state "pitchcheck-local-43761-<random nonce>"
+```
+
+Manual fallback:
+
 ```powershell
 npm run auth:pitchcheck-social -- urls
 npm run auth:pitchcheck-social -- exchange-instagram --callback-url "<redirected URL>"

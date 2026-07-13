@@ -62,8 +62,7 @@ function bootstrapPitchcheckEnv() {
 function printAuthorizationUrls() {
   const redirectUri = env.PITCHCHECK_REDIRECT_URI;
   const instagram = new URL("https://www.instagram.com/oauth/authorize");
-  instagram.searchParams.set("enable_fb_login", "0");
-  instagram.searchParams.set("force_authentication", "1");
+  instagram.searchParams.set("force_reauth", "true");
   instagram.searchParams.set("client_id", env.PITCHCHECK_INSTAGRAM_APP_ID);
   instagram.searchParams.set("redirect_uri", redirectUri);
   instagram.searchParams.set("response_type", "code");
