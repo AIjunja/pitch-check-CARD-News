@@ -29,6 +29,10 @@
     "research:pitchcheck-identity-media-170": "node scripts/pitchcheck/research-identity-verified-media-170.mjs --concurrency 6",
     "render:pitchcheck-complete-170": "node scripts/pitchcheck/render-topical-golden-set.mjs --bank samples/pitchcheck/complete-story-bank-170.json --media assets/reference/web/complete-media-170.json --output projects/complete-story-bank-170 --strict-media",
     "audit:pitchcheck-complete-170": "node scripts/pitchcheck/audit-complete-170.mjs",
+    "prepare:pitchcheck-social": "node scripts/pitchcheck/prepare-social-publishing.mjs",
+    "audit:pitchcheck-social": "node scripts/pitchcheck/audit-social-publish-queue.mjs",
+    "auth:pitchcheck-social": "node scripts/pitchcheck/pitchcheck-meta-auth.mjs",
+    "publish:pitchcheck-social": "node scripts/pitchcheck/run-social-publisher.mjs",
     "check:pitchcheck-complete-170": "npm run bank:pitchcheck-complete-170 && node scripts/pitchcheck/test-complete-170.mjs && npm run media:pitchcheck-complete-170 && npm run render:pitchcheck-complete-170 && npm run audit:pitchcheck-complete-170",
     "test": "node scripts/pitchcheck/test-real-player-story-bank.mjs && node scripts/pitchcheck/test-asia-story-batch.mjs && node scripts/pitchcheck/render-carousel.mjs samples/pitchcheck/lampard-fines.json --dry-run"
   },
@@ -37,6 +41,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "puppeteer": "^25.3.0"
+    "puppeteer": "^25.3.0",
+    "sharp": "^0.34.3"
   }
 }
