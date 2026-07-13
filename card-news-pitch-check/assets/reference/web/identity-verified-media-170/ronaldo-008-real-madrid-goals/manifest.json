@@ -1,0 +1,101 @@
+{
+  "topicId": "ronaldo-008-real-madrid-goals",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" real madrid goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-008-real-madrid-goals/card-01.jpg",
+      "sha256": "8f44beab503a70cc60ece801f9ff0b3e88efbc357926283d8867da24fe63a6dd",
+      "sourceUrl": "https://www.youtube.com/watch?v=aeapZzsujqc",
+      "sourceTitle": "CRISTIANO RONALDO: ALL 451 GOALS FOR REAL MADRID (2009-2018)",
+      "sourceChannel": "Real Madrid",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "goals",
+        "cristiano",
+        "ronaldo",
+        "451"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-008-real-madrid-goals/card-02.jpg",
+      "sha256": "74ee9e22b68dffc2053f28a2b15af29aa879a14dc848500ac2c0dc15abde196b",
+      "sourceUrl": "https://www.youtube.com/watch?v=dWhdZxhFCC8",
+      "sourceTitle": "CRISTIANO RONALDO's CRAZY LONG SHOT GOALS · Real Madrid",
+      "sourceChannel": "Real Madrid",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "goals",
+        "cristiano",
+        "ronaldo",
+        "451"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-008-real-madrid-goals/card-03.jpg",
+      "sha256": "14a94cdfdb66b9a17c507564738366907ca85d619ff7ad9d997803348b2aa9ba",
+      "sourceUrl": "https://www.youtube.com/watch?v=iWAmXFvO7jU",
+      "sourceTitle": "Cristiano Ronaldo ◉ All 450 Goals for Real Madrid.",
+      "sourceChannel": "Football's Great 4",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "goals",
+        "cristiano",
+        "ronaldo",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-008-real-madrid-goals/card-04.jpg",
+      "sha256": "40b01c92f72b6645f9d53f1b13dfe31afa2f60753f730dd732daa527640eef78",
+      "sourceUrl": "https://www.youtube.com/watch?v=OT5Sht84XJs",
+      "sourceTitle": "Cristiano Ronaldo All 450 Goals For Real Madrid",
+      "sourceChannel": "Call of gamer ",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "goals",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-008-real-madrid-goals/card-05.jpg",
+      "sha256": "92f27d90670dc8dc9ad9621d1b3458cc690ae443247c1db1ce23bf60b35dceef",
+      "sourceUrl": "https://www.youtube.com/watch?v=2X-4AQME_dA",
+      "sourceTitle": "Cristiano Ronaldo All 60 Goals 2011/12",
+      "sourceChannel": "MadridistaTV2",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "goals",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,93 @@
+{
+  "topicId": "real-047-kante-normal-salary",
+  "player": "N'Golo Kante",
+  "query": "\"N'Golo Kante\" kante normal salary football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-047-kante-normal-salary/card-01.jpg",
+      "sha256": "cfa67398a8dd66312794ce5028e1c760b18c6b2669d437406cb132b0c7d98281",
+      "sourceUrl": "https://www.youtube.com/watch?v=N4eejW0SFgU",
+      "sourceTitle": "GRAHAM POTTER FIRST CHELSEA INTERVIEW REACTION! N'Golo Kante REJECTS Contract Chelsea News",
+      "sourceChannel": "SonOfChelsea",
+      "matchedEventTerms": [
+        "kante",
+        "golo",
+        "action",
+        "reaction",
+        "chelsea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-047-kante-normal-salary/card-02.jpg",
+      "sha256": "a5d8c4c88f1456c81cce5526a2cf934c7694f42eddcc19c4ad75d4ec5eff1ff7",
+      "sourceUrl": "https://www.youtube.com/watch?v=wWWPPV37E_I",
+      "sourceTitle": "N'golo Kante's future at Chelsea | Is he going to join FC Barcelona? | Football news | Soccairo",
+      "sourceChannel": "Soccairo",
+      "matchedEventTerms": [
+        "kante",
+        "salary",
+        "golo",
+        "chelsea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-047-kante-normal-salary/card-03.jpg",
+      "sha256": "7e1ec62f4585c05fde71efabb34d2ec372a1d279a13b5ede82b4e75ded8693f9",
+      "sourceUrl": "https://www.youtube.com/watch?v=Er9tDUMk27I",
+      "sourceTitle": "N'Golo Kanté Lifestyle, Net Worth, Salary, House, Cars, Awards, Education, Biography And Family",
+      "sourceChannel": "Hoàng hí hửng",
+      "matchedEventTerms": [
+        "kante",
+        "salary",
+        "golo",
+        "chelsea",
+        "france"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-047-kante-normal-salary/card-04.jpg",
+      "sha256": "4e91b8617f70d35f7f01a1f9f20ca67daa4da6c8662be720d93b5eb6e45d04ac",
+      "sourceUrl": "https://www.youtube.com/watch?v=arjZjltn5kE",
+      "sourceTitle": "Chelsea manager Frank Lampard sweating on N’Golo Kante injury",
+      "sourceChannel": "completefootball Daily",
+      "matchedEventTerms": [
+        "kante",
+        "golo",
+        "chelsea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-047-kante-normal-salary/card-05.jpg",
+      "sha256": "32f5950f1831d14518ffadb0e7b7f5f6228f20b938517775e0b6872cd0fdbb30",
+      "sourceUrl": "https://www.youtube.com/watch?v=ubC6gUaCb40",
+      "sourceTitle": "Chelsea star N’Golo Kante to pay more in tax than Amazon and Starbucks combined",
+      "sourceChannel": "Dung Xuan",
+      "matchedEventTerms": [
+        "kante",
+        "golo",
+        "chelsea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,100 @@
+{
+  "topicId": "salah-003-announces-liverpool-departure",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" announces liverpool departure football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-003-announces-liverpool-departure/card-01.jpg",
+      "sha256": "3c84ac2144c2b28bab8f989b11a6cac6fef2b80028570d9071b18b08259ad6c9",
+      "sourceUrl": "https://www.youtube.com/watch?v=m3ZDtNKb7nI",
+      "sourceTitle": "SALAH: “I WILL BE LEAVING LIVERPOOL!” 💔 Liverpool goodbye message",
+      "sourceChannel": "BeanymanSports2 and BeanymanSports",
+      "matchedEventTerms": [
+        "liverpool",
+        "mohamed",
+        "salah",
+        "farewell",
+        "leaving",
+        "message"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-003-announces-liverpool-departure/card-02.jpg",
+      "sha256": "f1b36c4b1d0c5d2228900784ec24e121721bd7d2f43192749e52398e953a6a33",
+      "sourceUrl": "https://www.youtube.com/watch?v=2SBBsiYFI6o",
+      "sourceTitle": "\"ABSOLUTELY GUTTED!\" Liverpool Fans are HEARTBROKEN after Mo Salah Announces his DEPARTURE!",
+      "sourceChannel": "talkSPORT and talkSPORT Liverpool",
+      "matchedEventTerms": [
+        "announces",
+        "liverpool",
+        "departure",
+        "mohamed",
+        "salah",
+        "leaving"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-003-announces-liverpool-departure/card-03.jpg",
+      "sha256": "f36646cfb97ccd7c2d4038da16b2ba01b4837893e3ab9f8be6662f8ecfe23d7e",
+      "sourceUrl": "https://www.youtube.com/watch?v=nyIma8oE1kY",
+      "sourceTitle": "Mo Salah announces he is leaving Liverpool FC",
+      "sourceChannel": "This Is Anfield",
+      "matchedEventTerms": [
+        "announces",
+        "liverpool",
+        "salah",
+        "leaving",
+        "message"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-003-announces-liverpool-departure/card-04.jpg",
+      "sha256": "a2268932e13400d8315bafcd48cc2988058565a2e30c4b85708610d15249ef1f",
+      "sourceUrl": "https://www.youtube.com/watch?v=F95MQnyJg88",
+      "sourceTitle": "Mohamed Salah announces Liverpool departure at the end of the season",
+      "sourceChannel": "African Five-a-Side podcast",
+      "matchedEventTerms": [
+        "announces",
+        "liverpool",
+        "departure",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-003-announces-liverpool-departure/card-05.jpg",
+      "sha256": "c63d93eb1e6c7ed31f07266b3491791f8c988fa9f57a4739750757fcc502576b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fcu5LEdaYn0",
+      "sourceTitle": "Mohamed Salah Announces Departure From Liverpool After Season | WION",
+      "sourceChannel": "WION",
+      "matchedEventTerms": [
+        "announces",
+        "liverpool",
+        "departure",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

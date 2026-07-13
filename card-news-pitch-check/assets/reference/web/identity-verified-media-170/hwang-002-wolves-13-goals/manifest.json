@@ -1,0 +1,99 @@
+{
+  "topicId": "hwang-002-wolves-13-goals",
+  "player": "Hwang Hee-chan",
+  "query": "\"Hwang Hee-chan\" wolves 13 goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/hwang-002-wolves-13-goals/card-01.jpg",
+      "sha256": "6baade38dc8fd707185332270f907d0269bae9176484a6663868f27263502e9b",
+      "sourceUrl": "https://www.youtube.com/watch?v=17clHaJw0_w",
+      "sourceTitle": "All of Hwang Hee-Chan's goals for Wolves!",
+      "sourceChannel": "Wolves",
+      "matchedEventTerms": [
+        "wolves",
+        "goals",
+        "hwang",
+        "hee",
+        "chan",
+        "club",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/hwang-002-wolves-13-goals/card-02.jpg",
+      "sha256": "0e00d9ff3fa5cb2c258116b98bf415d365d9b2b3acdfdcfff1d68632a6e4b814",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ky6_9Pp0uiw",
+      "sourceTitle": "Wolves v Liverpool - Joel Matip Own Goal assist from Hee Chan Hwang - 4th February 2023 - Molineux",
+      "sourceChannel": "LH9 Wolves",
+      "matchedEventTerms": [
+        "wolves",
+        "hwang",
+        "hee",
+        "chan",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/hwang-002-wolves-13-goals/card-03.jpg",
+      "sha256": "69e4651bebabb3560af6f4621613b56d96c8a1b0528e472ebaa14c131988eda0",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BqciJ1kA6c",
+      "sourceTitle": "What On Earth Happened To Hwang Hee-Chan?!",
+      "sourceChannel": "Harry Mansell",
+      "matchedEventTerms": [
+        "13",
+        "goals",
+        "hwang",
+        "hee",
+        "chan",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/hwang-002-wolves-13-goals/card-04.jpg",
+      "sha256": "d9e34135c5504e056d7555836a1d4c9f9d93f77fa08a5fbae623f97104cfec67",
+      "sourceUrl": "https://www.youtube.com/watch?v=aqF9ssj2NFI",
+      "sourceTitle": "GOAL!! ⚽️WOLVES | Hwang Hee-chan SCORES against LIVERPOOL | Emirates FA CUP third round",
+      "sourceChannel": "BARSEB",
+      "matchedEventTerms": [
+        "wolves",
+        "hwang",
+        "hee",
+        "chan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/hwang-002-wolves-13-goals/card-05.jpg",
+      "sha256": "275bdc14f1ec96b1f853069dccf3280e965cbcecb80c29a2a791c13ad3a56347",
+      "sourceUrl": "https://www.youtube.com/watch?v=W8qZTs6xBfs",
+      "sourceTitle": "Wolves vs West Ham 3-0 | HIGHLIGHTS | Hwang Hee-chan Goal | Premier League 2025/26 | Jhon Arias",
+      "sourceChannel": "Football Xtra",
+      "matchedEventTerms": [
+        "wolves",
+        "hwang",
+        "hee",
+        "chan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

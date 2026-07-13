@@ -1,0 +1,98 @@
+{
+  "topicId": "kim-001-kfa-player-of-year-2023",
+  "player": "Kim Min-jae",
+  "query": "\"Kim Min-jae\" kfa player of year 2023 football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/kim-001-kfa-player-of-year-2023/card-01.jpg",
+      "sha256": "af4cffaba08855c104bfc7c5439cb7ae55c06c1305cf81a4ce8ea41b892ed63f",
+      "sourceUrl": "https://www.youtube.com/watch?v=V0kbmvSlp1M",
+      "sourceTitle": "Kim Min-Jae vs Liverpool | Pocketed Salah & Long Pass Assist🔥 (02/08/2023)",
+      "sourceChannel": "Paullo Fut",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/kim-001-kfa-player-of-year-2023/card-02.jpg",
+      "sha256": "80f562248ef7339b18644b2101c21da19bff904183e85ec64067e6f38d4f30ba",
+      "sourceUrl": "https://www.youtube.com/watch?v=HTrBezA7DYc",
+      "sourceTitle": "Bayern Munich Potential Starting Lineup With Transfers Kim Min-jae, Laimer, transfer Window 2023",
+      "sourceChannel": "Bavarians Football Club",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/kim-001-kfa-player-of-year-2023/card-03.jpg",
+      "sha256": "5b1d9e5b167eaf04cd460c478cf29074473a8c3f8f4b8bff7af824f39a9a39d7",
+      "sourceUrl": "https://www.youtube.com/watch?v=0FKq8uCFCbQ",
+      "sourceTitle": "MY PERFECT MAN UNITED SUMMER TRANSFER WINDOW 2023/24 FEAT. KANE, KIM MIN JAE AND MORE!",
+      "sourceChannel": "Sofia’s Football Talk",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/kim-001-kfa-player-of-year-2023/card-04.jpg",
+      "sha256": "5005426d349c30e993a0e382da4f103d4f9eca6bcfcf322720acbd46c8b81bc5",
+      "sourceUrl": "https://www.youtube.com/watch?v=RDSodrLblyg",
+      "sourceTitle": "Bayern Munich Possible Squad 2023-24 With Kim Min-jae | BAYERN MUNICH | BUNDESLIGA",
+      "sourceChannel": "YAA YEAH FOOTBALL",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/kim-001-kfa-player-of-year-2023/card-05.jpg",
+      "sha256": "aaca35c3e0ee77cb48630c32e1ea706e53f22a330fb39734e6c3dc20ce0423c6",
+      "sourceUrl": "https://www.youtube.com/watch?v=p1Lbc5ladm0",
+      "sourceTitle": "Kim Min-jae 2023 - Welcome to Bayern Munich || Crazy Tackles in Football",
+      "sourceChannel": "FOOTBALLARY",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

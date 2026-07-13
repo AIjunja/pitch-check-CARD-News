@@ -1,0 +1,81 @@
+{
+  "topicId": "real-013-ronaldinho-father-believed",
+  "player": "Ronaldinho",
+  "query": "\"Ronaldinho\" ronaldinho father believed football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-013-ronaldinho-father-believed/card-01.jpg",
+      "sha256": "b946c20acde9e9caa55a28de85607ff441b61b1b39937ea45b5f390bb8eb6ea3",
+      "sourceUrl": "https://www.youtube.com/watch?v=8BJc-L19h0E",
+      "sourceTitle": "Ronaldinho: The One and Only | Official Trailer | Netflix",
+      "sourceChannel": "Netflix",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "young",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-013-ronaldinho-father-believed/card-02.jpg",
+      "sha256": "31655eb3e338bdf261397b5ff8b3ee6a920bc53b2ce57db792c1a01fe311ed64",
+      "sourceUrl": "https://www.youtube.com/watch?v=wxuM8ziAgO8",
+      "sourceTitle": "*RARE Ronaldinho Doc/report at Gremio and PSG",
+      "sourceChannel": "Ash Kyriakoss",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "gremio"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-013-ronaldinho-father-believed/card-03.jpg",
+      "sha256": "bb434ac07c17f8c2e7e878a49c36d328c8fe6a259c78ddcb11627597b36609e0",
+      "sourceUrl": "https://www.youtube.com/watch?v=v-ogcu1SQCI",
+      "sourceTitle": "AMERICANS FIRST TIME EVER REACTION TO Ronaldinho - Football’s Greatest Entertainment REACTION",
+      "sourceChannel": "Officialcammm",
+      "matchedEventTerms": [
+        "ronaldinho"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-013-ronaldinho-father-believed/card-04.jpg",
+      "sha256": "31f4f31956e3458b5355855f4827113b4df57eb49f19da08124ce23e415583ed",
+      "sourceUrl": "https://www.youtube.com/watch?v=31DeprzbWyM",
+      "sourceTitle": "RONALDINHO Jr. Joins Barcelona! 🤯 Unveiling the Big Story Behind it...",
+      "sourceChannel": "INSIDE FOOTBALL",
+      "matchedEventTerms": [
+        "ronaldinho"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-013-ronaldinho-father-believed/card-05.jpg",
+      "sha256": "9c4d0e5b1cfea6904ba0a34abe75876f9f522f67484c2ac117e1faa1078e9b8f",
+      "sourceUrl": "https://www.youtube.com/watch?v=_L7I-1UaAew",
+      "sourceTitle": "RONALDINHO'S SON is a Total Failure at Barcelona and Here is Why",
+      "sourceChannel": "INSIDE FOOTBALL",
+      "matchedEventTerms": [
+        "ronaldinho"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

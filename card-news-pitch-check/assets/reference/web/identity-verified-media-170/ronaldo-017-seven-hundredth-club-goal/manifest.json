@@ -1,0 +1,89 @@
+{
+  "topicId": "ronaldo-017-seven-hundredth-club-goal",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" seven hundredth club goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-017-seven-hundredth-club-goal/card-01.jpg",
+      "sha256": "9bd206c4cf3a6c0f4dd62d23853dae79dc9577fd82d425a39692c6992695b0fa",
+      "sourceUrl": "https://www.youtube.com/watch?v=zinFaK8ZMss",
+      "sourceTitle": "RONALDO, SALAH, MORATA: Famous #UCL goal celebrations against former clubs!!",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "club",
+        "cristiano",
+        "ronaldo",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-017-seven-hundredth-club-goal/card-02.jpg",
+      "sha256": "eb1a98c9caca1bdc3088bd1515f034a81ec15526d174fa72901341fd1d8830c7",
+      "sourceUrl": "https://www.youtube.com/watch?v=b3l3qBok0dw",
+      "sourceTitle": "Cristiano Ronaldo's first 80 European goals",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "club",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-017-seven-hundredth-club-goal/card-03.jpg",
+      "sha256": "12c19bb3b5ee673dfa061153733757d8bab786a1d5a20cda465ef8f462bad7e8",
+      "sourceUrl": "https://www.youtube.com/watch?v=Jfyay2eB2Ks",
+      "sourceTitle": "Cristiano Ronaldo interview after his final World Cup match",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-017-seven-hundredth-club-goal/card-04.jpg",
+      "sha256": "dc2fc7b9d344cd8779ce178a8d642440948a80684265e30c6a2beb0be1b81afa",
+      "sourceUrl": "https://www.youtube.com/watch?v=gvYuXmZdrBM",
+      "sourceTitle": "\"You've been trying to kill me for 23 years\" | Cristiano Ronaldo responds to criticism",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-017-seven-hundredth-club-goal/card-05.jpg",
+      "sha256": "1c28c6da34fcbabcdfca9f5b173ccc133cbd99029f721a2d1666995f4513eec9",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gn-Y_Hoime8",
+      "sourceTitle": "How has Cristiano Ronaldo transformed over the years? | Matthew Upson & Liam Rosenior | The Debate",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

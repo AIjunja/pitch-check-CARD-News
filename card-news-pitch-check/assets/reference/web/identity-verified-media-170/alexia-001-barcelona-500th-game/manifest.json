@@ -1,0 +1,98 @@
+{
+  "topicId": "alexia-001-barcelona-500th-game",
+  "player": "Alexia Putellas",
+  "query": "\"Alexia Putellas\" barcelona 500th game football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-001-barcelona-500th-game/card-01.jpg",
+      "sha256": "5939746a08164a96b3ccf1c6d655dc89765d50ec7e4db34535e080707e5b4ca9",
+      "sourceUrl": "https://www.youtube.com/watch?v=jTCjgPD23mU",
+      "sourceTitle": "Alexia Putellas speaks emotionally about her 500th match in front of a 'magical' crowd | FC Barce...",
+      "sourceChannel": "ESPN UK and 2 more",
+      "matchedEventTerms": [
+        "barcelona",
+        "500th",
+        "alexia",
+        "putellas",
+        "club",
+        "teammates"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-001-barcelona-500th-game/card-02.jpg",
+      "sha256": "adba074dc7ac8529d8ffc93010c4f4a0e767f525c6daf6b730e5478e6ea93c26",
+      "sourceUrl": "https://www.youtube.com/watch?v=C00vjEafNtQ",
+      "sourceTitle": "ALEXIA PUTELLAS, an all time FC BARCELONA icon 🔵🔴",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "alexia",
+        "putellas",
+        "club",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-001-barcelona-500th-game/card-03.jpg",
+      "sha256": "f60989ae441f41fe3da9491c06458fce405cbf6307ca10b431c21d162ff0a8b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=QUGUxLC4KXk",
+      "sourceTitle": "ALEXIA, THE LEGEND OF THE GAME 💙❤️ | FC Barcelona",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "game",
+        "alexia",
+        "putellas",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-001-barcelona-500th-game/card-04.jpg",
+      "sha256": "7f8e5b4af72f1730466dd6e6ef5cdb14165e77bd9c675b131f2a8559ef792c6b",
+      "sourceUrl": "https://www.youtube.com/watch?v=llnNWq_K-I8",
+      "sourceTitle": "\"LEGEND of the Game\" Graham Hansen on Putellas 500th Match in Barcelona WIN",
+      "sourceChannel": "CBS Sports W Golazo",
+      "matchedEventTerms": [
+        "barcelona",
+        "500th",
+        "game",
+        "alexia",
+        "putellas"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-001-barcelona-500th-game/card-05.jpg",
+      "sha256": "57e69c2cf72500e0424cc098a057e64ba8e35bb15b4739d0f9ec9806682e2547",
+      "sourceUrl": "https://www.youtube.com/watch?v=A05YX-7Khuk",
+      "sourceTitle": "INSIDE VIEW | ALEXIA’S LAST DANCE ✨ | FC Barcelona 🔵🔴",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "alexia",
+        "putellas",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

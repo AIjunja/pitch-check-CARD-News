@@ -1,0 +1,87 @@
+{
+  "topicId": "aitana-003-technical-movement-analysis",
+  "player": "Aitana Bonmati",
+  "query": "\"Aitana Bonmati\" technical movement analysis football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-003-technical-movement-analysis/card-01.jpg",
+      "sha256": "94216adfdd91f7a9d8519cdde0b0ddb99a6982ee08f593f68649b7b89c02be4d",
+      "sourceUrl": "https://www.youtube.com/watch?v=wesuBsQ78YA",
+      "sourceTitle": "Aitana Bonmatí WINS the GOLDEN BALL | Ballon d'Or Féminin Breakdown & Reactions | Attacking Third",
+      "sourceChannel": "CBS Sports W Golazo",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati",
+        "action",
+        "reaction"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-003-technical-movement-analysis/card-02.jpg",
+      "sha256": "dd5e710907c43d81080a3e8718ad5e4c93003050266f93af458ad54cd177462b",
+      "sourceUrl": "https://www.youtube.com/watch?v=xPhnwErFS_Y",
+      "sourceTitle": "The best of Aitana Bonmati at the Olympics | Athlete Highlights",
+      "sourceChannel": "Olympic Games",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati",
+        "2024",
+        "action"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-003-technical-movement-analysis/card-03.jpg",
+      "sha256": "7b19236d7bf0315792e4d4d86b533f47598216a69077d17c74a2da21da31c662",
+      "sourceUrl": "https://www.youtube.com/watch?v=MTv1NFQYzkI",
+      "sourceTitle": "BARCELONA VS. WOLFSBURG | Aitana Bonmati, Lena Oberdorf & The Battle For Midfield Supremacy",
+      "sourceChannel": "DAZN Women's Football",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-003-technical-movement-analysis/card-04.jpg",
+      "sha256": "48c2adb5425e80ccf1b24327c0cf827847406ba594f5f1a8752044cd54266d8b",
+      "sourceUrl": "https://www.youtube.com/watch?v=ySXthVyiI5U",
+      "sourceTitle": "Aitana Bonmatí, winner of the Visa Player of the Match 2021",
+      "sourceChannel": "UEFA Foundation for Children",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-003-technical-movement-analysis/card-05.jpg",
+      "sha256": "d954e615e337d131a8c99c75912922442e60db4ecaa9b5157d5783b65d5982c1",
+      "sourceUrl": "https://www.youtube.com/watch?v=RUSioGmy0Vc",
+      "sourceTitle": "'I don't think I'm BORN WITH IT!' | Erling Haaland & Aitana Bonmatí UEFA Players of the Year presser",
+      "sourceChannel": "BeanymanSports",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

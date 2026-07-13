@@ -1,0 +1,97 @@
+{
+  "topicId": "marta-003-third-olympic-silver",
+  "player": "Marta",
+  "query": "\"Marta\" third olympic silver football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/marta-003-third-olympic-silver/card-01.jpg",
+      "sha256": "79530827a786874458066668368e7d48e26c3c603cb139db491e93152ec5f772",
+      "sourceUrl": "https://www.youtube.com/watch?v=L8dMEC7TKzc",
+      "sourceTitle": "Marta returns to Brazil squad for Copa America warm-ups | ABS-CBN Sports",
+      "sourceChannel": "ABS-CBN Sports",
+      "matchedEventTerms": [
+        "third",
+        "olympic",
+        "silver",
+        "marta",
+        "2024",
+        "paris"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/marta-003-third-olympic-silver/card-02.jpg",
+      "sha256": "6c5ea8d0b66dd96e9f980c268cd0a6690ba2ff6d4c4db324c0da9cad7ebb01e4",
+      "sourceUrl": "https://www.youtube.com/watch?v=kkYNDX35Ws8",
+      "sourceTitle": "Marta returns to Brazil squad for Copa America warm-ups | ABS-CBN News",
+      "sourceChannel": "ABS-CBN News",
+      "matchedEventTerms": [
+        "third",
+        "olympic",
+        "silver",
+        "marta",
+        "2024",
+        "paris"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/marta-003-third-olympic-silver/card-03.jpg",
+      "sha256": "0b6b1f38f0860a2d15df7b19e6c07df98ea0eec44380e4310b859c08737da05e",
+      "sourceUrl": "https://www.youtube.com/watch?v=h5rrQo-Kdsw",
+      "sourceTitle": "USWNT menangkan medali emas Olimpiade kelima atas Brasil yang diperkuat Marta",
+      "sourceChannel": "Sucipto andi",
+      "matchedEventTerms": [
+        "olympic",
+        "marta",
+        "2024",
+        "team",
+        "paris"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/marta-003-third-olympic-silver/card-04.jpg",
+      "sha256": "fafd019a5b873870614af6cd2bfd5b5657d56e5c9c9c69dc103bdacc76bf9252",
+      "sourceUrl": "https://www.youtube.com/watch?v=JwoEnGyzNRM",
+      "sourceTitle": "\"Best of all time\" Marta hailed by Brazil coach after Olympics final heartbreak｜Paris 2024｜Football",
+      "sourceChannel": "CGTN Sports Scene",
+      "matchedEventTerms": [
+        "olympic",
+        "marta",
+        "2024",
+        "paris"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/marta-003-third-olympic-silver/card-05.jpg",
+      "sha256": "bf510641b8265a075712b481cc65ad299c965c61418e766c4fd766ee47eba033",
+      "sourceUrl": "https://www.youtube.com/watch?v=ESvj20V_LZg",
+      "sourceTitle": "History of the GREATEST Female Player of ALL TIME: Marta Vieira da Silva",
+      "sourceChannel": "SHEPLAYZ ",
+      "matchedEventTerms": [
+        "marta",
+        "10",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

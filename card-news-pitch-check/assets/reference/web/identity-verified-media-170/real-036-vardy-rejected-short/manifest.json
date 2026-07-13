@@ -1,0 +1,86 @@
+{
+  "topicId": "real-036-vardy-rejected-short",
+  "player": "Jamie Vardy",
+  "query": "\"Jamie Vardy\" vardy rejected short football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-036-vardy-rejected-short/card-01.jpg",
+      "sha256": "ba87aad043c3d8bd1bb2dc4ae3442f351b3bc1049e70c348e7b80c0e1c44991d",
+      "sourceUrl": "https://www.youtube.com/watch?v=LurJvgQD0Sw",
+      "sourceTitle": "“Ooh, Danish friends!” - Jamie Vardy makes fun of Kasper Schmeichel & Pierre-Emile Hojbjerg",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "teammate"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-036-vardy-rejected-short/card-02.jpg",
+      "sha256": "811921cce5b2c18728d0639da993dda0e69e7b764b3add3ed7aad95f97558118",
+      "sourceUrl": "https://www.youtube.com/watch?v=hufRID0Yaws",
+      "sourceTitle": "Jamie Vardy Finally Rejected Arsenal Offer, Interview Video!",
+      "sourceChannel": "goal424ms",
+      "matchedEventTerms": [
+        "vardy",
+        "rejected",
+        "jamie"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-036-vardy-rejected-short/card-03.jpg",
+      "sha256": "932e0f06c8e5c4c6bdf21033035d5c919424c94019a301fd95d433038a02dd0f",
+      "sourceUrl": "https://www.youtube.com/watch?v=hFy_PuXNZ9M",
+      "sourceTitle": "Jamie Vardy goal against FC United of Manchester when he was playing for Stocksbridge Park in 2009",
+      "sourceChannel": "studioexit",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "young"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-036-vardy-rejected-short/card-04.jpg",
+      "sha256": "31739c8bfeb4e2f92acce2340c24e3a67ec3e533b629636366e8586d779f4b4f",
+      "sourceUrl": "https://www.youtube.com/watch?v=oUmS23qfoak",
+      "sourceTitle": "Jamie Vardy says decision to reject Arsenal was an easy one",
+      "sourceChannel": "Harda Gum",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-036-vardy-rejected-short/card-05.jpg",
+      "sha256": "660c1462ae71179598cff4c903d5f9238b320bee5be7fd4c9bf97cb3a1508618",
+      "sourceUrl": "https://www.youtube.com/watch?v=g5sW7UbiiqM",
+      "sourceTitle": "\"There's no time to party\" - Jamie Vardy after scoring in 11 games in a row",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

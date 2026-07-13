@@ -1,0 +1,95 @@
+{
+  "topicId": "sam-001-australia-debut",
+  "player": "Sam Kerr",
+  "query": "\"Sam Kerr\" australia debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/sam-001-australia-debut/card-01.jpg",
+      "sha256": "69a3cdadd09af377d5c7a6167528af55c91a69d179905ac1012a3fc184402e13",
+      "sourceUrl": "https://www.youtube.com/watch?v=XGZoFp7GuO4",
+      "sourceTitle": "Sam Kerr | Icons: Episode 5",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "australia",
+        "debut",
+        "sam",
+        "kerr",
+        "15"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/sam-001-australia-debut/card-02.jpg",
+      "sha256": "efc0b141673df5ee5c3e29cdf7a50e62ca22b7b42651a4b5469f15f291ad1b5e",
+      "sourceUrl": "https://www.youtube.com/watch?v=9H86HIOI6yo",
+      "sourceTitle": "Sam Kerr Scores Match-Winner In Chelsea's Women's FA Cup Victory Over Manchester l 10 News First",
+      "sourceChannel": "10 News",
+      "matchedEventTerms": [
+        "australia",
+        "sam",
+        "kerr",
+        "australian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/sam-001-australia-debut/card-03.jpg",
+      "sha256": "783058424384fd8464d3baaacb30d15d1f738759f72fc4619825cffe21b7eda1",
+      "sourceUrl": "https://www.youtube.com/watch?v=d1ShcjSW0tc",
+      "sourceTitle": "Sam Kerr's career-defining goals | This is why she's one of the best footballers",
+      "sourceChannel": "7NEWS Australia",
+      "matchedEventTerms": [
+        "australia",
+        "sam",
+        "kerr",
+        "career",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/sam-001-australia-debut/card-04.jpg",
+      "sha256": "1c2f1f82b7b2964401f2d329ebcf43a04781bd0de5a881dc4ae7fbf8d5b5d7a0",
+      "sourceUrl": "https://www.youtube.com/watch?v=oLV6LJfGTOE",
+      "sourceTitle": "🗣️ Hear what it means to Sam Kerr to be Australia's all-time leading goalscorer",
+      "sourceChannel": "Football Australia",
+      "matchedEventTerms": [
+        "australia",
+        "debut",
+        "sam",
+        "kerr",
+        "15"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/sam-001-australia-debut/card-05.jpg",
+      "sha256": "0ed6b9a116882f51bf64e733008c07acfe2af52a6b806d86b91b019faf410948",
+      "sourceUrl": "https://www.youtube.com/watch?v=VtzzCZkJsMs",
+      "sourceTitle": "A legend is born: When 16-year-old Sam Kerr inspired AUSTRALIA to historic Asian glory! | Classics",
+      "sourceChannel": "AFC Asian Cup",
+      "matchedEventTerms": [
+        "australia",
+        "sam",
+        "kerr"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

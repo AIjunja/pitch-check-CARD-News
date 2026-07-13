@@ -1,0 +1,101 @@
+{
+  "topicId": "real-032-rashford-school-meals",
+  "player": "Marcus Rashford",
+  "query": "\"Marcus Rashford\" rashford school meals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-032-rashford-school-meals/card-01.jpg",
+      "sha256": "2db00b535169bfefff3756c5254dc6ff059d3a8f3023816cd4999c130d4d18a0",
+      "sourceUrl": "https://www.youtube.com/watch?v=1r-IxIrTbWU",
+      "sourceTitle": "Marcus Rashford opens up about childhood poverty in campaign for free school meals",
+      "sourceChannel": "Guardian Football",
+      "matchedEventTerms": [
+        "rashford",
+        "school",
+        "meals",
+        "marcus",
+        "childhood",
+        "free",
+        "campaign"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-032-rashford-school-meals/card-02.jpg",
+      "sha256": "e5702832ba5ec7fa0a331e4d7c670aaae7e4886f47ec128814bbe13d3a3f4329",
+      "sourceUrl": "https://www.youtube.com/watch?v=tNPdrvNOUfQ",
+      "sourceTitle": "TV Exclusive: Marcus Rashford explains why he wants a u-turn over ending free school meals",
+      "sourceChannel": "BBC Breakfast",
+      "matchedEventTerms": [
+        "rashford",
+        "school",
+        "meals",
+        "marcus",
+        "free"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-032-rashford-school-meals/card-03.jpg",
+      "sha256": "5a127d5a940a89127fa0127a1dc351da4fe9e02dabeef4035a1c29205c207a69",
+      "sourceUrl": "https://www.youtube.com/watch?v=a3-ElL9Mru0",
+      "sourceTitle": "Marcus Rashford reacts to the government's u-turn on free school meals and returning to football",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "rashford",
+        "school",
+        "meals",
+        "marcus",
+        "free"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-032-rashford-school-meals/card-04.jpg",
+      "sha256": "0167b1c1acff5b04be70f08fd2e74f9fa011f5c278635a44097bbbeceeb43e76",
+      "sourceUrl": "https://www.youtube.com/watch?v=MRSooZOmzoM",
+      "sourceTitle": "\"Proud of Him\" | Jurgen Klopp Lauds Marcus Rashford's Free School Meals Fight",
+      "sourceChannel": "Blood Red: Liverpool FC",
+      "matchedEventTerms": [
+        "rashford",
+        "school",
+        "meals",
+        "marcus",
+        "free"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-032-rashford-school-meals/card-05.jpg",
+      "sha256": "358dd4264afda60a999e524b438ca9cb68c9754da075d0051b6db82c35289abc",
+      "sourceUrl": "https://www.youtube.com/watch?v=PoiInbgvjCQ",
+      "sourceTitle": "Marcus Rashford and free school meals: 'I've never seen anything like this started by a footballer'",
+      "sourceChannel": "The Telegraph",
+      "matchedEventTerms": [
+        "rashford",
+        "school",
+        "meals",
+        "marcus",
+        "free",
+        "campaign"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

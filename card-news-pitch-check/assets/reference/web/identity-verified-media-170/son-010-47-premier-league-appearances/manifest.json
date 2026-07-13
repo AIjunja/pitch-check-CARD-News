@@ -1,0 +1,100 @@
+{
+  "topicId": "son-010-47-premier-league-appearances",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" 47 premier league appearances football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-010-47-premier-league-appearances/card-01.jpg",
+      "sha256": "ff9046db277f42d1fb3b28d82233aad9873e382368aa2a9e90276c9527def462",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sn7-PE1FHTU",
+      "sourceTitle": "Every Heung-Min Son & Harry Kane goal combination in the Premier League! | RECORD BREAKERS",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-010-47-premier-league-appearances/card-02.jpg",
+      "sha256": "27ec62e738d1c05f929b9c7789169da3fc56284105957fefb95499be29582179",
+      "sourceUrl": "https://www.youtube.com/watch?v=OHCrWnZMhBU",
+      "sourceTitle": "HEUNG MIN SON | EVERY PREMIER LEAGUE GOAL AND ASSIST 2019/20",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-010-47-premier-league-appearances/card-03.jpg",
+      "sha256": "a6bc4b49ebc4b7c8bd5696ffbab230948542b3f527579566dacce58ab30190a2",
+      "sourceUrl": "https://www.youtube.com/watch?v=BXDp8iMF7J0",
+      "sourceTitle": "Son Heung-min names FAVOURITE Premier League moment for Spurs | Ultimates",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-010-47-premier-league-appearances/card-04.jpg",
+      "sha256": "f627dbd18eed89f72f0fda58e977ec05fcab826897880defe32b15aef44e294b",
+      "sourceUrl": "https://www.youtube.com/watch?v=1MFylXgM7BM",
+      "sourceTitle": "All 100 Heung-Min Son goals in the Premier League 🇰🇷",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-010-47-premier-league-appearances/card-05.jpg",
+      "sha256": "d06eb68ad717782836440cc3d7b547bc09f1b7950cd4bf50e72e5b4c3b3e62e4",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dqa__pjycic",
+      "sourceTitle": "Premier League Stadium Incredible! I Played Like Son Heung-min’s Amazing Moves",
+      "sourceChannel": "제이풋볼JFootballTV",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

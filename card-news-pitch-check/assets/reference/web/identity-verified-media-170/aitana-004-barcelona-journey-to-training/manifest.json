@@ -1,0 +1,88 @@
+{
+  "topicId": "aitana-004-barcelona-journey-to-training",
+  "player": "Aitana Bonmati",
+  "query": "\"Aitana Bonmati\" barcelona journey to training football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-004-barcelona-journey-to-training/card-01.jpg",
+      "sha256": "70a4fe25daff0ddd6af1978d980c8b70b5a9ed95e931c3a584efdf45b9d18438",
+      "sourceUrl": "https://www.youtube.com/watch?v=1sJRWXg35MY",
+      "sourceTitle": "Two amazing goals by Aitana Bonmatí",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-004-barcelona-journey-to-training/card-02.jpg",
+      "sha256": "39e14c67fa749dbd2c6f881674f4c0f9b773bd5a7596bc684e9c23bb6f2c5053",
+      "sourceUrl": "https://www.youtube.com/watch?v=NI1xUJfLvJU",
+      "sourceTitle": "Barcelona's Aitana Bonmati ready to keep fighting on and off the pitch | The Bicycle Diaries",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "barcelona",
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-004-barcelona-journey-to-training/card-03.jpg",
+      "sha256": "b97c66665b5dd908227319759fdab5ea9c6040c984f3a9dde7d680920de185b0",
+      "sourceUrl": "https://www.youtube.com/watch?v=M9axR3q7U08",
+      "sourceTitle": "FC Barcelona Femeni vs Chelsea Women 4 - 0 | UEFA Champions League Final | Full Match Highlights",
+      "sourceChannel": "Entertainmenthub",
+      "matchedEventTerms": [
+        "barcelona",
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-004-barcelona-journey-to-training/card-04.jpg",
+      "sha256": "4846a91b847102e065a5499621597cc3d77f4dbf0a71bcabf984c553775be41b",
+      "sourceUrl": "https://www.youtube.com/watch?v=pKnTzSMzOpE",
+      "sourceTitle": "MOST LIKELY TO | Mariona, Aitana & Patri",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-004-barcelona-journey-to-training/card-05.jpg",
+      "sha256": "105e2ac9a251eab0efc8929507c126060da78b053559d5f7d1d41746faf9f213",
+      "sourceUrl": "https://www.youtube.com/watch?v=I_RnO8hsr44",
+      "sourceTitle": "Inside Scoop | Aitana Bonmati and Keira Walsh are Barcelona besties!",
+      "sourceChannel": "DAZN Women's Football",
+      "matchedEventTerms": [
+        "barcelona",
+        "aitana",
+        "bonmati"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

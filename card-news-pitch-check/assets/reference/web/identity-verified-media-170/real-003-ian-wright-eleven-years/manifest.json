@@ -1,0 +1,88 @@
+{
+  "topicId": "real-003-ian-wright-eleven-years",
+  "player": "Ian Wright",
+  "query": "\"Ian Wright\" ian wright eleven years football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-003-ian-wright-eleven-years/card-01.jpg",
+      "sha256": "944f99762259fe76e097c8a4c1ba78060e84d8e560137c9c66262e58d8849300",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pw9db8sWZT8",
+      "sourceTitle": "IAN WRIGHT - The Story of an ARSENAL LEGEND | Unique Unheard Insight! Season 2 Ep #5",
+      "sourceChannel": "Fozcast - The Ben Foster Podcast",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "late"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-003-ian-wright-eleven-years/card-02.jpg",
+      "sha256": "ad0d26041c96eda604e338a57ba67ca7e7da4a940046e176d7837417cfec10f8",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4MopdT8fmg",
+      "sourceTitle": "Wrighty’s Message to Jude & Rooney’s United Contract Revealed | Stick to Football EP 103",
+      "sourceChannel": "The Overlap",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-003-ian-wright-eleven-years/card-03.jpg",
+      "sha256": "388a366809553dc3c44df5b6cf43e303aacd91f3088f3ecbacf75278f9f1fbad",
+      "sourceUrl": "https://www.youtube.com/watch?v=IaQxlTl6NSo",
+      "sourceTitle": "Top Five Greatest Arsenal Goalscorers – Thierry Henry and Ian Wright | www.footballfancast.com",
+      "sourceChannel": "FootballFanCast.com",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "late"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-003-ian-wright-eleven-years/card-04.jpg",
+      "sha256": "848ab3ca22bbe874dde3e145958b2cf9da7ab2fec845344f71913bc7c38dcd59",
+      "sourceUrl": "https://www.youtube.com/watch?v=YbF8G6xZyJY",
+      "sourceTitle": "Ian Wright vs Sutton FC Goalkeeper LOL - Biggest Goalkeeper In The UK - Unfit Keeper?",
+      "sourceChannel": "CrystalStarTube",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-003-ian-wright-eleven-years/card-05.jpg",
+      "sha256": "057b867cdd297d5a0b5c94b6a4e753a93aa1eee09856da6662db5ce09fd7d2b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=_y9g09BGeSs",
+      "sourceTitle": "Middlesbrough v Crystal Palace 1987-88 IAN WRIGHT GLOVER GOAL",
+      "sourceChannel": "Middlesbrough FC Video Vault",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

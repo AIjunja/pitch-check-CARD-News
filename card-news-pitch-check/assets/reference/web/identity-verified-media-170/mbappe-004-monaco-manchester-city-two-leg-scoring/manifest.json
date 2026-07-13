@@ -1,0 +1,98 @@
+{
+  "topicId": "mbappe-004-monaco-manchester-city-two-leg-scoring",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" monaco manchester city two leg scoring football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-004-monaco-manchester-city-two-leg-scoring/card-01.jpg",
+      "sha256": "1ea63a1e63c2a0e89c36f2714b06d0777bb36791bc4a7de15818b3009385b1c3",
+      "sourceUrl": "https://www.youtube.com/watch?v=hm7Ha4K83js",
+      "sourceTitle": "Mbappe destroys Manchester City (AS Monaco vs ManCity, 16-17 Champions League Round of 16)",
+      "sourceChannel": "Crazy Soccer",
+      "matchedEventTerms": [
+        "monaco",
+        "manchester",
+        "city",
+        "mbappe",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-004-monaco-manchester-city-two-leg-scoring/card-02.jpg",
+      "sha256": "7b205e39eabeeea62a1674164d15e1d0835339fc989a5db86fd3b575694a1fe3",
+      "sourceUrl": "https://www.youtube.com/watch?v=CxONmTMhoLQ",
+      "sourceTitle": "MBAPPE HAT-TRICK vs MAN CITY🔥 (Real Madrid 3-1 Champions League Goals Highlights Gvardiol)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "manchester",
+        "city",
+        "kylian",
+        "mbappe",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-004-monaco-manchester-city-two-leg-scoring/card-03.jpg",
+      "sha256": "08033b02e4a974f2165eb5b4fa9811e1ff1884c4a48ae2e3572c92d1c4accf44",
+      "sourceUrl": "https://www.youtube.com/watch?v=zpieZkvFnlE",
+      "sourceTitle": "HIGHLIGHTS Real Madrid 3-1 Man City | Mbappe (3) & Nico Goals",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "manchester",
+        "city",
+        "mbappe",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-004-monaco-manchester-city-two-leg-scoring/card-04.jpg",
+      "sha256": "63ac5665c0858a5a1a07eec8b34c1d3813614670bf3666726387d0ea619c19b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=-fFTU-8GDHw",
+      "sourceTitle": "Kylian Mbappe vs Manchester City 16-17 (UCL Away) HD 1080i",
+      "sourceChannel": "KMcompsi",
+      "matchedEventTerms": [
+        "manchester",
+        "city",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-004-monaco-manchester-city-two-leg-scoring/card-05.jpg",
+      "sha256": "e07529b3b7989abe0ac6be06a81acb62df52412425a79c1501714414ea0d2e1d",
+      "sourceUrl": "https://www.youtube.com/watch?v=3UUC4bOAlmI",
+      "sourceTitle": "THE DAY MBAPPE DESTROYED THE MANCHESTER CITY | 15/03/2017",
+      "sourceChannel": "VDiComps",
+      "matchedEventTerms": [
+        "manchester",
+        "city",
+        "leg",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

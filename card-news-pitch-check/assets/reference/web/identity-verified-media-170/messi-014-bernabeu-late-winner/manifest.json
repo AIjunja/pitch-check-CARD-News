@@ -1,0 +1,102 @@
+{
+  "topicId": "messi-014-bernabeu-late-winner",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" bernabeu late winner football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-014-bernabeu-late-winner/card-01.jpg",
+      "sha256": "85925f21ae04db094a820e81f8d04a0ffa1a80f241a032cb88c67074baa0862a",
+      "sourceUrl": "https://www.youtube.com/watch?v=loHOt6ifzKk",
+      "sourceTitle": "The Most Iconic Goal - Celebration of Lionel Messi ⚫ 23 - 04 - 2017 ⚫ Real Madrid 2 vs 3 Barcelona",
+      "sourceChannel": "Outside The Box",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "2017",
+        "04",
+        "23",
+        "celebration",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-014-bernabeu-late-winner/card-02.jpg",
+      "sha256": "9195572100dcf75e4e9428a15935d9c48fa6cf01af4855500d7857a0af5265bd",
+      "sourceUrl": "https://www.youtube.com/watch?v=kBXOP0X7kcg",
+      "sourceTitle": "LIONEL MESSI - ALL 14 GOALS vs REAL MADRID at Santiago Bernabeu - EL CLASICO RECORD",
+      "sourceChannel": "FELSANG",
+      "matchedEventTerms": [
+        "bernabeu",
+        "lionel",
+        "messi",
+        "2017",
+        "clasico",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-014-bernabeu-late-winner/card-03.jpg",
+      "sha256": "1cef5580cb3ba7293b10719eb4fef058b95db5589e8e9b9d0a0551ac9ec98e06",
+      "sourceUrl": "https://www.youtube.com/watch?v=6WJV8FxWAi8",
+      "sourceTitle": "Real Madrid Fans reaction after Messi scoring last minute goal | 23.04.2017",
+      "sourceChannel": "All4Compilation",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "2017",
+        "04",
+        "23",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-014-bernabeu-late-winner/card-04.jpg",
+      "sha256": "fe3dfddd08958ecc555b9639234a827c59fff3e6350145e0fe3585e805b470e3",
+      "sourceUrl": "https://www.youtube.com/watch?v=3-eLUdIv2eY",
+      "sourceTitle": "Lionel Messi 90th minute winner for Barcelona Reaction (Live from Santiago Bernabeu)",
+      "sourceChannel": "Arcadian Lotus",
+      "matchedEventTerms": [
+        "bernabeu",
+        "winner",
+        "lionel",
+        "messi",
+        "clasico"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-014-bernabeu-late-winner/card-05.jpg",
+      "sha256": "36dea08ba9cd20813dc2c4101937745f3cae2195bc40f00656f0f40218895154",
+      "sourceUrl": "https://www.youtube.com/watch?v=FIDb_hKrVew",
+      "sourceTitle": "The Day Lionel Messi Destroyed Real Madrid at the Santiago Bernabéu",
+      "sourceChannel": "LM10HD",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "clasico",
+        "ball",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

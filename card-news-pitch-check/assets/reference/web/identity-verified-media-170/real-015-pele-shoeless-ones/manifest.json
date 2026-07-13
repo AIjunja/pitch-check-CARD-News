@@ -1,0 +1,83 @@
+{
+  "topicId": "real-015-pele-shoeless-ones",
+  "player": "Pele",
+  "query": "\"Pele\" pele shoeless ones football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-015-pele-shoeless-ones/card-01.jpg",
+      "sha256": "a2d815cbecf3a5d46e16cf53f229139cde552787e7c51f16f5ada54c6fc641c6",
+      "sourceUrl": "https://www.youtube.com/watch?v=xfKI87yTqrY",
+      "sourceTitle": "The King Of Football Brazilian Pele 🔥 | Go Gyal Slowed Remix | Qatar Fifa World Cup 2022",
+      "sourceChannel": "GOATLegacyX",
+      "matchedEventTerms": [
+        "pele",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-015-pele-shoeless-ones/card-02.jpg",
+      "sha256": "aef85c3c71373192247e3710be895a7ee5bf55d0db10e624cfc286b5d96fd933",
+      "sourceUrl": "https://www.youtube.com/watch?v=qAU4T1eTsAc",
+      "sourceTitle": "Archival footage of Pelé playing football in Sydney",
+      "sourceChannel": "CODE Sports",
+      "matchedEventTerms": [
+        "pele",
+        "brazil",
+        "santos"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-015-pele-shoeless-ones/card-03.jpg",
+      "sha256": "43d6df50cd72295af17d4ce745390eeaf8d5918942e75ccb9405d20fc1b0d546",
+      "sourceUrl": "https://www.youtube.com/watch?v=-c2jBHAFsDQ",
+      "sourceTitle": "Pele opens museum highlighting career",
+      "sourceChannel": "AFP News Agency",
+      "matchedEventTerms": [
+        "pele",
+        "brazil",
+        "santos"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-015-pele-shoeless-ones/card-04.jpg",
+      "sha256": "d44f0e0fe18b68ceb1a40d02c266677dcf7fb89716fd31835c2b7528a03a2b7c",
+      "sourceUrl": "https://www.youtube.com/watch?v=usRej8znvz0",
+      "sourceTitle": "Play like PELE Barcelona",
+      "sourceChannel": "BigRedEngineTV",
+      "matchedEventTerms": [
+        "pele"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-015-pele-shoeless-ones/card-05.jpg",
+      "sha256": "b59f318b1e161765b70595af06777162d21b338596ba7f3e04e59ce017ad21b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=hKtOWIOJIQs",
+      "sourceTitle": "Crazy Fouls On Pele | FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "pele"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

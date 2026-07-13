@@ -1,0 +1,88 @@
+{
+  "topicId": "messi-006-competitive-debut",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" competitive debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-006-competitive-debut/card-01.jpg",
+      "sha256": "19e8f92f72d63908f1baeb2a23bc5fdb74130bc6630b3d0cdb136d1c95f7dd92",
+      "sourceUrl": "https://www.youtube.com/watch?v=GjcRLa9cIys",
+      "sourceTitle": "When 17 Year Old Lionel Messi TOYED with €1 Billion+ Real Madrid Team [HD]",
+      "sourceChannel": "Messi Magic™",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-006-competitive-debut/card-02.jpg",
+      "sha256": "38647e25167f7c5e276ac3aac846919d9de7f58747313cb12b123f926b3bf026",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q_A_FP2F7T0",
+      "sourceTitle": "🇦🇷 Lionel Messi | FIFA World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "debut",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-006-competitive-debut/card-03.jpg",
+      "sha256": "fb06ad98e038f61984e88a1cf978e82e9d771e45067cf7fb84483d7573d2624a",
+      "sourceUrl": "https://www.youtube.com/watch?v=aYO6nygs9oo",
+      "sourceTitle": "Lionel Messi | FIFA World Cup Career",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "debut",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-006-competitive-debut/card-04.jpg",
+      "sha256": "66a6ed7d5feb06c14ed5bc906e013d74c2b3c29a9c35b26166b5c07767b363dc",
+      "sourceUrl": "https://www.youtube.com/watch?v=5MK9ttsJ5QE",
+      "sourceTitle": "The MOST EXPENSIVE Free Kick Ever in Football  ► Lionel Messi Free Kick vs Real Madrid",
+      "sourceChannel": "Messi Magic™",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-006-competitive-debut/card-05.jpg",
+      "sha256": "ff9e14886af3b9097fe76afd37bf82c42cbd085feeb5fe59df5a763d3779e1ee",
+      "sourceUrl": "https://www.youtube.com/watch?v=O6z_sKtUtSk",
+      "sourceTitle": "Reims vs PSG (0-2) | Lionel Messi Makes Debut While Kylian Mbappé Scores Twice | Ligue 1 Highlights",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "debut",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

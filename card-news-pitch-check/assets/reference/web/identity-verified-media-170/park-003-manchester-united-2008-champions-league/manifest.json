@@ -1,0 +1,105 @@
+{
+  "topicId": "park-003-manchester-united-2008-champions-league",
+  "player": "Park Ji-sung",
+  "query": "\"Park Ji-sung\" manchester united 2008 champions league football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/park-003-manchester-united-2008-champions-league/card-01.jpg",
+      "sha256": "6b807c2a7635a4da1f9df6f4b2b7f00fd191f5e8a252637e6069b8e4c3184c78",
+      "sourceUrl": "https://www.youtube.com/watch?v=XSlopOo0zqs",
+      "sourceTitle": "Manchester United vs Chelsea  highlight champions league 2011/2012",
+      "sourceChannel": "Wayne Rooney 10",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "champions",
+        "league",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/park-003-manchester-united-2008-champions-league/card-02.jpg",
+      "sha256": "73fcd2b26965609a5c1ad42eb4111293b60bd911b157a0e9fcf0573b98ef005b",
+      "sourceUrl": "https://www.youtube.com/watch?v=f8yDoff-tXc",
+      "sourceTitle": "Ji-Sung Park / All Goals and Assists for Manchester United",
+      "sourceChannel": "Bjarni Erlingur",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "2008",
+        "park",
+        "ji",
+        "sung",
+        "05"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/park-003-manchester-united-2008-champions-league/card-03.jpg",
+      "sha256": "ec5ac952c6c5123b9e59873d98c1dc4972bcad842b9bdf4b5c11a86ca62c0814",
+      "sourceUrl": "https://www.youtube.com/watch?v=dqBY4Hdktqc",
+      "sourceTitle": "Champions league Final 2011 Manchester united vs Barcelona",
+      "sourceChannel": "ภาษาไทย",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "champions",
+        "league",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/park-003-manchester-united-2008-champions-league/card-04.jpg",
+      "sha256": "5b5998f584a4b23eb15b210745914e0dbeac3d1e7d0980527ed68b343a8c74a1",
+      "sourceUrl": "https://www.youtube.com/watch?v=2ZUznS2oj0g",
+      "sourceTitle": "Ji-sung Park: All The Goals 💫🇰🇷",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "park",
+        "ji",
+        "sung",
+        "05"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/park-003-manchester-united-2008-champions-league/card-05.jpg",
+      "sha256": "59938ed828889107b4289641a5097c476b02c32ee394e28330c08c8be557be55",
+      "sourceUrl": "https://www.youtube.com/watch?v=7kdzEAtBe-c",
+      "sourceTitle": "Ji-Sung Park’s Relentless Battle vs Messi and barcelona | UCL Final 2011 Masterclass (Underrated)",
+      "sourceChannel": "kick&watch",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

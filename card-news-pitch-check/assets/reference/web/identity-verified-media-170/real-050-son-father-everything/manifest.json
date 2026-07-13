@@ -1,0 +1,97 @@
+{
+  "topicId": "real-050-son-father-everything",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" son father everything football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-050-son-father-everything/card-01.jpg",
+      "sha256": "d480b405113f81c24797592e1143484f65f92feee44f2b0a9d6c67c7da4ccc27",
+      "sourceUrl": "https://www.youtube.com/watch?v=7aMutyZelts",
+      "sourceTitle": "'I'M GETTING EMOTIONAL...' 😢 Heartwarming moment Heung-Min Son surprises Spurs fan | Fan Mail",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham",
+        "emotional"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-050-son-father-everything/card-02.jpg",
+      "sha256": "e070745b05a63eea73e1c4fa8c741c1468aabdeed7eccde20edfcf3023ebda40",
+      "sourceUrl": "https://www.youtube.com/watch?v=TYFQCVo0AGA",
+      "sourceTitle": "Asian Games 2018: Tottenham's Son secures military exemption after Korea win Asiad gold",
+      "sourceChannel": "Sports V",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-050-son-father-everything/card-03.jpg",
+      "sha256": "bd68950ec96c29b5a14f9e6a478f537108796812560442978ca8fe2844dbfc2a",
+      "sourceUrl": "https://www.youtube.com/watch?v=faq7zSWsXRo",
+      "sourceTitle": "FIFA 23 Career Mode (Manager) - Star Player Transfer Heung Min Son Season 2022/2023",
+      "sourceChannel": "khaliliarief",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-050-son-father-everything/card-04.jpg",
+      "sha256": "dc92e6386db19d04a9f51813aa10fc3cdfe45977343bcc536b685af47f4c8627",
+      "sourceUrl": "https://www.youtube.com/watch?v=uQb-1S6s4C4",
+      "sourceTitle": "TOTTENHAM'S SON SECURES MILITARY EXEMPTION AFTER SOUTH KOREA WINS ASIAN GOLD",
+      "sourceChannel": "Lerrxol",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-050-son-father-everything/card-05.jpg",
+      "sha256": "db008d7b2f5ba5cd4a8ff5569212b5aeb0f8c2a8563457fc3d146dbbdd4aabc8",
+      "sourceUrl": "https://www.youtube.com/watch?v=WoMbFNgh-9I",
+      "sourceTitle": "Tom Holland interviews Heung-min Son | Spider-Man and Sonny",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

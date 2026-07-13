@@ -1,0 +1,97 @@
+{
+  "topicId": "ronaldo-015-united-agreement",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" united agreement football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-015-united-agreement/card-01.jpg",
+      "sha256": "acef93450426d3fe4112b3181a2b11797ff203cc650d76334c7199c0f9c50dce",
+      "sourceUrl": "https://www.youtube.com/watch?v=KyyGmRRkdts",
+      "sourceTitle": "🔴Ronaldo's 1st Day at Man Utd!🔴 (Transfer Announcement Manchester United)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "announcement"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-015-united-agreement/card-02.jpg",
+      "sha256": "f1ff7899fb0a2a42c7f271b4fd66a979cb7e0cf48fe0ef5407c927334d41b5e8",
+      "sourceUrl": "https://www.youtube.com/watch?v=a8nLp_awft4",
+      "sourceTitle": "BREAKING! Manchester United reach agreement to re-sign Cristiano Ronaldo",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "united",
+        "agreement",
+        "cristiano",
+        "ronaldo",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-015-united-agreement/card-03.jpg",
+      "sha256": "c9a555e7e01e4efdac5940de4ebbeba22fbf7d9b6282ed616f6a8f97e2a412cc",
+      "sourceUrl": "https://www.youtube.com/watch?v=tdBNEFZmNa4",
+      "sourceTitle": "Cristiano Ronaldo to Manchester United - I'm Coming Home",
+      "sourceChannel": "The Eye Test with Lyes and CultureCams",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "home"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-015-united-agreement/card-04.jpg",
+      "sha256": "58e2225cf7fce2eb2c42c23604379d93d3b826877c22fea606a39f86948218e7",
+      "sourceUrl": "https://www.youtube.com/watch?v=9a3noL4i5J0",
+      "sourceTitle": "Cristiano Ronaldo signs for Manchester United! | Where He Belongs | New Signings 2021/22",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "2021"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-015-united-agreement/card-05.jpg",
+      "sha256": "0f0f72f3640dccb99f0a56c3bce5ecf583fdc31274dfa30f1602bdd372be4930",
+      "sourceUrl": "https://www.youtube.com/watch?v=MUPt1nGOCi4",
+      "sourceTitle": "Cristiano Ronaldo Shows His Skills After Joining Manchester United In 2003 & Teaches Jesse Lingard",
+      "sourceChannel": "BeanymanSports",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

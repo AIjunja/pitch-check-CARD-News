@@ -1,0 +1,101 @@
+{
+  "topicId": "honda-001-three-world-cup-goals",
+  "player": "Keisuke Honda",
+  "query": "\"Keisuke Honda\" three world cup goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/honda-001-three-world-cup-goals/card-01.jpg",
+      "sha256": "14605e1e225fda3f0a62b901dda8b1fce4d49217f1d8e33c260f073877e6e18e",
+      "sourceUrl": "https://www.youtube.com/watch?v=6MIqKKkYvPU",
+      "sourceTitle": "Keisuke Honda Goal Japan 1-0 Cameroon Half Time FIFA World Cup South Africa 2010",
+      "sourceChannel": "FootballRandoms",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "keisuke",
+        "honda",
+        "2010",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/honda-001-three-world-cup-goals/card-02.jpg",
+      "sha256": "77a6ac26b3d82fd662466ae7da736285cd4924b7dabb6a38ef88ef8320ad166a",
+      "sourceUrl": "https://www.youtube.com/watch?v=7kJ54U_rcmM",
+      "sourceTitle": "🇯🇵  Keisuke Honda | FIFA World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "three",
+        "world",
+        "cup",
+        "goals",
+        "keisuke",
+        "honda"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/honda-001-three-world-cup-goals/card-03.jpg",
+      "sha256": "fff2d24fad26d63369166e6102cfa2ecfa49b28ccce0c3d73069ca91b0047555",
+      "sourceUrl": "https://www.youtube.com/watch?v=ED6rMQFppTM",
+      "sourceTitle": "10-Minute Match | Honda, Endo Lead Japanese Attack | 2010 FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "keisuke",
+        "honda",
+        "2010"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/honda-001-three-world-cup-goals/card-04.jpg",
+      "sha256": "0b693107d508ce1d565dfdd01bbbcdbae20d021adeda44359dbc05b01734242d",
+      "sourceUrl": "https://www.youtube.com/watch?v=elj-SYaUeIU",
+      "sourceTitle": "Keisuke Honda: FIFA World Cup goals",
+      "sourceChannel": "Melbourne Victory",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "keisuke",
+        "honda"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/honda-001-three-world-cup-goals/card-05.jpg",
+      "sha256": "6fb65cf93b62aaa761ea5dfec104e101dedc7608cc3467cce2c6011db72db628",
+      "sourceUrl": "https://www.youtube.com/watch?v=k1YK0e-UWNg",
+      "sourceTitle": "Denmark v Japan | 2010 FIFA World Cup | Match Highlights",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "keisuke",
+        "honda",
+        "2010"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,95 @@
+{
+  "topicId": "real-018-di-maria-sabella-choice",
+  "player": "Angel Di Maria",
+  "query": "\"Angel Di Maria\" di maria sabella choice football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-018-di-maria-sabella-choice/card-01.jpg",
+      "sha256": "a15fc132e0585ff540cb005dcf8690df383af3d745c9cf2af3fcb170acef5706",
+      "sourceUrl": "https://www.youtube.com/watch?v=24ImTZCF5b4",
+      "sourceTitle": "Angel Di Maria: 'Much Better' PSG Signed Lionel Messi Over Cristiano Ronaldo",
+      "sourceChannel": "SP Football",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "choice",
+        "angel",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-018-di-maria-sabella-choice/card-02.jpg",
+      "sha256": "3acad29d8c1fbca98178142d61c60652b8c4efcb56626ea3f9a1bd04f3e62ccd",
+      "sourceUrl": "https://www.youtube.com/watch?v=vD8Mi0aPmP8",
+      "sourceTitle": "Lionel Messi: Argentina ace Angel Di Maria is bamboozled by Barcelona star",
+      "sourceChannel": "SPORT NEWS",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "team",
+        "argentina"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-018-di-maria-sabella-choice/card-03.jpg",
+      "sha256": "6860a69f8cec8d025f375f6a43855e3fa4f555c7fe32fa5d6f60831276478799",
+      "sourceUrl": "https://www.youtube.com/watch?v=QpKuqhw_pYI",
+      "sourceTitle": "Cristiano Ronaldo backs Angel Di Maria to be a success at Manchester United",
+      "sourceChannel": "101 Great Goals",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-018-di-maria-sabella-choice/card-04.jpg",
+      "sha256": "b3c8e914958354d146573a6b00e75202f0b9e85a167f360c7bdb466e7c9d060a",
+      "sourceUrl": "https://www.youtube.com/watch?v=g9yCDwLH_g0",
+      "sourceTitle": "ANGEL DI MARIA hates Manchester United so much that he turns off the TV as soon as they come on",
+      "sourceChannel": "Sakura FC",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-018-di-maria-sabella-choice/card-05.jpg",
+      "sha256": "ab53f064becb62b07cfc721162de832aad92940dfdfffa83f3e92433752973e4",
+      "sourceUrl": "https://www.youtube.com/watch?v=SFoa-ks8_p4",
+      "sourceTitle": "Ashley Young ends Angel Di Maria’s Manchester United career for a second time during Paris Saint-Ger",
+      "sourceChannel": "Sport News 247",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

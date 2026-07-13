@@ -1,0 +1,92 @@
+{
+  "topicId": "mbappe-001-monaco-champions-league-debut",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" monaco champions league debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-001-monaco-champions-league-debut/card-01.jpg",
+      "sha256": "2e7501ca44b8ca92b8cc4c6b602892c28ea4b65ffebdffcd86c8591eb7a3b40c",
+      "sourceUrl": "https://www.youtube.com/watch?v=aK-uniRS1P0",
+      "sourceTitle": "When an 18-Year-Old Mbappe beat Manchester City",
+      "sourceChannel": "Vanemas Football",
+      "matchedEventTerms": [
+        "monaco",
+        "champions",
+        "league",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-001-monaco-champions-league-debut/card-02.jpg",
+      "sha256": "68a05a18538c81f4c7a1f2094a81665842e32e9d3469f90eef1a553f1de096f5",
+      "sourceUrl": "https://www.youtube.com/watch?v=0nDDlF_4I1Y",
+      "sourceTitle": "When Mbappe destroyed Man City | Manchester City vs AS Monaco 6-6 (HD) - All Goals and Highlights |",
+      "sourceChannel": "IIM Wala Ladka",
+      "matchedEventTerms": [
+        "monaco",
+        "champions",
+        "league",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-001-monaco-champions-league-debut/card-03.jpg",
+      "sha256": "161ee33de8d3ef93089c2992869050e2038c38f0a64cab8556841e7cac4a59db",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rx-BPtfDHFo",
+      "sourceTitle": "Monaco ● Road to the champions league semi final 2016/17",
+      "sourceChannel": "No.10 player",
+      "matchedEventTerms": [
+        "monaco",
+        "champions",
+        "league",
+        "mbappe",
+        "2016"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-001-monaco-champions-league-debut/card-04.jpg",
+      "sha256": "064250f0b68445e861979a3c441ad6b0ddbf3072a98b1e2d222b215915f0f2c6",
+      "sourceUrl": "https://www.youtube.com/watch?v=Iv3Y-UWpWv8",
+      "sourceTitle": "The Game That made PSG buy Kylian Mbappe 2017 | Monaco vs Dortmund |",
+      "sourceChannel": "ALL FOOTBALL",
+      "matchedEventTerms": [
+        "monaco",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-001-monaco-champions-league-debut/card-05.jpg",
+      "sha256": "ebd018b758ffdec7502553d66fa461f7581f5fbcd4435422c25222b78071ca78",
+      "sourceUrl": "https://www.youtube.com/watch?v=_08xK-IvO1k",
+      "sourceTitle": "Kylian Mbappe Reveals Shocking Real Madrid Transfer Decision - CNN Interview",
+      "sourceChannel": " Football World",
+      "matchedEventTerms": [
+        "league",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

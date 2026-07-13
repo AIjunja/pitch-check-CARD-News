@@ -1,0 +1,103 @@
+{
+  "topicId": "haaland-003-champions-league-debut-hat-trick",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" champions league debut hat trick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-003-champions-league-debut-hat-trick/card-01.jpg",
+      "sha256": "ac138e2ba50cf7f789f40874ca5095ce4f17abf854bc04b8b24483b087c6084a",
+      "sourceUrl": "https://www.youtube.com/watch?v=eXNOoS7pbzs",
+      "sourceTitle": "ERLING HAALAND'S  FIRST HALF HATTRICK IN HIS UEFA CHAMPIONS LEAGUE DEBUT TONIGHT",
+      "sourceChannel": "SD FLASH TV",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "debut",
+        "hat",
+        "trick",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-003-champions-league-debut-hat-trick/card-02.jpg",
+      "sha256": "407dc1dbafc03a9cfe0c729fa5228b484d4d3ed495daad7d03308bdc076dc8aa",
+      "sourceUrl": "https://www.youtube.com/watch?v=HziIwUsK1uk",
+      "sourceTitle": "When Erling Haaland SHOCKED The World In His Borrussia Dortmund Debut",
+      "sourceChannel": "ADZCOMPS",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "debut",
+        "hat",
+        "trick",
+        "erling",
+        "haaland",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-003-champions-league-debut-hat-trick/card-03.jpg",
+      "sha256": "6ea928876760b7b8ec474bd43f28907d605c988f7291744d3d1f3382da672cc3",
+      "sourceUrl": "https://www.youtube.com/watch?v=fisHS2jLQbk",
+      "sourceTitle": "Erling Haaland watches back the best moments of his career so far",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "debut",
+        "hat",
+        "trick",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-003-champions-league-debut-hat-trick/card-04.jpg",
+      "sha256": "b8eb322d980bfe0e8ed3a16c3b1573b957ee4b3d32930bb5e36ea5396f94b4f5",
+      "sourceUrl": "https://www.youtube.com/watch?v=l0iLzM892yY",
+      "sourceTitle": "The GREATEST Debut in Bundesliga HISTORY ❗️ Erling Haaland vs FC Augsburg in FULL LENGTH 🚀",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "debut",
+        "hat",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-003-champions-league-debut-hat-trick/card-05.jpg",
+      "sha256": "9605e54ca211188fd272452f8b914e7e0a3a02c6f6246a027533e760e50dcdf7",
+      "sourceUrl": "https://www.youtube.com/watch?v=1ht0Et_CNHE",
+      "sourceTitle": "EVERY HAALAND HAT-TRICK! | The Norwegian striker has bagged 7 hat-tricks for City!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "hat",
+        "trick",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

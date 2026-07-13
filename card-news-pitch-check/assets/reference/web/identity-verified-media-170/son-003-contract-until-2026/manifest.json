@@ -1,0 +1,102 @@
+{
+  "topicId": "son-003-contract-until-2026",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" contract until 2026 football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-003-contract-until-2026/card-01.jpg",
+      "sha256": "bce23cda79ecd8b030cd5be1dbe5a2be526be353f9fa40fdcce352016970800d",
+      "sourceUrl": "https://www.youtube.com/watch?v=cHHrDWfJPLY",
+      "sourceTitle": "Tottenham Hotspur Extend Heung-min Son’s Contract Until 2026 Amid Future Uncertainty",
+      "sourceChannel": "Goal Zone",
+      "matchedEventTerms": [
+        "contract",
+        "until",
+        "2026",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-003-contract-until-2026/card-02.jpg",
+      "sha256": "c251ead798e8f34761e33a1be70662a9c9df9a36981e669667164be246f117fe",
+      "sourceUrl": "https://www.youtube.com/watch?v=dKEzBb5yNRs",
+      "sourceTitle": "Tottenham Hotspur extend Heung-Min Son's contract until 2026",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "contract",
+        "until",
+        "2026",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-003-contract-until-2026/card-03.jpg",
+      "sha256": "ab54a8284e69745634dcae12b5d7f2edd374a8ab03616de4682691469910dc5c",
+      "sourceUrl": "https://www.youtube.com/watch?v=9DR7JkpXHac",
+      "sourceTitle": "Son Heung-min Extends Tottenham Stay Until 2026 | DRM News | AD11",
+      "sourceChannel": "DRM News",
+      "matchedEventTerms": [
+        "until",
+        "2026",
+        "son",
+        "heung",
+        "min",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-003-contract-until-2026/card-04.jpg",
+      "sha256": "e280981c545ed64535b278a8d48ee854ef1bcb6bcd23946ee427285f31369318",
+      "sourceUrl": "https://www.youtube.com/watch?v=LJt1PPqSFzo",
+      "sourceTitle": "The South Korean sensation Son Heung-min has secured a contract extension with Tottenham Hotspurs 😋",
+      "sourceChannel": "BillyYourTrustedNewsUncle",
+      "matchedEventTerms": [
+        "contract",
+        "until",
+        "2026",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-003-contract-until-2026/card-05.jpg",
+      "sha256": "0f910c41951cf6b9587ce0f4878607a5ba8ed3a2fd8e38d5c3d3341b140a56a6",
+      "sourceUrl": "https://www.youtube.com/watch?v=f08BP2uAuSQ",
+      "sourceTitle": "Will Son Heung-min continue with Tottenham until 2026? | GridaNews | Sport",
+      "sourceChannel": "싸커투데이 Soccer Today",
+      "matchedEventTerms": [
+        "until",
+        "2026",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

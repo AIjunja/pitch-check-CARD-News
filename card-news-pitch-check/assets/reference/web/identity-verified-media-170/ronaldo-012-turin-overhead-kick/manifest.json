@@ -1,0 +1,99 @@
+{
+  "topicId": "ronaldo-012-turin-overhead-kick",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" turin overhead kick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-012-turin-overhead-kick/card-01.jpg",
+      "sha256": "a4cba5a8f409752885c55ca49e8f3a8c4b5785a52ccb9ec6f8ad96e93c051a96",
+      "sourceUrl": "https://www.youtube.com/watch?v=fmGdOYFwHsE",
+      "sourceTitle": "Ronaldo's overhead kick and five other classic UCL goals",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "overhead",
+        "kick",
+        "cristiano",
+        "ronaldo",
+        "juventus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-012-turin-overhead-kick/card-02.jpg",
+      "sha256": "8ee30e5f9479af559cffe93c88f969f149182d15d777549079477995b42b1814",
+      "sourceUrl": "https://www.youtube.com/watch?v=8POPOQ65idM",
+      "sourceTitle": "Outrageous! Bicycle kick by cristiano ronaldo live in action in turin ! Juventus 0-3 Real Madrid",
+      "sourceChannel": "jimmy leo",
+      "matchedEventTerms": [
+        "turin",
+        "kick",
+        "cristiano",
+        "ronaldo",
+        "juventus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-012-turin-overhead-kick/card-03.jpg",
+      "sha256": "01241dd52bbe6f7289e82a19d5e9456efa5fcf52de2925e7d6d78329156837f2",
+      "sourceUrl": "https://www.youtube.com/watch?v=elUzLywxdzs",
+      "sourceTitle": "Cristiano Ronaldo Bicycle kick goal  vs juventus ; Juventus vs Real Madrid [0-3] UCL 2017/18",
+      "sourceChannel": "OCTA FOOTBALL",
+      "matchedEventTerms": [
+        "overhead",
+        "kick",
+        "cristiano",
+        "ronaldo",
+        "juventus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-012-turin-overhead-kick/card-04.jpg",
+      "sha256": "bae1155082560dd201e7a9c7d686103ceb402db8dd21ad907f2e7c375e45a498",
+      "sourceUrl": "https://www.youtube.com/watch?v=tBXctlpE-W0",
+      "sourceTitle": "The Goal That Silenced Turin: Ronaldo’s Legendary Bicycle Kick",
+      "sourceChannel": "Soccer Fever\"",
+      "matchedEventTerms": [
+        "turin",
+        "overhead",
+        "kick",
+        "cristiano",
+        "ronaldo",
+        "juventus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-012-turin-overhead-kick/card-05.jpg",
+      "sha256": "e4227d76e7b4d0e1b8feffb45f3f136bc4a410539af15e4075b3d9680088b09e",
+      "sourceUrl": "https://www.youtube.com/watch?v=XpxQhmM13fQ",
+      "sourceTitle": "Cristiano Ronaldo's stunning overhead kick against Juventus in 360",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "overhead",
+        "kick",
+        "cristiano",
+        "ronaldo",
+        "juventus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

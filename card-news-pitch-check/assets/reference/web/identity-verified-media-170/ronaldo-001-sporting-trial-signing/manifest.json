@@ -1,0 +1,90 @@
+{
+  "topicId": "ronaldo-001-sporting-trial-signing",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" sporting trial signing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-001-sporting-trial-signing/card-01.jpg",
+      "sha256": "567ba136165b83571a975e5a8168d2bb05d93752a44ef4e5bfbb7f8d1b47e73c",
+      "sourceUrl": "https://www.youtube.com/watch?v=FzjHSDLvk0E",
+      "sourceTitle": "Sporting Clube Portugal Youth Academy - The European Football Academy Internship Experience",
+      "sourceChannel": "European Football Academy",
+      "matchedEventTerms": [
+        "sporting",
+        "trial",
+        "ronaldo",
+        "youth",
+        "academy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-001-sporting-trial-signing/card-02.jpg",
+      "sha256": "6231484f19756dab055c1b34b2273907af69b22633a025ce1c79e977c55ab6fb",
+      "sourceUrl": "https://www.youtube.com/watch?v=NKjUDb57emE",
+      "sourceTitle": "Cristiano Ronaldo Arrives At Real Madrid | RONALDO (2015)",
+      "sourceChannel": "Universal Documentaries",
+      "matchedEventTerms": [
+        "signing",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-001-sporting-trial-signing/card-03.jpg",
+      "sha256": "f59d2a1f1c3f8b34a0366567fdec081c9c8b436c8325a77959cfee4181f97da5",
+      "sourceUrl": "https://www.youtube.com/watch?v=QxV2Uj17e8Y",
+      "sourceTitle": "Cristiano Ronaldo | FIFA World Cup Career",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "career"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-001-sporting-trial-signing/card-04.jpg",
+      "sha256": "658fdbc2c39086a5d89c0c8883b9569790b94638ad1cb136062ca69b8ea27dc3",
+      "sourceUrl": "https://www.youtube.com/watch?v=99TxULQgleU",
+      "sourceTitle": "Cristiano Ronaldo hilariously interviews Anderson",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "career"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-001-sporting-trial-signing/card-05.jpg",
+      "sha256": "bebfd5290265164dcbf7fdc7eeb8f94e5a61e04849a2619189c9e62a08b676d4",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3D-9x6CjYI",
+      "sourceTitle": "Cristiano Ronaldo & Lionel Messi • THE END IS NEAR | Official Documentary 2020",
+      "sourceChannel": "Lorenzo F7",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "documentary"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

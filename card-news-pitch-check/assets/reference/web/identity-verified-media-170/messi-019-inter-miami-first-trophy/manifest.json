@@ -1,0 +1,98 @@
+{
+  "topicId": "messi-019-inter-miami-first-trophy",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" inter miami first trophy football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-019-inter-miami-first-trophy/card-01.jpg",
+      "sha256": "9cb40944500b9214dafd62471a7cd4500d17b81fcc7b940c1b4a43addaec4579",
+      "sourceUrl": "https://www.youtube.com/watch?v=yZ0IBpmoz_I",
+      "sourceTitle": "Messi Family Reaction To Thiago messi First Trophy For Inter Miami",
+      "sourceChannel": "CSPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "first",
+        "trophy",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-019-inter-miami-first-trophy/card-02.jpg",
+      "sha256": "b5f6b90d2772bbede32b8c407e77964f71b6a14b9085426f3dc4da298ed79990",
+      "sourceUrl": "https://www.youtube.com/watch?v=SCgH-08AoUo",
+      "sourceTitle": "🚨 LIONEL MESSI & INTER MIAMI WIN LEAGUES CUP 🚨 | Full Game Highlights",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "lionel",
+        "messi",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-019-inter-miami-first-trophy/card-03.jpg",
+      "sha256": "7a1fd3b2b7900bab60104150f81ac160240a2dc9224ad5efa53d1f119ead5c5e",
+      "sourceUrl": "https://www.youtube.com/watch?v=HQI1z3XEK7I",
+      "sourceTitle": "Lionel Messi practices with Inter Miami for first time",
+      "sourceChannel": "CBS Miami",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "first",
+        "lionel",
+        "messi",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-019-inter-miami-first-trophy/card-04.jpg",
+      "sha256": "8cf035093bac6fe59988f23894ccb3a8f6dcf30214419fea8e756ef7748bacc2",
+      "sourceUrl": "https://www.youtube.com/watch?v=3ml4F8XRKkk",
+      "sourceTitle": "Messi's And Beckham wife's reaction to winning the first trophy in Miami history",
+      "sourceChannel": "CSPN FC and FOOTBALL MANIA",
+      "matchedEventTerms": [
+        "miami",
+        "first",
+        "trophy",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-019-inter-miami-first-trophy/card-05.jpg",
+      "sha256": "4c66d52c17767104a1361dbd006c0c087df88136eaec14385d74e415140c67c5",
+      "sourceUrl": "https://www.youtube.com/watch?v=7GqFWaC6C68",
+      "sourceTitle": "HIGHLIGHTS from Lionel Messi’s Inter Miami debut vs. Cruz Azul | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

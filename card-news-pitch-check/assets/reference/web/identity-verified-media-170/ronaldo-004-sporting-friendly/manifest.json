@@ -1,0 +1,94 @@
+{
+  "topicId": "ronaldo-004-sporting-friendly",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" sporting friendly football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-004-sporting-friendly/card-01.jpg",
+      "sha256": "32e9fbc9c58ea93304132e8c5cf1720d32fc4e58609357953ebd3d69126f5d84",
+      "sourceUrl": "https://www.youtube.com/watch?v=O4-REuoQUwU",
+      "sourceTitle": "Cristiano Ronaldo Vs Manchester United Home (English Commentary) - 03-04 By CrixRonnie",
+      "sourceChannel": "CrixRonnieOfficial",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united",
+        "2003"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-004-sporting-friendly/card-02.jpg",
+      "sha256": "73584cdb64400bfe97c5804dc19f110c8c514683d2b5675c2725a584edd45dd0",
+      "sourceUrl": "https://www.youtube.com/watch?v=RcU5e9mLHo8",
+      "sourceTitle": "Cristiano Ronaldo on the game that made Manchester United sign him",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-004-sporting-friendly/card-03.jpg",
+      "sha256": "f640eccd0c7fb6c393c6f0acb320f1d45b3e9e1b63d432a197d658ae2efc2a14",
+      "sourceUrl": "https://www.youtube.com/watch?v=sP90VDiIOXs",
+      "sourceTitle": "\"Maybe someone doesn't like me because I'm too good?\" - Cristiano Ronaldo on cheating accusations",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-004-sporting-friendly/card-04.jpg",
+      "sha256": "05e3129405b5accd104daa8b517d97caa604314a50e66d478f97babeebd82cb9",
+      "sourceUrl": "https://www.youtube.com/watch?v=hm45fKy8srI",
+      "sourceTitle": "10 Legendary Moments by Cristiano Ronaldo for Manchester United",
+      "sourceChannel": "ArtSoccer",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-004-sporting-friendly/card-05.jpg",
+      "sha256": "956d2e0f82e7ec72fe0baf30547fc21af8bdc98ee8d7a03a92c55d8ba7701b3e",
+      "sourceUrl": "https://www.youtube.com/watch?v=DCXIWtj9x1s",
+      "sourceTitle": "Bruno Fernandes RESPONDS to that Cristiano Ronaldo MOMENT!",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

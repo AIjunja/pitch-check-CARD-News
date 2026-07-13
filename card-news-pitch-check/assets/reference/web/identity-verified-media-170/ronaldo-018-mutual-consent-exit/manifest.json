@@ -1,0 +1,97 @@
+{
+  "topicId": "ronaldo-018-mutual-consent-exit",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" mutual consent exit football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-018-mutual-consent-exit/card-01.jpg",
+      "sha256": "6d8d85f6a57c34a51d9edee6f3f1cee09cb34405d020309740d8d0a25a30afa5",
+      "sourceUrl": "https://www.youtube.com/watch?v=dcSRJitewkE",
+      "sourceTitle": "CRISTIANO RONALDO DEPARTS MANCHESTER UNITED BY MUTUAL CONSENT",
+      "sourceChannel": "The False Nine Show",
+      "matchedEventTerms": [
+        "mutual",
+        "consent",
+        "cristiano",
+        "ronaldo",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-018-mutual-consent-exit/card-02.jpg",
+      "sha256": "6e70b8126c2f192a0377eb1d7e5bb1bebc8b4c0aedaaff6de63b3a60fc67623b",
+      "sourceUrl": "https://www.youtube.com/watch?v=utv7YqSJ6HU",
+      "sourceTitle": "Cristiano Ronaldo leaves Manchester United by mutual consent",
+      "sourceChannel": "BANG Showbiz",
+      "matchedEventTerms": [
+        "mutual",
+        "consent",
+        "cristiano",
+        "ronaldo",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-018-mutual-consent-exit/card-03.jpg",
+      "sha256": "62b9872aa143f522a57ca8b71ab346f3b0fa3072f4cc777fb598a1d5bf45c23a",
+      "sourceUrl": "https://www.youtube.com/watch?v=cj8F1s3Ay5w",
+      "sourceTitle": "A Man Utd legend might've cracked Cristiano Ronaldo's ugly exit with new theory",
+      "sourceChannel": "World news",
+      "matchedEventTerms": [
+        "mutual",
+        "consent",
+        "exit",
+        "cristiano",
+        "ronaldo",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-018-mutual-consent-exit/card-04.jpg",
+      "sha256": "2cb1882c5e6d78ab7695ad9a8b3c8de0da7439b327f596979b007e8ef0d42f91",
+      "sourceUrl": "https://www.youtube.com/watch?v=kF0smsPT1rA",
+      "sourceTitle": "CRISTIANO RONALDO Leaves Manchester United By Mutual Consent - RIO’S THOUGHTS?",
+      "sourceChannel": "Rio Ferdinand Presents",
+      "matchedEventTerms": [
+        "mutual",
+        "consent",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-018-mutual-consent-exit/card-05.jpg",
+      "sha256": "8cd1740e89aa0309a0b7935d5d57b1fc81b97af334ae9b859d0c29cce9743bdc",
+      "sourceUrl": "https://www.youtube.com/watch?v=trarV3LT1XI",
+      "sourceTitle": "Cristiano Ronaldo to Leave Manchester United With Immediate Effect",
+      "sourceChannel": "Empire Weekly",
+      "matchedEventTerms": [
+        "mutual",
+        "consent",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

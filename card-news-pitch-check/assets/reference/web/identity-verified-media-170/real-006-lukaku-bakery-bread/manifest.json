@@ -1,0 +1,84 @@
+{
+  "topicId": "real-006-lukaku-bakery-bread",
+  "player": "Romelu Lukaku",
+  "query": "\"Romelu Lukaku\" lukaku bakery bread football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-006-lukaku-bakery-bread/card-01.jpg",
+      "sha256": "c24b359ecac1b50b2b44fceda9b847f7b56c77a19080c94d0362e3bf8e06932c",
+      "sourceUrl": "https://www.youtube.com/watch?v=9mqb_5nzBOs",
+      "sourceTitle": "Romelu Lukaku | Every FIFA World Cup Goal for Belgium",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "belgium"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-006-lukaku-bakery-bread/card-02.jpg",
+      "sha256": "1e23f92f69896a2022b66d90da3e26b058e651d7b60bd6e068eced048eb11c33",
+      "sourceUrl": "https://www.youtube.com/watch?v=nO31gdP1vWQ",
+      "sourceTitle": "Thierry Henry embarrasses Romelu Lukaku on the basketball court",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-006-lukaku-bakery-bread/card-03.jpg",
+      "sha256": "44cc5446af76f7510ce3205cd54d0b3230765b07b2dd822031bdbc1eee731647",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cj5E5D33dzc",
+      "sourceTitle": "Romelu Lukaku vs Jamie Carragher",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-006-lukaku-bakery-bread/card-04.jpg",
+      "sha256": "7b72aaad712d635b8e7a266248e219bb17cbb662ba9566c58ec00e19427d8087",
+      "sourceUrl": "https://www.youtube.com/watch?v=maQW9lJj2PE",
+      "sourceTitle": "Lukaku joins Roma - Chelsea striker signs on a season-long loan deal with the Italian club.",
+      "sourceChannel": "CGTN Sports Scene",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-006-lukaku-bakery-bread/card-05.jpg",
+      "sha256": "ef7a0c7478831e2fd100cf8dab92f170635e1558f85315f229a29d270d52b191",
+      "sourceUrl": "https://www.youtube.com/watch?v=KUQa18NvmQ4",
+      "sourceTitle": "Every Romelu Lukaku Goal Ft. Chelsea, Man Utd, Everton & West Brom | Premier League",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

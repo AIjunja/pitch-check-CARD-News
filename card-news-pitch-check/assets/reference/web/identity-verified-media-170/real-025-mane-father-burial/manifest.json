@@ -1,0 +1,90 @@
+{
+  "topicId": "real-025-mane-father-burial",
+  "player": "Sadio Mane",
+  "query": "\"Sadio Mane\" mane father burial football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-025-mane-father-burial/card-01.jpg",
+      "sha256": "9a5b8eae1d4b16ba99d13a7f47c179b6e18c1a8afc03625d9968356f365ac0ca",
+      "sourceUrl": "https://www.youtube.com/watch?v=hbcqMSUEMxM",
+      "sourceTitle": "Mane's 10 greatest moments | Wondergoals, late winners and a special celebration",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-025-mane-father-burial/card-02.jpg",
+      "sha256": "411a569d632d004061ac6a3e8c46790339f95fecc641fe8181f7b082b1181b17",
+      "sourceUrl": "https://www.youtube.com/watch?v=p86SuBBiE5k",
+      "sourceTitle": "Sadio Mane back story profile for BBC African Footballer of the Year",
+      "sourceChannel": "Giles Goford",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-025-mane-father-burial/card-03.jpg",
+      "sha256": "b271a462e27d4c3c5e348fff42fd9021da054d436b08ca623be3726080854595",
+      "sourceUrl": "https://www.youtube.com/watch?v=l5wmAkg2Q0I",
+      "sourceTitle": "Sadio Mané (born 10 April 1992) is a Senegalese professional footballer who plays for Liverpool Fc",
+      "sourceChannel": "Sadio Mane",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-025-mane-father-burial/card-04.jpg",
+      "sha256": "17faed8a4ef1802c46852d654b33d6ea6fbce19dd26fc1dc44b6c8226a1962ca",
+      "sourceUrl": "https://www.youtube.com/watch?v=UYxdupVy4N8",
+      "sourceTitle": "Sadio Mane, A Genuine Good Man- Says Goodbye To Liverpool",
+      "sourceChannel": "International Celebrities' Lifestyle & Facts 2M",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-025-mane-father-burial/card-05.jpg",
+      "sha256": "738518e92aeacd7dcbe38c28a0aef98ddd054e2acf8c71f25a00e3081a7ae7ae",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQ3MzNPmCxk",
+      "sourceTitle": "Sadio Mane: How Salah Made Me Angry | Winning AFCON with Senegal The Best",
+      "sourceChannel": "Rio Ferdinand Presents",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal",
+        "emotional"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

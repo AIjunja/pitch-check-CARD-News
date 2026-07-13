@@ -1,0 +1,96 @@
+{
+  "topicId": "messi-007-first-official-goal",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" first official goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-007-first-official-goal/card-01.jpg",
+      "sha256": "e8e6af3a860f25a65db9705c4aaeb15f5ae9acbf6a4ecc1b1e8443ddaae74852",
+      "sourceUrl": "https://www.youtube.com/watch?v=YuoN3EYdNTs",
+      "sourceTitle": "FULL MATCH: THE DAY MESSI SCORED HIS FIRST GOAL (BARÇA-ALBACETE 2005)",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "first",
+        "messi",
+        "2005",
+        "05",
+        "albacete",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-007-first-official-goal/card-02.jpg",
+      "sha256": "0bdae59b83d85c02a38c19cf327676188d6086f7bbc5580e87bf58b4011127d9",
+      "sourceUrl": "https://www.youtube.com/watch?v=0b0409nSFZs",
+      "sourceTitle": "Lionel Messi's First Goal for Barcelona (English Commentary) 720p",
+      "sourceChannel": "Danirai Jorang",
+      "matchedEventTerms": [
+        "first",
+        "lionel",
+        "messi",
+        "ronaldinho",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-007-first-official-goal/card-03.jpg",
+      "sha256": "f9d555671b129f41687657784b1b184f6d43ca36ea75a8fe39a4e7bf1ca171b1",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyW7CO722ho",
+      "sourceTitle": "Messi's first official goal for FC Barcelona",
+      "sourceChannel": "beIN SPORTS USA",
+      "matchedEventTerms": [
+        "first",
+        "messi",
+        "albacete",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-007-first-official-goal/card-04.jpg",
+      "sha256": "0507ef4dc3d49bed9e1afd6abf0d2c5e2ce7e3f265fd5de5ca88b728b522ebe1",
+      "sourceUrl": "https://www.youtube.com/watch?v=rSbwRPgOZV4",
+      "sourceTitle": "Lionel Messi's First PSG Goal! Argentine Combines With Mbappé For Vintage Goal Against Man City",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "first",
+        "lionel",
+        "messi",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-007-first-official-goal/card-05.jpg",
+      "sha256": "af9736d96e38a0c0f96e7548c013527cf3068cac0518576f24204d8c82d71d59",
+      "sourceUrl": "https://www.youtube.com/watch?v=EdwIVC7LaJE",
+      "sourceTitle": "Lionel Messi: All FIFA World Cup Goals | Argentina (2006–2022)",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "first",
+        "lionel",
+        "messi",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

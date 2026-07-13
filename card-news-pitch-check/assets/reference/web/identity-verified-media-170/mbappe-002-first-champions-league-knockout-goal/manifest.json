@@ -1,0 +1,97 @@
+{
+  "topicId": "mbappe-002-first-champions-league-knockout-goal",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" first champions league knockout goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-002-first-champions-league-knockout-goal/card-01.jpg",
+      "sha256": "eb7981dcd872b7be738d674a102512f1488a59244b598d28f3a219e65f84bf8f",
+      "sourceUrl": "https://www.youtube.com/watch?v=7PYW1ZTy9l4",
+      "sourceTitle": "Real Madrid 3-1 Manchester city |champions league 2025| champions league highlights",
+      "sourceChannel": "Football World ",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "kylian",
+        "mbappe",
+        "02",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-002-first-champions-league-knockout-goal/card-02.jpg",
+      "sha256": "7119cb772196436b847fdca88a42c3ef13559c482a2bffc78fab61c358eb94e4",
+      "sourceUrl": "https://www.youtube.com/watch?v=O7C5iBJP4hg",
+      "sourceTitle": "Kylian Mbappe vs Barcelona  Champions League Hat- trick ( Away)",
+      "sourceChannel": "Sport live",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "knockout",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-002-first-champions-league-knockout-goal/card-03.jpg",
+      "sha256": "4ebd98695c541f5f4d642a2e91d816d6d87a3a1ae0b4ed86d6917461851376b6",
+      "sourceUrl": "https://www.youtube.com/watch?v=kBN_09OzBC0",
+      "sourceTitle": "Kylian Mbappe - When you score a Hattrick against Barcelona ! (Barcelona vs PSG | UCL Knockout R016)",
+      "sourceChannel": "Copyright Football Videos",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "knockout",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-002-first-champions-league-knockout-goal/card-04.jpg",
+      "sha256": "f6f29dddb7765c792a308f883652ecdc888301b8eec0fc9c7ff1adce63c24566",
+      "sourceUrl": "https://www.youtube.com/watch?v=8_DzT3KG_Co",
+      "sourceTitle": "Kylian Mbappé hat-trick vs Barcelona!! PSG vs. Barcelona. Champions League. (HD)",
+      "sourceChannel": "LeanRafa Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-002-first-champions-league-knockout-goal/card-05.jpg",
+      "sha256": "89d9fa4ddb5ddc84f81bca17487357260eee9b049c34dfd65bc26d06420fe30a",
+      "sourceUrl": "https://www.youtube.com/watch?v=MRgeg-Z5v9s",
+      "sourceTitle": "\"Playing with Messi is easy, he's the best in the world!\" Kylian Mbappe after PSG 4-1 Club Brugge",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

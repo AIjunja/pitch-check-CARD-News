@@ -1,0 +1,103 @@
+{
+  "topicId": "messi-012-inter-miami-most-trophies-record",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" inter miami most trophies record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-012-inter-miami-most-trophies-record/card-01.jpg",
+      "sha256": "6006425d101b4e71d5350093784e6c1aa4d23e76aa9fc60c5495bfaa2b6bb89a",
+      "sourceUrl": "https://www.youtube.com/watch?v=0JB7Y_N0RfA",
+      "sourceTitle": "Messi And Beckham Reaction After Winning Second Trophy For  Inter miami",
+      "sourceChannel": "CSPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "most",
+        "record",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-012-inter-miami-most-trophies-record/card-02.jpg",
+      "sha256": "5106cf80b78c1d498213f7c8132dbe7201b91262d95abd8ee34a1728dd4076cd",
+      "sourceUrl": "https://www.youtube.com/watch?v=IE3AK3eatxA",
+      "sourceTitle": "Inter Miami hosted a ceremony Lionel Messi to recognise his 45th trophy of his career",
+      "sourceChannel": "Goalmouth",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "most",
+        "lionel",
+        "messi",
+        "goalmouth"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-012-inter-miami-most-trophies-record/card-03.jpg",
+      "sha256": "3f0e94dd4d596f7bbc682f5433663526c8bb84c9a735bf5fdf938dd92b278103",
+      "sourceUrl": "https://www.youtube.com/watch?v=NXR6d1-uTFk",
+      "sourceTitle": "Messi record Inter Miami latest | Beckham inter Miami  celebration | Goat won league Cup 2023 | mls",
+      "sourceChannel": "SIXTHUNDER GAMING •387k views • 3 hours ago.....",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "record",
+        "messi",
+        "2023",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-012-inter-miami-most-trophies-record/card-04.jpg",
+      "sha256": "ecf604b0efaba6cbea0df86e53f56903c74caa9065f43ec42fb0e4ff6694efff",
+      "sourceUrl": "https://www.youtube.com/watch?v=MkAFj25ftpA",
+      "sourceTitle": "Lionel Messi became the most decorated footballer of all time as he guided MLS to league title.",
+      "sourceChannel": "Facts Served Hot",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "most",
+        "lionel",
+        "messi",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-012-inter-miami-most-trophies-record/card-05.jpg",
+      "sha256": "64d3606a5a090fd97f3f3adeaa34849c42a5f5fbc9acdeaeac0432acd3c04d0f",
+      "sourceUrl": "https://www.youtube.com/watch?v=SjU80F_LfcY",
+      "sourceTitle": "Inter Miami's Lionel Messi wins record 8th Ballon d'Or",
+      "sourceChannel": "CBS Miami",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "record",
+        "lionel",
+        "messi",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

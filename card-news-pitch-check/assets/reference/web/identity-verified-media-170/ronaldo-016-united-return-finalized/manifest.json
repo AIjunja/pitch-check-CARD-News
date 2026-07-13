@@ -1,0 +1,97 @@
+{
+  "topicId": "ronaldo-016-united-return-finalized",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" united return finalized football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-016-united-return-finalized/card-01.jpg",
+      "sha256": "cf1a46e386cebf12718c911ed002b6085eaf79488598f9808cf8ceaf129e8b98",
+      "sourceUrl": "https://www.youtube.com/watch?v=AmHsd9NG_fs",
+      "sourceTitle": "Ronaldo hat-trick seals vital win! | Manchester United 3-2 Tottenham | Highlights | Premier League",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "action",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-016-united-return-finalized/card-02.jpg",
+      "sha256": "162fa511a4891d31a0c55f2b628b022470d3a73a71102fe2ca30daa6ff9361d0",
+      "sourceUrl": "https://www.youtube.com/watch?v=V_d3piTME0Y",
+      "sourceTitle": "THE PROBLEM – How One Man Carried Manchester United Alone",
+      "sourceChannel": "Aedits",
+      "matchedEventTerms": [
+        "united",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-016-united-return-finalized/card-03.jpg",
+      "sha256": "af6cc1ba6d767ef302751cad747d94115b905da44089e8c0910b676b53619731",
+      "sourceUrl": "https://www.youtube.com/watch?v=5YHBFGQENDo",
+      "sourceTitle": "Ronaldo scores last gasp winner after Telles stunner | Manchester United 2-1 Villarreal | UCL",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "action",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-016-united-return-finalized/card-04.jpg",
+      "sha256": "641f959388d98579491e3eed8051a97d88d50d46ae3d32c7746c86d0e0e12ce6",
+      "sourceUrl": "https://www.youtube.com/watch?v=LKvlfxVC210",
+      "sourceTitle": "Cristiano Ronaldo's return to Carrington | Training | Manchester United v Newcastle United",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "united",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-016-united-return-finalized/card-05.jpg",
+      "sha256": "e9f617cce68baae17dbd0363ec6cbf8172af6c6d26d1bb7895e33ecc694a12f7",
+      "sourceUrl": "https://www.youtube.com/watch?v=cWhsNYoCujM",
+      "sourceTitle": "Cristiano Ronaldo's All Goals & Assists for Manchester United 2021/22 Season (English Commentary)",
+      "sourceChannel": "PREDATORXHD",
+      "matchedEventTerms": [
+        "united",
+        "cristiano",
+        "ronaldo",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

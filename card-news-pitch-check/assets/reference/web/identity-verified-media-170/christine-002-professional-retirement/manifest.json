@@ -1,0 +1,100 @@
+{
+  "topicId": "christine-002-professional-retirement",
+  "player": "Christine Sinclair",
+  "query": "\"Christine Sinclair\" professional retirement football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/christine-002-professional-retirement/card-01.jpg",
+      "sha256": "15d97635ca7fbac3c757e20edf087b396c30522b0a5b8d887e96177e74910531",
+      "sourceUrl": "https://www.youtube.com/watch?v=NSy61kKEDvo",
+      "sourceTitle": "Thank You Sinc | Christine Sinclair Announces Retirement at the End of the 2024 Season",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "professional",
+        "retirement",
+        "christine",
+        "sinclair",
+        "2024",
+        "portland",
+        "thorns"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/christine-002-professional-retirement/card-02.jpg",
+      "sha256": "8b6647b4ce09dc63e1ef54494a66a17691ba6167bddb9285f87100ff3262742c",
+      "sourceUrl": "https://www.youtube.com/watch?v=OMRSTFW0DIM",
+      "sourceTitle": "WATCH | The moment her Thorns teammates saw Christine Sinclair and Canada win gold",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "christine",
+        "sinclair",
+        "teammates",
+        "portland",
+        "thorns"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/christine-002-professional-retirement/card-03.jpg",
+      "sha256": "b75eb52c9d808f946f1cb4adf8a500487fd39f5afb5ebd820b961f7c8a943f5e",
+      "sourceUrl": "https://www.youtube.com/watch?v=GrFpbmBPe_s",
+      "sourceTitle": "MUST WATCH | Sinclair with another world-class finish",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "christine",
+        "sinclair",
+        "ball",
+        "portland",
+        "thorns"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/christine-002-professional-retirement/card-04.jpg",
+      "sha256": "5f3e64781731403f23ca59ee6c67832674704bdfed1d30aaa21ea8d7c4c649b3",
+      "sourceUrl": "https://www.youtube.com/watch?v=KMre0Of8f80",
+      "sourceTitle": "Portland Thorns great Christine Sinclair announces retirement",
+      "sourceChannel": "KPTV FOX 12 | Local news, weather Portland, Oregon",
+      "matchedEventTerms": [
+        "professional",
+        "retirement",
+        "christine",
+        "sinclair",
+        "portland",
+        "thorns"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/christine-002-professional-retirement/card-05.jpg",
+      "sha256": "fd98ea6b4c2cc67c24507e5ad7adb7dde1c8c7a0932945d0acb4018f7e3d5e27",
+      "sourceUrl": "https://www.youtube.com/watch?v=mRaQquXFtBc",
+      "sourceTitle": "Christine Sinclair's emotional goodbye to Thorns FC fans | No Matter How You Fan",
+      "sourceChannel": "Sports On Prime",
+      "matchedEventTerms": [
+        "christine",
+        "sinclair",
+        "portland",
+        "thorns"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

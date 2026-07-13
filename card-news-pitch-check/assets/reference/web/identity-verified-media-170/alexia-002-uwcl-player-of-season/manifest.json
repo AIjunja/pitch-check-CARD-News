@@ -1,0 +1,100 @@
+{
+  "topicId": "alexia-002-uwcl-player-of-season",
+  "player": "Alexia Putellas",
+  "query": "\"Alexia Putellas\" uwcl player of season football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-002-uwcl-player-of-season/card-01.jpg",
+      "sha256": "dd1de029bc48146930f8df81561264d0ea54a546c77cada721f84a8eac40649f",
+      "sourceUrl": "https://www.youtube.com/watch?v=MY9ZkvVL6DY",
+      "sourceTitle": "Alexia Putellas Wins UEFA's Women's Player Of The Year Award For A SECOND Straight Year",
+      "sourceChannel": "DAZN Women's Football",
+      "matchedEventTerms": [
+        "uwcl",
+        "alexia",
+        "putellas",
+        "champions",
+        "league",
+        "award"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-002-uwcl-player-of-season/card-02.jpg",
+      "sha256": "95d2253b0803ec0144606f6e7856d9f9f00d251981fe9fcc071caf74f823e036",
+      "sourceUrl": "https://www.youtube.com/watch?v=BrbOqFMkDBg",
+      "sourceTitle": "Golo de Alexia Putellas | FC Barcelona 2-0 Lyon | Women's Champions League 23/24",
+      "sourceChannel": "DAZN Portugal",
+      "matchedEventTerms": [
+        "uwcl",
+        "alexia",
+        "putellas",
+        "24",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-002-uwcl-player-of-season/card-03.jpg",
+      "sha256": "bb9a438c8f59750621d0e351e0604b735fa131406cd4c8267153542287c05017",
+      "sourceUrl": "https://www.youtube.com/watch?v=0zn82aAP4NU",
+      "sourceTitle": "Alexia Putellas Presents Her UEFA Player of the Year Award To Camp Nou 💫",
+      "sourceChannel": "DAZN Women's Football",
+      "matchedEventTerms": [
+        "alexia",
+        "putellas",
+        "champions",
+        "league",
+        "award"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-002-uwcl-player-of-season/card-04.jpg",
+      "sha256": "2a3fa1e288bbbf875ac43e27ac64e42defe9136f934f21182d8d8bc81132942d",
+      "sourceUrl": "https://www.youtube.com/watch?v=5c-dk4LC7AY",
+      "sourceTitle": "Alexia Putellas wins UWCL Midfielder of the Season!",
+      "sourceChannel": "Virgin Media Sport",
+      "matchedEventTerms": [
+        "uwcl",
+        "season",
+        "alexia",
+        "putellas",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-002-uwcl-player-of-season/card-05.jpg",
+      "sha256": "3abe200bc802a0a5da9b53480757e353200f0f9ff4f9fcd07af752c80db1ccb8",
+      "sourceUrl": "https://www.youtube.com/watch?v=dZ1knHU0lFQ",
+      "sourceTitle": "🏆Barcelona Triumphs! Aitana Bonmatí and Alexia Putellas Shine in UEFA Women’s Champions League Final",
+      "sourceChannel": "10X FOOTBALL",
+      "matchedEventTerms": [
+        "alexia",
+        "putellas",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -5,5 +5,6 @@ card-ne
 package-lock.json
 projects/auto-*/
 projects/gemini-*/
+projects/complete-story-bank-170/
 dist/uploads/
 assets/reference/web/football-story-bank/*.djvu

@@ -1,0 +1,93 @@
+{
+  "topicId": "messi-001-growth-treatment-move",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" growth treatment move football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-001-growth-treatment-move/card-01.jpg",
+      "sha256": "762d2dc35dc239bf8dfef6a976a051cd00e76edb29b773a52e89f0804015deef",
+      "sourceUrl": "https://www.youtube.com/watch?v=WxK7z9RrOtI",
+      "sourceTitle": "Messi, How The Smallest Kid became the Biggest Footballer | Growth Hormone Deficiency",
+      "sourceChannel": "Disports",
+      "matchedEventTerms": [
+        "growth",
+        "treatment",
+        "lionel",
+        "messi",
+        "rosario",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-001-growth-treatment-move/card-02.jpg",
+      "sha256": "a7adb64a60c05cbdb8ab164065761dfc7238a0878ecba15877d379022483b7f7",
+      "sourceUrl": "https://www.youtube.com/watch?v=5VK3trCx1dk",
+      "sourceTitle": "From Rosario to Barcelona | The Rise of Lionel Messi",
+      "sourceChannel": "Fanatic Football Fans",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "rosario",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-001-growth-treatment-move/card-03.jpg",
+      "sha256": "90eec5d3bf3753d38f4d49e842c156a760e69c4e8b1530112a926c7d1ac49920",
+      "sourceUrl": "https://www.youtube.com/watch?v=-lIZ8zMJdR8",
+      "sourceTitle": "What a goal Messi Vs Austria #fifa",
+      "sourceChannel": "HSHC",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "rosario"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-001-growth-treatment-move/card-04.jpg",
+      "sha256": "075a48d8ea1ab49ec8f0dedbca4625b5c449aab77f6dce8281b571966ed01335",
+      "sourceUrl": "https://www.youtube.com/watch?v=B6IMspPyAOk",
+      "sourceTitle": "'I'd never seen anything like Lionel Messi' - Fabregas relives rare clips from Barca academy | MESSI",
+      "sourceChannel": "BBC Sport",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "academy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-001-growth-treatment-move/card-05.jpg",
+      "sha256": "32415b8bdcb6879265bddc46eb485700ede569da31a1a60c16a3be5cb309f5f5",
+      "sourceUrl": "https://www.youtube.com/watch?v=NRdGA2pDdYo",
+      "sourceTitle": "The Legend of Lionel Messi",
+      "sourceChannel": "MyPaul06",
+      "matchedEventTerms": [
+        "lionel",
+        "messi",
+        "rosario",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

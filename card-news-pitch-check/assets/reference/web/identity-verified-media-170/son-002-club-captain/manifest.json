@@ -1,0 +1,103 @@
+{
+  "topicId": "son-002-club-captain",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" club captain football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-002-club-captain/card-01.jpg",
+      "sha256": "249925caf4a999410651046fc6ecf4d52f92c6d07b431bc1d5600a407d48d48d",
+      "sourceUrl": "https://www.youtube.com/watch?v=k8aTpmpjUyU",
+      "sourceTitle": "HEUNG-MIN SON IS NAMED TOTTENHAM HOTSPUR CAPTAIN // INCREDIBLE BEHIND-THE-SCENES FOOTAGE",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "teammates",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-002-club-captain/card-02.jpg",
+      "sha256": "cc96a995ac55c5e529b7e6c45cf681b9a2eacc316c387cb667d5993f8b4c8aaf",
+      "sourceUrl": "https://www.youtube.com/watch?v=2DwCVmQnL8Q",
+      "sourceTitle": "I Joined Tottenham",
+      "sourceChannel": "Celine Dept",
+      "matchedEventTerms": [
+        "club",
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-002-club-captain/card-03.jpg",
+      "sha256": "300f8efd843b34ac426a4cf84c1b94d57b1317b1c5e6a279eec5ad1ac05119ed",
+      "sourceUrl": "https://www.youtube.com/watch?v=Da8GkUYUujU",
+      "sourceTitle": "OFFICIAL CLUB STATEMENT: 손흥민 HEUNG-MIN SON NAMED TOTTENHAM CAPTAIN: Maddison & Romero Vice Captains",
+      "sourceChannel": "Chris Cowlin: Spurs Chat Podcast & Tottenham News",
+      "matchedEventTerms": [
+        "club",
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-002-club-captain/card-04.jpg",
+      "sha256": "9218479e7885e2d2900eb0965aa0519823247a6174e40b32c25b579700862833",
+      "sourceUrl": "https://www.youtube.com/watch?v=lR0Peu3FLQA",
+      "sourceTitle": "EMOTIONAL Son Heung-min reflects on becoming first Tottenham captain since 2008 to lift a trophy 🤍",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "08",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-002-club-captain/card-05.jpg",
+      "sha256": "22ae15e3fd93e28e1727f2ffee15acbd879b732c26ac42d41a95dfeff5b6b73d",
+      "sourceUrl": "https://www.youtube.com/watch?v=fwa93MT8pSY",
+      "sourceTitle": "Tottenham captain Son Heung-min says he will leave the club this summer after 10 years",
+      "sourceChannel": "heard it football ",
+      "matchedEventTerms": [
+        "club",
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

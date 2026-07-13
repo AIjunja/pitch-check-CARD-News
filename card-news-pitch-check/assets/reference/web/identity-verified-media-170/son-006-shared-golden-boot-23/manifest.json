@@ -1,0 +1,108 @@
+{
+  "topicId": "son-006-shared-golden-boot-23",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" shared golden boot 23 football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-006-shared-golden-boot-23/card-01.jpg",
+      "sha256": "2a593678cc0a86ee325991b3d4339fe6910ae4b84e014d0ccb9bf8eec0e27b63",
+      "sourceUrl": "https://www.youtube.com/watch?v=JOYkwYwFnVs",
+      "sourceTitle": "Heung-Min Son & SALAH  |  Premier League Golden Boot 2021/22  | Watch all 23 goals",
+      "sourceChannel": "KOREAROCK100",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "23",
+        "son",
+        "heung",
+        "min",
+        "22"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-006-shared-golden-boot-23/card-02.jpg",
+      "sha256": "134b2ced5e47a5b613f733df3c861b334e119f54f5fca50fb49b51a43368850a",
+      "sourceUrl": "https://www.youtube.com/watch?v=A8XqzHyAtUM",
+      "sourceTitle": "Heung-Min Son & SALAH | Premier League Golden Boot 2021/22 | Watch all 23 goals",
+      "sourceChannel": "Ex3rc1se",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "23",
+        "son",
+        "heung",
+        "min",
+        "22"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-006-shared-golden-boot-23/card-03.jpg",
+      "sha256": "74bd85655192654763e66db8fdd4e3a16c7fa0506ae9ca71d87901fdf76fed19",
+      "sourceUrl": "https://www.youtube.com/watch?v=dSuw8rwctvk",
+      "sourceTitle": "CAN HEUNG-MIN SON 손흥민 CATCH SALAH? The Race for the Golden Boot 2021/2022",
+      "sourceChannel": "Chris Cowlin: Spurs Chat Podcast & Tottenham News",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "son",
+        "heung",
+        "min",
+        "2022",
+        "22"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-006-shared-golden-boot-23/card-04.jpg",
+      "sha256": "1577c6de29b678e75366545a9596f017b72d5341c3c2435971729bba94656354",
+      "sourceUrl": "https://www.youtube.com/watch?v=C6kINjhevS8",
+      "sourceTitle": "All 23 Goals of Mohamed Salah in Season 21/22 | Golden Boot Winner ᴴᴰ | (English Commentary)",
+      "sourceChannel": "Moon Ball",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "23",
+        "son",
+        "heung",
+        "min",
+        "22",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-006-shared-golden-boot-23/card-05.jpg",
+      "sha256": "5e126704254194b39fa2840c7caba6a0f3c84689780cdeb466edeac44de1acbb",
+      "sourceUrl": "https://www.youtube.com/watch?v=UfbifMhAOFU",
+      "sourceTitle": "ALL GOALS SCORED BY HEUNG MIN SON FOR TOTTENHAM HOTSPUR (2022/23)",
+      "sourceChannel": "Season Goals",
+      "matchedEventTerms": [
+        "23",
+        "son",
+        "heung",
+        "min",
+        "2022",
+        "22"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

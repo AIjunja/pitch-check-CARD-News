@@ -1,0 +1,102 @@
+{
+  "topicId": "messi-018-inter-miami-signing",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" inter miami signing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-018-inter-miami-signing/card-01.jpg",
+      "sha256": "987282dc6edd89dd94a4d56667b7e36058cf768b1611d021f253e61815d4b700",
+      "sourceUrl": "https://www.youtube.com/watch?v=G0z0CoNocSU",
+      "sourceTitle": "Inter Miami CF officially announces signing of Lionel Messi",
+      "sourceChannel": "CBS Miami",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "signing",
+        "lionel",
+        "messi",
+        "press",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-018-inter-miami-signing/card-02.jpg",
+      "sha256": "0f1e1ae7c3e43755b39ae9d77815c855aea0c045cd8aac37b42ec2a4723235c8",
+      "sourceUrl": "https://www.youtube.com/watch?v=2VPXpc5G17M",
+      "sourceTitle": "Lionel Messi signs a new contract with Inter Miami",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "lionel",
+        "messi",
+        "contract",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-018-inter-miami-signing/card-03.jpg",
+      "sha256": "48b2e4cf4fd3aded741c6de82ace69f7ee824fa88010ddd81b941b983af012bd",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3pfl9gQQ5Q",
+      "sourceTitle": "🚨 Lionel Messi signs extension with Inter Miami through 2028 🚨 | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "signing",
+        "lionel",
+        "messi",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-018-inter-miami-signing/card-04.jpg",
+      "sha256": "3236237fa77b7e234266e68dde72668d4b5be42d6b164b3ef3a8f9e6ff193551",
+      "sourceUrl": "https://www.youtube.com/watch?v=Uf2Iu_KVEkk",
+      "sourceTitle": "David Beckham’s response to Lionel Messi’s Inter Miami contract extension | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "lionel",
+        "messi",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-018-inter-miami-signing/card-05.jpg",
+      "sha256": "8ea8855bbcb9fb273d9890ddeb3c3a923122370ddd00062dfd6f3be09e5be5b7",
+      "sourceUrl": "https://www.youtube.com/watch?v=esB0AkFIDeE",
+      "sourceTitle": "Lionel Messi Officially Announced for Inter Miami",
+      "sourceChannel": "Major League Soccer",
+      "matchedEventTerms": [
+        "inter",
+        "miami",
+        "lionel",
+        "messi",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

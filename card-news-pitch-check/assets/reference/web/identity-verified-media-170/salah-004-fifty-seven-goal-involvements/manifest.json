@@ -1,0 +1,92 @@
+{
+  "topicId": "salah-004-fifty-seven-goal-involvements",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" fifty seven goal involvements football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-004-fifty-seven-goal-involvements/card-01.jpg",
+      "sha256": "451fb1a4179be88433cae70b54be30ae331b443dc1054da69152a9bee66c0121",
+      "sourceUrl": "https://www.youtube.com/watch?v=t5PtlOA0Ksc",
+      "sourceTitle": "ALL 57 Mo Salah Goals and Assist from 2024/25 | Premier League, Champions League & More!",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "25",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-004-fifty-seven-goal-involvements/card-02.jpg",
+      "sha256": "026a27c50bf5f07830d52b53d35f602daffe3e1cf7650de7425c23ca0937abd4",
+      "sourceUrl": "https://www.youtube.com/watch?v=mSIwFRlO8P8",
+      "sourceTitle": "24/25: The Season Of Mohamed Salah | BEST Goals, Assists & Highlights",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "25",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-004-fifty-seven-goal-involvements/card-03.jpg",
+      "sha256": "e97ac6dd670360ad7a8fbf46321b012e159a2327fae440700cfc627e89b9c1ce",
+      "sourceUrl": "https://www.youtube.com/watch?v=5kZYLamj6IU",
+      "sourceTitle": "EPL CHAMPION MO SALAH GLORIOUS 2025 LIFESTYLE is NOT What You Think",
+      "sourceChannel": "Mstar hub",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "2025",
+        "25",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-004-fifty-seven-goal-involvements/card-04.jpg",
+      "sha256": "128423309114f57748c680d3a7f45febda6345e6ce1fa3fff3c167511d25136a",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZFVlmi_PO5Q",
+      "sourceTitle": "Mohamed Salah transfer to Barcelona: £400k per week salary reported for Liverpool forward",
+      "sourceChannel": "Drew FC",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "season"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-004-fifty-seven-goal-involvements/card-05.jpg",
+      "sha256": "cbf6c1593da064ead1415f4e9fcbb73cc87cf346fd82f29c511918cdc7c34ba3",
+      "sourceUrl": "https://www.youtube.com/watch?v=3HWKmk8t_uM",
+      "sourceTitle": "FINAL MOHAMED SALAH INTERVIEW: Leaving Liverpool, goals, records, and his favourite trophy",
+      "sourceChannel": "Stan Sport Football",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "peak"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

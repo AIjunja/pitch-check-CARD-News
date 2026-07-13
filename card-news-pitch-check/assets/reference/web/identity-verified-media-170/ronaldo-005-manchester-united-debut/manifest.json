@@ -1,0 +1,105 @@
+{
+  "topicId": "ronaldo-005-manchester-united-debut",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" manchester united debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-005-manchester-united-debut/card-01.jpg",
+      "sha256": "73a1b355e4f1a462672f80b4aef7fd972019fc4a977e9b51e7462d095e52d010",
+      "sourceUrl": "https://www.youtube.com/watch?v=IjurCc53P0Q",
+      "sourceTitle": "Cristiano Ronaldo’s Debut Vs Bolton | English Commentary | 16/08/2003",
+      "sourceChannel": "Golazo Show",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "debut",
+        "cristiano",
+        "ronaldo",
+        "2003",
+        "08",
+        "16",
+        "bolton"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-005-manchester-united-debut/card-02.jpg",
+      "sha256": "1c7f1adb3638b4d55f0058f871dc272b627d07be9361451717a09d1d84925993",
+      "sourceUrl": "https://www.youtube.com/watch?v=Tol7XZHbnOM",
+      "sourceTitle": "FULL MATCH: Manchester United vs Bolton Wanderers 2003-2004 4-0, Cristiano Ronaldo's First Debut",
+      "sourceChannel": "Euro Footy",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "debut",
+        "cristiano",
+        "ronaldo",
+        "2003",
+        "bolton"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-005-manchester-united-debut/card-03.jpg",
+      "sha256": "b82723a12da3cbebd2f40054b8eb19a894eabc79167bcf86637397970e798039",
+      "sourceUrl": "https://www.youtube.com/watch?v=ngnMRNFAvSk",
+      "sourceTitle": "Cristiano Ronaldo Debuts for Sporting, Manchester United, Real Madrid, Juventus & Portugal",
+      "sourceChannel": "SLIZHENKOV l HD",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "debut",
+        "cristiano",
+        "ronaldo",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-005-manchester-united-debut/card-04.jpg",
+      "sha256": "9304c139d9b9a229398e03a35060787d8aa5306f407bec20beebd12a6ab58957",
+      "sourceUrl": "https://www.youtube.com/watch?v=gYVowpin-Cw",
+      "sourceTitle": "Cristiano Ronaldo 2003-2004 His First Season in Manchester United",
+      "sourceChannel": "Footballislife",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "cristiano",
+        "ronaldo",
+        "2003"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-005-manchester-united-debut/card-05.jpg",
+      "sha256": "66703edfa40d011b7666286ce0011cbab66c8add5436de69540ed9fb9c48be2e",
+      "sourceUrl": "https://www.youtube.com/watch?v=X3EkBc9mWis",
+      "sourceTitle": "The First HATTRICK Cristiano Ronaldo Scored For Manchester United",
+      "sourceChannel": "CrixRonnieOfficial",
+      "matchedEventTerms": [
+        "manchester",
+        "united",
+        "cristiano",
+        "ronaldo",
+        "08"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

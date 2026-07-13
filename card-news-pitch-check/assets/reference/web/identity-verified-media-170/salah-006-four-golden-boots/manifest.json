@@ -1,0 +1,95 @@
+{
+  "topicId": "salah-006-four-golden-boots",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" four golden boots football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-006-four-golden-boots/card-01.jpg",
+      "sha256": "3f5b3c7f5d70697feead49e255b649b21848ee92d385a5cf3dc9e11a54358a92",
+      "sourceUrl": "https://www.youtube.com/watch?v=uZeYP6GKSYQ",
+      "sourceTitle": "Mo Salah receives Premier League golden boot AND playmaker awards!",
+      "sourceChannel": "This Is Anfield",
+      "matchedEventTerms": [
+        "golden",
+        "mohamed",
+        "salah",
+        "award",
+        "premier"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-006-four-golden-boots/card-02.jpg",
+      "sha256": "ac8d8b8c7a7d9bda77e0ae06a09d06ade228a6afce160c4fcc9ace8434d5b7d6",
+      "sourceUrl": "https://www.youtube.com/watch?v=ysW0Byjidd0",
+      "sourceTitle": "Mohamed Salah's Journey to Premier League LEGEND - Greatness Comes From Everywhere",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "golden",
+        "boots",
+        "mohamed",
+        "salah",
+        "premier"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-006-four-golden-boots/card-03.jpg",
+      "sha256": "fd72d39d1419a8f8dcf4d71fefafefff21477f54cb04710f1903de783450f296",
+      "sourceUrl": "https://www.youtube.com/watch?v=7wEO3gE9ae8",
+      "sourceTitle": "Salah, Mane & Aubameyang Share Premier League Golden Boot",
+      "sourceChannel": "BeanymanSports",
+      "matchedEventTerms": [
+        "golden",
+        "mohamed",
+        "salah",
+        "premier"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-006-four-golden-boots/card-04.jpg",
+      "sha256": "bab4007bd635e082d82844482325960290c67f4543eb2e73bc74e8e6a30b2412",
+      "sourceUrl": "https://www.youtube.com/watch?v=8IEMyJBVsEA",
+      "sourceTitle": "Sergio Ramos looks on awkwardly as Mo Salah talks about his incredible debut season at Liverpool",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "golden",
+        "mohamed",
+        "salah",
+        "premier"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-006-four-golden-boots/card-05.jpg",
+      "sha256": "676f228ccc888b9b7a7a86b6bc56153d219c0b73b18b6346a4152d1cc1929900",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ar98Yk5zW8o",
+      "sourceTitle": "Premier League Golden Boot Winners - Mohamed Salah breaks Premier League goals coring record",
+      "sourceChannel": "12th Man",
+      "matchedEventTerms": [
+        "golden",
+        "mohamed",
+        "salah",
+        "premier"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

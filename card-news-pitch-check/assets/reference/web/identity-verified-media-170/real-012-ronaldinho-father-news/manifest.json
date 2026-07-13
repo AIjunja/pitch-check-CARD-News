@@ -1,0 +1,84 @@
+{
+  "topicId": "real-012-ronaldinho-father-news",
+  "player": "Ronaldinho",
+  "query": "\"Ronaldinho\" ronaldinho father news football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-012-ronaldinho-father-news/card-01.jpg",
+      "sha256": "a8443460b35a4b4b138c93c9f451940fb96b5eaa411f5124e78e769f906783c9",
+      "sourceUrl": "https://www.youtube.com/watch?v=VDCzwSlGPA4",
+      "sourceTitle": "Ronaldinho Son Joao Mendes Joins Barcelona| He could follow his father's footsteps at Barcelona",
+      "sourceChannel": "FTB NEWS",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "father",
+        "news"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-012-ronaldinho-father-news/card-02.jpg",
+      "sha256": "4eae3cc7078abb6040791031c5628fe21f4036f52e665b527a8df66553bb321d",
+      "sourceUrl": "https://www.youtube.com/watch?v=yRK39-hufw0",
+      "sourceTitle": "Footballs FATHERS and SONS! 👨‍👩‍👦🔥 ft. Beckham, Ronaldinho & Haaland!",
+      "sourceChannel": "Austor - FIFA Prediction & More",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "father"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-012-ronaldinho-father-news/card-03.jpg",
+      "sha256": "61aba3e1c13dc01d59e1956333eb99780b01dfe577999d7c18f8552c2d0e4ff7",
+      "sourceUrl": "https://www.youtube.com/watch?v=kWVCY_Ezm1c",
+      "sourceTitle": "Footballers FATHER and SON! 👨‍👩‍👦🔥 ft. Haaland, Ronaldinho JR & Chiesa!",
+      "sourceChannel": "Austor - FIFA Prediction & More",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "father"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-012-ronaldinho-father-news/card-04.jpg",
+      "sha256": "e3589821a2bbd4d24301aeba683cac64f134baebb3e4b1c1809925f3b80c072a",
+      "sourceUrl": "https://www.youtube.com/watch?v=E7q32SgjshE",
+      "sourceTitle": "Ronaldinho Son SIGNS FOR BARCELONA! But Will He Be Like His Father? IT RARELY HAPPENS!!! 😭😭😭😭🙏🏾🙏🏾🙏🏾",
+      "sourceChannel": "Have Hope's Football Hut",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "father"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-012-ronaldinho-father-news/card-05.jpg",
+      "sha256": "dffa98bf615dd5b7aeb75b203f6626e81ede35b92e6845a93d843734eba1dd51",
+      "sourceUrl": "https://www.youtube.com/watch?v=u4Tw0qo73Xw",
+      "sourceTitle": "Footballers FATHER and SON! 👨‍👩‍👦🔥 ft. Haaland, Ronaldinho, Zidane… etc",
+      "sourceChannel": "Austor - FIFA Prediction & More",
+      "matchedEventTerms": [
+        "ronaldinho",
+        "father"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

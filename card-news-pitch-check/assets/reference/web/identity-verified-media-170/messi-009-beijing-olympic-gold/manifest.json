@@ -1,0 +1,105 @@
+{
+  "topicId": "messi-009-beijing-olympic-gold",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" beijing olympic gold football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-009-beijing-olympic-gold/card-01.jpg",
+      "sha256": "5a182f01973470caaab4577afcff3f1f8b0a0382b0e22474710191d1c0e38850",
+      "sourceUrl": "https://www.youtube.com/watch?v=mBVKA73zj3k",
+      "sourceTitle": "FC Barcelona : 10 years since Messi's Olympic gold",
+      "sourceChannel": "LetsPlayFootball",
+      "matchedEventTerms": [
+        "beijing",
+        "olympic",
+        "gold",
+        "messi",
+        "2008",
+        "08"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-009-beijing-olympic-gold/card-02.jpg",
+      "sha256": "a55db44ca894de140e6e3b8f93303401571404c51923a9dddc6de0fbd8c01285",
+      "sourceUrl": "https://www.youtube.com/watch?v=mc6jxs4qJtM",
+      "sourceTitle": "10 years since Messi's Olympic gold",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "beijing",
+        "olympic",
+        "gold",
+        "messi",
+        "2008",
+        "08"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-009-beijing-olympic-gold/card-03.jpg",
+      "sha256": "9e3ab814b553d09303a8fdbc1db70ac118d3d3217397e649ae9627e5db1dcf91",
+      "sourceUrl": "https://www.youtube.com/watch?v=E1Lyr0R_t8w",
+      "sourceTitle": "Lionel Messi Leads Argentina to Olympic Gold vs Nigeria! 🇦🇷🇳🇬 | Full Football Final | Beijing 2008",
+      "sourceChannel": "Olympic Games",
+      "matchedEventTerms": [
+        "beijing",
+        "olympic",
+        "gold",
+        "lionel",
+        "messi",
+        "2008",
+        "08"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-009-beijing-olympic-gold/card-04.jpg",
+      "sha256": "755848ecaa85033f82c2df0f793046152ffbdf24a08a2aa617a665283b0fc740",
+      "sourceUrl": "https://www.youtube.com/watch?v=2bM5YJ846n4",
+      "sourceTitle": "Past Squads | Argentina Men's Team in 2008 Olympics Beijing",
+      "sourceChannel": "KEITH BARON",
+      "matchedEventTerms": [
+        "beijing",
+        "olympic",
+        "lionel",
+        "messi",
+        "2008",
+        "08",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-009-beijing-olympic-gold/card-05.jpg",
+      "sha256": "bdc1eb2671291c68f92e6fd71a6e5e8bcac18738d7be3e3f7082b3400301cba4",
+      "sourceUrl": "https://www.youtube.com/watch?v=vS62nByVLbA",
+      "sourceTitle": "Lionel Messi led Argentina to gold in Beijing",
+      "sourceChannel": "teamsportsbeijing",
+      "matchedEventTerms": [
+        "beijing",
+        "olympic",
+        "gold",
+        "lionel",
+        "messi",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

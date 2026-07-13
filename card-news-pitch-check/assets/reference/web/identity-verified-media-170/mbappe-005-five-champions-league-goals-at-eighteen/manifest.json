@@ -1,0 +1,95 @@
+{
+  "topicId": "mbappe-005-five-champions-league-goals-at-eighteen",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" five champions league goals at eighteen football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-005-five-champions-league-goals-at-eighteen/card-01.jpg",
+      "sha256": "39ecc494638289fc04ab9b36f0bf458a13af6b874f3d6f35f7cd9f654dcf54e2",
+      "sourceUrl": "https://www.youtube.com/watch?v=qDG7L7GOfyQ",
+      "sourceTitle": "Kylian Mbappe 2017 ● Goals Champions league ● Welcome to PSG",
+      "sourceChannel": "Soccer Compilationz",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-005-five-champions-league-goals-at-eighteen/card-02.jpg",
+      "sha256": "c9b8cf1a51422ae6a2d8cff29aca0fb982bd3f30c3f918d75718e38ceec1d909",
+      "sourceUrl": "https://www.youtube.com/watch?v=6VKvR_LV_Dg",
+      "sourceTitle": "kylian mbappè penalty goal vs Benfica UEFA champions league",
+      "sourceChannel": "like goals hd",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-005-five-champions-league-goals-at-eighteen/card-03.jpg",
+      "sha256": "be0a82019d693ec5be73b855419c5b8dda2c62fdf02853994aa3c08e5b0ed219",
+      "sourceUrl": "https://www.youtube.com/watch?v=vp6kS-1CQpc",
+      "sourceTitle": "GOAL! KYLIAN MBAPPE! (PSG vs Real Madrid 1-0 Champions League 2022 Last 16 Messi Penalty Miss)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-005-five-champions-league-goals-at-eighteen/card-04.jpg",
+      "sha256": "3c9df39a1812eb02dcd717a991d167344befd72cad613b2ca9c08c076da8305c",
+      "sourceUrl": "https://www.youtube.com/watch?v=uErP-j1JarE",
+      "sourceTitle": "Kylian Mbappe - All 33 Goals for PSG - 18/19 HD",
+      "sourceChannel": "R K T",
+      "matchedEventTerms": [
+        "goals",
+        "kylian",
+        "mbappe",
+        "18"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-005-five-champions-league-goals-at-eighteen/card-05.jpg",
+      "sha256": "648d13b61864d7bdc34ba98d93725035ce7eff32bbc1b93b13390f5ec3c61bfa",
+      "sourceUrl": "https://www.youtube.com/watch?v=qCpLTJ_Mej0",
+      "sourceTitle": "Kylian Mbappé vs Manchester United Champions League 12 02 2019",
+      "sourceChannel": "Dope Sports",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

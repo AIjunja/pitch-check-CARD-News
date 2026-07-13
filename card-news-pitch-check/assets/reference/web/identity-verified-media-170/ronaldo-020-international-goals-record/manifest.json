@@ -1,0 +1,106 @@
+{
+  "topicId": "ronaldo-020-international-goals-record",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" international goals record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-020-international-goals-record/card-01.jpg",
+      "sha256": "a700ddfbad9c506020c48383ecba1cda0814ef6f33ff63b71c6dfa012b2833a9",
+      "sourceUrl": "https://www.youtube.com/watch?v=j7bd56Foi0U",
+      "sourceTitle": "Ronaldo's BRILLIANT reaction to breaking men’s all-time international goals record! 😃",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "record",
+        "cristiano",
+        "ronaldo",
+        "ball",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-020-international-goals-record/card-02.jpg",
+      "sha256": "d754af7cf83164071e207c8cfc9674a01aaad9b6b6ed17e3eabf34b2d07189d9",
+      "sourceUrl": "https://www.youtube.com/watch?v=oCwXpWpbIBU",
+      "sourceTitle": "Cristiano Ronaldo v Ali Daei | International Goals by Age",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "record",
+        "cristiano",
+        "ronaldo",
+        "portugal",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-020-international-goals-record/card-03.jpg",
+      "sha256": "89a26ba3d6c75f9c3648e6bc5f1e4157c0bc8453e1a8010e4c59315d2238027b",
+      "sourceUrl": "https://www.youtube.com/watch?v=BkiTScinYOQ",
+      "sourceTitle": "🇵🇹 Cristiano Ronaldo | FIFA World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "cristiano",
+        "ronaldo",
+        "portugal",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-020-international-goals-record/card-04.jpg",
+      "sha256": "c7e9632ecfb8edcbb16eeac88694b3742506ce6b5cfcf54d10ac11eceda67e05",
+      "sourceUrl": "https://www.youtube.com/watch?v=vf6dgx3NhTM",
+      "sourceTitle": "Cristiano Ronaldo will break international goals record and no one will beat him - Laurens | ESPN FC",
+      "sourceChannel": "ESPN UK",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "record",
+        "cristiano",
+        "ronaldo",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-020-international-goals-record/card-05.jpg",
+      "sha256": "2f5d51b7157750b129185e875bc784872ede688ba068ed9054c332c40e4cea14",
+      "sourceUrl": "https://www.youtube.com/watch?v=2eoVmg2iz4U",
+      "sourceTitle": "CR7’s International Record: Every Goal, Every Opponent",
+      "sourceChannel": "Kick Kings",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "record",
+        "cristiano",
+        "ronaldo",
+        "portugal",
+        "national"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

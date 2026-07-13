@@ -1,0 +1,89 @@
+{
+  "topicId": "real-033-rashford-ten-million-meals",
+  "player": "Marcus Rashford",
+  "query": "\"Marcus Rashford\" rashford ten million meals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-033-rashford-ten-million-meals/card-01.jpg",
+      "sha256": "97b42627ae2a8b20cca0a6bf6d0186356495975c0fea53ade556f9c37b1353b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=3mG1CwdYqok",
+      "sourceTitle": "Marcus Rashford campaign wins children right to free school meals during summer holidays - BBC News",
+      "sourceChannel": "BBC News",
+      "matchedEventTerms": [
+        "rashford",
+        "million",
+        "meals",
+        "marcus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-033-rashford-ten-million-meals/card-02.jpg",
+      "sha256": "19e733f15cb549e5ed4a5c07761d81f2cde63274e146f97f8a29071ddfc19119",
+      "sourceUrl": "https://www.youtube.com/watch?v=ixh2O1QLa3c",
+      "sourceTitle": "MUTV Group Chat | Rashford's Heroics | Premier League returns | Manchester United",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "rashford",
+        "million",
+        "marcus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-033-rashford-ten-million-meals/card-03.jpg",
+      "sha256": "d5e8760e7b0f4dc0b37ed203b884fec88d6e489a3b9424ae0dcada21342a21f3",
+      "sourceUrl": "https://www.youtube.com/watch?v=AmCcSVlKsKk",
+      "sourceTitle": "Manchester United's Marcus Rashford Leads Campaign To Feed Children",
+      "sourceChannel": "NESN",
+      "matchedEventTerms": [
+        "rashford",
+        "million",
+        "marcus"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-033-rashford-ten-million-meals/card-04.jpg",
+      "sha256": "b3cb8fad610ed89bf6f52d182312a12075806e65ccf0576a21527b3a037c6a2d",
+      "sourceUrl": "https://www.youtube.com/watch?v=9gpYZeG7RI0",
+      "sourceTitle": "Those helped by Marcus Rashford's charity work show support for Manchester United star | 5 News",
+      "sourceChannel": "5 News",
+      "matchedEventTerms": [
+        "rashford",
+        "marcus",
+        "charity"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-033-rashford-ten-million-meals/card-05.jpg",
+      "sha256": "101dc2c2f45c18efa52a4eb0d659129e52e80aa0d1b35198fa231f1fd4451ea4",
+      "sourceUrl": "https://www.youtube.com/watch?v=LdGvFWLHTJA",
+      "sourceTitle": "Marcus Rashford Return to Man United",
+      "sourceChannel": "Viral Sports ",
+      "matchedEventTerms": [
+        "rashford",
+        "marcus",
+        "training"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

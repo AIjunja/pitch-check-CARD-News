@@ -1,0 +1,97 @@
+{
+  "topicId": "salah-001-first-african-50-ucl-goals",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" first african 50 ucl goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-001-first-african-50-ucl-goals/card-01.jpg",
+      "sha256": "495f652b3462cbcbf87847acdc3287da35d268172a324386c1780bafcebfc508",
+      "sourceUrl": "https://www.youtube.com/watch?v=mazZruwqoRE",
+      "sourceTitle": "Mohamed Salah • First 20 Goals for Liverpool • 2017/18 ᴴᴰ",
+      "sourceChannel": "TaroFootball",
+      "matchedEventTerms": [
+        "first",
+        "goals",
+        "mohamed",
+        "salah",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-001-first-african-50-ucl-goals/card-02.jpg",
+      "sha256": "3949bd6e795d0781e28cf0e830c609691611ef86aae2288c3ad090a184af1697",
+      "sourceUrl": "https://www.youtube.com/watch?v=AF0zQfjnotI",
+      "sourceTitle": "Mohamed Salah Goal | MD Salah 50th UCL Goal | Liverpool vs Galatasaray 4-0 | Champions League 2026",
+      "sourceChannel": "Pitch Line",
+      "matchedEventTerms": [
+        "50",
+        "ucl",
+        "mohamed",
+        "salah",
+        "2026"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-001-first-african-50-ucl-goals/card-03.jpg",
+      "sha256": "29820639f4ffa38769dfdbe23e3ff6ec7df6fc090876694bb04f66c78b920955",
+      "sourceUrl": "https://www.youtube.com/watch?v=SjUgSz4PJK0",
+      "sourceTitle": "اول 50 هدف لمحمد صلاح مع ليفربول  | Mo Salah's first 50 Premier League goals for Liverpool",
+      "sourceChannel": "BestPost Sport",
+      "matchedEventTerms": [
+        "first",
+        "50",
+        "goals",
+        "salah",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-001-first-african-50-ucl-goals/card-04.jpg",
+      "sha256": "b1a5c8e07d4b12f78e362806c6c9e682f2756948d182ed116c0fb87bf2ab9ec5",
+      "sourceUrl": "https://www.youtube.com/watch?v=LYW_5Z2ny5M",
+      "sourceTitle": "Mohamed Salah Goal | Liverpool vs Galatasaray 4-0 | Salah 50th UCL Goal | Champions League 2026",
+      "sourceChannel": "Golden Age Chronicle",
+      "matchedEventTerms": [
+        "50",
+        "ucl",
+        "mohamed",
+        "salah",
+        "2026"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-001-first-african-50-ucl-goals/card-05.jpg",
+      "sha256": "467f9f19b58c9fef3a17d5339aa5b58b780f764c4e1523a3ae2310960630c3d2",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q_eySMjGT6k",
+      "sourceTitle": "All 50 Mo Salah Goals In The Champions League",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "50",
+        "goals",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

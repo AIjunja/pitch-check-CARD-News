@@ -1,0 +1,94 @@
+{
+  "topicId": "haaland-004-seven-goals-first-four-appearances",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" seven goals first four appearances football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-004-seven-goals-first-four-appearances/card-01.jpg",
+      "sha256": "7d4b0f2a903fade93d9d2725a4570ec04d07dd09fbbee80b051e2b9ebd29dc00",
+      "sourceUrl": "https://www.youtube.com/watch?v=Oe62Bu5QXkg",
+      "sourceTitle": "All of Erling Haaland's record-breaking first 20 Champions League goals",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "goals",
+        "first",
+        "erling",
+        "haaland",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-004-seven-goals-first-four-appearances/card-02.jpg",
+      "sha256": "b4de40482a14d56e25b6be814df436b94c2266913c3147cc44a6fc1a0707cd2e",
+      "sourceUrl": "https://www.youtube.com/watch?v=NWIFxpS5RIM",
+      "sourceTitle": "Highlights! | Man City 4-2 Crystal Palace | Haaland scores first hat-trick for City!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "goals",
+        "first",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-004-seven-goals-first-four-appearances/card-03.jpg",
+      "sha256": "ea7ae53c63385ba010a0ea6e730078bcd4fab91c0209a7023a2ede4e14f2b4af",
+      "sourceUrl": "https://www.youtube.com/watch?v=omteyqu8Bwo",
+      "sourceTitle": "HIGHLIGHTS! West Ham 0-2 Man City | Haaland Goals on Debut | Premier League",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "goals",
+        "erling",
+        "haaland",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-004-seven-goals-first-four-appearances/card-04.jpg",
+      "sha256": "45d6da30feff3b62229d75a5a6369b094847d12b6df65eb1fa8f987ee8d4301b",
+      "sourceUrl": "https://www.youtube.com/watch?v=XVOV9o79U3M",
+      "sourceTitle": "EVERY HAALAND PREMIER LEAGUE GOAL | Erling Haaland becomes fastest player to 20 PL goals!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "goals",
+        "erling",
+        "haaland",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-004-seven-goals-first-four-appearances/card-05.jpg",
+      "sha256": "678fe40751dada05b9f8162f9375505af8b7f240a42104cfb97d8bb668b76af2",
+      "sourceUrl": "https://www.youtube.com/watch?v=udjBvKOSJcE",
+      "sourceTitle": "ALL 52 ERLING HAALAND GOALS! Man City Season 2022/23 | Every Goal",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

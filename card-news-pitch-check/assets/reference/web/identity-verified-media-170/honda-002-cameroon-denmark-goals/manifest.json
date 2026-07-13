@@ -1,0 +1,103 @@
+{
+  "topicId": "honda-002-cameroon-denmark-goals",
+  "player": "Keisuke Honda",
+  "query": "\"Keisuke Honda\" cameroon denmark goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/honda-002-cameroon-denmark-goals/card-01.jpg",
+      "sha256": "260076d5ac06e946bdc7179a3d802816919a82351032a2aab6fac916bf6a3a53",
+      "sourceUrl": "https://www.youtube.com/watch?v=rsmrur2LTbY",
+      "sourceTitle": "Japan v Cameroon | 2010 FIFA World Cup | Match Highlights",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "cameroon",
+        "keisuke",
+        "honda",
+        "2010",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/honda-002-cameroon-denmark-goals/card-02.jpg",
+      "sha256": "c43f989fc8edcf6dfd4bae4ac515ab9ce60728a174fce79b0e9b9b02f2bc2c0e",
+      "sourceUrl": "https://www.youtube.com/watch?v=UdCH4_huqXw",
+      "sourceTitle": "Denmark vs Japan Keisuke Honda Goal World Cup 2010",
+      "sourceChannel": "fifaplanet1",
+      "matchedEventTerms": [
+        "denmark",
+        "keisuke",
+        "honda",
+        "2010",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/honda-002-cameroon-denmark-goals/card-03.jpg",
+      "sha256": "7d675642b330a8e2d7c21a2a2a2056d1106da858610f81b575cbfc84bba672ba",
+      "sourceUrl": "https://www.youtube.com/watch?v=ABNWGcJZl34",
+      "sourceTitle": "Keisuke Honda 'Magical Goal' Vs Denmark",
+      "sourceChannel": "MagicalGoals",
+      "matchedEventTerms": [
+        "denmark",
+        "goals",
+        "keisuke",
+        "honda",
+        "2010",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/honda-002-cameroon-denmark-goals/card-04.jpg",
+      "sha256": "c4f7737da9d6f36b0b1afedb33c3384702cab55e1e2c287e6a3106d171b8784c",
+      "sourceUrl": "https://www.youtube.com/watch?v=iQ5wFd0GUPU",
+      "sourceTitle": "World Cup 2010 Day Four Best Goal of The Day - Keisuke Honda Goal",
+      "sourceChannel": "fifaplanet1",
+      "matchedEventTerms": [
+        "keisuke",
+        "honda",
+        "2010",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/honda-002-cameroon-denmark-goals/card-05.jpg",
+      "sha256": "5bc6725ba2687c83a0849b084e6f728f684bc7d20648ddba4bf92115c03719cd",
+      "sourceUrl": "https://www.youtube.com/watch?v=4ahP_S2GHlA",
+      "sourceTitle": "HONDA GOAL!! JAPAN VS DENMARK 2010 WORLD CUP　#2010worldcup #southafrica #rustenburg #japan #denmark",
+      "sourceChannel": "Takki",
+      "matchedEventTerms": [
+        "denmark",
+        "keisuke",
+        "honda",
+        "2010",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

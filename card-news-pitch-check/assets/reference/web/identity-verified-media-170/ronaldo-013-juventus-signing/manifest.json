@@ -1,0 +1,97 @@
+{
+  "topicId": "ronaldo-013-juventus-signing",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" juventus signing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-013-juventus-signing/card-01.jpg",
+      "sha256": "49df054eb57f21c5951f00661eed47c271e929a78f3456fd9731be8383beab5a",
+      "sourceUrl": "https://www.youtube.com/watch?v=WBqfKsPfXQc",
+      "sourceTitle": "Manchester City offered chance to sign Cristiano Ronaldo from Juventus",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "contract",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-013-juventus-signing/card-02.jpg",
+      "sha256": "04a331b0c2982bfc227b7a63d73ced1924648de20413f779dd1b4b79dced2d5a",
+      "sourceUrl": "https://www.youtube.com/watch?v=JHBf7yuYsgo",
+      "sourceTitle": "Cristiano Ronaldo has told Juventus he wants to leave the club",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "new",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-013-juventus-signing/card-03.jpg",
+      "sha256": "4cbea74f1e3fa9bd0d8a961a49f65d95bd9404a1edb00da89418136d17990178",
+      "sourceUrl": "https://www.youtube.com/watch?v=eKmgYg81RqM",
+      "sourceTitle": "The first EVER Cristiano Ronaldo Juventus shirt",
+      "sourceChannel": "GOAL",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "transfer",
+        "new",
+        "shirt"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-013-juventus-signing/card-04.jpg",
+      "sha256": "a6e5a39f00a5c5cb2c5a4e17cc03b1caa09dfd12be267c541177edf59915cd04",
+      "sourceUrl": "https://www.youtube.com/watch?v=GcaHmZrXTZ4",
+      "sourceTitle": "Cristiano Ronaldo unveiled at Juventus: Will he take Italian club to next level? | ESPN FC",
+      "sourceChannel": "ESPN",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-013-juventus-signing/card-05.jpg",
+      "sha256": "6f3637b4bb1ba36425f7e42e6866aba0831429703cea1a6b9d53b6f464d3622b",
+      "sourceUrl": "https://www.youtube.com/watch?v=srZ087Qnp8A",
+      "sourceTitle": "Did Juventus sign Cristiano Ronaldo to win Champions League, or for a different reason? | ESPN FC",
+      "sourceChannel": "ESPN",
+      "matchedEventTerms": [
+        "juventus",
+        "signing",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

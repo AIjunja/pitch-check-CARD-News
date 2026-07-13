@@ -1,0 +1,99 @@
+{
+  "topicId": "real-026-davies-refugee-camp",
+  "player": "Alphonso Davies",
+  "query": "\"Alphonso Davies\" davies refugee camp football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-026-davies-refugee-camp/card-01.jpg",
+      "sha256": "0a4b8d8d4dbfe90c0a77233f3202db1af4e82b6f27763241f7cf671b2acaba1f",
+      "sourceUrl": "https://www.youtube.com/watch?v=y5MFM2ppvVI",
+      "sourceTitle": "Lockdown, Bayern and growing up as a refugee: Gary Lineker meets Alphonso Davies",
+      "sourceChannel": "Guardian Football",
+      "matchedEventTerms": [
+        "davies",
+        "refugee",
+        "camp",
+        "alphonso",
+        "bayern"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-026-davies-refugee-camp/card-02.jpg",
+      "sha256": "6e6a4b8511b59ed561c96c035c7a725fa7699c85ee24881c26fd94767d3131ed",
+      "sourceUrl": "https://www.youtube.com/watch?v=QmZ1HLPlb_o",
+      "sourceTitle": "From Refugee Camp To Bayern Munich | Alphonso Davies",
+      "sourceChannel": "Football Stories",
+      "matchedEventTerms": [
+        "davies",
+        "refugee",
+        "camp",
+        "alphonso",
+        "bayern"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-026-davies-refugee-camp/card-03.jpg",
+      "sha256": "6798762786fa52363f25c49375045865537a4b7352d20e97e202c5d12f1c0198",
+      "sourceUrl": "https://www.youtube.com/watch?v=P4v3-VoIYfU",
+      "sourceTitle": "Inside Budumburam Camp: Where Bayern Munich’s Alphonso Davies started his football career",
+      "sourceChannel": "Pulse Ghana",
+      "matchedEventTerms": [
+        "davies",
+        "camp",
+        "alphonso",
+        "community",
+        "bayern"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-026-davies-refugee-camp/card-04.jpg",
+      "sha256": "4501c293a49d40643b438c65601e1f5f2ecd3bee62922bb38164c2cc0773764e",
+      "sourceUrl": "https://www.youtube.com/watch?v=NFCYt98QYsY",
+      "sourceTitle": "Every Refugee Story Matters | Alphonso Davies | World Refugee Day",
+      "sourceChannel": "UNHCR Canada",
+      "matchedEventTerms": [
+        "davies",
+        "refugee",
+        "alphonso",
+        "pro",
+        "day",
+        "canada"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-026-davies-refugee-camp/card-05.jpg",
+      "sha256": "25afd867e87f8e4dca0403a7617b2be05b6482d9e33eb86f39448f96e1f4f32b",
+      "sourceUrl": "https://www.youtube.com/watch?v=qA-WYd1q3sQ",
+      "sourceTitle": "Alphonso Davies: From refugee camp to international soccer champ",
+      "sourceChannel": "CBC News: The National",
+      "matchedEventTerms": [
+        "davies",
+        "refugee",
+        "camp",
+        "alphonso",
+        "canada"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

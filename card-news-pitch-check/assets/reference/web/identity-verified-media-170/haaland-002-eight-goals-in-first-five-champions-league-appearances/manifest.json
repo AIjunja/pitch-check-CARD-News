@@ -1,0 +1,98 @@
+{
+  "topicId": "haaland-002-eight-goals-in-first-five-champions-league-appearances",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" eight goals in first five champions league appearances football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/card-01.jpg",
+      "sha256": "2ad845dc63f6b7b3a31ebc4aacc4c6a0e79c6b45c77979cf202155a86c8bfa7a",
+      "sourceUrl": "https://www.youtube.com/watch?v=NeqAoFon8z4",
+      "sourceTitle": "ERLING HAALAND \"MY DREAM TOUCH BALL 5 TIMES GOALS WITH 5\" GOALS UCL MAN CITY VS RB LEIPZIG 2023",
+      "sourceChannel": "WORLD SPORTBIBLE FOOTBALL",
+      "matchedEventTerms": [
+        "goals",
+        "champions",
+        "league",
+        "erling",
+        "haaland",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/card-02.jpg",
+      "sha256": "9fc8f416c995c47b9bf18140f121059a38d601b1c5d1563052e9ccf6a88853f9",
+      "sourceUrl": "https://www.youtube.com/watch?v=Y9i6vyN3Bg0",
+      "sourceTitle": "Erling Haaland's 50 Champions League Goals! 😱",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "goals",
+        "champions",
+        "league",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/card-03.jpg",
+      "sha256": "ac566aff4539831f023d73fb3c460bf90a46ce9d93190d3afd773e9cf3b5f780",
+      "sourceUrl": "https://www.youtube.com/watch?v=hXN69EOw59k",
+      "sourceTitle": "19-year-old Erling Haaland scores hat-trick on Champions League debut.",
+      "sourceChannel": "freekick3596",
+      "matchedEventTerms": [
+        "first",
+        "champions",
+        "league",
+        "erling",
+        "haaland",
+        "salzburg"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/card-04.jpg",
+      "sha256": "32704b46ce940d26a7f6493db8d4436140695d3faef32765f2c2fcc01819ba43",
+      "sourceUrl": "https://www.youtube.com/watch?v=5B_ZXp-nil4",
+      "sourceTitle": "HIGHLIGHTS! Man City 7-0 RB Leipzig | Haaland (FIVE!), Gundogan & De Bruyne Goals",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "goals",
+        "five",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-002-eight-goals-in-first-five-champions-league-appearances/card-05.jpg",
+      "sha256": "54a76c53c655b99e628724570b7c2f2d1cb14b4d045ecb97b82d938b36b4ef13",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nzue-fQFfKw",
+      "sourceTitle": "Erling Braut Haaland vs PSG | Every angle of the wonderkid's winner!",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

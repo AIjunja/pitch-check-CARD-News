@@ -1,0 +1,94 @@
+{
+  "topicId": "real-024-mane-no-hospital",
+  "player": "Sadio Mane",
+  "query": "\"Sadio Mane\" mane no hospital football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-024-mane-no-hospital/card-01.jpg",
+      "sha256": "3656839760a3deed8db7bbc0d3355bcd8c837476f7ed4fade5f2c9b4a9000b71",
+      "sourceUrl": "https://www.youtube.com/watch?v=9bFx42-qhvQ",
+      "sourceTitle": "The Return of Sadio Mané",
+      "sourceChannel": "FC Bayern München",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "return",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-024-mane-no-hospital/card-02.jpg",
+      "sha256": "86df89a4dfc9c04557c28c329f9456aa6a55ee89046b5d03b19176b21dff1cf5",
+      "sourceUrl": "https://www.youtube.com/watch?v=tjUIt3MScsk",
+      "sourceTitle": "Sadio Mané pays for treatment of child in Cameroon hospital",
+      "sourceChannel": "1892 LFC",
+      "matchedEventTerms": [
+        "mane",
+        "hospital",
+        "sadio",
+        "treatment"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-024-mane-no-hospital/card-03.jpg",
+      "sha256": "d55ec04f48930e4c2e6cf1013c15442eddcdca06b0f9c59ddc0033c8da43658f",
+      "sourceUrl": "https://www.youtube.com/watch?v=igXQ9SbQjVA",
+      "sourceTitle": "Liverpool forward Sadio Mane sparks injury concern as he visits hospital following Champions",
+      "sourceChannel": "政治の光と影",
+      "matchedEventTerms": [
+        "mane",
+        "hospital",
+        "sadio",
+        "injury"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-024-mane-no-hospital/card-04.jpg",
+      "sha256": "174b6217804666c01a8967142b7ab91a05546cb8a2224c15ebad945f07d39949",
+      "sourceUrl": "https://www.youtube.com/watch?v=AoloinmH4o4",
+      "sourceTitle": "Sadio Mane interview for 2016 BBC African Footballer of the Year award",
+      "sourceChannel": "Giles Goford",
+      "matchedEventTerms": [
+        "mane",
+        "no",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-024-mane-no-hospital/card-05.jpg",
+      "sha256": "21855202de8445a2c1f7cf1340cc109be07857d13e695a82b0c016da8cae8995",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQOL8ptfBdE",
+      "sourceTitle": "Sadio Mane in hospital \"I hope nothing serious\" Senegal coach after the AFCON2021 win vs. Cape Verde",
+      "sourceChannel": "CGTN Sports Scene",
+      "matchedEventTerms": [
+        "mane",
+        "no",
+        "hospital",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

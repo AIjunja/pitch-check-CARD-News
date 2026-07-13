@@ -1,0 +1,106 @@
+{
+  "topicId": "mbappe-010-france-all-time-top-scorer",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" france all time top scorer football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-010-france-all-time-top-scorer/card-01.jpg",
+      "sha256": "8107a36cba33498fabe9f971ec37819aa7c3e6ae2e34b07305b2d86066f55229",
+      "sourceUrl": "https://www.youtube.com/watch?v=ReKkVGVcfwM",
+      "sourceTitle": "Mbappé Made It Official— France's All-Time Top Scorer",
+      "sourceChannel": "1stWishtle",
+      "matchedEventTerms": [
+        "france",
+        "all",
+        "time",
+        "top",
+        "scorer",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-010-france-all-time-top-scorer/card-02.jpg",
+      "sha256": "260933423b057df2c0a9d744a333a5fea6eb773e106e95fded3b1c34c10b984b",
+      "sourceUrl": "https://www.youtube.com/watch?v=XzZ8THTBcI8",
+      "sourceTitle": "‘OUTSTANDING!’ Kylian Mbappe becomes France’s ALL-TIME top goalscorer in World Cup win | ESPN FC",
+      "sourceChannel": "ESPN UK",
+      "matchedEventTerms": [
+        "france",
+        "all",
+        "time",
+        "top",
+        "scorer",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-010-france-all-time-top-scorer/card-03.jpg",
+      "sha256": "f83a8deb434b60e8cbeb917080a9e2838099b13115ae654a80741410d8043015",
+      "sourceUrl": "https://www.youtube.com/watch?v=7CbS_W_3lAg",
+      "sourceTitle": "Messi Equals the All-Time Record, Mbappé Makes History & More | World Cup Brief #3",
+      "sourceChannel": "Clutch Brief",
+      "matchedEventTerms": [
+        "france",
+        "all",
+        "time",
+        "top",
+        "scorer",
+        "kylian",
+        "mbappe",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-010-france-all-time-top-scorer/card-04.jpg",
+      "sha256": "86e57c54e1452abff039ea37affcb31dcfab569d5f62f283c0826d6020784594",
+      "sourceUrl": "https://www.youtube.com/watch?v=eQG-x7P5sqc",
+      "sourceTitle": "Kylian Mbappe becomes France’s all-time leading goalscorer with 58 goals! | World Cup 2026",
+      "sourceChannel": "beIN SPORTS Asia",
+      "matchedEventTerms": [
+        "france",
+        "all",
+        "time",
+        "top",
+        "scorer",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-010-france-all-time-top-scorer/card-05.jpg",
+      "sha256": "fa53ed4c383447fb10f9a6cb3ccba3d7c492a4072eb90bd4b7e33fe252a26db5",
+      "sourceUrl": "https://www.youtube.com/watch?v=4CxBahfrabk",
+      "sourceTitle": "🇫🇷 All of France’s 2018 World Cup Goals | Mbappe, Griezmann & more!",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "france",
+        "all",
+        "mbappe",
+        "trophy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

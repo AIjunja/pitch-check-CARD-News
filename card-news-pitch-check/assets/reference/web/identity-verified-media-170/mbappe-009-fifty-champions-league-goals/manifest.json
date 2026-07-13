@@ -1,0 +1,101 @@
+{
+  "topicId": "mbappe-009-fifty-champions-league-goals",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" fifty champions league goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-009-fifty-champions-league-goals/card-01.jpg",
+      "sha256": "44ef9386a04d53e6d4a1b20dd02f5c9ba572f8ce9114be5e418f2ee73eec5b4c",
+      "sourceUrl": "https://www.youtube.com/watch?v=8kyF5QKa_5A",
+      "sourceTitle": "Top 20 UEFA Champions League Goals of 2023/24 😮‍💨 | Mbappe, Haaland, Bellingham & MORE! 🔥",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-009-fifty-champions-league-goals/card-02.jpg",
+      "sha256": "635cc48919757494ac7e12db10d9facd85b3cb2b0d6213af8b6fe6e430a54a92",
+      "sourceUrl": "https://www.youtube.com/watch?v=c3jpwAD0OCI",
+      "sourceTitle": "All of Kylian Mbappe's 31 goals in the Champions League for PSG 🔴🔵",
+      "sourceChannel": "PSG - Paris Saint-Germain",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-009-fifty-champions-league-goals/card-03.jpg",
+      "sha256": "be77ee43350e759f697bd6a4252b431bcd0ca8db1343ecc824199263ae2bc40b",
+      "sourceUrl": "https://www.youtube.com/watch?v=lp9mS11SYzo",
+      "sourceTitle": "The newest member of the 50 Club! 😮‍💨 | Kylian Mbappe's Greatest Champions League Goals",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe",
+        "50"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-009-fifty-champions-league-goals/card-04.jpg",
+      "sha256": "811096eab99ee1028ad0c8772f53b88d8a8618beeba94302c72089ebbc53966c",
+      "sourceUrl": "https://www.youtube.com/watch?v=regrzfxh658",
+      "sourceTitle": "Kylian Mbappé All 50 Goals ⚽️ 2022 🔥🔥Ligue 1 World cup Champions League",
+      "sourceChannel": "TouchlineFT",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe",
+        "50"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-009-fifty-champions-league-goals/card-05.jpg",
+      "sha256": "688a68c87df7d27fb1bb0fe76f24ebaf3de65f2690712e03a2655818ed14b08f",
+      "sourceUrl": "https://www.youtube.com/watch?v=qmqYuEgyOY8",
+      "sourceTitle": "Kylian Mbappe all 66 goals in 2025 - 1080p60",
+      "sourceChannel": "Annxs",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "kylian",
+        "mbappe",
+        "10"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

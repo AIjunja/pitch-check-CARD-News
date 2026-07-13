@@ -1,0 +1,91 @@
+{
+  "topicId": "real-014-pele-sock-ball",
+  "player": "Pele",
+  "query": "\"Pele\" pele sock ball football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-014-pele-sock-ball/card-01.jpg",
+      "sha256": "c6a67d27caba7091331ca7b8af4140b17105ae34d2c0f431618c0a5bf3d8b622",
+      "sourceUrl": "https://www.youtube.com/watch?v=KMyUnyxVB9Q",
+      "sourceTitle": "Pelé | Official Trailer | Netflix",
+      "sourceChannel": "Netflix",
+      "matchedEventTerms": [
+        "pele",
+        "documentary",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-014-pele-sock-ball/card-02.jpg",
+      "sha256": "20af78e527ea85161920c75a469ca25b60e2e7e90dcfe6c8f2ace51a77635f4f",
+      "sourceUrl": "https://www.youtube.com/watch?v=_KU0ih4jvdY",
+      "sourceTitle": "Pelé’s sock ball story still inspires millions",
+      "sourceChannel": "story one (1)",
+      "matchedEventTerms": [
+        "pele",
+        "sock",
+        "ball",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-014-pele-sock-ball/card-03.jpg",
+      "sha256": "dffb51d8e0e852a525b1091ece91d38cd114f068c9bf6a2939520fcfc0b8c309",
+      "sourceUrl": "https://www.youtube.com/watch?v=693hDzHvRVw",
+      "sourceTitle": "He Started With a Sock Ball… Then Became the King of Football",
+      "sourceChannel": "TUTU STICKMAN UNIVERSE",
+      "matchedEventTerms": [
+        "pele",
+        "sock",
+        "ball",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-014-pele-sock-ball/card-04.jpg",
+      "sha256": "d577f778872441c7691dc0c5989075aaa22d0615492a39c173e533b06277cadb",
+      "sourceUrl": "https://www.youtube.com/watch?v=cSwEF7pE914",
+      "sourceTitle": "From Sock Ball to World Champion | The Story of Pelé👑| Motivational Story For Success life | #story",
+      "sourceChannel": "Jesus Tales for KIDS",
+      "matchedEventTerms": [
+        "pele",
+        "sock",
+        "ball",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-014-pele-sock-ball/card-05.jpg",
+      "sha256": "de6ecc90b81483230db23b003c1e5013f452c0ddc3afaf61325061cf55cb40b6",
+      "sourceUrl": "https://www.youtube.com/watch?v=etXYCDKKH9g",
+      "sourceTitle": "Pele - The King who changed Football Forever",
+      "sourceChannel": "Papa Studio",
+      "matchedEventTerms": [
+        "pele",
+        "sock",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

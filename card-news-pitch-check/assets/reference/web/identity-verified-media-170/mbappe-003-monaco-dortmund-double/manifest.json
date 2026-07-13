@@ -1,0 +1,98 @@
+{
+  "topicId": "mbappe-003-monaco-dortmund-double",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" monaco dortmund double football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-003-monaco-dortmund-double/card-01.jpg",
+      "sha256": "159174c36b062c88e501cdf3b7a853018f646102b7ebec12c9b17f1b47718a81",
+      "sourceUrl": "https://www.youtube.com/watch?v=IJ5CNR7ECSE",
+      "sourceTitle": "AS Monaco vs Dortmund 6-3 2017 | The Day When Teenage Mbappe Rocked The European Stage",
+      "sourceChannel": "Battle Of Europe",
+      "matchedEventTerms": [
+        "monaco",
+        "dortmund",
+        "kylian",
+        "mbappe",
+        "2017",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-003-monaco-dortmund-double/card-02.jpg",
+      "sha256": "c186fc1de299163eb57d94da4fed5e315e19f5cef2da771ffe04e3bd2dbb9a36",
+      "sourceUrl": "https://www.youtube.com/watch?v=0BJqeuS5rA8",
+      "sourceTitle": "Kylian Mbappe GOAL / MONACO VS MANCHESTER CITY 15.03",
+      "sourceChannel": "Guțu Roma",
+      "matchedEventTerms": [
+        "monaco",
+        "kylian",
+        "mbappe",
+        "2017",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-003-monaco-dortmund-double/card-03.jpg",
+      "sha256": "79ec1afe1afd1b6908b677a13f1f396ef7b1b4eb690b98108b48ee59cb88889c",
+      "sourceUrl": "https://www.youtube.com/watch?v=sJLvQN6ITFw",
+      "sourceTitle": "PSG vs Monaco (2-0) | Mbappe bags 100th league goal for the Parisians | Ligue 1 Highlights",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "monaco",
+        "kylian",
+        "mbappe",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-003-monaco-dortmund-double/card-04.jpg",
+      "sha256": "43aeb9f3538aea764afd81d9b6a73bdf7174e5dee8cb6313a324f473ad3d8153",
+      "sourceUrl": "https://www.youtube.com/watch?v=82eicW1SRro",
+      "sourceTitle": "Monaco 3 Borussia Dortmund 1 (6-3 agg): Mbappe, Falcao and Germain complete classy progression",
+      "sourceChannel": "Football News",
+      "matchedEventTerms": [
+        "monaco",
+        "dortmund",
+        "mbappe",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-003-monaco-dortmund-double/card-05.jpg",
+      "sha256": "2aa331d9049104a9d79c5848c7ea2ecc0947f9e98f4007b2f74b3f9f78faea76",
+      "sourceUrl": "https://www.youtube.com/watch?v=7-ws_xMZ8Ww",
+      "sourceTitle": "Borussia Dortmund vs AS Monaco 2 3  2016   2017  UCL All Goals Highlights English Commentary",
+      "sourceChannel": "Goals Of The Day",
+      "matchedEventTerms": [
+        "monaco",
+        "dortmund",
+        "mbappe",
+        "2017"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

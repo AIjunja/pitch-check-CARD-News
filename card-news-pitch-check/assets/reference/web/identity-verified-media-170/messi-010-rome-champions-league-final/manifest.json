@@ -1,0 +1,103 @@
+{
+  "topicId": "messi-010-rome-champions-league-final",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" rome champions league final football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-010-rome-champions-league-final/card-01.jpg",
+      "sha256": "f621f46ee18213932ad78ffac7f32dd59ae8855a396a9788d2902528eb74295a",
+      "sourceUrl": "https://www.youtube.com/watch?v=gOkQlY64WcY",
+      "sourceTitle": "FC Barcalona vs Manchester United FC uefa Champions League Final ROMA 2009 High-Lights",
+      "sourceChannel": "Mehdi GB Salé",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "lionel",
+        "messi",
+        "2009"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-010-rome-champions-league-final/card-02.jpg",
+      "sha256": "e09f842c46557eef15f184c97611a75cb9a4fa8d7f242c4350f57c9cd9ba7b51",
+      "sourceUrl": "https://www.youtube.com/watch?v=crOBBouZbmc",
+      "sourceTitle": "50 Great Champions League Moments: Lionel Messi's Header vs. Manchester United | 2009 UCL Final",
+      "sourceChannel": "CBS Sports Golazo",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "lionel",
+        "messi",
+        "2009"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-010-rome-champions-league-final/card-03.jpg",
+      "sha256": "7ee397adddc90f8c04116510e3d3e8c6caccf2d9dbde9f26e39f32942871c37e",
+      "sourceUrl": "https://www.youtube.com/watch?v=uSRBmsQaBTI",
+      "sourceTitle": "Lionel Messi 2009 Champions League goal v Man.United from every angle",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "lionel",
+        "messi",
+        "2009"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-010-rome-champions-league-final/card-04.jpg",
+      "sha256": "5acc3116aaefb93c7b10227724710972c4e6fd3bbc14b56d8e6faff8dafca56c",
+      "sourceUrl": "https://www.youtube.com/watch?v=NkR_CBgZ8YA",
+      "sourceTitle": "Barcelona v Manchester United: 2009 UEFA Champions League final highlights",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "lionel",
+        "messi",
+        "2009"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-010-rome-champions-league-final/card-05.jpg",
+      "sha256": "07cfdf40954c497dc4aa5dbc328c0ff482ae38720a121add93475d8c0f8258ad",
+      "sourceUrl": "https://www.youtube.com/watch?v=RSpzNepyhB0",
+      "sourceTitle": "Lionel Messi vs Manchester United | Champions League final 2009",
+      "sourceChannel": "FCB GLORY",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "lionel",
+        "messi",
+        "2009"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,96 @@
+{
+  "topicId": "messi-008-maradona-like-solo-goal",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" maradona like solo goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-008-maradona-like-solo-goal/card-01.jpg",
+      "sha256": "98c59b15f44ec47d626bc90b661091ef624e5c22481a986ab5fe1ba132f45603",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fqd3E-fmgL0",
+      "sourceTitle": "Messi unforgettable Maradona like solo goal that SHOCKED the whole World at teenage vs Getafe",
+      "sourceChannel": "WorldFootball",
+      "matchedEventTerms": [
+        "maradona",
+        "like",
+        "solo",
+        "lionel",
+        "messi",
+        "ball",
+        "getafe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-008-maradona-like-solo-goal/card-02.jpg",
+      "sha256": "c32cb95a90c3a0569c7d0f9a99e58627f089c87b6ca2f6113bf761643490fdae",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMiL4_1Yewg",
+      "sourceTitle": "Messi Solo Goal vs Getafe  ► Best Possible 1080p Quality [& English Commentary] ||HD||",
+      "sourceChannel": "Messi Magic™",
+      "matchedEventTerms": [
+        "solo",
+        "lionel",
+        "messi",
+        "2007",
+        "getafe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-008-maradona-like-solo-goal/card-03.jpg",
+      "sha256": "c12b2a0608dd897982896b6672a45fa0e5eb05fc4323112394816e228210ae90",
+      "sourceUrl": "https://www.youtube.com/watch?v=2pWt_vG9_Ug",
+      "sourceTitle": "Lionel Messi LEGENDARY Solo Goal vs Real Madrid ||HD||",
+      "sourceChannel": "GOAT Studio",
+      "matchedEventTerms": [
+        "solo",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-008-maradona-like-solo-goal/card-04.jpg",
+      "sha256": "3680feb2cca8ff0bdf0d5256c60b1b9bb08d8352dd50175f732e1b70e50a10ae",
+      "sourceUrl": "https://www.youtube.com/watch?v=waETo-ZWCRw",
+      "sourceTitle": "Messi solo goal v getafe - spanish (Catalan) commentator Puyal - (Apr 07)",
+      "sourceChannel": "Barca Videos",
+      "matchedEventTerms": [
+        "maradona",
+        "solo",
+        "messi",
+        "getafe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-008-maradona-like-solo-goal/card-05.jpg",
+      "sha256": "c6dcf5a981be574a786509579446bf1345174c4b439ee1a2ffd75e8350221712",
+      "sourceUrl": "https://www.youtube.com/watch?v=lqTsB04M0eE",
+      "sourceTitle": "Lionel Messi vs Diego Maradona ● Similar Goals Compilation ●",
+      "sourceChannel": "Messi TheBoss",
+      "matchedEventTerms": [
+        "maradona",
+        "lionel",
+        "messi",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

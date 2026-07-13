@@ -1,0 +1,96 @@
+{
+  "topicId": "real-031-rashford-mum-three-jobs",
+  "player": "Marcus Rashford",
+  "query": "\"Marcus Rashford\" rashford mum three jobs football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-031-rashford-mum-three-jobs/card-01.jpg",
+      "sha256": "4709834a94e6f51bdc7567a29b3bcdac2f0143e5a6f4270bd4c6b386be1f254e",
+      "sourceUrl": "https://www.youtube.com/watch?v=0BcmaTNSsC8",
+      "sourceTitle": "Marcus Rashford's mum had 3 jobs but still sometimes couldn't afford bread",
+      "sourceChannel": "Coronavirus News",
+      "matchedEventTerms": [
+        "rashford",
+        "mum",
+        "three",
+        "jobs",
+        "marcus",
+        "mother",
+        "food"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-031-rashford-mum-three-jobs/card-02.jpg",
+      "sha256": "cf0c65793ab471e8b68e2baa4f3248fbd85389265d08ee75b15132198932c98f",
+      "sourceUrl": "https://www.youtube.com/watch?v=BV3AQghGeqE",
+      "sourceTitle": "Marcus Rashford Scores Goal in Fight to End Child Food Poverty in Britain | #PMIFuture50",
+      "sourceChannel": "Project Management Institute (PMI)",
+      "matchedEventTerms": [
+        "rashford",
+        "jobs",
+        "marcus",
+        "mother",
+        "food",
+        "poverty"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-031-rashford-mum-three-jobs/card-03.jpg",
+      "sha256": "7a3cbf6a5c73ac3060f8d8cb4c9b5d2046445ed66c050ec900e1e4b4f4d29573",
+      "sourceUrl": "https://www.youtube.com/watch?v=vyHZ8rbJQUQ",
+      "sourceTitle": "Marcus Rashford tells of childhood poverty in campaign for free school meals - BBC News",
+      "sourceChannel": "BBC News",
+      "matchedEventTerms": [
+        "rashford",
+        "marcus",
+        "childhood",
+        "poverty"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-031-rashford-mum-three-jobs/card-04.jpg",
+      "sha256": "238da379d5b320f9be101b3b7925a33ba87218c3a00c31513f3374447e7f9cb3",
+      "sourceUrl": "https://www.youtube.com/watch?v=5qfsgqbn_UM",
+      "sourceTitle": "Marcus Rashford: From Poverty to Premier League Star",
+      "sourceChannel": "The Legendary",
+      "matchedEventTerms": [
+        "rashford",
+        "marcus",
+        "poverty"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-031-rashford-mum-three-jobs/card-05.jpg",
+      "sha256": "56d6aa5027abc3a7383e860a671b7ba684851531638f83d4d07bafad42668d6f",
+      "sourceUrl": "https://www.youtube.com/watch?v=ohrJJQgIZuQ",
+      "sourceTitle": "From Youngster to Role Model: The Story of Marcus Rashford’s Evolution 💫",
+      "sourceChannel": "Mufc Academy",
+      "matchedEventTerms": [
+        "rashford",
+        "marcus",
+        "academy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

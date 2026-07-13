@@ -1,0 +1,109 @@
+{
+  "topicId": "ronaldo-009-sweden-playoff-hat-trick",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" sweden playoff hat trick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-009-sweden-playoff-hat-trick/card-01.jpg",
+      "sha256": "78b47b0428967079f71f3073235a1672425170e9b2b1a087bb49d13350aeab36",
+      "sourceUrl": "https://www.youtube.com/watch?v=JFvju95bj2o",
+      "sourceTitle": "Sweden vs Portugal 2-3 - World Cup 2014 Qualification | All Goals & Highlights",
+      "sourceChannel": "FootbalLive",
+      "matchedEventTerms": [
+        "sweden",
+        "playoff",
+        "hat",
+        "trick",
+        "cristiano",
+        "ronaldo",
+        "ball",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-009-sweden-playoff-hat-trick/card-02.jpg",
+      "sha256": "39292f3d8df7c86f21188f34639b730d3991c6e2f3ddb64d6f3a92e4f1b83acd",
+      "sourceUrl": "https://www.youtube.com/watch?v=eklDIF_QQ5k",
+      "sourceTitle": "Cristiano Ronaldo's Hattrick Vs Sweden 2013 - November - 19 - World Cup - Playoffs",
+      "sourceChannel": "Justin Madrista",
+      "matchedEventTerms": [
+        "sweden",
+        "playoff",
+        "hat",
+        "trick",
+        "cristiano",
+        "ronaldo",
+        "2013"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-009-sweden-playoff-hat-trick/card-03.jpg",
+      "sha256": "7cb5758133d3eac86e996c5f17b7c112e315cd9e68e257b4a141209abae23834",
+      "sourceUrl": "https://www.youtube.com/watch?v=HdVxpuPhFmA",
+      "sourceTitle": "Cristiano Ronaldo sends Portugal to World Cup with hat trick against Sweden",
+      "sourceChannel": "plugin198",
+      "matchedEventTerms": [
+        "sweden",
+        "playoff",
+        "hat",
+        "trick",
+        "cristiano",
+        "ronaldo",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-009-sweden-playoff-hat-trick/card-04.jpg",
+      "sha256": "f09ff8b19e1cff931556717350c8da74ba5e46cde5250b8426e2b926450eb961",
+      "sourceUrl": "https://www.youtube.com/watch?v=ISlHii9-lZI",
+      "sourceTitle": "Portugal  vs Sweden  2 - 3  All Goals-- Cristiano Ronaldo Hat Trick   2nd Leg WC PlayOff",
+      "sourceChannel": "Je$u$luvs$occer",
+      "matchedEventTerms": [
+        "sweden",
+        "playoff",
+        "hat",
+        "trick",
+        "cristiano",
+        "ronaldo",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-009-sweden-playoff-hat-trick/card-05.jpg",
+      "sha256": "976deba22f4b86ae7f29a9b0f83b26403508d6d40caf4beaf14e0829b2ea662a",
+      "sourceUrl": "https://www.youtube.com/watch?v=WW_jeBGuAPs",
+      "sourceTitle": "Ronaldo's amazing hat-trick - Sweden vs Portugal",
+      "sourceChannel": "GOAL",
+      "matchedEventTerms": [
+        "sweden",
+        "playoff",
+        "hat",
+        "trick",
+        "cristiano",
+        "ronaldo",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

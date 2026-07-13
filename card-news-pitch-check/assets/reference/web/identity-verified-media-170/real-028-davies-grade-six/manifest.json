@@ -1,0 +1,86 @@
+{
+  "topicId": "real-028-davies-grade-six",
+  "player": "Alphonso Davies",
+  "query": "\"Alphonso Davies\" davies grade six football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-028-davies-grade-six/card-01.jpg",
+      "sha256": "be063ecca375f6cd0f1e6f5521abb06de4bbd0f1e4c82c83390a829d8bf42187",
+      "sourceUrl": "https://www.youtube.com/watch?v=sX88ewB83rE",
+      "sourceTitle": "Doors of Life – Alphonso Davies | The great comeback documentary",
+      "sourceChannel": "FC Bayern München",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso",
+        "documentary"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-028-davies-grade-six/card-02.jpg",
+      "sha256": "9b4f4b28a2ae9a1fc2eac6da179512373414758dba5eb493702f2b12d5cffa21",
+      "sourceUrl": "https://www.youtube.com/watch?v=97vlrBWnKvo",
+      "sourceTitle": "I Played Against Alphonso Davies",
+      "sourceChannel": "ZTH Training",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso",
+        "academy",
+        "training"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-028-davies-grade-six/card-03.jpg",
+      "sha256": "ae8f856059e7752ce3bc9ff443d759f4c87f987cab3716c79a13f6353f19e607",
+      "sourceUrl": "https://www.youtube.com/watch?v=hHC_piKuNRs",
+      "sourceTitle": "Lamar Jackson vs. @fcbayern Star Alphonso Davies in Ultimate Skills Challenge 🏈⚽️",
+      "sourceChannel": "NFL and FC Bayern Munich",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-028-davies-grade-six/card-04.jpg",
+      "sha256": "4fd2917f9ae77ab7a297af3321d8a635d32e68a0fc46649cd6a9698965ca768d",
+      "sourceUrl": "https://www.youtube.com/watch?v=qQubJ8hKnc4",
+      "sourceTitle": "International football superstar Alphonso Davies hosts soccer camp in Edmonton",
+      "sourceChannel": "CityNews",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-028-davies-grade-six/card-05.jpg",
+      "sha256": "fd1bd4a1f9ae67563b99450048913143395f8448cd931e461892ac376edc65bb",
+      "sourceUrl": "https://www.youtube.com/watch?v=eP6h5nWZnWQ",
+      "sourceTitle": "Alphonso Davies ALL GOALS: Before Bayern, Davies Lit Up Major League Soccer",
+      "sourceChannel": "Major League Soccer",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

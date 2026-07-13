@@ -1,0 +1,102 @@
+{
+  "topicId": "messi-020-psg-move-impact",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" psg move impact football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-020-psg-move-impact/card-01.jpg",
+      "sha256": "996b0b371f299ffc20cc2d0ce13b7cdadd49d52c4791ab98bba07f43c9bb46f5",
+      "sourceUrl": "https://www.youtube.com/watch?v=DK8zwLRa_i8",
+      "sourceTitle": "LIONEL MESSI IMMEDIATE IMPACT AT PSG! 💎   #leomessi  #psgxmessi  #psg  #messi  #lionelmessi",
+      "sourceChannel": "FOOTBALL GALORE!",
+      "matchedEventTerms": [
+        "psg",
+        "impact",
+        "lionel",
+        "messi",
+        "club",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-020-psg-move-impact/card-02.jpg",
+      "sha256": "63f4951f6dd8742c31591cab97c0f7ea931faeb6f2610eba13bf19083e91906f",
+      "sourceUrl": "https://www.youtube.com/watch?v=_vCneeKew0g",
+      "sourceTitle": "Lionel Messi's Impact On MLS After Move From PSG",
+      "sourceChannel": "Forbes Breaking News",
+      "matchedEventTerms": [
+        "psg",
+        "move",
+        "impact",
+        "lionel",
+        "messi",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-020-psg-move-impact/card-03.jpg",
+      "sha256": "7ba57b0985cffb9966370fbb1e2bbd2b011e9fdb265d69a2c572e38e46e23693",
+      "sourceUrl": "https://www.youtube.com/watch?v=tzDW7jT90j4",
+      "sourceTitle": "Lionel Messi's Shocking Transfer to PSG",
+      "sourceChannel": "Stuff For life ",
+      "matchedEventTerms": [
+        "psg",
+        "move",
+        "lionel",
+        "messi",
+        "transfer",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-020-psg-move-impact/card-04.jpg",
+      "sha256": "eac46251b7d78e325c45f6aac460db9f6daa0110d433d50a3c072d55848ef0eb",
+      "sourceUrl": "https://www.youtube.com/watch?v=d7yNV9RRt7w",
+      "sourceTitle": "Messi Transfer U-TURN ? Kante to Saudi ! PSG new coach will SHOCK YOU !",
+      "sourceChannel": "AKG",
+      "matchedEventTerms": [
+        "psg",
+        "lionel",
+        "messi",
+        "transfer",
+        "new",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-020-psg-move-impact/card-05.jpg",
+      "sha256": "121b57445b2dfcb49a62e6a661fa08da53e1fb04850adddeec58940a935620cc",
+      "sourceUrl": "https://www.youtube.com/watch?v=EpKwpcpSsU8",
+      "sourceTitle": "This is HOW BARCELONA FANS REACT on MESSI TRANSFER TO PSG!",
+      "sourceChannel": "INSIDE FOOTBALL",
+      "matchedEventTerms": [
+        "psg",
+        "lionel",
+        "messi",
+        "transfer",
+        "barcelona"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

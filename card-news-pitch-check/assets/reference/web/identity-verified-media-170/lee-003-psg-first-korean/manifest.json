@@ -1,0 +1,93 @@
+{
+  "topicId": "lee-003-psg-first-korean",
+  "player": "Lee Kang-in",
+  "query": "\"Lee Kang-in\" psg first korean football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/lee-003-psg-first-korean/card-01.jpg",
+      "sha256": "76ed8e015b42fae344281dd64f98804571a86c0beb9c92e4e4e37fb15461eb41",
+      "sourceUrl": "https://www.youtube.com/watch?v=ITt3pcLg0cw",
+      "sourceTitle": "The match that made PSG buy Kang-in Lee 이강인",
+      "sourceChannel": "CompsPSG",
+      "matchedEventTerms": [
+        "psg",
+        "lee",
+        "kang",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/lee-003-psg-first-korean/card-02.jpg",
+      "sha256": "f72cc300c867ac09809e2dc1e9f2d250dd1fd50dbb1a0dcc943cd874f5c5eadd",
+      "sourceUrl": "https://www.youtube.com/watch?v=n2C1APjBdFU",
+      "sourceTitle": "\"Lee Kang-in to join Atlético Madrid for a €40M transfer fee\"... Reported by French media [On-Mic]",
+      "sourceChannel": "온마이크",
+      "matchedEventTerms": [
+        "korean",
+        "lee",
+        "kang",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/lee-003-psg-first-korean/card-03.jpg",
+      "sha256": "2935b1068e982b15ff853f79790e073ccc71a72ed2f30eef87d66fe3c67fc3cf",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gsn3HH160eY",
+      "sourceTitle": "Lee Kang-in signs 5-year deal with PSG",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "psg",
+        "korean",
+        "lee",
+        "kang"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/lee-003-psg-first-korean/card-04.jpg",
+      "sha256": "0d7a3bbdcd115293b97e51d472e16205046deba0e329d09f32a362bd0fea598b",
+      "sourceUrl": "https://www.youtube.com/watch?v=yJtsWFEK2h0",
+      "sourceTitle": "Why Kang-In Lee is PSG's new cash cow",
+      "sourceChannel": "Foot Mercato FC",
+      "matchedEventTerms": [
+        "psg",
+        "lee",
+        "kang",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/lee-003-psg-first-korean/card-05.jpg",
+      "sha256": "3fcf8469e09d8d3bf52c5f67ab3d03f1ad051fdd0058e22ac8814a7e2e1c0c98",
+      "sourceUrl": "https://www.youtube.com/watch?v=AXAKHS4LV6I",
+      "sourceTitle": "IS HE WORTH GOING TO PSG? Lee Kang IN 이강인 - Full Skills & Goals - 2023ᴴᴰ (MANLIKEZO REACTS)",
+      "sourceChannel": "Manlikezo",
+      "matchedEventTerms": [
+        "psg",
+        "lee",
+        "kang",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

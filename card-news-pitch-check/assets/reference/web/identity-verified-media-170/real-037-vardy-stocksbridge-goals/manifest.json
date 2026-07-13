@@ -1,0 +1,100 @@
+{
+  "topicId": "real-037-vardy-stocksbridge-goals",
+  "player": "Jamie Vardy",
+  "query": "\"Jamie Vardy\" vardy stocksbridge goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-037-vardy-stocksbridge-goals/card-01.jpg",
+      "sha256": "717c5eb8e7e7c651623f384ec0fe9c40afd15b414dea007d15a63c3d7c6169b6",
+      "sourceUrl": "https://www.youtube.com/watch?v=lqgtMwpqSac",
+      "sourceTitle": "The Official Jamie Vardy Goals at Stocksbridge Park Steels Compilation",
+      "sourceChannel": "Stocksbridge Park Steels",
+      "matchedEventTerms": [
+        "vardy",
+        "stocksbridge",
+        "goals",
+        "jamie",
+        "park",
+        "steels"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-037-vardy-stocksbridge-goals/card-02.jpg",
+      "sha256": "2406a020b9defd39f818c171f27cd81fc82820b85fa93d13d764a6aed713dc27",
+      "sourceUrl": "https://www.youtube.com/watch?v=3x1qeVi6eV8",
+      "sourceTitle": "Jamie Vardy: The Shaymen Chapter",
+      "sourceChannel": "Gaz Horner",
+      "matchedEventTerms": [
+        "vardy",
+        "stocksbridge",
+        "goals",
+        "jamie",
+        "park",
+        "steels"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-037-vardy-stocksbridge-goals/card-03.jpg",
+      "sha256": "408a80297c200e5613a617f688a1f039cdf6b4ede1a1def8814e3605e5c0877f",
+      "sourceUrl": "https://www.youtube.com/watch?v=67NYUuPVtXw",
+      "sourceTitle": "From Non-League to Champions League",
+      "sourceChannel": "GOAL",
+      "matchedEventTerms": [
+        "vardy",
+        "stocksbridge",
+        "jamie",
+        "park",
+        "steels"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-037-vardy-stocksbridge-goals/card-04.jpg",
+      "sha256": "8b34b0651f17f7cbd89f0cbc3bdde67b874799d0a8051f0b75b58ff3a61ac27d",
+      "sourceUrl": "https://www.youtube.com/watch?v=AYlVsD9hu1M",
+      "sourceTitle": "Jamie Vardy: All 23 Goals of 2015/16",
+      "sourceChannel": "FootballFanatics",
+      "matchedEventTerms": [
+        "vardy",
+        "goals",
+        "jamie",
+        "late",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-037-vardy-stocksbridge-goals/card-05.jpg",
+      "sha256": "028b5547cfe342ba4be7691f9a70e82e4b2f62350ac2ae361cc8085d32343390",
+      "sourceUrl": "https://www.youtube.com/watch?v=7FnJcpLLCA0",
+      "sourceTitle": "Jamie Vardy-Realize a dream",
+      "sourceChannel": "AS Production",
+      "matchedEventTerms": [
+        "vardy",
+        "stocksbridge",
+        "jamie",
+        "park",
+        "steels"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

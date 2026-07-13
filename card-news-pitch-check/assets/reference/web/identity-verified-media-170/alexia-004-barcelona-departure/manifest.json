@@ -1,0 +1,97 @@
+{
+  "topicId": "alexia-004-barcelona-departure",
+  "player": "Alexia Putellas",
+  "query": "\"Alexia Putellas\" barcelona departure football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-004-barcelona-departure/card-01.jpg",
+      "sha256": "df01c3831e14d495828195b65b6ab94db00046b2ee77d4fc4a0e5aad69f9a6df",
+      "sourceUrl": "https://www.youtube.com/watch?v=GpJ30BKqTug",
+      "sourceTitle": "🔴 LIVE | ALEXIA PUTELLAS FAREWELL EVENT AT SPOTIFY CAMP NOU 💙❤️",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "alexia",
+        "putellas",
+        "club",
+        "farewell"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-004-barcelona-departure/card-02.jpg",
+      "sha256": "7a3f615a0797f61e138c0248887bd22051d89f31a16ae26d9cbff03e3513123e",
+      "sourceUrl": "https://www.youtube.com/watch?v=q5BQsMt6sQU",
+      "sourceTitle": "Alexia Putellas leaving Barcelona after 14 years",
+      "sourceChannel": "Record News",
+      "matchedEventTerms": [
+        "barcelona",
+        "departure",
+        "alexia",
+        "putellas",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-004-barcelona-departure/card-03.jpg",
+      "sha256": "72c9dccd54877a12c18fc8c7146f20db0c88f87f17b28d0f24eeb33c1c675835",
+      "sourceUrl": "https://www.youtube.com/watch?v=GJI6ObnN5AU",
+      "sourceTitle": "The BALLON D'OR winner leaves her CLUB after 14 YEARS with an UNMATCHABLE LEGACY | RTVE News",
+      "sourceChannel": "RTVE Noticias",
+      "matchedEventTerms": [
+        "barcelona",
+        "departure",
+        "alexia",
+        "putellas",
+        "club",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-004-barcelona-departure/card-04.jpg",
+      "sha256": "7381cb5517df4ea322614c8e97646e6f0d3d2f80eead93bd972d45cae9caf9d8",
+      "sourceUrl": "https://www.youtube.com/watch?v=2LxtVgXdK-E",
+      "sourceTitle": "Alexia Putellas reveals why she chose to sign for London City Lionesses after Barcelona departure",
+      "sourceChannel": "Sky Sports News and 2 more",
+      "matchedEventTerms": [
+        "barcelona",
+        "departure",
+        "alexia",
+        "putellas"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-004-barcelona-departure/card-05.jpg",
+      "sha256": "0d11ffe5dded3e4dc8a0c0bfe72e9ad52b568ecf3eddcb4a3b60a040bfcd47b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=SUG85-JCiFw",
+      "sourceTitle": "ALEXIA PUTELLAS WINS BALLON D'OR 2021! 🏆🔵🔴",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "barcelona",
+        "alexia",
+        "putellas",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

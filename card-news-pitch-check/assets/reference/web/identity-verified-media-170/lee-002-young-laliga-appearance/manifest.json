@@ -1,0 +1,86 @@
+{
+  "topicId": "lee-002-young-laliga-appearance",
+  "player": "Lee Kang-in",
+  "query": "\"Lee Kang-in\" young laliga appearance football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/lee-002-young-laliga-appearance/card-01.jpg",
+      "sha256": "f0f4d535bcd43d0760340a5d8c84aeefaa54496e555844979411ab93168d9509",
+      "sourceUrl": "https://www.youtube.com/watch?v=MyjMBC8NZEo",
+      "sourceTitle": "KANGIN LEE Y MISTA ANALYZE VALENCIA CF'S DEBUT IN THE YOUTH LEAGUE",
+      "sourceChannel": "Valencia CF",
+      "matchedEventTerms": [
+        "young",
+        "lee",
+        "kang",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/lee-002-young-laliga-appearance/card-02.jpg",
+      "sha256": "7049e3ba30a265bbd9932e4c55bc8b7879d37c3cc78d2f24de83c28e17e70934",
+      "sourceUrl": "https://www.youtube.com/watch?v=QHfwP0Ufasw",
+      "sourceTitle": "[FIFA 23] Lee Kang In - PSG Special",
+      "sourceChannel": "수빠",
+      "matchedEventTerms": [
+        "lee",
+        "kang"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/lee-002-young-laliga-appearance/card-03.jpg",
+      "sha256": "dfbc2643f6fa78ec351e7d5f2a15a425207c24d83a41bbf0c966edd3515e7e93",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZiihkSkjB1Q",
+      "sourceTitle": "FIFA 22.Lee Kang In quick thinking earns a draw.",
+      "sourceChannel": "Muffturkey1 Average Gaming",
+      "matchedEventTerms": [
+        "lee",
+        "kang"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/lee-002-young-laliga-appearance/card-04.jpg",
+      "sha256": "465e0ea42ec6d3942a043fb6a7036e8954fd68c69bbaa4b1ea628198d249a331",
+      "sourceUrl": "https://www.youtube.com/watch?v=f02fyYOQIEA",
+      "sourceTitle": "FIFA 22.Lee Kang In simply sublime.🔥",
+      "sourceChannel": "Muffturkey1 Average Gaming",
+      "matchedEventTerms": [
+        "lee",
+        "kang"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/lee-002-young-laliga-appearance/card-05.jpg",
+      "sha256": "512ddffdb848fd67a1adf4832d70c2975f42da0473b06e308c163c234ac83d6d",
+      "sourceUrl": "https://www.youtube.com/watch?v=kUFJHsrJDP8",
+      "sourceTitle": "Lee Kang-in's first goal of season came in his 12th appearance of 2020-'21 season",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "appearance",
+        "lee",
+        "kang"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

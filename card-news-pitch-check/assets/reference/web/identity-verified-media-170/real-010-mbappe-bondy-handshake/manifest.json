@@ -1,0 +1,86 @@
+{
+  "topicId": "real-010-mbappe-bondy-handshake",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" mbappe bondy handshake football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-010-mbappe-bondy-handshake/card-01.jpg",
+      "sha256": "4dadeb967e9f6195772dd27660f8aacc35739e5c5016b303f82dbe7f0dd570f4",
+      "sourceUrl": "https://www.youtube.com/watch?v=8hm1rrPN1tQ",
+      "sourceTitle": "Can Mbappé Win FIFA World Cup 2026? | The Race for Football Immortality..💔",
+      "sourceChannel": "CR7Goalgang",
+      "matchedEventTerms": [
+        "mbappe",
+        "bondy",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-010-mbappe-bondy-handshake/card-02.jpg",
+      "sha256": "541e4ec95f6ec9d12092c4114766186f2c85ef1a7bf82ba711f5fe8f808f6bd6",
+      "sourceUrl": "https://www.youtube.com/watch?v=PheydcBs5HM",
+      "sourceTitle": "KYLIAN MBAPPE - Bondy Boy | Football Trap",
+      "sourceChannel": "DeeYaa Football",
+      "matchedEventTerms": [
+        "mbappe",
+        "bondy",
+        "kylian",
+        "france"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-010-mbappe-bondy-handshake/card-03.jpg",
+      "sha256": "303f0dbd17785e0bbad8379a336e64a0a638e136de7feb60bdad2e77ea3b4eb7",
+      "sourceUrl": "https://www.youtube.com/watch?v=3fWPjFjVMJk",
+      "sourceTitle": "Kylian Mbappé ● Welcome to Real Madrid ● Goals & Skills",
+      "sourceChannel": "Futbol a Tope",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-010-mbappe-bondy-handshake/card-04.jpg",
+      "sha256": "75bf492289fcfdcf110f7ded90a583b052e58fd7c758ee1db4e4618ce4d48a41",
+      "sourceUrl": "https://www.youtube.com/watch?v=kQgYHTGD6hE",
+      "sourceTitle": "Kylian Mbappe answers: Drake or Kanye? KD or LeBron? Mbappe or Kyrie? 2K or FIFA? | Now or Never",
+      "sourceChannel": "ESPN",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-010-mbappe-bondy-handshake/card-05.jpg",
+      "sha256": "ac6b4a9f208e32ced68d376912fd8fab99c47ec93df699f594c15373220d1ce0",
+      "sourceUrl": "https://www.youtube.com/watch?v=L-cfXeHJLl4",
+      "sourceTitle": "Kylian Mbappé outscores Cristiano Ronaldo in Real Madrid debut season",
+      "sourceChannel": "Viral Sports ",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,81 @@
+{
+  "topicId": "real-022-nani-leaking-roof",
+  "player": "Nani",
+  "query": "\"Nani\" nani leaking roof football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-022-nani-leaking-roof/card-01.jpg",
+      "sha256": "3834b5fe1f10d64c71da5e8338bda19ce08b800685dcf64a2a031158eb77773d",
+      "sourceUrl": "https://www.youtube.com/watch?v=LeHce3sBLPY",
+      "sourceTitle": "NANI naked life MANCHESTER UNITED Premier League - PORTUGAL NATIONAL FOOTBALL TEAM highlights",
+      "sourceChannel": "edivart",
+      "matchedEventTerms": [
+        "nani",
+        "life",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-022-nani-leaking-roof/card-02.jpg",
+      "sha256": "f249d3b4e6f420e39e531aadee649b6a863a32febc21497af8df4acf9fe51357",
+      "sourceUrl": "https://www.youtube.com/watch?v=_V7ubsNxTaA",
+      "sourceTitle": "Nani debut for Melbourne Victory vs his former club Manchester United. 15 July 2022 Melbourne",
+      "sourceChannel": "Niyaz Mohammed",
+      "matchedEventTerms": [
+        "nani",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-022-nani-leaking-roof/card-03.jpg",
+      "sha256": "b51c3e039bc1f75e1d84a57601a19719997b5e9e9387a4dbe7662b18e2873f94",
+      "sourceUrl": "https://www.youtube.com/watch?v=BwWuLmsMurM",
+      "sourceTitle": "Nani steals the show in Legends v Creators match! 🔥 | Baller League highlights",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "nani"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-022-nani-leaking-roof/card-04.jpg",
+      "sha256": "4e261d6e7286b870d1092cd6077a476d79a11d14946be04bf34440860d3b9438",
+      "sourceUrl": "https://www.youtube.com/watch?v=i3OjRs-Mwyw",
+      "sourceTitle": "Nani FC vs. Club America - Game Highlights",
+      "sourceChannel": "The Soccer Tournament (TST)",
+      "matchedEventTerms": [
+        "nani"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-022-nani-leaking-roof/card-05.jpg",
+      "sha256": "fc2ff00d8a261d57a287425ab2559342f51404b6f1f71541cb95578e8e7d2626",
+      "sourceUrl": "https://www.youtube.com/watch?v=2d9RgwHf7zM",
+      "sourceTitle": "When Sergio Aguero and Nani went HEAD-TO-HEAD 🎥 | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "nani"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

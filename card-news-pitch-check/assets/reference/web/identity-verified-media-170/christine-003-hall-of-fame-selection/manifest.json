@@ -1,0 +1,93 @@
+{
+  "topicId": "christine-003-hall-of-fame-selection",
+  "player": "Christine Sinclair",
+  "query": "\"Christine Sinclair\" hall of fame selection football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/christine-003-hall-of-fame-selection/card-01.jpg",
+      "sha256": "69231e8fa1c7bdb81091bc22e8a56708b97a283716e2375a0528caea2288d58e",
+      "sourceUrl": "https://www.youtube.com/watch?v=11aul_f195Y",
+      "sourceTitle": "Christine Sinclair Hall of Fame Ceremony",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "hall",
+        "fame",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/christine-003-hall-of-fame-selection/card-02.jpg",
+      "sha256": "2e9b3c9e6595de799094494f016d0391a4ea93d63c18ff9bd46d08fec7fac1bf",
+      "sourceUrl": "https://www.youtube.com/watch?v=ESxojykn7l4",
+      "sourceTitle": "Portland Thorns induct Christine Sinclair into Hall of Fame at game against Bay FC",
+      "sourceChannel": "KPTV FOX 12 | Local news, weather Portland, Oregon",
+      "matchedEventTerms": [
+        "hall",
+        "fame",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/christine-003-hall-of-fame-selection/card-03.jpg",
+      "sha256": "bec1922deb35199236e4964ee003c954f9afe00f15e32880335950276e3dd858",
+      "sourceUrl": "https://www.youtube.com/watch?v=sraTulKHUTQ",
+      "sourceTitle": "Portland Thorns to Retire Jersey for Christine Sinclair at Inaugural Thorns Hall of Fame Induction",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "hall",
+        "fame",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/christine-003-hall-of-fame-selection/card-04.jpg",
+      "sha256": "0a95ad3cc1141122fd562ebbec9d7adb8e1472f7588a0511016aabd487766a02",
+      "sourceUrl": "https://www.youtube.com/watch?v=zLCC8YbHxaw",
+      "sourceTitle": "Thank You Christine Sinclair | Career Tribute",
+      "sourceChannel": "TSN",
+      "matchedEventTerms": [
+        "christine",
+        "sinclair",
+        "canada",
+        "olympic",
+        "gold"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/christine-003-hall-of-fame-selection/card-05.jpg",
+      "sha256": "edb28baaf02fcb36bdbe8e9b9b1a5f7bae6fe4534fa4c1af730d96a6873e223d",
+      "sourceUrl": "https://www.youtube.com/watch?v=BpTiBYtgtFI",
+      "sourceTitle": "PTFC For Peace - Team Selection Event",
+      "sourceChannel": "Portland Timbers",
+      "matchedEventTerms": [
+        "selection",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

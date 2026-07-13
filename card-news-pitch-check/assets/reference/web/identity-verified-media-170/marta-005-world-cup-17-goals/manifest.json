@@ -1,0 +1,104 @@
+{
+  "topicId": "marta-005-world-cup-17-goals",
+  "player": "Marta",
+  "query": "\"Marta\" world cup 17 goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/marta-005-world-cup-17-goals/card-01.jpg",
+      "sha256": "8fb94237f9699ab014dee3b3ede4d4d4a5075df54dcfcada63636aebe3465e68",
+      "sourceUrl": "https://www.youtube.com/watch?v=dJs5FRyQHfU",
+      "sourceTitle": "Marta | All Goals in FIFA Women's World Cup (2011-2019) for Brazil",
+      "sourceChannel": "Corinthian Productions",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "marta",
+        "2019",
+        "fifa",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/marta-005-world-cup-17-goals/card-02.jpg",
+      "sha256": "b607cdc3dbcf12d81e054f3bbc6f73b29edf46759ce29c1665bb28773e95b691",
+      "sourceUrl": "https://www.youtube.com/watch?v=v6p9u3k03ZQ",
+      "sourceTitle": "Marta relives passionate France 2019 speech",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "marta",
+        "2019",
+        "fifa"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/marta-005-world-cup-17-goals/card-03.jpg",
+      "sha256": "51daaa1c7a095e3cb3865ae86b687f635ea825b5d63d2dcf78f1355e9d6cfc28",
+      "sourceUrl": "https://www.youtube.com/watch?v=7zlunIqQAJA",
+      "sourceTitle": "▶Marta Da Silva ▶ 2016 NEW ▶ World's Best ▶ Skills,Goals&Tricks ▶  Queen of Brazil",
+      "sourceChannel": "J.N A.W",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "marta",
+        "ball",
+        "fifa",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/marta-005-world-cup-17-goals/card-04.jpg",
+      "sha256": "d1c0aa8218075713c08cb429fb732ebf0d9ff0f068a2b4b385b547954c5f772c",
+      "sourceUrl": "https://www.youtube.com/watch?v=ctZl0YMMzjs",
+      "sourceTitle": "#WorldCupAtHome | FIFA Women's World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "goals",
+        "marta",
+        "fifa"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/marta-005-world-cup-17-goals/card-05.jpg",
+      "sha256": "e38de02c815b36fb06a00d83b8c0b1111c9f0aa1024696015bcd07f2adc259c3",
+      "sourceUrl": "https://www.youtube.com/watch?v=IKleJyBr2GM",
+      "sourceTitle": "Marta - All 17 Record-Breaking World Cup Goals | A Rainha do Futebol",
+      "sourceChannel": "Daniel ANTWI",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "17",
+        "goals",
+        "marta",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

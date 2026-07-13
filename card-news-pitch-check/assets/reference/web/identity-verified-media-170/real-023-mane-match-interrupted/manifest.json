@@ -1,0 +1,91 @@
+{
+  "topicId": "real-023-mane-match-interrupted",
+  "player": "Sadio Mane",
+  "query": "\"Sadio Mane\" mane match interrupted football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-023-mane-match-interrupted/card-01.jpg",
+      "sha256": "70e3105f6a772a36227bda43ef9e3ac05d52e4ebcee98f35be1677f4e540e61b",
+      "sourceUrl": "https://www.youtube.com/watch?v=WxOBjKY7Trk",
+      "sourceTitle": "Wantaway Liverpool's Sadio Mane playing community football in Senegal",
+      "sourceChannel": "Muftawu Nabila Abdulai",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "childhood",
+        "bambali",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-023-mane-match-interrupted/card-02.jpg",
+      "sha256": "00ef8becc4b3dc86e461b566287784fb94d86f7841a7d3408e19eb667c849e00",
+      "sourceUrl": "https://www.youtube.com/watch?v=kKByX6bNKOM",
+      "sourceTitle": "Sadio Mane Plays Football On Muddy Pitch With Childhood Friends In Senegal",
+      "sourceChannel": "Nicholsonofficial",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "childhood",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-023-mane-match-interrupted/card-03.jpg",
+      "sha256": "049ae237e8f99d323e88855e6ee8cf2806c07964b696531ff51b73f9f081b0af",
+      "sourceUrl": "https://www.youtube.com/watch?v=BFoPvltzcKw",
+      "sourceTitle": "Sadio Mane present AFCON 2021 trophy to Senegal President ☺",
+      "sourceChannel": "Liverpool Fc Africa",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-023-mane-match-interrupted/card-04.jpg",
+      "sha256": "51f0413c3de65047b4ed3bdb1dd982ae3ca52ac65c43fee558f0c0af26ae2612",
+      "sourceUrl": "https://www.youtube.com/watch?v=nFC1kU_Nq9E",
+      "sourceTitle": "''Africa doesn't deserve that negative image'' | Sadio Mane on AFCON controversy in Senegal win",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-023-mane-match-interrupted/card-05.jpg",
+      "sha256": "24446e03378f732d4ca7f2ad1ee9060f3b56b1fbe9d081092aa87e09544a5abe",
+      "sourceUrl": "https://www.youtube.com/watch?v=SzgBFyMyGBg",
+      "sourceTitle": "Sadio Mane CELEBRATES Qatar 2022 World Cup Qualification | Inside Senegal Dressing Room",
+      "sourceChannel": "Blood Red: Liverpool FC",
+      "matchedEventTerms": [
+        "mane",
+        "sadio",
+        "senegal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

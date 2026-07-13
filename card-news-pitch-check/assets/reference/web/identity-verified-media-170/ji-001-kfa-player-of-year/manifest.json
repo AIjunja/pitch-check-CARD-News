@@ -1,0 +1,101 @@
+{
+  "topicId": "ji-001-kfa-player-of-year",
+  "player": "Ji So-yun",
+  "query": "\"Ji So-yun\" kfa player of year football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ji-001-kfa-player-of-year/card-01.jpg",
+      "sha256": "94bc070c574d908b3b90ffcfded5e239aa48358280208f18726f76f964ac344f",
+      "sourceUrl": "https://www.youtube.com/watch?v=UPpjXekKsJg",
+      "sourceTitle": "Son Heung-min and Ji So-yun named KFA′s Player of the Year   손흥민-지소연, KFA 올해 선수상",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "kfa",
+        "year",
+        "ji",
+        "so",
+        "yun",
+        "award",
+        "ceremony"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ji-001-kfa-player-of-year/card-02.jpg",
+      "sha256": "e128555ec868873d35717cac3836ef5d162a83213986cbf65e866f821db21e38",
+      "sourceUrl": "https://www.youtube.com/watch?v=hYt3Egui44A",
+      "sourceTitle": "Korean footballer Ji So-yun to sign two-year deal with Chelsea Ladies",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "year",
+        "ji",
+        "so",
+        "yun",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ji-001-kfa-player-of-year/card-03.jpg",
+      "sha256": "2375f82441bd92d965e46f43cee9d9d8c198ba6ea3f5194a4836995310fb8fee",
+      "sourceUrl": "https://www.youtube.com/watch?v=NTFh6-upTW4",
+      "sourceTitle": "KFA names Son Heung-Min, Ji So-Yun football players of year / YTN",
+      "sourceChannel": " YTN",
+      "matchedEventTerms": [
+        "kfa",
+        "year",
+        "ji",
+        "so",
+        "yun",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ji-001-kfa-player-of-year/card-04.jpg",
+      "sha256": "eb65062043f28dcde018c1ebc65139eae0e6ed0b837339ff996e9ebbad18fa71",
+      "sourceUrl": "https://www.youtube.com/watch?v=HohXKw4dIRM",
+      "sourceTitle": "KFA names Son Heung-min, Ji So-yun footballers of year   축구: 손흥민, 지소연, 2년 연속 대한축",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "kfa",
+        "year",
+        "ji",
+        "so",
+        "yun",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ji-001-kfa-player-of-year/card-05.jpg",
+      "sha256": "1d0a191f815c333eecd43550bcec98c6de719af45bc44817fe23273956e5434e",
+      "sourceUrl": "https://www.youtube.com/watch?v=-lg-Tj_MbH0",
+      "sourceTitle": "17/04/16 - Chelsea LFC 2-1 Manchester City WFC - FA Women's Cup - Ji So-Yun goal (1080p HD)",
+      "sourceChannel": "asifburhan",
+      "matchedEventTerms": [
+        "ji",
+        "so",
+        "yun",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

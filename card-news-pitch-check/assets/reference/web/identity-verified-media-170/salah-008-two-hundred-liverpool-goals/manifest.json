@@ -1,0 +1,95 @@
+{
+  "topicId": "salah-008-two-hundred-liverpool-goals",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" two hundred liverpool goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-008-two-hundred-liverpool-goals/card-01.jpg",
+      "sha256": "be1147fe5b11ce4406ca1cb338135848a360d1d2284ba2f2e8e36b8b6924fba1",
+      "sourceUrl": "https://www.youtube.com/watch?v=STsFQj4aZM0",
+      "sourceTitle": "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "liverpool",
+        "goals",
+        "mohamed",
+        "salah",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-008-two-hundred-liverpool-goals/card-02.jpg",
+      "sha256": "7803d1dbf125e24fcbb1754f72b6d9a2c4665e707f7ca2e43b2421754819ce8c",
+      "sourceUrl": "https://www.youtube.com/watch?v=rBWXYQZpEl8",
+      "sourceTitle": "Fastest to Fifty | Mo Salah's first 50 Premier League goals for Liverpool",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "liverpool",
+        "goals",
+        "mohamed",
+        "salah",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-008-two-hundred-liverpool-goals/card-03.jpg",
+      "sha256": "f490732162ab67df9a2a8b3cf09945a63c8b96a3e544e59db6e385d335cd3d02",
+      "sourceUrl": "https://www.youtube.com/watch?v=LoMvNkjQOS0",
+      "sourceTitle": "All 245 Mo Salah Goals Scored For Liverpool in the Premier League, Champions League and more!",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "liverpool",
+        "goals",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-008-two-hundred-liverpool-goals/card-04.jpg",
+      "sha256": "38b23238978eb86bf85e0cb2ca5380d2cf06bba8b0e51f6d6621cbe0ccd520e1",
+      "sourceUrl": "https://www.youtube.com/watch?v=wOCSETXiNpM",
+      "sourceTitle": "MOHAMED SALAH All LIVERPOOL #UCL GOALS!",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "liverpool",
+        "goals",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-008-two-hundred-liverpool-goals/card-05.jpg",
+      "sha256": "4ede7c6a22a569c27d8b405c7f980b3aecdf7bc7abe9c4f596010b299b6a9ee8",
+      "sourceUrl": "https://www.youtube.com/watch?v=cGJBKbManZE",
+      "sourceTitle": "Mo Salah's 100 Liverpool Premier League goals | Man Utd celeb, Chelsea screamer & Everton stunner",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "liverpool",
+        "goals",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

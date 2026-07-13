@@ -1,0 +1,84 @@
+{
+  "topicId": "real-016-pele-front-yard-stadium",
+  "player": "Pele",
+  "query": "\"Pele\" pele front yard stadium football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-016-pele-front-yard-stadium/card-01.jpg",
+      "sha256": "50124eb51d76b766473a495d32bc47156c5dd41c92617d7ae59443b39095ff9e",
+      "sourceUrl": "https://www.youtube.com/watch?v=C8nUm8OIM8g",
+      "sourceTitle": "Pele’s Best Skills | FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "pele",
+        "front",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-016-pele-front-yard-stadium/card-02.jpg",
+      "sha256": "a0c21f1c34426798fd54a63a7703771e83a85f10fcede1bda0eb4c34d10fac27",
+      "sourceUrl": "https://www.youtube.com/watch?v=bUTRZGCiiFs",
+      "sourceTitle": "🇧🇷 Pele's Top 5 Goals | FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "pele",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-016-pele-front-yard-stadium/card-03.jpg",
+      "sha256": "eecc56abeab2561c6b4332309b4e1ddef4d5c6c13b0f4e9e940ce17299ab703c",
+      "sourceUrl": "https://www.youtube.com/watch?v=gV1I2SBbCsw",
+      "sourceTitle": "Pele, O Rei | When The World Watched | 1970 FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "pele",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-016-pele-front-yard-stadium/card-04.jpg",
+      "sha256": "9244eda8e124f58f5b7330bbe245176d9bf5a055f8da2404ae86f3ccb3513abd",
+      "sourceUrl": "https://www.youtube.com/watch?v=y53-vJTa-eA",
+      "sourceTitle": "‘O Rei’ Pelé Passes Away: Deep Dive To The Life & Career Of Brazil's All-Time Goal Scorer",
+      "sourceChannel": "CNBC-TV18",
+      "matchedEventTerms": [
+        "pele",
+        "ball",
+        "brazil"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-016-pele-front-yard-stadium/card-05.jpg",
+      "sha256": "98294f9e521d49ab5521c4984a52a9646c11eda273ed830f07b62ced31d6472e",
+      "sourceUrl": "https://www.youtube.com/watch?v=2-CS169akqU",
+      "sourceTitle": "PELÉ | FIFA Classic Player",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "pele"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

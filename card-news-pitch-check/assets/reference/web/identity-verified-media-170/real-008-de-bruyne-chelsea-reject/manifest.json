@@ -1,0 +1,100 @@
+{
+  "topicId": "real-008-de-bruyne-chelsea-reject",
+  "player": "Kevin De Bruyne",
+  "query": "\"Kevin De Bruyne\" de bruyne chelsea reject football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-008-de-bruyne-chelsea-reject/card-01.jpg",
+      "sha256": "85ea30f7ce52661c66feecba7913d5da0ec1fc379d0efcde35284cead0a1a316",
+      "sourceUrl": "https://www.youtube.com/watch?v=6CBz6QkD7ko",
+      "sourceTitle": "Incredible XI Who Never Made It At Chelsea",
+      "sourceChannel": "HITC Sevens",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "chelsea",
+        "reject",
+        "kevin",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-008-de-bruyne-chelsea-reject/card-02.jpg",
+      "sha256": "40d0ab5df064817a6c42af827f703e35edc88c417ddc0d726f63f9b2cdcbe6df",
+      "sourceUrl": "https://www.youtube.com/watch?v=5GxRDDBWy9g",
+      "sourceTitle": "Chelsea Regret Not Keeping Kevin De Bruyne After His Debut",
+      "sourceChannel": "Neymartive Studio",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "chelsea",
+        "kevin",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-008-de-bruyne-chelsea-reject/card-03.jpg",
+      "sha256": "d53a66e1a48d229dd60c0ae4d8dfb0ea16b90ed572d95d42006c178bc6a238a4",
+      "sourceUrl": "https://www.youtube.com/watch?v=GtquRTc0jak",
+      "sourceTitle": "DE BRUYNE ON JOINING CHELSEA | 🇧🇪MADE IN BELGIUM 🇧🇪, SNEAK PEAK 🤫EXCLUSIVE CLIP",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "chelsea",
+        "kevin",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-008-de-bruyne-chelsea-reject/card-04.jpg",
+      "sha256": "8e077104a493ef8d86e15c246f712e5380384086afcb8d449d538aa3789ffa00",
+      "sourceUrl": "https://www.youtube.com/watch?v=ypYVkrHrHd8",
+      "sourceTitle": "Kevin De Bruyne Edit (4K After Effects) Chelsea Reject",
+      "sourceChannel": "PENALDO AEP",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "chelsea",
+        "reject",
+        "kevin"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-008-de-bruyne-chelsea-reject/card-05.jpg",
+      "sha256": "5b4a494193690af0366b86841cf49448d10d63b60f3e2183650ad580f150c958",
+      "sourceUrl": "https://www.youtube.com/watch?v=4OI5dWNjc6s",
+      "sourceTitle": "KING KEV | The final in-depth interview | Kevin De Bruyne reflects on Man City career",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "kevin",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

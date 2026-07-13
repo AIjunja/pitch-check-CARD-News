@@ -1,0 +1,94 @@
+{
+  "topicId": "real-045-aaron-hunt-dive",
+  "player": "Aaron Hunt",
+  "query": "\"Aaron Hunt\" aaron hunt dive football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-045-aaron-hunt-dive/card-01.jpg",
+      "sha256": "71024f25f8c536b276c63dd6dfe35227b750e7ffc64cfe1a7f1ace559d273cdc",
+      "sourceUrl": "https://www.youtube.com/watch?v=sIzyNxuJULY",
+      "sourceTitle": "#FIFA12 | BUNDESLIGA PENALTY CLASSIC: Bayern Munich vs Werder Bremen - #penalties ",
+      "sourceChannel": "Footbaallchallenge",
+      "matchedEventTerms": [
+        "aaron",
+        "hunt",
+        "penalty",
+        "werder",
+        "bremen"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-045-aaron-hunt-dive/card-02.jpg",
+      "sha256": "c8b95bd90b4ccc841df429a64bd90fd98cb5ddaa1f0d684cc0e738ea75d12233",
+      "sourceUrl": "https://www.youtube.com/watch?v=6TPjx1DMaEw",
+      "sourceTitle": "Fair Play Hero Hunt Rejects Penalty",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "aaron",
+        "hunt",
+        "fair",
+        "play",
+        "penalty",
+        "bremen"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-045-aaron-hunt-dive/card-03.jpg",
+      "sha256": "90e14c3a08b4c44a4f4cbf64f0481c14c2fd0919a68cd066a808a96081a41ce2",
+      "sourceUrl": "https://www.youtube.com/watch?v=FuZtBlDynIw",
+      "sourceTitle": "Top 5 Goals - Robben, Firmino and more with fantastic goals on matchday 23",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "aaron",
+        "hunt",
+        "up",
+        "bremen"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-045-aaron-hunt-dive/card-04.jpg",
+      "sha256": "d0d8f09aa5434547c7f1b2c05d27b71236620c8353816653c651c94ca424ef51",
+      "sourceUrl": "https://www.youtube.com/watch?v=DcokmJ7EYyg",
+      "sourceTitle": "Aaron Hunt - Top 5 Goals",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "aaron",
+        "hunt",
+        "werder",
+        "bremen"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-045-aaron-hunt-dive/card-05.jpg",
+      "sha256": "946f5cde35c57c594d9758f4c3207fffa99b20f6d9841a66cb34c07cc1dc96b7",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EMA7ftjBQQ",
+      "sourceTitle": "EUROS FOOTBALL QUIZ Vs AARON HUNT",
+      "sourceChannel": "LukePingu",
+      "matchedEventTerms": [
+        "aaron",
+        "hunt"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

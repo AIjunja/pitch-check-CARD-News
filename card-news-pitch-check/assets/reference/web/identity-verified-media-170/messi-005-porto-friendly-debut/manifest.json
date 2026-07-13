@@ -1,0 +1,110 @@
+{
+  "topicId": "messi-005-porto-friendly-debut",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" porto friendly debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-005-porto-friendly-debut/card-01.jpg",
+      "sha256": "0e564be1823fb45a9b7bd3b2c638674e20e55f6ad2ee2bed1994eec2fce336a4",
+      "sourceUrl": "https://www.youtube.com/watch?v=te4rxMfmeMY",
+      "sourceTitle": "Lionel Messi ● Barcelona Debut Match ● 11/16/2003",
+      "sourceChannel": "MM Comps",
+      "matchedEventTerms": [
+        "porto",
+        "friendly",
+        "debut",
+        "lionel",
+        "messi",
+        "2003",
+        "11",
+        "16",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-005-porto-friendly-debut/card-02.jpg",
+      "sha256": "055fdbb432da3f81816a873be45525a9eebda76f1c65d318e08ee37af1314a91",
+      "sourceUrl": "https://www.youtube.com/watch?v=oBShW7nDcno",
+      "sourceTitle": "Messi's First Ever Team Debut - Barcelona vs Porto on 16 Nov, 2003 | ¿Porque Messi?",
+      "sourceChannel": "Porque Messi",
+      "matchedEventTerms": [
+        "porto",
+        "friendly",
+        "debut",
+        "lionel",
+        "messi",
+        "2003",
+        "16",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-005-porto-friendly-debut/card-03.jpg",
+      "sha256": "6324a109d6d7d041c7d9be71ef422a3fc72f86b765410379195dd0de81a474a2",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZUx8QtoFsmk",
+      "sourceTitle": "16 year old Messi playing for Barca for the first time  VS PORTO/16thNovember2003",
+      "sourceChannel": "FUTBAL ADDICT ",
+      "matchedEventTerms": [
+        "porto",
+        "friendly",
+        "debut",
+        "lionel",
+        "messi",
+        "2003",
+        "16",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-005-porto-friendly-debut/card-04.jpg",
+      "sha256": "79cbbd96ac564595fb9a4bfce7fa5dd5dcab70f2e3ed79525ccca0991faeb502",
+      "sourceUrl": "https://www.youtube.com/watch?v=qiGSJ0qs1Ew",
+      "sourceTitle": "MESSI's DEBUT vs PORTO 🥹🐐",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "porto",
+        "debut",
+        "messi",
+        "2003",
+        "16",
+        "milestone"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-005-porto-friendly-debut/card-05.jpg",
+      "sha256": "3696afff566720f2e18d05e46092f3a136ae2f8d3e83e8bf2c0110daeea68180",
+      "sourceUrl": "https://www.youtube.com/watch?v=xyljZLgmuoE",
+      "sourceTitle": "The First Step of a Legend, Messi's Debut at Barcelona, Friendly 2003",
+      "sourceChannel": "Benbol",
+      "matchedEventTerms": [
+        "porto",
+        "friendly",
+        "debut",
+        "messi",
+        "2003",
+        "16"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

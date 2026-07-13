@@ -1,0 +1,90 @@
+{
+  "topicId": "real-019-di-maria-fireworks-night",
+  "player": "Angel Di Maria",
+  "query": "\"Angel Di Maria\" di maria fireworks night football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-019-di-maria-fireworks-night/card-01.jpg",
+      "sha256": "110c58d3e18d43b54f3c1f049c73d113788e8146f11191ea53aae0fd9bd0239c",
+      "sourceUrl": "https://www.youtube.com/watch?v=K9X_XrsT928",
+      "sourceTitle": "Angel Di Maria snubs Real Madrid fans at the Ballon D'Or ceremony",
+      "sourceChannel": "sport news",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "ceremony"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-019-di-maria-fireworks-night/card-02.jpg",
+      "sha256": "e25f2e3216053c72897ebdc806a23f5271dd71ce5fd40f6895eae4b6e105377a",
+      "sourceUrl": "https://www.youtube.com/watch?v=gxVRCHyqDW4",
+      "sourceTitle": "Manchester United finally put their money where their mouth is in Angel di Maria deal",
+      "sourceChannel": "New News",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "final"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-019-di-maria-fireworks-night/card-03.jpg",
+      "sha256": "231825797219b4c41e8c413004fd676c938972e1ab2bec455f2d419286fdce99",
+      "sourceUrl": "https://www.youtube.com/watch?v=JIljwGX1ZVY",
+      "sourceTitle": "Goal Angel DI MARIA (67' - PSG) PARIS SAINT-GERMAIN - FC METZ (5-0) 21/22",
+      "sourceChannel": "Ligue 1 McDonald’s",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-019-di-maria-fireworks-night/card-04.jpg",
+      "sha256": "9772fab6fe391b674d5274026d7cc9b9297cf4feb07361b0bab0138ae0c1f6cf",
+      "sourceUrl": "https://www.youtube.com/watch?v=M--ve6mo-o8",
+      "sourceTitle": "When Louis van Gaal signed Angel Di Maria for Manchester United.",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-019-di-maria-fireworks-night/card-05.jpg",
+      "sha256": "0626580afcb1b64ee79d9ead5cd5d85b547725ad495c378b99f55e1fdf693178",
+      "sourceUrl": "https://www.youtube.com/watch?v=mF_3ucvofP8",
+      "sourceTitle": "ANGEL DI MARIA: The 🔟th title and his years as a Parisian! 🫶❤️💙",
+      "sourceChannel": "PSG - Paris Saint-Germain",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

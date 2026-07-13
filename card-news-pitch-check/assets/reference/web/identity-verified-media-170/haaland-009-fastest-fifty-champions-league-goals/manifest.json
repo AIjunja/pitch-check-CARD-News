@@ -1,0 +1,108 @@
+{
+  "topicId": "haaland-009-fastest-fifty-champions-league-goals",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" fastest fifty champions league goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-009-fastest-fifty-champions-league-goals/card-01.jpg",
+      "sha256": "3df9725ff0a15c12d4fecd8abb8aec8191cd34a1df21464dec544b4b4a193c16",
+      "sourceUrl": "https://www.youtube.com/watch?v=FYL2_LucV_g",
+      "sourceTitle": "Erling Haaland - Manchester City Finest ",
+      "sourceChannel": "Youngestproff",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "50",
+        "49"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-009-fastest-fifty-champions-league-goals/card-02.jpg",
+      "sha256": "2ac24067b2d38556066f393f3aeb581e9902f505df574ae288cb6e32ec514605",
+      "sourceUrl": "https://www.youtube.com/watch?v=nQfTl2_MQfM",
+      "sourceTitle": "Haaland Reacts: FASTEST to 50 Champions League Goals!",
+      "sourceChannel": "Erling Haaland",
+      "matchedEventTerms": [
+        "fastest",
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "50",
+        "49"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-009-fastest-fifty-champions-league-goals/card-03.jpg",
+      "sha256": "a3484b9a0afc70d1076f2092910d7a651e260d642a5a83becc2c25dee888732c",
+      "sourceUrl": "https://www.youtube.com/watch?v=1CBAXA-lH3Y",
+      "sourceTitle": "Haaland Hits 50 UCL Goals in Record-Breaking Sprint",
+      "sourceChannel": "Music From Noland",
+      "matchedEventTerms": [
+        "fastest",
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "50",
+        "49"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-009-fastest-fifty-champions-league-goals/card-04.jpg",
+      "sha256": "33bfe496f4bb079382215a366dceeb674e52acf97e27fd035bba0c0416804de4",
+      "sourceUrl": "https://www.youtube.com/watch?v=O8XGtTMlL1Q",
+      "sourceTitle": "Fastest players to 50 Champions League goals  Haal.",
+      "sourceChannel": "Global World Tv",
+      "matchedEventTerms": [
+        "fastest",
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "50"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-009-fastest-fifty-champions-league-goals/card-05.jpg",
+      "sha256": "724a3b4ae78f08f4c9e9dcb15185664e2fea004d8b227cd43097d28ec5102e7e",
+      "sourceUrl": "https://www.youtube.com/watch?v=WniUoX9hF1Q",
+      "sourceTitle": "ERLING HAALAND JOINS 50 CLUB | Every goal for Man City so far!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "50"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

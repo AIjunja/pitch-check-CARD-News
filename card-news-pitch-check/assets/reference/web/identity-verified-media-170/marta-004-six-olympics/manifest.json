@@ -1,0 +1,87 @@
+{
+  "topicId": "marta-004-six-olympics",
+  "player": "Marta",
+  "query": "\"Marta\" six olympics football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/marta-004-six-olympics/card-01.jpg",
+      "sha256": "7edbbbe05b400d77d9f664ee376739b7e803d20f954b72b60896a6da9f5320af",
+      "sourceUrl": "https://www.youtube.com/watch?v=wrW5P11WXfI",
+      "sourceTitle": "Football star Marta aims at World Cup glory with Brazil in France | The Women of Football",
+      "sourceChannel": "Olympic Games",
+      "matchedEventTerms": [
+        "olympics",
+        "marta",
+        "olympic",
+        "women"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/marta-004-six-olympics/card-02.jpg",
+      "sha256": "fe2b987c229d161cf46c3d171f7af27435d6b98ae27d4751c3943fbad6e9b344",
+      "sourceUrl": "https://www.youtube.com/watch?v=zXBCY2N4s5U",
+      "sourceTitle": "Ahead of last Olympics, 'joy is the same' for Brazil's Marta",
+      "sourceChannel": "ABS-CBN News",
+      "matchedEventTerms": [
+        "olympics",
+        "marta",
+        "olympic",
+        "women"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/marta-004-six-olympics/card-03.jpg",
+      "sha256": "205c82e09ab4ebf7563e649f6cac5f0c03905333bb257b1816e159344265835c",
+      "sourceUrl": "https://www.youtube.com/watch?v=skMMY-CdycY",
+      "sourceTitle": "Sheroes | Marta's Impassioned World Cup Plea Inspires Generations",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "women"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/marta-004-six-olympics/card-04.jpg",
+      "sha256": "374eee678fd744973196f1822d4de718825e697e55496abfd0eca92dc016a5a7",
+      "sourceUrl": "https://www.youtube.com/watch?v=ckYjfkSrurk",
+      "sourceTitle": "Marta's Shocking Last Olympic Attempt: Will She Finally Win Gold?",
+      "sourceChannel": "Ballplay",
+      "matchedEventTerms": [
+        "six",
+        "marta",
+        "olympic"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/marta-004-six-olympics/card-05.jpg",
+      "sha256": "d854a2c0147d70e75755260f13604d4bc18d781b1a5d8b9008d42e1a7f7dccc1",
+      "sourceUrl": "https://www.youtube.com/watch?v=1Yr_FKrTKpQ",
+      "sourceTitle": "Why Is Marta's FIFA Player Record So Special? - Epic Sports Tales",
+      "sourceChannel": "Epic Sports Tales",
+      "matchedEventTerms": [
+        "marta"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

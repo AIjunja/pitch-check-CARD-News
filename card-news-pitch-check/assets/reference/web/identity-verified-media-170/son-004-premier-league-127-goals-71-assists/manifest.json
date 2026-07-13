@@ -1,0 +1,103 @@
+{
+  "topicId": "son-004-premier-league-127-goals-71-assists",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" premier league 127 goals 71 assists football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-004-premier-league-127-goals-71-assists/card-01.jpg",
+      "sha256": "4b611c89100e79f508fdebdd79c50d86005ff5b53c5a86b2698594df9267df69",
+      "sourceUrl": "https://www.youtube.com/watch?v=mH5wcYC8oxM",
+      "sourceTitle": "Son Heung-min: 10 Years of Smiles, Goals, and Greatness 🇰🇷",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "goals",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-004-premier-league-127-goals-71-assists/card-02.jpg",
+      "sha256": "c8b97310bfb3c247a288abf5594ac6321801c6295b848a9fb986a99f462d17e2",
+      "sourceUrl": "https://www.youtube.com/watch?v=ahPdfGBLGBo",
+      "sourceTitle": "Heung-Min Son's TOP FIVE Premier League goals of all-time!",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "goals",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-004-premier-league-127-goals-71-assists/card-03.jpg",
+      "sha256": "0298df0e2362ce216faf754a059e611519493d684745e5b974e9ee21c53822b0",
+      "sourceUrl": "https://www.youtube.com/watch?v=UuNiqxKb_8Q",
+      "sourceTitle": "Son Heung-Min(Tottenham,PremierLeague)|Goals＆Skills",
+      "sourceChannel": "FOOTBALL COMMENTARY",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "goals",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-004-premier-league-127-goals-71-assists/card-04.jpg",
+      "sha256": "3b4d17ea9f4c44293f211eb55151d6d069ff7cca0c964e8da53d96db661800f6",
+      "sourceUrl": "https://www.youtube.com/watch?v=ksKeCbImFe8",
+      "sourceTitle": "Son Heung Min | Incredible skills and Goals",
+      "sourceChannel": "90 Menit",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "goals",
+        "son",
+        "heung",
+        "min",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-004-premier-league-127-goals-71-assists/card-05.jpg",
+      "sha256": "f12597c89eb1024a188f22dde3d336b44bb04504a7d5fe1d70e5d3840fc9173b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Hor1K1zurv0",
+      "sourceTitle": "Behind The Crest | Son Heung-Min",
+      "sourceChannel": "LAFC",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

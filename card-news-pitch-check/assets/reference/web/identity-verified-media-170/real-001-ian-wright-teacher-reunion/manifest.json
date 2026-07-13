@@ -1,0 +1,87 @@
+{
+  "topicId": "real-001-ian-wright-teacher-reunion",
+  "player": "Ian Wright",
+  "query": "\"Ian Wright\" ian wright teacher reunion football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-001-ian-wright-teacher-reunion/card-01.jpg",
+      "sha256": "f31151da0994a9b95b683a46bda10a330c55b6f717df55278ee74b0cc2643964",
+      "sourceUrl": "https://www.youtube.com/watch?v=VplePNEU2PI",
+      "sourceTitle": "Ian Wright tearfully remembers childhood teacher",
+      "sourceChannel": "BBC Radio 4",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "teacher",
+        "childhood"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-001-ian-wright-teacher-reunion/card-02.jpg",
+      "sha256": "99e0efb71e6b02f2a1638df06310e718ad2afaf3d413110f09f70aae6b76935b",
+      "sourceUrl": "https://www.youtube.com/watch?v=6caCqn_nD6o",
+      "sourceTitle": "Ian Wright’s teacher gave him direction and purpose during his turbulent upbringing - BBC",
+      "sourceChannel": "BBC",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "teacher"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-001-ian-wright-teacher-reunion/card-03.jpg",
+      "sha256": "5f717533fc25ac663822ee38e651a497139af336a8b8ae6fed7b3684802c2083",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZDBUA-qO0dE",
+      "sourceTitle": "Ian Wright gets emotional after hearing an emotional cry from this Arsenal fan",
+      "sourceChannel": "Arsenal Press TV",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "emotional"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-001-ian-wright-teacher-reunion/card-04.jpg",
+      "sha256": "9f2d09e7ad36ba1cd0851e8811b85eb38816dd7968487862a07734667c2afa64",
+      "sourceUrl": "https://www.youtube.com/watch?v=twgVAkT2LV0",
+      "sourceTitle": "Dennis Bergkamp & Ian Wright | Full Interview | \"We felt like Arsenal could be champions.\"",
+      "sourceChannel": "Ian Wright",
+      "matchedEventTerms": [
+        "ian",
+        "wright"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-001-ian-wright-teacher-reunion/card-05.jpg",
+      "sha256": "527665c0c590e1b3f5263739b0fe0f9e55bd7e32bd66002a290a382c267654de",
+      "sourceUrl": "https://www.youtube.com/watch?v=dObU3iazoSw",
+      "sourceTitle": "How A 22 Year Old NOBODY Went From PRISON To Premier League LEGEND",
+      "sourceChannel": "Daily Dose Of Football",
+      "matchedEventTerms": [
+        "ian",
+        "wright"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

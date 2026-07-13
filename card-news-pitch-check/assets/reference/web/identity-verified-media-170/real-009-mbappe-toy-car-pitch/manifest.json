@@ -1,0 +1,85 @@
+{
+  "topicId": "real-009-mbappe-toy-car-pitch",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" mbappe toy car pitch football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-009-mbappe-toy-car-pitch/card-01.jpg",
+      "sha256": "cddc5e2a4df67a98fee1a2155cead9824427752d1856b830e511afb01b8ab476",
+      "sourceUrl": "https://www.youtube.com/watch?v=JVF6NCLs510",
+      "sourceTitle": "Kylian Mbappé Lottin Biography, Age, Parents, Wife, FIFA 22, Career, Net Worth & Football, Players",
+      "sourceChannel": "GooTube",
+      "matchedEventTerms": [
+        "mbappe",
+        "car",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-009-mbappe-toy-car-pitch/card-02.jpg",
+      "sha256": "0652f8126ddbeda9971376e5760ba358b9bd7c90780d246f5d52f4e6d90b1b38",
+      "sourceUrl": "https://www.youtube.com/watch?v=4lmlQ1wrZgo",
+      "sourceTitle": "Kylian Mbappe / First 51 Goals in Career So Far.. / Monaco, PSG & France",
+      "sourceChannel": "Bjarni Erlingur",
+      "matchedEventTerms": [
+        "mbappe",
+        "car",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-009-mbappe-toy-car-pitch/card-03.jpg",
+      "sha256": "241e36d4f7cf131a1a1a5654a19c27b7139a9bef89c7cf5fd325d31e0f984ec2",
+      "sourceUrl": "https://www.youtube.com/watch?v=ffLy8YsNOhw",
+      "sourceTitle": "Kylian Mbappe Goal | Paraguay 0-1 France | FIFA World Cup 2026™",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-009-mbappe-toy-car-pitch/card-04.jpg",
+      "sha256": "902460149a9f0cbc76a803b93954f7da8e2a9125a78615588b28fecb661be17f",
+      "sourceUrl": "https://www.youtube.com/watch?v=TTmr4Qm2y0k",
+      "sourceTitle": "Explaining Kylian Mbappe’s image rights controversy with France | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-009-mbappe-toy-car-pitch/card-05.jpg",
+      "sha256": "2364b7111b94ea1942ba64eb90c681d1ca5763183e70f169e17148040f448b17",
+      "sourceUrl": "https://www.youtube.com/watch?v=KuAGfbKOJ7E",
+      "sourceTitle": "Kylian Mbappe WANTS OUT! ‘WORLD’S BIGGEST BABY!’ - Craig Burley 😂 😂 | ESPN FC",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

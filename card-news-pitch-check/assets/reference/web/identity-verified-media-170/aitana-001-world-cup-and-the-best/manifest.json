@@ -1,0 +1,103 @@
+{
+  "topicId": "aitana-001-world-cup-and-the-best",
+  "player": "Aitana Bonmati",
+  "query": "\"Aitana Bonmati\" world cup and the best football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-001-world-cup-and-the-best/card-01.jpg",
+      "sha256": "16fb0aa27f16ecdfc4035bb4d5b057d6678845c24170ac1be68e12c97cab8021",
+      "sourceUrl": "https://www.youtube.com/watch?v=OxL-I4SdACo",
+      "sourceTitle": "INSIDE VIEW I AITANA BONMATÍ WINS BALLON D'OR 2023! 🥇💙❤️",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "world",
+        "best",
+        "aitana",
+        "bonmati",
+        "2023",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-001-world-cup-and-the-best/card-02.jpg",
+      "sha256": "5f9de5be0302513e39deeccf190a6e0cfdca663c185f168216a31bdc9625492c",
+      "sourceUrl": "https://www.youtube.com/watch?v=lTg3HJfoySs",
+      "sourceTitle": "Aitana Bonmatí named Ballon d'Or for 2023 🥇🏆",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati",
+        "2023",
+        "award",
+        "team",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-001-world-cup-and-the-best/card-03.jpg",
+      "sha256": "e6d8df1bffe9db74eec3392e7f23a7271cdf99f97790a8fe98478885be4b1d17",
+      "sourceUrl": "https://www.youtube.com/watch?v=RQEugdsrIEM",
+      "sourceTitle": "“Female Iniesta” Aitana Bonmatí Women’s World Cup GOLDEN BALL",
+      "sourceChannel": "RespecTheLev",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "best",
+        "aitana",
+        "bonmati",
+        "golden",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-001-world-cup-and-the-best/card-04.jpg",
+      "sha256": "dfb004569bef32aa99b267cd76e1d025013b5dfaa9b1ecbc4ae0b23730da216d",
+      "sourceUrl": "https://www.youtube.com/watch?v=DkQiOefsaa4",
+      "sourceTitle": "Aitana Bonmati Is Named The Best FIFA Women's Player 2023",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "best",
+        "aitana",
+        "bonmati",
+        "2023",
+        "award"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-001-world-cup-and-the-best/card-05.jpg",
+      "sha256": "8593cb4dd5f9b421dcb32e39132fb7e636ee0de9a2ec7bcc2060e081b8ef214c",
+      "sourceUrl": "https://www.youtube.com/watch?v=2JB7AXgKwaI",
+      "sourceTitle": "Ballon d'Or 2023 winners | Messi wins eighth trophy alongside Aitana Bonmati",
+      "sourceChannel": "The Daily Dispatch ",
+      "matchedEventTerms": [
+        "aitana",
+        "bonmati",
+        "2023",
+        "award",
+        "trophy",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

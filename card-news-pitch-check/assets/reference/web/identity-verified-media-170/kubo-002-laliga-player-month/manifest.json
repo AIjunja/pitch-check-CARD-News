@@ -1,0 +1,93 @@
+{
+  "topicId": "kubo-002-laliga-player-month",
+  "player": "Takefusa Kubo",
+  "query": "\"Takefusa Kubo\" laliga player month football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-002-laliga-player-month/card-01.jpg",
+      "sha256": "f3279b94b2f43801cce806838550035798430d794a1b65756a2f87c391616bf6",
+      "sourceUrl": "https://www.youtube.com/watch?v=cjxm6IJRl1E",
+      "sourceTitle": "EAFC 24 | INCREDIBLE CARD | LA LIGA POTM TAKEFUSA KUBO REVIEW | 85 PLAYER OF THE MONTH KUBO REVIEW",
+      "sourceChannel": "ItsSean95",
+      "matchedEventTerms": [
+        "month",
+        "takefusa",
+        "kubo",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-002-laliga-player-month/card-02.jpg",
+      "sha256": "665c451a095862860e637009a925998fc1838de698a42a322cee2d3e5c4d41f3",
+      "sourceUrl": "https://www.youtube.com/watch?v=DUojLIDjf7k",
+      "sourceTitle": "Takefusa Kubo | ‘Japanese Lionel Messi’ | Hala Madrid",
+      "sourceChannel": "Lộc Trương",
+      "matchedEventTerms": [
+        "month",
+        "takefusa",
+        "kubo",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-002-laliga-player-month/card-03.jpg",
+      "sha256": "d36d49ce30624b8147b963a321ec8c10356ebdc8cb24cd38b44703efa6841190",
+      "sourceUrl": "https://www.youtube.com/watch?v=oUgjzcSktow",
+      "sourceTitle": "Takefusa Kubo 2023 • Every Touch is magic for his team",
+      "sourceChannel": "WHS sport",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "2023",
+        "ball",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-002-laliga-player-month/card-04.jpg",
+      "sha256": "1ce71ae3e67fcbc562c344490a90af9fc8dce9446e0f823ee8a2341c8bdce770",
+      "sourceUrl": "https://www.youtube.com/watch?v=SdooCaOQOJE",
+      "sourceTitle": "FC Barcelona vs. RCD Mallorca 4-0 | La Liga Match Review",
+      "sourceChannel": "The Barcelona Podcast",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-002-laliga-player-month/card-05.jpg",
+      "sha256": "7aa9af86f43954c031d6f2ca1a0d4cb5d599af7b62598ac43606e702a740168f",
+      "sourceUrl": "https://www.youtube.com/watch?v=Am-LltcotOQ",
+      "sourceTitle": "SKILLS | This Is How Take Kubo Plays | Real Sociedad",
+      "sourceChannel": "Real Sociedad TV",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "10",
+        "la"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

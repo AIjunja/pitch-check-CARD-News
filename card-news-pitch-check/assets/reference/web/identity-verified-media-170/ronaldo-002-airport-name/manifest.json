@@ -1,0 +1,103 @@
+{
+  "topicId": "ronaldo-002-airport-name",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" airport name football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-002-airport-name/card-01.jpg",
+      "sha256": "daf8343384e4680271e8d2dcfebf166456ac372a845f7a132d5219995333139c",
+      "sourceUrl": "https://www.youtube.com/watch?v=GuW-9xuranA",
+      "sourceTitle": "Cristiano Ronaldo to have airport named in his honour after Euro 2016 success",
+      "sourceChannel": "U-LifyTV",
+      "matchedEventTerms": [
+        "airport",
+        "name",
+        "cristiano",
+        "ronaldo",
+        "international",
+        "madeira",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-002-airport-name/card-02.jpg",
+      "sha256": "f09d89f08a81db4350af39a8c5815149ca151b483ed500416146fd7be708a1d6",
+      "sourceUrl": "https://www.youtube.com/watch?v=W7km3cu0HuI",
+      "sourceTitle": "Cristiano Ronaldo bust unveiled as airport is named after footballer – video",
+      "sourceChannel": "Guardian Football",
+      "matchedEventTerms": [
+        "airport",
+        "name",
+        "cristiano",
+        "ronaldo",
+        "international",
+        "madeira"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-002-airport-name/card-03.jpg",
+      "sha256": "86cefb60a709770fa8388a36ac3c2fe817545eff50bf781b414c7936a97013af",
+      "sourceUrl": "https://www.youtube.com/watch?v=6NpKoF8Uj1k",
+      "sourceTitle": "Cristiano Ronaldo's home island to name airport after him",
+      "sourceChannel": "FOX Soccer",
+      "matchedEventTerms": [
+        "airport",
+        "name",
+        "cristiano",
+        "ronaldo",
+        "international",
+        "madeira"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-002-airport-name/card-04.jpg",
+      "sha256": "1a9c03e9389655c8546eebf8229562f38c29197df9c7a700648490c881662860",
+      "sourceUrl": "https://www.youtube.com/watch?v=0Jznm1TGROo",
+      "sourceTitle": "Airport named after Cristiano Ronaldo in Portugal",
+      "sourceChannel": "U-LifyTV",
+      "matchedEventTerms": [
+        "airport",
+        "name",
+        "cristiano",
+        "ronaldo",
+        "international",
+        "portugal"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-002-airport-name/card-05.jpg",
+      "sha256": "edc134ca1a29fafd8a11c98a3788af1991a3f798d0201481fd6c0a931138c35b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xqm3NeBEcGE",
+      "sourceTitle": "Madeira renames its airport after Ronaldo",
+      "sourceChannel": "euronews",
+      "matchedEventTerms": [
+        "airport",
+        "name",
+        "cristiano",
+        "ronaldo",
+        "madeira"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,95 @@
+{
+  "topicId": "son-008-bundesliga-made-in-germany",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" bundesliga made in germany football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-008-bundesliga-made-in-germany/card-01.jpg",
+      "sha256": "581fd0ffa5535ab63ea9329c5d621c5d07ebc7e973b4e3713e784030c5f557d8",
+      "sourceUrl": "https://www.youtube.com/watch?v=cuIZFSgFSlk",
+      "sourceTitle": "Son and Ter Stegen Duel on FIFA!",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "bundesliga",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-008-bundesliga-made-in-germany/card-02.jpg",
+      "sha256": "641cff844f37609bae41f3a7c9e09ad10f721233e4a41d0eba10e6ed1dd23dd5",
+      "sourceUrl": "https://www.youtube.com/watch?v=p8SnRMFllX8",
+      "sourceTitle": "The Match That Made Tottenham Buy Heung Min Son",
+      "sourceChannel": "Raul",
+      "matchedEventTerms": [
+        "made",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-008-bundesliga-made-in-germany/card-03.jpg",
+      "sha256": "19ed5aca5de4574d8ff4c18cdf5f8984e8c575283bd87eb45634de84f454a1d2",
+      "sourceUrl": "https://www.youtube.com/watch?v=kTz7JzdSNg0",
+      "sourceTitle": "TEQBALL DOUBLES! ⚽ HARRY KANE & HEUNG-MIN SON V LUCAS MOURA & ERIC DIER",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-008-bundesliga-made-in-germany/card-04.jpg",
+      "sha256": "0782b07a4c8b81ca4c50dba0182be8462aefeccf411682f92e3cdcfbeec811f0",
+      "sourceUrl": "https://www.youtube.com/watch?v=xx14qOSQyE0",
+      "sourceTitle": "Heung-Min Son (손흥민) - Made In Bundesliga",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "bundesliga",
+        "made",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-008-bundesliga-made-in-germany/card-05.jpg",
+      "sha256": "8c946cec1a8e2a1662bb21495d6753d3df36527b10267d1502601c8749916839",
+      "sourceUrl": "https://www.youtube.com/watch?v=Qlo8yELjgVk",
+      "sourceTitle": "Heung-Min Son 손흥민 - Top 5 Goals",
+      "sourceChannel": "Bundesliga",
+      "matchedEventTerms": [
+        "bundesliga",
+        "son",
+        "heung",
+        "min",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

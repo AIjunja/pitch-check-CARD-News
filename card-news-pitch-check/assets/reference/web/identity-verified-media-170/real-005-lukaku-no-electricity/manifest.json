@@ -1,0 +1,89 @@
+{
+  "topicId": "real-005-lukaku-no-electricity",
+  "player": "Romelu Lukaku",
+  "query": "\"Romelu Lukaku\" lukaku no electricity football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-005-lukaku-no-electricity/card-01.jpg",
+      "sha256": "ef3ca5a2bc7d2b0dab9f942729c02bffc943911237e54311c36de75773ef0a2d",
+      "sourceUrl": "https://www.youtube.com/watch?v=AZp_XFU1-Io",
+      "sourceTitle": "Manchester United star Romelu Lukaku tells referee NOT to aw ard Belgium a penalty vs Tunisia",
+      "sourceChannel": "SPORT MODE",
+      "matchedEventTerms": [
+        "lukaku",
+        "no",
+        "romelu",
+        "pro"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-005-lukaku-no-electricity/card-02.jpg",
+      "sha256": "ad2ae39246d4069b988a151071fa23794907e1eb6e1ac4d57cbba6f37c21ba64",
+      "sourceUrl": "https://www.youtube.com/watch?v=sFayRXdeCUk",
+      "sourceTitle": "The season that made Chelsea buy Romelu Lukaku",
+      "sourceChannel": "ELEVEN Football",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "anderlecht"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-005-lukaku-no-electricity/card-03.jpg",
+      "sha256": "5ebb28c9013ca065d48bc31ec4bb0934bf31e5922e69f4be0dee0121ae210efb",
+      "sourceUrl": "https://www.youtube.com/watch?v=_T7kGX4Kof8",
+      "sourceTitle": "Romelu Lukaku: I couldn't say no to Manchester United",
+      "sourceChannel": "Guardian Football",
+      "matchedEventTerms": [
+        "lukaku",
+        "no",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-005-lukaku-no-electricity/card-04.jpg",
+      "sha256": "6a5796ca9786546f394e1820ced5335ccb5c9673be57f4ebcfba633701a405a1",
+      "sourceUrl": "https://www.youtube.com/watch?v=CB-kW1AdXG8",
+      "sourceTitle": "Zlatan Ibrahimovic denies using racist language in clash with Romelu Lukaku",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "lukaku",
+        "no",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-005-lukaku-no-electricity/card-05.jpg",
+      "sha256": "ec8cdf7eed9d9356794b0852e69b329bb858dea2b66834db4d88ee412b3947a9",
+      "sourceUrl": "https://www.youtube.com/watch?v=hNcCZfV0Rcg",
+      "sourceTitle": "Lukaku has been told he has ‘six weeks to save his Chelsea career after another unconvincing display",
+      "sourceChannel": "Talking Tactics ",
+      "matchedEventTerms": [
+        "lukaku",
+        "no",
+        "romelu"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

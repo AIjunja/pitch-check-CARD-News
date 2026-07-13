@@ -1,0 +1,83 @@
+{
+  "topicId": "real-020-nani-free-food",
+  "player": "Nani",
+  "query": "\"Nani\" nani free food football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-020-nani-free-food/card-01.jpg",
+      "sha256": "187f9974770d6d21fe1c2cacad9ff9dd7582041056b82e04ff92e4f35565c98b",
+      "sourceUrl": "https://www.youtube.com/watch?v=48yiEntpSo4",
+      "sourceTitle": "Nani: All The Goals! 🔥⚽️",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "nani",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-020-nani-free-food/card-02.jpg",
+      "sha256": "ece692287d59c19c59b5c1030be9786026e2e3ddbfc0c0644829a6320a1bc3c4",
+      "sourceUrl": "https://www.youtube.com/watch?v=yDu0jHSTlWk",
+      "sourceTitle": "Nani BEST Premier League GOALS, SKILLS & ASSISTS! | PL Ballers",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "nani",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-020-nani-free-food/card-03.jpg",
+      "sha256": "b48d853760ae92ccfcfcde5fedaf9675074276c70bcad163bf51f59d123ab85e",
+      "sourceUrl": "https://www.youtube.com/watch?v=ab89PK8ZjNA",
+      "sourceTitle": "FIFA 15 - Nani and The Perfect Free-Kick!",
+      "sourceChannel": "TheJourneyman1972",
+      "matchedEventTerms": [
+        "nani",
+        "free"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-020-nani-free-food/card-04.jpg",
+      "sha256": "29c326c46065e3770a7ab931b629a9168660a25b960b64dde5d984d733609009",
+      "sourceUrl": "https://www.youtube.com/watch?v=z82uoo_HyCU",
+      "sourceTitle": "\"Best time of our lives!\" | Nani on living with Cristiano Ronaldo & Man Utd memories",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "nani"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-020-nani-free-food/card-05.jpg",
+      "sha256": "45938a9f7b9706632e655b30a3d3c6181f0db04a51f7e6de2bdaff1732d8c45a",
+      "sourceUrl": "https://www.youtube.com/watch?v=6TXqg2bPnbo",
+      "sourceTitle": "Johnson out of England game, Zenit after Nani",
+      "sourceChannel": "IBTimes UK",
+      "matchedEventTerms": [
+        "nani"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

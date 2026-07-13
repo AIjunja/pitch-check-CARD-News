@@ -1,0 +1,103 @@
+{
+  "topicId": "park-004-first-asian-champions-league-final",
+  "player": "Park Ji-sung",
+  "query": "\"Park Ji-sung\" first asian champions league final football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/park-004-first-asian-champions-league-final/card-01.jpg",
+      "sha256": "38b7324b31dd193e34ce3e42fa97dabe31e98565c7744639ff56c89e8fb5606a",
+      "sourceUrl": "https://www.youtube.com/watch?v=cLCtu4dK2GU",
+      "sourceTitle": "Ji-Sung Park 박지성 ►South Korean Legend ● 2003-2005 & 2013-2014 ● PSV Eindhoven ᴴᴰ",
+      "sourceChannel": "MartinhoProductions",
+      "matchedEventTerms": [
+        "first",
+        "asian",
+        "champions",
+        "league",
+        "final",
+        "park",
+        "ji",
+        "sung",
+        "05"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/park-004-first-asian-champions-league-final/card-02.jpg",
+      "sha256": "a7157d44494e8dd30aa8fcd3bb2269cb9083593bec84441220d8a190ef703568",
+      "sourceUrl": "https://www.youtube.com/watch?v=wWfI31vsF0U",
+      "sourceTitle": "Ji-Sung Park ◉ All 13 Goals for South Korea 🇰🇷",
+      "sourceChannel": "Football's Great 3",
+      "matchedEventTerms": [
+        "first",
+        "asian",
+        "champions",
+        "league",
+        "final",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/park-004-first-asian-champions-league-final/card-03.jpg",
+      "sha256": "965b079590da449433eb9fe1622bed390fc75024c9f7fd349f865831f09856c2",
+      "sourceUrl": "https://www.youtube.com/watch?v=rnoWKTcMaNE",
+      "sourceTitle": "Ji-sung Park launch the Champions Trophy Tour in Hong Kong.",
+      "sourceChannel": "cielo United ☁️ سماء اليونايتد",
+      "matchedEventTerms": [
+        "champions",
+        "park",
+        "ji",
+        "sung",
+        "trophy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/park-004-first-asian-champions-league-final/card-04.jpg",
+      "sha256": "c01342be081dfd7a0f9eb95bac1ceccf4822ac01178fd43cab7a69eca9761320",
+      "sourceUrl": "https://www.youtube.com/watch?v=0ZXvn5DowmM",
+      "sourceTitle": "Player profile: Park Ji-sung, new QPR signing and South Korea international",
+      "sourceChannel": "GOAL",
+      "matchedEventTerms": [
+        "first",
+        "asian",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/park-004-first-asian-champions-league-final/card-05.jpg",
+      "sha256": "69ba3943cf629f76d36422b1910b49f3aeee8fd210d011361c517478a7ea3105",
+      "sourceUrl": "https://www.youtube.com/watch?v=yHQBv4PgsHU",
+      "sourceTitle": "Park Ji Sung Solo Goal vs KPOP Idols Running Man",
+      "sourceChannel": "Pullmyleg FC",
+      "matchedEventTerms": [
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

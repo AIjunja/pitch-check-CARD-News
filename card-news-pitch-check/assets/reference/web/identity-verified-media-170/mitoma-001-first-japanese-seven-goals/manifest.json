@@ -1,0 +1,92 @@
+{
+  "topicId": "mitoma-001-first-japanese-seven-goals",
+  "player": "Kaoru Mitoma",
+  "query": "\"Kaoru Mitoma\" first japanese seven goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-001-first-japanese-seven-goals/card-01.jpg",
+      "sha256": "e5afbbdfb6627e6b088fc8ae412b7bc9cc10407b9256e0b17f5fff4c53805667",
+      "sourceUrl": "https://www.youtube.com/watch?v=kSOza6jnSO0",
+      "sourceTitle": "Best Of Kaoru Mitoma 2024/25 | Goals, Assists, Skills & More!",
+      "sourceChannel": "Official Brighton & Hove Albion FC",
+      "matchedEventTerms": [
+        "japanese",
+        "goals",
+        "kaoru",
+        "mitoma"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-001-first-japanese-seven-goals/card-02.jpg",
+      "sha256": "62839b969195de16293dddf2a45b623aa878ad691f38e00a0ac7a227306dd259",
+      "sourceUrl": "https://www.youtube.com/watch?v=Za2ZCa5oOqc",
+      "sourceTitle": "'THIS GOAL IS MY FAVOURITE!' 🎯  Kaoru Mitoma | Uncut",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "goals",
+        "kaoru",
+        "mitoma",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-001-first-japanese-seven-goals/card-03.jpg",
+      "sha256": "66f19f6d007e07c5332998db4fbbd0f72a4dc787ca953f110c2c1ce16838e317",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZbvAwxK9V5I",
+      "sourceTitle": "Kaoru Mitoma | All Highlights Goals Assists Skills 2023 三占薰 足球 精華 入球 助攻",
+      "sourceChannel": "足球頻道FootballArt",
+      "matchedEventTerms": [
+        "goals",
+        "kaoru",
+        "mitoma",
+        "2023",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-001-first-japanese-seven-goals/card-04.jpg",
+      "sha256": "fde577b4dcd29c742b0ec7c513d2c3ae79b659de733dbdade29077f963897bf6",
+      "sourceUrl": "https://www.youtube.com/watch?v=udNgsiko8RQ",
+      "sourceTitle": "Kaoru Mitoma EVERY GOAL 2022/23",
+      "sourceChannel": "Official Brighton & Hove Albion FC",
+      "matchedEventTerms": [
+        "goals",
+        "kaoru",
+        "mitoma"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-001-first-japanese-seven-goals/card-05.jpg",
+      "sha256": "30b88a280c8d4616b5744769bb55e9da4aaf2bb0f3d8f8ed8f9a93e6e0404a7e",
+      "sourceUrl": "https://www.youtube.com/watch?v=9BmXXX6JkIA",
+      "sourceTitle": "Most SPECTACULAR skills from February ft. Foden & Mitoma | Premier League",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "kaoru",
+        "mitoma",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,98 @@
+{
+  "topicId": "real-029-lee-kang-in-reality-tv",
+  "player": "Lee Kang-in",
+  "query": "\"Lee Kang-in\" lee kang in reality tv football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-029-lee-kang-in-reality-tv/card-01.jpg",
+      "sha256": "abf9d3d7fdd2844ebcc581708a50b5a878bf529763f681286473e2b3c04f4d3a",
+      "sourceUrl": "https://www.youtube.com/watch?v=pKOiRiYrN3o",
+      "sourceTitle": "'PSG Transfer Fee Discount' Lee Kang-in to Come to Korea Tour After Transfer to Atletico (Spain T...",
+      "sourceChannel": "한준TV HANJUNE TV",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "tv",
+        "world",
+        "cup",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-029-lee-kang-in-reality-tv/card-02.jpg",
+      "sha256": "33e85c211a1a3b63e2720f98e86740135a272caf35636a235b19007463f4e22b",
+      "sourceUrl": "https://www.youtube.com/watch?v=9zqPYizK7Ic",
+      "sourceTitle": "[Exclusive] 'Lee Kang-in Transfer Agreed' Atletico Madrid Official Korea Tour Announcement (Fact ...",
+      "sourceChannel": "한준TV HANJUNE TV",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "tv",
+        "action",
+        "reaction",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-029-lee-kang-in-reality-tv/card-03.jpg",
+      "sha256": "57f74a079ebd9bab492db5b4f3263a60d019caae549a3cddad44209ba0396a2d",
+      "sourceUrl": "https://www.youtube.com/watch?v=mRBDNqZvNg0",
+      "sourceTitle": "Lee Kang-in becomes South Korea's World Cup captain from reality show",
+      "sourceChannel": "Manorama News",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "reality",
+        "world",
+        "cup",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-029-lee-kang-in-reality-tv/card-04.jpg",
+      "sha256": "371647aa923040a0c3d8a99e86168be5f748e4d54cd1641bcbd4fc12b1faf74e",
+      "sourceUrl": "https://www.youtube.com/watch?v=vj9hZ0wMlRQ",
+      "sourceTitle": "Team Feature: Korea Republic | Remembering Korea Republic Great Yoo Shang-chul",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "reality",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-029-lee-kang-in-reality-tv/card-05.jpg",
+      "sha256": "c0905708a17686bd07c95a617540034e398e1f3df40754d557c021dc204d404e",
+      "sourceUrl": "https://www.youtube.com/watch?v=uNxMiLGlvyc",
+      "sourceTitle": "Lee Kangin: The future of Korea Republic?",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

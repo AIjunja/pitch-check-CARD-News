@@ -1,0 +1,104 @@
+{
+  "topicId": "mbappe-008-real-madrid-five-year-contract",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" real madrid five year contract football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-008-real-madrid-five-year-contract/card-01.jpg",
+      "sha256": "87d31b2cf065ae0f298fdb96481cc3f5c91c2ce022926375f352f604c5646de5",
+      "sourceUrl": "https://www.youtube.com/watch?v=ygVYQByjfxk",
+      "sourceTitle": "Real Madrid confident in signing Kylian Mbappe despite reported interest from Liverpool",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "kylian",
+        "mbappe",
+        "transfer",
+        "signing",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-008-real-madrid-five-year-contract/card-02.jpg",
+      "sha256": "5a7c24b9f63412a511832a984f45ecac1e1a3d6531d7320bb095ee5690b13de4",
+      "sourceUrl": "https://www.youtube.com/watch?v=15ODqRGoPy4",
+      "sourceTitle": "Real Madrid appear to walk away from Kylian Mbappe deal as negotiations breakdown",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "kylian",
+        "mbappe",
+        "signing",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-008-real-madrid-five-year-contract/card-03.jpg",
+      "sha256": "f83dd6d80b1f309574980f288d95e0fc7f76730d97c2881bc4c39f07c3362b22",
+      "sourceUrl": "https://www.youtube.com/watch?v=hjPp2t6fLto",
+      "sourceTitle": "Transfer Talk: Could Kylian Mbappe join Real Madrid next season for free?",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "kylian",
+        "mbappe",
+        "transfer",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-008-real-madrid-five-year-contract/card-04.jpg",
+      "sha256": "d80c7d9a9dd8af8e5531ac708176d2d036750dfc2ccea087c6903dfcd2900745",
+      "sourceUrl": "https://www.youtube.com/watch?v=EmNgD-GXlIg",
+      "sourceTitle": "DEPRESSED FOOTBALL FAN REACTION to KYLIAN MBAPPE JOINING REAL MADRID",
+      "sourceChannel": "KarmzZY",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "kylian",
+        "mbappe",
+        "10",
+        "press"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-008-real-madrid-five-year-contract/card-05.jpg",
+      "sha256": "9f1e124010cf99ad4d1170d5849517e25e64361cc0c35c3a45100b4f27ded175",
+      "sourceUrl": "https://www.youtube.com/watch?v=PzS7WZaAlLU",
+      "sourceTitle": "Real Madrid make FRESH €170m bid for Kylian Mbappe + latest on Ronaldo to Man City! | Transfer News",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "real",
+        "madrid",
+        "kylian",
+        "mbappe",
+        "transfer",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

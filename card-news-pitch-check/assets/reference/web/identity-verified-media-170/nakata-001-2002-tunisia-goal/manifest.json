@@ -1,0 +1,89 @@
+{
+  "topicId": "nakata-001-2002-tunisia-goal",
+  "player": "Hidetoshi Nakata",
+  "query": "\"Hidetoshi Nakata\" 2002 tunisia goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/nakata-001-2002-tunisia-goal/card-01.jpg",
+      "sha256": "b8a8c13ba7e21a844e556049749c16671189736102d96f71ff7f3a9ce5f595ce",
+      "sourceUrl": "https://www.youtube.com/watch?v=c-jQXJYENCI",
+      "sourceTitle": "Hidetoshi Nakata: A Japanese football icon",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "hidetoshi",
+        "nakata",
+        "ball",
+        "japan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/nakata-001-2002-tunisia-goal/card-02.jpg",
+      "sha256": "29911de5ecd26313157c61e8456ac0baa7088bd4aa90db00e6c8738f1ff04a2e",
+      "sourceUrl": "https://www.youtube.com/watch?v=6_s7mStY3nk",
+      "sourceTitle": "Hidetoshi Nakata | 中田 英寿 | Asia Hall Of Fame | Japan | Goals, Skills, Assists",
+      "sourceChannel": "AFC FOOTBALL MANIA",
+      "matchedEventTerms": [
+        "hidetoshi",
+        "nakata",
+        "japan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/nakata-001-2002-tunisia-goal/card-03.jpg",
+      "sha256": "3466a039ab87e00d65166ed370b8be17a2a845ac3f900146dc792cba826e348f",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kf7c4Etexo0",
+      "sourceTitle": "Hidetoshi nakata legends japan national football",
+      "sourceChannel": "Legenda Futbolmania",
+      "matchedEventTerms": [
+        "hidetoshi",
+        "nakata",
+        "japan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/nakata-001-2002-tunisia-goal/card-04.jpg",
+      "sha256": "8cde6172bd85b66a29b60949683d510f6ef0c49dce77d90b06a1569515d094a6",
+      "sourceUrl": "https://www.youtube.com/watch?v=NIJTnje1J-Q",
+      "sourceTitle": "My Hidetoshi Nakata jerseys...What a legend!",
+      "sourceChannel": "Andrew Whitelaw",
+      "matchedEventTerms": [
+        "hidetoshi",
+        "nakata",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/nakata-001-2002-tunisia-goal/card-05.jpg",
+      "sha256": "7410efe2742c5f97c785027e29a86638cf89f2b2b24a2fa7a66bf44300d47f23",
+      "sourceUrl": "https://www.youtube.com/watch?v=MWrOKy1XvKo",
+      "sourceTitle": "Hidetoshi Nakata, The Last Samurai [Goals & Skills] REACTION",
+      "sourceChannel": "Der Kaiser_23",
+      "matchedEventTerms": [
+        "hidetoshi",
+        "nakata",
+        "japan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

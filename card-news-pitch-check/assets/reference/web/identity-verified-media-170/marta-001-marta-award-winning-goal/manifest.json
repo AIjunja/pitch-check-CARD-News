@@ -1,0 +1,95 @@
+{
+  "topicId": "marta-001-marta-award-winning-goal",
+  "player": "Marta",
+  "query": "\"Marta\" marta award winning goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/marta-001-marta-award-winning-goal/card-01.jpg",
+      "sha256": "d06f6d2ee2f40a066657bdb4c964e74711f88bb94284c580649ed5d80684e8ab",
+      "sourceUrl": "https://www.youtube.com/watch?v=q0QtAaFdw8g",
+      "sourceTitle": "Marta | Brazil v Jamaica | FIFA Marta Award 2024 WINNER!",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "award",
+        "2024",
+        "fifa",
+        "brazil",
+        "jamaica"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/marta-001-marta-award-winning-goal/card-02.jpg",
+      "sha256": "a6166b5c3b44a5046712437600cc5543faf9f95e13cd65dee15d3f3103592f72",
+      "sourceUrl": "https://www.youtube.com/watch?v=XM3rot-MziA",
+      "sourceTitle": "Trinity Rodman | USA v Japan | FIFA Marta Award 2024 Nominee",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "award",
+        "2024",
+        "fifa"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/marta-001-marta-award-winning-goal/card-03.jpg",
+      "sha256": "c57c36a7e010c1879458c6d3b8e502774e93686086262d546185ff2a41dd6f60",
+      "sourceUrl": "https://www.youtube.com/watch?v=pM-twoBm_QY",
+      "sourceTitle": "Mayra Pelayo | Mexico v USA | FIFA Marta Award 2024 Nominee",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "award",
+        "2024",
+        "fifa"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/marta-001-marta-award-winning-goal/card-04.jpg",
+      "sha256": "4a85c5314a2a2dd6427d22a5b06d590b4a977568608d7ff1da439fa34af72eb0",
+      "sourceUrl": "https://www.youtube.com/watch?v=k-K2U5HP25I",
+      "sourceTitle": "Marta picks her TOP 3 GOALS",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "fifa",
+        "brazil",
+        "women"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/marta-001-marta-award-winning-goal/card-05.jpg",
+      "sha256": "4182d4355bee25164c348d33ea3dfbb6689f54b05e8dfa153286129e0beafec4",
+      "sourceUrl": "https://www.youtube.com/watch?v=p0Z6bwygQL0",
+      "sourceTitle": "Paulina Krumbiegel | Duisburg v Hoffenheim | FIFA Marta Award 2024 Nominee",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "marta",
+        "award",
+        "2024",
+        "fifa"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

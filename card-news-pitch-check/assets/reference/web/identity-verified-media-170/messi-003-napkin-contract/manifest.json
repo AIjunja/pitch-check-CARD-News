@@ -1,0 +1,95 @@
+{
+  "topicId": "messi-003-napkin-contract",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" napkin contract football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-003-napkin-contract/card-01.jpg",
+      "sha256": "6057ce09949c9e5532c8fa21cb12f6fd1b5616068f68fb70bb8c5d83a6fcecfb",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cb0PIN-nkrE",
+      "sourceTitle": "Barcelona's Napkin Contract  Messi's Destiny",
+      "sourceChannel": "mohamed sluman",
+      "matchedEventTerms": [
+        "napkin",
+        "contract",
+        "lionel",
+        "messi",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-003-napkin-contract/card-02.jpg",
+      "sha256": "f42f921b237b5f7beee85531d56c1d47165b83bb52e1f8b0f39d1ddb1e9c3daa",
+      "sourceUrl": "https://www.youtube.com/watch?v=NjSWKD-06Iw",
+      "sourceTitle": "Leo Messi's 1st contract on a Napkin to Fifa World Cup glory | BNN",
+      "sourceChannel": "BIGTOON NEWS NETWORK",
+      "matchedEventTerms": [
+        "napkin",
+        "contract",
+        "messi",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-003-napkin-contract/card-03.jpg",
+      "sha256": "debea7ede7a9e0b03bce33b2171198a506e7c189a75e0d8b1a56ba934a437e1b",
+      "sourceUrl": "https://www.youtube.com/watch?v=hDfP4PMNPF8",
+      "sourceTitle": "Napkin promising Messi to FC Barcelona hits auction | REUTERS",
+      "sourceChannel": "Reuters",
+      "matchedEventTerms": [
+        "napkin",
+        "lionel",
+        "messi",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-003-napkin-contract/card-04.jpg",
+      "sha256": "b3adfbc91b3dfc0e94a73c1c232e16c7eca4468c890f0f46951bc4ae4923d24c",
+      "sourceUrl": "https://www.youtube.com/watch?v=RB5-0JMfE94",
+      "sourceTitle": "From a Napkin Contract to a World Cup | Messi's Story #fifa #yt #messi #football #fifa2026 #sports ",
+      "sourceChannel": "Legends of Football",
+      "matchedEventTerms": [
+        "napkin",
+        "contract",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-003-napkin-contract/card-05.jpg",
+      "sha256": "5ff21c8a42840193429fc380ffcb1f917d94352904af53b26a2b86d0d152c1f7",
+      "sourceUrl": "https://www.youtube.com/watch?v=z3RA_ueCzHg",
+      "sourceTitle": "Lionel Messi: From A Napkin Contract To World Champion 🐐",
+      "sourceChannel": "Goal Truth",
+      "matchedEventTerms": [
+        "napkin",
+        "contract",
+        "lionel",
+        "messi",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

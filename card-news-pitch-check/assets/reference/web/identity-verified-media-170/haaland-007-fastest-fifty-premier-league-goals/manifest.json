@@ -1,0 +1,104 @@
+{
+  "topicId": "haaland-007-fastest-fifty-premier-league-goals",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" fastest fifty premier league goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-007-fastest-fifty-premier-league-goals/card-01.jpg",
+      "sha256": "59372324157cfff85cdd4d8e24f25f7bca6375cac3dcd6ac34664e34ae98535e",
+      "sourceUrl": "https://www.youtube.com/watch?v=eeRfZBLuJcs",
+      "sourceTitle": "Erling Haaland || Fastest 50 Goals Scorer to Premier League",
+      "sourceChannel": "Popular Celebraties",
+      "matchedEventTerms": [
+        "fastest",
+        "premier",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-007-fastest-fifty-premier-league-goals/card-02.jpg",
+      "sha256": "95b31c8a41e610e75bd8a3419f0d129754977c23ae55fc4959d8f0b3904619d3",
+      "sourceUrl": "https://www.youtube.com/watch?v=N0DBByXSx7c",
+      "sourceTitle": "Erling Haaland BREAKS ANOTHER RECORD - fastest to 50 Premier League goals! | Courtesy of Viaplay",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "fastest",
+        "premier",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-007-fastest-fifty-premier-league-goals/card-03.jpg",
+      "sha256": "3722262e09ef036e9d34d838f61d1b4479f8a24948f47a0a76a1b3390e5cbe73",
+      "sourceUrl": "https://www.youtube.com/watch?v=fTG3xSO4SnU",
+      "sourceTitle": "Every Premier League Goal ️⚽️ | Erling Haaland | Fastest player to 50 Premier League goals EVER!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "fastest",
+        "premier",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-007-fastest-fifty-premier-league-goals/card-04.jpg",
+      "sha256": "302b336da550f28e10b25f54c651e642e454ead979a4daa080cafbc06c9a9037",
+      "sourceUrl": "https://www.youtube.com/watch?v=K5t14psn_TY",
+      "sourceTitle": "Erling Haaland Shatters Premier League Record with Blazing Fast 50 Goals",
+      "sourceChannel": "BreakingWaveMedia",
+      "matchedEventTerms": [
+        "fastest",
+        "premier",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-007-fastest-fifty-premier-league-goals/card-05.jpg",
+      "sha256": "16874e95e21d2b3ce974b279dff9aa0332f67de659e1e05d9f7b2e8bb6bc00f1",
+      "sourceUrl": "https://www.youtube.com/watch?v=KNHtJSi3z1o",
+      "sourceTitle": "FASTEST Players to score 50 Premier League goals",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "fastest",
+        "premier",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

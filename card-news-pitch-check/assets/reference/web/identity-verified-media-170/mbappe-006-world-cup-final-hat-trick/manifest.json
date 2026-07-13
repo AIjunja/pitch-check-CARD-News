@@ -1,0 +1,112 @@
+{
+  "topicId": "mbappe-006-world-cup-final-hat-trick",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" world cup final hat trick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-006-world-cup-final-hat-trick/card-01.jpg",
+      "sha256": "906dd9c390cce39f15b8106d976b02ab39aec6ff24c0183d9af8b1fd3eb3df22",
+      "sourceUrl": "https://www.youtube.com/watch?v=s8_mku_u7nE",
+      "sourceTitle": "Kylian Mbappé: All FIFA World Cup Goals | France",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "final",
+        "hat",
+        "trick",
+        "kylian",
+        "mbappe",
+        "2022"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-006-world-cup-final-hat-trick/card-02.jpg",
+      "sha256": "2be1a718af2239c4de082c61a1fc1b613aadd4a9c5a175d3a7fc874d60f94500",
+      "sourceUrl": "https://www.youtube.com/watch?v=OiXp882Z_Kc",
+      "sourceTitle": "2 Goals in 97 seconds for Mbappe🤯| Argentina vs France | 2022 FIFA World Cup Final | Lusail Stadium",
+      "sourceChannel": "ting_for",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "final",
+        "mbappe",
+        "2022",
+        "12",
+        "18"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-006-world-cup-final-hat-trick/card-03.jpg",
+      "sha256": "d54fb6e562a77da04d01825a7a8fa750b6d300dfea34a2563cac2b486e9bf4f4",
+      "sourceUrl": "https://www.youtube.com/watch?v=cVkI9Hezg0U",
+      "sourceTitle": "Kylian Mbappe - Hattrick Vs Argentina. World Cup 2022 Final.HD",
+      "sourceChannel": "KM Show",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "final",
+        "hat",
+        "trick",
+        "kylian",
+        "mbappe",
+        "2022"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-006-world-cup-final-hat-trick/card-04.jpg",
+      "sha256": "e31983c860016fe649cc4c678dd3173feeb58c8cafea9826794f85b99fc1656c",
+      "sourceUrl": "https://www.youtube.com/watch?v=ccUzctWA44U",
+      "sourceTitle": "KYLIAN MBAPPE HAT TRICK (2022 WORLD CUP FINALS)",
+      "sourceChannel": "Rapid Fire Sports",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "final",
+        "hat",
+        "trick",
+        "kylian",
+        "mbappe",
+        "2022"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-006-world-cup-final-hat-trick/card-05.jpg",
+      "sha256": "1a841068c7f895fba3a330f788824efb7f9ad1ad5d73421400355d2b558a2545",
+      "sourceUrl": "https://www.youtube.com/watch?v=46eJ8jFbJTQ",
+      "sourceTitle": "🇦🇷 🇲🇫 Mbappé incredible goal 2-2 | French fans go wild in 2022 World Cup Final Qatar vs. Argentina",
+      "sourceChannel": "maratoni fussball shop",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "final",
+        "kylian",
+        "mbappe",
+        "2022",
+        "18",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

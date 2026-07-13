@@ -1,0 +1,107 @@
+{
+  "topicId": "ronaldo-010-third-champions-final",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" third champions final football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-010-third-champions-final/card-01.jpg",
+      "sha256": "42e00ad48b845012c9cf77eee9186a27c7a38bc87743a3e1895a655e6b567bf3",
+      "sourceUrl": "https://www.youtube.com/watch?v=yTSpu7tV01Q",
+      "sourceTitle": "Real Madrid vs. Juventus 2017 Champions League Final Highlights | FOX Soccer",
+      "sourceChannel": "FOX Soccer",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "cristiano",
+        "ronaldo",
+        "league",
+        "2017",
+        "juventus",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-010-third-champions-final/card-02.jpg",
+      "sha256": "41e4b7d90984f57e0ca4136f7d44fd1259a6d30fb9b8bc110381043fbcb4392f",
+      "sourceUrl": "https://www.youtube.com/watch?v=c_JlCriK3fY",
+      "sourceTitle": "Cristiano Ronaldo's amazing bicycle kick! | Juventus 0-3 Real Madrid | Champions League (2017/18)",
+      "sourceChannel": "Real Madrid",
+      "matchedEventTerms": [
+        "champions",
+        "cristiano",
+        "ronaldo",
+        "league",
+        "2017",
+        "juventus",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-010-third-champions-final/card-03.jpg",
+      "sha256": "98d1afe0a12b672437e35f68d56aeb7e05af9a522bba19501d5e61d1e72dd378",
+      "sourceUrl": "https://www.youtube.com/watch?v=fiIF8_2T1YY",
+      "sourceTitle": "🏆JUVENTUS 1-4 REAL MADRID!🏆 Champions League Final 2017! (Goals & Highlights)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "ronaldo",
+        "league",
+        "2017",
+        "juventus",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-010-third-champions-final/card-04.jpg",
+      "sha256": "641517072d70589734056af0c3d38fe5e72f2a390639d6da5d77615107589c14",
+      "sourceUrl": "https://www.youtube.com/watch?v=LQcrnpBim4Y",
+      "sourceTitle": "Cristiano Ronaldo in Real Madrid's Champions League Celebration",
+      "sourceChannel": "core khan",
+      "matchedEventTerms": [
+        "champions",
+        "cristiano",
+        "ronaldo",
+        "league",
+        "celebration",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-010-third-champions-final/card-05.jpg",
+      "sha256": "cd1f0b9b97db63c541dc84618df8dce26e46e48893d5811d400399309c31ac8b",
+      "sourceUrl": "https://www.youtube.com/watch?v=AVY_IA2uCgg",
+      "sourceTitle": "Real Madrid 3-0 Atletico Madrid | Champions League | Cristiano Ronaldo hatrick (86')",
+      "sourceChannel": "kkkerdokk",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "cristiano",
+        "ronaldo",
+        "league",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

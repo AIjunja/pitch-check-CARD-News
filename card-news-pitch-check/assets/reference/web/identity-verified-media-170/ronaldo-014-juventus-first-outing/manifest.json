@@ -1,0 +1,93 @@
+{
+  "topicId": "ronaldo-014-juventus-first-outing",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" juventus first outing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-014-juventus-first-outing/card-01.jpg",
+      "sha256": "1470ebdf84e1048575698180f84be42603f3270adc16a28bcae7929450163206",
+      "sourceUrl": "https://www.youtube.com/watch?v=cSWDUR53M48",
+      "sourceTitle": "Cristiano Ronaldo to Juventus (Official) - A New Chapter",
+      "sourceChannel": "Sinedd",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "transfer",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-014-juventus-first-outing/card-02.jpg",
+      "sha256": "3cb3ee312a85fcff04cc148f90b0303c07f4858655d5cf01f7dd309eb866752b",
+      "sourceUrl": "https://www.youtube.com/watch?v=sShRu_Z990Y",
+      "sourceTitle": "Cristiano Ronaldo Real Madrid presention vs Juventus presentation!!",
+      "sourceChannel": "Random ahh boi",
+      "matchedEventTerms": [
+        "juventus",
+        "cristiano",
+        "ronaldo",
+        "presentation"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-014-juventus-first-outing/card-03.jpg",
+      "sha256": "f3fe0e801c342fa3fef0223e4b01347ac7bd16083936937f64fcd48b722c44c3",
+      "sourceUrl": "https://www.youtube.com/watch?v=QXE2DOjPaUg",
+      "sourceTitle": "Cristiano Ronaldo First Goal For Juventus ||  Juventus اول هدف لكرستيانو رونالدو مع",
+      "sourceChannel": "PRO FOOT",
+      "matchedEventTerms": [
+        "juventus",
+        "first",
+        "cristiano",
+        "ronaldo",
+        "presentation"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-014-juventus-first-outing/card-04.jpg",
+      "sha256": "a029f6a3672edc1cbcb93b1657be3cfd1c84ea3df654886c4e5ed7e5b1564d74",
+      "sourceUrl": "https://www.youtube.com/watch?v=R00LqJ47PlA",
+      "sourceTitle": "An 18-year-old Cristiano Ronaldo is helped by Gary Neville in his first English interview",
+      "sourceChannel": "Sky Sports Retro",
+      "matchedEventTerms": [
+        "first",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-014-juventus-first-outing/card-05.jpg",
+      "sha256": "bd4d03a260f1cbff5e172df029b40b94a06539933be47601f212cee0eac5facd",
+      "sourceUrl": "https://www.youtube.com/watch?v=5hFd6zGkxLE",
+      "sourceTitle": "THANK YOU, CRISTIANO RONALDO | Real Madrid Official Video",
+      "sourceChannel": "Real Madrid",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,100 @@
+{
+  "topicId": "salah-007-earliest-champions-league-final-goal",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" earliest champions league final goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-007-earliest-champions-league-final-goal/card-01.jpg",
+      "sha256": "fe9cb6888060c616cf30b6a3d9e22c412befa7e0ea39545b301e4691ee55fe22",
+      "sourceUrl": "https://www.youtube.com/watch?v=sHku4hba_og",
+      "sourceTitle": "Goal Mohamed Salah  - UCL Madrid 2019 - Champions league final - Tottenham Liverpool",
+      "sourceChannel": "Fabrice Danton",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "mohamed",
+        "salah",
+        "2019",
+        "01"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-007-earliest-champions-league-final-goal/card-02.jpg",
+      "sha256": "1f5cc46ac577ff180acda6f6d0686ef1a37cc7513b4c4007adb928057e41fa54",
+      "sourceUrl": "https://www.youtube.com/watch?v=I60KaqfFmCg",
+      "sourceTitle": "🏆RAMOS ATTACKS SALAH!🏆 Bale goal! Real Madrid vs Liverpool Champions League Final 2018! Highlights",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "salah",
+        "01"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-007-earliest-champions-league-final-goal/card-03.jpg",
+      "sha256": "b56c15baa1018ad64f96a269602b31fa33f889d107094eacb7d628ad9110a7ab",
+      "sourceUrl": "https://www.youtube.com/watch?v=rMVozuSM9dM",
+      "sourceTitle": "Mohamed Salah's best Champions League goals for Liverpool (2017-2020)",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "mohamed",
+        "salah",
+        "01"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-007-earliest-champions-league-final-goal/card-04.jpg",
+      "sha256": "2b8b9161f4440c925482f586d100213b2fc450e04438d542a2fb190780bb6c4d",
+      "sourceUrl": "https://www.youtube.com/watch?v=mi7fXtGTwbc",
+      "sourceTitle": "Salah injury vs Real Madrid • Salah vs Ramos • Champions League Final 2018",
+      "sourceChannel": "Vade World - Piotr Miasik ",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "salah",
+        "01"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-007-earliest-champions-league-final-goal/card-05.jpg",
+      "sha256": "fa75f7397d726417f9ecf1dcc96e652df8fe57fba53f1c2df96dd829d7ee0630",
+      "sourceUrl": "https://www.youtube.com/watch?v=lCOTBVD-OvU",
+      "sourceTitle": "European Classic: Man City 1-2 Liverpool | Salah & Firmino seal qualification after resolute display",
+      "sourceChannel": "Liverpool FC",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "final",
+        "salah",
+        "european"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,107 @@
+{
+  "topicId": "park-002-psv-champions-league-semi-final",
+  "player": "Park Ji-sung",
+  "query": "\"Park Ji-sung\" psv champions league semi final football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/park-002-psv-champions-league-semi-final/card-01.jpg",
+      "sha256": "741d42b1064396b34b7f6e654dc6ef41f3a34dc7a981bb23edfe7ad04863f049",
+      "sourceUrl": "https://www.youtube.com/watch?v=0-qyjcxCcRs",
+      "sourceTitle": "ခမ်းနားလှတယ့် အာရှသားကြီး PARK JI SUNG ( သို့မဟုတ် ) အဆုတ်သုံးခုနဲ့ လူသား..#parkjisung #mufc ",
+      "sourceChannel": "The United Voice",
+      "matchedEventTerms": [
+        "psv",
+        "champions",
+        "league",
+        "semi",
+        "final",
+        "park",
+        "ji",
+        "sung",
+        "2005",
+        "05"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/park-002-psv-champions-league-semi-final/card-02.jpg",
+      "sha256": "69dc3220bca452ba4c3a56f2ffd40b7f4c668117b1a673cd15864a3b3816e4c4",
+      "sourceUrl": "https://www.youtube.com/watch?v=9kyorn6rj-w",
+      "sourceTitle": "Park Ji-Sung vs Pirlo 2005",
+      "sourceChannel": "Zidane Video",
+      "matchedEventTerms": [
+        "psv",
+        "semi",
+        "final",
+        "park",
+        "ji",
+        "sung",
+        "2005",
+        "05"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/park-002-psv-champions-league-semi-final/card-03.jpg",
+      "sha256": "ac171514cdeb97d44f5eaf8a288dadef9ea6aa0923595c99c5b389c81c4d41e7",
+      "sourceUrl": "https://www.youtube.com/watch?v=gMn523ItfsQ",
+      "sourceTitle": "JI SUNG PARK Against Standard Liege On PES09",
+      "sourceChannel": "1234manutd1234",
+      "matchedEventTerms": [
+        "league",
+        "semi",
+        "final",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/park-002-psv-champions-league-semi-final/card-04.jpg",
+      "sha256": "70cdaab2fb5dde192993f4a3e8fde8336d02015adb1b14c738e334cd7a83cf56",
+      "sourceUrl": "https://www.youtube.com/watch?v=HeeStkWpSwQ",
+      "sourceTitle": "Park vs Pirlo | Classic Champions League Player Battles",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/park-002-psv-champions-league-semi-final/card-05.jpg",
+      "sha256": "207c45f853826640b9de6f2d850296427c10916898bfef328a83af75e5b89829",
+      "sourceUrl": "https://www.youtube.com/watch?v=2-Plk_7nNfo",
+      "sourceTitle": "Park Ji-sung vs Pirlo",
+      "sourceChannel": "How's Ye Touch Retro",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "park",
+        "ji",
+        "sung"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

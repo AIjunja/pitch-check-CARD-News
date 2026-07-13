@@ -1,0 +1,104 @@
+{
+  "topicId": "messi-017-copa-america-title",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" copa america title football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-017-copa-america-title/card-01.jpg",
+      "sha256": "e8a883a682d305e6563b5b8a5b43e33b77dc49669a9bb625e7b179c922168ee1",
+      "sourceUrl": "https://www.youtube.com/watch?v=cfeNQlnEGeQ",
+      "sourceTitle": "The Moment Lionel Messi wins 2nd Copa America Trophy",
+      "sourceChannel": "CSPN FC",
+      "matchedEventTerms": [
+        "copa",
+        "america",
+        "title",
+        "lionel",
+        "messi",
+        "trophy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-017-copa-america-title/card-02.jpg",
+      "sha256": "0bbf8a1989b5c05309483c38b77f55a66ca026d18134c8e4e555bd5e60f2891d",
+      "sourceUrl": "https://www.youtube.com/watch?v=f-FGYH6AkXg",
+      "sourceTitle": "Lionel Messi Legendary Speech Before the Copa America 2021 Final - English Subtitles",
+      "sourceChannel": "Messi TheBoss",
+      "matchedEventTerms": [
+        "copa",
+        "america",
+        "title",
+        "lionel",
+        "messi",
+        "2021",
+        "10"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-017-copa-america-title/card-03.jpg",
+      "sha256": "b5f820ba16db257224af01a3c8c8ea288ddd7d836c02e2def1395bc42a2e9db8",
+      "sourceUrl": "https://www.youtube.com/watch?v=XR1ygMVRg9Y",
+      "sourceTitle": "Lionel Messi vs Brazil (Copa America Final 2021) Tears Of Joy (With Celebrations) - HD 1080i",
+      "sourceChannel": "LittleMagician HD ",
+      "matchedEventTerms": [
+        "copa",
+        "america",
+        "lionel",
+        "messi",
+        "2021",
+        "10",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-017-copa-america-title/card-04.jpg",
+      "sha256": "63191ec24251debf40506e2b8266db174e5069665e36ff9dacabb0f286d95464",
+      "sourceUrl": "https://www.youtube.com/watch?v=9u9HdbpUIk0",
+      "sourceTitle": "Ribeiro's \"Carlton Dance\" vs Messi's Copa America Win | Another Round presented by Chang Week 29",
+      "sourceChannel": "ESPN Asia",
+      "matchedEventTerms": [
+        "copa",
+        "america",
+        "lionel",
+        "messi",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-017-copa-america-title/card-05.jpg",
+      "sha256": "a41841dc066fe5b04a762bc1af599188ac0686e0706d1d0cfdee4a3372d0866d",
+      "sourceUrl": "https://www.youtube.com/watch?v=NxaxUnODiEY",
+      "sourceTitle": "Argentina ● Road to Copa America Victory - 2021",
+      "sourceChannel": "Epic Football",
+      "matchedEventTerms": [
+        "copa",
+        "america",
+        "lionel",
+        "messi",
+        "2021",
+        "trophy"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

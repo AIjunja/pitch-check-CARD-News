@@ -1,0 +1,89 @@
+{
+  "topicId": "real-004-lukaku-watered-milk",
+  "player": "Romelu Lukaku",
+  "query": "\"Romelu Lukaku\" lukaku watered milk football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-004-lukaku-watered-milk/card-01.jpg",
+      "sha256": "fd343e72a0ce189d1f6d1a3cd46bea17f89af8d22b918787cbaeda3a07f747ef",
+      "sourceUrl": "https://www.youtube.com/watch?v=wHgXI_yvhno",
+      "sourceTitle": "ROMELU LUKAKU'S TRAGIC CHILDHOOD STORY! [From poverty To Man Utd, Inter Milan & Chelsea!]",
+      "sourceChannel": "FootballScope",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "poverty",
+        "childhood"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-004-lukaku-watered-milk/card-02.jpg",
+      "sha256": "3d859b89bc0931e3838b44912123dc64331c70c6dea8f6797216916b4c164764",
+      "sourceUrl": "https://www.youtube.com/watch?v=B40Yehnqa1w",
+      "sourceTitle": "Angry Lukaku Punch Broke Dugout glass as Belgium Gets Knocked Out of the FIFA World Cup 2022",
+      "sourceChannel": "Mad Over Football (MoF)",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "belgium"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-004-lukaku-watered-milk/card-03.jpg",
+      "sha256": "a94c0786c7d866653965108cb586a703075e066a2e0f1ac18946ad40c9dc1ebd",
+      "sourceUrl": "https://www.youtube.com/watch?v=NCg0evrWrvQ",
+      "sourceTitle": "Romelu Lukaku Biography | Belgian professional footballer  | Manchester United",
+      "sourceChannel": "Live Biography",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "pro"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-004-lukaku-watered-milk/card-04.jpg",
+      "sha256": "ba95dad3197ff0e81ddcd040b61b58f2073a2e04c6b84e21151065ef7bcdf5bf",
+      "sourceUrl": "https://www.youtube.com/watch?v=Vxu4n3hubMM",
+      "sourceTitle": "Inter Milan to meet Romelu Lukaku's lawyer over potential Serie A return",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "day"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-004-lukaku-watered-milk/card-05.jpg",
+      "sha256": "ee29547cf1dd6501bb82b8632e7d49b0318cbf430cb025e02546ada3a16bde9a",
+      "sourceUrl": "https://www.youtube.com/watch?v=QtoOBgLEHn4",
+      "sourceTitle": "Lukaku says Chelsea goal was ‘for sure’ his ‘highest’ career moment #shorts",
+      "sourceChannel": "JS Football Clips",
+      "matchedEventTerms": [
+        "lukaku",
+        "romelu",
+        "day"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,94 @@
+{
+  "topicId": "ronaldo-003-andorinha-youth-team",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" andorinha youth team football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-003-andorinha-youth-team/card-01.jpg",
+      "sha256": "9a6288b251f6cada2a8d02f7e74945f52c8831b5e79c7c62e562f78c5bceb1ac",
+      "sourceUrl": "https://www.youtube.com/watch?v=fGrWwCYxuYQ",
+      "sourceTitle": "CRISTIANO RONALDO CAMPUS YOUTH TOURNAMENT CR7 FC Potential vs CF Andorinha",
+      "sourceChannel": "fc 포텐셜",
+      "matchedEventTerms": [
+        "andorinha",
+        "youth",
+        "cristiano",
+        "ronaldo",
+        "cf"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-003-andorinha-youth-team/card-02.jpg",
+      "sha256": "7fccf712f8b65f39f708688ce5c42f1cf34be4786d8a10fb5fa463714f2d69d3",
+      "sourceUrl": "https://www.youtube.com/watch?v=fUjg_yJcgg8",
+      "sourceTitle": "Cristiano Ronaldo \"The Boy from Madeira\" | Sporting, Manchester United , & Real Madrid Highlights",
+      "sourceChannel": "SJMM Films",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "madeira",
+        "cf"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-003-andorinha-youth-team/card-03.jpg",
+      "sha256": "56622560b387916e0787432c5f3f917f03977d20aa83d8fa640aa8c7d92e93cd",
+      "sourceUrl": "https://www.youtube.com/watch?v=JS1Mpdr9WmQ",
+      "sourceTitle": "Cristiano Ronaldo's First Club Team Chronology (1985–2026) | The CF Andorinha Timeline",
+      "sourceChannel": "Biografía del Tiempo and Legacy Lines",
+      "matchedEventTerms": [
+        "andorinha",
+        "team",
+        "cristiano",
+        "ronaldo",
+        "cf"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-003-andorinha-youth-team/card-04.jpg",
+      "sha256": "67006f9c857b67a664b7c23240c15dacb7458e9a7829c6a7bbf9c1d7dcce1b4e",
+      "sourceUrl": "https://www.youtube.com/watch?v=6ucbueZQso8",
+      "sourceTitle": "CRISTIANO RONALDO CAMPUS YOUTH TOURNAMENT CR7 FC Potential vs Futebol Pouleta B",
+      "sourceChannel": "fc 포텐셜",
+      "matchedEventTerms": [
+        "youth",
+        "cristiano",
+        "ronaldo"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-003-andorinha-youth-team/card-05.jpg",
+      "sha256": "f2366d9ac82f95389058f2ebb616aa058f267711cf1e8a56a445ec0bec15a63d",
+      "sourceUrl": "https://www.youtube.com/watch?v=bI-RjuNqUPY",
+      "sourceTitle": "CRISTIANO RONALDO’S EARLY CHILDHOOD",
+      "sourceChannel": "GoldenBall",
+      "matchedEventTerms": [
+        "cristiano",
+        "ronaldo",
+        "childhood",
+        "madeira"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

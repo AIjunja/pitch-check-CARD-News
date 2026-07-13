@@ -1,0 +1,109 @@
+{
+  "topicId": "ronaldo-019-al-nassr-signing",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" al nassr signing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-019-al-nassr-signing/card-01.jpg",
+      "sha256": "bd00d03b68b8a851cad5fa59ae9d211acac64638d1d938d89e369ed8e2dc02e0",
+      "sourceUrl": "https://www.youtube.com/watch?v=eM0bviBcuvQ",
+      "sourceTitle": "Cristiano Ronaldo signs for Saudi Arabian club Al-Nassr",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "al",
+        "nassr",
+        "cristiano",
+        "ronaldo",
+        "contract",
+        "new",
+        "club",
+        "no"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-019-al-nassr-signing/card-02.jpg",
+      "sha256": "9b0196c3b3fedd0aa26dfc598702e983131a308d69bd5d9d4a3d9e9915cf3810",
+      "sourceUrl": "https://www.youtube.com/watch?v=JANi1Nqdre0",
+      "sourceTitle": "Cristiano Ronaldo signed for club Al-Nassr officialconfirmed",
+      "sourceChannel": "Man United Insider News",
+      "matchedEventTerms": [
+        "al",
+        "nassr",
+        "cristiano",
+        "ronaldo",
+        "new",
+        "club",
+        "no"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-019-al-nassr-signing/card-03.jpg",
+      "sha256": "273c8b1180ac7c889a9f75a74e5774376261148b0e6f423e541fe7690e0fd68c",
+      "sourceUrl": "https://www.youtube.com/watch?v=UAup0CmbB7Y",
+      "sourceTitle": "Cristiano Ronaldo has signed a new two-year contract with Al Nassr",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "al",
+        "nassr",
+        "cristiano",
+        "ronaldo",
+        "contract",
+        "new",
+        "no"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-019-al-nassr-signing/card-04.jpg",
+      "sha256": "a55be92177302f090874af9b10e29699299803cf797e6b62bcb7975900c073f8",
+      "sourceUrl": "https://www.youtube.com/watch?v=OFlelNAem6A",
+      "sourceTitle": "Ronaldo signed with Al Nassr until 2025",
+      "sourceChannel": "Sky News Australia",
+      "matchedEventTerms": [
+        "al",
+        "nassr",
+        "cristiano",
+        "ronaldo",
+        "contract",
+        "new",
+        "club",
+        "no"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-019-al-nassr-signing/card-05.jpg",
+      "sha256": "fca810edc6ea5c15255aba11ed42947145976cd53305389873bd2bd8d56e29fe",
+      "sourceUrl": "https://www.youtube.com/watch?v=lSP665dYnlU",
+      "sourceTitle": "Ronaldo gets hero's welcome as soccer star officially joins Al Nassr in Saudi Arabia",
+      "sourceChannel": "Global News",
+      "matchedEventTerms": [
+        "al",
+        "nassr",
+        "cristiano",
+        "ronaldo",
+        "new",
+        "no"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

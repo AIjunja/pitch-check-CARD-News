@@ -1,0 +1,101 @@
+{
+  "topicId": "kim-003-napoli-to-bayern",
+  "player": "Kim Min-jae",
+  "query": "\"Kim Min-jae\" napoli to bayern football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/kim-003-napoli-to-bayern/card-01.jpg",
+      "sha256": "256b75c5f6825d5df70f3fc5acea32f01037b58d8a256fdbb9b0e560e91f4d0e",
+      "sourceUrl": "https://www.youtube.com/watch?v=ppA1j7BTXx0",
+      "sourceTitle": "\"Servus, I bin's, da Minjae\" | Bavarian \"Stammtisch\" with new arrival Minjae Kim",
+      "sourceChannel": "FC Bayern München",
+      "matchedEventTerms": [
+        "napoli",
+        "bayern",
+        "kim",
+        "min",
+        "jae",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/kim-003-napoli-to-bayern/card-02.jpg",
+      "sha256": "39ac30213869fd6f5d169749c422c0eb777b191a160d247e01615d5214088cb0",
+      "sourceUrl": "https://www.youtube.com/watch?v=R9C1t6AjOy8",
+      "sourceTitle": "Minjae Kim's first day at FC Bayern | Behind The Scenes",
+      "sourceChannel": "FC Bayern München",
+      "matchedEventTerms": [
+        "napoli",
+        "bayern",
+        "kim",
+        "min",
+        "jae",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/kim-003-napoli-to-bayern/card-03.jpg",
+      "sha256": "8482d8f324b8a16ebffb0440dd79f115a8d70e66aa52997e71b0415cf5f6d311",
+      "sourceUrl": "https://www.youtube.com/watch?v=hBIEglroDUE",
+      "sourceTitle": "Welcome To Bayern Kim Min-jae",
+      "sourceChannel": "BayernNow",
+      "matchedEventTerms": [
+        "napoli",
+        "bayern",
+        "kim",
+        "min",
+        "jae",
+        "signing"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/kim-003-napoli-to-bayern/card-04.jpg",
+      "sha256": "4338a0fc976fd15098f1230679fbce36d2b3a5f885035ea339437cd137bfe3f5",
+      "sourceUrl": "https://www.youtube.com/watch?v=JQ_T8IM6ZAE",
+      "sourceTitle": "Kim Min-jae 김민재 2023 ● WELCOME TO BAYERN - Tackles, Skills & Golas ᴴᴰ",
+      "sourceChannel": "FZ Football",
+      "matchedEventTerms": [
+        "bayern",
+        "kim",
+        "min",
+        "jae",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/kim-003-napoli-to-bayern/card-05.jpg",
+      "sha256": "17caf3ee59e8c25ede7e9197369195d62a46e4f741133cd91dc39088c83f0be0",
+      "sourceUrl": "https://www.youtube.com/watch?v=9PjdDArj9Pg",
+      "sourceTitle": "Kim Min Jae 2023 Welcome to Bayern Munich - Destroying Skills And Goals",
+      "sourceChannel": "Total Football ",
+      "matchedEventTerms": [
+        "bayern",
+        "kim",
+        "min",
+        "jae",
+        "2023"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

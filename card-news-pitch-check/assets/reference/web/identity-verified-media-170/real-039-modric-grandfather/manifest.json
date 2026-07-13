@@ -1,0 +1,90 @@
+{
+  "topicId": "real-039-modric-grandfather",
+  "player": "Luka Modric",
+  "query": "\"Luka Modric\" modric grandfather football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-039-modric-grandfather/card-01.jpg",
+      "sha256": "a58b193e6be24b2ee2ed87a05c9cfb1a1f7c6ecb0355a78a1cd8b07b3601fc39",
+      "sourceUrl": "https://www.youtube.com/watch?v=goAD5DJfeq8",
+      "sourceTitle": "Luka Modric Welcome to Real Madrid",
+      "sourceChannel": "LordVolthemort",
+      "matchedEventTerms": [
+        "modric",
+        "luka",
+        "croatia",
+        "national",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-039-modric-grandfather/card-02.jpg",
+      "sha256": "9247781c322d3f2b4a28611161830824d7046903a4c258dcde476390a0d63f1d",
+      "sourceUrl": "https://www.youtube.com/watch?v=A_74vBv5qu8",
+      "sourceTitle": "Modric reveals his story of growing up in a warzone | Captains on FIFA+",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "modric",
+        "luka",
+        "croatia"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-039-modric-grandfather/card-03.jpg",
+      "sha256": "21d1d027d208e72be8e5aefb41695eaff1767531de3be4a5832309c393ded455",
+      "sourceUrl": "https://www.youtube.com/watch?v=T0gAD7ONYfQ",
+      "sourceTitle": "Luka Modric Life Story | Croatia  | Real Madrid.",
+      "sourceChannel": "Devletics",
+      "matchedEventTerms": [
+        "modric",
+        "luka",
+        "croatia"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-039-modric-grandfather/card-04.jpg",
+      "sha256": "3754f51bf77bfbfb4ef13124e1b8d6a5294febbabe7dffb8b4892d1f270d9b2c",
+      "sourceUrl": "https://www.youtube.com/watch?v=twOD7HwhUoE",
+      "sourceTitle": "“Luka Modrić: The Miracle Journey — From War Survivor to Real Madrid Legend | Full Documentary”",
+      "sourceChannel": "Fut ball World",
+      "matchedEventTerms": [
+        "modric",
+        "luka",
+        "documentary"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-039-modric-grandfather/card-05.jpg",
+      "sha256": "8d91b58ae9b0d2d5e4c66a6ad4069b4faa8085fbd12dd5787ec8e945c9d53442",
+      "sourceUrl": "https://www.youtube.com/watch?v=9vonb10bhII",
+      "sourceTitle": "Luka Modrić Documentary (2018): From War Refugee, to UEFA Player of the Year",
+      "sourceChannel": "Rabona TV",
+      "matchedEventTerms": [
+        "modric",
+        "luka",
+        "documentary"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

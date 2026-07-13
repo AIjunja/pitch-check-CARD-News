@@ -1,0 +1,96 @@
+{
+  "topicId": "salah-002-fourth-golden-boot",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" fourth golden boot football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-002-fourth-golden-boot/card-01.jpg",
+      "sha256": "6fcfe9d52337db969313406eccd88499692c7493f3e8d744b934efe07c538dea",
+      "sourceUrl": "https://www.youtube.com/watch?v=hkzApYV00CE",
+      "sourceTitle": "Liverpool vs Brighton: Mo Salah clinches Golden Boot as Reds seal fourth spot",
+      "sourceChannel": "24 NEWS TODAY",
+      "matchedEventTerms": [
+        "fourth",
+        "golden",
+        "boot",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-002-fourth-golden-boot/card-02.jpg",
+      "sha256": "d241e8702da44675cc99c6ed2292639d9989371e575378fef4d36b715de8668b",
+      "sourceUrl": "https://www.youtube.com/watch?v=crEPaDFKZwY",
+      "sourceTitle": "Liverpool 4-0 Brighton Golden Boot winner Salah helps Liverpool secure a UCL|FOOTBALL NEWS 2018",
+      "sourceChannel": "FOOTBALL24",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "mohamed",
+        "salah",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-002-fourth-golden-boot/card-03.jpg",
+      "sha256": "4e31fbab0f16c446a694996101c3d34bb0403316bf8925c05b0bbfceda637cc6",
+      "sourceUrl": "https://www.youtube.com/watch?v=a9qV4Q7vxBU",
+      "sourceTitle": "Premier League • Golden Boot Winners 1992-2022. Son Heung-min, Mohamed Salah Won Golden Boot 2022.",
+      "sourceChannel": "SportYT",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "mohamed",
+        "salah",
+        "award"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-002-fourth-golden-boot/card-04.jpg",
+      "sha256": "9f47a694b8098aa307c3fab732c3fabd4900bb16b6e4fb231ac6c7abd8d233c6",
+      "sourceUrl": "https://www.youtube.com/watch?v=uuz1wggsGCU",
+      "sourceTitle": "Mo Salah receives the Golden Boot and Playmaker awards 🏆",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "salah",
+        "award"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-002-fourth-golden-boot/card-05.jpg",
+      "sha256": "4ea5b82f54a99cda878b2e84210e41bd3a2be5828b3e84e0b6ef2cfd244a7ffe",
+      "sourceUrl": "https://www.youtube.com/watch?v=BIptlKpfr6k",
+      "sourceTitle": "Mohamed Salah's daughter plays football after Winning Premier League golden boot #salah #mosalah",
+      "sourceChannel": "Know it Now",
+      "matchedEventTerms": [
+        "golden",
+        "boot",
+        "mohamed",
+        "salah"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

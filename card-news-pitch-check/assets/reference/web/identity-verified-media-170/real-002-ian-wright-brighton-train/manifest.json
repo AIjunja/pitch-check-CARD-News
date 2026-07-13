@@ -1,0 +1,95 @@
+{
+  "topicId": "real-002-ian-wright-brighton-train",
+  "player": "Ian Wright",
+  "query": "\"Ian Wright\" ian wright brighton train football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-002-ian-wright-brighton-train/card-01.jpg",
+      "sha256": "ecd5a3518b46330b2324189ef654dadf4cbab5863bcebb7525aadc9dd089a59b",
+      "sourceUrl": "https://www.youtube.com/watch?v=hzLIDYnO1cs",
+      "sourceTitle": "Brighton 2 4 Arsenal   Ian Wright Reaction   Arteta & Ødegaard Post Match Interview",
+      "sourceChannel": "Football Lovers Corner",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "brighton",
+        "action",
+        "post",
+        "reaction"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-002-ian-wright-brighton-train/card-02.jpg",
+      "sha256": "ebda6eee9d5521a407e1009ebb37edf84f85f0ba2a836c061a2b7e5656d83e9c",
+      "sourceUrl": "https://www.youtube.com/watch?v=GAl_n0urtS0",
+      "sourceTitle": "Ian Wright | Greatest Palace Goals",
+      "sourceChannel": "Crystal Palace FC",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal",
+        "palace"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-002-ian-wright-brighton-train/card-03.jpg",
+      "sha256": "cace1b74516a41c866054a88308b0211f845fec3bf984f53be5fe8bff842ceaf",
+      "sourceUrl": "https://www.youtube.com/watch?v=UGg5VMhlnNA",
+      "sourceTitle": "FA Cup Semi Final | Ian Wright",
+      "sourceChannel": "Crystal Palace FC",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal",
+        "palace"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-002-ian-wright-brighton-train/card-04.jpg",
+      "sha256": "5b8cca2d42c012b923958d8b33136edb616160107ceb594753f7aca56ab0c9d5",
+      "sourceUrl": "https://www.youtube.com/watch?v=b96wbq-UW30",
+      "sourceTitle": "BBC Goal of the Season 1989-90 - Ian Wright",
+      "sourceChannel": "TheFootballAttic",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal",
+        "palace"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-002-ian-wright-brighton-train/card-05.jpg",
+      "sha256": "e7feeba31b42469026945e82edadef8d690a356d474a5d90ea4752f106076658",
+      "sourceUrl": "https://www.youtube.com/watch?v=98hivCDrleE",
+      "sourceTitle": "Ian Wright Breaks His Leg In Football Match | Crystal Palace Vs Derby Thames News",
+      "sourceChannel": "Thames News",
+      "matchedEventTerms": [
+        "ian",
+        "wright",
+        "crystal",
+        "palace"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

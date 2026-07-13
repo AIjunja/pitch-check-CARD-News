@@ -1,0 +1,101 @@
+{
+  "topicId": "haaland-005-ten-champions-league-goals-in-seven-games",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" ten champions league goals in seven games football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-005-ten-champions-league-goals-in-seven-games/card-01.jpg",
+      "sha256": "8a53e31f430fab185ebebabd7fa868e69e545e7e17babf07ee11ed26af898c7e",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cl9m_uXxrsc",
+      "sourceTitle": "ALL 10 ERLING HAALAND UEFA CHAMPIONS LEAGUE GOALS THIS SEASON 2019/2020",
+      "sourceChannel": "FOOTBALL MEDIA",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland",
+        "2020",
+        "02"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-005-ten-champions-league-goals-in-seven-games/card-02.jpg",
+      "sha256": "70cae7bce44efa87a90bb9104b33fbe4389a37bcaaa6b67678b9696b018bde79",
+      "sourceUrl": "https://www.youtube.com/watch?v=CfpghI6WoJE",
+      "sourceTitle": "Champions League 18.02.2020 / Goal 2 Haaland against PSG!",
+      "sourceChannel": "Pickx Sports ",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "haaland",
+        "2020",
+        "02",
+        "18"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-005-ten-champions-league-goals-in-seven-games/card-03.jpg",
+      "sha256": "4e4359c654449d963ca2b03756c4ace4942c4edf30eee0489fb138872ce91668",
+      "sourceUrl": "https://www.youtube.com/watch?v=7-IwGQTu3Rc",
+      "sourceTitle": "🔥HAALAND SCORES 5!🔥 (Man City 7-0 vs RB Leipzig Champions League Goals Highlights)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-005-ten-champions-league-goals-in-seven-games/card-04.jpg",
+      "sha256": "93ae824a0770eb539be6e2c8336d095a54eb03a0bd4de0fa514822f643788e5a",
+      "sourceUrl": "https://www.youtube.com/watch?v=9gVoI9FtiAM",
+      "sourceTitle": "Every Erling Haaland goal en route to Istanbul 🔥 | Man City's hero up top!",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-005-ten-champions-league-goals-in-seven-games/card-05.jpg",
+      "sha256": "d2db36201705a147fe767d3b91dde0140aa313afb95376b15103cd658785c43a",
+      "sourceUrl": "https://www.youtube.com/watch?v=duJXHzk8nQo",
+      "sourceTitle": "HIGHLIGHTS | Man City 2-1 Borussia Dortmund | Stones and Haaland INCREDIBLE goals | Champions League",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

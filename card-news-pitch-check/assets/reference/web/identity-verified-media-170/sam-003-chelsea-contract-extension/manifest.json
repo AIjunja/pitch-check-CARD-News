@@ -1,0 +1,98 @@
+{
+  "topicId": "sam-003-chelsea-contract-extension",
+  "player": "Sam Kerr",
+  "query": "\"Sam Kerr\" chelsea contract extension football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/sam-003-chelsea-contract-extension/card-01.jpg",
+      "sha256": "810311ceafb95e50784ecab19471cf054051cbf109d7eee2c7dec02b0446c550",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yf1VzfZRsfg",
+      "sourceTitle": "Sam Kerr signs two-year contract extension at Chelsea",
+      "sourceChannel": "Guardian Football",
+      "matchedEventTerms": [
+        "chelsea",
+        "contract",
+        "extension",
+        "sam",
+        "kerr",
+        "new",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/sam-003-chelsea-contract-extension/card-02.jpg",
+      "sha256": "9b0f1d10fee713222e86dad9f55a830665e84836603ae7e293ca8ac53d2dc1d8",
+      "sourceUrl": "https://www.youtube.com/watch?v=tIJZQnD5VdY",
+      "sourceTitle": "Sam Kerr Signs Chelsea Contract Extension | 10 News First",
+      "sourceChannel": "10 News",
+      "matchedEventTerms": [
+        "chelsea",
+        "contract",
+        "extension",
+        "sam",
+        "kerr",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/sam-003-chelsea-contract-extension/card-03.jpg",
+      "sha256": "fd6ab9d330259e8ea00385b240ac3721d1e2ccf5b0ef9881f31ffd3f2516e440",
+      "sourceUrl": "https://www.youtube.com/watch?v=iCIaWxLeG30",
+      "sourceTitle": "'Millie Bright asked me to do a backflip if I scored a hat-trick!' | Sam Kerr post-match",
+      "sourceChannel": "Chelsea Football Club",
+      "matchedEventTerms": [
+        "chelsea",
+        "sam",
+        "kerr",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/sam-003-chelsea-contract-extension/card-04.jpg",
+      "sha256": "afeb829263f7e926e20da7708e2b6cab38793c9191e7f8ec4fec139c0035cb3c",
+      "sourceUrl": "https://www.youtube.com/watch?v=IcJ4Yg_L6Cw",
+      "sourceTitle": "Sam Kerr's Golden Boot Winning Season | All 21 Goals | Women's Super League 2020/21",
+      "sourceChannel": "Chelsea Football Club",
+      "matchedEventTerms": [
+        "chelsea",
+        "sam",
+        "kerr",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/sam-003-chelsea-contract-extension/card-05.jpg",
+      "sha256": "b1374d731a30b13b47750bf6a8fee78cf7fe8409a3093ccfec27866e11221842",
+      "sourceUrl": "https://www.youtube.com/watch?v=i65VdKPmIBo",
+      "sourceTitle": "Is Sam Kerr Leaving Chelsea? The Rumours Heat Up!",
+      "sourceChannel": "AUS Sports News",
+      "matchedEventTerms": [
+        "chelsea",
+        "sam",
+        "kerr",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

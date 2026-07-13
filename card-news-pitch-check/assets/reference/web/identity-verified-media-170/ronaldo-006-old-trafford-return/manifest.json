@@ -1,0 +1,108 @@
+{
+  "topicId": "ronaldo-006-old-trafford-return",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" old trafford return football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-006-old-trafford-return/card-01.jpg",
+      "sha256": "abc1af7888caaab95d57c828d366a4c497d1d93614c0a29bbdec3d8fd73d9ac9",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ahnby2vUlxM",
+      "sourceTitle": "Cristiano Ronaldo RETURNS! 🏟️🐐 | Man Utd 4-1 Newcastle",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "old",
+        "trafford",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-006-old-trafford-return/card-02.jpg",
+      "sha256": "1b376409ae0ce1e6ae0a789a8b0d575e97e251a71544b3c902a80cec52bd9a3e",
+      "sourceUrl": "https://www.youtube.com/watch?v=7zyq3_R1piY",
+      "sourceTitle": "Ronaldo returns & Bruno's screamer! | Access All Areas & Pitchside Cam | Man United 4-1 Newcastle",
+      "sourceChannel": "Manchester United",
+      "matchedEventTerms": [
+        "old",
+        "trafford",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-006-old-trafford-return/card-03.jpg",
+      "sha256": "f2d688cf30e86d194a6b1b48b12f409dedbba7179e1af37ed7d58b82943552b5",
+      "sourceUrl": "https://www.youtube.com/watch?v=ScfbaUz6fXU",
+      "sourceTitle": "RETURN OF RONALDO TO UNITED VLOG",
+      "sourceChannel": "No Limit FC",
+      "matchedEventTerms": [
+        "old",
+        "trafford",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-006-old-trafford-return/card-04.jpg",
+      "sha256": "5c05175126b49f8482488565ce49c168fd3fb11a38bb8c0d182616a3032dc393",
+      "sourceUrl": "https://www.youtube.com/watch?v=9mcRfvgxKgc",
+      "sourceTitle": "Viva Ronaldo! Cristiano Ronaldo's return to Old Trafford vs Newcastle",
+      "sourceChannel": "From The Stretford End",
+      "matchedEventTerms": [
+        "old",
+        "trafford",
+        "return",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united",
+        "2021"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-006-old-trafford-return/card-05.jpg",
+      "sha256": "139ca5e69ffb172106348dd8942eda54dbc53b11b6f53c5f33e48263890c296b",
+      "sourceUrl": "https://www.youtube.com/watch?v=CcGwlvqXaIg",
+      "sourceTitle": "Cristiano Ronaldo Walks Out For His Second Manchester United Debut At Old Trafford",
+      "sourceChannel": "DAZN Canada",
+      "matchedEventTerms": [
+        "old",
+        "trafford",
+        "cristiano",
+        "ronaldo",
+        "manchester",
+        "united"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

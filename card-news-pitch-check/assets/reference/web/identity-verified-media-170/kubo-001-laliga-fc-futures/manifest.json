@@ -1,0 +1,93 @@
+{
+  "topicId": "kubo-001-laliga-fc-futures",
+  "player": "Takefusa Kubo",
+  "query": "\"Takefusa Kubo\" laliga fc futures football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-001-laliga-fc-futures/card-01.jpg",
+      "sha256": "2b6e8f76ab0db0a77d24d2363eca4bbeda2e1a07d6ef1af786e0988185d2d91c",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fcl8OmzG0Kk",
+      "sourceTitle": "Real madrid future star,Takefusa kubo.Japanese Messi",
+      "sourceChannel": "Kids TV",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "pro",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-001-laliga-fc-futures/card-02.jpg",
+      "sha256": "a4f6ef670f06c513d60b586cb04b872f1f0d41decf7ddf875c24736a333442cc",
+      "sourceUrl": "https://www.youtube.com/watch?v=RKueiA-TPLs",
+      "sourceTitle": "Takefusa KUBO vs BARCELONA FC | Individual highlight Pass Shoot and Skill",
+      "sourceChannel": "Emka Akbar",
+      "matchedEventTerms": [
+        "fc",
+        "takefusa",
+        "kubo",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-001-laliga-fc-futures/card-03.jpg",
+      "sha256": "f9e2caa1869b286dbd19fe164b557dabda9ecf76f9dee9630ca795116f84710d",
+      "sourceUrl": "https://www.youtube.com/watch?v=nMAfJVhQEHY",
+      "sourceTitle": "18 years old Takefusa KUBO Toying With Real Madrid (24/06/2020)",
+      "sourceChannel": "JapanFootball",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "ball",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-001-laliga-fc-futures/card-04.jpg",
+      "sha256": "8b4afdf8f3c9928fbd7252f50384f6edaee30b92dd5f37aa6ad907640f1d5aa4",
+      "sourceUrl": "https://www.youtube.com/watch?v=_3pAHC3DS3U",
+      "sourceTitle": "Japanese Messi 久保建英 Takefusa Kubo  HUMILIATED MESSI, INSANE!!! HE JUST 19 Madrid must be so proud!",
+      "sourceChannel": "baka jyanaiyo",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "pro",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/kubo-001-laliga-fc-futures/card-05.jpg",
+      "sha256": "8cba3d929df1bf763b39fce8a1c11629d6d0157ec40064d7efcc96c75db9f008",
+      "sourceUrl": "https://www.youtube.com/watch?v=llRbC9bsa10",
+      "sourceTitle": "Takefusa KUBO  Real Madrid ICC  Appearance scene summary",
+      "sourceChannel": "ST #Football",
+      "matchedEventTerms": [
+        "takefusa",
+        "kubo",
+        "ball",
+        "real"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

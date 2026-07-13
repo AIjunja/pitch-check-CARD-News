@@ -22,7 +22,14 @@ for (const key of ['bank', 'media', 'output']) {
 const bank = JSON.parse(fs.readFileSync(options.bank, 'utf8'));
 const media = JSON.parse(fs.readFileSync(options.media, 'utf8'));
 const mediaIndex = buildMediaIndex(media);
-const topics = options.topic ? bank.topics.filter((topic) => topic.id === options.topic) : bank.topics;
+const args = process.argv.slice(2);
+const numberAfter = (flag, fallback) => {
+  const index = args.indexOf(flag);
+  return index >= 0 ? Number(args[index + 1]) : fallback;
+};
+const offset = numberAfter('--offset', 0);
+const limit = numberAfter('--limit', bank.topics.length);
+const topics = (options.topic ? bank.topics.filter((topic) => topic.id === options.topic) : bank.topics).slice(offset, offset + limit);
 if (!topics.length) throw new Error(`No topics selected${options.topic ? `: ${options.topic}` : ''}`);
 
 const cta06 = path.join(ROOT, 'projects/asset-pilot-son-100/assets/pitchcheck/approved-cta/card-06-approved.png');
@@ -99,7 +106,7 @@ function makeContactSheet(outputDir) {
   if (result.status !== 0) throw new Error(`Contact sheet failed: ${outputDir}`);
 }
 
-const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+const browser = await puppeteer.launch({ headless: true, protocolTimeout: 120000, args: ['--no-sandbox'] });
 const page = await browser.newPage();
 await page.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 1 });
 const results = [];
@@ -133,6 +140,7 @@ try {
       }
       const outputFile = path.join(outputDir, `card-${String(number).padStart(2, '0')}.png`);
       await page.screenshot({ path: outputFile });
+      cache.delete(mediaCard.file);
       mediaAudit.push({ card: number, path: mediaCard.path, sha256: mediaCard.sha256, visualReview: mediaCard.visualReview, sourceUrl: mediaCard.sourceUrl, layout });
     }
 
@@ -148,10 +156,14 @@ try {
   await browser.close();
 }
 
+const completeResults = bank.topics.filter((topic) => fs.existsSync(path.join(options.output, topic.id, 'output/card-07.png'))).map((topic) => ({
+  topicId: topic.id,
+  output: path.relative(ROOT, path.join(options.output, topic.id, 'output')).replaceAll('\\', '/'),
+}));
 fs.writeFileSync(path.join(options.output, 'index.json'), `${JSON.stringify({
   generatedAt: new Date().toISOString(),
   bank: path.relative(ROOT, options.bank).replaceAll('\\', '/'),
   media: path.relative(ROOT, options.media).replaceAll('\\', '/'),
   strictMedia: options.strictMedia,
-  results,
+  results: completeResults,
 }, null, 2)}\n`);

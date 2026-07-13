@@ -1,0 +1,93 @@
+{
+  "topicId": "messi-013-international-retirement-announcement",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" international retirement announcement football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-013-international-retirement-announcement/card-01.jpg",
+      "sha256": "fa0cb6f60cbdd610ca5680b769cf58437a4c53b097b1f46166612b07b0f87a8d",
+      "sourceUrl": "https://www.youtube.com/watch?v=7ILAYNqwHsQ",
+      "sourceTitle": "Lionel Messi 💔 Announcement | Last Fifa World Cup | Fans Emotional | Retirement Announcement ",
+      "sourceChannel": "Bliss Football Review ",
+      "matchedEventTerms": [
+        "retirement",
+        "announcement",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-013-international-retirement-announcement/card-02.jpg",
+      "sha256": "c52a375f94f7bafba217579e3a843dc372d948a2962b9532a436e88f7806102e",
+      "sourceUrl": "https://www.youtube.com/watch?v=AJBj5Txpl_g",
+      "sourceTitle": "Messi retires from international football",
+      "sourceChannel": "AFP News Agency",
+      "matchedEventTerms": [
+        "international",
+        "retirement",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-013-international-retirement-announcement/card-03.jpg",
+      "sha256": "b0863aee5814ce4f6044c6d1d036b21cbb07607baab2cce04853b8c308bd475c",
+      "sourceUrl": "https://www.youtube.com/watch?v=2A3QTKoHU4w",
+      "sourceTitle": "Fans in Buenos Aires rally to ask for Messi's return",
+      "sourceChannel": "FOX Soccer",
+      "matchedEventTerms": [
+        "retirement",
+        "lionel",
+        "messi",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-013-international-retirement-announcement/card-04.jpg",
+      "sha256": "f363855ec77b580a68adf6e77460040a9656a71e593f43feb99aedc0e59956d8",
+      "sourceUrl": "https://www.youtube.com/watch?v=_fcAM3rhNw4",
+      "sourceTitle": "Lionel Messi announces  his retirement from international football",
+      "sourceChannel": "PuthiyathalaimuraiTV",
+      "matchedEventTerms": [
+        "international",
+        "retirement",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-013-international-retirement-announcement/card-05.jpg",
+      "sha256": "5366f0d689f6449396c6246992083d91217d67767ed3025a9f01b50ac9959e4e",
+      "sourceUrl": "https://www.youtube.com/watch?v=lhtR5ycs0Q4",
+      "sourceTitle": "Lionel Messi Retires From International Soccer After Copa America Loss",
+      "sourceChannel": "Scripps News",
+      "matchedEventTerms": [
+        "international",
+        "lionel",
+        "messi",
+        "career"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

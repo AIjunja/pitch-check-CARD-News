@@ -1,0 +1,93 @@
+{
+  "topicId": "alexia-003-u17-world-cup-first-goal",
+  "player": "Alexia Putellas",
+  "query": "\"Alexia Putellas\" u17 world cup first goal football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-003-u17-world-cup-first-goal/card-01.jpg",
+      "sha256": "754f69293bed7089de5bb353e81ca4687c3b1598aa350488e9d3f621d91f9e6f",
+      "sourceUrl": "https://www.youtube.com/watch?v=XFqQCssrJLU",
+      "sourceTitle": "U20 women's World cup 2022 ; Japan 20 vs Spain u20 ; spain u20 vs Japan u20 ;  Alexia Putellas",
+      "sourceChannel": "FWC CHANNEL",
+      "matchedEventTerms": [
+        "world",
+        "cup",
+        "alexia",
+        "putellas",
+        "spain"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-003-u17-world-cup-first-goal/card-02.jpg",
+      "sha256": "669cb409fc9093b1599a3b77a88fa578ca09daea6b6e60b54ae4a33d046a3858",
+      "sourceUrl": "https://www.youtube.com/watch?v=3SexKaOQG78",
+      "sourceTitle": "Alexia Putellas 2026 | Career, Family & Net Worth",
+      "sourceChannel": "Winning Lives",
+      "matchedEventTerms": [
+        "world",
+        "alexia",
+        "putellas",
+        "career",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-003-u17-world-cup-first-goal/card-03.jpg",
+      "sha256": "855f1a8dd61aa80ed59e648af6fb5f412a4bbc7db6319fc3211e1d790db8c127",
+      "sourceUrl": "https://www.youtube.com/watch?v=dLote4oWSek",
+      "sourceTitle": "Alexia Putellas BRACE leads Barcelona to UWCL Final over Bayern Munich",
+      "sourceChannel": "CBS Sports W Golazo",
+      "matchedEventTerms": [
+        "first",
+        "alexia",
+        "putellas"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-003-u17-world-cup-first-goal/card-04.jpg",
+      "sha256": "4e1b640065588a19a74cdb8565b0da17bdaede479c80689b23f882c5cb1c02f9",
+      "sourceUrl": "https://www.youtube.com/watch?v=NCYZrXP0T7g",
+      "sourceTitle": "The story of the winner of the FIFA Women's Football Award, Alexia Putellas.",
+      "sourceChannel": "Emmerich FC",
+      "matchedEventTerms": [
+        "world",
+        "alexia",
+        "putellas"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/alexia-003-u17-world-cup-first-goal/card-05.jpg",
+      "sha256": "c1bb10884001462936132eed1e177852bd84007619bcaa51a529074560f64553",
+      "sourceUrl": "https://www.youtube.com/watch?v=PXaAAMEF7jM",
+      "sourceTitle": "Alexia Putellas: What You Didn’t Know About Her Life and Career",
+      "sourceChannel": "Sapphic Universe",
+      "matchedEventTerms": [
+        "alexia",
+        "putellas",
+        "career",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

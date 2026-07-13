@@ -1,0 +1,98 @@
+{
+  "topicId": "messi-016-barcelona-exit",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" barcelona exit football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-016-barcelona-exit/card-01.jpg",
+      "sha256": "9024d85edead8329fb72e73a6d9ff9109c20f3b92e725cc8ef9649904f3f10cf",
+      "sourceUrl": "https://www.youtube.com/watch?v=h2R3Q5fYHfI",
+      "sourceTitle": "Lionel Messi bids tearful farewell to FC Barcelona at press conference | Al Jazeera Newsfeed",
+      "sourceChannel": "Al Jazeera English",
+      "matchedEventTerms": [
+        "barcelona",
+        "lionel",
+        "messi",
+        "press",
+        "conference",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-016-barcelona-exit/card-02.jpg",
+      "sha256": "9c76b222b3748b52b3ea3ed7fc4b4181bea9a307f6bb658ab1c7708b1b5d9c0d",
+      "sourceUrl": "https://www.youtube.com/watch?v=PZArkvesB3U",
+      "sourceTitle": "BREAKING! Lionel Messi LEAVES Barcelona | The Transfer Show",
+      "sourceChannel": "Sky Sports Football",
+      "matchedEventTerms": [
+        "barcelona",
+        "lionel",
+        "messi",
+        "2021",
+        "transfer"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-016-barcelona-exit/card-03.jpg",
+      "sha256": "9e2ff6e34b1b4862bc83287b800e24c48a55c26b3f9b88c8ff553538da25a082",
+      "sourceUrl": "https://www.youtube.com/watch?v=f0aY2j-AWQQ",
+      "sourceTitle": "😭Messi leaves Barcelona!😭 (Lionel Messi farewell song press conference)",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "barcelona",
+        "lionel",
+        "messi",
+        "press",
+        "conference"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-016-barcelona-exit/card-04.jpg",
+      "sha256": "b349e7daf2a623d7073d797d14036094208a5205076b7e8fda53269164dbcb4d",
+      "sourceUrl": "https://www.youtube.com/watch?v=nwwp6OSLg_4",
+      "sourceTitle": "Messi bids tearful goodbye to Barcelona after 21 years",
+      "sourceChannel": "Global News",
+      "matchedEventTerms": [
+        "barcelona",
+        "lionel",
+        "messi",
+        "club",
+        "new"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-016-barcelona-exit/card-05.jpg",
+      "sha256": "1d9c4920a47b2799968824a143663d82bc94580767dccee43ce2305511ffc877",
+      "sourceUrl": "https://www.youtube.com/watch?v=VqzCWr8CatM",
+      "sourceTitle": "The day Lionel Messi SAID GOODBYE TO BARCELONA 🔵🔴 | End of an era 💔",
+      "sourceChannel": "Amazon Prime Video Sport",
+      "matchedEventTerms": [
+        "barcelona",
+        "lionel",
+        "messi",
+        "contract"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,88 @@
+{
+  "topicId": "mbappe-007-uefa-competition-debut-before-sixteen",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" uefa competition debut before sixteen football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-007-uefa-competition-debut-before-sixteen/card-01.jpg",
+      "sha256": "0b7dbf56eebc8977af53be67335a9bab85b4e627ba3b815a47fb573dfe8a361e",
+      "sourceUrl": "https://www.youtube.com/watch?v=XJrGKs7G-DY",
+      "sourceTitle": "Kylian Mbappe and the Start of a New Era at Real Madrid",
+      "sourceChannel": "Doc Football",
+      "matchedEventTerms": [
+        "kylian",
+        "mbappe",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-007-uefa-competition-debut-before-sixteen/card-02.jpg",
+      "sha256": "dee3de1a07c92903894987ac9db2463455ead25cb4e7894870c25dfaebd52bad",
+      "sourceUrl": "https://www.youtube.com/watch?v=_PSlc6RSyUY",
+      "sourceTitle": "Pochettino:'Happy to progress to last 16 as PSG beat Brugge with Messi & Mbappe goals | UCL欧冠 巴黎圣日耳曼",
+      "sourceChannel": "CGTN Sports Scene",
+      "matchedEventTerms": [
+        "uefa",
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-007-uefa-competition-debut-before-sixteen/card-03.jpg",
+      "sha256": "2efeb8b4a6a61a3347f62d5623c1daafd3da452f8fe7c641f8f70f68e4b01280",
+      "sourceUrl": "https://www.youtube.com/watch?v=DkO5qSrEgHI",
+      "sourceTitle": "Paris Saint-Germain v Real Madrid 🔥|| Champiions League2022",
+      "sourceChannel": "Superx sports",
+      "matchedEventTerms": [
+        "kylian",
+        "mbappe",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-007-uefa-competition-debut-before-sixteen/card-04.jpg",
+      "sha256": "365df9cde6df106ceef991b5ae329ed2b44566752dab5b1043f4911ff224d808",
+      "sourceUrl": "https://www.youtube.com/watch?v=iApx5HpjjLk",
+      "sourceTitle": "Kylian Mbappé Answers Questions Without Dropping the Ball | Vanity Fair",
+      "sourceChannel": "Vanity Fair",
+      "matchedEventTerms": [
+        "kylian",
+        "mbappe",
+        "early",
+        "career"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mbappe-007-uefa-competition-debut-before-sixteen/card-05.jpg",
+      "sha256": "b0292634d1672c727e04e7b085be10aa778f019cedf1523aa82a577de5f47c6c",
+      "sourceUrl": "https://www.youtube.com/watch?v=354ajiLZcEE",
+      "sourceTitle": "Kylian Mbappe Goal | France 3-1 Senegal | FIFA World Cup 2026™",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "kylian",
+        "mbappe"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,102 @@
+{
+  "topicId": "haaland-006-premier-league-debut-season-record",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" premier league debut season record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-006-premier-league-debut-season-record/card-01.jpg",
+      "sha256": "17be1230faf5dbacf47db34826cc3ddee876526d84c46b7ac658480c70d5a805",
+      "sourceUrl": "https://www.youtube.com/watch?v=iWzXmX7qNlk",
+      "sourceTitle": "Erling Haaland Record Breaker! 🔥 ALL 100 Goal Contributions in 94 Premier League Games",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "record",
+        "erling",
+        "haaland",
+        "flight"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-006-premier-league-debut-season-record/card-02.jpg",
+      "sha256": "5025570f5afa0dd2e35cc066de1684d40f52da0eb9dc2c356b318d06dabb1bc6",
+      "sourceUrl": "https://www.youtube.com/watch?v=dsQPZNyPAPU",
+      "sourceTitle": "Erling Haaland breaks record for most goals in a Premier League season",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "season",
+        "record",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-006-premier-league-debut-season-record/card-03.jpg",
+      "sha256": "39f46749f691d29a1bb8cc983ff28bd4061e20494efff0233d35f2c5dede27b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=OKxije9yHCk",
+      "sourceTitle": "BEST OF ERLING HAALAND 22/23 | The ultimate debut season in English Football!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "debut",
+        "season",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-006-premier-league-debut-season-record/card-04.jpg",
+      "sha256": "e894e7fd4ab2cb40f4a39f8a085aeb51b55dd14a11715a1a22ba364fc2c5cca2",
+      "sourceUrl": "https://www.youtube.com/watch?v=Eebhu69Fh7E",
+      "sourceTitle": "Erling Haaland 22/23 - All Premier League Goals",
+      "sourceChannel": "FR7Football ",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "season",
+        "erling",
+        "haaland",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-006-premier-league-debut-season-record/card-05.jpg",
+      "sha256": "9977a14e0081fcce287e7a2bc668712e132bf6d874f2b03e066f2dc92b3aa537",
+      "sourceUrl": "https://www.youtube.com/watch?v=AveLaQGyqVY",
+      "sourceTitle": "ALL 100 OF ERLING HAALAND'S PREMIER LEAGUE GOALS | Record Breaker 💯",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "record",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

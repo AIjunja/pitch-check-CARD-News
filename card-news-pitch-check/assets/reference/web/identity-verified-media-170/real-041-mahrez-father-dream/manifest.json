@@ -1,0 +1,88 @@
+{
+  "topicId": "real-041-mahrez-father-dream",
+  "player": "Riyad Mahrez",
+  "query": "\"Riyad Mahrez\" mahrez father dream football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-041-mahrez-father-dream/card-01.jpg",
+      "sha256": "7897d7675b2e6d77964a6655892b234faa0c96b7bcc7509df4c69510eedd8aa7",
+      "sourceUrl": "https://www.youtube.com/watch?v=o_K8t5a9p7o",
+      "sourceTitle": "THE STORY OF RIYAD MAHREZ MANCHESTER CITY ATTACKING STAR",
+      "sourceChannel": "FUT MAX",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-041-mahrez-father-dream/card-02.jpg",
+      "sha256": "d8fb4d4ee60043b8015bad370f852dc4a2b73d67ea0b805936f34f786340c798",
+      "sourceUrl": "https://www.youtube.com/watch?v=ygbGgHQi-xY",
+      "sourceTitle": "Mahrez: It's All About The Team",
+      "sourceChannel": "Leicester City",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-041-mahrez-father-dream/card-03.jpg",
+      "sha256": "3b8738b4969c3c9da1bff42c4c1dbc891f60f35242d4b26e9c98637e1e269648",
+      "sourceUrl": "https://www.youtube.com/watch?v=vSOg2pg54ZA",
+      "sourceTitle": "THE STORY OF RIYAD MAHREZ: MANCHESTER CITY'S STAR FORWARD",
+      "sourceChannel": "FALA FUT",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-041-mahrez-father-dream/card-04.jpg",
+      "sha256": "4b09e6b06b7e466cf9a2d5f443d96df20e360504823e285cf11074ec00ab1d3f",
+      "sourceUrl": "https://www.youtube.com/watch?v=PW1N8mA46s8",
+      "sourceTitle": "THIS WHY RIYAD MAHREZ IS PERFECT PLAYER IN THE HISTORY OF leicester city!MAHREZ SKILS",
+      "sourceChannel": "SW -PRODUCTIONS",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-041-mahrez-father-dream/card-05.jpg",
+      "sha256": "a9eb84f6d8906852ef9e5ace88b248c8e06ec6dfdb690ea32f830a7b5f234da5",
+      "sourceUrl": "https://www.youtube.com/watch?v=qsr7Y8njiTM",
+      "sourceTitle": "Team Feature: Algeria | The Legacy of Riyad Mahrez",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "algeria"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

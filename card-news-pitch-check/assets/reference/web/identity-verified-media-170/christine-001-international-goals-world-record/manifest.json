@@ -1,0 +1,95 @@
+{
+  "topicId": "christine-001-international-goals-world-record",
+  "player": "Christine Sinclair",
+  "query": "\"Christine Sinclair\" international goals world record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/christine-001-international-goals-world-record/card-01.jpg",
+      "sha256": "ca54dea607715293b7ab8e60432162e0a9f2db6b26bcb333fbd0a5e3d1f9717d",
+      "sourceUrl": "https://www.youtube.com/watch?v=8q0qK-6q0Lo",
+      "sourceTitle": "🇨🇦 Christine Sinclair | FIFA Women's World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "international",
+        "goals",
+        "world",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/christine-001-international-goals-world-record/card-02.jpg",
+      "sha256": "0461fcd172c443343e5ffcaa4c987e81548df6f3a7fd0fe093f334d66f3bf532",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xt5scKPOfX0",
+      "sourceTitle": "Sinclair 100 | All 38 of Christine Sinclair's 38 career goals with Thorns FC",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "goals",
+        "christine",
+        "sinclair",
+        "celebration"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/christine-001-international-goals-world-record/card-03.jpg",
+      "sha256": "aca68318972c6670367f3fa75c82cfa5d0de81203586a747b336f44e051ab4e7",
+      "sourceUrl": "https://www.youtube.com/watch?v=7l6log4mMNs",
+      "sourceTitle": "Timbers in 30 | The Breakaway with Christine Sinclair | Sept. 29, 2017",
+      "sourceChannel": "Portland Thorns FC",
+      "matchedEventTerms": [
+        "christine",
+        "sinclair",
+        "01",
+        "29"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/christine-001-international-goals-world-record/card-04.jpg",
+      "sha256": "36082436b2bce883ba12a99505beff1a03dee782fe19bc05de9443df513d8d28",
+      "sourceUrl": "https://www.youtube.com/watch?v=nm3foJ6QHsw",
+      "sourceTitle": "Christine Sinclair Hat Trick vs United states HD",
+      "sourceChannel": "WilliamGrande",
+      "matchedEventTerms": [
+        "goals",
+        "christine",
+        "sinclair",
+        "01"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/christine-001-international-goals-world-record/card-05.jpg",
+      "sha256": "356b4dbd2bf24b0c21142fcffc5c659411f6ea1617e3ebea4ed9b451cad81897",
+      "sourceUrl": "https://www.youtube.com/watch?v=5djGd75S1w4",
+      "sourceTitle": "The Greatest Goal Scorer in the World is Canadian | Congratulations Christine Sinclair",
+      "sourceChannel": "Concacaf",
+      "matchedEventTerms": [
+        "international",
+        "world",
+        "record",
+        "christine",
+        "sinclair"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

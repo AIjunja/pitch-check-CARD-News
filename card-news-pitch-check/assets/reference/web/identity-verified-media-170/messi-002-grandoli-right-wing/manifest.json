@@ -1,0 +1,87 @@
+{
+  "topicId": "messi-002-grandoli-right-wing",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" grandoli right wing football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-002-grandoli-right-wing/card-01.jpg",
+      "sha256": "a1f9a524c29390399d67f6de6b0d9421aa565280697fa24f5fe68b9117d22ab6",
+      "sourceUrl": "https://www.youtube.com/watch?v=bnPa4NdpTgE",
+      "sourceTitle": "In the footsteps of a legend: a visit to the first field where Messi played",
+      "sourceChannel": "AP Archive",
+      "matchedEventTerms": [
+        "messi",
+        "archive",
+        "abanderado",
+        "rosario"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-002-grandoli-right-wing/card-02.jpg",
+      "sha256": "2891b57e0cf6a108d0595e90a7f78cad1adbc94b064a4e0666cc971892963d16",
+      "sourceUrl": "https://www.youtube.com/watch?v=DnxbVM1pTMI",
+      "sourceTitle": "Inside the Tiny Club Where Lionel Messi Began His Journey ⚽  #messi",
+      "sourceChannel": "WeShow Sports",
+      "matchedEventTerms": [
+        "right",
+        "wing",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-002-grandoli-right-wing/card-03.jpg",
+      "sha256": "49c04b7854f23527a1571e51aabe17a81f41feee5b96e228e759426360e6159c",
+      "sourceUrl": "https://www.youtube.com/watch?v=X3NeMJfvMdQ",
+      "sourceTitle": "How Ronaldinho helped Messi become the GOAT | MESSI",
+      "sourceChannel": "BBC Sport",
+      "matchedEventTerms": [
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-002-grandoli-right-wing/card-04.jpg",
+      "sha256": "d520cbfc70759ffccd577097b6d8ce35a59d396ddd9ebf153ae2080fc9e751d4",
+      "sourceUrl": "https://www.youtube.com/watch?v=G4wTERfoPfA",
+      "sourceTitle": "Lionel Messi - The GOAT - Official Movie",
+      "sourceChannel": "MagicalMessi",
+      "matchedEventTerms": [
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-002-grandoli-right-wing/card-05.jpg",
+      "sha256": "387c9d0c5349e41eb9351554ebd7d79ed8e41620736e026b0c94228f0b75d9b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=9FRyEj1cOG0",
+      "sourceTitle": "Young MESSI *FIRST WORDS* at Barça 2001 (UNSEEN FOOTAGE)",
+      "sourceChannel": "FC Barcelona",
+      "matchedEventTerms": [
+        "messi",
+        "young"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

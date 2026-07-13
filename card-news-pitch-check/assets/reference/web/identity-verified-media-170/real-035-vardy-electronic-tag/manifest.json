@@ -1,0 +1,91 @@
+{
+  "topicId": "real-035-vardy-electronic-tag",
+  "player": "Jamie Vardy",
+  "query": "\"Jamie Vardy\" vardy electronic tag football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-035-vardy-electronic-tag/card-01.jpg",
+      "sha256": "7e4ca7a4ea0312cf5c797ed862dc90cc11df745f8cd58d1f8b3f852114abbd8b",
+      "sourceUrl": "https://www.youtube.com/watch?v=HgVDWEcbdVo",
+      "sourceTitle": "Jamie Vardy vs Jonny Evans | ‘Who Am I?’ Leicester Teammates Quiz",
+      "sourceChannel": "Sky Sports Premier League",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "teammate",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-035-vardy-electronic-tag/card-02.jpg",
+      "sha256": "2685a92bc5e8b8e8c3a79e188efab3e25147877e6b4ac7580ff06f3b9ece7324",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ozlf6hXUjOg",
+      "sourceTitle": "Jamie Vardy does HILARIOUS Impressions! 😂😂😂 | Leicester City Teammates 2.0",
+      "sourceChannel": "Soccer AM",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "teammate",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-035-vardy-electronic-tag/card-03.jpg",
+      "sha256": "030f2b1310e232d8d02b1050f0c3e522d957069b63bfd9fc1962d490176bf327",
+      "sourceUrl": "https://www.youtube.com/watch?v=IdcLkWuust8",
+      "sourceTitle": "Jamie Vardy hits the post vs Manchester City #Communityshield #Leicester #leicester #vardy",
+      "sourceChannel": "Trending Heat 🔥",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "post",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-035-vardy-electronic-tag/card-04.jpg",
+      "sha256": "ec620cbad3a8499fb7b2826d2f6533cd2115c9f3cbcd5c06a2f92691cfabee9e",
+      "sourceUrl": "https://www.youtube.com/watch?v=XdWOEE5mCrI",
+      "sourceTitle": "Jamie Vardy's Top 20 Goals 🐐 | The GOAT's Best Premier League Goals",
+      "sourceChannel": "Leicester City",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-035-vardy-electronic-tag/card-05.jpg",
+      "sha256": "68c39c72758896bf7d5edb30f00112c5673aa3960032ea75f12862444be5b015",
+      "sourceUrl": "https://www.youtube.com/watch?v=14IiK3uVv64",
+      "sourceTitle": "Jamie Vardy, Leicester City and England Striker, Introduces The Triple Threat Drill",
+      "sourceChannel": "Pro:Direct Soccer",
+      "matchedEventTerms": [
+        "vardy",
+        "jamie",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

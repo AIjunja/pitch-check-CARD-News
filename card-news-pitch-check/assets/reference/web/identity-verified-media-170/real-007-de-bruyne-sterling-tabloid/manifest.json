@@ -1,0 +1,100 @@
+{
+  "topicId": "real-007-de-bruyne-sterling-tabloid",
+  "player": "Kevin De Bruyne",
+  "query": "\"Kevin De Bruyne\" de bruyne sterling tabloid football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-007-de-bruyne-sterling-tabloid/card-01.jpg",
+      "sha256": "46c4c5b7c40992f5822b36c9a2ba1a83382e1643797489ad4170defe0c5861c9",
+      "sourceUrl": "https://www.youtube.com/watch?v=rw4c6jv6IAA",
+      "sourceTitle": "PFA Player of the Year 2020: Four Liverpool stars on six-man shortlist",
+      "sourceChannel": "The London Standard",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "sterling",
+        "kevin",
+        "manchester",
+        "city",
+        "raheem"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-007-de-bruyne-sterling-tabloid/card-02.jpg",
+      "sha256": "b61be95dc8e4cd5fe1177214336b0b69679e820fa980d6cfb51a1909823a33fe",
+      "sourceUrl": "https://www.youtube.com/watch?v=RWNApENg6-I",
+      "sourceTitle": "BAS Trio | De Bruyne Agüero Sterling | Manchester City | Amazing Goals & Skills",
+      "sourceChannel": "TheFootballFilms",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "sterling",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-007-de-bruyne-sterling-tabloid/card-03.jpg",
+      "sha256": "74ed771cdc00606dfe4b279fea2983d78b4ecf8062560f94a75b150c94666052",
+      "sourceUrl": "https://www.youtube.com/watch?v=YAmLmtvrZIw",
+      "sourceTitle": "Manchester City announce £52m capture of Wolfsburg playmaker Kevin De Bruyne",
+      "sourceChannel": "CS Alexis",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "kevin",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-007-de-bruyne-sterling-tabloid/card-04.jpg",
+      "sha256": "8f44a8ad99563d91f63e50a4d4079a0a11a20a09dc6c7ff717d2c6bcf97cd8cf",
+      "sourceUrl": "https://www.youtube.com/watch?v=PMuHztbsHU4",
+      "sourceTitle": "Pep Guardiola calls Kevin de Bruyne form \"beyond perfect.\" | Manchester City| Premier League",
+      "sourceChannel": "Irish Mirror Sport",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "kevin",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-007-de-bruyne-sterling-tabloid/card-05.jpg",
+      "sha256": "5dde4ce7db71ef6ab9835d56cfbe8ad2bc542d6dd5ec1f665c54958c5599cd7e",
+      "sourceUrl": "https://www.youtube.com/watch?v=9JZS38AtJW4",
+      "sourceTitle": "Kevin De Bruyne signs new 6yr contract with Manchester City",
+      "sourceChannel": "Hammer and Talk 2",
+      "matchedEventTerms": [
+        "de",
+        "bruyne",
+        "kevin",
+        "manchester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

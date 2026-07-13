@@ -1,0 +1,99 @@
+{
+  "topicId": "mitoma-002-japanese-premier-league-record",
+  "player": "Kaoru Mitoma",
+  "query": "\"Kaoru Mitoma\" japanese premier league record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-002-japanese-premier-league-record/card-01.jpg",
+      "sha256": "1542f0a9912db20cd22d8f078dfc998ca2bca48aecbd3a3c21a2c1b8260dad8e",
+      "sourceUrl": "https://www.youtube.com/watch?v=hsZfepqbYTo",
+      "sourceTitle": "Mitoma BREAKS 🇯🇵 Japan Premier League Goal Record | All 15 Kaoru Goals",
+      "sourceChannel": "Official Brighton & Hove Albion FC",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "record",
+        "kaoru",
+        "mitoma",
+        "15"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-002-japanese-premier-league-record/card-02.jpg",
+      "sha256": "971f69347fdfebb9f590884de6f4165db4c07716836092c214f31919bec81f02",
+      "sourceUrl": "https://www.youtube.com/watch?v=GAhxABLxJvo",
+      "sourceTitle": "EVERY GOAL | Kaoru Mitoma Equals Japan Premier League Goal Record 🇯🇵",
+      "sourceChannel": "Official Brighton & Hove Albion FC",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "record",
+        "kaoru",
+        "mitoma"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-002-japanese-premier-league-record/card-03.jpg",
+      "sha256": "6c259e5ecb15afacd97183e97b2ca96352d2efab66b0aa7a8f07fe34c7ec4ca2",
+      "sourceUrl": "https://www.youtube.com/watch?v=ptMUhXLTqkc",
+      "sourceTitle": "Pitchside: Kaoru Scores TWO Against BOU ⚽️⚽️",
+      "sourceChannel": "Official Brighton & Hove Albion FC",
+      "matchedEventTerms": [
+        "japanese",
+        "premier",
+        "league",
+        "kaoru",
+        "mitoma"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-002-japanese-premier-league-record/card-04.jpg",
+      "sha256": "716743c9e03a70aeec32f4e682d35d500cd5f9a736d9756afe99099cff032c85",
+      "sourceUrl": "https://www.youtube.com/watch?v=VT_b537p4v8",
+      "sourceTitle": "The Surprising RISE of Kaoru Mitoma: The Student Who Became a Footballer",
+      "sourceChannel": "Untold Football",
+      "matchedEventTerms": [
+        "premier",
+        "league",
+        "kaoru",
+        "mitoma",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/mitoma-002-japanese-premier-league-record/card-05.jpg",
+      "sha256": "bf62bb377a79fb9b3a7e6b028537354fa700732ac3558dcc846248084629c052",
+      "sourceUrl": "https://www.youtube.com/watch?v=28m4qLStOzE",
+      "sourceTitle": "Kaoru Mitoma Has Been Superb this Season | All Goals 2023",
+      "sourceChannel": "9Moons",
+      "matchedEventTerms": [
+        "japanese",
+        "premier",
+        "league",
+        "kaoru",
+        "mitoma"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

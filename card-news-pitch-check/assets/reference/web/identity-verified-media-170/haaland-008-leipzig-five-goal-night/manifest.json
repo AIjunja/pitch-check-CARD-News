@@ -1,0 +1,101 @@
+{
+  "topicId": "haaland-008-leipzig-five-goal-night",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" leipzig five goal night football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-008-leipzig-five-goal-night/card-01.jpg",
+      "sha256": "43e8db130f30720999dbb239d9c9d36351410ae85df1cdc82b44c6d526732644",
+      "sourceUrl": "https://www.youtube.com/watch?v=CsK-DDJQCLc",
+      "sourceTitle": "HAALAND SCORES FIVE! | 7TH HEAVEN FOR MAN CITY |  | Man City V RB Leipzig | Champions League",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "leipzig",
+        "five",
+        "night",
+        "erling",
+        "haaland",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-008-leipzig-five-goal-night/card-02.jpg",
+      "sha256": "1546e140a2211715f3ac0d1bf74fe5fc7734ab5bbdb36f8aa6473cba50849d57",
+      "sourceUrl": "https://www.youtube.com/watch?v=2yTVpkOdFls",
+      "sourceTitle": "Haaland humiliated Leipzig by scoring five goals🔥Manchester City vs RB Leipzig 7-0 / UCL 2023 4K",
+      "sourceChannel": "FOOT ZONE 4K",
+      "matchedEventTerms": [
+        "leipzig",
+        "five",
+        "haaland",
+        "2023",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-008-leipzig-five-goal-night/card-03.jpg",
+      "sha256": "fc5de93743444f64e644132fffa5c4eeb337464c47d23e9cb6cb2eb2ef5ed333",
+      "sourceUrl": "https://www.youtube.com/watch?v=GvBEZR72IiQ",
+      "sourceTitle": "The match where Haaland exploded and scored a historic five-goal 🔥🤯haul in City’s 7-0 win vs Leipzig",
+      "sourceChannel": "OMARTVSPORT",
+      "matchedEventTerms": [
+        "leipzig",
+        "five",
+        "haaland",
+        "2023",
+        "14"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-008-leipzig-five-goal-night/card-04.jpg",
+      "sha256": "5f33983e17bbd2b03c0c09700434356b79ac0758c730eb2d0204649268d82814",
+      "sourceUrl": "https://www.youtube.com/watch?v=2pBk6hoh_H0",
+      "sourceTitle": "\"Manchester City rout RB Salzburg with five goals from Haaland in the English Champions League\"",
+      "sourceChannel": "The Citizens Channel",
+      "matchedEventTerms": [
+        "leipzig",
+        "five",
+        "haaland",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-008-leipzig-five-goal-night/card-05.jpg",
+      "sha256": "bf5ccc715d06bcb38e5540ef4eaa77ca5e8dd7d6920c4f25d0bdbe19ddcaf975",
+      "sourceUrl": "https://www.youtube.com/watch?v=JBQ9AFEeJhE",
+      "sourceTitle": "ERLING HAALAND POST MATCH INTERVIEW UCL SECOND LEG MAN.CITY VS RB LEIPZIG 7:0 2023",
+      "sourceChannel": "WORLD SPORTBIBLE FOOTBALL",
+      "matchedEventTerms": [
+        "leipzig",
+        "erling",
+        "haaland",
+        "2023",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,95 @@
+{
+  "topicId": "real-027-davies-parents-escaped",
+  "player": "Alphonso Davies",
+  "query": "\"Alphonso Davies\" davies parents escaped football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-027-davies-parents-escaped/card-01.jpg",
+      "sha256": "363bf54456799ec3b00ea0e69e9e94bf8e6edfdd6e0c7e1c1386ba033461163f",
+      "sourceUrl": "https://www.youtube.com/watch?v=z1W2Fut_tZw",
+      "sourceTitle": "The story of Alphonso Davies in pictures. From a refugee to a world class football star",
+      "sourceChannel": "Ras Gambo",
+      "matchedEventTerms": [
+        "davies",
+        "parents",
+        "alphonso",
+        "liberia",
+        "ghana",
+        "canada"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-027-davies-parents-escaped/card-02.jpg",
+      "sha256": "15317518ca4bb0c99a6ada68c3e74c03194e2083fe37213672598c0c551ca295",
+      "sourceUrl": "https://www.youtube.com/watch?v=JNEbrQ-Lfao",
+      "sourceTitle": "How Alphonso Davies Survived As A Refugee From Ghana To Become Canada’s First WC Scorer",
+      "sourceChannel": "Therealone Kay",
+      "matchedEventTerms": [
+        "davies",
+        "parents",
+        "alphonso",
+        "liberia",
+        "ghana",
+        "canada"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-027-davies-parents-escaped/card-03.jpg",
+      "sha256": "8379235c0759d9928fd5b13bdb729f7712f8ef1714cedbc681c9f280a758887c",
+      "sourceUrl": "https://www.youtube.com/watch?v=BsRxk6n3VmA",
+      "sourceTitle": "Alphonso Davies say\" #canada is...\" || made history as the youngest captain at  2026 FIFA World Cup.",
+      "sourceChannel": "Evod9373",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso",
+        "liberia",
+        "canada"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-027-davies-parents-escaped/card-04.jpg",
+      "sha256": "2cdbdac6a697ac82d0b3a049dd0cf514f693409c2fb7a6ded5842436ad6d620a",
+      "sourceUrl": "https://www.youtube.com/watch?v=BpP3N3C81_k",
+      "sourceTitle": "From Refugee To Proffesional Football Player - STORY OF ALPHONSO DAVIES #alphonsodavies #bayern",
+      "sourceChannel": "Sports Planet",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso",
+        "bayern"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-027-davies-parents-escaped/card-05.jpg",
+      "sha256": "eeee8209879f1df41f33554aefc879c8c22bf73f8af0439c3fdb5af5c8f603a5",
+      "sourceUrl": "https://www.youtube.com/watch?v=5cNP81TVfPk",
+      "sourceTitle": "Alphonso Davies, From a refugee camp in Ghana to UEFA Champions League winner.",
+      "sourceChannel": "Pulse Ghana",
+      "matchedEventTerms": [
+        "davies",
+        "alphonso",
+        "ghana"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

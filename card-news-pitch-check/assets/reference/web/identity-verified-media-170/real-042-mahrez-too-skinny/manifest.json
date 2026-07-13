@@ -1,0 +1,94 @@
+{
+  "topicId": "real-042-mahrez-too-skinny",
+  "player": "Riyad Mahrez",
+  "query": "\"Riyad Mahrez\" mahrez too skinny football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-042-mahrez-too-skinny/card-01.jpg",
+      "sha256": "0f7faa18658f9f76fc12f744c051237f2b57b9b6fc631b1fdfbba9b7cf64b764",
+      "sourceUrl": "https://www.youtube.com/watch?v=z2czmq7yX1k",
+      "sourceTitle": "The Teen Who Cleaned Toilets Became a Premier League Star",
+      "sourceChannel": "football.passion",
+      "matchedEventTerms": [
+        "mahrez",
+        "too",
+        "skinny",
+        "riyad",
+        "family"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-042-mahrez-too-skinny/card-02.jpg",
+      "sha256": "431949c7f841558a499c50326e06479546a0fd6bdc16e2e7f2584180803404f7",
+      "sourceUrl": "https://www.youtube.com/watch?v=PyxiM3jQYUU",
+      "sourceTitle": "Who had the bigger title winning party, Leicester or Man City? | First | Riyad Mahrez",
+      "sourceChannel": "Soccer AM",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-042-mahrez-too-skinny/card-03.jpg",
+      "sha256": "14f0a030cbe74ccc27289b78a4e81aaa4ef2a9908e5ca865c8f34c05fbbdad26",
+      "sourceUrl": "https://www.youtube.com/watch?v=ya-0OXes5a4",
+      "sourceTitle": "The Riyad Mahrez Story | CITY STUDIOS DOCUMENTARY",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "documentary",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-042-mahrez-too-skinny/card-04.jpg",
+      "sha256": "711157c64fb46b0e41f97f76b2258d97c10910bc0b4f793a73fe446fe54fc3a7",
+      "sourceUrl": "https://www.youtube.com/watch?v=0t-ogz6_mGw",
+      "sourceTitle": "Riyad Mahrez: Every Premier League Goal",
+      "sourceChannel": "Leicester City",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-042-mahrez-too-skinny/card-05.jpg",
+      "sha256": "93d4e032fac4e731cc80f8ead442aa6be119975a754cb84bfc27f3bae736ff8a",
+      "sourceUrl": "https://www.youtube.com/watch?v=jGCp6LSLBLM",
+      "sourceTitle": "Riyad Mahrez Leicester City 2016 - Ultimate Skills and Goals",
+      "sourceChannel": "75perS HD",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "leicester",
+        "city"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

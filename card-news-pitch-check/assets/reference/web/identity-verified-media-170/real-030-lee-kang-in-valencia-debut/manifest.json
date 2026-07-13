@@ -1,0 +1,96 @@
+{
+  "topicId": "real-030-lee-kang-in-valencia-debut",
+  "player": "Lee Kang-in",
+  "query": "\"Lee Kang-in\" lee kang in valencia debut football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-030-lee-kang-in-valencia-debut/card-01.jpg",
+      "sha256": "8869e3b13e3275c8b09b541b7633941bb54b8007bc52c2033d1ccd698823f867",
+      "sourceUrl": "https://www.youtube.com/watch?v=iuKBxZlC3tw",
+      "sourceTitle": "Kang-in Lee - Valencia - The Korean Wonderkid - Goals, Skills & Assists 2019/20",
+      "sourceChannel": "TheScoutHub",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "valencia",
+        "wonderkid",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-030-lee-kang-in-valencia-debut/card-02.jpg",
+      "sha256": "0bb9147823476eda3c4ccc0fd640367adbbf21ffc9f0132eb8bf5801c0c75688",
+      "sourceUrl": "https://www.youtube.com/watch?v=n6l6VECNRFs",
+      "sourceTitle": "S. Korea's Lee Kang-in scores debut Valencia goal in his first full start for club",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "valencia",
+        "debut",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-030-lee-kang-in-valencia-debut/card-03.jpg",
+      "sha256": "e225fc7837a142d2bea52a3ea8ff30807d29aab39a159269b9948376c55e3972",
+      "sourceUrl": "https://www.youtube.com/watch?v=tXfhd7i2lJs",
+      "sourceTitle": "S. Korea's Lee Kang-in scores debut Valencia goal in his first full start for club",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "valencia",
+        "debut",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-030-lee-kang-in-valencia-debut/card-04.jpg",
+      "sha256": "73ae3f4cc428eeea80c82d0fa309a8af2ed83538f0716501929c64c71dc411eb",
+      "sourceUrl": "https://www.youtube.com/watch?v=v15cqR6kX4U",
+      "sourceTitle": "Lee Kang-in makes first-team debut for Valencia CF in preseason friendly",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "valencia",
+        "debut",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-030-lee-kang-in-valencia-debut/card-05.jpg",
+      "sha256": "42c1e482cef27c860aa92e2c2951bea1ae12aa31c36fd4dfe80aa2102bf28004",
+      "sourceUrl": "https://www.youtube.com/watch?v=IccJtVi58Do",
+      "sourceTitle": "Lee Kang-in vs Le Havre (Debut for PSG) | 21/08/2023 | HD",
+      "sourceChannel": "The European Project ",
+      "matchedEventTerms": [
+        "lee",
+        "kang",
+        "debut"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,99 @@
+{
+  "topicId": "salah-005-32-goal-record",
+  "player": "Mohamed Salah",
+  "query": "\"Mohamed Salah\" 32 goal record football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/salah-005-32-goal-record/card-01.jpg",
+      "sha256": "816ab9c6d0a11b037f319a62e9147f8635bf47a34e354c45d3805b9607d27ff1",
+      "sourceUrl": "https://www.youtube.com/watch?v=mlWBbylJxQA",
+      "sourceTitle": "Mohamed Salah Golden Boot Moments - Golden Boot 2018 - All 32 Goals",
+      "sourceChannel": "sports matter",
+      "matchedEventTerms": [
+        "32",
+        "record",
+        "mohamed",
+        "salah",
+        "2018",
+        "goals",
+        "2017"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/salah-005-32-goal-record/card-02.jpg",
+      "sha256": "8dce00a7365f42bb807aca7d22e0c4f74b85d887021c7d783595d6fa9d989bf8",
+      "sourceUrl": "https://www.youtube.com/watch?v=It0-W9j5ydE",
+      "sourceTitle": "Mohamed Salah winner of 2017/18 Premier League golden boot",
+      "sourceChannel": "GOVA-MEDIA",
+      "matchedEventTerms": [
+        "32",
+        "record",
+        "mohamed",
+        "salah",
+        "2017"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/salah-005-32-goal-record/card-03.jpg",
+      "sha256": "6b3c9073814ad1c6170d97f18283219e35fc368be4e59a5e4ecb9c7d372f834a",
+      "sourceUrl": "https://www.youtube.com/watch?v=8yEUDjSrceY",
+      "sourceTitle": "MOHAMED SALAH ALL PREMIERE LEAGUE GOALS 2017-18 SEASON (32 GOALS)",
+      "sourceChannel": "djibrilliant",
+      "matchedEventTerms": [
+        "32",
+        "mohamed",
+        "salah",
+        "2018",
+        "goals",
+        "2017"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/salah-005-32-goal-record/card-04.jpg",
+      "sha256": "247d38674769a451514f0d1e7ed640d4a75d16600e3caa30dfaf3edfefdbf933",
+      "sourceUrl": "https://www.youtube.com/watch?v=9Jz_9kw8i0Y",
+      "sourceTitle": "Mohammed Salah || Record Breaker || Star || Liverpool",
+      "sourceChannel": "DL04HD",
+      "matchedEventTerms": [
+        "32",
+        "record",
+        "salah",
+        "goals"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/salah-005-32-goal-record/card-05.jpg",
+      "sha256": "c8eacf6b4f81488b5c2ab4d511b616b713eb3e28ce0e8e9536f80de5b848b2e5",
+      "sourceUrl": "https://www.youtube.com/watch?v=hPUwNpHhqpc",
+      "sourceTitle": "17/18: The Season Of Mohamed Salah | Best Liverpool Goals & Highlights",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "mohamed",
+        "salah",
+        "goals",
+        "2017"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

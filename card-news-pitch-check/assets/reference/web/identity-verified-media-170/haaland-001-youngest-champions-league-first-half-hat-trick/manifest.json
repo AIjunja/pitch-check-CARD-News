@@ -1,0 +1,105 @@
+{
+  "topicId": "haaland-001-youngest-champions-league-first-half-hat-trick",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" youngest champions league first half hat trick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-001-youngest-champions-league-first-half-hat-trick/card-01.jpg",
+      "sha256": "3025df8219a64015b590675a6ba556c94657cc929159b809c568c8edaf8bf62e",
+      "sourceUrl": "https://www.youtube.com/watch?v=09W1_QEA0Aw",
+      "sourceTitle": "Erling Haaland: Records Man City's goal machine has already broken and what could come next",
+      "sourceChannel": "Miguel Delaney's Inside Football",
+      "matchedEventTerms": [
+        "youngest",
+        "champions",
+        "league",
+        "hat",
+        "erling",
+        "haaland",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-001-youngest-champions-league-first-half-hat-trick/card-02.jpg",
+      "sha256": "39d5b9cc51e5d591298d5249be071a4d8c1dfe59e9738d184dc2804e6dab8fa8",
+      "sourceUrl": "https://www.youtube.com/watch?v=SrkGmC7pxC8",
+      "sourceTitle": "Wonderkid alert! Erling Braut Haaland's hat-trick on Champions League debut",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "first",
+        "half",
+        "hat",
+        "trick",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-001-youngest-champions-league-first-half-hat-trick/card-03.jpg",
+      "sha256": "38d32d27babd8b9340e694bee85b0c9cce7a83252e6caeebca98ca2b7d1b3ebb",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nz-WRpKro8o",
+      "sourceTitle": "Man City 7-0 Leipzig Haaland breaks Champions League records with 30th UCL goal",
+      "sourceChannel": "SPORTS DAILY",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "first",
+        "half",
+        "haaland",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-001-youngest-champions-league-first-half-hat-trick/card-04.jpg",
+      "sha256": "4b6ee3c539d34bae9e58cd825823d501e9baf547b9e1da7cc6ff7f4588e32386",
+      "sourceUrl": "https://www.youtube.com/watch?v=pP8r4yDPnyE",
+      "sourceTitle": "36 GOALS! Erling Haaland's UNSTOPPABLE Premier League 22/23 Season",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "league",
+        "first",
+        "erling",
+        "haaland",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-001-youngest-champions-league-first-half-hat-trick/card-05.jpg",
+      "sha256": "ff6eff25044f85cf0322cd8087ef5f37e22df986572ab485fd3377579b3d891c",
+      "sourceUrl": "https://www.youtube.com/watch?v=q-R3BqZSocY",
+      "sourceTitle": "Erling Haaland beats Lionel Messi and Cristiano Ronaldo to Champions League record",
+      "sourceChannel": "Al LABO",
+      "matchedEventTerms": [
+        "youngest",
+        "champions",
+        "league",
+        "erling",
+        "haaland",
+        "record"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

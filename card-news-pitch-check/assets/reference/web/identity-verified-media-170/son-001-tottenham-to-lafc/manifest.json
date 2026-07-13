@@ -1,0 +1,101 @@
+{
+  "topicId": "son-001-tottenham-to-lafc",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" tottenham to lafc football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-001-tottenham-to-lafc/card-01.jpg",
+      "sha256": "1ec2d6d63d88b428132cca738ab52353a7a11f95de188280040a42437a8f190a",
+      "sourceUrl": "https://www.youtube.com/watch?v=xr15sv4m3rQ",
+      "sourceTitle": "LAFC reportedly eyeing move for Tottenham star Son Heung-Min | Futbol Americas",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "tottenham",
+        "lafc",
+        "son",
+        "heung",
+        "min",
+        "move"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-001-tottenham-to-lafc/card-02.jpg",
+      "sha256": "53bf5d398c4cf6f62622cafd9435810cf044e5f8af2a55c86f708e1fff8095be",
+      "sourceUrl": "https://www.youtube.com/watch?v=K0vFiA2SBpY",
+      "sourceTitle": "Son Heung-min Signing with LAFC? | Will The Spurs Let Him Go?",
+      "sourceChannel": "MLS Moves ",
+      "matchedEventTerms": [
+        "tottenham",
+        "lafc",
+        "son",
+        "heung",
+        "min",
+        "move"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-001-tottenham-to-lafc/card-03.jpg",
+      "sha256": "c502db63b4668ae7d7acd353a64147349e2d352555862778065ba1c46229267b",
+      "sourceUrl": "https://www.youtube.com/watch?v=VFZZM6rRdrk",
+      "sourceTitle": "Son Heung-min SIGNS WITH LAFC! | Tottenham Legend Heading to MLS",
+      "sourceChannel": "MLS Moves ",
+      "matchedEventTerms": [
+        "tottenham",
+        "lafc",
+        "son",
+        "heung",
+        "min",
+        "move"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-001-tottenham-to-lafc/card-04.jpg",
+      "sha256": "fd3d6af067ff5c3f53ad4cfa03af447bec21cfe14cbfaae4bad12c415075fbbf",
+      "sourceUrl": "https://www.youtube.com/watch?v=R7FLPsKYTVc",
+      "sourceTitle": "Heung-Min Son heading to Los Angeles to complete £15m move from Spurs to LAFC",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "lafc",
+        "son",
+        "heung",
+        "min",
+        "move"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-001-tottenham-to-lafc/card-05.jpg",
+      "sha256": "c3f9eb786c18b09a5449361fa23b1774bb5fd5ebd89e5badc800286859eeb2ec",
+      "sourceUrl": "https://www.youtube.com/watch?v=QKn62QWyjwA",
+      "sourceTitle": "Son Heung-Min is Black & Gold.",
+      "sourceChannel": "LAFC",
+      "matchedEventTerms": [
+        "tottenham",
+        "lafc",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

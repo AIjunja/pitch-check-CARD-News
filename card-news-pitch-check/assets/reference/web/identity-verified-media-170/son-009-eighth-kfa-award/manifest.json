@@ -1,0 +1,96 @@
+{
+  "topicId": "son-009-eighth-kfa-award",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" eighth kfa award football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-009-eighth-kfa-award/card-01.jpg",
+      "sha256": "db643e6f153b55dc12cab501d883419d7d3746daa94ca0d1fc2d20019af52215",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZSJbdfgD_8Y",
+      "sourceTitle": "Son Heung-min, Ji So-yun named as top footballers in annual KFA Awards",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "kfa",
+        "award",
+        "son",
+        "heung",
+        "min",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-009-eighth-kfa-award/card-02.jpg",
+      "sha256": "c3cb1ff8e84bdfdd64ae7cf274976d785eac3e5928c6e676138ae25b2059fd90",
+      "sourceUrl": "https://www.youtube.com/watch?v=aYu8lyVnuas",
+      "sourceTitle": "Son Heung-min wins AFC Best International Player of 2020",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "award",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-009-eighth-kfa-award/card-03.jpg",
+      "sha256": "ee966185a70068db6466388063a3429806ae17de9908950ddae38f2662bf428e",
+      "sourceUrl": "https://www.youtube.com/watch?v=1yjtFZsTzlE",
+      "sourceTitle": "Son Heung-min and Ji So-yun listed as candidates fo the 'London Football Awards 2019'",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "award",
+        "son",
+        "heung",
+        "min",
+        "korean"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-009-eighth-kfa-award/card-04.jpg",
+      "sha256": "6cbcb26bd64645dcf2e809a20e7d6f0c645aa334279719d427c9164549fdbf00",
+      "sourceUrl": "https://www.youtube.com/watch?v=is8YF5vAmHg",
+      "sourceTitle": "손흥민 2021 KFA AWARDS [올해의 선수] | Son Heung Min",
+      "sourceChannel": "흥해라손흥민",
+      "matchedEventTerms": [
+        "kfa",
+        "award",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-009-eighth-kfa-award/card-05.jpg",
+      "sha256": "81dd653f590e840e633c17831070bc18740abdfa2db2c59d0f1f85b7486e4f56",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ua1aUCz853Y",
+      "sourceTitle": "HEUNG MIN SON 손흥민  WINS TOTTENHAM PLAYER OF THE YEAR 2019",
+      "sourceChannel": "WeAreTottenhamTV",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

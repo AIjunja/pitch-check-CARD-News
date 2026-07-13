@@ -1,0 +1,100 @@
+{
+  "topicId": "son-012-europa-league-captain-farewell",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" europa league captain farewell football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-012-europa-league-captain-farewell/card-01.jpg",
+      "sha256": "d8c252cbec10505743909dbc180f7d32022081470c3e49c7b7ea743a299b721d",
+      "sourceUrl": "https://www.youtube.com/watch?v=IX9YWFjOwj0",
+      "sourceTitle": "Son Heung-min's Emotional Farewell: Why He's Leaving Tottenham After 10 Years! 😢⚽",
+      "sourceChannel": "PrimePuls Sport",
+      "matchedEventTerms": [
+        "captain",
+        "farewell",
+        "son",
+        "heung",
+        "min",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-012-europa-league-captain-farewell/card-02.jpg",
+      "sha256": "bcc74678b7d7284ed08380081ea79df38b2b3f73964e6a0c8aca06bcff4dc2cb",
+      "sourceUrl": "https://www.youtube.com/watch?v=zJ2crVUdzmo",
+      "sourceTitle": "Son Heung-Min | Tears and Tributes on Return to Tottenham Hotspur Stadium 🔥🤍 | December 2025",
+      "sourceChannel": "Football Passion",
+      "matchedEventTerms": [
+        "farewell",
+        "son",
+        "heung",
+        "min",
+        "2025",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-012-europa-league-captain-farewell/card-03.jpg",
+      "sha256": "dde1acf0222ca4e636a29305aa44f812f3e72dddb9b0e73917b93329fdbabd3d",
+      "sourceUrl": "https://www.youtube.com/watch?v=f84l4QqsXZk",
+      "sourceTitle": "Tottenham Captain Son Heung Nin to leave club after a decade. ",
+      "sourceChannel": "Football Family Journey ",
+      "matchedEventTerms": [
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-012-europa-league-captain-farewell/card-04.jpg",
+      "sha256": "ba21431ccc7ac1b0e58e54042f4e1ba83333184f0e756c205c2f8dd3ff60fa7a",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xisc-G6wZTA",
+      "sourceTitle": "Spurs captain Heung-Min Son to leave club this summer",
+      "sourceChannel": "Sky Sports News",
+      "matchedEventTerms": [
+        "captain",
+        "son",
+        "heung",
+        "min",
+        "club"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-012-europa-league-captain-farewell/card-05.jpg",
+      "sha256": "53a49df0cab2e0f6912c1665c22c99879d193124625370d2b0d25041f81147b0",
+      "sourceUrl": "https://www.youtube.com/watch?v=zOLMLqmrWAg",
+      "sourceTitle": "Departing Tottenham Hotspur captain Son Heung-min says farewell in front of fans in Seoul",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "captain",
+        "farewell",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,86 @@
+{
+  "topicId": "real-021-nani-one-bedroom",
+  "player": "Nani",
+  "query": "\"Nani\" nani one bedroom football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-021-nani-one-bedroom/card-01.jpg",
+      "sha256": "6ae5c04149b495a9040089fc429c361a73f802dc8d51f7b01cc6c07c5c0b2e10",
+      "sourceUrl": "https://www.youtube.com/watch?v=8QCZVYTqIFc",
+      "sourceTitle": "Nani Exclusive! My Time At United | Famous Sir Alex Ferguson Hairdryer | Dressing Room With Ronaldo.",
+      "sourceChannel": "Rio Ferdinand Presents",
+      "matchedEventTerms": [
+        "nani",
+        "present",
+        "day"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-021-nani-one-bedroom/card-02.jpg",
+      "sha256": "329ecceacb3f2f364f7855984f6a31b9f5bc7b65957fa6ea5ef090ddf460b6b2",
+      "sourceUrl": "https://www.youtube.com/watch?v=7vVT0pe2Dsg",
+      "sourceTitle": "Nani goal | Manchester United vs FC Barcelona | July 30th 2011| FedEx Field, Maryland",
+      "sourceChannel": "Taimur Masood",
+      "matchedEventTerms": [
+        "nani",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-021-nani-one-bedroom/card-03.jpg",
+      "sha256": "eeaa165a477939324641cfc0d28f40540fb17420f36fc7a13eaedd7353e5da29",
+      "sourceUrl": "https://www.youtube.com/watch?v=AqD3OZHzQQU",
+      "sourceTitle": "PRESS ROOM | NANI | VALENCIA CF - FC BARCELONA",
+      "sourceChannel": "Valencia CF",
+      "matchedEventTerms": [
+        "nani",
+        "day"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-021-nani-one-bedroom/card-04.jpg",
+      "sha256": "09142027a6a1fb3eca6f18ef8a12ed4c48015e605f569cb4442de1e5db291200",
+      "sourceUrl": "https://www.youtube.com/watch?v=V2QLyNAxYyc",
+      "sourceTitle": "JOAO FELIX VS ROONEY VS NANI | MLS ALL STAR SKILLS CHALLENGE ⚽🎯🔥",
+      "sourceChannel": "Pro Football Academy – The Next Gen of Ballers!",
+      "matchedEventTerms": [
+        "nani",
+        "one",
+        "pro"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-021-nani-one-bedroom/card-05.jpg",
+      "sha256": "c2fc821da2c0cd8646950abb83cb85a723a368e1f7cd24d85632f7c25c350d51",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3WaozveDx4",
+      "sourceTitle": "NANI BREAKS ANKLES IN SUNDAY LEAGUE (EPIC)",
+      "sourceChannel": "Shoot for Love",
+      "matchedEventTerms": [
+        "nani",
+        "day",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

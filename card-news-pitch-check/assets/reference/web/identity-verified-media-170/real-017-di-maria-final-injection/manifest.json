@@ -1,0 +1,102 @@
+{
+  "topicId": "real-017-di-maria-final-injection",
+  "player": "Angel Di Maria",
+  "query": "\"Angel Di Maria\" di maria final injection football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-017-di-maria-final-injection/card-01.jpg",
+      "sha256": "aa6dccdcc35d4f00c4d5f9e7c5cdbd1c66c7b03019cd754f31760d75b3033da8",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZOkbBFLWcX4",
+      "sourceTitle": "Angel Di Maria Reveals Real Madrid's Cruelty Before 2014 World Cup Final",
+      "sourceChannel": "KristineBishop",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "final",
+        "angel",
+        "world",
+        "cup",
+        "2014"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-017-di-maria-final-injection/card-02.jpg",
+      "sha256": "94836625a86790404a1d8b33a4937c7993777dc5da98784a5c9cfdbc71e66d6e",
+      "sourceUrl": "https://www.youtube.com/watch?v=QBvgF0rd32A",
+      "sourceTitle": "Angel Di Maria goal vs France | ALL THE ANGLES | 2018 FIFA World Cup",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-017-di-maria-final-injection/card-03.jpg",
+      "sha256": "4fb241c3dd2e5841ba6e5a901a6d81c1778812f049a43e6681d5336009065f91",
+      "sourceUrl": "https://www.youtube.com/watch?v=5r_vK4NRV-I",
+      "sourceTitle": "Angel DI MARIA goal vs France | 2018 FIFA World Cup | Hyundai Goal of the Tournament Nominee",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "angel",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-017-di-maria-final-injection/card-04.jpg",
+      "sha256": "bd6ca66c7c1836a513f44fe7ec4fb15ed2324b22b40885743502e3ff0aa8844c",
+      "sourceUrl": "https://www.youtube.com/watch?v=2Epe3pBOJM0",
+      "sourceTitle": "Argentina 2 nil | Angel Di Maria scores a brilliant goal #WorldCupFinal #WorldCup2022",
+      "sourceChannel": "ARV Loshan Sports ",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "final",
+        "angel",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-017-di-maria-final-injection/card-05.jpg",
+      "sha256": "1e8b0badc33f72998cde8f1bd875ab449c20eae111fe74436dbcf2817157c754",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dp8yky1giuI",
+      "sourceTitle": "Angel Di Maria Steps Up On The World Cup Final vs France...",
+      "sourceChannel": "VsCompsHD",
+      "matchedEventTerms": [
+        "di",
+        "maria",
+        "final",
+        "angel",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

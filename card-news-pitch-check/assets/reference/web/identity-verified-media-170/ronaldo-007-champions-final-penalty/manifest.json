@@ -1,0 +1,99 @@
+{
+  "topicId": "ronaldo-007-champions-final-penalty",
+  "player": "Cristiano Ronaldo",
+  "query": "\"Cristiano Ronaldo\" champions final penalty football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-007-champions-final-penalty/card-01.jpg",
+      "sha256": "3f9537aa91e3805cd9b79ed185cabdce650044cc9b56125ba34b0464e4e322a1",
+      "sourceUrl": "https://www.youtube.com/watch?v=ATrK3WMnc-o",
+      "sourceTitle": "Cristiano Ronaldo & Sir Alex Ferguson celebrate Manchester United's 2008 Champions League success ❤️",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "cristiano",
+        "ronaldo",
+        "2008",
+        "league",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-007-champions-final-penalty/card-02.jpg",
+      "sha256": "831818d74c4164271c1f4c530187c6ec730fe5f8349753beb15beb123c755d56",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nt8198a0acA",
+      "sourceTitle": "CRISTIANO RONALDO OVERHEAD KICK FROM ALL ANGLES! ",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "cristiano",
+        "ronaldo",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-007-champions-final-penalty/card-03.jpg",
+      "sha256": "3889628edcab8bfad8ec77da657f76f8e98d23aedecba6180f75239d9896330c",
+      "sourceUrl": "https://www.youtube.com/watch?v=sEx41gCjSfE",
+      "sourceTitle": "Ronaldo’s winning penalty, Liverpool’s comeback and more: Classic final moments",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "final",
+        "penalty",
+        "ronaldo",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-007-champions-final-penalty/card-04.jpg",
+      "sha256": "c4fda568b7f85c09f2f9a3dfacbbe0891473f9619e835ba049ad43e397952a18",
+      "sourceUrl": "https://www.youtube.com/watch?v=gXXasZIaz_U",
+      "sourceTitle": "Cristiano Ronaldo: 5 great free-kicks",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "cristiano",
+        "ronaldo",
+        "league",
+        "manchester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/ronaldo-007-champions-final-penalty/card-05.jpg",
+      "sha256": "a13955a3d9e72f37c95479f336a2bdd697022ce30d461eb634af1fcc6f168fdb",
+      "sourceUrl": "https://www.youtube.com/watch?v=UK5cu3LJ9qk",
+      "sourceTitle": "EVERY Cristiano Ronaldo Champions League Goal",
+      "sourceChannel": "UEFA",
+      "matchedEventTerms": [
+        "champions",
+        "cristiano",
+        "ronaldo",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,102 @@
+{
+  "topicId": "aitana-002-uwcl-final-player-of-match",
+  "player": "Aitana Bonmati",
+  "query": "\"Aitana Bonmati\" uwcl final player of match football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-002-uwcl-final-player-of-match/card-01.jpg",
+      "sha256": "dc5fa2c391ad75b8b071808f85f15857ba8c2a116102a99e737524a9bbbe4c90",
+      "sourceUrl": "https://www.youtube.com/watch?v=cj0oY-UtIPE",
+      "sourceTitle": "BRILLIANT Arsenal DESERVE to be in Champions League final | Barcelona star Aitana Bonmati",
+      "sourceChannel": "HaytersTV",
+      "matchedEventTerms": [
+        "final",
+        "aitana",
+        "bonmati",
+        "25",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-002-uwcl-final-player-of-match/card-02.jpg",
+      "sha256": "9fddb9becaddcbda15e6131cb927afb7f625418575f851e5a1975e462a7864aa",
+      "sourceUrl": "https://www.youtube.com/watch?v=V2AYyDaSRD0",
+      "sourceTitle": "AITANA BONMATI | PLAYER OF THE MATCH | Chelsea Women vs Barcelona Femeni | UWCL Final 2021",
+      "sourceChannel": "femfootball",
+      "matchedEventTerms": [
+        "uwcl",
+        "final",
+        "aitana",
+        "bonmati",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-002-uwcl-final-player-of-match/card-03.jpg",
+      "sha256": "d5f84afea5d14cfabd081067d1c579bc462e998db1f0f031ee1d78b2dd511ae6",
+      "sourceUrl": "https://www.youtube.com/watch?v=7-YGZs9owKs",
+      "sourceTitle": "'That's an eternal gift' -Barcelona player Bonmati on Women's Champions League win | Barca | 巴萨 女足欧冠",
+      "sourceChannel": "CGTN Sports Scene",
+      "matchedEventTerms": [
+        "uwcl",
+        "final",
+        "aitana",
+        "bonmati",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-002-uwcl-final-player-of-match/card-04.jpg",
+      "sha256": "8c0a957a78e0d094c73b392b0d9c13ee56540647e56fe7f987e3358b010bd44a",
+      "sourceUrl": "https://www.youtube.com/watch?v=G_lolFKESZk",
+      "sourceTitle": "Aitana Bonmati vs. Olympique Lyonnais | UEFA Women’s Champions League Final 2024",
+      "sourceChannel": "Isma Culé",
+      "matchedEventTerms": [
+        "final",
+        "aitana",
+        "bonmati",
+        "2024",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/aitana-002-uwcl-final-player-of-match/card-05.jpg",
+      "sha256": "d111c21a34f03d9f761700914353255bfa067f8c7dafda7d14a964fd85982680",
+      "sourceUrl": "https://www.youtube.com/watch?v=2Ln0FztG89k",
+      "sourceTitle": "Aitana Bonmati, The Best Women's Player 2023 | Barcelona vs Benfica | UWCL 23/24 | FC 24 | PS5",
+      "sourceChannel": "MrKian Football",
+      "matchedEventTerms": [
+        "uwcl",
+        "aitana",
+        "bonmati",
+        "champions",
+        "league"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

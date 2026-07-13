@@ -1,0 +1,88 @@
+{
+  "topicId": "marta-002-brazil-200th-appearance",
+  "player": "Marta",
+  "query": "\"Marta\" brazil 200th appearance football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/marta-002-brazil-200th-appearance/card-01.jpg",
+      "sha256": "09806eec49613f8cf251807e20bcec2f0ffbd0ecec2f07cfcd8aed120f63c3b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=LGruNFp58aE",
+      "sourceTitle": "Marta: Brazil women need a title",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "brazil",
+        "marta",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/marta-002-brazil-200th-appearance/card-02.jpg",
+      "sha256": "c4dfc0fdaf49e826c416b7c29c1ffe37d944c1f166870dca17747fe7c333b847",
+      "sourceUrl": "https://www.youtube.com/watch?v=BkBueRjIWQI",
+      "sourceTitle": "Brazil’s Marta selected for her sixth (and likely last) World Cup | Al Jazeera Newsfeed",
+      "sourceChannel": "Al Jazeera English",
+      "matchedEventTerms": [
+        "brazil",
+        "appearance",
+        "marta",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/marta-002-brazil-200th-appearance/card-03.jpg",
+      "sha256": "ca957b97d28dcda1f38752bf9d86b13a0744694ffe1873eae1ca4164bc3e099e",
+      "sourceUrl": "https://www.youtube.com/watch?v=253r6FlLedk",
+      "sourceTitle": "🇧🇷 Marta | FIFA Women's World Cup Goals",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "brazil",
+        "marta"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/marta-002-brazil-200th-appearance/card-04.jpg",
+      "sha256": "5faa72e03b750cde95d46f5dae144a55d9f4ec58904605c698199ca4b9941dc4",
+      "sourceUrl": "https://www.youtube.com/watch?v=53HGOXojbak",
+      "sourceTitle": "Marta returns to the pitch to in epic fashion for Brazil | SheBelieves Cup Recap Japan vs Brazil",
+      "sourceChannel": "CBS Sports W Golazo",
+      "matchedEventTerms": [
+        "brazil",
+        "marta",
+        "japan"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/marta-002-brazil-200th-appearance/card-05.jpg",
+      "sha256": "d3a9193fc9a4e01d8db2ca0abd9a6362d2ee739a8561e95e556e1b1bac8bd0ea",
+      "sourceUrl": "https://www.youtube.com/watch?v=YU_hLeHeuI8",
+      "sourceTitle": "Brazil great Marta to retire from international football at end of year",
+      "sourceChannel": "ABS-CBN News",
+      "matchedEventTerms": [
+        "brazil",
+        "marta",
+        "international"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

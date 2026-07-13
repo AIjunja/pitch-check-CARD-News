@@ -1,0 +1,95 @@
+{
+  "topicId": "haaland-010-fastest-forty-champions-league-goals",
+  "player": "Erling Haaland",
+  "query": "\"Erling Haaland\" fastest forty champions league goals football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-010-fastest-forty-champions-league-goals/card-01.jpg",
+      "sha256": "b72b1405a9cfecccdc979d808f64fef83142bb6ad538212c3d21765f9344d089",
+      "sourceUrl": "https://www.youtube.com/watch?v=IIO-47RkA_4",
+      "sourceTitle": "Haaland Smashes Record: Fastest to Fifty Goals in Champions League!",
+      "sourceChannel": "football ENG News",
+      "matchedEventTerms": [
+        "fastest",
+        "champions",
+        "league",
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-010-fastest-forty-champions-league-goals/card-02.jpg",
+      "sha256": "3a3d1e595b2825c4930220ee6283465d5b6c9c453441e03c1945dba71726f838",
+      "sourceUrl": "https://www.youtube.com/watch?v=HdXoe-jxWn0",
+      "sourceTitle": "erling haaland Incredible world record  sprint against PSG",
+      "sourceChannel": "Rakshith BS",
+      "matchedEventTerms": [
+        "fastest",
+        "erling",
+        "haaland",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-010-fastest-forty-champions-league-goals/card-03.jpg",
+      "sha256": "dfe1dc5b9ede9daa6a47349327aef620451f9084cf167340c7ce19b27eb1fa89",
+      "sourceUrl": "https://www.youtube.com/watch?v=7sYtsmpKZts",
+      "sourceTitle": "Erling Haaland BREAKS Premier League Record – The Fastest to 100 Goal Involvements!",
+      "sourceChannel": "Global Eyes",
+      "matchedEventTerms": [
+        "fastest",
+        "league",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-010-fastest-forty-champions-league-goals/card-04.jpg",
+      "sha256": "3ba0ce3aeeb61b2e73eca14a4dd1f275d0d41665faf65740ff15a54aaec08dd9",
+      "sourceUrl": "https://www.youtube.com/watch?v=AFIdzinCZso",
+      "sourceTitle": "Haaland becomes the fastest player to score 40 champions league goals (35 games",
+      "sourceChannel": "Klassy Sports ",
+      "matchedEventTerms": [
+        "fastest",
+        "champions",
+        "league",
+        "goals",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/haaland-010-fastest-forty-champions-league-goals/card-05.jpg",
+      "sha256": "81a85554dc1ac666c6e567758a476b00667f0e3157d118d94adac94837514726",
+      "sourceUrl": "https://www.youtube.com/watch?v=FIpN4ELVhoI",
+      "sourceTitle": "That time Erling Haaland scored NINE GOALS in ONE MATCH | #U20WC",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "goals",
+        "erling",
+        "haaland"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

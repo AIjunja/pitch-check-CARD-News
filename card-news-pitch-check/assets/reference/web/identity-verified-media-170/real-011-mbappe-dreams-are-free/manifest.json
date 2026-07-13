@@ -1,0 +1,91 @@
+{
+  "topicId": "real-011-mbappe-dreams-are-free",
+  "player": "Kylian Mbappe",
+  "query": "\"Kylian Mbappe\" mbappe dreams are free football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-011-mbappe-dreams-are-free/card-01.jpg",
+      "sha256": "59ba9730bb31aaa2765506981fd48fdc5db3a92aa74f1b3bdb05f9cb8dbda0bf",
+      "sourceUrl": "https://www.youtube.com/watch?v=-yOssMEiDYc",
+      "sourceTitle": "🤑Kylian Mbappe turns down Real Madrid!🤑 He stays at PSG!",
+      "sourceChannel": "442oons",
+      "matchedEventTerms": [
+        "mbappe",
+        "free",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-011-mbappe-dreams-are-free/card-02.jpg",
+      "sha256": "7bcb05ef5d411106cf2c4d80173069d384a68bda6d5e6099229f2dc93bfcfceb",
+      "sourceUrl": "https://www.youtube.com/watch?v=PInfInmTuRs",
+      "sourceTitle": "Kylian Mbappe PSG 4K 🤩 / RARE CLIPS ● FREE CLIPS ● SCENEPACK 4K ( TOPAZ Video AI 7™ )",
+      "sourceChannel": "FutVision 4K",
+      "matchedEventTerms": [
+        "mbappe",
+        "free",
+        "kylian"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-011-mbappe-dreams-are-free/card-03.jpg",
+      "sha256": "47b5a5cae66676276732df01231bac25cc86a6b6e2cb63b6ff5598db2ec02abe",
+      "sourceUrl": "https://www.youtube.com/watch?v=W5_qRrudFJY",
+      "sourceTitle": "Mbappe kissing World Cup free clip (4k)",
+      "sourceChannel": "𝐑𝐉𝐒𝐄𝐝𝐢𝐭𝐳",
+      "matchedEventTerms": [
+        "mbappe",
+        "free",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-011-mbappe-dreams-are-free/card-04.jpg",
+      "sha256": "0f9dd004411cdaa2bfaef0eada709bfb21dfb0b63f569f46e4a8dd937f0dc2cc",
+      "sourceUrl": "https://www.youtube.com/watch?v=9duBT9gT9Rs",
+      "sourceTitle": "19 Year Old Mbappe Destroyed Messi's Argentina in 2018 World Cup",
+      "sourceChannel": "GugaKaka22",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-011-mbappe-dreams-are-free/card-05.jpg",
+      "sha256": "76272ab3b95e4eec823e017b80baa3eb1b56ab5eb5db2f828fec4e9c1dfb620e",
+      "sourceUrl": "https://www.youtube.com/watch?v=MkpNIGh-Dzo",
+      "sourceTitle": "Kylian MBAPPE's REACTION When His Brother Ethan Mbappe had debut with him",
+      "sourceChannel": "Arena90",
+      "matchedEventTerms": [
+        "mbappe",
+        "kylian",
+        "action",
+        "reaction"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

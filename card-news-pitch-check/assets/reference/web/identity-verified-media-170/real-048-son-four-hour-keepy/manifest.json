@@ -1,0 +1,93 @@
+{
+  "topicId": "real-048-son-four-hour-keepy",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" son four hour keepy football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-048-son-four-hour-keepy/card-01.jpg",
+      "sha256": "2ea9c76e2297240af4696d69bba63216b9665da7cea275c2f51a1ab936e51d40",
+      "sourceUrl": "https://www.youtube.com/watch?v=5DJLi6ay-vM",
+      "sourceTitle": "\"Heung Min Son Is The Best All Round Winger In The Premier League\" Instagram Unpopular Opinions Ep3",
+      "sourceChannel": "WeAreTottenhamTV",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-048-son-four-hour-keepy/card-02.jpg",
+      "sha256": "8e545d8418bdc063ac731bfb8a0058b3785ff17f5ca768c556116da8cb2f50ea",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ld14SHso_Ck",
+      "sourceTitle": "Heung-Min Son reflects on pre-season win after he grabs ANOTHER goal!",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-048-son-four-hour-keepy/card-03.jpg",
+      "sha256": "40dc35e78d10fbd0fd1c624bcdea917a946eeb76125e1c7293748be8bcd9b2ad",
+      "sourceUrl": "https://www.youtube.com/watch?v=wwSFAva-otM",
+      "sourceTitle": "INTERVIEW | Spurs 2-0 West Brom | Son reacts to West Brom win",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-048-son-four-hour-keepy/card-04.jpg",
+      "sha256": "a5ad9fe56e9b03cff3a8671d584c34fa82fe5c0c22afdfdb11e0f6b4fb5f411e",
+      "sourceUrl": "https://www.youtube.com/watch?v=shkGWuni26w",
+      "sourceTitle": "11 of Son Heung-min's Best Moments in the Premier League",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-048-son-four-hour-keepy/card-05.jpg",
+      "sha256": "3b4d584879c1da06745e2b92aca0e2fd61ef085e605f621a9efd535659fb64ff",
+      "sourceUrl": "https://www.youtube.com/watch?v=XDbN1CDGFks",
+      "sourceTitle": "HEUNG-MIN SON | BEST GOALS FOR SPURS",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "tottenham"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

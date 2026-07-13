@@ -1,0 +1,93 @@
+{
+  "topicId": "real-049-son-start-over",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" son start over football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-049-son-start-over/card-01.jpg",
+      "sha256": "7e8cbbe51599a1009cd9447c9c04bfd00c6aa987ea4b8205e8c6505b22564587",
+      "sourceUrl": "https://www.youtube.com/watch?v=2OpYi7DSN2A",
+      "sourceTitle": "“That’s enough internet for today” Heung-Min Son replies to YOUR comments | ADMIN SON",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "over",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-049-son-start-over/card-02.jpg",
+      "sha256": "ecf41a6782e1d5c7b579bb301eaccfa190e308faa869bbcd8858e724c98e1d1d",
+      "sourceUrl": "https://www.youtube.com/watch?v=8cOQ3tYrI1s",
+      "sourceTitle": "How a Poor Korean Kid Became a Premier League Legend",
+      "sourceChannel": "Footy Frontier",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-049-son-start-over/card-03.jpg",
+      "sha256": "9b12dccfb5cbd728c02abaeba31cf62e9a6fc6e671774353be6bc2bfe139acb7",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZhYMxLioZU4",
+      "sourceTitle": "Heung-Min Son - Golden Boot winner! | EVERY 2021/22 Sonny Premier League goal! 🇰🇷 손흥민",
+      "sourceChannel": "Tottenham Hotspur",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-049-son-start-over/card-04.jpg",
+      "sha256": "4426a81b6de4b22e1d72e1d5ce215beff00f9dbf540956547af3c19f8fee6fc2",
+      "sourceUrl": "https://www.youtube.com/watch?v=XzsiOnLkb8k",
+      "sourceTitle": "Son Heung-min and Park Ji-sung: The impact of South Koreans in the Premier League",
+      "sourceChannel": "Premier League",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "korea"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-049-son-start-over/card-05.jpg",
+      "sha256": "42fe4ad5e2e7d9aac283b46ced81c7cacab2c2b997ed41570ceaaf9e5c1eb763",
+      "sourceUrl": "https://www.youtube.com/watch?v=tY3AVPBQ5mU",
+      "sourceTitle": "Son Heung-min's goal for Tottenham later changed to own goal, but his team win 3-0 against Leicester",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "son",
+        "heung",
+        "min",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

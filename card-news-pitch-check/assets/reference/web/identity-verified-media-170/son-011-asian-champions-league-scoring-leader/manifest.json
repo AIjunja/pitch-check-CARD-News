@@ -1,0 +1,101 @@
+{
+  "topicId": "son-011-asian-champions-league-scoring-leader",
+  "player": "Son Heung-min",
+  "query": "\"Son Heung-min\" asian champions league scoring leader football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/son-011-asian-champions-league-scoring-leader/card-01.jpg",
+      "sha256": "402ad24358662287b6e06ef9bb3fe5d012fce2f5f616517859f4479d42f2471a",
+      "sourceUrl": "https://www.youtube.com/watch?v=x1ypSrr-YHo",
+      "sourceTitle": "[EPL] All Asian Players Who Have Scored in the Premier League ⚽ Ranking by Goals",
+      "sourceChannel": "10X STATS",
+      "matchedEventTerms": [
+        "asian",
+        "league",
+        "son",
+        "heung",
+        "min",
+        "asia"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/son-011-asian-champions-league-scoring-leader/card-02.jpg",
+      "sha256": "da5a0e3826408ddaf8f106df2463f638652ab811e056a912d5f1db47599b4fba",
+      "sourceUrl": "https://www.youtube.com/watch?v=eN7bG_Qp8zM",
+      "sourceTitle": "Heung Min Son: The Incredible Story Of A Young Prodigy",
+      "sourceChannel": "FOOTBALLER ZONE ",
+      "matchedEventTerms": [
+        "asian",
+        "son",
+        "heung",
+        "min",
+        "korea",
+        "asia",
+        "ball"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/son-011-asian-champions-league-scoring-leader/card-03.jpg",
+      "sha256": "d354af63e44a55d61e8d1844b156075399732b86069bf573fe15beb94301e362",
+      "sourceUrl": "https://www.youtube.com/watch?v=W_aubv7YvFw",
+      "sourceTitle": "Football: ESPN FC lists Son Heung-min as top Asian player of 2013",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "asian",
+        "son",
+        "heung",
+        "min",
+        "asia"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/son-011-asian-champions-league-scoring-leader/card-04.jpg",
+      "sha256": "f3b3553dbabc06816b71cbe16b1b49883c5801084b5657bf008fe8416c19b4c5",
+      "sourceUrl": "https://www.youtube.com/watch?v=7hER2pAK1Rg",
+      "sourceTitle": "Tottenham's Son Heung-min scores his first goal of season in UEFA Champions League",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/son-011-asian-champions-league-scoring-leader/card-05.jpg",
+      "sha256": "13428905d8e414e48cfcbfc6da29e5e5b4a5c3831382af4097616f838208b5a8",
+      "sourceUrl": "https://www.youtube.com/watch?v=hLptwjLrP9U",
+      "sourceTitle": "Tottenham's Son Heung-min scores his first goal of season in UEFA Champions League",
+      "sourceChannel": "Arirang News",
+      "matchedEventTerms": [
+        "champions",
+        "league",
+        "son",
+        "heung",
+        "min"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

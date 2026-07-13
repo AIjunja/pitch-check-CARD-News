@@ -1,0 +1,98 @@
+{
+  "topicId": "kim-002-napoli-serie-a-2023",
+  "player": "Kim Min-jae",
+  "query": "\"Kim Min-jae\" napoli serie a 2023 football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/kim-002-napoli-serie-a-2023/card-01.jpg",
+      "sha256": "a2011d879d9fb411631e9073838bdb48974f14bbab6945f6ea2cd51ef50556e6",
+      "sourceUrl": "https://www.youtube.com/watch?v=OhhJGWsTp7c",
+      "sourceTitle": "Kim Min-jae 김민재  2023 ; Welcome to Manchester United?  The Korean Sensation Defending  Backline  HD",
+      "sourceChannel": "Laza FootBall",
+      "matchedEventTerms": [
+        "napoli",
+        "2023",
+        "kim",
+        "min",
+        "jae"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/kim-002-napoli-serie-a-2023/card-02.jpg",
+      "sha256": "e13acd362ccd99277034901f040f7f1dbfd635cc5f1e16eb7aacdb312a91563b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xvh31TxB4iY",
+      "sourceTitle": "KIM Min-jae 김민재 - The Best Defender in Serie A | Unbelievable Skills and Goals | 2023 HD",
+      "sourceChannel": "Football on Air",
+      "matchedEventTerms": [
+        "napoli",
+        "serie",
+        "2023",
+        "kim",
+        "min",
+        "jae"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/kim-002-napoli-serie-a-2023/card-03.jpg",
+      "sha256": "ca3ae645447876fdc00b57e8698ab03076e07f487ec60f6a088fdc7f9a4dd7be",
+      "sourceUrl": "https://www.youtube.com/watch?v=-owsXvT8fjM",
+      "sourceTitle": "[Local Broadcast with Korean Subtitles] Two legendary Italian defenders talk about Kim Min-jae; N...",
+      "sourceChannel": "Napoli-calcio ",
+      "matchedEventTerms": [
+        "napoli",
+        "kim",
+        "min",
+        "jae",
+        "title",
+        "team"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/kim-002-napoli-serie-a-2023/card-04.jpg",
+      "sha256": "9e854a4c8fdf6efb03d9e99159335568f69b967f6d37e2b970952e4f759c6b5c",
+      "sourceUrl": "https://www.youtube.com/watch?v=vDDXB-7o528",
+      "sourceTitle": "KIM MIN JAE | WELCOME TO BAYERN MÜNICH Season Highlights",
+      "sourceChannel": "Tricky Footy",
+      "matchedEventTerms": [
+        "napoli",
+        "kim",
+        "min",
+        "jae"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/kim-002-napoli-serie-a-2023/card-05.jpg",
+      "sha256": "55910a9f22b1fced74afed8d8c63f5d2773739abdb6bad003ae3671d82b066ca",
+      "sourceUrl": "https://www.youtube.com/watch?v=pRmuPDoaqX4",
+      "sourceTitle": "Kim Min Jae 2023 - Welcome to Man United - Magic Skills and Goals",
+      "sourceChannel": "Total Football ",
+      "matchedEventTerms": [
+        "2023",
+        "kim",
+        "min",
+        "jae"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

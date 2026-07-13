@@ -1,0 +1,101 @@
+{
+  "topicId": "sam-002-four-goals-jamaica",
+  "player": "Sam Kerr",
+  "query": "\"Sam Kerr\" four goals jamaica football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/sam-002-four-goals-jamaica/card-01.jpg",
+      "sha256": "a16e9f4abfeac44a5a05f7b95dee0cf0e77898ed5a524592dc88e4341932245e",
+      "sourceUrl": "https://www.youtube.com/watch?v=R1ilTkgPnzg",
+      "sourceTitle": "Jamaica v Australia | FIFA Women’s World Cup France 2019 | Match Highlights",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "four",
+        "jamaica",
+        "sam",
+        "kerr",
+        "2019",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/sam-002-four-goals-jamaica/card-02.jpg",
+      "sha256": "c1692556c4811a05e63f006d6f16c597ad24ebee08f41fe94d71d4c17a01458e",
+      "sourceUrl": "https://www.youtube.com/watch?v=m8f0Ktc0AJU",
+      "sourceTitle": "Sam Kerr – Player of the Match – Jamaica v Australia",
+      "sourceChannel": "FIFA",
+      "matchedEventTerms": [
+        "four",
+        "goals",
+        "jamaica",
+        "sam",
+        "kerr"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/sam-002-four-goals-jamaica/card-03.jpg",
+      "sha256": "c94d11f50055ec2070d141f1274bd4265183bec29587152b3713cf173312c563",
+      "sourceUrl": "https://www.youtube.com/watch?v=a2MnHJtomsg",
+      "sourceTitle": "\"Suck on that one!\" - Sam Kerr's message for the critics - 2019 FIFA Women’s World Cup",
+      "sourceChannel": "SBS Sport ",
+      "matchedEventTerms": [
+        "sam",
+        "kerr",
+        "2019",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/sam-002-four-goals-jamaica/card-04.jpg",
+      "sha256": "2196b08a8df46261026053faba233addfc9260d4be6cc44312e3bccee83e09b8",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyLk53IrI-w",
+      "sourceTitle": "Sam Kerr: Fifa 2019 WorldCup Feature",
+      "sourceChannel": "Jeremy Schumann",
+      "matchedEventTerms": [
+        "sam",
+        "kerr",
+        "2019",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/sam-002-four-goals-jamaica/card-05.jpg",
+      "sha256": "f78bc7aeabf92624e613fe77dc399f11491ee56c3f8869ad0c60e03120f00c39",
+      "sourceUrl": "https://www.youtube.com/watch?v=vy9HP1QyTOQ",
+      "sourceTitle": "Sam Kerr Skills & Goals World Cup Australia x Jamaica",
+      "sourceChannel": "Eidson YT",
+      "matchedEventTerms": [
+        "goals",
+        "jamaica",
+        "sam",
+        "kerr",
+        "world",
+        "cup"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

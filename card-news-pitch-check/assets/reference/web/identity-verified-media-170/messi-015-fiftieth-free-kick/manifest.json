@@ -1,0 +1,94 @@
+{
+  "topicId": "messi-015-fiftieth-free-kick",
+  "player": "Lionel Messi",
+  "query": "\"Lionel Messi\" fiftieth free kick football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/messi-015-fiftieth-free-kick/card-01.jpg",
+      "sha256": "7dc51619815e2562b0a0e7f79852937f639ed463f0b52f0f689fed0dfd4078cd",
+      "sourceUrl": "https://www.youtube.com/watch?v=9mlybuNYGtE",
+      "sourceTitle": "Lionel Messi's free-kick vs Liverpool with the Spanish commentary!",
+      "sourceChannel": "TNT Sports Football",
+      "matchedEventTerms": [
+        "free",
+        "kick",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/messi-015-fiftieth-free-kick/card-02.jpg",
+      "sha256": "0ec0f0e0aa84e3cf12f02bf8f07d0043f8b114efe925bfb159c85a4ffe652011",
+      "sourceUrl": "https://www.youtube.com/watch?v=pORjd5ZkTrs",
+      "sourceTitle": "LIONEL MESSI SCORES GAME-WINNING FREE KICK IN INTER MIAMI DEBUT 🔥🔥",
+      "sourceChannel": "ESPN FC",
+      "matchedEventTerms": [
+        "free",
+        "kick",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/messi-015-fiftieth-free-kick/card-03.jpg",
+      "sha256": "da6e4463d867770e337790b6a73e3db37286ab898eab876e027f6869bc5a7d11",
+      "sourceUrl": "https://www.youtube.com/watch?v=5_e6p9bDgWc",
+      "sourceTitle": "Lionel Messi | All 50 Free Kick Goals for Barcelona | #lionelmessi #lm10 #barcelona",
+      "sourceChannel": "S2AR Creation",
+      "matchedEventTerms": [
+        "free",
+        "kick",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/messi-015-fiftieth-free-kick/card-04.jpg",
+      "sha256": "889ad03ad8e3c1103c8d6f7f8dc0d5fd3479cf3c6a3aabdcf5e6e7eed68c10b6",
+      "sourceUrl": "https://www.youtube.com/watch?v=gR4KPLjOhR4",
+      "sourceTitle": "Lionel Messi MISS Free Kick | Fifa World Cup 2026 | Argentina vs Egypt Highlights 2026",
+      "sourceChannel": "Cric7 Cool",
+      "matchedEventTerms": [
+        "free",
+        "kick",
+        "lionel",
+        "messi"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/messi-015-fiftieth-free-kick/card-05.jpg",
+      "sha256": "ce371f76d93faae3edcab1a501e6d03114a5ba41c563c49efccce6a98f5998ae",
+      "sourceUrl": "https://www.youtube.com/watch?v=5PgACn6QsS0",
+      "sourceTitle": "Lionel Messi 50th Freekick",
+      "sourceChannel": "ODEH",
+      "matchedEventTerms": [
+        "free",
+        "kick",
+        "lionel",
+        "messi",
+        "50th"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}

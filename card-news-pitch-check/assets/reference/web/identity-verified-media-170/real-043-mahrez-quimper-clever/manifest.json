@@ -1,0 +1,91 @@
+{
+  "topicId": "real-043-mahrez-quimper-clever",
+  "player": "Riyad Mahrez",
+  "query": "\"Riyad Mahrez\" mahrez quimper clever football",
+  "slots": [
+    {
+      "card": 1,
+      "path": "assets/reference/web/identity-verified-media-170/real-043-mahrez-quimper-clever/card-01.jpg",
+      "sha256": "1a242c0a3ae8cc8fe1958edce7071bc59d0ab0def256cfcf268547a5bb56db06",
+      "sourceUrl": "https://www.youtube.com/watch?v=38f3wJGrOZE",
+      "sourceTitle": "Riyad Mahrez ● Crazy Dribbling Skills/Assists & Goals ●  Leicester City",
+      "sourceChannel": "MaestrocompsNS",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "skill",
+        "dribbling",
+        "leicester"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 2,
+      "path": "assets/reference/web/identity-verified-media-170/real-043-mahrez-quimper-clever/card-02.jpg",
+      "sha256": "477932c0a3f14fdf489e9525820e67654cca6c297926e01eb4f420c3dc61fdd5",
+      "sourceUrl": "https://www.youtube.com/watch?v=DmlFlGRW7UE",
+      "sourceTitle": "Riyad Mahrez ● Amazing skills 2004-2020  ●  HIS JOURNEY TIMELINE | Never Give up your dreams! HD",
+      "sourceChannel": "Youss FC",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "skill",
+        "up"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 3,
+      "path": "assets/reference/web/identity-verified-media-170/real-043-mahrez-quimper-clever/card-03.jpg",
+      "sha256": "475f1ef5111f4bb40f14a12cde391124dc3f88c49ef0a64cc2a6ed4e960a0e05",
+      "sourceUrl": "https://www.youtube.com/watch?v=hmnari6BmhA",
+      "sourceTitle": "THE RIYAD MAHREZ STORY | CITY STUDIOS DOCUMENTARY | COMING SOON!",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "documentary"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 4,
+      "path": "assets/reference/web/identity-verified-media-170/real-043-mahrez-quimper-clever/card-04.jpg",
+      "sha256": "df8899eeb9f483a5e60cd8f07196211c63becc976f0fb1fe4085de4c40504ff4",
+      "sourceUrl": "https://www.youtube.com/watch?v=z65i0mMYMTs",
+      "sourceTitle": "Riyad Mahrez • Genius Skills • Tricks & goals • Man City",
+      "sourceChannel": "Football Plus",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "skill"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    },
+    {
+      "card": 5,
+      "path": "assets/reference/web/identity-verified-media-170/real-043-mahrez-quimper-clever/card-05.jpg",
+      "sha256": "5ba6c22932e6b8aa1f39b3dd184c623dd2456659c894a3f89e6e78f2070d7daa",
+      "sourceUrl": "https://www.youtube.com/watch?v=LgUi94j4Gyk",
+      "sourceTitle": "Haaland and Mahrez interview each other! | e& Brings You Closer",
+      "sourceChannel": "Man City",
+      "matchedEventTerms": [
+        "mahrez",
+        "riyad",
+        "close"
+      ],
+      "identityVerified": true,
+      "status": "identity-verified",
+      "rights": "reference-only"
+    }
+  ],
+  "status": "ready"
+}
